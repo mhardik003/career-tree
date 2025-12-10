@@ -1,6 +1,6 @@
 "use client";
 import { useState, use } from "react";
-import { findNodeBySlug, slugify } from "@/lib/treeUtils";
+import { findNodeBySlug, slugify, getMetadataForKey } from "@/lib/treeUtils";
 import NodeCard from "@/components/NodeCard";
 import SuggestionModal from "@/components/SuggestionModal";
 import EditModal from "@/components/EditModal"; // <--- IMPORT THIS
@@ -51,7 +51,7 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
   // --- HANDLE FOUND ---
   const {key, data, parent, slugs } = result as any; 
   const isLeaf = data.is_terminal || data.children.length === 0;
-
+  const richMetadata = getMetadataForKey(key);
   const parentHref = parent ? `/explore/${slugs.slice(0, -1).join('/')}` : '/';
   
   return (
@@ -103,6 +103,7 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
             duration: data.avg_duration_years,
             difficulty: data.difficulty_rating
           }}
+          richMetadata={richMetadata} // <--- PASS IT HERE
         />
 
         {/* LEAF NODE HANDLING */}
@@ -156,16 +157,18 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
       />
       
             {/* 2. Edit Page Modal (NEW) */}
-      <EditModal
+   <EditModal
         isOpen={showEditModal}
         onClose={() => setShowEditModal(false)}
         nodeKey={key}
-        currentData={{
+        // Core Data
+        basicData={{
             title: data.node_title,
             description: data.description,
-            duration: data.avg_duration_years,
             difficulty: data.difficulty_rating
         }}
+        // Rich Data
+        richData={richMetadata}
       />
 
 

@@ -1,4 +1,5 @@
 import treeData from '../data/career_tree_data.json';
+import metadataJson from '../data/metadata.json'; // Direct import for SSG
 import dagre from 'dagre'; 
 
 export type CareerNode = {
@@ -12,9 +13,22 @@ export type CareerNode = {
   children: string[];
 };
 
+export type NodeMetadata = {
+  exams_to_give: string[] | null;
+  certifications: string[] | null;
+  qualifications_needed: string[] | null;
+  avg_cost_inr: string | null ;
+  top_colleges_or_companies: string[] | null;
+  tools_and_resources: string[] | null;
+  duration_years: string | null;
+  real_life_applications:string[] | null;
+};
+
 // FIX 2: Double cast to bypass the "overlap" error
 // We first cast to 'unknown', then to the specific Record type
 const fullData = treeData as unknown as Record<string, CareerNode>;
+const fullMetadata = metadataJson as Record<string, NodeMetadata>;
+
 
 export const slugify = (text: string) => 
   text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
@@ -140,4 +154,8 @@ export const getGraphData = () => {
   });
 
   return { nodes: layoutedNodes, edges };
+};
+
+export const getMetadataForKey = (key: string): NodeMetadata | null => {
+  return fullMetadata[key] || null;
 };
