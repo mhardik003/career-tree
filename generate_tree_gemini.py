@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import argparse
 from collections import deque
 from typing import List, Optional
 # import google.generativeai as genai
@@ -79,7 +80,7 @@ def generate_node_data(current_path_string):
 
 # --- MAIN CRAWLER LOGIC ---
 
-def build_career_tree():
+def build_career_tree(new_node=None):
   # 1. Load Existing Data
     if os.path.exists(OUTPUT_FILE):
         try:
@@ -94,15 +95,19 @@ def build_career_tree():
 
     # 2. Reconstruct Queue
     queue = deque()
+    if new_node:
+        queue.append(new_node) 
     
     # Track what is already in the queue to avoid duplicates
     queued_items = set() 
+    if new_node:
+        queued_items.add(new_node)
     
     # Everything currently in tree_store is 'visited'
     visited_paths = set(tree_store.keys())
 
     # START FRESH if empty
-    if not tree_store:
+    if not tree_store and len(queue)==0:
         start_node = "10th Class (India)"
         queue.append(start_node)
         queued_items.add(start_node)
@@ -173,4 +178,8 @@ def build_career_tree():
     print("Tree generation complete!")
 
 if __name__ == "__main__":
-    build_career_tree()
+    parser = argparse.ArgumentParser(description="Career Tree Crawler")
+    parser.add_argument("--node", type=str, help="Specific node path to add to the queue immediately.")
+    args = parser.parse_args()
+    rootnode = args.node
+    build_career_tree(rootnode) if rootnode else build_career_tree()
