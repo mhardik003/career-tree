@@ -32547,5 +32547,222 @@
             "Indian Civil Services other than IAS"
         ],
         "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Bachelor of Engineering / Bachelor of Technology (Lateral Entry)/Study Abroad (MS/MSc)/Work Abroad (Post-Study Work Visa)": {
+        "node_title": "Work Abroad (Post-Study Work Visa)",
+        "is_terminal": false,
+        "description": "This stage involves gaining professional work experience in a foreign country after completing a Master's degree on a temporary visa. It's a critical period for applying academic knowledge and deciding on long-term career goals, such as settling abroad or returning to India with international experience.",
+        "avg_duration_years": "1-3",
+        "difficulty_rating": 8,
+        "search_keywords": [
+            "Post Study Work Visa jobs",
+            "OPT to H1B process",
+            "UK Graduate Route visa",
+            "Canada PGWP to PR",
+            "Returning to India after MS"
+        ],
+        "children": [
+            "Settle Abroad (Permanent Residency / Long-term Work Visa)",
+            "Return to India for Senior Roles",
+            "Pursue PhD Abroad"
+        ]
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Bachelor of Engineering / Bachelor of Technology (Lateral Entry)/Study Abroad (MS/MSc)/Doctor of Philosophy (PhD)": {
+        "node_title": "Doctor of Philosophy (PhD)",
+        "is_terminal": false,
+        "description": "A Doctor of Philosophy, or PhD, is the highest academic degree one can earn. It involves conducting original and significant research in a specific field, culminating in a dissertation that contributes new knowledge to the discipline.",
+        "avg_duration_years": "3-6 years",
+        "difficulty_rating": 9,
+        "search_keywords": [
+            "PhD life India",
+            "postdoc opportunities India",
+            "research scientist jobs",
+            "assistant professor eligibility",
+            "PhD vs industry"
+        ],
+        "children": [
+            "Postdoctoral Fellowship (Postdoc)",
+            "Assistant Professor",
+            "Research Scientist (Industry/R&D)",
+            "Government Scientist (e.g., DRDO, ISRO, CSIR)"
+        ]
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Bachelor of Engineering / Bachelor of Technology (Lateral Entry)/Study Abroad (MS/MSc)/Return to India for Job Opportunities": {
+        "node_title": "Return to India for Job Opportunities",
+        "is_terminal": false,
+        "description": "This stage involves leveraging an international Master's degree to secure advanced technical or managerial roles back in India. Candidates often target multinational corporations (MNCs), well-funded startups, or research institutions where their specialized global knowledge is highly valued.",
+        "avg_duration_years": null,
+        "difficulty_rating": 8,
+        "search_keywords": [
+            "jobs in India after MS abroad",
+            "MNC jobs India for foreign graduates",
+            "R&D jobs India",
+            "tech jobs India returning NRI",
+            "career opportunities in India after masters"
+        ],
+        "children": [
+            "Software Development Engineer (SDE)",
+            "Data Scientist / ML Engineer",
+            "Hardware / VLSI Engineer",
+            "Core Engineering Specialist (R&D)",
+            "Product Manager",
+            "Research Scientist (Corporate/Academia)"
+        ]
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/M.Tech/M.E./Ph.D. in Engineering/Technology": {
+        "node_title": "Ph.D. in Engineering/Technology",
+        "is_terminal": false,
+        "description": "A Doctorate of Philosophy (Ph.D.) is the highest academic degree awarded in engineering, signifying mastery in a specific domain through original research. This stage involves creating new knowledge, publishing research papers, and defending a thesis, preparing individuals for high-level roles in academia and industry.",
+        "avg_duration_years": "3-6 years",
+        "difficulty_rating": 9,
+        "search_keywords": [
+            "PhD engineering in India",
+            "Postdoc opportunities India",
+            "Research scientist careers",
+            "Professor jobs in IIT/NIT",
+            "Industrial R&D jobs India"
+        ],
+        "children": [
+            "Professor/Academician",
+            "Research Scientist (e.g., in DRDO/ISRO/CSIR)",
+            "Senior R&D Engineer/Specialist",
+            "Technology Consultant",
+            "Tech Entrepreneur"
+        ]
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/M.Tech/M.E./Research and Development (R&D) Engineer": {
+        "node_title": "Research and Development (R&D) Engineer",
+        "is_terminal": true,
+        "description": "An R&D Engineer is responsible for researching, planning, and implementing new programs and protocols for their organization. They are at the forefront of innovation, developing new products or improving existing ones through systematic investigation and experimentation.",
+        "avg_duration_years": null,
+        "difficulty_rating": 8,
+        "search_keywords": [
+            "R&D engineer salary India",
+            "Top R&D companies in India",
+            "R&D jobs for MTech",
+            "Day in the life of an R&D engineer",
+            "How to become a research scientist"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/M.Tech/M.E./Senior Core Engineer": {
+        "node_title": "Senior Core Engineer",
+        "is_terminal": true,
+        "description": "A Senior Core Engineer is a highly experienced professional responsible for leading complex engineering projects and making critical technical decisions. They often mentor junior engineers and contribute significantly to a company's core technology and product development.",
+        "avg_duration_years": null,
+        "difficulty_rating": 9,
+        "search_keywords": [
+            "Senior Core Engineer salary India",
+            "Principal Engineer career path",
+            "Engineering Manager vs Senior Engineer",
+            "Lead Engineer responsibilities",
+            "Core engineering future scope"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/M.Tech/M.E./UPSC Engineering Services Examination (ESE)": {
+        "node_title": "UPSC Engineering Services Officer (IES)",
+        "is_terminal": true,
+        "description": "An IES officer is a Group 'A' gazetted government servant working in various technical and managerial roles within central government departments like Railways, Public Works, and Telecommunications. The role involves overseeing large-scale public sector projects, policy implementation, and administration, offering high job security and prestige.",
+        "avg_duration_years": null,
+        "difficulty_rating": 10,
+        "search_keywords": [
+            "UPSC ESE topper interview",
+            "IES officer lifestyle",
+            "IES vs IAS",
+            "Indian Engineering Services salary",
+            "ESE mains preparation"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/M.Tech/M.E./Scientist/Engineer in PSUs (e.g., ISRO, DRDO)": {
+        "node_title": "Scientist/Engineer in PSUs (e.g., ISRO, DRDO)",
+        "is_terminal": true,
+        "description": "This is a prestigious role involving research, development, and engineering in premier government organizations like the Indian Space Research Organisation (ISRO) or the Defence Research and Development Organisation (DRDO). It is a highly sought-after, stable career with opportunities to work on cutting-edge national projects and contribute directly to India's technological advancement.",
+        "avg_duration_years": null,
+        "difficulty_rating": 10,
+        "search_keywords": [
+            "ISRO scientist life",
+            "DRDO engineer salary",
+            "PSU job through GATE",
+            "BARC scientist career path",
+            "ISRO recruitment process"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/M.Tech/M.E./University/College Professor/Lecturer": {
+        "node_title": "University/College Professor/Lecturer",
+        "is_terminal": true,
+        "description": "This role involves teaching and conducting research at the university or college level, typically after completing a PhD. Responsibilities include delivering lectures, guiding students, publishing academic papers, and contributing to the academic community through research.",
+        "avg_duration_years": null,
+        "difficulty_rating": 9,
+        "search_keywords": [
+            "how to become a professor in India",
+            "UGC-NET exam",
+            "assistant professor salary",
+            "PhD admission India",
+            "academic career path"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/Master of Business Administration (MBA)/Management Consultant": {
+        "node_title": "Management Consultant",
+        "is_terminal": true,
+        "description": "A Management Consultant advises organizations on how to improve their performance, efficiency, and profitability. They analyze business problems, develop solutions, and help companies implement changes.",
+        "avg_duration_years": null,
+        "difficulty_rating": 9,
+        "search_keywords": [
+            "management consulting India",
+            "MBB careers India",
+            "consulting case interview prep",
+            "life as a consultant",
+            "Big 4 consulting roles"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/Master of Business Administration (MBA)/Product Manager": {
+        "node_title": "Product Manager",
+        "is_terminal": true,
+        "description": "A Product Manager is responsible for the strategy, roadmap, and feature definition for a product or product line. They act as the voice of the customer and work with cross-functional teams like engineering, marketing, and sales to guide a product's success from conception to launch.",
+        "avg_duration_years": null,
+        "difficulty_rating": 8,
+        "search_keywords": [
+            "Product Manager role India",
+            "Day in the life of a PM",
+            "How to become a Product Manager",
+            "MBA for Product Management",
+            "Product Manager salary India"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/Master of Business Administration (MBA)/Investment Banker": {
+        "node_title": "Investment Banker",
+        "is_terminal": true,
+        "description": "An Investment Banker is a financial professional who works for a financial institution and is primarily concerned with raising capital for corporations, governments, or other entities. They are experts in capital markets and provide advisory services on mergers, acquisitions, and other complex financial transactions.",
+        "avg_duration_years": null,
+        "difficulty_rating": 10,
+        "search_keywords": [
+            "Investment Banker salary India",
+            "How to become an Investment Banker",
+            "Investment Banking jobs for freshers",
+            "Top Investment Banks in India",
+            "Day in the life of an Investment Banker"
+        ],
+        "children": []
+    },
+    "10th Class/ITI (Industrial Training Institute)/Advanced Vocational Training (CITS/ATIs)/Diploma in Engineering (Lateral Entry)/Associate Member of the Institution of Engineers (AMIE)/Master of Business Administration (MBA)/Marketing Manager": {
+        "node_title": "Marketing Manager",
+        "is_terminal": true,
+        "description": "A Marketing Manager is responsible for developing and executing strategic marketing plans to attract potential customers and retain existing ones. They oversee marketing campaigns, manage budgets, analyze market trends, and lead a team of marketing professionals to achieve business objectives.",
+        "avg_duration_years": null,
+        "difficulty_rating": 8,
+        "search_keywords": [
+            "Marketing Manager roles India",
+            "MBA in Marketing salary",
+            "day in the life of a Marketing Manager",
+            "digital marketing career path",
+            "brand management strategy"
+        ],
+        "children": []
     }
 }
