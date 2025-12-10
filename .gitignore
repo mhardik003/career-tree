@@ -1,0 +1,17 @@
+# --- Security ---
+.env
+.env.local
+.env.production
+__pycache__/
+node_modules/
+.next/
+
+# --- User Data (Do not commit these!) ---
+# You don't want to upload the random test suggestions you made
+career-tree/data/suggestions.json
+career-tree/data/edits.json
+
+
+# --- The Career Map Data ---
+# KEEP this one! This is your valuable dataset.
+# !src/data/career_tree_data.json
