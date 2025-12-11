@@ -27,7 +27,7 @@ export type NodeMetadata = {
 // FIX 2: Double cast to bypass the "overlap" error
 // We first cast to 'unknown', then to the specific Record type
 const fullData = treeData as unknown as Record<string, CareerNode>;
-const fullMetadata = metadataJson as Record<string, NodeMetadata>;
+const fullMetadata = metadataJson as unknown as Record<string, NodeMetadata>;
 
 
 export const slugify = (text: string) => 
