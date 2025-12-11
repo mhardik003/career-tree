@@ -55,7 +55,7 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
   const isLeaf = data.is_terminal || data.children.length === 0;
   const richMetadata = getMetadataForKey(key);
   const parentHref = parent ? `/explore/${slugs.slice(0, -1).join('/')}` : '/';
-  
+  const isRootExplorePage = slugs.length === 1 && slugs[0] === '10th-class';
   return (
     <div className="min-h-screen bg-neutral-50 pb-20 pt-10">
       <div className="max-w-4xl mx-auto px-4 flex flex-col items-center">
@@ -77,12 +77,17 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
           />
         </Link>
 
+        
         {/* Back Button */}
+        {!isRootExplorePage && (
+     
         <Link href={parentHref}>
           <button className="p-2 bg-white border border-gray-200 rounded-full hover:bg-gray-50 hover:border-black transition-colors">
             <ArrowLeft size={20} />
           </button>
         </Link>
+        
+        )}
         </div>
 
 
