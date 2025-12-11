@@ -6,6 +6,8 @@ import SuggestionModal from "@/components/SuggestionModal";
 import EditModal from "@/components/EditModal"; // <--- IMPORT THIS
 import { Construction, CheckCircle, Edit3, ArrowLeft } from "lucide-react"; // <--- ADD ICONS
 import Link from "next/link";
+import Image from "next/image";
+
 
 
 
@@ -63,12 +65,26 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
      {/* --- TOP HEADER NAVIGATION --- */}
       <div className="absolute top-4 left-4 right-4 flex justify-between items-start max-w-6xl mx-auto z-10">
         
-        {/* Home / Back Button */}
-        <Link href={parentHref}>
-           <button className="p-2 bg-white border border-gray-200 rounded-full hover:bg-gray-50 hover:border-black transition-colors">
-             <ArrowLeft size={20} />
-           </button>
+        <div className="flex items-center gap-3">
+        {/* LOGO */}
+        <Link href="/">
+          <Image
+            src="/icon.png"
+            width={32}
+            height={32}
+            alt="Home"
+            className="cursor-pointer hover:opacity-80 transition"
+          />
         </Link>
+
+        {/* Back Button */}
+        <Link href={parentHref}>
+          <button className="p-2 bg-white border border-gray-200 rounded-full hover:bg-gray-50 hover:border-black transition-colors">
+            <ArrowLeft size={20} />
+          </button>
+        </Link>
+        </div>
+
 
         {/* EDIT BUTTON (Top Right) */}
         <button 
