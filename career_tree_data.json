@@ -10006,7 +10006,8 @@
       "Backend Developer",
       "Full Stack Developer",
       "App Developer",
-      "Site Reliability Engineer"
+      "Site Reliability Engineer",
+      "DevOps Engineer"
     ]
   },
   "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E./B.Tech)/Computer Science Engineering/Data Scientist": {
@@ -71132,6 +71133,21 @@
       "DevOps",
       "Production Engineering",
       "Cloud Infrastructure"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E./B.Tech)/Computer Science Engineering/Software Development Engineer/DevOps Engineer": {
+    "node_title": "DevOps Engineer",
+    "is_terminal": true,
+    "description": "A software development engineer specializing in DevOps practices, focusing on automating and streamlining the software development lifecycle, including build, testing, and deployment processes.",
+    "avg_duration_years": null,
+    "difficulty_rating": 8,
+    "search_keywords": [
+      "DevOps",
+      "Automation",
+      "Cloud",
+      "CI/CD",
+      "Software Deployment"
     ],
     "children": []
   }
