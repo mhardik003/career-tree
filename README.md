@@ -1,5 +1,5 @@
 
-# 🌳 Career Tree
+# <img src="./icon.png" width="40" height="40" alt="Logo" style="vertical-align:middle;" /> Career Tree
 
 **Democratizing Career Counseling through Open Source Data Visualization.**
 
