@@ -10007,7 +10007,8 @@
       "Full Stack Developer",
       "App Developer",
       "Site Reliability Engineer",
-      "DevOps Engineer"
+      "DevOps Engineer",
+      "Game Developer"
     ]
   },
   "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E./B.Tech)/Computer Science Engineering/Data Scientist": {
@@ -20577,7 +20578,7 @@
   },
   "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E./B.Tech)/Computer Science Engineering/Machine Learning Engineer": {
     "node_title": "Machine Learning Engineer",
-    "is_terminal": true,
+    "is_terminal": false,
     "description": "A Machine Learning Engineer is a specialized software engineer who designs, builds, and deploys machine learning and deep learning models. They work with large datasets and advanced algorithms to create AI-powered applications that can learn and make predictions.",
     "avg_duration_years": null,
     "difficulty_rating": 9,
@@ -20588,7 +20589,9 @@
       "Day in life ML Engineer",
       "ML Engineer salary"
     ],
-    "children": []
+    "children": [
+      "MLOps Engineer"
+    ]
   },
   "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E./B.Tech)/Biotechnology Engineering/Bioprocess Engineer": {
     "node_title": "Bioprocess Engineer",
@@ -46087,7 +46090,7 @@
   },
   "10th Class/Arts/Humanities Stream (11th & 12th)/Integrated B.A. B.Ed. (Teaching)/Master of Education (M.Ed.)/Ph.D. in Education/Science Stream (11th & 12th)/PCMB (Physics, Chemistry, Maths, Biology)/Bachelor of Science (B.Sc.)/Master of Computer Applications (MCA)": {
     "node_title": "Software Developer",
-    "is_terminal": true,
+    "is_terminal": false,
     "description": "A Software Developer is a professional who designs, develops, tests, and maintains software applications. They write code in various programming languages to create functional and efficient software for businesses, consumers, and government agencies.",
     "avg_duration_years": null,
     "difficulty_rating": 8,
@@ -71148,6 +71151,35 @@
       "Cloud",
       "CI/CD",
       "Software Deployment"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E./B.Tech)/Computer Science Engineering/Software Development Engineer/Game Developer": {
+    "node_title": "Game Developer",
+    "is_terminal": true,
+    "description": "A Software Development Engineer specializing in the creation of video games. This role involves programming game mechanics, implementing AI, and optimizing game performance.",
+    "avg_duration_years": null,
+    "difficulty_rating": 8,
+    "search_keywords": [
+      "game development",
+      "game programming",
+      "video game",
+      "game design",
+      "game engineer"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E./B.Tech)/Computer Science Engineering/Machine Learning Engineer/MLOps Engineer": {
+    "node_title": "MLOps Engineer",
+    "is_terminal": true,
+    "description": "An MLOps Engineer specializes in streamlining the process of deploying and maintaining machine learning models in production. They bridge the gap between data scientists and operations teams, focusing on automation, monitoring, and infrastructure to ensure efficient and reliable model performance.",
+    "avg_duration_years": null,
+    "difficulty_rating": 8,
+    "search_keywords": [
+      "MLOps",
+      "Machine Learning Operations",
+      "DevOps",
+      "Model Deployment"
     ],
     "children": []
   }
