@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from google import genai
 from pydantic import BaseModel, Field
 from typing import List, Optional
+import argparse
 
 # --- CONFIGURATION ---
 load_dotenv()
@@ -68,6 +69,23 @@ def generate_metadata(node_title, description):
         print(f"Error generating for {node_title}: {e}")
         return None
 
+
+def generate_one_node_metadata(node_title, description):
+    with open(METADATA_FILE, 'r') as f:
+        metadata_store = json.load(f)
+
+    print(f"Generating metadata for single node: {node_title}...")
+    data = generate_metadata(node_title, description)
+    if data:
+        print("Adding metadata to the file")
+        print(json.dumps(data, indent=2))
+        #update metadata_store and save
+        metadata_store[node_title] = data
+        with open(METADATA_FILE, 'w') as f:
+            json.dump(metadata_store, f, indent=2)
+
+
+
 # --- MAIN LOOP ---
 def main():
     # 1. Load Tree
@@ -82,7 +100,7 @@ def main():
         metadata_store = {}
 
     print(f"Found {len(tree_data)} nodes. Metadata has {len(metadata_store)} entries.")
-
+    
     # 3. Process Missing Nodes
     for path, node in tree_data.items():
         if path in metadata_store:
