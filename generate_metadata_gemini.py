@@ -106,7 +106,7 @@ def main():
         if path in metadata_store:
             continue # Skip if already exists
 
-        print(f"Generating metadata for: {node['node_title']}...")
+        print(f"Generating metadata for: {path}...")
         
         data = generate_metadata(node['node_title'], node['description'])
         
