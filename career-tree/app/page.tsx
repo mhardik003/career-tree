@@ -38,7 +38,7 @@ export default function Home() {
           </p>
 
           {/* CTA BUTTON */}
-          <div className="mt-4">
+         <div className="mt-4 flex flex-col items-center">
             <Link href="/explore/10th-class">
               <button className="group relative px-8 py-4 bg-black text-white rounded-lg font-mono text-lg hover:bg-neutral-800 transition-all flex items-center gap-3 shadow-xl hover:shadow-2xl hover:-translate-y-1">
                 Start at 10th Class
