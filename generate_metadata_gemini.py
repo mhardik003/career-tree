@@ -78,7 +78,7 @@ def generate_one_node_metadata(node_title, description):
     data = generate_metadata(node_title, description)
     if data:
         print("Adding metadata to the file")
-        print(json.dumps(data, indent=2))
+        # print(json.dumps(data, indent=2))
         #update metadata_store and save
         metadata_store[node_title] = data
         with open(METADATA_FILE, 'w') as f:
