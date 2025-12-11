@@ -110,11 +110,7 @@ We believe career data should be a public good, not a trade secret.
 1.  **Code:** Fork the repo, make feature updates (e.g., migrating JSON storage to a Database), and submit a PR.
 2.  **Data:** Use the website's "Suggest" feature to add missing niches, or edit `src/data/career_tree_data.json` directly and submit a PR.
 
-### ⚠️ Important Note on Deployment
-Currently, this project uses **JSON files** (`suggestions.json`, `edits.json`) to store user input.
-*   This works perfectly on **Localhost**.
-*   If deploying to **Vercel/Netlify**, the "Submit" and "Edit" features will fail because those environments are read-only.
-*   **Roadmap:** We plan to migrate the storage to MongoDB/Supabase for production deployment.
+
 
 ## 📄 License
 
