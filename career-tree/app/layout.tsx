@@ -8,7 +8,7 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
   title: "Career Tree",
-  description: "Democratizing Career Counseling",
+  description: "Democratizing Career Finding",
 };
 
 export default function RootLayout({
