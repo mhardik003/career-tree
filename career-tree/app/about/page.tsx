@@ -135,7 +135,7 @@ export default function AboutPage() {
           <Heart className="text-red-500 mb-4 animate-pulse" />
           <h2 className="text-3xl font-bold mb-4">Ready to find your path?</h2>
           <div className="flex gap-4">
-            <Link href="/explore/10th-class-india">
+            <Link href="/explore/10th-class">
               <button className="px-8 py-3 bg-black text-white rounded font-mono text-sm hover:bg-neutral-800 transition-all shadow-lg">
                 START EXPLORING
               </button>
