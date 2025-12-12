@@ -3,7 +3,7 @@
 
 **Democratizing Career Counseling through Open Source Data Visualization.**
 
-> *Stop guessing. Start mapping.*
+> *Don't just follow a path. Understand it.*
 
 Career Tree is an interactive, node-based map of career opportunities. Unlike traditional lists or aptitude tests, it visualizes career paths as a branching tree, allowing users to explore prerequisites, identify dead ends, and discover non-linear pathways from any stage of life.
 

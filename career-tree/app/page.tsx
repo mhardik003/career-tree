@@ -49,15 +49,15 @@ export default async function Home() {
 
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight max-w-4xl">
-            Stop guessing. <br />
+            Don't just follow a path. <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 to-black">
-              Start mapping.
+              Understand it.
             </span>
           </h1>
 
           {/* Tagline / Mission */}
           <p className="text-xl md:text-2xl text-gray-600 max-w-2xl font-light leading-relaxed">
-            We are <span className="font-semibold text-black">democratizing career counseling</span> by building the world's first open-access, community-verified map of opportunities.
+            Move beyond static lists. We visualize the hidden connections between degrees and careers—helping you <span className="font-semibold text-black">spot prerequisites, avoid dead ends, and discover opportunities you didn't know existed.</span>
           </p>
 
           {/* CTA BUTTON */}
