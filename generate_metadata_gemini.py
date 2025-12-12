@@ -50,7 +50,9 @@ def generate_metadata(node_title, description):
     Description: "{description}"
 
     Task: Provide detailed metadata for this specific career stage/node.
-    If a field is not applicable (e.g., no exams for a generic stream), leave the list empty.
+    Please take into account the Indian education and job market context.
+    Please take care into the whole path leading to this node as well to give accurate information for this specific career path.
+    If a field is not applicable (e.g., no exams for a generic stream, no fees for a career), leave the list empty.
     Keep cost estimates realistic for India.
     """
 
