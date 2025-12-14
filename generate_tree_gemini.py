@@ -51,6 +51,7 @@ def generate_node_data(current_path_string):
     2. Identify the IMMEDIATE next available options (Branches).
     3. Do NOT skip steps. (e.g., Don't go 10th -> Software Engineer. Go 10th -> PCM -> B.Tech -> Software Engineer).
     4. Context is INDIA (Use terms like JEE, NEET, CA, UPSC, etc., where applicable).
+    5. The node_title and the children names should not contain slashes (/). Use '|' instead. (e.g., 'AI | ML' instead of 'AI/ML').
     
     If the current path is a broad stream (like 'Science'), break it down into streams or degrees.
     If the current path is a specific degree, break it down into specializations or entry-level roles.
