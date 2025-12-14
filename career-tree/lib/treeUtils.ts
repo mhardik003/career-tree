@@ -108,7 +108,7 @@ export const getGraphData = () => {
   const edges: any[] = [];
   const dagreGraph = new dagre.graphlib.Graph();
   dagreGraph.setDefaultEdgeLabel(() => ({}));
-  dagreGraph.setGraph({ rankdir: 'LR' });
+  dagreGraph.setGraph({ rankdir: 'TB' });
 
   Object.entries(fullData).forEach(([key, value]) => {
     dagreGraph.setNode(key, { width: 170, height: 50 });
