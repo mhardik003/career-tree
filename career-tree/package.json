@@ -12,6 +12,7 @@
     "clsx": "^2.1.1",
     "dagre": "^0.8.5",
     "framer-motion": "^12.23.26",
+    "limiter": "^3.0.0",
     "lucide-react": "^0.559.0",
     "mongoose": "^9.0.1",
     "next": "16.0.8",
@@ -19,7 +20,8 @@
     "react-dom": "19.2.1",
     "react-hook-form": "^7.68.0",
     "reactflow": "^11.11.4",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.4.0",
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.17",

@@ -1,21 +1,71 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/db';
 import Edit from '@/models/Edit';
+import { z } from "zod";
+import { checkRateLimit } from '@/lib/rateLimit';
+import { da } from 'zod/locales';
+
+
+// Define the shape of the data inside "newData"
+// .trim() removes whitespace, .max() prevents database spam
+export const NodeDataSchema = z.object({
+  node_title: z.string().min(3, "Title is required").max(100).trim(),
+  description: z.string().min(1, "Description is required").max(2000).trim(),
+  difficulty_rating: z.number().min(1).max(10),
+  
+  avg_cost_inr: z.string().max(100).trim().optional(),
+  duration_years: z.string().max(100).trim().optional(),
+  
+  // Validate arrays of strings
+  exams_to_give: z.array(z.string().trim()).optional().nullable(),
+  certifications: z.array(z.string().trim()).optional().nullable(),
+  qualifications_needed: z.array(z.string().trim()).optional().nullable(),
+  top_colleges_or_companies: z.array(z.string().trim()).optional().nullable(),
+  tools_and_resources: z.array(z.string().trim()).optional().nullable(),
+  real_life_applications: z.array(z.string().trim()).optional().nullable(),
+});
+
+// Define the full API Request body
+export const EditSubmissionSchema = z.object({
+  nodeKey: z.string().min(1),
+  // We utilize .passthrough() or .any() for originalData as we just store it as a snapshot
+  // But strict validation is better if you know the exact shape
+  originalData: NodeDataSchema, 
+  newData: NodeDataSchema,
+});
+
 
 export async function POST(request: Request) {
   try {
-    await dbConnect();
 
-    const body = await request.json();
-
-    if (!body.nodeKey || !body.newData) {
-        return NextResponse.json({ success: false, message: "Missing data" }, { status: 400 });
+    const allowed = await checkRateLimit();
+    if (!allowed) {
+      return NextResponse.json({ success: false, message: "Too many requests. Slow down." }, { status: 429 });
     }
 
+    // console.log('All headers:', Object.fromEntries(request.headers.entries()));
+
+    const headersList = request.headers;
+    const body = await request.json();
+    
+    const validation = EditSubmissionSchema.safeParse(body);
+
+    if (!validation.success) {
+      // Return specific validation errors so the frontend knows what's wrong
+      return NextResponse.json(
+        { success: false, message: "Invalid data format", errors: validation.error.format() }, 
+        { status: 400 } // 400 Bad Request
+      );
+    }
+
+    // 4. Data is clean, proceed to DB
+    await dbConnect();
+    
+    const { nodeKey, originalData, newData } = validation.data;
     await Edit.create({
-      target_node_key: body.nodeKey,
-      original_data: body.originalData,
-      proposed_data: body.newData,
+      target_node_key: nodeKey,
+      original_data: originalData,
+      proposed_data: newData,
       status: 'pending_review'
     });
 
@@ -26,59 +76,3 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: false, message: "Internal Server Error" }, { status: 500 });
   }
 }
-
-
-// import { NextResponse } from 'next/server';
-// import fs from 'fs';
-// import path from 'path';
-
-// export async function POST(request: Request) {
-//   try {
-//     const body = await request.json();
-
-//     // 1. Validate
-//     if (!body.nodeKey || !body.newData) {
-//         return NextResponse.json({ success: false, message: "Missing data" }, { status: 400 });
-//     }
-
-//     // 2. Define Paths
-//     const dataDir = path.join(process.cwd(), 'data');
-//     const filePath = path.join(dataDir, 'edits.json');
-    
-//     // 3. CRITICAL: Check if Directory exists
-//     if (!fs.existsSync(dataDir)) {
-//         fs.mkdirSync(dataDir, { recursive: true });
-//     }
-    
-//     // 4. Read existing data or start empty
-//     let edits = [];
-//     if (fs.existsSync(filePath)) {
-//         try {
-//             edits = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-//         } catch (e) { 
-//             edits = []; 
-//         }
-//     }
-
-//     // 5. Add new entry
-//     const newEdit = {
-//       id: Date.now(),
-//       timestamp: new Date().toISOString(),
-//       target_node_key: body.nodeKey,
-//       original_data: body.originalData,
-//       proposed_data: body.newData,
-//       status: 'pending_review'
-//     };
-
-//     edits.push(newEdit);
-
-//     // 6. Write back to file
-//     fs.writeFileSync(filePath, JSON.stringify(edits, null, 2));
-
-//     return NextResponse.json({ success: true, message: "Edit request saved!" });
-
-//   } catch (error) {
-//     console.error("Edit API Error:", error);
-//     return NextResponse.json({ success: false, message: "Server Error" }, { status: 500 });
-//   }
-// }

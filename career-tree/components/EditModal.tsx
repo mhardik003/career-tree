@@ -1,7 +1,8 @@
 "use client";
-import { X, CheckCircle, Loader2, Save, AlertCircle } from "lucide-react";
+import { X, CheckCircle, Loader2, Save, AlertCircle, AlertTriangle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { NodeMetadata } from "@/lib/treeUtils";
+import { set } from "mongoose";
 
 interface EditModalProps {
   isOpen: boolean;
@@ -9,9 +10,9 @@ interface EditModalProps {
   nodeKey: string;
   // Basic Data (From CareerTree)
   basicData: {
-    title: string;
+    node_title: string;
     description: string;
-    difficulty: number;
+    difficulty_rating: number;
   };
   // Rich Data (From Metadata.json)
   richData: NodeMetadata | null;
@@ -20,47 +21,49 @@ interface EditModalProps {
 export default function EditModal({ isOpen, onClose, nodeKey, basicData, richData }: EditModalProps) {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
+  const [isWarning, setIsWarning] = useState(false);
   
   // State for all form fields
   const [formData, setFormData] = useState({
     // Basic
-    title: "",
+    node_title: "",
     description: "",
-    difficulty: 5 as number | string,
+    difficulty_rating: 5 as number | string,
     
     // Rich (Strings)
     avg_cost_inr: "",
     duration_years: "",
     
     // Rich (Lists - stored as comma-separated strings for editing)
-    exams_str: "",
-    certifications_str: "",
-    qualifications_str: "",
-    colleges_str: "",
-    tools_str: "",
-    applications_str: ""
+    exams_to_give: "",
+    certifications: "",
+    qualifications_needed: "",
+    top_colleges_or_companies: "",
+    tools_and_resources: "",
+    real_life_applications: ""
   });
 
   // Helper: Convert Array to CSV String
-  const listToStr = (list: string[] | null | undefined) => list ? list.join(", ") : "";
+const listToStr = (list: string[] | null | undefined) => list ? list.join("; ") : "";
 
   // Populate form on open
   useEffect(() => {
     if (isOpen) {
       setFormData({
-        title: basicData.title || "",
+        node_title: basicData.node_title || "",
         description: basicData.description || "",
-        difficulty: basicData.difficulty || 5,
+        difficulty_rating: basicData.difficulty_rating || 5,
         
         avg_cost_inr: richData?.avg_cost_inr || "",
         duration_years: richData?.duration_years || "",
         
-        exams_str: listToStr(richData?.exams_to_give),
-        certifications_str: listToStr(richData?.certifications),
-        qualifications_str: listToStr(richData?.qualifications_needed),
-        colleges_str: listToStr(richData?.top_colleges_or_companies),
-        tools_str: listToStr(richData?.tools_and_resources),
-        applications_str: listToStr(richData?.real_life_applications)
+        exams_to_give: listToStr(richData?.exams_to_give) || "",
+        certifications: listToStr(richData?.certifications) || "",
+        qualifications_needed: listToStr(richData?.qualifications_needed) || "",
+        top_colleges_or_companies: listToStr(richData?.top_colleges_or_companies) || "",
+        tools_and_resources: listToStr(richData?.tools_and_resources) || "",
+        real_life_applications: listToStr(richData?.real_life_applications) || ""
       });
       setSuccess(false);
     }
@@ -69,29 +72,36 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
   if (!isOpen) return null;
 
   // Helper: Convert CSV String back to Array
-  const strToList = (str: string) => str.split(",").map(s => s.trim()).filter(s => s.length > 0);
+const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s => s.length > 0);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+
+  const handleSubmit = async (e: React.FormEvent) => 
+    {
     e.preventDefault();
     setLoading(true);
+    setError("");
+    setIsWarning(false);
 
     // reconstruct the payload
     const submissionData = {
       // Basic Nodes
-      node_title: formData.title,
+      node_title: formData.node_title,
       description: formData.description,
-      difficulty_rating: Number(formData.difficulty),
+      difficulty_rating: Number(formData.difficulty_rating),
       
       // Rich Metadata
       avg_cost_inr: formData.avg_cost_inr,
       duration_years: formData.duration_years,
-      exams_to_give: strToList(formData.exams_str),
-      certifications: strToList(formData.certifications_str),
-      qualifications_needed: strToList(formData.qualifications_str),
-      top_colleges_or_companies: strToList(formData.colleges_str),
-      tools_and_resources: strToList(formData.tools_str),
-      real_life_applications: strToList(formData.applications_str)
+      exams_to_give: strToList(formData.exams_to_give),
+      certifications: strToList(formData.certifications),
+      qualifications_needed: strToList(formData.qualifications_needed),
+      top_colleges_or_companies: strToList(formData.top_colleges_or_companies),
+      tools_and_resources: strToList(formData.tools_and_resources),
+      real_life_applications: strToList(formData.real_life_applications)
     };
+
+    // combine basic and rich data into one dictionary
+    const combinedOriginalData = { ...basicData, ...richData };
 
     try {
       const response = await fetch('/api/edit', {
@@ -99,14 +109,42 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           nodeKey: nodeKey,
-          originalData: { basic: basicData, rich: richData }, // Snapshot for comparison
+          originalData: combinedOriginalData, // Snapshot for comparison
           newData: submissionData
         })
       });
 
-      if (response.ok) setSuccess(true);
-    } catch (error) {
-      alert("Failed to submit edit.");
+      if (response.ok){
+         setSuccess(true);
+         setError("");
+        setFormData({
+          node_title: "",
+          description: "",
+          difficulty_rating: 5,
+          avg_cost_inr: "",
+          duration_years: "",
+          exams_to_give: "",
+          certifications: "",
+          qualifications_needed: "",
+          top_colleges_or_companies: "",
+          tools_and_resources: "",
+          real_life_applications: ""
+        });
+        } 
+    else if (response.status === 429) {
+        setIsWarning(true);
+        setError("Whoa there—things are moving a bit fast. Give it a sec and we’ll be right back.");
+      }   
+      else if (response.status === 400) {
+        const data = await response.json();
+        setError(data.message || "Invalid input format. Please check your data.");
+      } else {
+        setError("Something went wrong on our end. Please try again later.");
+      }
+    }
+    
+    catch (error) {
+      alert("Network error. Please check your connection.");
     } finally {
       setLoading(false);
     }
@@ -144,7 +182,17 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
-              
+                          {/* 4. Display Error Message */}
+           {error && (
+              <div className={`px-3 py-2 rounded-md text-xs flex items-center gap-2 animate-in slide-in-from-top-2 border ${
+                isWarning 
+                  ? "bg-yellow-50 border-yellow-200 text-yellow-700" 
+                  : "bg-red-50 border-red-200 text-red-600"
+              }`}>
+                {isWarning ? <AlertTriangle className="w-4 h-4" /> : <AlertCircle className="w-4 h-4" />}
+                {error}
+              </div>
+            )}
               {/* SECTION 1: CORE INFO */}
               <div className="space-y-4">
                 <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest border-b pb-1">Core Information</h3>
@@ -154,8 +202,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                     <label className="label">Node Title</label>
                     <input 
                       required
-                      value={formData.title}
-                      onChange={e => setFormData({...formData, title: e.target.value})}
+                      value={formData.node_title}
+                      onChange={e => setFormData({...formData, node_title: e.target.value})}
                       className="input-field font-bold" 
                     />
                   </div>
@@ -163,8 +211,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                     <label className="label">Difficulty (1-10)</label>
                     <input 
                       type="number" min="1" max="10"
-                      value={formData.difficulty}
-                      onChange={e => setFormData({...formData, difficulty: e.target.value === "" ? "" : parseInt(e.target.value)})}
+                      value={formData.difficulty_rating}
+                      onChange={e => setFormData({...formData, difficulty_rating: e.target.value === "" ? "" : parseInt(e.target.value)})}
                       className="input-field" 
                     />
                   </div>
@@ -211,7 +259,7 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                 <div className="flex items-center justify-between border-b pb-1">
                   <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest">Details (Comma Separated)</h3>
                   <span className="text-[10px] text-gray-400 flex items-center gap-1">
-                    <AlertCircle size={10} /> Separate items with commas
+                    <AlertCircle size={10} /> Separate items with semicolons (;)
                   </span>
                 </div>
 
@@ -219,8 +267,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                   <label className="label">Entrance Exams</label>
                   <input 
                     placeholder="JEE, BITSAT, VITEEE"
-                    value={formData.exams_str}
-                    onChange={e => setFormData({...formData, exams_str: e.target.value})}
+                    value={formData.exams_to_give}
+                    onChange={e => setFormData({...formData, exams_to_give: e.target.value})}
                     className="input-field" 
                   />
                 </div>
@@ -229,8 +277,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                   <label className="label">Qualifications Needed</label>
                   <input 
                     placeholder="Class 12th Science, 50% Aggregate"
-                    value={formData.qualifications_str}
-                    onChange={e => setFormData({...formData, qualifications_str: e.target.value})}
+                    value={formData.qualifications_needed}
+                    onChange={e => setFormData({...formData, qualifications_needed: e.target.value})}
                     className="input-field" 
                   />
                 </div>
@@ -239,8 +287,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                   <label className="label">Top Colleges / Companies</label>
                   <textarea 
                     placeholder="IIT Bombay, NIT Trichy, Google, Microsoft"
-                    value={formData.colleges_str}
-                    onChange={e => setFormData({...formData, colleges_str: e.target.value})}
+                    value={formData.top_colleges_or_companies}
+                    onChange={e => setFormData({...formData, top_colleges_or_companies: e.target.value})}
                     className="input-field h-16" 
                   />
                 </div>
@@ -250,8 +298,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                     <label className="label">Certifications</label>
                     <textarea 
                       placeholder="AWS, CFA Level 1"
-                      value={formData.certifications_str}
-                      onChange={e => setFormData({...formData, certifications_str: e.target.value})}
+                      value={formData.certifications}
+                      onChange={e => setFormData({...formData, certifications: e.target.value})}
                       className="input-field h-20" 
                     />
                   </div>
@@ -259,8 +307,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                     <label className="label">Tools & Resources</label>
                     <textarea 
                       placeholder="VS Code, Coursera, Khan Academy"
-                      value={formData.tools_str}
-                      onChange={e => setFormData({...formData, tools_str: e.target.value})}
+                      value={formData.tools_and_resources}
+                      onChange={e => setFormData({...formData, tools_and_resources: e.target.value})}
                       className="input-field h-20" 
                     />
                   </div>
@@ -270,8 +318,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
                     <label className="label">Real Life Applications</label>
                     <input 
                       placeholder="Building bridges, Developing apps"
-                      value={formData.applications_str}
-                      onChange={e => setFormData({...formData, applications_str: e.target.value})}
+                      value={formData.real_life_applications}
+                      onChange={e => setFormData({...formData, real_life_applications: e.target.value})}
                       className="input-field" 
                     />
                   </div>
