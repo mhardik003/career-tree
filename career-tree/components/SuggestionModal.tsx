@@ -1,19 +1,22 @@
 "use client";
-import { X, CheckCircle, Loader2 } from "lucide-react";
+import { X, CheckCircle, Loader2, AlertCircle, AlertTriangle } from "lucide-react";
+import { set } from "mongoose";
 import { useState } from "react";
 
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
-  parentNodeTitle: string; // Display name (e.g. "Science Stream")
-  parentKey: string;       // Database key (e.g. "10th/Science")
+  parentNodeTitle: string; 
+  parentKey: string;       
 }
 
 export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, parentKey }: ModalProps) {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(""); // 1. New Error State
+  const [isWarning, setIsWarning] = useState(false); // 2. Warning State
   
-  // Form State
+    // Form State
   const [formData, setFormData] = useState({
     title: "",
     description: ""
@@ -24,6 +27,8 @@ export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, pare
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setError(""); // Clear previous errors
+    setIsWarning(false); // Reset warning state
 
     try {
       const response = await fetch('/api/suggest', {
@@ -36,22 +41,45 @@ export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, pare
         })
       });
 
+      // 2. Handle Response Types
       if (response.ok) {
         setSuccess(true);
-        setFormData({ title: "", description: "" }); // Reset form
+        setFormData({ title: "", description: "" });
+      } else if (response.status === 400) {
+        // 3. Handle 400 Bad Request
+        const data = await response.json();
+        // Assuming your API returns { error: "Message" } or { message: "Message" }
+        setError(data.error || data.message || "Invalid input format. Please check your data.");
+      } 
+      else if (response.status === 429) {
+        // 4. Handle 429 Too Many Requests
+        setIsWarning(true);
+        setError("Whoa there—things are moving a bit fast. Give it a sec and we’ll be right back.");
+      }   
+
+      else {
+        // Handle generic server errors (500, etc.)
+        setError("Something went wrong on our end. Please try again later.");
       }
+
     } catch (error) {
-      alert("Something went wrong. Please try again.");
+      // Handle Network errors
+      setError("Network error. Please check your connection.");
     } finally {
       setLoading(false);
     }
+  };
+
+  // Helper to clear error when user starts typing again
+  const handleInputChange = (field: string, value: string) => {
+    if (error) setError(""); 
+    setFormData({ ...formData, [field]: value });
   };
 
   return (
     <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 backdrop-blur-sm animate-in fade-in duration-200">
       <div className="bg-white rounded-xl shadow-2xl w-full max-w-md p-6 border border-black relative">
         
-        {/* Close Button */}
         <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-black">
           <X size={20} />
         </button>
@@ -67,7 +95,7 @@ export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, pare
             <h3 className="font-bold text-lg">Thank You!</h3>
             <p className="text-gray-600 text-sm mb-6">Your suggestion has been recorded for review.</p>
             <button 
-              onClick={() => { setSuccess(false); onClose(); }} 
+              onClick={() => { setSuccess(false); onClose(); setError(""); }} 
               className="px-6 py-2 bg-black text-white rounded font-mono text-xs"
             >
               CLOSE
@@ -75,7 +103,18 @@ export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, pare
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
-            {/* Read-Only Parent Field */}
+            {/* 4. Display Error Message */}
+           {error && (
+              <div className={`px-3 py-2 rounded-md text-xs flex items-center gap-2 animate-in slide-in-from-top-2 border ${
+                isWarning 
+                  ? "bg-yellow-50 border-yellow-200 text-yellow-700" 
+                  : "bg-red-50 border-red-200 text-red-600"
+              }`}>
+                {isWarning ? <AlertTriangle className="w-4 h-4" /> : <AlertCircle className="w-4 h-4" />}
+                {error}
+              </div>
+            )}
+
             <div>
               <label className="block text-xs font-mono mb-1 text-gray-500 uppercase">Parent Node (Fixed)</label>
               <input 
@@ -86,24 +125,24 @@ export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, pare
             </div>
 
             <div>
-              <label className="block text-xs font-mono mb-1 uppercase">New Path Title <span className="text-red-500">*</span></label>
+              <label className="block text-xs font-mono mb-1">NEW PATH TITLE (5-50 chars) <span className="text-red-500">*</span></label>
               <input 
                 required
                 placeholder="e.g. Robotics Engineering" 
                 value={formData.title}
-                onChange={(e) => setFormData({...formData, title: e.target.value})}
-                className="w-full p-2 border border-gray-300 rounded focus:border-black outline-none transition-all" 
+                onChange={(e) => handleInputChange('title', e.target.value)}
+                className={`w-full p-2 border border-gray-300 rounded focus:border-black outline-none transition-all ${error ? 'border-red-300' : 'border-gray-300'}`} 
               />
             </div>
 
             <div>
-              <label className="block text-xs font-mono mb-1 uppercase">Description / Reason</label>
+              <label className="block text-xs font-mono mb-1">DESCRIPTION / REASON (10-500 chars) <span className="text-red-500">*</span></label>
               <textarea 
                 required
                 placeholder="Briefly explain what this path is..." 
                 value={formData.description}
-                onChange={(e) => setFormData({...formData, description: e.target.value})}
-                className="w-full p-2 border border-gray-300 rounded focus:border-black outline-none h-24 resize-none transition-all" 
+                onChange={(e) => handleInputChange('description', e.target.value)}
+                className={`w-full p-2 border rounded focus:border-black outline-none h-24 resize-none transition-all ${error ? 'border-red-300' : 'border-gray-300'}`} 
               />
             </div>
 

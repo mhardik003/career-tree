@@ -184,9 +184,9 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
         nodeKey={key}
         // Core Data
         basicData={{
-            title: data.node_title,
+            node_title: data.node_title,
             description: data.description,
-            difficulty: data.difficulty_rating
+            difficulty_rating: data.difficulty_rating
         }}
         // Rich Data
         richData={richMetadata}
