@@ -49,7 +49,7 @@ export default async function Home() {
 
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight max-w-4xl">
-            Don't just follow a path. <br />
+            Don&apos;t just follow a path. <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 to-black">
               Understand it.
             </span>
@@ -57,7 +57,7 @@ export default async function Home() {
 
           {/* Tagline / Mission */}
           <p className="text-xl md:text-2xl text-gray-600 max-w-2xl font-light leading-relaxed">
-            Move beyond static lists. We visualize the hidden connections between degrees and careers—helping you <span className="font-semibold text-black">spot prerequisites, avoid dead ends, and discover opportunities you didn't know existed.</span>
+            Move beyond static lists. We visualize the hidden connections between degrees and careers—helping you <span className="font-semibold text-black">spot prerequisites, avoid dead ends, and discover opportunities you didn&apos;t know existed.</span>
           </p>
 
           {/* CTA BUTTON */}
@@ -123,7 +123,7 @@ export default async function Home() {
             </div>
             <h3 className="text-xl font-bold">Visual Pathways</h3>
             <p className="text-gray-600 leading-relaxed">
-              Careers aren't lists; they are branching trees. Navigate from broad streams to niche specializations with a clear view of prerequisites.
+              Careers aren&apos;t lists; they are branching trees. Navigate from broad streams to niche specializations with a clear view of prerequisites.
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default async function Home() {
             </div>
             <h3 className="text-xl font-bold">Real Metadata</h3>
             <p className="text-gray-600 leading-relaxed">
-              Don't just see titles. See difficulty ratings, average duration, and sanitized insights from in that field.
+              Don&apos;t just see titles. See difficulty ratings, average duration, and sanitized insights from in that field.
             </p>
           </div>
 

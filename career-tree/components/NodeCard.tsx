@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { cn } from "../lib/utils"; 
 import { 
-  ArrowRight, Clock, BarChart, ChevronDown, 
-  BookOpen, Award, TrendingUp, IndianRupee, Wrench, BadgeCheck, Building2, Lightbulb, 
+  Clock, BarChart, ChevronDown, 
+  BookOpen, Award, IndianRupee, Wrench, BadgeCheck, Building2, Lightbulb, 
 } from "lucide-react";
 import { useState } from "react";
 // Import the type we defined in treeUtils

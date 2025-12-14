@@ -24,7 +24,11 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
       <div className="flex h-screen items-center justify-center font-mono flex-col gap-4">
         <h1 className="text-xl font-bold">404: Path Not Found</h1>
         <p className="text-gray-500">This path does not exist in our tree.</p>
-        <a href="/" className="px-4 py-2 bg-black text-white rounded">Return Home</a>
+        <Link href="/">
+          <button className="flex items-center gap-2 text-sm font-mono text-gray-600 hover:text-black mt-4 transition-colors">
+            <ArrowLeft size={16} /> BACK HOME
+          </button>
+        </Link>
       </div>
     );
   }
@@ -40,7 +44,7 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
           <h2 className="text-xl font-bold font-mono mb-2">{result.name}</h2>
           <p className="text-gray-600 mb-6">
             We know this path exists under <span className="font-semibold">{result.parent?.data.node_title}</span>, 
-            but our AI hasn't mapped the details for it yet.
+            but our AI hasn&apos;t mapped the details for it yet.
           </p>
           <button onClick={() => history.back()} className="text-sm underline hover:text-black">
             Go Back

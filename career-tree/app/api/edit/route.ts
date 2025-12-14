@@ -3,7 +3,6 @@ import dbConnect from '@/lib/db';
 import Edit from '@/models/Edit';
 import { z } from "zod";
 import { checkRateLimit } from '@/lib/rateLimit';
-import { da } from 'zod/locales';
 
 
 // Define the shape of the data inside "newData"
@@ -43,9 +42,6 @@ export async function POST(request: Request) {
       return NextResponse.json({ success: false, message: "Too many requests. Slow down." }, { status: 429 });
     }
 
-    // console.log('All headers:', Object.fromEntries(request.headers.entries()));
-
-    const headersList = request.headers;
     const body = await request.json();
     
     const validation = EditSubmissionSchema.safeParse(body);

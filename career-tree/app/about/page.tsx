@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { ArrowLeft, GitBranch, Map, Users, Heart, Edit3, PlusCircle } from "lucide-react";
+import { ArrowLeft, GitBranch, Map, Heart, Edit3, PlusCircle } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -32,7 +32,7 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed max-w-2xl font-light">
-            We are democratizing career counseling by replacing "gut feelings" with data. 
+            We are democratizing career counseling by replacing &quot;gut feelings&quot; with data. 
             No gatekeepers, no expensive fees—just a map of what is possible.
           </p>
         </div>
@@ -49,7 +49,7 @@ export default function AboutPage() {
             </p>
             <p className="text-lg leading-relaxed text-gray-600">
               The reality is that life is a <strong>Tree</strong>. It branches, twists, and reconnects. 
-              There isn't "one right way" to become an engineer, a designer, or a founder. 
+              There isn&apos;t &quot;one right way&quot; to become an engineer, a designer, or a founder. 
               But until now, that map has been hidden inside the heads of expensive counselors.
             </p>
             <div className="flex gap-4 mt-2">
@@ -69,9 +69,9 @@ export default function AboutPage() {
              <span className="font-mono text-xs font-bold uppercase tracking-widest border-b border-black pb-1">02. For Students</span>
           </div>
           <div className="md:col-span-8">
-            <h3 className="text-2xl font-bold mb-4">Don't search. Explore.</h3>
+            <h3 className="text-2xl font-bold mb-4">Don&apos;t search. Explore.</h3>
             <p className="text-gray-600 mb-8">
-              Start at your current stage (e.g., 10th Class). Click on a path to "simulate" that future.
+              Start at your current stage (e.g., 10th Class). Click on a path to &quot;simulate&quot; that future.
               See what opportunities open up—and more importantly, see where they lead 5 years down the line.
             </p>
 
@@ -84,7 +84,7 @@ export default function AboutPage() {
               <div className="border border-black/10 p-6 rounded-lg hover:border-black transition-colors">
                 <div className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center mb-4 font-mono text-sm">B</div>
                 <h4 className="font-bold mb-2">Spot Dead Ends</h4>
-                <p className="text-sm text-gray-500">Identify which degrees are "Terminal" (job-ready) and which require further study.</p>
+                <p className="text-sm text-gray-500">Identify which degrees are &quot;Terminal&quot; (job-ready) and which require further study.</p>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function AboutPage() {
                    </div>
                    <div className="text-sm">
                      <strong className="block text-white">See a mistake?</strong>
-                     <span className="text-gray-400">Click the "Edit Page" button on any node to fix durations, difficulty, or descriptions.</span>
+                     <span className="text-gray-400">Click the &quot;Edit Page&quot; button on any node to fix durations, difficulty, or descriptions.</span>
                    </div>
                  </li>
                  <li className="flex items-start gap-3">
@@ -122,7 +122,7 @@ export default function AboutPage() {
                    </div>
                    <div className="text-sm">
                      <strong className="block text-white">Missing a niche?</strong>
-                     <span className="text-gray-400">Click "Add New Path" to branch out the tree further.</span>
+                     <span className="text-gray-400">Click &quot;Add New Path&quot; to branch out the tree further.</span>
                    </div>
                  </li>
                </ul>
