@@ -165,7 +165,8 @@
       "National Defence Academy (NDA)",
       "Bachelor of Computer Applications (BCA)",
       "Commercial Pilot License (CPL)",
-      "Merchant Navy"
+      "Merchant Navy",
+      "Bachelor's in Economics (B.A. | B.Sc.)"
     ]
   },
   "10th Class/Science Stream (11th & 12th)/PCB (Physics, Chemistry, Biology)": {
@@ -43718,6 +43719,21 @@
       "Postgraduate CS",
       "Higher Education in Computer Science",
       "GATE for M.Tech"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Bachelor's in Economics (B.A. | B.Sc.)": {
+    "node_title": "Bachelor's in Economics (B.A. | B.Sc.)",
+    "is_terminal": false,
+    "description": "An undergraduate degree program focusing on the principles of microeconomics, macroeconomics, econometrics, and economic theory. Students can pursue a Bachelor of Arts (B.A.) or a Bachelor of Science (B.Sc.) in Economics, which prepares them for careers in finance, policy analysis, data science, and academia.",
+    "avg_duration_years": null,
+    "difficulty_rating": 7,
+    "search_keywords": [
+      "BA Economics",
+      "BSc Economics",
+      "Economics after 12th science",
+      "Economist career path",
+      "Undergraduate economics degree"
     ],
     "children": []
   }
