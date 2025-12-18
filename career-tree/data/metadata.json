@@ -85257,5 +85257,132 @@
       "Actuarial science",
       "Academia and research"
     ]
+  },
+  "10th Class/Science Stream (11th & 12th)/PCMB (Physics, Chemistry, Maths, Biology)/Bachelor of Science (B.Sc.)/Entry-Level Science Roles/Regulatory Affairs Specialist": {
+    "exams_to_give": null,
+    "certifications": [
+      "Post Graduate Diploma in Regulatory Affairs (PGDRA)",
+      "Regulatory Affairs Certification (RAC) by RAPS (Regulatory Affairs Professionals Society)"
+    ],
+    "qualifications_needed": [
+      "Bachelor of Science (B.Sc.) in Pharmacy, Biotechnology, Microbiology, Chemistry, Life Sciences or related fields",
+      "Master of Science (M.Sc.) in a relevant scientific discipline (preferred)",
+      "Post Graduate Diploma in Regulatory Affairs (preferred)"
+    ],
+    "avg_cost_inr": "50,000 - 2,00,000 INR (for PGDRA)",
+    "top_colleges_or_companies": [
+      "Dr. Reddy's Laboratories",
+      "Cipla",
+      "Sun Pharmaceutical Industries Ltd.",
+      "Lupin",
+      "Biocon",
+      "Serum Institute of India"
+    ],
+    "tools_and_resources": [
+      "CDSCO (Central Drugs Standard Control Organisation) portal",
+      "ICH (International Council for Harmonisation) Guidelines",
+      "eCTD (electronic Common Technical Document) software",
+      "Microsoft Office Suite",
+      "Regulatory intelligence databases"
+    ],
+    "duration_years": "1-3 years (for entry-level position)",
+    "real_life_applications": [
+      "Preparing and submitting regulatory dossiers for drug approval",
+      "Ensuring compliance of pharmaceutical products with national and international standards",
+      "Advising R&D teams on regulatory requirements for new product development",
+      "Managing post-market surveillance and reporting adverse events",
+      "Liaising with regulatory authorities like CDSCO and FDA"
+    ]
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Electrical Engineering/Research Assistant | Fellow": {
+    "exams_to_give": [
+      "GATE (Graduate Aptitude Test in Engineering)",
+      "University-specific PhD entrance exams (if aiming for direct PhD)"
+    ],
+    "certifications": [
+      "MATLAB/Simulink proficiency certification",
+      "Python for Data Analysis/Scientific Computing",
+      "LabVIEW certification",
+      "Specific hardware/software tool certifications (e.g., FPGA, DSP)"
+    ],
+    "qualifications_needed": [
+      "Bachelor of Engineering (B.E.) in Electrical Engineering",
+      "Bachelor of Technology (B.Tech) in Electrical Engineering"
+    ],
+    "avg_cost_inr": null,
+    "top_colleges_or_companies": [
+      "IISc Bangalore",
+      "IITs (e.g., IIT Delhi, IIT Bombay, IIT Madras)",
+      "CSIR Labs (e.g., NPL, CEERI)",
+      "DRDO Labs",
+      "TCS Research and Innovation (R&I)",
+      "ABB Global Software & Technology Services (India)"
+    ],
+    "tools_and_resources": [
+      "MATLAB",
+      "Simulink",
+      "LabVIEW",
+      "Python (NumPy, SciPy, Pandas)",
+      "C/C++",
+      "SPICE-based circuit simulators",
+      "Oscilloscopes, Function Generators, Power Supplies",
+      "Microcontrollers (e.g., Arduino, Raspberry Pi)",
+      "Academic databases (IEEE Xplore, Scopus)",
+      "Research methodology textbooks"
+    ],
+    "duration_years": "1-3 years",
+    "real_life_applications": [
+      "Assisting in experimental design and setup for electrical systems",
+      "Collecting and analyzing data from simulations or physical experiments",
+      "Conducting literature reviews and background research for projects",
+      "Developing prototypes or proof-of-concept models for electrical devices",
+      "Contributing to research papers, reports, and presentations",
+      "Troubleshooting and maintaining laboratory equipment",
+      "Assisting senior researchers or PhD students with their ongoing projects"
+    ]
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Metallurgical and Materials Engineering": {
+    "exams_to_give": [
+      "JEE Main",
+      "JEE Advanced",
+      "BITSAT",
+      "Various State-Level Entrance Exams (e.g., MHT CET, KCET, EAMCET)"
+    ],
+    "certifications": null,
+    "qualifications_needed": [
+      "10+2 with Physics, Chemistry, and Mathematics"
+    ],
+    "avg_cost_inr": "4-15 Lakhs (for 4 years, depending on institution type)",
+    "top_colleges_or_companies": [
+      "IIT Bombay",
+      "IIT Madras",
+      "IIT Kharagpur",
+      "IIT Kanpur",
+      "NIT Trichy",
+      "Tata Steel",
+      "SAIL (Steel Authority of India Limited)",
+      "DRDO (Defence Research and Development Organisation)",
+      "Bharat Forge"
+    ],
+    "tools_and_resources": [
+      "Materials Science and Engineering by Callister & Rethwisch",
+      "Mechanical Metallurgy by George E. Dieter",
+      "Phase Transformations in Metals and Alloys by D.A. Porter & K.E. Easterling",
+      "ANSYS (FEA Software)",
+      "ABAQUS (FEA Software)",
+      "MATLAB",
+      "Python for data analysis and simulation",
+      "Thermo-Calc (Thermodynamic Calculation Software)"
+    ],
+    "duration_years": "4 years",
+    "real_life_applications": [
+      "Design and development of advanced alloys for aerospace, automotive, and defense sectors",
+      "Material selection and failure analysis in manufacturing and infrastructure",
+      "Development of biomaterials for medical implants and prosthetics",
+      "Research into new materials for electronics, semiconductors, and energy storage devices",
+      "Optimization of material processing techniques such as casting, welding, and heat treatment",
+      "Corrosion control and surface engineering applications",
+      "Recycling and sustainable material development"
+    ]
   }
 }

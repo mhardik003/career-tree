@@ -774,7 +774,8 @@
       "Chemical Engineering",
       "Aerospace Engineering",
       "Information Technology",
-      "Biotechnology Engineering"
+      "Biotechnology Engineering",
+      "Metallurgical and Materials Engineering"
     ]
   },
   "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Architecture (B.Arch)": {
@@ -3480,7 +3481,8 @@
       "PSU|Government Engineer (via GATE|IES)",
       "Software|IT Roles",
       "Higher Studies (M.Tech|MS)",
-      "MBA (CAT|GMAT)"
+      "MBA (CAT|GMAT)",
+      "Research Assistant | Fellow"
     ]
   },
   "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Electronics and Communication Engineering": {
@@ -5277,7 +5279,7 @@
   },
   "10th Class/Science Stream (11th & 12th)/PCMB (Physics, Chemistry, Maths, Biology)/Bachelor of Science (B.Sc.)/Entry-Level Science Roles": {
     "node_title": "Entry-Level Science Roles",
-    "is_terminal": true,
+    "is_terminal": false,
     "description": "This represents initial job opportunities for B.Sc. graduates in India. These roles often involve practical application of scientific knowledge in settings like laboratories, research institutions, and quality control departments.",
     "avg_duration_years": null,
     "difficulty_rating": 6,
@@ -5288,7 +5290,9 @@
       "Quality Control Chemist",
       "Research Assistant roles India"
     ],
-    "children": []
+    "children": [
+      "Regulatory Affairs Specialist"
+    ]
   },
   "10th Class/Science Stream (11th & 12th)/PCMB (Physics, Chemistry, Maths, Biology)/Bachelor of Pharmacy (B.Pharma)/Master of Pharmacy (M.Pharma)": {
     "node_title": "Master of Pharmacy (M.Pharma)",
@@ -43734,6 +43738,51 @@
       "Economics after 12th science",
       "Economist career path",
       "Undergraduate economics degree"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCMB (Physics, Chemistry, Maths, Biology)/Bachelor of Science (B.Sc.)/Entry-Level Science Roles/Regulatory Affairs Specialist": {
+    "node_title": "Regulatory Affairs Specialist",
+    "is_terminal": true,
+    "description": "Works within regulated industries like pharmaceuticals, biotechnology, and medical devices to ensure products meet legal and scientific standards. This role involves preparing and submitting documentation to regulatory agencies, coordinating with R&D and manufacturing teams, and staying updated on changing regulations.",
+    "avg_duration_years": null,
+    "difficulty_rating": 6,
+    "search_keywords": [
+      "Regulatory Affairs jobs",
+      "Pharmaceutical regulations",
+      "Medical device compliance",
+      "RA specialist career",
+      "Drug safety jobs"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Electrical Engineering/Research Assistant | Fellow": {
+    "node_title": "Research Assistant | Fellow",
+    "is_terminal": false,
+    "description": "Work in academic, government (e.g., CSIR, DRDO), or private R&D labs, assisting with research projects. This role often serves as a stepping stone towards higher studies like an M.Tech, MS, or PhD.",
+    "avg_duration_years": null,
+    "difficulty_rating": 6,
+    "search_keywords": [
+      "Research Assistant jobs",
+      "Junior Research Fellow",
+      "JRF for engineers",
+      "R&D careers after B.Tech",
+      "Project Assistant jobs"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Metallurgical and Materials Engineering": {
+    "node_title": "Metallurgical and Materials Engineering",
+    "is_terminal": false,
+    "description": "A branch of engineering that focuses on the study of the physical and chemical behavior of metallic elements, their inter-metallic compounds, and their mixtures (alloys). It also involves designing, processing, and discovering new materials to meet specific mechanical, electrical, or chemical requirements.",
+    "avg_duration_years": null,
+    "difficulty_rating": 7,
+    "search_keywords": [
+      "Materials Science",
+      "Metallurgy",
+      "Materials Engineering",
+      "Extractive Metallurgy",
+      "Physical Metallurgy"
     ],
     "children": []
   }

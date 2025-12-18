@@ -9,6 +9,11 @@ Career Tree is an interactive, node-based map of career opportunities. Unlike tr
 
 Currently mapped for the **Indian Education System** (scaling globally soon).
 
+## TODO
+* Option to delete the nodes
+* Bottom up paths as well
+* Add github actions tests (in the gemini chat)
+
 ## 🚀 Features
 
 *   **Interactive Graph:** A zoomable, pannable global view of all career connections using `React Flow`.
