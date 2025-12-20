@@ -85384,5 +85384,49 @@
       "Corrosion control and surface engineering applications",
       "Recycling and sustainable material development"
     ]
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Information Technology/Site Reliability Engineer": {
+    "exams_to_give": null,
+    "certifications": [
+      "AWS Certified Solutions Architect/DevOps Engineer",
+      "Azure Administrator/DevOps Engineer Expert",
+      "Google Cloud Professional Cloud Architect/DevOps Engineer",
+      "Certified Kubernetes Administrator (CKA)/Certified Kubernetes Application Developer (CKAD)",
+      "ITIL Foundation",
+      "SRE Foundation Certification"
+    ],
+    "qualifications_needed": [
+      "B.E./B.Tech in Computer Science, Information Technology, or a related engineering discipline",
+      "Strong programming skills (e.g., Python, Go, Java)",
+      "Understanding of operating systems, networking, and distributed systems"
+    ],
+    "avg_cost_inr": "N/A (career stage)",
+    "top_colleges_or_companies": [
+      "Google India",
+      "Microsoft India",
+      "Amazon India",
+      "Flipkart",
+      "Swiggy/Zomato",
+      "TCS/Infosys/Wipro (for SRE roles)"
+    ],
+    "tools_and_resources": [
+      "Programming languages: Python, Go, Java",
+      "Cloud Platforms: AWS, Azure, Google Cloud",
+      "CI/CD Tools: Jenkins, GitLab CI, GitHub Actions",
+      "Monitoring/Logging: Prometheus, Grafana, ELK Stack, Datadog, Splunk",
+      "Containerization: Docker, Kubernetes",
+      "Infrastructure as Code: Terraform, Ansible, Chef, Puppet",
+      "Version Control: Git",
+      "Books: 'Site Reliability Engineering: How Google Runs Production Systems', 'The Site Reliability Workbook'"
+    ],
+    "duration_years": "Ongoing (career role)",
+    "real_life_applications": [
+      "Ensuring high availability and performance of critical applications and services",
+      "Designing and implementing scalable infrastructure",
+      "Automating operational tasks and deployments",
+      "Incident response and post-mortem analysis",
+      "Capacity planning and performance tuning",
+      "Disaster recovery and business continuity planning"
+    ]
   }
 }
