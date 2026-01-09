@@ -19,6 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="zesGb3rIFh9nfH700WwJH2Nt-pcRvL1fVc1_W80HoSg" />
       <body 
       suppressHydrationWarning={true}
       className={`${inter.variable} ${mono.variable} font-sans bg-white text-black antialiased` 
