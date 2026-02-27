@@ -85428,5 +85428,43 @@
       "Capacity planning and performance tuning",
       "Disaster recovery and business continuity planning"
     ]
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Mechanical Engineering/Higher Studies (M.Tech|M.S.)/Ph.D. in Computer Science": {
+    "exams_to_give": [
+      "UGC NET (for some fellowships)",
+      "University-specific Ph.D. entrance exams",
+      "Interviews"
+    ],
+    "certifications": null,
+    "qualifications_needed": [
+      "M.Tech. or M.S. in Computer Science, Mechanical Engineering (with strong CS/Robotics/AI focus), or related fields",
+      "Strong academic record",
+      "Research aptitude and publications (preferred)"
+    ],
+    "avg_cost_inr": "Minimal to 1-2 Lakhs per year (often covered by stipends like JRF/SRF)",
+    "top_colleges_or_companies": [
+      "Indian Institute of Science (IISc) Bangalore",
+      "Indian Institutes of Technology (IITs - Bombay, Delhi, Madras, Kanpur, Kharagpur)",
+      "International Institute of Information Technology (IIITs)",
+      "Tata Consultancy Services (TCS) Research & Innovation",
+      "Wipro Labs"
+    ],
+    "tools_and_resources": [
+      "Academic databases (IEEE Xplore, ACM Digital Library, Scopus)",
+      "Programming languages (Python, C++, Java)",
+      "Machine Learning frameworks (TensorFlow, PyTorch, Keras)",
+      "Robotics Operating System (ROS)",
+      "Simulation software (MATLAB, Simulink, Gazebo)",
+      "High-Performance Computing (HPC) clusters",
+      "Version control systems (Git)"
+    ],
+    "duration_years": "3-6 years",
+    "real_life_applications": [
+      "Research Scientist in academic institutions",
+      "R&D Engineer in corporate research labs (e.g., in AI, Robotics, Autonomous Systems)",
+      "Lead AI/ML Engineer",
+      "Data Scientist (advanced roles)",
+      "Postdoctoral Researcher"
+    ]
   }
 }

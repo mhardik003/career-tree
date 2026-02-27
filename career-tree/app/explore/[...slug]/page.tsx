@@ -60,6 +60,8 @@ export default function ExplorePage({ params }: { params: Promise<{ slug: string
   const richMetadata = getMetadataForKey(key);
   const parentHref = parent ? `/explore/${slugs.slice(0, -1).join('/')}` : '/';
   const isRootExplorePage = slugs.length === 1 && slugs[0] === '10th-class';
+  const fullPathUrl = `https://career-tree.vercel.app/explore/${slugs.join("/")}`;
+
   return (
     <div className="min-h-screen bg-neutral-50 pb-20 pt-10">
       <div className="max-w-4xl mx-auto px-4 flex flex-col items-center">

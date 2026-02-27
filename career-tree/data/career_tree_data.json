@@ -10198,7 +10198,8 @@
       "Ph.D. in Mechanical Engineering",
       "Research and Development (R&D) Engineer",
       "Core Engineering Specialist Roles",
-      "Scientist|Engineer in Govt. Orgs (PSUs, DRDO, ISRO)"
+      "Scientist|Engineer in Govt. Orgs (PSUs, DRDO, ISRO)",
+      "Ph.D. in Computer Science"
     ]
   },
   "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Mechanical Engineering/Master of Business Administration (MBA)": {
@@ -43799,6 +43800,21 @@
       "system reliability",
       "automation engineer",
       "cloud infrastructure"
+    ],
+    "children": []
+  },
+  "10th Class/Science Stream (11th & 12th)/PCM (Physics, Chemistry, Maths)/Engineering (B.E.|B.Tech)/Mechanical Engineering/Higher Studies (M.Tech|M.S.)/Ph.D. in Computer Science": {
+    "node_title": "Ph.D. in Computer Science",
+    "is_terminal": false,
+    "description": "Pursue doctoral research in Computer Science, often focusing on interdisciplinary areas like Robotics, Artificial Intelligence (AI), Machine Learning, and Computational Mechanics, leveraging a strong foundation in mechanical systems.",
+    "avg_duration_years": null,
+    "difficulty_rating": 9,
+    "search_keywords": [
+      "PhD in CS after Mechanical",
+      "Interdisciplinary PhD India",
+      "Robotics research",
+      "AI PhD programs",
+      "Computational science doctorate"
     ],
     "children": []
   }
