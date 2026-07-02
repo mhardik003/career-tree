@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
-import { getAllNodeSlugs } from '@/lib/treeUtils';
-
-const BASE_URL = 'https://career-tree.vercel.app';
+import { getCanonicalNodeSlugs } from '@/lib/treeUtils';
+import { BASE_URL } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -10,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/about`, changeFrequency: 'monthly', priority: 0.5 },
   ];
 
-  const nodeRoutes: MetadataRoute.Sitemap = getAllNodeSlugs().map((slugs) => ({
+  const nodeRoutes: MetadataRoute.Sitemap = getCanonicalNodeSlugs().map((slugs) => ({
     url: `${BASE_URL}/explore/${slugs.join('/')}`,
     changeFrequency: 'weekly',
     priority: 0.7,

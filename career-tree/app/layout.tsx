@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { BASE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: "Career Tree – Open Source Career Intelligence",
   description:
     "Visualize career paths, prerequisites, and opportunities in the Indian education system using open source career intelligence.",
@@ -34,7 +36,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebApplication",
               name: "Career Tree",
-              url: "https://career-tree.vercel.app/",
+              url: `${BASE_URL}/`,
               description:
                 "An open source career intelligence platform that visualizes career paths and educational prerequisites within the Indian education system.",
               applicationCategory: "EducationalApplication",
@@ -57,7 +59,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LearningResource",
               name: "Career Tree – Career Path Visualization",
-              url: "https://career-tree.vercel.app/",
+              url: `${BASE_URL}/`,
               learningResourceType: "Career Exploration Tool",
               educationalLevel: [
                 "High School",

@@ -39,6 +39,7 @@ interface ExploreViewProps {
     difficulty_rating: number;
     is_terminal: boolean;
     children: string[];
+    search_keywords: string[];
   };
   parentTitle: string | null;
   richMetadata: NodeMetadata | null;
@@ -171,6 +172,20 @@ export default function ExploreView({ nodeKey, node, parentTitle, richMetadata, 
               <NodeCard title="Add New Path" href="#" type="suggestion" onClick={() => setShowModal(true)} />
             </div>
           </div>
+        )}
+
+        {/* Related search queries (from the tree data) — kept in the server-rendered HTML for SEO */}
+        {node.search_keywords.length > 0 && (
+          <section aria-label="People also search for" className="mt-10 w-full max-w-2xl text-center">
+            <p className="text-xs text-gray-400 font-mono mb-3 uppercase tracking-widest">People also search for</p>
+            <div className="flex flex-wrap justify-center gap-2">
+              {node.search_keywords.map((keyword) => (
+                <span key={keyword} className="px-3 py-1 bg-gray-100 rounded-full text-xs font-medium border border-gray-200 text-gray-700">
+                  {keyword}
+                </span>
+              ))}
+            </div>
+          </section>
         )}
       </div>
 

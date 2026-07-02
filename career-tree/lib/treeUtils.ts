@@ -157,3 +157,52 @@ export const getAllNodeSlugs = (): string[][] => {
   }
   return out;
 };
+
+// Canonical index: the same career title appears at many paths (334+ duplicate groups),
+// so every key maps to one "primary" key per slugified title — fewest path segments,
+// then has rich metadata, then most children, then lexicographic (fully deterministic).
+// Assumed data invariants (hold for all 2,703 keys today; data is Gemini-regenerated):
+// no two keys share a slug path, and slugify(node_title) === slugify(last path segment),
+// so a primary's slug URL is guaranteed to serve the primary node.
+const canonicalKeyByKey: Map<string, string> = (() => {
+  const groups = new Map<string, string[]>();
+  for (const key of Object.keys(fullData)) {
+    const titleSlug = slugify(fullData[key].node_title);
+    const group = groups.get(titleSlug);
+    if (group) group.push(key);
+    else groups.set(titleSlug, [key]);
+  }
+  const canonical = new Map<string, string>();
+  for (const keys of groups.values()) {
+    let candidates = keys;
+    const minSegments = Math.min(...candidates.map(k => k.split('/').length));
+    candidates = candidates.filter(k => k.split('/').length === minSegments);
+    if (candidates.length > 1) {
+      const withMeta = candidates.filter(k => fullMetadata[k]);
+      if (withMeta.length > 0) candidates = withMeta;
+    }
+    if (candidates.length > 1) {
+      const maxChildren = Math.max(...candidates.map(k => fullData[k].children.length));
+      candidates = candidates.filter(k => fullData[k].children.length === maxChildren);
+    }
+    const primary = [...candidates].sort()[0];
+    for (const key of keys) canonical.set(key, primary);
+  }
+  return canonical;
+})();
+
+export const getCanonicalInfo = (key: string) => {
+  const canonicalKey = canonicalKeyByKey.get(key) ?? key;
+  return {
+    isPrimary: canonicalKey === key,
+    canonicalKey,
+    canonicalPath: '/explore/' + canonicalKey.split('/').map(slugify).join('/'),
+  };
+};
+
+// Slug paths of primary/unique nodes only — the sitemap must not advertise URLs whose
+// canonical points elsewhere. generateStaticParams keeps using getAllNodeSlugs().
+export const getCanonicalNodeSlugs = (): string[][] =>
+  Object.keys(fullData)
+    .filter(key => canonicalKeyByKey.get(key) === key)
+    .map(key => key.split('/').map(slugify));
