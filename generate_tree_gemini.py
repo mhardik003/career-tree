@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import time
 import argparse
@@ -35,6 +36,41 @@ class CareerNodeOutput(BaseModel):
     
     # The Recursion Logic
     children: List[str] = Field(..., description="List of immediate next options. If is_terminal is True, this should be empty.")
+
+# --- SANITIZATION ---
+
+def slugify(text):
+    """
+    Mirror of career-tree/lib/slugify.ts:
+    text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '')
+    Used to predict URL collisions between sibling names.
+    """
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    return re.sub(r'(^-|-$)+', '', text)
+
+def sanitize_children(parent_path, children):
+    """
+    Clean a freshly-generated children list before it is stored/queued:
+    - '/' is the path separator, so it would corrupt the key. Swap for '|'.
+    - Drop names that are empty after stripping.
+    - Drop any child whose slug collides with an earlier sibling
+      (the app's URL lookup takes the FIRST matching sibling, so
+      later duplicates would be unreachable anyway).
+    """
+    cleaned = []
+    seen_slugs = {}
+    for child in children:
+        name = child.replace("/", "|").strip()
+        if not name:
+            continue
+        slug = slugify(name)
+        if slug in seen_slugs:
+            print(f"Warning: under '{parent_path}', dropping child '{name}' — slug collides with sibling '{seen_slugs[slug]}'")
+            continue
+        seen_slugs[slug] = name
+        cleaned.append(name)
+    return cleaned
 
 # --- THE PROMPT ---
 
@@ -158,28 +194,36 @@ def build_career_tree(new_node=None):
             print("Skipping due to error, retrying later or ignoring...")
             continue
 
-        # 2. Store the data structure
+        # 2. Sanitize the fresh data
+        # The prompt asks Gemini to avoid '/', but enforce it here so a stray
+        # slash never corrupts the path keys, and slug-colliding siblings never
+        # shadow each other in the app's URL lookup.
+        node_data.node_title = node_data.node_title.replace("/", "|").strip()
+        if node_data.children:
+            node_data.children = sanitize_children(current_path, node_data.children)
+
+        # 3. Store the data structure
         # We use the path as the key
         tree_store[current_path] = node_data.model_dump()
 
-        # 3. Add children to queue
+        # 4. Add children to queue
         if not node_data.is_terminal and node_data.children:
             for child in node_data.children:
                 # Create the new path string
                 new_path = f"{current_path}/{child}"
-                
+
                 # Check duplication
                 if new_path not in visited_paths:
                     queue.append(new_path)
 
         visited_paths.add(current_path)
 
-        # 4. Save frequently
+        # 5. Save frequently
         with open(OUTPUT_FILE, 'w') as f:
             json.dump(tree_store, f, indent=4)
 
-        # 5. Rate Limiting (Important for free tier)
-        time.sleep(1) 
+        # 6. Rate Limiting (Important for free tier)
+        time.sleep(1)
 
     print("Tree generation complete!")
 
