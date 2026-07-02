@@ -14,8 +14,11 @@ load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY: raise ValueError("GEMINI_API_KEY missing.")
 
-# File to save progress (so you can stop/start script without losing data)
-OUTPUT_FILE = "career_tree_data.json"
+# File to save progress (so you can stop/start script without losing data).
+# This is the file the app actually reads — anchored to this script's directory
+# so it resolves correctly from any cwd.
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "career-tree", "data")
+OUTPUT_FILE = os.path.join(DATA_DIR, "career_tree_data.json")
 
 # --- PYDANTIC SCHEMAS (STRUCTURED OUTPUT) ---
 

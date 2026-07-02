@@ -3,7 +3,7 @@ from pyvis.network import Network
 import os
 import webbrowser
 
-INPUT_FILE = "career_tree_data.json"
+INPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "career-tree", "data", "career_tree_data.json")
 OUTPUT_HTML = "career_map.html"
 
 def visualize_interactive():

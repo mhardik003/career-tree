@@ -92,9 +92,9 @@ If you want to expand the tree data yourself using AI (scripts live at the repo 
     ```bash
     python generate_tree_gemini.py --node "<node path you want to expand>"
     ```
-    *This updates `career_tree_data.json` at the repo root; copy it (and `metadata.json`
-    after running `generate_metadata_gemini.py`) into `career-tree/data/` and make a
-    pull request.*
+    *This reads and updates `career-tree/data/career_tree_data.json` in place (as does
+    `generate_metadata_gemini.py` for `metadata.json`) — the same files the app serves,
+    so just restart the dev server to see new data, then make a pull request.*
 
 ---
 
@@ -137,6 +137,8 @@ We believe career data should be a public good, not a trade secret.
 
 ## 📝 Update Log
 
+*   **2026-07-02** — Pipeline scripts (`generate_tree_gemini.py`, `generate_metadata_gemini.py`, `visualise_tree.py`) now read/write `career-tree/data/` directly — the files the app actually serves — instead of dumping to the current working directory, where generated data was invisible to the site and the crawler couldn't resume from existing data. Paths are anchored to the script location, so they work from any cwd.
+*   **2026-07-02** — The root `.gitignore` ignored itself and was therefore untracked, so fresh clones had no ignore rules at the repo root where `.env` (Gemini key) lives. It no longer ignores itself and is now committed; local bug logs (`BUGS*.md`) are ignored too.
 *   **2026-07-02** — Fixed the Edit modal telling users to separate list items with commas while the parser split on semicolons, which merged e.g. "JEE, BITSAT, VITEEE" into one item. Semicolons are the separator (many data items contain commas); the header and placeholders now say so. Also: `generate_tree_gemini.py` now loads `.env` and fails fast if `GEMINI_API_KEY` is missing, instead of sending a placeholder key.
 *   **2026-07-02** — Fixed the suggest/edit API rate limiter: it was one global bucket shared by all visitors (7 requests/min site-wide); it now limits per client IP (5 requests/min, `Retry-After` on 429) with no external dependency — the `limiter` package is gone.
 *   **2026-07-02** — Moved the tree data server-side: explore and map are now server components, so the ~5.4MB JSON bundle no longer ships to the browser and the dagre map layout runs at build time. All 2,703 node pages are statically generated with per-node titles/descriptions; added `sitemap.xml`, `robots.txt`, and real HTTP 404s for unknown paths.

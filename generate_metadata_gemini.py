@@ -14,8 +14,10 @@ if not API_KEY: raise ValueError("GEMINI_API_KEY missing.")
 
 
 
-TREE_FILE = "career_tree_data.json"
-METADATA_FILE = "metadata.json"
+# The app's data files — anchored to this script's directory so they resolve from any cwd
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "career-tree", "data")
+TREE_FILE = os.path.join(DATA_DIR, "career_tree_data.json")
+METADATA_FILE = os.path.join(DATA_DIR, "metadata.json")
 
 class NodeMetadata(BaseModel):
     exams_to_give: Optional[List[str]] = Field(default=None, description="List of specific entrance exams (e.g. JEE, NEET, CAT, UPSC).")
