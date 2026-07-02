@@ -74,17 +74,25 @@ def generate_metadata(node_title, description):
         return None
 
 
-def generate_one_node_metadata(node_title, description):
-    with open(METADATA_FILE, 'r') as f:
-        metadata_store = json.load(f)
+def generate_one_node_metadata(path):
+    with open(TREE_FILE, 'r') as f:
+        tree_data = json.load(f)
 
-    print(f"Generating metadata for single node: {node_title}...")
-    data = generate_metadata(node_title, description)
+    node = tree_data.get(path)
+    if node is None:
+        raise ValueError(f"Node not found in tree: {path}")
+
+    if os.path.exists(METADATA_FILE):
+        with open(METADATA_FILE, 'r') as f:
+            metadata_store = json.load(f)
+    else:
+        metadata_store = {}
+
+    print(f"Generating metadata for single node: {path}...")
+    data = generate_metadata(node['node_title'], node['description'])
     if data:
         print("Adding metadata to the file")
-        # print(json.dumps(data, indent=2))
-        #update metadata_store and save
-        metadata_store[node_title] = data
+        metadata_store[path] = data
         with open(METADATA_FILE, 'w') as f:
             json.dump(metadata_store, f, indent=2)
 
@@ -126,4 +134,10 @@ def main():
     print("Metadata generation complete!")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Career Tree Metadata Generator")
+    parser.add_argument("--node", type=str, help="Full node path to (re)generate metadata for a single node.")
+    args = parser.parse_args()
+    if args.node:
+        generate_one_node_metadata(args.node)
+    else:
+        main()
