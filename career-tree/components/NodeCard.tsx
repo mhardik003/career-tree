@@ -1,5 +1,5 @@
 "use client";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { cn } from "../lib/utils"; 
 import { 
@@ -61,10 +61,11 @@ export default function NodeCard({ title, description, href, type, metadata, ric
 
         {/* EXPAND BUTTON (Only visible on Current Node) */}
         {isCurrent && richMetadata && (
-          <button 
+          <button
             onClick={toggleExpand}
             className="p-1 hover:bg-gray-100 rounded-full transition-colors focus:outline-none"
             title="View Details"
+            aria-expanded={isExpanded}
           >
             <ChevronDown 
               className={cn("transition-transform duration-300", isExpanded ? "rotate-180" : "")} 
@@ -89,14 +90,14 @@ export default function NodeCard({ title, description, href, type, metadata, ric
             </div>
           </div>
           
-          {/* EXPANDABLE RICH METADATA SECTION */}
-          <AnimatePresence>
-            {isExpanded && richMetadata && (
+          {/* EXPANDABLE RICH METADATA SECTION — always mounted so the content is in the
+              server-rendered HTML (crawlable); the collapse is purely visual. */}
+          {richMetadata && (
               <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: "auto", opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
+                initial={false}
+                animate={{ height: isExpanded ? "auto" : 0, opacity: isExpanded ? 1 : 0 }}
                 className="overflow-hidden"
+                aria-hidden={!isExpanded}
               >
                 <div className="pt-6 mt-6 border-t border-dashed border-gray-300 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 text-sm">
                   
@@ -202,8 +203,7 @@ export default function NodeCard({ title, description, href, type, metadata, ric
                   
                 </div>
               </motion.div>
-            )}
-          </AnimatePresence>
+          )}
         </>
       )}
     </div>

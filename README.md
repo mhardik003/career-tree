@@ -137,6 +137,7 @@ We believe career data should be a public good, not a trade secret.
 
 ## 📝 Update Log
 
+*   **2026-07-03** — SEO: the rich-metadata panel (entrance exams, costs, qualifications, colleges, applications, tools) is now always present in the server-rendered HTML and only visually collapsed — previously it was mounted on chevron click, so search engines saw none of that content on any node page. The expand/collapse UX is unchanged.
 *   **2026-07-03** — Correction: the earlier "untrack pyvis artifacts" change only committed the `.gitignore` rules — `career_map.html` (2.4MB) and the pyvis `lib/` support files (vis.js, tom-select) were in fact still tracked. They are now actually removed from the index; the files stay on disk for local use.
 *   **2026-07-03** — Housekeeping sweep: removed the unused `react-hook-form` dependency, the dead `get_clean_schema` helper, and the empty `app/api/remove/` directory; fixed the placeholder `your-username` GitHub URLs (README clone command, and the about page's GitHub button is back, pointing at the real repo).
 *   **2026-07-03** — The crawler now enforces what its prompt only asked for: `/` in Gemini-returned titles is replaced with `|` (a `/` would corrupt the path-keyed data model), and a child whose name slugifies identically to an earlier sibling ("AI ML" vs "AI | ML") is dropped with a warning instead of silently shadowing it in the app's URL lookup. The Python `slugify` mirrors `lib/slugify.ts` exactly.
