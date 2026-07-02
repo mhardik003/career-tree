@@ -164,6 +164,7 @@ export default function MapView({ initialNodes, initialEdges }: MapViewProps) {
         onEdgesChange={onEdgesChange}
         onNodeClick={onNodeClick}
         nodeTypes={nodeTypes}
+        onlyRenderVisibleElements
         fitView
         minZoom={0.05}
         maxZoom={1.5}

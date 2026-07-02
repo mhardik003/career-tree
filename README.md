@@ -137,6 +137,7 @@ We believe career data should be a public good, not a trade secret.
 
 ## 📝 Update Log
 
+*   **2026-07-03** — The global map (`/map`) now only renders nodes inside the viewport (React Flow's `onlyRenderVisibleElements`): the DOM went from a constant 2,703 node elements (~28,600 elements total) to ~250 at the initial view and ~15 when zoomed in, making pan/zoom much lighter on low-end devices.
 *   **2026-07-03** — Hardened the suggest/edit APIs: suggestions are now rejected when the parent node doesn't exist in the tree (400) or when the suggested child already exists under it (409, compared by URL slug), edits are rejected for unknown node keys, and malformed JSON bodies return 400 instead of 500. The Zod schemas moved out of the route files into `lib/schemas.ts` (route modules should only export handlers).
 *   **2026-07-03** — The crawler's fresh-start seed node was `"10th Class (India)"`, which doesn't match the actual tree root `"10th Class"` — a from-scratch run would have grown a second, divergent root. It now seeds `"10th Class"`.
 *   **2026-07-03** — Fixed `generate_metadata_gemini.py`'s single-node helper storing metadata under the node title instead of the full path key (making it invisible to the app), and exposed it as `--node "<full path>"` to regenerate one node's metadata.
