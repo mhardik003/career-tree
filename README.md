@@ -49,7 +49,7 @@ Currently mapped for the **Indian Education System** (scaling globally soon).
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/career-tree.git
+git clone https://github.com/mhardik003/career-tree.git
 cd career-tree
 ```
 

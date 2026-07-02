@@ -30,18 +30,6 @@ class NodeMetadata(BaseModel):
     real_life_applications: Optional[List[str]] = Field(default=None, description="Typical real world applications while being in this position")
     
 
-# --- HELPER ---
-def get_clean_schema(pydantic_model):
-    schema = pydantic_model.model_json_schema()
-    def _recurse_clean(d):
-        if isinstance(d, dict):
-            if 'default' in d: del d['default']
-            for k, v in d.items(): _recurse_clean(v)
-        elif isinstance(d, list):
-            for item in d: _recurse_clean(item)
-    _recurse_clean(schema)
-    return schema
-
 def generate_metadata(node_title, description):
     client = genai.Client(api_key=API_KEY)
 

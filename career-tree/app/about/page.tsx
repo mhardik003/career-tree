@@ -140,11 +140,11 @@ export default function AboutPage() {
                 START EXPLORING
               </button>
             </Link>
-            {/* <Link href="https://github.com/your-username/career-tree">
+            <a href="https://github.com/mhardik003/career-tree" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-3 bg-white border border-black text-black rounded font-mono text-sm hover:bg-gray-50 transition-all">
                 GITHUB REPO
               </button>
-            </Link> */}
+            </a>
           </div>
           <p className="mt-8 text-xs font-mono text-gray-400">
             Built with Next.js, React Flow & Community Love.
