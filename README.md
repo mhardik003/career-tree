@@ -18,14 +18,16 @@ Currently mapped for the **Indian Education System** (scaling globally soon).
 
 *   **Interactive Graph:** A zoomable, pannable global view of all career connections using `React Flow`.
 *   **Focus Mode:** A clean, hierarchical view (Parent → Current Node → Children) to prevent information overload.
-*   **Crowdsourced Data:** Built-in "Suggest a Path" and "Edit Node" features allow the community to refine data.
+*   **Crowdsourced Data:** Built-in "Suggest a Path" and "Edit Node" features allow the community to refine data — submissions land in Supabase and are reviewed with an AI + human-in-the-loop tool.
+*   **Live Community Stats:** The homepage counters are fetched live from Supabase.
 *   **AI-Powered Crawler:** A Python script utilizing **Google Gemini** to recursively generate and map career paths.
 *   **Rich Metadata:** Nodes contain difficulty ratings, duration, descriptions, and curated search keywords.
 
 ## 🛠️ Tech Stack
 
 **Frontend (Web App)**
-*   **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+*   **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+*   **Database:** [Supabase](https://supabase.com/) (Postgres) — community suggestions & edits
 *   **Styling:** Tailwind CSS
 *   **Animation:** Framer Motion
 *   **Visualization:** React Flow & Dagre (Graph Layout)
@@ -33,7 +35,7 @@ Currently mapped for the **Indian Education System** (scaling globally soon).
 
 **Data Pipeline**
 *   **Language:** Python 3.11+
-*   **LLM:** Google Gemini 1.5 Flash
+*   **LLM:** Google Gemini 2.5 (Pro for crawling, Flash for metadata)
 *   **Validation:** Pydantic (Structured Output)
 
 ---
@@ -52,9 +54,11 @@ cd career-tree
 ```
 
 ### 2. Run the Web Application
-This runs the frontend interface.
+The Next.js app lives in the `career-tree/` subdirectory.
 
 ```bash
+cd career-tree
+
 # Install dependencies
 npm install
 
@@ -63,47 +67,63 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### 3. (Optional) Add data from the Data Crawler
-If you want to expand the tree data yourself using AI:
+Browsing the tree works with no configuration (the tree data is static JSON). The
+"Suggest a Path" / "Edit Node" forms and the homepage counters additionally need a
+Supabase project — create `career-tree/.env.local` with:
+```env
+SUPABASE_URL=https://<your-project>.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=<secret key — server-side only>
+```
+and run `career-tree/supabase/schema.sql` once in the Supabase SQL editor to create
+the `suggestions` and `edits` tables.
 
-1.  Navigate to the scripts folder (or wherever you placed the python script).
-2.  Create a `.env` file and add your key:
+### 3. (Optional) Add data from the Data Crawler
+If you want to expand the tree data yourself using AI (scripts live at the repo root):
+
+1.  Create a `.env` file at the repo root and add your key:
     ```env
     GEMINI_API_KEY=your_actual_api_key_here
     ```
-3.  Install Python requirements:
+2.  Install Python requirements:
     ```bash
-    pip install google-genai pydantic python-dotenv networkx
+    pip install google-genai pydantic python-dotenv networkx pyvis
     ```
-4. 
-5.  Run the crawler:
+3.  Run the crawler:
     ```bash
-    python generate_tree_gemini.py --node <new node path you want to add>
+    python generate_tree_gemini.py --node "<node path you want to expand>"
     ```
-    *This will update `src/data/career_tree_data.json`, and you can make a pull request with this new file.*
+    *This updates `career_tree_data.json` at the repo root; copy it (and `metadata.json`
+    after running `generate_metadata_gemini.py`) into `career-tree/data/` and make a
+    pull request.*
 
 ---
 
 ## 📂 Project Structure
 
 ```
-career-tree/
-├── public/
-├── src/
+.
+├── career-tree/                  # The Next.js web app
 │   ├── app/
-│   │   ├── api/            # Serverless functions for Forms
-│   │   ├── explore/        # Dynamic Route [slug] for the Focus View
-│   │   ├── map/            # The Global Graph View
-│   │   └── page.tsx        # Landing Page
-│   ├── components/         # Reusable UI (NodeCard, Modals)
+│   │   ├── api/                  # Route handlers: /api/suggest, /api/edit → Supabase
+│   │   ├── explore/[...slug]/    # Focus View (dynamic route)
+│   │   ├── map/                  # The Global Graph View
+│   │   └── page.tsx              # Landing page (live stats from Supabase)
+│   ├── components/               # Reusable UI (NodeCard, Modals)
 │   ├── data/
-│   │   ├── career_tree_data.json  # The Main Database (Read Only)
-│   │   ├── suggestions.json       # User submissions (Write)
-│   │   └── edits.json             # User edit requests (Write)
-│   └── lib/
-│       └── treeUtils.ts    # Graph logic & Slug helpers
-└── generate_tree_gemini.py # The AI Crawler Script
+│   │   ├── career_tree_data.json # The tree itself (static, read-only)
+│   │   └── metadata.json         # Rich per-node metadata
+│   ├── lib/
+│   │   ├── treeUtils.ts          # Graph logic & slug helpers
+│   │   └── supabase.ts           # Server-side Supabase client
+│   └── supabase/schema.sql       # DDL for the suggestions/edits tables
+├── generate_tree_gemini.py       # AI crawler (expands the tree)
+├── generate_metadata_gemini.py   # AI enrichment (fills metadata.json)
+└── visualise_tree.py             # pyvis debug view -> career_map.html
 ```
+
+User submissions are stored in Supabase (`suggestions` and `edits` tables) and merged
+into the JSON after an AI + human review; rows are kept forever with a
+`pending_review` / `approved` / `rejected` status.
 
 ---
 
@@ -112,10 +132,13 @@ career-tree/
 We believe career data should be a public good, not a trade secret.
 
 **How to contribute:**
-1.  **Code:** Fork the repo, make feature updates (e.g., migrating JSON storage to a Database), and submit a PR.
-2.  **Data:** Use the website's "Suggest" feature to add missing niches, or edit `src/data/career_tree_data.json` directly and submit a PR.
+1.  **Code:** Fork the repo, make feature updates, and submit a PR.
+2.  **Data:** Use the website's "Suggest" / "Edit" features to add missing niches, or edit `career-tree/data/career_tree_data.json` directly and submit a PR.
 
+## 📝 Update Log
 
+*   **2026-07-02** — Migrated crowdsourcing storage from MongoDB (Mongoose) to Supabase (Postgres). Homepage community stats are now counted live from Supabase (all submissions, any status) instead of a static `stats.json`; submissions are never deleted, only flipped between `pending_review`/`approved`/`rejected`.
+*   **2025-12-14** — Initial public release: Next.js app + Gemini data pipeline.
 
 ## 📄 License
 
