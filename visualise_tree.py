@@ -70,17 +70,17 @@ def visualize_interactive():
 
     # --- PASS 2: ADD EDGES (AND HANDLE MISSING CHILDREN) ---
     missing_nodes_count = 0
-    
+
+    # Snapshot the node IDs once as a set — calling net.get_nodes() (a full list)
+    # per child makes this pass quadratic.
+    existing_nodes = set(net.get_nodes())
+
     for path, info in data.items():
         children = info.get('children', [])
-        
+
         for child in children:
             child_full_path = f"{path}/{child}"
-            
-            # Check if this child actually exists in our network (added in Pass 1)
-            # The get_nodes() method returns a list of IDs
-            existing_nodes = net.get_nodes()
-            
+
             if child_full_path in existing_nodes:
                 # Normal connection
                 net.add_edge(path, child_full_path)
@@ -97,6 +97,7 @@ def visualize_interactive():
                     title="Data not yet generated for this node."
                 )
                 net.add_edge(path, child_full_path)
+                existing_nodes.add(child_full_path)
                 missing_nodes_count += 1
 
     print(f"\nGraph generated successfully!")
