@@ -1,20 +1,27 @@
 import Link from "next/link";
 import { ArrowRight, GitFork, Users, Database, Globe } from "lucide-react";
-import fs from "fs/promises";
-import path from "path";
+import { getSupabase } from "@/lib/supabase";
+
+// Re-render the page (and refresh the counters) at most every 5 minutes
+export const revalidate = 300;
 
 async function getStats() {
   try {
-    const filePath = path.join(process.cwd(), "data", "stats.json");
-    const file = await fs.readFile(filePath, "utf-8");
-    const data = JSON.parse(file);
+    const supabase = getSupabase();
+    const [suggestions, edits] = await Promise.all([
+      supabase.from("suggestions").select("*", { count: "exact", head: true }),
+      supabase.from("edits").select("*", { count: "exact", head: true }),
+    ]);
+
+    if (suggestions.error) throw suggestions.error;
+    if (edits.error) throw edits.error;
 
     return {
-      suggestions: data.suggestions ?? 0,
-      edits: data.edits ?? 0,
+      suggestions: suggestions.count ?? 0,
+      edits: edits.count ?? 0,
     };
   } catch (error) {
-    console.error("Failed to read stats file:", error);
+    console.error("Failed to fetch stats from Supabase:", error);
     return { suggestions: 0, edits: 0 };
   }
 }
