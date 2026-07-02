@@ -1,6 +1,5 @@
 "use client";
 import { X, CheckCircle, Loader2, AlertCircle, AlertTriangle } from "lucide-react";
-import { set } from "mongoose";
 import { useState } from "react";
 
 interface ModalProps {

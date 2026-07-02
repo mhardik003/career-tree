@@ -2,7 +2,6 @@
 import { X, CheckCircle, Loader2, Save, AlertCircle, AlertTriangle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { NodeMetadata } from "@/lib/treeUtils";
-import { set } from "mongoose";
 
 interface EditModalProps {
   isOpen: boolean;

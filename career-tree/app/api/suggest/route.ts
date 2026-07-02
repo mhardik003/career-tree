@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-import dbConnect from '@/lib/db';
-import Suggestion from '@/models/Suggestion';
+import { getSupabase } from '@/lib/supabase';
 import { z } from 'zod';
 import { checkRateLimit } from '@/lib/rateLimit';
 
@@ -16,45 +15,39 @@ const suggestSchema = z.object({
 export async function POST(request: Request) {
   try {
 
-
     // Check rate limit
-      const allowed = await checkRateLimit();
-      if (!allowed) {
-        return NextResponse.json({ success: false, message: "Too many requests. Slow down." }, { status: 429 });
-      }
+    const allowed = await checkRateLimit();
+    if (!allowed) {
+      return NextResponse.json({ success: false, message: "Too many requests. Slow down." }, { status: 429 });
+    }
 
+    const body = await request.json();
 
-
-
-      
-      const body = await request.json();
-      
-      
-      
-      
-      // 2. Validate
-      const result = suggestSchema.safeParse(body);
-      if (!result.success) {
-        // Return exact error to help debugging (or just generic 400)
-        return NextResponse.json({ 
-          success: false, 
-          message: "Invalid input", 
-          errors: result.error.flatten() 
-        }, { status: 400 });
-      }
-      
-    // 1. Connect to DB
-    await dbConnect();
+    // Validate
+    const result = suggestSchema.safeParse(body);
+    if (!result.success) {
+      // Return exact error to help debugging (or just generic 400)
+      return NextResponse.json({
+        success: false,
+        message: "Invalid input",
+        errors: result.error.flatten()
+      }, { status: 400 });
+    }
 
     const cleanData = result.data; // Use the sanitized data
 
-    // 3. Create entry in MongoDB
-    await Suggestion.create({
-        parent_path: cleanData.parentPath,
-        suggested_name: cleanData.title,
-        suggested_description: cleanData.description,
-        status: 'pending_review'
+    // Create entry in Supabase
+    const supabase = getSupabase();
+    const { error } = await supabase.from('suggestions').insert({
+      parent_path: cleanData.parentPath,
+      suggested_name: cleanData.title,
+      suggested_description: cleanData.description,
+      status: 'pending_review'
     });
+
+    if (error) {
+      throw error;
+    }
 
     return NextResponse.json({ success: true, message: "Suggestion saved to Database!" });
 
