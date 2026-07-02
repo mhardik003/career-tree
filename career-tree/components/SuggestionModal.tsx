@@ -1,6 +1,6 @@
 "use client";
 import { X, CheckCircle, Loader2, AlertCircle, AlertTriangle } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface ModalProps {
   isOpen: boolean;
@@ -20,6 +20,16 @@ export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, pare
     title: "",
     description: ""
   });
+
+  // Close on Escape key
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -76,7 +86,10 @@ export default function SuggestionModal({ isOpen, onClose, parentNodeTitle, pare
   };
 
   return (
-    <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 backdrop-blur-sm animate-in fade-in duration-200">
+    <div
+      className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 backdrop-blur-sm animate-in fade-in duration-200"
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+    >
       <div className="bg-white rounded-xl shadow-2xl w-full max-w-md p-6 border border-black relative">
         
         <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-black">

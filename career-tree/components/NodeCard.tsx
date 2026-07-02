@@ -60,7 +60,7 @@ export default function NodeCard({ title, description, href, type, metadata, ric
         </h3>
 
         {/* EXPAND BUTTON (Only visible on Current Node) */}
-        {isCurrent && (
+        {isCurrent && richMetadata && (
           <button 
             onClick={toggleExpand}
             className="p-1 hover:bg-gray-100 rounded-full transition-colors focus:outline-none"
@@ -107,16 +107,6 @@ export default function NodeCard({ title, description, href, type, metadata, ric
                       <span className="font-bold">Avg Cost:</span> 
                       {richMetadata.avg_cost_inr || "Variable"}
                     </div>
-                    {/* {richMetadata.duration_years && (
-                      <>
-                        <div className="hidden md:block w-px bg-gray-300 h-full mx-2"></div>
-                        <div className="flex items-center gap-2">
-                          <Clock size={16} className="text-orange-600" />
-                          <span className="font-bold">Duration:</span> 
-                          {richMetadata.duration_years}
-                        </div>
-                      </>
-                    )} */}
                   </div>
 
                   {/* 2. EXAMS */}

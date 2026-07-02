@@ -69,6 +69,16 @@ const listToStr = (list: string[] | null | undefined) => list ? list.join("; ") 
     }
   }, [isOpen, basicData, richData]);
 
+  // Close on Escape key
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   // Helper: Convert semicolon-separated string back to Array
@@ -144,14 +154,18 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
     }
     
     catch (error) {
-      alert("Network error. Please check your connection.");
+      setError("Network error. Please check your connection.");
+      setIsWarning(false);
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm animate-in fade-in duration-200">
+    <div
+      className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm animate-in fade-in duration-200"
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+    >
       <div className="bg-white rounded-xl shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col border border-black relative">
         
         {/* HEADER */}
