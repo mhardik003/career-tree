@@ -34,7 +34,8 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
     avg_cost_inr: "",
     duration_years: "",
     
-    // Rich (Lists - stored as comma-separated strings for editing)
+    // Rich (Lists - stored as semicolon-separated strings for editing;
+    // items themselves may contain commas, so ";" is the only safe separator)
     exams_to_give: "",
     certifications: "",
     qualifications_needed: "",
@@ -43,7 +44,7 @@ export default function EditModal({ isOpen, onClose, nodeKey, basicData, richDat
     real_life_applications: ""
   });
 
-  // Helper: Convert Array to CSV String
+  // Helper: Convert Array to semicolon-separated string
 const listToStr = (list: string[] | null | undefined) => list ? list.join("; ") : "";
 
   // Populate form on open
@@ -70,7 +71,7 @@ const listToStr = (list: string[] | null | undefined) => list ? list.join("; ") 
 
   if (!isOpen) return null;
 
-  // Helper: Convert CSV String back to Array
+  // Helper: Convert semicolon-separated string back to Array
 const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s => s.length > 0);
 
 
@@ -256,7 +257,7 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
               {/* SECTION 3: LISTS */}
               <div className="space-y-4">
                 <div className="flex items-center justify-between border-b pb-1">
-                  <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest">Details (Comma Separated)</h3>
+                  <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest">Details (Semicolon Separated)</h3>
                   <span className="text-[10px] text-gray-400 flex items-center gap-1">
                     <AlertCircle size={10} /> Separate items with semicolons (;)
                   </span>
@@ -265,7 +266,7 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
                 <div>
                   <label className="label">Entrance Exams</label>
                   <input 
-                    placeholder="JEE, BITSAT, VITEEE"
+                    placeholder="JEE; BITSAT; VITEEE"
                     value={formData.exams_to_give}
                     onChange={e => setFormData({...formData, exams_to_give: e.target.value})}
                     className="input-field" 
@@ -275,7 +276,7 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
                 <div>
                   <label className="label">Qualifications Needed</label>
                   <input 
-                    placeholder="Class 12th Science, 50% Aggregate"
+                    placeholder="Class 12th Science; 50% Aggregate"
                     value={formData.qualifications_needed}
                     onChange={e => setFormData({...formData, qualifications_needed: e.target.value})}
                     className="input-field" 
@@ -285,7 +286,7 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
                 <div>
                   <label className="label">Top Colleges / Companies</label>
                   <textarea 
-                    placeholder="IIT Bombay, NIT Trichy, Google, Microsoft"
+                    placeholder="IIT Bombay; NIT Trichy; Google; Microsoft"
                     value={formData.top_colleges_or_companies}
                     onChange={e => setFormData({...formData, top_colleges_or_companies: e.target.value})}
                     className="input-field h-16" 
@@ -296,7 +297,7 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
                    <div>
                     <label className="label">Certifications</label>
                     <textarea 
-                      placeholder="AWS, CFA Level 1"
+                      placeholder="AWS; CFA Level 1"
                       value={formData.certifications}
                       onChange={e => setFormData({...formData, certifications: e.target.value})}
                       className="input-field h-20" 
@@ -305,7 +306,7 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
                    <div>
                     <label className="label">Tools & Resources</label>
                     <textarea 
-                      placeholder="VS Code, Coursera, Khan Academy"
+                      placeholder="VS Code; Coursera; Khan Academy"
                       value={formData.tools_and_resources}
                       onChange={e => setFormData({...formData, tools_and_resources: e.target.value})}
                       className="input-field h-20" 
@@ -316,7 +317,7 @@ const strToList = (str: string) => str.split(";").map(s => s.trim()).filter(s =>
                  <div>
                     <label className="label">Real Life Applications</label>
                     <input 
-                      placeholder="Building bridges, Developing apps"
+                      placeholder="Building bridges; Developing apps"
                       value={formData.real_life_applications}
                       onChange={e => setFormData({...formData, real_life_applications: e.target.value})}
                       className="input-field" 

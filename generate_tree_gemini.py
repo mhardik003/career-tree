@@ -7,10 +7,12 @@ from typing import List, Optional
 # import google.generativeai as genai
 from google import genai
 from pydantic import BaseModel, Field
+from dotenv import load_dotenv
 
 # --- CONFIGURATION ---
-API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
-# genai.configure(api_key=API_KEY)
+load_dotenv()
+API_KEY = os.getenv("GEMINI_API_KEY")
+if not API_KEY: raise ValueError("GEMINI_API_KEY missing.")
 
 # File to save progress (so you can stop/start script without losing data)
 OUTPUT_FILE = "career_tree_data.json"
