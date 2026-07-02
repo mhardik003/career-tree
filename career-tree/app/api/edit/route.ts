@@ -36,9 +36,12 @@ export const EditSubmissionSchema = z.object({
 export async function POST(request: Request) {
   try {
 
-    const allowed = await checkRateLimit();
+    const allowed = checkRateLimit(request);
     if (!allowed) {
-      return NextResponse.json({ success: false, message: "Too many requests. Slow down." }, { status: 429 });
+      return NextResponse.json(
+        { success: false, message: "Too many requests. Slow down." },
+        { status: 429, headers: { "Retry-After": "60" } }
+      );
     }
 
     const body = await request.json();

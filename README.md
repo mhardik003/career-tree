@@ -137,6 +137,7 @@ We believe career data should be a public good, not a trade secret.
 
 ## 📝 Update Log
 
+*   **2026-07-02** — Fixed the suggest/edit API rate limiter: it was one global bucket shared by all visitors (7 requests/min site-wide); it now limits per client IP (5 requests/min, `Retry-After` on 429) with no external dependency — the `limiter` package is gone.
 *   **2026-07-02** — Moved the tree data server-side: explore and map are now server components, so the ~5.4MB JSON bundle no longer ships to the browser and the dagre map layout runs at build time. All 2,703 node pages are statically generated with per-node titles/descriptions; added `sitemap.xml`, `robots.txt`, and real HTTP 404s for unknown paths.
 *   **2026-07-02** — Migrated crowdsourcing storage from MongoDB (Mongoose) to Supabase (Postgres). Homepage community stats are now counted live from Supabase (all submissions, any status) instead of a static `stats.json`; submissions are never deleted, only flipped between `pending_review`/`approved`/`rejected`.
 *   **2025-12-14** — Initial public release: Next.js app + Gemini data pipeline.
