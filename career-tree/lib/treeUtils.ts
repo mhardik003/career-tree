@@ -135,6 +135,8 @@ export const getGraphData = (): { nodes: GraphNode[]; edges: GraphEdge[] } => {
   return { nodes: layoutedNodes, edges };
 };
 
+export const getNodeByKey = (key: string): CareerNode | undefined => fullData[key];
+
 export const getMetadataForKey = (key: string): NodeMetadata | null => {
   return fullMetadata[key] || null;
 };

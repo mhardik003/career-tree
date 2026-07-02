@@ -1,15 +1,9 @@
 import { NextResponse } from 'next/server';
 import { getSupabase } from '@/lib/supabase';
-import { z } from 'zod';
 import { checkRateLimit } from '@/lib/rateLimit';
-
-
-// Define the Schema
-const suggestSchema = z.object({
-  title: z.string().min(5).max(50).trim(), // Must be 5-50 chars
-  description: z.string().min(10).max(500).trim(), // Prevent massive text
-  parentPath: z.string().min(1)
-});
+import { SuggestionSchema } from '@/lib/schemas';
+import { getNodeByKey } from '@/lib/treeUtils';
+import { slugify } from '@/lib/slugify';
 
 
 export async function POST(request: Request) {
@@ -24,10 +18,18 @@ export async function POST(request: Request) {
       );
     }
 
-    const body = await request.json();
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json(
+        { success: false, message: "Request body must be valid JSON." },
+        { status: 400 }
+      );
+    }
 
     // Validate
-    const result = suggestSchema.safeParse(body);
+    const result = SuggestionSchema.safeParse(body);
     if (!result.success) {
       // Return exact error to help debugging (or just generic 400)
       return NextResponse.json({
@@ -38,6 +40,23 @@ export async function POST(request: Request) {
     }
 
     const cleanData = result.data; // Use the sanitized data
+
+    const parent = getNodeByKey(cleanData.parentPath);
+    if (!parent) {
+      return NextResponse.json(
+        { success: false, message: "Unknown parent path — this node doesn't exist in the tree." },
+        { status: 400 }
+      );
+    }
+
+    // Slug comparison, matching how URLs resolve: "AI ML" duplicates "AI | ML"
+    const titleSlug = slugify(cleanData.title);
+    if (parent.children.some((child) => slugify(child) === titleSlug)) {
+      return NextResponse.json(
+        { success: false, message: `"${cleanData.title}" already exists under this node.` },
+        { status: 409 }
+      );
+    }
 
     // Create entry in Supabase
     const supabase = getSupabase();

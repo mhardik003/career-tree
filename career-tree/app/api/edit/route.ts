@@ -1,36 +1,8 @@
 import { NextResponse } from 'next/server';
 import { getSupabase } from '@/lib/supabase';
-import { z } from "zod";
 import { checkRateLimit } from '@/lib/rateLimit';
-
-
-// Define the shape of the data inside "newData"
-// .trim() removes whitespace, .max() prevents database spam
-export const NodeDataSchema = z.object({
-  node_title: z.string().min(3, "Title is required").max(100).trim(),
-  description: z.string().min(1, "Description is required").max(2000).trim(),
-  difficulty_rating: z.number().min(1).max(10),
-
-  avg_cost_inr: z.string().max(100).trim().optional(),
-  duration_years: z.string().max(100).trim().optional(),
-
-  // Validate arrays of strings
-  exams_to_give: z.array(z.string().trim()).optional().nullable(),
-  certifications: z.array(z.string().trim()).optional().nullable(),
-  qualifications_needed: z.array(z.string().trim()).optional().nullable(),
-  top_colleges_or_companies: z.array(z.string().trim()).optional().nullable(),
-  tools_and_resources: z.array(z.string().trim()).optional().nullable(),
-  real_life_applications: z.array(z.string().trim()).optional().nullable(),
-});
-
-// Define the full API Request body
-export const EditSubmissionSchema = z.object({
-  nodeKey: z.string().min(1),
-  // We utilize .passthrough() or .any() for originalData as we just store it as a snapshot
-  // But strict validation is better if you know the exact shape
-  originalData: NodeDataSchema,
-  newData: NodeDataSchema,
-});
+import { EditSubmissionSchema } from '@/lib/schemas';
+import { getNodeByKey } from '@/lib/treeUtils';
 
 
 export async function POST(request: Request) {
@@ -44,7 +16,15 @@ export async function POST(request: Request) {
       );
     }
 
-    const body = await request.json();
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json(
+        { success: false, message: "Request body must be valid JSON." },
+        { status: 400 }
+      );
+    }
 
     const validation = EditSubmissionSchema.safeParse(body);
 
@@ -58,6 +38,13 @@ export async function POST(request: Request) {
 
     // Data is clean, proceed to DB
     const { nodeKey, originalData, newData } = validation.data;
+
+    if (!getNodeByKey(nodeKey)) {
+      return NextResponse.json(
+        { success: false, message: "Unknown node key — this node doesn't exist in the tree." },
+        { status: 400 }
+      );
+    }
 
     const supabase = getSupabase();
     const { error } = await supabase.from('edits').insert({
