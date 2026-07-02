@@ -26,6 +26,8 @@ interface NodeCardProps {
 export default function NodeCard({ title, description, href, type, metadata, richMetadata, onClick }: NodeCardProps) {
   const isCurrent = type === "current";
   const isSuggestion = type === "suggestion";
+  // The current node's title is the page's single <h1>; other cards stay <h3>
+  const TitleTag = isCurrent ? "h1" : "h3";
   
   // State for the dropdown
   const [isExpanded, setIsExpanded] = useState(false);
@@ -55,9 +57,9 @@ export default function NodeCard({ title, description, href, type, metadata, ric
 
       {/* HEADER ROW */}
       <div className={cn("flex justify-between items-start", isSuggestion && "justify-center w-full")}>
-        <h3 className={cn("font-bold font-mono", isCurrent ? "text-2xl" : "text-sm", isSuggestion && "text-center")}>
+        <TitleTag className={cn("font-bold font-mono", isCurrent ? "text-2xl" : "text-sm", isSuggestion && "text-center")}>
           {isSuggestion ? "+ Suggest a Path" : title}
-        </h3>
+        </TitleTag>
 
         {/* EXPAND BUTTON (Only visible on Current Node) */}
         {isCurrent && richMetadata && (

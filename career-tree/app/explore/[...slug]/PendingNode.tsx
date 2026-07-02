@@ -13,7 +13,7 @@ export default function PendingNode({ name, parentTitle }: PendingNodeProps) {
         <div className="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mx-auto mb-4">
           <Construction className="text-yellow-600" />
         </div>
-        <h2 className="text-xl font-bold font-mono mb-2">{name}</h2>
+        <h1 className="text-xl font-bold font-mono mb-2">{name}</h1>
         <p className="text-gray-600 mb-6">
           We know this path exists under <span className="font-semibold">{parentTitle}</span>,
           but our AI hasn&apos;t mapped the details for it yet.

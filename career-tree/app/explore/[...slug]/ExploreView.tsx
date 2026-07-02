@@ -9,6 +9,27 @@ import { CheckCircle, Edit3, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
+// Prose list of child names: first 6 joined with ", "/" and ", overflow as ", and N more".
+// Plain string join (no Intl.ListFormat) so server and client render identically.
+function listChildren(names: string[]): string {
+  const shown = names.slice(0, 6);
+  const rest = names.length - shown.length;
+  if (rest > 0) return `${shown.join(", ")}, and ${rest} more`;
+  if (shown.length === 1) return shown[0];
+  return `${shown.slice(0, -1).join(", ")} and ${shown[shown.length - 1]}`;
+}
+
+// "How to become a/an {title}" for role-like leaves; plural/collective titles
+// ("Core Engineering Jobs", "Civil Services (UPSC)") fall back to "How to get into".
+function leafHeading(title: string): string {
+  const base = title.replace(/\s*\([^)]*\)\s*$/, "").trim();
+  const words = base.split(/\s+/);
+  const last = (words[words.length - 1] || "").toLowerCase();
+  if (last.endsWith("s") && !last.endsWith("ss")) return `How to get into ${title}`;
+  const article = /^[aeiou]/i.test(title) ? "an" : "a";
+  return `How to become ${article} ${title}`;
+}
+
 interface ExploreViewProps {
   nodeKey: string;
   node: {
@@ -109,9 +130,11 @@ export default function ExploreView({ nodeKey, node, parentTitle, richMetadata, 
              <div className="h-8 w-px bg-green-500 mb-4"></div>
              <div className="bg-green-50 border border-green-200 p-6 rounded-xl max-w-sm">
                 <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-3" />
-                <h3 className="font-bold text-green-900 mb-1">Career Destination</h3>
+                <p className="font-mono text-xs uppercase tracking-widest text-green-700 mb-1">Career Destination</p>
+                <h2 className="font-bold text-green-900 mb-1">{leafHeading(node.node_title)}</h2>
                 <p className="text-green-800 text-sm">
-                  This is a leaf. You have reached a specific job role or specialization. Maybe time to relax a little bit in life :D
+                  {node.node_title} is a specific job role or specialization — a career destination in this tree.
+                  {richMetadata && " Typical routes, entrance exams, qualifications, costs, and top colleges or companies are detailed in the card above."}
                 </p>
              </div>
              <div className="mt-6">
@@ -126,9 +149,15 @@ export default function ExploreView({ nodeKey, node, parentTitle, richMetadata, 
           <div className="w-full mt-8">
             <div className="flex items-center justify-center gap-2 mb-6 opacity-50">
               <div className="h-px w-10 bg-black"></div>
-              <span className="font-mono text-xs uppercase tracking-widest">Opportunities</span>
+              <h2 className="font-mono text-xs uppercase tracking-widest">Career options after {node.node_title}</h2>
               <div className="h-px w-10 bg-black"></div>
             </div>
+
+            <p className="text-sm text-gray-500 text-center max-w-2xl mx-auto mb-6">
+              {node.children.length === 1
+                ? `After completing ${node.node_title}, the typical next step is ${node.children[0]}.`
+                : `After completing ${node.node_title}, students typically pursue one of ${node.children.length} paths: ${listChildren(node.children)}.`}
+            </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
               <div className="absolute -top-6 left-1/2 w-px h-6 bg-black/20 -translate-x-1/2 hidden md:block"></div>
