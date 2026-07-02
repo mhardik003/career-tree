@@ -137,6 +137,7 @@ We believe career data should be a public good, not a trade secret.
 
 ## 📝 Update Log
 
+*   **2026-07-03** — The crawler's fresh-start seed node was `"10th Class (India)"`, which doesn't match the actual tree root `"10th Class"` — a from-scratch run would have grown a second, divergent root. It now seeds `"10th Class"`.
 *   **2026-07-03** — Fixed `generate_metadata_gemini.py`'s single-node helper storing metadata under the node title instead of the full path key (making it invisible to the app), and exposed it as `--node "<full path>"` to regenerate one node's metadata.
 *   **2026-07-02** — Shrunk the site icons: all five copies of the logo (favicon, app icons, header logo, README logo) were the full 1.9MB 1024×1024 PNG — ~10MB served with every first visit. They are now properly sized (32px favicon, 180px apple-touch, 64px header, multi-size `.ico`), ~52KB in total.
 *   **2026-07-02** — Pipeline scripts (`generate_tree_gemini.py`, `generate_metadata_gemini.py`, `visualise_tree.py`) now read/write `career-tree/data/` directly — the files the app actually serves — instead of dumping to the current working directory, where generated data was invisible to the site and the crawler couldn't resume from existing data. Paths are anchored to the script location, so they work from any cwd.

@@ -114,7 +114,7 @@ def build_career_tree(new_node=None):
 
     # START FRESH if empty
     if not tree_store and len(queue)==0:
-        start_node = "10th Class (India)"
+        start_node = "10th Class"
         queue.append(start_node)
         queued_items.add(start_node)
     else:
