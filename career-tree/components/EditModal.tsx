@@ -1,7 +1,7 @@
 "use client";
 import { X, CheckCircle, Loader2, Save, AlertCircle, AlertTriangle } from "lucide-react";
 import { useState, useEffect } from "react";
-import { NodeMetadata } from "@/lib/treeUtils";
+import type { NodeMetadata } from "@/lib/types";
 
 interface EditModalProps {
   isOpen: boolean;

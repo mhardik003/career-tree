@@ -7,8 +7,7 @@ import {
   BookOpen, Award, IndianRupee, Wrench, BadgeCheck, Building2, Lightbulb, 
 } from "lucide-react";
 import { useState } from "react";
-// Import the type we defined in treeUtils
-import { NodeMetadata } from "../lib/treeUtils"; 
+import type { NodeMetadata } from "@/lib/types";
 
 interface NodeCardProps {
   title: string;
