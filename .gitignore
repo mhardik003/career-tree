@@ -13,6 +13,10 @@ BUGS.md
 BUGS_CLAUDE.md
 fetch_check_edits.py
 
+# --- Generated artifacts (pyvis output from visualise_tree.py) ---
+/career_map.html
+/lib/
+
 # --- User Data (Do not commit these!) ---
 # You don't want to upload the random test suggestions you made
 career-tree/data/suggestions.json
