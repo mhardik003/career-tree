@@ -12,6 +12,26 @@ export const metadata: Metadata = {
   title: "Career Tree – Open Source Career Intelligence",
   description:
     "Visualize career paths, prerequisites, and opportunities in the Indian education system using open source career intelligence.",
+  openGraph: {
+    siteName: "Career Tree",
+    type: "website",
+    url: "/",
+    title: "Career Tree – Open Source Career Intelligence",
+    description:
+      "Visualize career paths, prerequisites, and opportunities in the Indian education system using open source career intelligence.",
+    // Rendered by app/og/route.tsx; node pages override with /og/<slugs>.
+    images: [
+      {
+        url: "/og",
+        width: 1200,
+        height: 630,
+        alt: "Career Tree – Open Source Career Intelligence",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

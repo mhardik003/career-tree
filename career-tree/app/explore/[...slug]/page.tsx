@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { findNodeBySlug, getMetadataForKey, getAllNodeSlugs, getCanonicalInfo } from "@/lib/treeUtils";
+import { findNodeBySlug, getMetadataForKey, getAllNodeSlugs, getCanonicalInfo, getBreadcrumbTrail } from "@/lib/treeUtils";
+import { BASE_URL } from "@/lib/site";
 import ExploreView from "./ExploreView";
 import PendingNode from "./PendingNode";
 
@@ -37,7 +38,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description,
     keywords: data.search_keywords,
     alternates: { canonical: canonicalPath },
-    openGraph: { title, description, url: canonicalPath },
+    // Page-level openGraph replaces the root layout's object wholesale (no deep
+    // merge), so siteName/type must be repeated here.
+    openGraph: {
+      title,
+      description,
+      url: canonicalPath,
+      siteName: 'Career Tree',
+      type: 'website',
+      // Per-node card rendered on demand by app/og/[...slug]/route.tsx.
+      images: [{ url: `/og/${slug.join('/')}`, width: 1200, height: 630, alt: title }],
+    },
   };
 }
 
@@ -49,26 +60,62 @@ export default async function ExplorePage({ params }: { params: Promise<{ slug: 
   if (result.status === '404') notFound();
 
   if (result.status === 'pending') {
-    return <PendingNode name={result.name} parentTitle={result.parent.data.node_title} />;
+    // No JSON-LD here: pending pages are noindexed, the breadcrumb is UX only.
+    return (
+      <PendingNode
+        name={result.name}
+        parentTitle={result.parent.data.node_title}
+        ancestors={getBreadcrumbTrail(result.parent.key, slug.slice(0, -1))}
+      />
+    );
   }
 
   const { key, data, parent } = result;
 
+  // Root→current trail; the last crumb is the current page itself.
+  const trail = getBreadcrumbTrail(key, slug);
+
+  // BreadcrumbList JSON-LD for SERP breadcrumb display. Absolute URLs are required:
+  // JSON-LD lives outside the Metadata API, so metadataBase does not apply here.
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${BASE_URL}/` },
+      ...trail.map((crumb, i) => ({
+        "@type": "ListItem",
+        position: i + 2,
+        name: crumb.title,
+        item: `${BASE_URL}${crumb.href}`,
+      })),
+    ],
+  };
+
   return (
-    <ExploreView
-      nodeKey={key}
-      node={{
-        node_title: data.node_title,
-        description: data.description,
-        avg_duration_years: data.avg_duration_years,
-        difficulty_rating: data.difficulty_rating,
-        is_terminal: data.is_terminal,
-        children: data.children,
-        search_keywords: data.search_keywords,
-      }}
-      parentTitle={parent?.data.node_title ?? null}
-      richMetadata={getMetadataForKey(key)}
-      slugs={slug}
-    />
+    <>
+      {/* Escaped `<` guards against </script> breakout, since names come from data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <ExploreView
+        nodeKey={key}
+        node={{
+          node_title: data.node_title,
+          description: data.description,
+          avg_duration_years: data.avg_duration_years,
+          difficulty_rating: data.difficulty_rating,
+          is_terminal: data.is_terminal,
+          children: data.children,
+          search_keywords: data.search_keywords,
+        }}
+        parentTitle={parent?.data.node_title ?? null}
+        richMetadata={getMetadataForKey(key)}
+        slugs={slug}
+        ancestors={trail.slice(0, -1)}
+      />
+    </>
   );
 }

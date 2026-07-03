@@ -3,7 +3,7 @@ import treeData from '../data/career_tree_data.json';
 import metadataJson from '../data/metadata.json';
 import dagre from 'dagre';
 import { slugify } from './slugify';
-import type { CareerNode, NodeMetadata, GraphNode, GraphEdge } from './types';
+import type { CareerNode, NodeMetadata, GraphNode, GraphEdge, BreadcrumbItem } from './types';
 
 export type { CareerNode, NodeMetadata } from './types';
 
@@ -136,6 +136,17 @@ export const getGraphData = (): { nodes: GraphNode[]; edges: GraphEdge[] } => {
 };
 
 export const getNodeByKey = (key: string): CareerNode | undefined => fullData[key];
+
+// Root→node breadcrumb trail, inclusive of the node itself. `key` and `slugs` must
+// describe the same path (as returned by findNodeBySlug), one slug per key segment.
+// Every ancestor prefix of a found key is guaranteed present; `?? segment` is defensive only.
+export const getBreadcrumbTrail = (key: string, slugs: string[]): BreadcrumbItem[] => {
+  const segments = key.split('/');
+  return segments.map((segment, i) => ({
+    title: getNodeByKey(segments.slice(0, i + 1).join('/'))?.node_title ?? segment,
+    href: '/explore/' + slugs.slice(0, i + 1).join('/'),
+  }));
+};
 
 export const getMetadataForKey = (key: string): NodeMetadata | null => {
   return fullMetadata[key] || null;

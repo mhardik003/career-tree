@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
 import { slugify } from "@/lib/slugify";
-import type { NodeMetadata } from "@/lib/types";
+import type { BreadcrumbItem, NodeMetadata } from "@/lib/types";
 import NodeCard from "@/components/NodeCard";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import SuggestionModal from "@/components/SuggestionModal";
 import EditModal from "@/components/EditModal";
 import { CheckCircle, Edit3, ArrowLeft } from "lucide-react";
@@ -44,9 +45,10 @@ interface ExploreViewProps {
   parentTitle: string | null;
   richMetadata: NodeMetadata | null;
   slugs: string[];
+  ancestors: BreadcrumbItem[];
 }
 
-export default function ExploreView({ nodeKey, node, parentTitle, richMetadata, slugs }: ExploreViewProps) {
+export default function ExploreView({ nodeKey, node, parentTitle, richMetadata, slugs, ancestors }: ExploreViewProps) {
   const [showModal, setShowModal] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
 
@@ -100,7 +102,10 @@ export default function ExploreView({ nodeKey, node, parentTitle, richMetadata, 
 
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 flex flex-col items-center mt-8"></div>
+      {/* FULL-ANCESTRY BREADCRUMB */}
+      <div className="max-w-4xl mx-auto px-4 flex flex-col items-center mt-8 w-full">
+        <Breadcrumbs items={ancestors} current={node.node_title} />
+      </div>
 
 
         {/* PARENT NODE */}

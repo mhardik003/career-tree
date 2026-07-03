@@ -20,6 +20,13 @@ export type NodeMetadata = {
   real_life_applications:string[] | null;
 };
 
+// One crumb of a node page's ancestry trail. Lives here (not treeUtils) so client
+// components can import the type without pulling in the server-only module.
+export type BreadcrumbItem = {
+  title: string;
+  href: string;
+};
+
 // Lean wire format for the global map: computed server-side, rendered client-side.
 // Numeric string ids keep the payload small (full path keys average ~190 chars).
 export type GraphNode = {

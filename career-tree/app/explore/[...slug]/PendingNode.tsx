@@ -1,14 +1,18 @@
 "use client";
 import { Construction } from "lucide-react";
+import type { BreadcrumbItem } from "@/lib/types";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 interface PendingNodeProps {
   name: string;
   parentTitle: string;
+  ancestors?: BreadcrumbItem[];
 }
 
-export default function PendingNode({ name, parentTitle }: PendingNodeProps) {
+export default function PendingNode({ name, parentTitle, ancestors }: PendingNodeProps) {
   return (
-    <div className="min-h-screen bg-neutral-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-neutral-50 flex flex-col items-center justify-center p-4">
+      {ancestors && <Breadcrumbs items={ancestors} current={name} />}
       <div className="max-w-md w-full bg-white border border-dashed border-gray-400 p-8 rounded-xl text-center">
         <div className="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mx-auto mb-4">
           <Construction className="text-yellow-600" />
