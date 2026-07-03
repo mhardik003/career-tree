@@ -62,7 +62,18 @@ def generate_metadata(node_title, description):
         return None
 
 
+def _check_freeze():
+    """v2 migration freeze: metadata.json is part of the frozen v1 snapshot. See migration/FREEZE.md."""
+    marker = os.path.join(os.path.dirname(os.path.abspath(__file__)), "migration", "FREEZE.md")
+    if os.path.exists(marker):
+        raise SystemExit(
+            "REFUSING TO RUN: v1 data is frozen for the v2 migration (see migration/FREEZE.md\n"
+            "and 'All Career Tree/DATA_ARCHITECTURE_V2.md'). Enrichment returns in Stage 2,\n"
+            "generated once per role instead of per path."
+        )
+
 def generate_one_node_metadata(path):
+    _check_freeze()
     with open(TREE_FILE, 'r') as f:
         tree_data = json.load(f)
 
@@ -88,6 +99,7 @@ def generate_one_node_metadata(path):
 
 # --- MAIN LOOP ---
 def main():
+    _check_freeze()
     # 1. Load Tree
     with open(TREE_FILE, 'r') as f:
         tree_data = json.load(f)
