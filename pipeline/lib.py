@@ -146,13 +146,16 @@ def is_bare_generic(title: str) -> bool:
     return normalize_title(title) in BARE_GENERICS
 
 
-AGGREGATE_RE = re.compile(r"\||/| or |, | & ")
+AGGREGATE_RE = re.compile(r"\|| or ")
 
 def looks_aggregate(title: str) -> bool:
     """Disjunction/aggregate titles (RUBRIC row 10) are banned in v2 — the graph
-    expresses alternatives as separate edges. Heuristic: separator + both halves long."""
-    parts = [p.strip() for p in AGGREGATE_RE.split(title) if p.strip()]
-    return len(parts) >= 2 and all(len(p) >= 8 for p in parts) and "(" not in title[: title.find("|") + 1 or 0]
+    expresses alternatives as separate edges. Test on the parenthetical-stripped base
+    (an abbreviation pair like "(LDC | JSA)" must not mask an aggregate base title);
+    both halves long = two real entities jammed into one title."""
+    base = re.sub(r"\([^)]*\)", "", title)
+    parts = [p.strip() for p in AGGREGATE_RE.split(base) if p.strip()]
+    return len(parts) >= 2 and all(len(p) >= 8 for p in parts)
 
 
 def mint_id(node_type: NodeType, title: str, taken: Iterable[str]) -> str:
@@ -302,7 +305,7 @@ def _load_call_cache() -> Dict[str, str]:
     return _call_cache
 
 
-def call_json(model: str, prompt: str, schema: type[BaseModel], retries: int = 3):
+def call_json(model: str, prompt: str, schema: type[BaseModel], retries: int = 5):
     """Structured-output call with prompt-hash cache replay: rerunning the pipeline
     with unchanged prompts costs nothing."""
     key = hashlib.sha256(
@@ -328,7 +331,7 @@ def call_json(model: str, prompt: str, schema: type[BaseModel], retries: int = 3
             return out
         except Exception as e:  # noqa: BLE001 — retry then surface
             last_err = e
-            time.sleep(2 ** attempt)
+            time.sleep(2 * 2 ** attempt)
     raise RuntimeError(f"Gemini call failed after {retries} tries: {last_err}")
 
 
@@ -349,11 +352,20 @@ def embed_texts(texts: List[str]) -> List[List[float]]:
     missing = [(i, t) for i, (k, t) in enumerate(zip(keys, texts)) if k not in cache]
     for start in range(0, len(missing), 100):
         chunk = missing[start:start + 100]
-        resp = gemini().models.embed_content(
-            model="gemini-embedding-001",
-            contents=[t for _, t in chunk],
-            config={"task_type": "SEMANTIC_SIMILARITY", "output_dimensionality": 768},
-        )
+        last_err = None
+        for attempt in range(5):
+            try:
+                resp = gemini().models.embed_content(
+                    model="gemini-embedding-001",
+                    contents=[t for _, t in chunk],
+                    config={"task_type": "SEMANTIC_SIMILARITY", "output_dimensionality": 768},
+                )
+                break
+            except Exception as e:  # noqa: BLE001 — transient 503s must not kill a run
+                last_err = e
+                time.sleep(2 * 2 ** attempt)
+        else:
+            raise RuntimeError(f"embedding failed after 5 tries: {last_err}")
         for (i, t), emb in zip(chunk, resp.embeddings):
             k = keys[i]
             cache[k] = list(emb.values)

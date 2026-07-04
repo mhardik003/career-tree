@@ -12,13 +12,16 @@ import json
 import re
 from typing import List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 from lib import (Registry, NodeType, EdgeType, atomic_write, read_jsonl,  # noqa: F401
                  call_json, FRONTIER_FILE)
 from resolve import Resolver
 
 EXPAND_MODEL = "gemini-2.5-pro"
+
+WORKING_TYPES = {NodeType.job_role, NodeType.government_service, NodeType.entrepreneurship}
+EDUCATION_TYPES = {NodeType.degree, NodeType.diploma, NodeType.certification, NodeType.training}
 
 
 class ChildRef(BaseModel):
@@ -36,7 +39,13 @@ class ChildRef(BaseModel):
 
 class ExpansionResult(BaseModel):
     is_terminal: bool = Field(description="True only if this node is a final career endpoint with no meaningful next options.")
-    successors: List[ChildRef] = Field(max_length=10)
+    successors: List[ChildRef] = Field(description="4-10 immediate next options; empty if terminal.")
+
+    @field_validator("successors")
+    @classmethod
+    def _cap(cls, v):
+        # lenient: slice instead of rejecting an 11-item response
+        return v[:12]
 
 
 def expansion_prompt(reg: Registry, node, trails: List[str]) -> str:
@@ -62,7 +71,11 @@ Rules:
 3. Concrete options only — never aggregate buckets ("Government Jobs (PSU|UPSC)"),
    never bare generics ("Ph.D.", "Higher Studies"); qualify by domain instead.
 4. Entrance/qualifying exams are their own nodes (edge_type=exam_gate); prefer the
-   registry's existing exam entries.
+   registry's existing exam entries. If the CURRENT node is an exam, successors are
+   what QUALIFYING admits you to (degrees, posts) — NEVER another exam someone could
+   take instead.
+4b. A move from a working role back into education (a degree/certification while
+   working) is edge_type=lateral (upskilling), not progression.
 5. Include the mainstream paths (confidence=core/common) and at most 2 niche ones.
 6. is_terminal=true only for true endpoints (e.g. a senior-most role)."""
 
@@ -88,6 +101,7 @@ def main():
     queue = [q for q in fr["queue"] if q["id"] not in expanded]
 
     done = 0
+    consecutive_failures = 0
     while queue:
         item = queue.pop(0)
         nid, depth = item["id"], item["depth"]
@@ -98,49 +112,21 @@ def main():
         trails = [" → ".join(reg.nodes[i].title for i in trail_ids)] if trail_ids else []
 
         print(f"[depth {depth}] expanding {nid} ({node.title})")
-        result = call_json(EXPAND_MODEL, expansion_prompt(reg, node, trails), ExpansionResult)
-
-        node.is_terminal = result.is_terminal
-        for ref in result.successors:
-            target_id = None
-            if ref.existing_id:
-                if ref.existing_id in reg.nodes:
-                    target_id = ref.existing_id
-                elif ref.new_title is None:
-                    # hallucinated id with no fallback title: recover via title-ish part
-                    guess = ref.existing_id.split(":", 1)[-1].replace("-", " ")
-                    res = resolver.resolve(ref.new_type or node.type, guess,
-                                           ref.one_line_definition or "", node, EXPAND_MODEL)
-                    if res.action != "rejected":
-                        target_id = res.node_id
-            if target_id is None and ref.new_title:
-                if not ref.new_type or not ref.one_line_definition:
-                    print(f"   ! skipping incomplete new_title {ref.new_title!r}")
-                    continue
-                res = resolver.resolve(ref.new_type, ref.new_title,
-                                       ref.one_line_definition, node, EXPAND_MODEL)
-                if res.action == "rejected":
-                    print(f"   ! rejected: {res.reason}")
-                    continue
-                target_id = res.node_id
-                if res.action == "minted":
-                    print(f"   + minted {target_id}")
-            if target_id is None:
-                continue
-
-            etype = ref.edge_type
-            # edge grammar: exam_gate iff one endpoint is an exam
-            endpoint_is_exam = (reg.nodes[target_id].type == NodeType.exam
-                                or node.type == NodeType.exam)
-            if endpoint_is_exam:
-                etype = EdgeType.exam_gate
-            elif etype == EdgeType.exam_gate:
-                etype = EdgeType.progression
-            reg.add_edge(nid, target_id, etype, EXPAND_MODEL,
-                         is_common_route=(ref.confidence != "niche"))
-
-            if target_id not in expanded and all(q["id"] != target_id for q in queue):
-                queue.append({"id": target_id, "depth": depth + 1})
+        try:
+            result = call_json(EXPAND_MODEL, expansion_prompt(reg, node, trails), ExpansionResult)
+            _process_successors(reg, resolver, node, nid, depth, result, queue, expanded, args)
+        except RuntimeError as e:
+            # isolate the failure: requeue this node at the back and move on, but
+            # abort if the API looks down (several failures in a row). Re-expanding
+            # a partially processed node is idempotent (cached call, deduped edges).
+            consecutive_failures += 1
+            print(f"   ! node failed ({e}); requeued")
+            queue.append(item)
+            if consecutive_failures >= 5:
+                print("aborting: 5 consecutive failures — API likely unavailable")
+                break
+            continue
+        consecutive_failures = 0
 
         expanded.add(nid)
         reg.save()
@@ -155,6 +141,63 @@ def main():
 
     print(f"expanded {done} nodes; registry now {len(reg.nodes)} nodes / {len(reg.edges)} edges; "
           f"frontier {len([q for q in queue if q['depth'] < args.max_depth])} pending")
+
+
+def _process_successors(reg, resolver, node, nid, depth, result, queue, expanded, args):
+    node.is_terminal = result.is_terminal
+    for ref in result.successors:
+        target_id = None
+        if ref.existing_id:
+            if ref.existing_id in reg.nodes:
+                target_id = ref.existing_id
+            elif ref.new_title is None:
+                # hallucinated id with no fallback title: recover via title-ish part
+                guess = ref.existing_id.split(":", 1)[-1].replace("-", " ")
+                res = resolver.resolve(ref.new_type or node.type, guess,
+                                       ref.one_line_definition or "", node, EXPAND_MODEL)
+                if res.action != "rejected":
+                    target_id = res.node_id
+        if target_id is None and ref.new_title:
+            if not ref.new_type or not ref.one_line_definition:
+                print(f"   ! skipping incomplete new_title {ref.new_title!r}")
+                continue
+            res = resolver.resolve(ref.new_type, ref.new_title,
+                                   ref.one_line_definition, node, EXPAND_MODEL)
+            if res.action == "rejected":
+                print(f"   ! rejected: {res.reason}")
+                continue
+            target_id = res.node_id
+            if res.action == "minted":
+                print(f"   + minted {target_id}")
+        if target_id is None:
+            continue
+
+        target_type = reg.nodes[target_id].type
+        # exam -> exam is never a successor relation ("you could also take RRB JE"
+        # is an alternative, not a next step) — drop it.
+        if node.type == NodeType.exam and target_type == NodeType.exam:
+            print(f"   ! dropped exam->exam edge to {target_id}")
+            continue
+
+        etype = ref.edge_type
+        # edge grammar: exam_gate iff one endpoint is an exam
+        endpoint_is_exam = NodeType.exam in (target_type, node.type)
+        if endpoint_is_exam:
+            etype = EdgeType.exam_gate
+        elif etype == EdgeType.exam_gate:
+            etype = EdgeType.progression
+        # working role -> education is upskilling, i.e. lateral: career graphs are
+        # NOT DAGs (Web Developer -> MCA -> Web Developer is real); only the
+        # progression subgraph stays acyclic, so back-to-education edges must not
+        # carry the progression type.
+        if (node.type in WORKING_TYPES and target_type in EDUCATION_TYPES
+                and etype == EdgeType.progression):
+            etype = EdgeType.lateral
+        reg.add_edge(nid, target_id, etype, EXPAND_MODEL,
+                     is_common_route=(ref.confidence != "niche"))
+
+        if target_id not in expanded and all(q["id"] != target_id for q in queue):
+            queue.append({"id": target_id, "depth": depth + 1})
 
 
 if __name__ == "__main__":

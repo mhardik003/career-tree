@@ -31,11 +31,23 @@ def main() -> int:
             if not is_exam and e.edge_type == EdgeType.exam_gate:
                 errors.append(f"edge {e.id}: exam_gate without an exam endpoint")
 
-    # cycle check (iterative DFS, 3-color)
+    # exam -> exam successors are meaningless (alternatives, not next steps)
+    for e in reg.edges.values():
+        if (e.from_id in reg.nodes and e.to_id in reg.nodes
+                and reg.nodes[e.from_id].type == NodeType.exam
+                and reg.nodes[e.to_id].type == NodeType.exam):
+            errors.append(f"edge {e.id}: exam->exam")
+
+    # Cycle check on the PROGRESSION subgraph only. The full graph is legitimately
+    # cyclic (upskilling: Web Developer -> MCA -> Web Developer); those edges are
+    # typed lateral/exam_gate and exempt. The education ladder itself must not loop.
     color = {nid: 0 for nid in reg.nodes}
     out = defaultdict(list)
+    full_out = defaultdict(list)
     for e in reg.edges.values():
-        out[e.from_id].append(e.to_id)
+        full_out[e.from_id].append(e.to_id)
+        if e.edge_type == EdgeType.progression:
+            out[e.from_id].append(e.to_id)
     for start in reg.nodes:
         if color[start]:
             continue
@@ -55,10 +67,8 @@ def main() -> int:
                 stack.pop()
 
     for n in reg.nodes.values():
-        # v2 titles are display-only (IDs are the identity), but '/' and '|' outside
-        # official exam names usually signal v1-style aggregate titles — surface them.
-        if "/" in n.title and n.type != NodeType.exam:
-            errors.append(f"{n.id}: '/' in title {n.title!r}")
+        # v2 titles are display-only (IDs are the identity); '/' is legitimate
+        # ("UI/UX Designer"), '|' is a v1 aggregate artifact and banned.
         if "|" in n.title:
             errors.append(f"{n.id}: '|' in title {n.title!r} (aggregates are banned in v2)")
         if re.search(r"\s{2,}", n.title):
@@ -71,12 +81,12 @@ def main() -> int:
         if len(ids) > 1:
             errors.append(f"same-type slug collision {t}:{s} -> {ids}")
 
-    # reachability from root
+    # reachability from root (over ALL edge types)
     seen = {ROOT}
     stack = [ROOT]
     while stack:
         cur = stack.pop()
-        for nxt in out[cur]:
+        for nxt in full_out[cur]:
             if nxt not in seen:
                 seen.add(nxt)
                 stack.append(nxt)

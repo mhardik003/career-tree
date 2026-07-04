@@ -15,7 +15,7 @@ import os
 import re
 from typing import List, Optional, Tuple
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 from lib import (Registry, Node, NodeType, Provenance, is_bare_generic,
                  looks_aggregate, mint_id, embed_texts, cosine,
@@ -40,7 +40,14 @@ class JudgeVerdict(BaseModel):
     decision: str = Field(description="one of: same_role | distinct | unsure")
     matched_id: Optional[str] = Field(None, description="the registry id judged same, if same_role")
     rule: int = Field(description="rubric row number applied (1-12)")
-    rationale: str = Field(max_length=200)
+    rationale: str = Field(description="one short sentence")
+
+    # Gemini doesn't reliably honor string maxLength in response schemas — truncate
+    # instead of failing validation (a 210-char rationale must not kill the run).
+    @field_validator("rationale")
+    @classmethod
+    def _trim(cls, v: str) -> str:
+        return v[:300]
 
 
 class Resolution(BaseModel):
@@ -72,12 +79,18 @@ class Resolver:
 
     def resolve(self, node_type: NodeType, title: str, definition: str,
                 parent: Optional[Node], model_for_mint: str) -> Resolution:
-        title = title.replace("/", " | ").strip()
+        title = re.sub(r"\s+", " ", title).strip()
 
         # RUBRIC row 10: aggregates are banned outright in v2.
         if looks_aggregate(title):
             self._ledger("rejected_aggregate", title, node_type, None, None, "rubric row 10")
             return Resolution(action="rejected", reason=f"aggregate/disjunction title: {title!r}")
+
+        # Titles are display-only in v2: '/' is fine ("UI/UX Designer"), '|' is a
+        # v1 artifact — normalize survivors of the aggregate check, flag for review.
+        pipe_flag = "|" in title
+        if pipe_flag:
+            title = re.sub(r"\s*\|\s*", "/", title)
 
         # RUBRIC row 6: bare generics inherit domain from the parent.
         if is_bare_generic(title) and parent is not None:
@@ -108,11 +121,11 @@ class Resolver:
                     return Resolution(action="linked", node_id=verdict.matched_id)
                 # distinct or unsure -> mint; unsure additionally flags review (under-merge default)
                 return self._mint(node_type, title, definition, model_for_mint, vec,
-                                  needs_review=(verdict.decision == "unsure"),
+                                  needs_review=(verdict.decision == "unsure") or pipe_flag,
                                   reason=f"judge {verdict.decision} (rule {verdict.rule})")
 
         return self._mint(node_type, title, definition, model_for_mint, vec,
-                          needs_review=False, reason=f"no neighbor >= {JUDGE_BAND}")
+                          needs_review=pipe_flag, reason=f"no neighbor >= {JUDGE_BAND}")
 
     def _judge(self, node_type: NodeType, title: str, definition: str,
                parent: Optional[Node], candidate_ids: List[str]) -> JudgeVerdict:
