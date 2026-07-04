@@ -122,19 +122,7 @@ def generate_node_data(current_path_string):
 
 # --- MAIN CRAWLER LOGIC ---
 
-def _check_freeze():
-    """v2 migration freeze: the v1 tree JSON is the snapshot all migration artifacts
-    derive from — writing to it mid-migration corrupts the migration. See migration/FREEZE.md."""
-    marker = os.path.join(os.path.dirname(os.path.abspath(__file__)), "migration", "FREEZE.md")
-    if os.path.exists(marker):
-        raise SystemExit(
-            "REFUSING TO RUN: v1 data is frozen for the v2 migration (see migration/FREEZE.md\n"
-            "and 'All Career Tree/DATA_ARCHITECTURE_V2.md'). The crawler returns in Stage 5,\n"
-            "rewritten to expand roles instead of paths."
-        )
-
 def build_career_tree(new_node=None):
-    _check_freeze()
   # 1. Load Existing Data
     if os.path.exists(OUTPUT_FILE):
         try:

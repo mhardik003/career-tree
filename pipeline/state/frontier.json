@@ -1,0 +1,101 @@
+{
+ "queue": [
+  {
+   "id": "stream:commerce",
+   "depth": 1
+  },
+  {
+   "id": "stream:arts-humanities",
+   "depth": 1
+  },
+  {
+   "id": "diploma:polytechnic",
+   "depth": 1
+  },
+  {
+   "id": "training:iti",
+   "depth": 1
+  },
+  {
+   "id": "stream:science-pcmb",
+   "depth": 1
+  },
+  {
+   "id": "exam:agniveer",
+   "depth": 1
+  },
+  {
+   "id": "exam:ssc-gd",
+   "depth": 1
+  },
+  {
+   "id": "exam:jee-main",
+   "depth": 2
+  },
+  {
+   "id": "degree:b-sc",
+   "depth": 2
+  },
+  {
+   "id": "exam:upsc-nda",
+   "depth": 2
+  },
+  {
+   "id": "exam:nata",
+   "depth": 2
+  },
+  {
+   "id": "exam:cuet-ug",
+   "depth": 2
+  },
+  {
+   "id": "degree:bca",
+   "depth": 2
+  },
+  {
+   "id": "exam:bitsat",
+   "depth": 2
+  },
+  {
+   "id": "exam:clat",
+   "depth": 2
+  },
+  {
+   "id": "exam:uceed",
+   "depth": 2
+  },
+  {
+   "id": "exam:neet-ug",
+   "depth": 2
+  },
+  {
+   "id": "degree:b-pharm",
+   "depth": 2
+  },
+  {
+   "id": "degree:b-sc-nursing",
+   "depth": 2
+  },
+  {
+   "id": "degree:bpt-bachelor-of-physiotherapy",
+   "depth": 2
+  },
+  {
+   "id": "exam:icar-aieea",
+   "depth": 2
+  },
+  {
+   "id": "exam:iiser-at",
+   "depth": 2
+  },
+  {
+   "id": "diploma:diploma-in-paramedical-sciences",
+   "depth": 2
+  }
+ ],
+ "expanded": [
+  "school_stage:class-10",
+  "stream:science-pcb",
+  "stream:science-pcm"
+ ]
+}

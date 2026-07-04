@@ -1,0 +1,184 @@
+# Career Tree v2 — controlled vocabulary, abbreviation table, and seed graph.
+# Seeds anchor the taxonomy so expansion EXTENDS a skeleton instead of inventing one;
+# the full exam table is imported separately from ground/exams.json at bootstrap.
+
+abbreviations:
+  # token-sequence replacements applied inside normalize_title() (lowercased)
+  govt: government
+  pvt: private
+  ph d: phd
+  post doctoral: postdoctoral
+  dept: department
+  mgmt: management
+  engg: engineering
+  tech: technology        # b tech -> b technology; matched against expansion too
+  admn: administration
+  counselor: counsellor    # American -> Indian/British (user decision)
+  pediatric: paediatric
+  specialty: speciality
+  psus: psu
+
+# Qualifier controlled vocabulary (RUBRIC row 3): judge normalizes qualifier synonyms
+# to these; different entries stay distinct (row 4).
+qualifiers:
+  - Government
+  - Industry
+  - Academia
+  - Abroad
+  - Pharma
+  - Biotech
+  - Healthcare
+  - Defence
+  - IT
+
+seeds:
+  # --- root ---
+  - id: school_stage:class-10
+    type: school_stage
+    title: Class 10 (Secondary School)
+    description: >-
+      Completion of secondary school (Class 10) under CBSE, ICSE, or a state board —
+      the first major branching point in the Indian education system.
+
+  # --- streams (11th-12th) ---
+  - id: stream:science-pcm
+    type: stream
+    title: Science Stream — PCM (Physics, Chemistry, Maths)
+    description: >-
+      Senior-secondary science stream with Physics, Chemistry and Mathematics; the
+      standard route toward engineering, architecture, defence and quantitative fields.
+  - id: stream:science-pcb
+    type: stream
+    title: Science Stream — PCB (Physics, Chemistry, Biology)
+    description: >-
+      Senior-secondary science stream with Physics, Chemistry and Biology; the standard
+      route toward medicine, dentistry, pharmacy, nursing and life sciences.
+  - id: stream:science-pcmb
+    type: stream
+    title: Science Stream — PCMB (Physics, Chemistry, Maths, Biology)
+    description: >-
+      Senior-secondary science stream keeping both Mathematics and Biology, preserving
+      eligibility for both engineering and medical entrance exams.
+  - id: stream:commerce
+    type: stream
+    title: Commerce Stream (11th & 12th)
+    description: >-
+      Senior-secondary commerce stream (Accountancy, Business Studies, Economics) leading
+      toward B.Com, CA/CS/CMA, management, finance and law.
+  - id: stream:arts-humanities
+    type: stream
+    title: Arts & Humanities Stream (11th & 12th)
+    description: >-
+      Senior-secondary humanities stream (History, Political Science, Psychology,
+      Languages, etc.) leading toward BA, law, design, civil services, media and
+      social sciences.
+
+  # --- vocational track directly after Class 10 ---
+  - id: training:iti
+    type: training
+    title: ITI (Industrial Training Institute)
+    description: >-
+      Government-recognized vocational trade training (1-2 years) after Class 10 in
+      trades like electrician, fitter, welder, COPA; leads to apprenticeships and
+      skilled-trade employment.
+  - id: diploma:polytechnic
+    type: diploma
+    title: Polytechnic Diploma (Engineering)
+    description: >-
+      Three-year state-board engineering diploma after Class 10; leads to junior
+      engineer roles or lateral entry into the second year of B.E./B.Tech.
+
+  # --- flagship degree families (anchor naming for expansion) ---
+  - id: degree:b-tech
+    type: degree
+    title: B.Tech (Bachelor of Technology)
+    aliases:
+      - B.E. (Bachelor of Engineering)
+    description: >-
+      Four-year undergraduate engineering degree; admission mainly via JEE Main/Advanced
+      or state CETs; branches include CSE, ECE, Mechanical, Civil and more.
+  - id: degree:mbbs
+    type: degree
+    title: MBBS (Bachelor of Medicine and Bachelor of Surgery)
+    description: >-
+      5.5-year undergraduate medical degree including internship; admission via NEET-UG;
+      the gateway to clinical practice and postgraduate medical specialization.
+  - id: degree:b-sc
+    type: degree
+    title: B.Sc (Bachelor of Science)
+    description: >-
+      Three-to-four-year undergraduate science degree across physical, life, and applied
+      sciences; leads to M.Sc, research, teaching and applied-sector roles.
+  - id: degree:b-com
+    type: degree
+    title: B.Com (Bachelor of Commerce)
+    description: >-
+      Three-year undergraduate commerce degree covering accounting, finance, taxation and
+      business law; pairs naturally with CA/CS/CMA and management routes.
+  - id: degree:ba
+    type: degree
+    title: BA (Bachelor of Arts)
+    description: >-
+      Three-year undergraduate humanities/social-science degree; a base for civil
+      services, law, media, academia, and public policy.
+  - id: degree:bba
+    type: degree
+    title: BBA (Bachelor of Business Administration)
+    description: >-
+      Three-year undergraduate management degree; a feeder to MBA and entry-level
+      corporate roles.
+  - id: degree:bca
+    type: degree
+    title: BCA (Bachelor of Computer Applications)
+    description: >-
+      Three-year undergraduate computing degree; leads to software roles or MCA.
+  - id: degree:llb
+    type: degree
+    title: LLB (Bachelor of Laws)
+    description: >-
+      Law degree — 5-year integrated (BA LLB/BBA LLB via CLAT) after Class 12 or 3-year
+      LLB after graduation; the gateway to litigation, corporate law and the judiciary.
+  - id: degree:b-pharm
+    type: degree
+    title: B.Pharm (Bachelor of Pharmacy)
+    description: >-
+      Four-year undergraduate pharmacy degree; leads to pharmacist licensure, pharma
+      industry roles, and M.Pharm.
+  - id: degree:b-arch
+    type: degree
+    title: B.Arch (Bachelor of Architecture)
+    description: >-
+      Five-year undergraduate architecture degree; admission via NATA or JEE Main
+      Paper 2; leads to Council of Architecture registration and practice.
+  - id: degree:bds
+    type: degree
+    title: BDS (Bachelor of Dental Surgery)
+    description: >-
+      Five-year undergraduate dental degree (including internship); admission via
+      NEET-UG; leads to clinical dentistry or MDS specialization.
+  - id: degree:mba
+    type: degree
+    title: MBA (Master of Business Administration)
+    description: >-
+      Two-year postgraduate management degree; admission via CAT/XAT/GMAT and others;
+      the standard credential for management, consulting and finance careers.
+
+# Seed edges: Class 10 -> streams & vocational; streams -> flagship degrees where the
+# route is canonical. Everything else is generated.
+seed_edges:
+  - [school_stage:class-10, stream:science-pcm, progression]
+  - [school_stage:class-10, stream:science-pcb, progression]
+  - [school_stage:class-10, stream:science-pcmb, progression]
+  - [school_stage:class-10, stream:commerce, progression]
+  - [school_stage:class-10, stream:arts-humanities, progression]
+  - [school_stage:class-10, training:iti, progression]
+  - [school_stage:class-10, diploma:polytechnic, progression]
+  - [stream:science-pcm, degree:b-tech, progression]
+  - [stream:science-pcm, degree:b-arch, progression]
+  - [stream:science-pcb, degree:mbbs, progression]
+  - [stream:science-pcb, degree:bds, progression]
+  - [stream:science-pcb, degree:b-pharm, progression]
+  - [stream:commerce, degree:b-com, progression]
+  - [stream:commerce, degree:bba, progression]
+  - [stream:arts-humanities, degree:ba, progression]
+  - [diploma:polytechnic, degree:b-tech, lateral]

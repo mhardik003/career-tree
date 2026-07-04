@@ -9,8 +9,6 @@ suggestions.ipynb
 
 # --- Local working notes (not part of the public repo) ---
 CLAUDE.md
-BUGS.md
-BUGS_CLAUDE.md
 fetch_check_edits.py
 
 # --- Generated artifacts (pyvis output from visualise_tree.py) ---
@@ -23,3 +21,8 @@ career-tree/data/suggestions.json
 career-tree/data/edits.json
 suggestion_results.json
 edit_results.json
+
+# --- v2 pipeline transient caches ---
+pipeline/ledger/call_cache.jsonl
+pipeline/ledger/embeddings.jsonl
+pipeline/__pycache__/

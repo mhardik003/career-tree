@@ -1,0 +1,99 @@
+"""Structural lint — free, deterministic, build-blocking. Run after any registry write.
+
+Checks: id format/uniqueness handled by Registry load; edge endpoints resolve; DAG is
+acyclic; edge grammar (exam_gate iff an endpoint is an exam); titles clean; no two
+distinct same-type nodes share a slug-identical title; every node reachable from root.
+Exit code 1 on any failure.
+"""
+import re
+import sys
+from collections import defaultdict
+
+from lib import Registry, NodeType, EdgeType, slugify
+
+ROOT = "school_stage:class-10"
+
+
+def main() -> int:
+    reg = Registry()
+    errors: list[str] = []
+    warns: list[str] = []
+
+    for e in reg.edges.values():
+        if e.from_id not in reg.nodes:
+            errors.append(f"edge {e.id}: unknown from_id")
+        if e.to_id not in reg.nodes:
+            errors.append(f"edge {e.id}: unknown to_id")
+        if e.from_id in reg.nodes and e.to_id in reg.nodes:
+            is_exam = NodeType.exam in (reg.nodes[e.from_id].type, reg.nodes[e.to_id].type)
+            if is_exam and e.edge_type != EdgeType.exam_gate:
+                errors.append(f"edge {e.id}: touches an exam but type={e.edge_type.value}")
+            if not is_exam and e.edge_type == EdgeType.exam_gate:
+                errors.append(f"edge {e.id}: exam_gate without an exam endpoint")
+
+    # cycle check (iterative DFS, 3-color)
+    color = {nid: 0 for nid in reg.nodes}
+    out = defaultdict(list)
+    for e in reg.edges.values():
+        out[e.from_id].append(e.to_id)
+    for start in reg.nodes:
+        if color[start]:
+            continue
+        stack = [(start, iter(out[start]))]
+        color[start] = 1
+        while stack:
+            nid, it = stack[-1]
+            for nxt in it:
+                if color.get(nxt, 0) == 1:
+                    errors.append(f"cycle involving {nid} -> {nxt}")
+                elif color.get(nxt, 0) == 0:
+                    color[nxt] = 1
+                    stack.append((nxt, iter(out[nxt])))
+                    break
+            else:
+                color[nid] = 2
+                stack.pop()
+
+    for n in reg.nodes.values():
+        # v2 titles are display-only (IDs are the identity), but '/' and '|' outside
+        # official exam names usually signal v1-style aggregate titles — surface them.
+        if "/" in n.title and n.type != NodeType.exam:
+            errors.append(f"{n.id}: '/' in title {n.title!r}")
+        if "|" in n.title:
+            errors.append(f"{n.id}: '|' in title {n.title!r} (aggregates are banned in v2)")
+        if re.search(r"\s{2,}", n.title):
+            warns.append(f"{n.id}: doubled spaces in title")
+
+    by_slug = defaultdict(list)
+    for n in reg.nodes.values():
+        by_slug[(n.type.value, slugify(n.title))].append(n.id)
+    for (t, s), ids in by_slug.items():
+        if len(ids) > 1:
+            errors.append(f"same-type slug collision {t}:{s} -> {ids}")
+
+    # reachability from root
+    seen = {ROOT}
+    stack = [ROOT]
+    while stack:
+        cur = stack.pop()
+        for nxt in out[cur]:
+            if nxt not in seen:
+                seen.add(nxt)
+                stack.append(nxt)
+    orphans = [nid for nid in reg.nodes if nid not in seen]
+    # unexpanded exam-table entries are expected orphans until something links them
+    real_orphans = [o for o in orphans if not o.startswith("exam:")]
+    if real_orphans:
+        warns.append(f"{len(real_orphans)} non-exam nodes unreachable from root: {real_orphans[:8]}")
+
+    for w in warns:
+        print(f"WARN  {w}")
+    for e in errors:
+        print(f"ERROR {e}")
+    print(f"lint: {len(reg.nodes)} nodes, {len(reg.edges)} edges, "
+          f"{len(errors)} errors, {len(warns)} warnings")
+    return 1 if errors else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

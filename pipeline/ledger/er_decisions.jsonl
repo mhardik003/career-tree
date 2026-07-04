@@ -1,0 +1,3 @@
+{"date": "2026-07-04", "action": "minted", "title": "B.Sc. Nursing", "type": "degree", "node_id": "degree:b-sc-nursing", "score": null, "reason": "judge distinct (rule 5)"}
+{"date": "2026-07-04", "action": "minted", "title": "BPT (Bachelor of Physiotherapy)", "type": "degree", "node_id": "degree:bpt-bachelor-of-physiotherapy", "score": null, "reason": "judge distinct (rule 12)"}
+{"date": "2026-07-04", "action": "minted", "title": "Diploma in Paramedical Sciences", "type": "diploma", "node_id": "diploma:diploma-in-paramedical-sciences", "score": null, "reason": "judge distinct (rule 4)"}
