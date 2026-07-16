@@ -42,10 +42,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Search Console Verification */}
+        {/* Google Search Console Verification — career-tree.vercel.app */}
         <meta
           name="google-site-verification"
           content="zesGb3rIFh9nfH700WwJH2Nt-pcRvL1fVc1_W80HoSg"
+        />
+
+        {/* Google Search Console Verification — careerstree.in */}
+        <meta
+          name="google-site-verification"
+          content="tgfTJEDCWbKv0qGT4zNNn8MQ_VcqvZ7eGAMLfeiYtS8"
         />
 
         {/* WebApplication Schema */}
