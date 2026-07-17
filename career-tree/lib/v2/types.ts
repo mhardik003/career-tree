@@ -70,3 +70,24 @@ export interface V2Route {
   nicheEdges: number;
   lateralEdges: number;
 }
+
+export interface V2ParentView {
+  node: V2Node;
+  edge: V2Edge;
+  contextHref: string;
+}
+
+export interface V2ChildView {
+  node: V2Node;
+  edge: V2Edge;
+  href: string;
+}
+
+export interface V2NodePageView {
+  node: V2Node;
+  parents: V2ParentView[];
+  selectedParentId: string | null;
+  children: V2ChildView[];
+  routes: V2Route[];
+  backHref: string;
+}
