@@ -58,17 +58,17 @@ const bcaToMba = edge(bca.id, mba.id);
 const view: V2NodePageView = {
   node: mba,
   selectedParentId: developer.id,
-  backHref: "/v2/careers/job_role/developer",
+  backHref: "/v2/explore/job_role/developer",
   parents: [bca, developer, llb].map((parent) => ({
     node: parent,
     edge: edge(parent.id, mba.id),
-    contextHref: `/v2/careers/degree/mba?from=${encodeURIComponent(parent.id)}`,
+    contextHref: `/v2/explore/degree/mba?from=${encodeURIComponent(parent.id)}`,
   })),
   children: [
     {
       node: product,
       edge: edge(mba.id, product.id),
-      href: "/v2/careers/job_role/product-manager?from=degree%3Amba",
+      href: "/v2/explore/job_role/product-manager?from=degree%3Amba",
     },
   ],
   routes: [
@@ -85,21 +85,17 @@ const view: V2NodePageView = {
 describe("V2FocusView", () => {
   it("renders canonical children and updates only parent route context", () => {
     render(<V2FocusView view={view} />);
-    const routesDisclosure = screen.getByText(
-      "View complete routes from Class 10 (1)",
-    );
-    const firstParent = screen.getByRole("button", {
-      name: "Select parent BCA",
-    });
     expect(
-      routesDisclosure.compareDocumentPosition(firstParent) &
-        Node.DOCUMENT_POSITION_FOLLOWING,
-    ).toBeTruthy();
+      screen.getByRole("link", { name: "View full guide" }),
+    ).toHaveAttribute("href", "/v2/careers/degree/mba");
+    expect(
+      screen.queryByText(/View complete routes from Class 10/),
+    ).not.toBeInTheDocument();
     expect(screen.queryByText(/Other ways to reach/)).not.toBeInTheDocument();
     expect(screen.queryByText(/Parent 2 of 3/)).not.toBeInTheDocument();
     expect(
       screen.getByRole("link", { name: "Open parent Developer" }),
-    ).toHaveAttribute("href", "/v2/careers/job_role/developer");
+    ).toHaveAttribute("href", "/v2/explore/job_role/developer");
     expect(
       screen.getByRole("heading", { level: 1, name: "MBA" }),
     ).toBeInTheDocument();
@@ -107,16 +103,15 @@ describe("V2FocusView", () => {
       screen.getByRole("link", { name: /Product Manager/ }),
     ).toHaveAttribute(
       "href",
-      "/v2/careers/job_role/product-manager?from=degree%3Amba",
+      "/v2/explore/job_role/product-manager?from=degree%3Amba",
     );
     fireEvent.click(screen.getByRole("button", { name: "Select parent BCA" }));
     expect(replace).toHaveBeenCalledWith(
-      "/v2/careers/degree/mba?from=degree%3Abca",
+      "/v2/explore/degree/mba?from=degree%3Abca",
       { scroll: false },
     );
     expect(
       screen.getByRole("link", { name: /Product Manager/ }),
     ).toBeInTheDocument();
-    expect(screen.getByText("Class 10")).toBeInTheDocument();
   });
 });

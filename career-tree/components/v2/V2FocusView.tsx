@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, CheckCircle } from "lucide-react";
 import type { V2NodePageView, V2ParentView } from "@/lib/v2/types";
-import CompleteRoutes from "./CompleteRoutes";
+import { nodeHref } from "@/lib/v2/urls";
 import ParentCarousel from "./ParentCarousel";
 
 export default function V2FocusView({
@@ -44,8 +44,6 @@ export default function V2FocusView({
       </nav>
 
       <div className="mx-auto mt-14 flex max-w-6xl flex-col items-center px-4">
-        <CompleteRoutes routes={view.routes} />
-
         {view.parents.length > 0 && (
           <ParentCarousel
             currentTitle={view.node.title}
@@ -71,6 +69,12 @@ export default function V2FocusView({
             <span>{view.children.length} next options</span>
             <span>{view.node.id}</span>
           </div>
+          <Link
+            href={nodeHref(view.node.id)}
+            className="mt-5 inline-flex rounded-full border border-black bg-black px-4 py-2 font-mono text-[10px] font-bold uppercase tracking-wider text-white transition hover:bg-white hover:text-black"
+          >
+            View full guide
+          </Link>
         </article>
 
         {view.children.length ? (
