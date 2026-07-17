@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import type {
   V2Edge,
   V2Node,
@@ -7,6 +7,10 @@ import type {
   V2NodeType,
 } from "@/lib/v2/types";
 import V2BlogView from "../V2BlogView";
+
+vi.mock("next/navigation", () => ({
+  useSearchParams: () => ({ get: () => null }),
+}));
 
 const prov = {
   model: "test",
@@ -80,14 +84,25 @@ const view: V2NodePageView = {
 
 describe("V2BlogView", () => {
   it("renders available canonical information without empty sections", () => {
-    render(<V2BlogView view={view} />);
+    render(
+      <V2BlogView
+        view={view}
+        parentRoutes={{ "degree:bca": view.routes[0] }}
+      />,
+    );
     expect(
       screen.getByRole("heading", { level: 1, name: view.node.title }),
     ).toBeInTheDocument();
     expect(
       screen.getByRole("link", { name: "Explore paths from here" }),
     ).toHaveAttribute("href", "/v2/explore/degree/mba");
-    expect(screen.getByText(/Routes from Class 10/)).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { name: "Routes from Class 10" }),
+    ).toBeVisible();
+    expect(
+      screen.getByRole("region", { name: "Career routes from Class 10" }),
+    ).toBeVisible();
+    expect(document.querySelector("details")).toBeNull();
     expect(
       screen.getByRole("link", { name: /Product Manager/ }),
     ).toHaveAttribute("href", "/v2/careers/job_role/product-manager");

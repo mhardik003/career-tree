@@ -1,13 +1,17 @@
 import { ArrowLeft, Compass } from "lucide-react";
 import Link from "next/link";
+import { Suspense } from "react";
+import type { ParentRouteMap } from "@/lib/v2/route-map";
 import type { V2NodePageView } from "@/lib/v2/types";
 import { exploreHref, nodeHref } from "@/lib/v2/urls";
-import CompleteRoutes from "./CompleteRoutes";
+import RouteMapFromQuery, { RouteMap } from "./RouteMap";
 
 export default function V2BlogView({
   view,
+  parentRoutes,
 }: {
   view: V2NodePageView;
+  parentRoutes: ParentRouteMap;
 }) {
   const sources = [...new Set(view.node.prov.source_urls)];
 
@@ -76,7 +80,24 @@ export default function V2BlogView({
         </section>
 
         <section className="mt-10" aria-label="Route reference">
-          <CompleteRoutes routes={view.routes} />
+          <Suspense
+            fallback={
+              <RouteMap
+                defaultRoutes={view.routes}
+                parentRoutes={{}}
+                targetId={view.node.id}
+                targetTitle={view.node.title}
+                requestedParentId={null}
+              />
+            }
+          >
+            <RouteMapFromQuery
+              defaultRoutes={view.routes}
+              parentRoutes={parentRoutes}
+              targetId={view.node.id}
+              targetTitle={view.node.title}
+            />
+          </Suspense>
         </section>
 
         {sources.length > 0 && (

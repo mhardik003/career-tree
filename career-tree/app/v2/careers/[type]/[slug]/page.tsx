@@ -31,5 +31,16 @@ export default async function V2BlogPage({ params }: Props) {
   const { type, slug } = await params;
   const node = v2Graph.getNodeByRoute(type, slug);
   if (!node) notFound();
-  return <V2BlogView view={buildNodePageView(v2Graph, node.id)} />;
+  const canonicalView = buildNodePageView(v2Graph, node.id);
+  const parentRoutes = Object.fromEntries(
+    canonicalView.parents.flatMap((parent) => {
+      const route = buildNodePageView(
+        v2Graph,
+        node.id,
+        parent.node.id,
+      ).routes[0];
+      return route ? [[parent.node.id, route] as const] : [];
+    }),
+  );
+  return <V2BlogView view={canonicalView} parentRoutes={parentRoutes} />;
 }
