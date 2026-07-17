@@ -5,7 +5,7 @@ import type {
   V2ParentView,
   V2Route,
 } from "./types";
-import { nodeHref } from "./urls";
+import { exploreHref } from "./urls";
 
 const EDGE_ORDER = { progression: 0, exam_gate: 1, lateral: 2 } as const;
 const DEFAULT_LIMITS = { maxRoutes: 10, maxDepth: 20, maxStates: 10_000 };
@@ -216,7 +216,7 @@ export function rankParents(
     parents: ranked.map(({ edge, node }) => ({
       node,
       edge,
-      contextHref: nodeHref(nodeId, node.id),
+      contextHref: exploreHref(nodeId, node.id),
     })),
   };
 }
@@ -244,14 +244,14 @@ export function buildNodePageView(
     selectedParentId: selectedId,
     routes,
     backHref: selectedId
-      ? nodeHref(selectedId, selectedParentFrom)
+      ? exploreHref(selectedId, selectedParentFrom)
       : "/v2",
     children: graph
       .outgoing(nodeId)
       .map((edge) => ({
         edge,
         node: graph.getNode(edge.to_id)!,
-        href: nodeHref(edge.to_id, nodeId),
+        href: exploreHref(edge.to_id, nodeId),
       }))
       .sort(
         (a, b) =>

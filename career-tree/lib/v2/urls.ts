@@ -15,3 +15,9 @@ export function nodeHref(id: string, fromId?: string): string {
   const base = `/v2/careers/${encodeURIComponent(type)}/${encodeURIComponent(slug)}`;
   return fromId ? `${base}?from=${encodeURIComponent(fromId)}` : base;
 }
+
+export function exploreHref(id: string, fromId?: string): string {
+  const { type, slug } = splitNodeId(id);
+  const base = `/v2/explore/${encodeURIComponent(type)}/${encodeURIComponent(slug)}`;
+  return fromId ? `${base}?from=${encodeURIComponent(fromId)}` : base;
+}

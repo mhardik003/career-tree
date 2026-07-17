@@ -133,5 +133,15 @@ describe("v2 route discovery", () => {
     expect(viaBca.children.map((child) => child.node.id)).toEqual(
       viaDeveloper.children.map((child) => child.node.id),
     );
+    expect(
+      viaBca.parents.find((parent) => parent.node.id === "degree:bca")
+        ?.contextHref,
+    ).toBe("/v2/explore/degree/mba?from=degree%3Abca");
+    expect(
+      viaBca.children.find(
+        (child) => child.node.id === "job_role:developer",
+      )?.href,
+    ).toBe("/v2/explore/job_role/developer?from=degree%3Amba");
+    expect(viaBca.backHref).toContain("/v2/explore/degree/bca");
   });
 });
