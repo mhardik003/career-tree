@@ -44,6 +44,8 @@ export default function V2FocusView({
       </nav>
 
       <div className="mx-auto mt-14 flex max-w-6xl flex-col items-center px-4">
+        <CompleteRoutes routes={view.routes} />
+
         {view.parents.length > 0 && (
           <ParentCarousel
             currentTitle={view.node.title}
@@ -69,8 +71,6 @@ export default function V2FocusView({
             <span>{view.node.id}</span>
           </div>
         </article>
-
-        <CompleteRoutes routes={view.routes} />
 
         {view.children.length ? (
           <section className="mt-8 w-full">

@@ -33,7 +33,6 @@ function ParentCarouselContent({
     [parents],
   );
   const items = carouselWindow(ids, activeId, 5);
-  const activeIndex = Math.max(0, ids.indexOf(activeId));
 
   function select(id: string | null) {
     if (!id) return;
@@ -50,15 +49,6 @@ function ParentCarouselContent({
       className="mx-auto w-full max-w-6xl"
       aria-label={`Ways to reach ${currentTitle}`}
     >
-      <p className="text-center font-mono text-[10px] uppercase tracking-[0.14em] text-gray-500">
-        Other ways to reach {currentTitle}
-      </p>
-      <p
-        className="mt-1 text-center text-xs text-gray-500"
-        aria-live="polite"
-      >
-        Parent {activeIndex + 1} of {parents.length}
-      </p>
       <div
         role="group"
         aria-label={`Ways to reach ${currentTitle}`}

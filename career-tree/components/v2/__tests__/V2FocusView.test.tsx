@@ -85,6 +85,18 @@ const view: V2NodePageView = {
 describe("V2FocusView", () => {
   it("renders canonical children and updates only parent route context", () => {
     render(<V2FocusView view={view} />);
+    const routesDisclosure = screen.getByText(
+      "View complete routes from Class 10 (1)",
+    );
+    const firstParent = screen.getByRole("button", {
+      name: "Select parent BCA",
+    });
+    expect(
+      routesDisclosure.compareDocumentPosition(firstParent) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(screen.queryByText(/Other ways to reach/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Parent 2 of 3/)).not.toBeInTheDocument();
     expect(
       screen.getByRole("heading", { level: 1, name: "MBA" }),
     ).toBeInTheDocument();

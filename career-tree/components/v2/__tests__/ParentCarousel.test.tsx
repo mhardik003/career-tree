@@ -34,7 +34,7 @@ const parents: V2ParentView[] = ["a", "b", "c"].map((slug) => ({
 }));
 
 describe("ParentCarousel", () => {
-  it("wraps selection and announces position", () => {
+  it("wraps selection without rendering a separate label block", () => {
     const onSelect = vi.fn();
     render(
       <ParentCarousel
@@ -44,7 +44,8 @@ describe("ParentCarousel", () => {
         onSelect={onSelect}
       />,
     );
-    expect(screen.getByText("Parent 1 of 3")).toBeInTheDocument();
+    expect(screen.queryByText(/Other ways to reach/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Parent 1 of 3/)).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Previous parent" }));
     expect(onSelect).toHaveBeenCalledWith(parents[2]);
   });
