@@ -90,10 +90,14 @@ describe("RouteMap", () => {
     ).toBeVisible();
     expect(screen.queryByText(/Class 10 →/)).not.toBeInTheDocument();
     expect(
-      screen.getAllByRole("link", { name: "Explore MBA via BCA" }),
+      screen.getAllByRole("link", {
+        name: "Explore MBA via BCA, progression route",
+      }),
     ).toHaveLength(1);
     expect(
-      screen.getByRole("link", { name: "Explore BCA via Commerce" }),
+      screen.getByRole("link", {
+        name: "Explore BCA via Commerce, progression route",
+      }),
     ).toHaveAttribute(
       "href",
       "/v2/explore/degree/bca?from=stream%3Acommerce",
@@ -105,10 +109,14 @@ describe("RouteMap", () => {
     render(<RouteMapFromQuery {...defaultProps} />);
 
     expect(
-      screen.getByRole("link", { name: "Explore B.Tech via Science PCM" }),
+      screen.getByRole("link", {
+        name: "Explore B.Tech via Science PCM, progression route",
+      }),
     ).toHaveAttribute("data-selected", "true");
     expect(
-      screen.getByRole("link", { name: "Explore MBA via B.Tech" }),
+      screen.getByRole("link", {
+        name: "Explore MBA via B.Tech, progression route",
+      }),
     ).toHaveAttribute(
       "href",
       "/v2/explore/degree/mba?from=degree%3Ab-tech",
@@ -150,11 +158,38 @@ describe("RouteMap", () => {
       screen.getByRole("button", { name: "Jump to Class 10" }),
     ).toBeVisible();
     expect(screen.getByRole("button", { name: "Jump to MBA" })).toBeVisible();
+    const viewport = screen.getByRole("region", {
+      name: "Career routes from Class 10",
+    });
+    Object.defineProperties(viewport, {
+      clientHeight: { configurable: true, value: 400 },
+      scrollHeight: { configurable: true, value: 900 },
+      scrollTop: { configurable: true, value: 0, writable: true },
+    });
+    fireEvent.scroll(viewport);
+    expect(screen.getByText("Scroll to continue ↓")).toBeVisible();
+    viewport.scrollTop = 500;
+    fireEvent.scroll(viewport);
+    expect(screen.queryByText("Scroll to continue ↓")).not.toBeInTheDocument();
     const expand = screen.getByRole("button", { name: "Expand route map" });
     fireEvent.click(expand);
-    expect(
-      screen.getByRole("dialog", { name: "Routes from Class 10" }),
-    ).toBeVisible();
+    const dialog = screen.getByRole("dialog", {
+      name: "Routes from Class 10",
+    });
+    expect(dialog).toBeVisible();
+    const focusable = Array.from(
+      dialog.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      ),
+    );
+    const firstFocusable = focusable[0];
+    const lastFocusable = focusable.at(-1)!;
+    lastFocusable.focus();
+    fireEvent.keyDown(document, { key: "Tab" });
+    expect(firstFocusable).toHaveFocus();
+    firstFocusable.focus();
+    fireEvent.keyDown(document, { key: "Tab", shiftKey: true });
+    expect(lastFocusable).toHaveFocus();
     fireEvent.click(screen.getByRole("button", { name: "Close route map" }));
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
     expect(expand).toHaveFocus();

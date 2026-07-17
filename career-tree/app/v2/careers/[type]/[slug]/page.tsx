@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import V2BlogView from "@/components/v2/V2BlogView";
 import { v2Graph } from "@/lib/v2/data";
+import { findRouteThroughParent } from "@/lib/v2/route-map";
 import { buildNodePageView } from "@/lib/v2/routes";
 
 interface Props {
@@ -34,11 +35,12 @@ export default async function V2BlogPage({ params }: Props) {
   const canonicalView = buildNodePageView(v2Graph, node.id);
   const parentRoutes = Object.fromEntries(
     canonicalView.parents.flatMap((parent) => {
-      const route = buildNodePageView(
+      const routes = buildNodePageView(
         v2Graph,
         node.id,
         parent.node.id,
-      ).routes[0];
+      ).routes;
+      const route = findRouteThroughParent(routes, parent.node.id);
       return route ? [[parent.node.id, route] as const] : [];
     }),
   );

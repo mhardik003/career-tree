@@ -36,6 +36,8 @@ interface Props {
 type QueryProps = Omit<Props, "requestedParentId">;
 
 const LONG_MAP_HEIGHT = 640;
+const FOCUSABLE_SELECTOR =
+  'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
 function pointsToPath(points: Array<{ x: number; y: number }>): string {
   return points
@@ -112,8 +114,11 @@ function MapCanvas({
         const parentTitle = node.parentId
           ? (titleById.get(node.parentId) ?? readableId(node.parentId))
           : null;
+        const relationship = node.incomingEdgeType?.replaceAll("_", " ");
         const accessibleName = parentTitle
-          ? `Explore ${node.title} via ${parentTitle}`
+          ? `Explore ${node.title} via ${parentTitle}${
+              relationship ? `, ${relationship} route` : ""
+            }`
           : `Explore ${node.title}`;
         return (
           <Link
@@ -169,6 +174,12 @@ function scrollToNode(
   });
 }
 
+function hasContentBelow(viewport: HTMLDivElement): boolean {
+  return (
+    viewport.scrollTop + viewport.clientHeight < viewport.scrollHeight - 1
+  );
+}
+
 function MapLegend() {
   return (
     <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-[9px] text-neutral-500">
@@ -201,14 +212,31 @@ export function RouteMap({
     [routes, targetId],
   );
   const [expanded, setExpanded] = useState(false);
+  const isLong = model.height > LONG_MAP_HEIGHT;
+  const [hasMoreBelow, setHasMoreBelow] = useState(isLong);
   const inlineViewport = useRef<HTMLDivElement>(null);
   const dialogViewport = useRef<HTMLDivElement>(null);
+  const dialogRoot = useRef<HTMLDivElement>(null);
   const expandButton = useRef<HTMLButtonElement>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
   const componentId = useId().replaceAll(":", "");
   const dialogTitleId = `${componentId}-route-map-dialog-title`;
   const rootId = routes[0]?.nodeIds[0];
-  const isLong = model.height > LONG_MAP_HEIGHT;
+
+  useEffect(() => {
+    const viewport = inlineViewport.current;
+    if (!viewport) return;
+    const update = () => setHasMoreBelow(isLong && hasContentBelow(viewport));
+    update();
+    window.addEventListener("resize", update);
+    const observer =
+      typeof ResizeObserver === "undefined" ? null : new ResizeObserver(update);
+    observer?.observe(viewport);
+    return () => {
+      window.removeEventListener("resize", update);
+      observer?.disconnect();
+    };
+  }, [isLong, model.height]);
 
   useEffect(() => {
     if (!expanded) return;
@@ -217,7 +245,27 @@ export function RouteMap({
     document.body.style.overflow = "hidden";
     closeButton.current?.focus();
     function handleKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") setExpanded(false);
+      if (event.key === "Escape") {
+        setExpanded(false);
+        return;
+      }
+      if (event.key !== "Tab" || !dialogRoot.current) return;
+      const focusable = Array.from(
+        dialogRoot.current.querySelectorAll<HTMLElement>(FOCUSABLE_SELECTOR),
+      );
+      const first = focusable[0];
+      const last = focusable.at(-1);
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      } else if (!dialogRoot.current.contains(document.activeElement)) {
+        event.preventDefault();
+        first.focus();
+      }
     }
     document.addEventListener("keydown", handleKeyDown);
     return () => {
@@ -285,12 +333,15 @@ export function RouteMap({
               role="region"
               aria-label="Career routes from Class 10"
               tabIndex={0}
+              onScroll={(event) =>
+                setHasMoreBelow(isLong && hasContentBelow(event.currentTarget))
+              }
               className="overflow-auto p-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-black sm:p-5"
               style={isLong ? { maxHeight: "65vh" } : undefined}
             >
               <MapCanvas model={model} markerScope={`${componentId}-inline`} />
             </div>
-            {isLong && (
+            {hasMoreBelow && (
               <div className="pointer-events-none absolute inset-x-0 bottom-0 flex h-14 items-end justify-center bg-gradient-to-b from-transparent to-neutral-50 pb-2 font-mono text-[9px] text-neutral-500">
                 Scroll to continue ↓
               </div>
@@ -306,6 +357,7 @@ export function RouteMap({
 
       {expanded && rootId && (
         <div
+          ref={dialogRoot}
           role="dialog"
           aria-modal="true"
           aria-labelledby={dialogTitleId}

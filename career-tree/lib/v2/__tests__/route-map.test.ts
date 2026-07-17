@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 import type { V2Edge, V2Route } from "../types";
-import { buildRouteMap, selectRouteSet } from "../route-map";
+import {
+  buildRouteMap,
+  findRouteThroughParent,
+  selectRouteSet,
+} from "../route-map";
 
 const prov = {
   model: "test",
@@ -70,6 +74,8 @@ describe("route map model", () => {
       "/v2/explore/degree/bca?from=stream%3Acommerce",
     );
     expect(model.edges.filter((item) => item.isSelected)).toHaveLength(3);
+    expect(model.edges[0].isSelected).toBe(false);
+    expect(model.edges.at(-1)?.isSelected).toBe(true);
     expect(model.width).toBeGreaterThan(0);
     expect(model.height).toBeGreaterThan(0);
     expect(model.levels).toBe(4);
@@ -93,6 +99,15 @@ describe("route map model", () => {
     );
     expect(selectRouteSet(defaultRoutes, { "degree:bca": viaBca }, "degree:bca"))
       .toEqual([viaBca]);
+  });
+
+  it("only associates a parent with a route that enters through that parent", () => {
+    expect(findRouteThroughParent([viaBca, viaBtech], "degree:bca")).toBe(
+      viaBca,
+    );
+    expect(
+      findRouteThroughParent([viaBca], "exam:jee-advanced"),
+    ).toBeUndefined();
   });
 
   it("keeps the selected path and removes a cycle-forming alternative edge", () => {

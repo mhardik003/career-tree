@@ -7,6 +7,7 @@ export interface RouteMapNode {
   title: string;
   href: string;
   parentId?: string;
+  incomingEdgeType?: V2Edge["edge_type"];
   layer: number;
   x: number;
   y: number;
@@ -51,6 +52,13 @@ const MAX_ROUTES = 10;
 
 function routeKey(route: V2Route): string {
   return route.nodeIds.join("\u0000");
+}
+
+export function findRouteThroughParent(
+  routes: V2Route[],
+  parentId: string,
+): V2Route | undefined {
+  return routes.find((route) => route.nodeIds.at(-2) === parentId);
 }
 
 export function selectRouteSet(
@@ -109,6 +117,7 @@ export function buildRouteMap(
 
   const titles = new Map<string, string>();
   const preferredParents = new Map<string, string>();
+  const preferredEdges = new Map<string, V2Edge>();
   const selectedNodes = new Set(routes[0].nodeIds);
   const selectedEdges = new Set(
     routes[0].nodeIds.slice(1).map((toId, index) =>
@@ -121,6 +130,8 @@ export function buildRouteMap(
       if (!titles.has(id)) titles.set(id, route.titles[index] ?? id);
       if (index > 0 && !preferredParents.has(id)) {
         preferredParents.set(id, route.nodeIds[index - 1]);
+        const incomingEdge = route.edges[index - 1];
+        if (incomingEdge) preferredEdges.set(id, incomingEdge);
       }
     });
   }
@@ -180,6 +191,7 @@ export function buildRouteMap(
         title,
         href: exploreHref(id, parentId),
         parentId,
+        incomingEdgeType: preferredEdges.get(id)?.edge_type,
         layer: layerCenters.indexOf(layerCenter),
         x: position.x - NODE_WIDTH / 2,
         y: position.y - NODE_HEIGHT / 2,
@@ -212,7 +224,7 @@ export function buildRouteMap(
     })
     .sort(
       (a, b) =>
-        Number(b.isSelected) - Number(a.isSelected) || a.id.localeCompare(b.id),
+        Number(a.isSelected) - Number(b.isSelected) || a.id.localeCompare(b.id),
     );
 
   const dimensions = graph.graph();
