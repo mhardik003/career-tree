@@ -87,7 +87,10 @@ describe("V2FocusView", () => {
     render(<V2FocusView view={view} />);
     expect(
       screen.getByRole("link", { name: "View full guide" }),
-    ).toHaveAttribute("href", "/v2/careers/degree/mba");
+    ).toHaveAttribute(
+      "href",
+      "/v2/careers/degree/mba?from=job_role%3Adeveloper",
+    );
     expect(
       screen.queryByText(/View complete routes from Class 10/),
     ).not.toBeInTheDocument();

@@ -70,7 +70,10 @@ export default function V2FocusView({
             <span>{view.node.id}</span>
           </div>
           <Link
-            href={nodeHref(view.node.id)}
+            href={nodeHref(
+              view.node.id,
+              view.selectedParentId ?? undefined,
+            )}
             className="mt-5 inline-flex rounded-full border border-black bg-black px-4 py-2 font-mono text-[10px] font-bold uppercase tracking-wider text-white transition hover:bg-white hover:text-black"
           >
             View full guide
