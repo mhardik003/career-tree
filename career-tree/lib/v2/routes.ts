@@ -33,6 +33,51 @@ function compareTuple(
   return (a[3] as string).localeCompare(b[3] as string);
 }
 
+class MinHeap<T> {
+  private readonly items: T[] = [];
+
+  constructor(private readonly compare: (a: T, b: T) => number) {}
+
+  get size(): number {
+    return this.items.length;
+  }
+
+  push(item: T): void {
+    this.items.push(item);
+    let index = this.items.length - 1;
+    while (index > 0) {
+      const parent = Math.floor((index - 1) / 2);
+      if (this.compare(this.items[parent], item) <= 0) break;
+      this.items[index] = this.items[parent];
+      index = parent;
+    }
+    this.items[index] = item;
+  }
+
+  pop(): T | undefined {
+    const root = this.items[0];
+    const last = this.items.pop();
+    if (!this.items.length || last === undefined) return root;
+
+    let index = 0;
+    while (true) {
+      const left = index * 2 + 1;
+      const right = left + 1;
+      if (left >= this.items.length) break;
+      const child =
+        right < this.items.length &&
+        this.compare(this.items[right], this.items[left]) < 0
+          ? right
+          : left;
+      if (this.compare(last, this.items[child]) <= 0) break;
+      this.items[index] = this.items[child];
+      index = child;
+    }
+    this.items[index] = last;
+    return root;
+  }
+}
+
 function compareOptionalRoutes(a?: V2Route, b?: V2Route): number {
   if (a && !b) return -1;
   if (!a && b) return 1;
@@ -57,16 +102,18 @@ function searchRoutes(
   const cached = cache.get(cacheKey);
   if (cached) return cached;
 
-  const queue: RouteState[] = [{ nodeIds: [graph.rootId], edges: [] }];
+  const queue = new MinHeap<RouteState>((a, b) =>
+    compareTuple(routeScore(a), routeScore(b)),
+  );
+  queue.push({ nodeIds: [graph.rootId], edges: [] });
   const results: V2Route[] = [];
   let expanded = 0;
   while (
-    queue.length &&
+    queue.size &&
     results.length < maxRoutes &&
     expanded < DEFAULT_LIMITS.maxStates
   ) {
-    queue.sort((a, b) => compareTuple(routeScore(a), routeScore(b)));
-    const state = queue.shift()!;
+    const state = queue.pop()!;
     const current = state.nodeIds.at(-1)!;
     if (current === targetId) {
       results.push({
