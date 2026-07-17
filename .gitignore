@@ -26,3 +26,7 @@ edit_results.json
 pipeline/ledger/call_cache.jsonl
 pipeline/ledger/embeddings.jsonl
 pipeline/__pycache__/
+
+# --- Local visual brainstorming artifacts ---
+/.superpowers/
+/docs/superpowers/
