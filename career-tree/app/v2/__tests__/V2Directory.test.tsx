@@ -34,7 +34,10 @@ describe("V2Directory", () => {
     fireEvent.change(screen.getByRole("searchbox"), {
       target: { value: "computer applications" },
     });
-    expect(screen.getByRole("link", { name: /BCA/ })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /BCA/ })).toHaveAttribute(
+      "href",
+      "/v2/careers/degree/bca",
+    );
     fireEvent.change(screen.getByRole("searchbox"), {
       target: { value: "unmapped phrase" },
     });
