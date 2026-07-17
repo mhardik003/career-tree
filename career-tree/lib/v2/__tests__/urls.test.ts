@@ -1,0 +1,20 @@
+import { describe, expect, it } from "vitest";
+import { nodeHref, nodeIdFromRoute, splitNodeId } from "../urls";
+
+describe("v2 URLs", () => {
+  it("round-trips an immutable node id", () => {
+    expect(splitNodeId("degree:mba")).toEqual({ type: "degree", slug: "mba" });
+    expect(nodeIdFromRoute("degree", "mba")).toBe("degree:mba");
+  });
+
+  it("builds canonical and parent-context URLs", () => {
+    expect(nodeHref("degree:mba")).toBe("/v2/careers/degree/mba");
+    expect(nodeHref("degree:mba", "degree:bca")).toBe(
+      "/v2/careers/degree/mba?from=degree%3Abca",
+    );
+  });
+
+  it("rejects malformed ids", () => {
+    expect(() => splitNodeId("mba")).toThrow("Invalid v2 node id");
+  });
+});
