@@ -1,0 +1,132 @@
+"use client";
+
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useMemo, useState } from "react";
+import { carouselWindow, moveSelection } from "@/lib/v2/carousel";
+import type { V2ParentView } from "@/lib/v2/types";
+import { cn } from "@/lib/utils";
+
+interface Props {
+  currentTitle?: string;
+  parents: V2ParentView[];
+  selectedId: string;
+  onSelect(parent: V2ParentView): void;
+}
+
+export default function ParentCarousel(props: Props) {
+  return <ParentCarouselContent key={props.selectedId} {...props} />;
+}
+
+function ParentCarouselContent({
+  currentTitle = "current node",
+  parents,
+  selectedId,
+  onSelect,
+}: Props) {
+  const [activeId, setActiveId] = useState(selectedId);
+  const ids = useMemo(
+    () => parents.map((parent) => parent.node.id),
+    [parents],
+  );
+  const byId = useMemo(
+    () => new Map(parents.map((parent) => [parent.node.id, parent])),
+    [parents],
+  );
+  const items = carouselWindow(ids, activeId, 5);
+  const activeIndex = Math.max(0, ids.indexOf(activeId));
+
+  function select(id: string | null) {
+    if (!id) return;
+    const parent = byId.get(id);
+    if (!parent) return;
+    setActiveId(id);
+    onSelect(parent);
+  }
+
+  if (!parents.length) return null;
+
+  return (
+    <section
+      className="mx-auto w-full max-w-6xl"
+      aria-label={`Ways to reach ${currentTitle}`}
+    >
+      <p className="text-center font-mono text-[10px] uppercase tracking-[0.14em] text-gray-500">
+        Other ways to reach {currentTitle}
+      </p>
+      <p
+        className="mt-1 text-center text-xs text-gray-500"
+        aria-live="polite"
+      >
+        Parent {activeIndex + 1} of {parents.length}
+      </p>
+      <div
+        role="group"
+        aria-label={`Ways to reach ${currentTitle}`}
+        tabIndex={0}
+        onKeyDown={(event) => {
+          if (event.key === "ArrowLeft") {
+            event.preventDefault();
+            select(moveSelection(ids, activeId, -1));
+          }
+          if (event.key === "ArrowRight") {
+            event.preventDefault();
+            select(moveSelection(ids, activeId, 1));
+          }
+        }}
+        className="mt-4 flex items-center justify-center gap-2 outline-none"
+      >
+        {parents.length > 1 && (
+          <button
+            type="button"
+            aria-label="Previous parent"
+            onClick={() => select(moveSelection(ids, activeId, -1))}
+            className="shrink-0 rounded-full border bg-white p-2"
+          >
+            <ChevronLeft size={18} />
+          </button>
+        )}
+        <div className="grid max-w-5xl flex-1 grid-cols-5 items-center gap-2">
+          {items.map(({ id, offset }) => {
+            const parent = byId.get(id)!;
+            return (
+              <button
+                type="button"
+                key={id}
+                aria-label={`Select parent ${parent.node.title}`}
+                aria-current={offset === 0 ? "true" : undefined}
+                onClick={() => select(id)}
+                style={{ gridColumn: offset + 3 }}
+                className={cn(
+                  "row-start-1 rounded-lg border bg-white p-3 text-center transition-all motion-reduce:transition-none",
+                  offset === 0 &&
+                    "z-10 scale-100 border-2 border-black opacity-100 shadow-lg",
+                  Math.abs(offset) === 1 && "scale-90 opacity-50",
+                  Math.abs(offset) === 2 &&
+                    "hidden scale-75 opacity-20 lg:block",
+                )}
+              >
+                <span className="block font-mono text-xs font-bold">
+                  {parent.node.title}
+                </span>
+                <span className="mt-1 block text-[9px] uppercase text-gray-500">
+                  {parent.edge.edge_type.replace("_", " ")}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+        {parents.length > 1 && (
+          <button
+            type="button"
+            aria-label="Next parent"
+            onClick={() => select(moveSelection(ids, activeId, 1))}
+            className="shrink-0 rounded-full border bg-white p-2"
+          >
+            <ChevronRight size={18} />
+          </button>
+        )}
+      </div>
+      <div className="mx-auto h-8 w-px bg-black/20" />
+    </section>
+  );
+}
