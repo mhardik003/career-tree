@@ -1,6 +1,7 @@
 "use client";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { carouselWindow, moveSelection } from "@/lib/v2/carousel";
 import type { V2ParentView } from "@/lib/v2/types";
@@ -10,6 +11,7 @@ interface Props {
   currentTitle?: string;
   parents: V2ParentView[];
   selectedId: string;
+  selectedParentHref: string;
   onSelect(parent: V2ParentView): void;
 }
 
@@ -29,6 +31,7 @@ function ParentCarouselContent({
   currentTitle = "current node",
   parents,
   selectedId,
+  selectedParentHref,
   onSelect,
 }: Props) {
   const [activeId, setActiveId] = useState(selectedId);
@@ -95,29 +98,47 @@ function ParentCarouselContent({
         >
           {items.map(({ id, offset }) => {
             const parent = byId.get(id)!;
-            return (
-              <button
-                type="button"
-                key={id}
-                aria-label={`Select parent ${parent.node.title}`}
-                aria-current={offset === 0 ? "true" : undefined}
-                onClick={() => select(id)}
-                className={cn(
-                  "row-start-1 min-w-0 overflow-hidden rounded-lg border bg-white p-2 text-center transition-all motion-reduce:transition-none sm:p-3",
-                  POSITION_CLASS[offset],
-                  offset === 0 &&
-                    "z-10 scale-100 border-2 border-black opacity-100 shadow-lg",
-                  Math.abs(offset) === 1 && "scale-90 opacity-50",
-                  Math.abs(offset) === 2 &&
-                    "hidden scale-75 opacity-20 lg:block",
-                )}
-              >
+            const cardClassName = cn(
+              "row-start-1 min-w-0 overflow-hidden rounded-lg border bg-white p-2 text-center transition-all motion-reduce:transition-none sm:p-3",
+              POSITION_CLASS[offset],
+              offset === 0 &&
+                "z-10 scale-100 border-2 border-black opacity-100 shadow-lg",
+              Math.abs(offset) === 1 && "scale-90 opacity-50",
+              Math.abs(offset) === 2 &&
+                "hidden scale-75 opacity-20 lg:block",
+            );
+            const cardContent = (
+              <>
                 <span className="block font-mono text-xs font-bold">
                   {parent.node.title}
                 </span>
                 <span className="mt-1 block text-[9px] uppercase text-gray-500">
                   {parent.edge.edge_type.replace("_", " ")}
                 </span>
+              </>
+            );
+            if (offset === 0 && id === selectedId) {
+              return (
+                <Link
+                  key={id}
+                  href={selectedParentHref}
+                  aria-label={`Open parent ${parent.node.title}`}
+                  aria-current="step"
+                  className={cardClassName}
+                >
+                  {cardContent}
+                </Link>
+              );
+            }
+            return (
+              <button
+                type="button"
+                key={id}
+                aria-label={`Select parent ${parent.node.title}`}
+                onClick={() => select(id)}
+                className={cardClassName}
+              >
+                {cardContent}
               </button>
             );
           })}

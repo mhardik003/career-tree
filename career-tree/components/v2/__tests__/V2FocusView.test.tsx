@@ -98,6 +98,9 @@ describe("V2FocusView", () => {
     expect(screen.queryByText(/Other ways to reach/)).not.toBeInTheDocument();
     expect(screen.queryByText(/Parent 2 of 3/)).not.toBeInTheDocument();
     expect(
+      screen.getByRole("link", { name: "Open parent Developer" }),
+    ).toHaveAttribute("href", "/v2/careers/job_role/developer");
+    expect(
       screen.getByRole("heading", { level: 1, name: "MBA" }),
     ).toBeInTheDocument();
     expect(

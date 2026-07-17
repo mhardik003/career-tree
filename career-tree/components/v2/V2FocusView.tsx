@@ -51,6 +51,7 @@ export default function V2FocusView({
             currentTitle={view.node.title}
             parents={view.parents}
             selectedId={selectedId}
+            selectedParentHref={view.backHref}
             onSelect={selectParent}
           />
         )}

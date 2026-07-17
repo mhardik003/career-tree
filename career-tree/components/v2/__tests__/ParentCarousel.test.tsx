@@ -41,8 +41,13 @@ describe("ParentCarousel", () => {
         currentTitle="MBA"
         parents={parents}
         selectedId="degree:a"
+        selectedParentHref="/v2/careers/degree/a"
         onSelect={onSelect}
       />,
+    );
+    expect(screen.getByRole("link", { name: "Open parent A" })).toHaveAttribute(
+      "href",
+      "/v2/careers/degree/a",
     );
     expect(screen.queryByText(/Other ways to reach/)).not.toBeInTheDocument();
     expect(screen.queryByText(/Parent 1 of 3/)).not.toBeInTheDocument();
@@ -70,6 +75,7 @@ describe("ParentCarousel", () => {
         currentTitle="MBA"
         parents={parents}
         selectedId="degree:a"
+        selectedParentHref="/v2/careers/degree/a"
         onSelect={onSelect}
       />,
     );
