@@ -28,6 +28,9 @@ const nodes = [
 describe("V2Directory", () => {
   it("filters by alias and shows an empty state", () => {
     render(<V2Directory nodes={nodes} />);
+    expect(
+      screen.getByRole("searchbox", { name: "Search canonical career nodes" }),
+    ).toBeInTheDocument();
     fireEvent.change(screen.getByRole("searchbox"), {
       target: { value: "computer applications" },
     });

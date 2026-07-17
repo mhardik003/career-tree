@@ -46,8 +46,21 @@ describe("ParentCarousel", () => {
     );
     expect(screen.queryByText(/Other ways to reach/)).not.toBeInTheDocument();
     expect(screen.queryByText(/Parent 1 of 3/)).not.toBeInTheDocument();
+    expect(screen.getByRole("status")).toHaveTextContent(
+      "Selected parent A, 1 of 3",
+    );
+    expect(
+      screen.getByRole("group", { name: "Ways to reach MBA" }),
+    ).toHaveClass("focus-visible:ring-2");
+    expect(screen.getByTestId("parent-carousel-track")).toHaveClass(
+      "grid-cols-3",
+      "lg:grid-cols-5",
+    );
     fireEvent.click(screen.getByRole("button", { name: "Previous parent" }));
     expect(onSelect).toHaveBeenCalledWith(parents[2]);
+    expect(screen.getByRole("status")).toHaveTextContent(
+      "Selected parent C, 3 of 3",
+    );
   });
 
   it("selects a visible parent and handles ArrowRight", () => {

@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import V2FocusView from "@/components/v2/V2FocusView";
+import V2NodePageClient from "@/components/v2/V2NodePageClient";
 import { v2Graph } from "@/lib/v2/data";
 import { buildNodePageView } from "@/lib/v2/routes";
 
 interface Props {
   params: Promise<{ type: string; slug: string }>;
-  searchParams: Promise<{ from?: string | string[] }>;
 }
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return v2Graph.nodes.map((node) => ({
@@ -26,15 +29,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function V2NodePage({ params, searchParams }: Props) {
+export default async function V2NodePage({ params }: Props) {
   const { type, slug } = await params;
-  const query = await searchParams;
   const node = v2Graph.getNodeByRoute(type, slug);
   if (!node) notFound();
-  const requestedFrom = Array.isArray(query.from) ? query.from[0] : query.from;
+  const canonicalView = buildNodePageView(v2Graph, node.id);
+  const parentViews = Object.fromEntries(
+    canonicalView.parents.map((parent) => [
+      parent.node.id,
+      buildNodePageView(v2Graph, node.id, parent.node.id),
+    ]),
+  );
   return (
-    <V2FocusView
-      view={buildNodePageView(v2Graph, node.id, requestedFrom)}
-    />
+    <Suspense fallback={<V2FocusView view={canonicalView} />}>
+      <V2NodePageClient
+        canonicalView={canonicalView}
+        parentViews={parentViews}
+      />
+    </Suspense>
   );
 }

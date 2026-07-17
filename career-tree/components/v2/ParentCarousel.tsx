@@ -13,6 +13,14 @@ interface Props {
   onSelect(parent: V2ParentView): void;
 }
 
+const POSITION_CLASS: Record<number, string> = {
+  [-2]: "hidden lg:col-start-1 lg:block",
+  [-1]: "col-start-1 lg:col-start-2",
+  0: "col-start-2 lg:col-start-3",
+  1: "col-start-3 lg:col-start-4",
+  2: "hidden lg:col-start-5 lg:block",
+};
+
 export default function ParentCarousel(props: Props) {
   return <ParentCarouselContent key={props.selectedId} {...props} />;
 }
@@ -33,6 +41,8 @@ function ParentCarouselContent({
     [parents],
   );
   const items = carouselWindow(ids, activeId, 5);
+  const activeIndex = Math.max(0, ids.indexOf(activeId));
+  const activeParent = byId.get(activeId);
 
   function select(id: string | null) {
     if (!id) return;
@@ -49,6 +59,10 @@ function ParentCarouselContent({
       className="mx-auto w-full max-w-6xl"
       aria-label={`Ways to reach ${currentTitle}`}
     >
+      <p role="status" aria-live="polite" className="sr-only">
+        Selected parent {activeParent?.node.title ?? activeId}, {activeIndex + 1} of{" "}
+        {parents.length}
+      </p>
       <div
         role="group"
         aria-label={`Ways to reach ${currentTitle}`}
@@ -63,7 +77,7 @@ function ParentCarouselContent({
             select(moveSelection(ids, activeId, 1));
           }
         }}
-        className="mt-4 flex items-center justify-center gap-2 outline-none"
+        className="mt-4 flex items-center justify-center gap-1 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2 sm:gap-2"
       >
         {parents.length > 1 && (
           <button
@@ -75,7 +89,10 @@ function ParentCarouselContent({
             <ChevronLeft size={18} />
           </button>
         )}
-        <div className="grid max-w-5xl flex-1 grid-cols-5 items-center gap-2">
+        <div
+          data-testid="parent-carousel-track"
+          className="grid max-w-5xl flex-1 grid-cols-3 items-center gap-1 lg:grid-cols-5 lg:gap-2"
+        >
           {items.map(({ id, offset }) => {
             const parent = byId.get(id)!;
             return (
@@ -85,9 +102,9 @@ function ParentCarouselContent({
                 aria-label={`Select parent ${parent.node.title}`}
                 aria-current={offset === 0 ? "true" : undefined}
                 onClick={() => select(id)}
-                style={{ gridColumn: offset + 3 }}
                 className={cn(
-                  "row-start-1 rounded-lg border bg-white p-3 text-center transition-all motion-reduce:transition-none",
+                  "row-start-1 min-w-0 overflow-hidden rounded-lg border bg-white p-2 text-center transition-all motion-reduce:transition-none sm:p-3",
+                  POSITION_CLASS[offset],
                   offset === 0 &&
                     "z-10 scale-100 border-2 border-black opacity-100 shadow-lg",
                   Math.abs(offset) === 1 && "scale-90 opacity-50",

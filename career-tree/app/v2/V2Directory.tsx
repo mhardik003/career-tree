@@ -51,10 +51,11 @@ export default function V2Directory({
           </p>
           <input
             type="search"
+            aria-label="Search canonical career nodes"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search titles and aliases…"
-            className="mx-auto mt-6 block w-full max-w-2xl rounded-lg border bg-white px-4 py-3 outline-none focus:border-black"
+            className="mx-auto mt-6 block w-full max-w-2xl rounded-lg border bg-white px-4 py-3 outline-none focus:border-black focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
           />
           <div className="mt-4 flex flex-wrap justify-center gap-2">
             {(["all", ...types] as DirectoryTypeFilter[]).map((value) => (
