@@ -8,6 +8,7 @@ import re
 import json
 import time
 import tempfile
+import threading
 from enum import Enum
 from typing import List, Optional, Dict, Iterable
 
@@ -294,16 +295,20 @@ class Registry:
 # --- OpenAI wrapper with provider-aware call cache ----------------------------
 
 _provider: Optional[OpenAIProvider] = None
+_provider_lock = threading.Lock()
 
 
 def _get_provider() -> OpenAIProvider:
     global _provider
     if _provider is None:
-        _provider = OpenAIProvider()
+        with _provider_lock:
+            if _provider is None:
+                _provider = OpenAIProvider()
     return _provider
 
 
 _call_cache: Optional[Dict[str, str]] = None
+_call_cache_lock = threading.RLock()
 
 def _load_call_cache() -> Dict[str, str]:
     global _call_cache
@@ -337,9 +342,10 @@ def call_json(
         prompt,
         tools,
     )
-    cache = _load_call_cache()
-    if key in cache:
-        return schema.model_validate_json(cache[key])
+    with _call_cache_lock:
+        cache = _load_call_cache()
+        if key in cache:
+            return schema.model_validate_json(cache[key])
     out, usage_tokens = _get_provider().structured(
         model,
         prompt,
@@ -358,18 +364,22 @@ def call_json(
         "usage_tokens": usage_tokens,
         "response": response_json,
     }
-    append_jsonl(CALL_CACHE_FILE, row)
-    append_jsonl(
-        USAGE_FILE,
-        {
-            "key": key,
-            "provider": PROVIDER,
-            "model": model,
-            "prompt_version": prompt_version,
-            "usage_tokens": usage_tokens,
-        },
-    )
-    cache[key] = response_json
+    with _call_cache_lock:
+        cache = _load_call_cache()
+        if key in cache:
+            return schema.model_validate_json(cache[key])
+        append_jsonl(CALL_CACHE_FILE, row)
+        append_jsonl(
+            USAGE_FILE,
+            {
+                "key": key,
+                "provider": PROVIDER,
+                "model": model,
+                "prompt_version": prompt_version,
+                "usage_tokens": usage_tokens,
+            },
+        )
+        cache[key] = response_json
     return out
 
 

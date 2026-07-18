@@ -3,6 +3,7 @@ import argparse
 import json
 import os
 from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor
 
 from facts import NodeFacts, allowed_section_keys
 from lib import (
@@ -57,6 +58,7 @@ def enrich_registry(
     *,
     node_ids: set[str] | None = None,
     force: bool = False,
+    workers: int = 1,
 ) -> int:
     failed_ids = {
         row["node_id"]
@@ -65,6 +67,7 @@ def enrich_registry(
     }
     completed = 0
     consecutive_failures = 0
+    candidates = []
     for node in sorted(reg.nodes.values(), key=lambda item: item.id):
         if node_ids is not None and node.id not in node_ids:
             continue
@@ -72,23 +75,37 @@ def enrich_registry(
             continue
         if node.id in failed_ids and not retry_failures:
             continue
-        try:
-            enriched = NodeFacts.model_validate(research(node))
-            _validate_sections(node.type.value, enriched)
-            node.facts = enriched
-            reg.save()
-            _replace_failure(failure_path, node.id, None)
-        except Exception as exc:  # noqa: BLE001 - isolate persistent item failures
-            consecutive_failures += 1
-            _replace_failure(failure_path, node.id, str(exc))
-            if consecutive_failures >= 5:
-                break
-            continue
-
-        consecutive_failures = 0
-        completed += 1
-        if limit and completed >= limit:
+        candidates.append(node)
+        if limit and len(candidates) >= limit:
             break
+
+    worker_count = max(1, workers)
+    abort = False
+    with ThreadPoolExecutor(max_workers=worker_count) as executor:
+        for start in range(0, len(candidates), worker_count):
+            batch = candidates[start : start + worker_count]
+            futures = [(node, executor.submit(research, node)) for node in batch]
+            for node, future in futures:
+                try:
+                    enriched = NodeFacts.model_validate(future.result())
+                    _validate_sections(node.type.value, enriched)
+                    node.facts = enriched
+                    reg.save()
+                    _replace_failure(failure_path, node.id, None)
+                except Exception as exc:  # noqa: BLE001 - isolate item failures
+                    consecutive_failures += 1
+                    _replace_failure(failure_path, node.id, str(exc))
+                    if consecutive_failures >= 5:
+                        abort = True
+                        for _pending_node, pending in futures:
+                            pending.cancel()
+                        break
+                    continue
+
+                consecutive_failures = 0
+                completed += 1
+            if abort:
+                break
     return completed
 
 
@@ -149,6 +166,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--retry-failures", action="store_true")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--workers", type=int, default=1)
     args = parser.parse_args(argv)
 
     registry = Registry()
@@ -177,6 +195,7 @@ def main(argv: list[str] | None = None) -> int:
         retry_failures=args.retry_failures,
         node_ids=selected,
         force=args.force,
+        workers=args.workers,
     )
     print(f"enriched {completed} nodes")
     return 0

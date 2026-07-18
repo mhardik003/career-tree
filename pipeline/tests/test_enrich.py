@@ -1,6 +1,8 @@
 import json
 import sys
 import tempfile
+import threading
+import time
 import unittest
 from pathlib import Path
 
@@ -158,6 +160,42 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(skipped, 0)
         self.assertEqual(completed, 1)
         self.assertEqual(remaining_failures, "")
+
+    def test_bounded_workers_research_in_parallel_and_serialize_saves(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            registry = write_registry(
+                root,
+                [node(f"degree:test-{index}") for index in range(4)],
+            )
+            lock = threading.Lock()
+            active = 0
+            max_active = 0
+
+            def research(_item):
+                nonlocal active, max_active
+                with lock:
+                    active += 1
+                    max_active = max(max_active, active)
+                time.sleep(0.03)
+                with lock:
+                    active -= 1
+                return facts()
+
+            completed = enrich_registry(
+                registry,
+                research,
+                str(root / "failures.jsonl"),
+                workers=2,
+            )
+            reloaded = Registry(
+                nodes_file=str(root / "nodes.jsonl"),
+                edges_file=str(root / "edges.jsonl"),
+            )
+
+        self.assertEqual(completed, 4)
+        self.assertEqual(max_active, 2)
+        self.assertTrue(all(item.facts is not None for item in reloaded.nodes.values()))
 
 
 if __name__ == "__main__":
