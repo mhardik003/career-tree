@@ -1,190 +1,133 @@
 "use client";
-import { useMemo, useCallback } from 'react';
+
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useCallback, useMemo, useState } from "react";
 import ReactFlow, {
   Background,
-  Controls,
-  useNodesState,
-  useEdgesState,
-  MiniMap,
   BackgroundVariant,
+  Controls,
   Handle,
+  MiniMap,
   Position,
-  NodeProps,
-  Node
-} from 'reactflow';
-import 'reactflow/dist/style.css';
-import type { GraphNode, GraphEdge } from '@/lib/types';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { ArrowLeft } from 'lucide-react';
+  type Node,
+  type NodeProps,
+} from "reactflow";
+import "reactflow/dist/style.css";
+import type { V2GlobalMap } from "@/lib/v2/global-map";
+import { filterGlobalMap } from "@/lib/v2/global-map";
+import type { V2NodeType } from "@/lib/v2/types";
 
-// --- CONFIGURATION: DEPTH COLORS ---
-const DEPTH_COLORS = [
-  '#111827', // Depth 0 (Root) - Black/Dark Gray
-  '#2563eb', // Depth 1 (Streams) - Blue
-  '#7c3aed', // Depth 2 (Degrees) - Violet
-  '#db2777', // Depth 3 (Specializations) - Pink
-  '#ea580c', // Depth 4 (Further Studies) - Orange
-  '#16a34a', // Depth 5+ (Deep Niche) - Green
-];
+const DISTANCE_COLORS = ["#111827", "#2563eb", "#7c3aed", "#db2777", "#ea580c", "#16a34a"];
 
-// --- CUSTOM NODE COMPONENT (Vertical Support) ---
-const CustomNode = ({ data, selected }: NodeProps) => {
+function MapNode({ data, selected }: NodeProps) {
   return (
-    <div
-      className={`
-        px-4 py-2 rounded-full border shadow-sm transition-all duration-200 min-w-[150px] text-center
-        ${selected ? 'border-black ring-1 ring-black shadow-md scale-105' : 'border-gray-300'}
-        ${data.isTerminal ? 'bg-green-50 border-green-200' : 'bg-white'}
-      `}
-    >
-      {/*
-         Change Handle Position for Vertical Layout:
-         Target (Input) -> Top
-         Source (Output) -> Bottom
-      */}
-      <Handle type="target" position={Position.Top} className="!bg-black !w-1 !h-1 opacity-0" />
-
-      <div className="flex flex-col items-center">
-        <span className={`font-mono text-[10px] font-bold tracking-tight ${data.isTerminal ? 'text-green-800' : 'text-gray-900'}`}>
-          {data.label}
-        </span>
-        {data.isTerminal && (
-           <span className="text-[8px] uppercase tracking-widest text-green-600 font-bold mt-1">
-             Goal
-           </span>
-        )}
-      </div>
-
-      <Handle type="source" position={Position.Bottom} className="!bg-black !w-1 !h-1 opacity-0" />
+    <div className={`min-w-40 rounded-lg border bg-white px-4 py-3 text-center shadow-sm ${selected ? "border-black ring-2 ring-black" : "border-gray-300"}`}>
+      <Handle type="target" position={Position.Top} className="opacity-0" />
+      <p className="font-mono text-[10px] font-bold">{data.label}</p>
+      <p className="mt-1 font-mono text-[8px] uppercase text-gray-500">{data.nodeType.replaceAll("_", " ")}</p>
+      <Handle type="source" position={Position.Bottom} className="opacity-0" />
     </div>
   );
-};
-
-const nodeTypes = {
-  default: CustomNode,
-};
-
-interface MapViewProps {
-  initialNodes: GraphNode[];
-  initialEdges: GraphEdge[];
 }
 
-export default function MapView({ initialNodes, initialEdges }: MapViewProps) {
+const nodeTypes = { canonical: MapNode };
+
+export default function MapView({ model }: { model: V2GlobalMap }) {
   const router = useRouter();
-
-  // Layout arrives precomputed from the server; re-apply the visual styling here
-  // so it doesn't have to travel over the wire for every node/edge.
-  const { nodes: styledNodes, edges: styledEdges } = useMemo(() => {
-    const nodes = initialNodes.map((node) => ({
-      ...node,
-      type: 'default',
+  const [query, setQuery] = useState("");
+  const [type, setType] = useState<V2NodeType | "all">("all");
+  const visible = useMemo(() => filterGlobalMap(model, query, type), [model, query, type]);
+  const distances = useMemo(
+    () => new Map(visible.nodes.map((node) => [node.id, node.rootDistance])),
+    [visible.nodes],
+  );
+  const nodes = useMemo(() => visible.nodes.map((node) => ({
+    id: node.id,
+    type: "canonical",
+    position: node.position,
+    data: {
+      label: node.title,
+      nodeType: node.type,
+      href: node.href,
+      isTerminal: node.isTerminal,
+      rootDistance: node.rootDistance,
+    },
+  })), [visible.nodes]);
+  const edges = useMemo(() => visible.edges.map((edge) => {
+    const distance = distances.get(edge.target) ?? 0;
+    const color = DISTANCE_COLORS[Math.min(distance, DISTANCE_COLORS.length - 1)];
+    return {
+      id: edge.id,
+      source: edge.source,
+      target: edge.target,
+      type: "smoothstep",
       style: {
-        background: node.data.isTerminal ? '#f0fdf4' : '#fff',
-        border: node.data.isTerminal ? '1px solid #22c55e' : '1px solid black',
-        borderRadius: '5px',
-        fontSize: '10px',
-        width: 170
-      }
-    }));
-
-    // --- COLOR LOGIC ---
-    const edges = initialEdges.map((edge) => {
-      // Pick color from array, or use the last color if we go deeper
-      const color = DEPTH_COLORS[edge.data.depth] || DEPTH_COLORS[DEPTH_COLORS.length - 1];
-
-      return {
-        ...edge,
-        type: 'smoothstep',
-        animated: false,
-        style: { stroke: color, strokeWidth: 2, opacity: 0.8 },
-      };
-    });
-
-    return { nodes, edges };
-  }, [initialNodes, initialEdges]);
-
-  const [nodes, setNodes, onNodesChange] = useNodesState(styledNodes);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(styledEdges);
-
-  const onNodeClick = useCallback((event: React.MouseEvent, node: Node) => {
+        stroke: color,
+        strokeWidth: edge.isCommonRoute ? 2 : 1.5,
+        opacity: edge.edgeType === "lateral" ? 0.55 : 0.8,
+      },
+    };
+  }), [distances, visible.edges]);
+  const onNodeClick = useCallback((_: React.MouseEvent, node: Node) => {
     router.push(node.data.href);
   }, [router]);
 
   return (
-    <div className="w-screen h-screen bg-[#fafafa]">
-
-      {/* HEADER */}
-      <div className="absolute top-4 left-4 z-50 flex flex-col gap-2">
-        <Link href="/">
-          <button className="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 shadow-sm rounded-lg font-mono text-xs hover:border-black transition-colors">
-            <ArrowLeft size={14} /> Back Home
-          </button>
-        </Link>
-        <div className="px-4 py-2 bg-black text-white rounded-lg font-mono text-xs shadow-md">
-           <strong>{nodes.length}</strong> Nodes Mapped
+    <main className="h-screen w-screen bg-[#fafafa]">
+      <div className="absolute left-4 top-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col gap-2 rounded-xl border bg-white/95 p-3 shadow-md backdrop-blur">
+        <div className="flex flex-wrap items-center gap-2">
+          <Link href="/" className="rounded-md border px-3 py-2 font-mono text-xs">← Back home</Link>
+          <span className="rounded-md bg-black px-3 py-2 font-mono text-xs text-white">
+            {visible.nodes.length} canonical nodes
+          </span>
         </div>
-      </div>
-
-      {/* --- COLOR LEGEND --- */}
-      <div className="absolute bottom-4 left-4 z-50 bg-white/90 backdrop-blur p-4 rounded-lg border border-gray-200 shadow-sm flex flex-col gap-3">
-        <span className="text-[10px] font-bold uppercase tracking-widest text-gray-500 border-b pb-1">Hierarchy Levels</span>
-
-        {/* Generate Legend Items */}
-        <div className="flex flex-col gap-2">
-          {['Root / Entry', 'Streams', 'Degrees', 'Specializations', 'Sub-Spec', 'Deep Niche'].map((label, idx) => (
-            <div key={label} className="flex items-center gap-2 text-xs font-mono">
-              <div
-                className="w-8 h-1 rounded"
-                style={{ backgroundColor: DEPTH_COLORS[idx] || DEPTH_COLORS[DEPTH_COLORS.length - 1] }}
-              ></div>
-              <span className="text-gray-600">{label}</span>
-            </div>
+        <label className="sr-only" htmlFor="map-search">Search map nodes</label>
+        <input
+          id="map-search"
+          type="search"
+          aria-label="Search map nodes"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Search titles or aliases"
+          className="rounded-md border px-3 py-2 text-sm"
+        />
+        <label className="sr-only" htmlFor="map-type">Filter map by node type</label>
+        <select
+          id="map-type"
+          aria-label="Filter map by node type"
+          value={type}
+          onChange={(event) => setType(event.target.value as V2NodeType | "all")}
+          className="rounded-md border px-3 py-2 text-sm"
+        >
+          <option value="all">All node types</option>
+          {model.types.map((nodeType) => (
+            <option key={nodeType} value={nodeType}>{nodeType.replaceAll("_", " ")}</option>
           ))}
-        </div>
-
-        {/* Node Type Legend */}
-        <div className="mt-2 pt-2 border-t flex flex-col gap-2">
-           <div className="flex items-center gap-2 text-xs font-mono">
-              <div className="w-3 h-3 rounded-full border border-gray-300 bg-white"></div>
-              <span>Study Path</span>
-           </div>
-           <div className="flex items-center gap-2 text-xs font-mono">
-              <div className="w-3 h-3 rounded-full border border-green-300 bg-green-50"></div>
-              <span>Job Goal</span>
-           </div>
-        </div>
+        </select>
       </div>
 
-      {/* REACT FLOW */}
       <ReactFlow
         nodes={nodes}
         edges={edges}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        onNodeClick={onNodeClick}
         nodeTypes={nodeTypes}
+        onNodeClick={onNodeClick}
         onlyRenderVisibleElements
         fitView
         minZoom={0.05}
         maxZoom={1.5}
         attributionPosition="bottom-right"
       >
-        <Background
-          color="#e5e5e5"
-          gap={40}
-          variant={BackgroundVariant.Lines}
-        />
-        <Controls
-          className="!bg-white !border-gray-200 !shadow-sm !m-4"
-          showInteractive={false}
-        />
+        <Background color="#e5e5e5" gap={40} variant={BackgroundVariant.Lines} />
+        <Controls showInteractive={false} />
         <MiniMap
-          className='!border-gray-200 !shadow-sm !rounded-lg'
-          nodeColor={(n) => n.data.isTerminal ? '#86efac' : '#e5e5e5'}
+          nodeColor={(node) => {
+            const distance = node.data.rootDistance ?? 0;
+            return DISTANCE_COLORS[Math.min(distance, DISTANCE_COLORS.length - 1)];
+          }}
           maskColor="rgba(250, 250, 250, 0.8)"
         />
       </ReactFlow>
-    </div>
+    </main>
   );
 }

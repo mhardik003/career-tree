@@ -1,9 +1,7 @@
-import { getGraphData } from '@/lib/treeUtils';
-import MapView from './MapView';
+import { v2Graph } from "@/lib/v2/data";
+import { buildGlobalMap } from "@/lib/v2/global-map";
+import MapView from "./MapView";
 
-// Dagre layout for all nodes runs here at build time; only the laid-out
-// positions and labels are sent to the client.
 export default function GlobalMap() {
-  const { nodes, edges } = getGraphData();
-  return <MapView initialNodes={nodes} initialEdges={edges} />;
+  return <MapView model={buildGlobalMap(v2Graph)} />;
 }
