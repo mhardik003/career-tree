@@ -46,6 +46,8 @@ def build_snapshot(
     node_records: list[dict[str, Any]],
     edge_records: list[dict[str, Any]],
     digest: str,
+    *,
+    require_facts: bool = True,
 ) -> dict[str, Any]:
     _unique(node_records, "id", "node")
     _unique(edge_records, "id", "edge")
@@ -63,6 +65,8 @@ def build_snapshot(
     route_keys: set[tuple[str, str]] = set()
     exported_nodes: list[dict[str, Any]] = []
     for item in nodes:
+        if require_facts and item.facts is None:
+            raise SnapshotError(f"node {item.id}: missing facts")
         prefix, separator, slug = item.id.partition(":")
         if not separator or not slug or prefix != item.type.value:
             raise SnapshotError(
@@ -129,11 +133,13 @@ def write_snapshot(path: Path, snapshot: dict[str, Any]) -> bool:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--allow-incomplete-facts", action="store_true")
     args = parser.parse_args()
     expected = build_snapshot(
         read_jsonl(str(NODES_PATH)),
         read_jsonl(str(EDGES_PATH)),
         source_digest(),
+        require_facts=not args.allow_incomplete_facts,
     )
     if args.check:
         if not OUTPUT_PATH.exists():
