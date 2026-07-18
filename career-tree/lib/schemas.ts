@@ -1,37 +1,23 @@
 import { z } from "zod";
 
-// Zod schemas for the suggest/edit API routes. They live here rather than in the
-// route files because route modules must only export handlers (extra exports can
-// fail the Next build), and so client code can share them.
+export const V2NodeIdSchema = z.string().regex(
+  /^(school_stage|stream|exam|degree|diploma|certification|training|job_role|government_service|entrepreneurship):[a-z0-9]+(?:-[a-z0-9]+)*$/,
+  "A valid V2 node ID is required",
+);
 
 export const SuggestionSchema = z.object({
-  title: z.string().min(5).max(50).trim(), // Must be 5-50 chars
-  description: z.string().min(10).max(500).trim(), // Prevent massive text
-  parentPath: z.string().min(1)
-});
+  parentNodeId: V2NodeIdSchema,
+  title: z.string().trim().min(5).max(100),
+  description: z.string().trim().min(10).max(1000),
+}).strict();
 
-// Define the shape of the data inside "newData"
-// .trim() removes whitespace, .max() prevents database spam
-export const NodeDataSchema = z.object({
-  node_title: z.string().min(3, "Title is required").max(100).trim(),
-  description: z.string().min(1, "Description is required").max(2000).trim(),
-  difficulty_rating: z.number().min(1).max(10),
+export const EditableNodeDataSchema = z.object({
+  title: z.string().trim().min(2).max(150),
+  description: z.string().trim().min(10).max(4000),
+  aliases: z.array(z.string().trim().min(1).max(150)).max(25),
+}).strict();
 
-  avg_cost_inr: z.string().max(100).trim().optional(),
-  duration_years: z.string().max(100).trim().optional(),
-
-  // Validate arrays of strings
-  exams_to_give: z.array(z.string().trim()).optional().nullable(),
-  certifications: z.array(z.string().trim()).optional().nullable(),
-  qualifications_needed: z.array(z.string().trim()).optional().nullable(),
-  top_colleges_or_companies: z.array(z.string().trim()).optional().nullable(),
-  tools_and_resources: z.array(z.string().trim()).optional().nullable(),
-  real_life_applications: z.array(z.string().trim()).optional().nullable(),
-});
-
-// Define the full API Request body
 export const EditSubmissionSchema = z.object({
-  nodeKey: z.string().min(1),
-  originalData: NodeDataSchema,
-  newData: NodeDataSchema,
-});
+  targetNodeId: V2NodeIdSchema,
+  proposedData: EditableNodeDataSchema,
+}).strict();
