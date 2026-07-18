@@ -35,4 +35,7 @@ the release procedure.
 
 The public JSONL registry under `../pipeline/registry/` is canonical. The frontend
 snapshot is generated with `python pipeline/export_frontend.py`; it is never edited by
-hand or copied from a legacy tree.
+hand or copied from a legacy tree. The root pipeline uses OpenAI for depth-bounded
+expansion, conservative entity resolution, and cited enrichment; the snapshot is
+released only after its source audit and release lint pass. No provider credentials
+are shipped to the browser.

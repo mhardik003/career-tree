@@ -65,7 +65,7 @@ def node(node_id: str, enriched: bool = False) -> Node:
         title=node_id.rsplit(":", 1)[-1].upper(),
         description="A degree description.",
         facts=facts() if enriched else None,
-        prov=Provenance(model="gemini-historical", generated_at="2026-07-04"),
+        prov=Provenance(model="legacy-historical", generated_at="2026-07-04"),
     )
 
 
@@ -98,7 +98,7 @@ class EnrichmentTests(unittest.TestCase):
         self.assertIsNotNone(reloaded.nodes["degree:bca"].facts)
         self.assertEqual(
             reloaded.nodes["degree:bca"].prov.model,
-            "gemini-historical",
+            "legacy-historical",
         )
 
     def test_provider_failure_writes_exact_failure_row(self):

@@ -42,7 +42,7 @@ class LibraryProviderTests(unittest.TestCase):
                 patch.object(lib, "_call_cache", None),
                 patch.object(
                     lib,
-                    "gemini",
+                    "legacy_provider",
                     side_effect=AssertionError("legacy provider used"),
                     create=True,
                 ),
@@ -86,7 +86,7 @@ class LibraryProviderTests(unittest.TestCase):
                 patch.object(lib, "_embed_cache", None),
                 patch.object(
                     lib,
-                    "gemini",
+                    "legacy_provider",
                     side_effect=AssertionError("legacy provider used"),
                     create=True,
                 ),

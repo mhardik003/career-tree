@@ -1,7 +1,7 @@
 # Entity-Resolution Rubric — when are two titles the same role?
 
 *Committed before any resolver code, per DATA_ARCHITECTURE_V2.md §6.1. Every automated
-resolution decision (rules, fuzzy shortlist, Gemini judge) and every human review applies
+resolution decision (rules, fuzzy shortlist, OpenAI judge) and every human review applies
 THIS table, in order — first matching row wins. The judge prompt embeds it verbatim.*
 
 **Standing preference: under-merge.** A missed merge is fixable later with an additive
@@ -34,7 +34,7 @@ Definitions:
 ## Judge-band mechanics (§6.2–6.3 of the design)
 
 - Ladder: exact tight-slug (within type) → rapidfuzz token-set shortlist (top ~20) →
-  Gemini judge with this rubric → else new stub role.
+  OpenAI judge with this rubric → else new stub role.
 - Judge output is enum-constrained: `{decision: same_role|distinct|specializes|unsure,
   confidence: 0-1, rule: <row #>, rationale}`. `unsure` → human queue. No judge free-text
   ever flows into another prompt.
@@ -58,5 +58,5 @@ Definitions:
 | `Software Developer` ↔ `Software Development Engineer` | same_role (rule 9; industry synonyms) |
 | `Further Studies (MBA\|LLB)` ↔ `MBA` | never merged (rule 10) |
 
-The labeled evaluation set lives in `migration/er_labels.json`; the resolver's fuzzy
+The labeled evaluation set lives in `eval/er_labels.json`; the resolver's fuzzy
 threshold and judge band are tuned against it once, then frozen.
