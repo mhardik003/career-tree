@@ -28,6 +28,25 @@ def should_expand(depth: int, max_depth: int) -> bool:
     return depth < max_depth
 
 
+def _would_create_progression_cycle(reg: Registry, from_id: str, to_id: str) -> bool:
+    """Return whether adding from_id -> to_id would close a progression cycle."""
+    stack = [to_id]
+    seen: set[str] = set()
+    while stack:
+        current = stack.pop()
+        if current == from_id:
+            return True
+        if current in seen:
+            continue
+        seen.add(current)
+        stack.extend(
+            edge.to_id
+            for edge in reg.outgoing(current)
+            if edge.edge_type == EdgeType.progression
+        )
+    return False
+
+
 class ChildRef(BaseModel):
     existing_id: Optional[str] = Field(
         None, description="EXACT id from the registry block, if this successor already exists there. Strongly preferred over new_title.")
@@ -218,6 +237,11 @@ def _process_successors(reg, resolver, node, nid, depth, result, queue, expanded
         # carry the progression type.
         if (node.type in WORKING_TYPES and target_type in EDUCATION_TYPES
                 and etype == EdgeType.progression):
+            etype = EdgeType.lateral
+        if (
+            etype == EdgeType.progression
+            and _would_create_progression_cycle(reg, nid, target_id)
+        ):
             etype = EdgeType.lateral
         reg.add_edge(nid, target_id, etype, EXPAND_MODEL,
                      is_common_route=(ref.confidence != "niche"))
