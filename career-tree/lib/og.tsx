@@ -17,7 +17,7 @@ export const OG_CACHE_HEADERS = {
   'Cache-Control': 'public, max-age=86400, s-maxage=31536000, stale-while-revalidate=604800',
 };
 
-// Matches the app's green accent (Tailwind green-600, see NodeCard).
+// Matches the app's green accent (Tailwind green-600).
 export const OG_GREEN = '#16a34a';
 export const OG_GRAY = '#6b7280';
 
@@ -45,7 +45,7 @@ export const loadOgFonts = (): Promise<OgFont[]> => {
   return fontsPromise;
 };
 
-// Site-wide brand card, also the fallback for unknown /explore paths.
+// Site-wide brand card for the root OG endpoint.
 export const defaultBrandCard = () => (
   <div
     style={{
@@ -73,7 +73,7 @@ export const defaultBrandCard = () => (
         Career Tree
       </div>
       <div style={{ fontSize: 34, fontWeight: 400, color: OG_GRAY, marginTop: 24 }}>
-        Open Source Career Intelligence
+        Canonical, Source-Backed Career Guides
       </div>
     </div>
   </div>

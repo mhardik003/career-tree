@@ -11,14 +11,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: "Career Tree – Open Source Career Intelligence",
   description:
-    "Visualize career paths, prerequisites, and opportunities in the Indian education system using open source career intelligence.",
+    "Explore canonical career nodes, reconverging routes, and source-backed guides for the Indian education and career context.",
   openGraph: {
     siteName: "Career Tree",
     type: "website",
     url: "/",
     title: "Career Tree – Open Source Career Intelligence",
     description:
-      "Visualize career paths, prerequisites, and opportunities in the Indian education system using open source career intelligence.",
+      "Explore canonical career nodes, reconverging routes, and source-backed guides for the Indian education and career context.",
     // Rendered by app/og/route.tsx; node pages override with /og/<slugs>.
     images: [
       {
@@ -64,7 +64,7 @@ export default function RootLayout({
               name: "Career Tree",
               url: `${BASE_URL}/`,
               description:
-                "An open source career intelligence platform that visualizes career paths and educational prerequisites within the Indian education system.",
+                "An open source platform for canonical career routes and source-backed educational guidance in the Indian context.",
               applicationCategory: "EducationalApplication",
               operatingSystem: "All",
               browserRequirements: "Requires JavaScript",
@@ -84,7 +84,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LearningResource",
-              name: "Career Tree – Career Path Visualization",
+              name: "Career Tree – Canonical Career Guides",
               url: `${BASE_URL}/`,
               learningResourceType: "Career Exploration Tool",
               educationalLevel: [
