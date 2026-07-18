@@ -1,5 +1,6 @@
 """Strict, source-backed enrichment models shared by the V2 pipeline."""
 from datetime import date
+import ipaddress
 from typing import Annotated, Literal
 from urllib.parse import urlsplit, urlunsplit
 
@@ -24,6 +25,19 @@ def normalize_url(value: str) -> str:
     if parsed.username or parsed.password:
         raise ValueError("source URLs must not contain credentials")
     host = parsed.hostname.lower()
+    try:
+        address = ipaddress.ip_address(host)
+    except ValueError:
+        if (
+            host == "localhost"
+            or host.endswith(".localhost")
+            or host.endswith(".local")
+            or all(character in "0123456789." for character in host)
+        ):
+            raise ValueError("source URLs must use a public host")
+    else:
+        if not address.is_global:
+            raise ValueError("source URLs must use a public host")
     if ":" in host and not host.startswith("["):
         host = f"[{host}]"
     netloc = host

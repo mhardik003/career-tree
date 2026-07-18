@@ -5,6 +5,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 from typing import Callable
+from urllib.parse import urljoin
 
 import requests
 
@@ -30,27 +31,54 @@ def check_url(url: str, requester: Callable = requests.get) -> dict:
             "definitive_failure": True,
         }
 
-    try:
-        response = requester(
-            normalized,
-            headers={"User-Agent": USER_AGENT},
-            timeout=10,
-            allow_redirects=True,
-            stream=True,
-        )
-        status = int(response.status_code)
-        close = getattr(response, "close", None)
-        if close is not None:
-            close()
-    except requests.RequestException as exc:
-        return {
-            "url": normalized,
-            "status": None,
-            "error": str(exc),
-            "reachable": False,
-            "definitive_failure": False,
-        }
+    current = normalized
+    status = None
+    for redirect_count in range(6):
+        try:
+            response = requester(
+                current,
+                headers={"User-Agent": USER_AGENT},
+                timeout=10,
+                allow_redirects=False,
+                stream=True,
+            )
+            status = int(response.status_code)
+            location = getattr(response, "headers", {}).get("Location")
+            close = getattr(response, "close", None)
+            if close is not None:
+                close()
+        except requests.RequestException as exc:
+            return {
+                "url": normalized,
+                "status": None,
+                "error": str(exc),
+                "reachable": False,
+                "definitive_failure": False,
+            }
 
+        if 300 <= status < 400 and location and redirect_count < 5:
+            try:
+                current = normalize_url(urljoin(current, location))
+            except (TypeError, ValueError) as exc:
+                return {
+                    "url": normalized,
+                    "status": status,
+                    "error": str(exc),
+                    "reachable": False,
+                    "definitive_failure": True,
+                }
+            continue
+        if 300 <= status < 400 and location:
+            return {
+                "url": normalized,
+                "status": status,
+                "error": "too many redirects",
+                "reachable": False,
+                "definitive_failure": False,
+            }
+        break
+
+    assert status is not None
     reachable = 200 <= status < 400 or status in {401, 403, 405}
     definitive_failure = status in {404, 410}
     return {

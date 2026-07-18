@@ -75,6 +75,19 @@ class FactsTests(unittest.TestCase):
         with self.assertRaises(ValidationError):
             NodeFacts.model_validate(payload)
 
+    def test_source_urls_reject_private_network_hosts(self):
+        for url in (
+            "http://127.0.0.1/internal",
+            "http://169.254.169.254/latest/meta-data/",
+            "http://[::1]/internal",
+            "http://localhost/admin",
+        ):
+            with self.subTest(url=url):
+                payload = deepcopy(VALID)
+                payload["sections"][0]["source_urls"] = [url]
+                with self.assertRaises(ValidationError):
+                    NodeFacts.model_validate(payload)
+
     def test_sections_require_prose_and_extra_fields_are_forbidden(self):
         without_prose = deepcopy(VALID)
         without_prose["sections"][0]["paragraphs"] = []

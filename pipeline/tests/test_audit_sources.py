@@ -8,8 +8,9 @@ from audit_sources import check_url
 
 
 class FakeResponse:
-    def __init__(self, status_code):
+    def __init__(self, status_code, headers=None):
         self.status_code = status_code
+        self.headers = headers or {}
 
 
 class SourceAuditTests(unittest.TestCase):
@@ -39,6 +40,22 @@ class SourceAuditTests(unittest.TestCase):
         self.assertEqual(malformed["error"], "source URLs must use HTTP(S)")
         self.assertTrue(missing["definitive_failure"])
         self.assertEqual(missing["status"], 404)
+
+    def test_redirects_are_followed_only_to_public_http_hosts(self):
+        requested = []
+
+        def requester(url, **kwargs):
+            requested.append((url, kwargs["allow_redirects"]))
+            return FakeResponse(
+                302,
+                {"Location": "http://169.254.169.254/latest/meta-data/"},
+            )
+
+        result = check_url("https://example.gov.in/source", requester=requester)
+
+        self.assertTrue(result["definitive_failure"])
+        self.assertIn("public host", result["error"])
+        self.assertEqual(requested, [("https://example.gov.in/source", False)])
 
 
 if __name__ == "__main__":
