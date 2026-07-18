@@ -1,538 +1,6 @@
 {
  "queue": [
   {
-   "id": "degree:b-sc-ll-b-hons",
-   "depth": 3
-  },
-  {
-   "id": "degree:ll-m-master-of-laws",
-   "depth": 3
-  },
-  {
-   "id": "government_service:legal-officer-in-a-psu",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-s-w-ll-b-hons",
-   "depth": 3
-  },
-  {
-   "id": "exam:nid-dat",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-f-a-bachelor-of-fine-arts",
-   "depth": 3
-  },
-  {
-   "id": "exam:sat",
-   "depth": 3
-  },
-  {
-   "id": "degree:mbbs",
-   "depth": 3
-  },
-  {
-   "id": "degree:bds",
-   "depth": 3
-  },
-  {
-   "id": "degree:bams-bachelor-of-ayurvedic-medicine-and-surgery",
-   "depth": 3
-  },
-  {
-   "id": "degree:bhms-bachelor-of-homeopathic-medicine-and-surgery",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-v-sc-a-h-bachelor-of-veterinary-science-animal-husbandry",
-   "depth": 3
-  },
-  {
-   "id": "degree:mbbs-from-a-foreign-university",
-   "depth": 3
-  },
-  {
-   "id": "exam:gpat",
-   "depth": 3
-  },
-  {
-   "id": "exam:niper-jee",
-   "depth": 3
-  },
-  {
-   "id": "job_role:pharmacist",
-   "depth": 3
-  },
-  {
-   "id": "government_service:drug-inspector",
-   "depth": 3
-  },
-  {
-   "id": "entrepreneurship:pharmacy-entrepreneurship",
-   "depth": 3
-  },
-  {
-   "id": "degree:m-sc-nursing",
-   "depth": 3
-  },
-  {
-   "id": "job_role:staff-nurse",
-   "depth": 3
-  },
-  {
-   "id": "government_service:nursing-officer-government",
-   "depth": 3
-  },
-  {
-   "id": "government_service:military-nursing-officer",
-   "depth": 3
-  },
-  {
-   "id": "government_service:community-health-officer",
-   "depth": 3
-  },
-  {
-   "id": "exam:ielts",
-   "depth": 3
-  },
-  {
-   "id": "degree:master-of-public-health-mph",
-   "depth": 3
-  },
-  {
-   "id": "degree:mpt-master-of-physiotherapy",
-   "depth": 3
-  },
-  {
-   "id": "job_role:physiotherapist",
-   "depth": 3
-  },
-  {
-   "id": "entrepreneurship:physiotherapy-clinic-entrepreneurship",
-   "depth": 3
-  },
-  {
-   "id": "job_role:sports-physiotherapist",
-   "depth": 3
-  },
-  {
-   "id": "government_service:government-physiotherapist",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-tech-in-agricultural-engineering",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-f-sc-bachelor-of-fisheries-science",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-sc-hons-horticulture",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-sc-hons-forestry",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-tech-in-food-technology",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-tech-in-dairy-technology",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-tech-in-biotechnology",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-sc-hons-community-science",
-   "depth": 3
-  },
-  {
-   "id": "degree:bs-ms-dual-degree",
-   "depth": 3
-  },
-  {
-   "id": "degree:bachelor-of-science-research",
-   "depth": 3
-  },
-  {
-   "id": "degree:bs-in-medical-sciences-and-engineering",
-   "depth": 3
-  },
-  {
-   "id": "job_role:radiographer",
-   "depth": 3
-  },
-  {
-   "id": "job_role:operation-theatre-technician",
-   "depth": 3
-  },
-  {
-   "id": "exam:rrb-paramedical-staff-recruitment",
-   "depth": 3
-  },
-  {
-   "id": "government_service:paramedic-government",
-   "depth": 3
-  },
-  {
-   "id": "entrepreneurship:diagnostic-lab-entrepreneurship",
-   "depth": 3
-  },
-  {
-   "id": "degree:m-com-master-of-commerce",
-   "depth": 3
-  },
-  {
-   "id": "exam:ca-intermediate",
-   "depth": 3
-  },
-  {
-   "id": "job_role:accountant",
-   "depth": 3
-  },
-  {
-   "id": "exam:cs-executive",
-   "depth": 3
-  },
-  {
-   "id": "exam:cfa-program",
-   "depth": 3
-  },
-  {
-   "id": "job_role:management-trainee",
-   "depth": 3
-  },
-  {
-   "id": "job_role:sales-executive",
-   "depth": 3
-  },
-  {
-   "id": "exam:gmat",
-   "depth": 3
-  },
-  {
-   "id": "exam:cma-intermediate",
-   "depth": 3
-  },
-  {
-   "id": "exam:acet",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-com-hons",
-   "depth": 3
-  },
-  {
-   "id": "degree:bachelor-of-business-economics-bbe",
-   "depth": 3
-  },
-  {
-   "id": "degree:bachelor-of-financial-and-investment-analysis-bfia",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-sc-in-hospitality-and-hotel-administration",
-   "depth": 3
-  },
-  {
-   "id": "degree:bba-in-hotel-management",
-   "depth": 3
-  },
-  {
-   "id": "diploma:diploma-in-hotel-management",
-   "depth": 3
-  },
-  {
-   "id": "degree:bachelor-of-tourism-and-travel-management-bttm",
-   "depth": 3
-  },
-  {
-   "id": "diploma:diploma-in-food-production",
-   "depth": 3
-  },
-  {
-   "id": "diploma:diploma-in-bakery-and-confectionery",
-   "depth": 3
-  },
-  {
-   "id": "government_service:lower-divisional-clerk-junior-secretariat-assistant-ldc-jsa",
-   "depth": 3
-  },
-  {
-   "id": "government_service:postal-assistant-sorting-assistant-pa-sa",
-   "depth": 3
-  },
-  {
-   "id": "government_service:data-entry-operator-deo",
-   "depth": 3
-  },
-  {
-   "id": "exam:departmental-promotion-exams",
-   "depth": 3
-  },
-  {
-   "id": "exam:state-psc",
-   "depth": 3
-  },
-  {
-   "id": "exam:rrb-ntpc",
-   "depth": 3
-  },
-  {
-   "id": "degree:ma-master-of-arts",
-   "depth": 3
-  },
-  {
-   "id": "job_role:content-writer",
-   "depth": 3
-  },
-  {
-   "id": "degree:msw-master-of-social-work",
-   "depth": 3
-  },
-  {
-   "id": "exam:all-india-bar-examination-aibe",
-   "depth": 3
-  },
-  {
-   "id": "exam:judicial-services",
-   "depth": 3
-  },
-  {
-   "id": "job_role:corporate-counsel",
-   "depth": 3
-  },
-  {
-   "id": "government_service:judge-advocate-general-jag-entry-scheme",
-   "depth": 3
-  },
-  {
-   "id": "degree:m-des-master-of-design",
-   "depth": 3
-  },
-  {
-   "id": "exam:ceed",
-   "depth": 3
-  },
-  {
-   "id": "job_role:ui-ux-designer",
-   "depth": 3
-  },
-  {
-   "id": "job_role:graphic-designer",
-   "depth": 3
-  },
-  {
-   "id": "job_role:fashion-designer",
-   "depth": 3
-  },
-  {
-   "id": "job_role:product-designer",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-f-tech-bachelor-of-fashion-technology",
-   "depth": 3
-  },
-  {
-   "id": "degree:b-sc-in-fashion-design",
-   "depth": 3
-  },
-  {
-   "id": "diploma:diploma-in-fashion-design",
-   "depth": 3
-  },
-  {
-   "id": "exam:ctet",
-   "depth": 3
-  },
-  {
-   "id": "exam:state-tet",
-   "depth": 3
-  },
-  {
-   "id": "job_role:primary-school-teacher-private",
-   "depth": 3
-  },
-  {
-   "id": "job_role:nursery-teacher",
-   "depth": 3
-  },
-  {
-   "id": "job_role:private-tutor",
-   "depth": 3
-  },
-  {
-   "id": "job_role:educational-content-developer",
-   "depth": 3
-  },
-  {
-   "id": "entrepreneurship:playschool-entrepreneurship",
-   "depth": 3
-  },
-  {
-   "id": "exam:gate",
-   "depth": 3
-  },
-  {
-   "id": "job_role:graduate-engineer-trainee",
-   "depth": 3
-  },
-  {
-   "id": "exam:upsc-ese",
-   "depth": 3
-  },
-  {
-   "id": "exam:isro-icrb",
-   "depth": 3
-  },
-  {
-   "id": "exam:barc-oces",
-   "depth": 3
-  },
-  {
-   "id": "job_role:senior-engineer",
-   "depth": 3
-  },
-  {
-   "id": "government_service:junior-engineer-central-government",
-   "depth": 3
-  },
-  {
-   "id": "government_service:junior-engineer-indian-railways",
-   "depth": 3
-  },
-  {
-   "id": "job_role:junior-engineer-psu",
-   "depth": 3
-  },
-  {
-   "id": "exam:lateral-entry-entrance-test-leet",
-   "depth": 3
-  },
-  {
-   "id": "government_service:junior-engineer-state-government",
-   "depth": 3
-  },
-  {
-   "id": "entrepreneurship:medium-scale-manufacturing-entrepreneurship",
-   "depth": 3
-  },
-  {
-   "id": "job_role:service-manager",
-   "depth": 3
-  },
-  {
-   "id": "job_role:technician-in-public-sector-undertaking-psu",
-   "depth": 3
-  },
-  {
-   "id": "job_role:senior-industrial-technician",
-   "depth": 3
-  },
-  {
-   "id": "job_role:maintenance-supervisor",
-   "depth": 3
-  },
-  {
-   "id": "government_service:assistant-loco-pilot-indian-railways",
-   "depth": 3
-  },
-  {
-   "id": "government_service:technician-indian-railways",
-   "depth": 3
-  },
-  {
-   "id": "government_service:senior-technical-assistant-drdo",
-   "depth": 3
-  },
-  {
-   "id": "government_service:technician-drdo",
-   "depth": 3
-  },
-  {
-   "id": "government_service:administrative-assistant-drdo",
-   "depth": 3
-  },
-  {
-   "id": "government_service:stenographer-government",
-   "depth": 3
-  },
-  {
-   "id": "government_service:security-assistant-drdo",
-   "depth": 3
-  },
-  {
-   "id": "government_service:store-assistant-drdo",
-   "depth": 3
-  },
-  {
-   "id": "government_service:vocational-instructor-government-iti",
-   "depth": 3
-  },
-  {
-   "id": "job_role:vocational-instructor-private-institute",
-   "depth": 3
-  },
-  {
-   "id": "government_service:sepoy-indian-army",
-   "depth": 3
-  },
-  {
-   "id": "job_role:corporate-security-personnel",
-   "depth": 3
-  },
-  {
-   "id": "entrepreneurship:small-business-entrepreneurship",
-   "depth": 3
-  },
-  {
-   "id": "job_role:permanent-sailor-indian-navy",
-   "depth": 3
-  },
-  {
-   "id": "degree:bachelor-s-degree-ignou-defence-personnel-scheme",
-   "depth": 3
-  },
-  {
-   "id": "job_role:sailor-merchant-navy",
-   "depth": 3
-  },
-  {
-   "id": "job_role:permanent-airman-indian-air-force",
-   "depth": 3
-  },
-  {
-   "id": "government_service:head-constable-in-capfs",
-   "depth": 3
-  },
-  {
-   "id": "exam:upsc-capf",
-   "depth": 3
-  },
-  {
-   "id": "exam:state-police-sub-inspector-recruitment-exam",
-   "depth": 3
-  },
-  {
-   "id": "degree:bachelor-s-degree-distance-learning",
-   "depth": 3
-  },
-  {
-   "id": "government_service:multi-tasking-staff-central-government",
-   "depth": 3
-  },
-  {
-   "id": "government_service:police-constable-state-police",
-   "depth": 3
-  },
-  {
    "id": "degree:b-tech-m-tech-dual-degree",
    "depth": 4
   },
@@ -919,6 +387,1334 @@
   {
    "id": "exam:ugc-net",
    "depth": 4
+  },
+  {
+   "id": "exam:patent-agent-examination",
+   "depth": 4
+  },
+  {
+   "id": "exam:ph-d-in-law-entrance-test",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-legal-officer-in-a-psu",
+   "depth": 4
+  },
+  {
+   "id": "government_service:legal-manager-in-a-psu",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-f-a-master-of-fine-arts",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:freelance-fine-artist",
+   "depth": 4
+  },
+  {
+   "id": "degree:bachelor-s-degree-at-a-foreign-university",
+   "depth": 4
+  },
+  {
+   "id": "degree:bachelor-of-science-in-engineering-at-a-foreign-university",
+   "depth": 4
+  },
+  {
+   "id": "degree:bachelor-of-business-administration-at-a-foreign-university",
+   "depth": 4
+  },
+  {
+   "id": "degree:bachelor-of-arts-at-a-foreign-university",
+   "depth": 4
+  },
+  {
+   "id": "degree:bachelor-of-science-in-computer-science-at-a-foreign-university",
+   "depth": 4
+  },
+  {
+   "id": "exam:neet-pg",
+   "depth": 4
+  },
+  {
+   "id": "exam:ini-cet",
+   "depth": 4
+  },
+  {
+   "id": "job_role:junior-resident-doctor",
+   "depth": 4
+  },
+  {
+   "id": "job_role:medical-officer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:general-practitioner",
+   "depth": 4
+  },
+  {
+   "id": "exam:usmle",
+   "depth": 4
+  },
+  {
+   "id": "exam:plab",
+   "depth": 4
+  },
+  {
+   "id": "exam:neet-mds",
+   "depth": 4
+  },
+  {
+   "id": "job_role:dental-surgeon",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:dental-clinic-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "government_service:government-dental-surgeon",
+   "depth": 4
+  },
+  {
+   "id": "exam:aiapget",
+   "depth": 4
+  },
+  {
+   "id": "government_service:ayurvedic-medical-officer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:private-ayurvedic-practitioner",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:ayurvedic-clinic-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:clinical-research-associate",
+   "depth": 4
+  },
+  {
+   "id": "government_service:homoeopathic-medical-officer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:private-homoeopathic-practitioner",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:homoeopathic-clinic-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-v-sc-master-of-veterinary-science",
+   "depth": 4
+  },
+  {
+   "id": "job_role:veterinarian",
+   "depth": 4
+  },
+  {
+   "id": "government_service:veterinary-officer-in-state-animal-husbandry-department",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:veterinary-clinic-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:animal-health-technical-services-veterinarian",
+   "depth": 4
+  },
+  {
+   "id": "exam:fmge",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-s-pharm-master-of-science-in-pharmacy",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-tech-in-pharmaceutical-technology",
+   "depth": 4
+  },
+  {
+   "id": "degree:mba-in-pharmaceutical-management",
+   "depth": 4
+  },
+  {
+   "id": "job_role:pharmacovigilance-associate",
+   "depth": 4
+  },
+  {
+   "id": "job_role:regulatory-affairs-associate",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-drug-inspector",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-drugs-controller",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:pharmacy-chain-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:pharmaceutical-distribution-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:pharmaceutical-manufacturing-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:medical-device-distribution-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:online-pharmacy-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:nursing-tutor",
+   "depth": 4
+  },
+  {
+   "id": "job_role:clinical-nurse-specialist",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-nursing",
+   "depth": 4
+  },
+  {
+   "id": "job_role:nursing-supervisor",
+   "depth": 4
+  },
+  {
+   "id": "exam:aiims-norcet",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-nursing-officer-in-the-military-nursing-service",
+   "depth": 4
+  },
+  {
+   "id": "diploma:post-basic-diploma-in-critical-care-nursing",
+   "depth": 4
+  },
+  {
+   "id": "government_service:nursing-supervisor",
+   "depth": 4
+  },
+  {
+   "id": "job_role:public-health-nurse",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-sc-nursing-at-a-foreign-university",
+   "depth": 4
+  },
+  {
+   "id": "degree:master-of-public-health-at-a-foreign-university",
+   "depth": 4
+  },
+  {
+   "id": "job_role:epidemiologist",
+   "depth": 4
+  },
+  {
+   "id": "job_role:public-health-programme-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:monitoring-and-evaluation-officer",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-public-health",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-physiotherapy",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-physiotherapist",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:physiotherapy-and-rehabilitation-centre-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:multi-location-physiotherapy-clinic-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "certification:certified-strength-and-conditioning-specialist-certification",
+   "depth": 4
+  },
+  {
+   "id": "certification:sports-physiotherapy-certification",
+   "depth": 4
+  },
+  {
+   "id": "job_role:agricultural-engineer",
+   "depth": 4
+  },
+  {
+   "id": "exam:ibps-specialist-officer-agricultural-field-officer-examination",
+   "depth": 4
+  },
+  {
+   "id": "exam:icar-aieea-pg",
+   "depth": 4
+  },
+  {
+   "id": "job_role:aquaculture-farm-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:hatchery-manager",
+   "depth": 4
+  },
+  {
+   "id": "government_service:fisheries-development-officer",
+   "depth": 4
+  },
+  {
+   "id": "government_service:fisheries-extension-officer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:seafood-quality-control-officer",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:aquaculture-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:nursery-manager",
+   "depth": 4
+  },
+  {
+   "id": "exam:horticulture-officer-recruitment-examination",
+   "depth": 4
+  },
+  {
+   "id": "exam:state-forest-service-examination",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-sc-forestry",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-tech-in-food-technology",
+   "depth": 4
+  },
+  {
+   "id": "job_role:food-technologist",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:food-processing-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:dairy-technologist",
+   "depth": 4
+  },
+  {
+   "id": "job_role:dairy-production-engineer",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-tech-in-biotechnology",
+   "depth": 4
+  },
+  {
+   "id": "exam:dbt-jrf",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-sc-in-community-science",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-sc-in-food-and-nutrition",
+   "depth": 4
+  },
+  {
+   "id": "job_role:nutritionist",
+   "depth": 4
+  },
+  {
+   "id": "job_role:community-development-officer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:food-product-development-executive",
+   "depth": 4
+  },
+  {
+   "id": "exam:jest",
+   "depth": 4
+  },
+  {
+   "id": "job_role:biomedical-engineer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:medical-device-r-d-engineer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:medical-device-quality-assurance-engineer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-radiographer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:ct-scan-technologist",
+   "depth": 4
+  },
+  {
+   "id": "job_role:mri-technologist",
+   "depth": 4
+  },
+  {
+   "id": "job_role:radiology-department-supervisor",
+   "depth": 4
+  },
+  {
+   "id": "government_service:government-radiographer",
+   "depth": 4
+  },
+  {
+   "id": "degree:b-sc-in-medical-radiology-and-imaging-technology",
+   "depth": 4
+  },
+  {
+   "id": "job_role:medical-imaging-applications-specialist",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-operation-theatre-technician",
+   "depth": 4
+  },
+  {
+   "id": "job_role:operation-theatre-supervisor",
+   "depth": 4
+  },
+  {
+   "id": "job_role:anaesthesia-technician",
+   "depth": 4
+  },
+  {
+   "id": "job_role:central-sterile-supply-department-technician",
+   "depth": 4
+  },
+  {
+   "id": "degree:b-sc-in-operation-theatre-technology",
+   "depth": 4
+  },
+  {
+   "id": "government_service:pharmacist-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:laboratory-assistant-grade-ii-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:health-and-malaria-inspector-grade-iii-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:dialysis-technician-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:ecg-technician-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:dental-hygienist-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-paramedic-in-government-health-services",
+   "depth": 4
+  },
+  {
+   "id": "government_service:emergency-medical-services-supervisor-in-government-health-services",
+   "depth": 4
+  },
+  {
+   "id": "certification:advanced-cardiac-life-support-certification",
+   "depth": 4
+  },
+  {
+   "id": "degree:b-sc-in-emergency-medical-technology",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:multi-location-diagnostic-laboratory-chain-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:molecular-diagnostics-laboratory-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "certification:nabl-accreditation-for-diagnostic-laboratories",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:diagnostic-laboratory-franchise-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-commerce",
+   "depth": 4
+  },
+  {
+   "id": "training:ca-articleship-practical-training",
+   "depth": 4
+  },
+  {
+   "id": "job_role:audit-assistant",
+   "depth": 4
+  },
+  {
+   "id": "job_role:tax-associate",
+   "depth": 4
+  },
+  {
+   "id": "job_role:accounts-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-accountant",
+   "depth": 4
+  },
+  {
+   "id": "training:icsi-long-term-practical-training",
+   "depth": 4
+  },
+  {
+   "id": "job_role:compliance-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:secretarial-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:corporate-governance-associate",
+   "depth": 4
+  },
+  {
+   "id": "certification:cfa-charterholder",
+   "depth": 4
+  },
+  {
+   "id": "job_role:equity-research-analyst",
+   "depth": 4
+  },
+  {
+   "id": "job_role:investment-analyst",
+   "depth": 4
+  },
+  {
+   "id": "job_role:portfolio-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:wealth-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:credit-analyst",
+   "depth": 4
+  },
+  {
+   "id": "job_role:assistant-manager-in-operations",
+   "depth": 4
+  },
+  {
+   "id": "job_role:business-development-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:business-analyst",
+   "depth": 4
+  },
+  {
+   "id": "job_role:associate-product-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-sales-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:sales-team-leader",
+   "depth": 4
+  },
+  {
+   "id": "job_role:sales-manager",
+   "depth": 4
+  },
+  {
+   "id": "degree:master-in-management-abroad",
+   "depth": 4
+  },
+  {
+   "id": "degree:master-of-finance-abroad",
+   "depth": 4
+  },
+  {
+   "id": "training:icmai-practical-training",
+   "depth": 4
+  },
+  {
+   "id": "job_role:cost-accounting-trainee",
+   "depth": 4
+  },
+  {
+   "id": "certification:student-membership-of-the-institute-of-actuaries-of-india",
+   "depth": 4
+  },
+  {
+   "id": "exam:xat",
+   "depth": 4
+  },
+  {
+   "id": "exam:cmat",
+   "depth": 4
+  },
+  {
+   "id": "job_role:hotel-operations-management-trainee",
+   "depth": 4
+  },
+  {
+   "id": "job_role:front-office-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:food-and-beverage-service-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:housekeeping-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:commis-chef",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-sc-in-hospitality-administration",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:restaurant-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:travel-consultant",
+   "depth": 4
+  },
+  {
+   "id": "job_role:tour-operations-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:ticketing-and-reservations-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:destination-management-executive",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:travel-agency-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:kitchen-trainee",
+   "depth": 4
+  },
+  {
+   "id": "job_role:catering-assistant",
+   "depth": 4
+  },
+  {
+   "id": "job_role:bakery-chef",
+   "depth": 4
+  },
+  {
+   "id": "job_role:pastry-chef",
+   "depth": 4
+  },
+  {
+   "id": "job_role:cake-decorator",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:bakery-and-patisserie-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "government_service:data-entry-operator-grade-b",
+   "depth": 4
+  },
+  {
+   "id": "certification:certificate-in-computer-applications",
+   "depth": 4
+  },
+  {
+   "id": "government_service:upper-division-clerk-udc",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-secretariat-assistant",
+   "depth": 4
+  },
+  {
+   "id": "government_service:section-officer-in-central-government",
+   "depth": 4
+  },
+  {
+   "id": "government_service:deputy-superintendent-of-police-in-state-police-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:tehsildar-in-state-revenue-department",
+   "depth": 4
+  },
+  {
+   "id": "government_service:block-development-officer-in-state-rural-development-department",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-commissioner-of-state-tax",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-commissioner-in-state-labour-department",
+   "depth": 4
+  },
+  {
+   "id": "government_service:district-employment-officer-in-state-employment-department",
+   "depth": 4
+  },
+  {
+   "id": "government_service:station-master-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:goods-train-manager-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-commercial-cum-ticket-clerk-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:junior-account-assistant-cum-typist-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-clerk-cum-typist-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:commercial-cum-ticket-clerk-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:junior-clerk-cum-typist-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:accounts-clerk-cum-typist-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:trains-clerk-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:chief-commercial-cum-ticket-supervisor-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-arts-and-humanities",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-social-sciences",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-content-writer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:content-strategist",
+   "depth": 4
+  },
+  {
+   "id": "job_role:copywriter",
+   "depth": 4
+  },
+  {
+   "id": "job_role:seo-content-writer",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:freelance-content-writing-business",
+   "depth": 4
+  },
+  {
+   "id": "job_role:social-worker",
+   "depth": 4
+  },
+  {
+   "id": "job_role:corporate-social-responsibility-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:junior-advocate",
+   "depth": 4
+  },
+  {
+   "id": "job_role:law-firm-associate",
+   "depth": 4
+  },
+  {
+   "id": "government_service:civil-judge-junior-division-in-state-judicial-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:judicial-magistrate-first-class-in-state-judicial-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:civil-judge-cum-judicial-magistrate-in-state-judicial-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:munsiff-magistrate-in-state-judicial-service",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-corporate-counsel",
+   "depth": 4
+  },
+  {
+   "id": "job_role:general-counsel",
+   "depth": 4
+  },
+  {
+   "id": "government_service:lieutenant-in-the-indian-army-judge-advocate-general-branch",
+   "depth": 4
+  },
+  {
+   "id": "job_role:design-researcher",
+   "depth": 4
+  },
+  {
+   "id": "job_role:service-designer",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-design",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:design-consultancy-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-ui-ux-designer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-graphic-designer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:art-director",
+   "depth": 4
+  },
+  {
+   "id": "job_role:motion-graphics-designer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:brand-designer",
+   "depth": 4
+  },
+  {
+   "id": "certification:adobe-certified-professional-certification",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-fashion-designer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:fashion-design-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:creative-director-for-a-fashion-brand",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:fashion-label-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-product-designer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:apparel-production-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:fashion-merchandiser",
+   "depth": 4
+  },
+  {
+   "id": "job_role:apparel-quality-assurance-executive",
+   "depth": 4
+  },
+  {
+   "id": "job_role:apparel-sourcing-executive",
+   "depth": 4
+  },
+  {
+   "id": "government_service:primary-teacher-in-a-central-government-school",
+   "depth": 4
+  },
+  {
+   "id": "job_role:upper-primary-school-teacher-in-a-private-school",
+   "depth": 4
+  },
+  {
+   "id": "government_service:upper-primary-teacher-in-a-central-government-school",
+   "depth": 4
+  },
+  {
+   "id": "government_service:primary-teacher-in-a-state-government-school",
+   "depth": 4
+  },
+  {
+   "id": "government_service:upper-primary-teacher-in-a-state-government-school",
+   "depth": 4
+  },
+  {
+   "id": "job_role:primary-school-academic-coordinator",
+   "depth": 4
+  },
+  {
+   "id": "certification:certificate-in-early-childhood-care-and-education",
+   "depth": 4
+  },
+  {
+   "id": "job_role:pre-primary-school-coordinator",
+   "depth": 4
+  },
+  {
+   "id": "job_role:online-elementary-school-tutor",
+   "depth": 4
+  },
+  {
+   "id": "job_role:instructional-designer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:curriculum-designer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-educational-content-developer",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:freelance-educational-content-development-business",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:multi-location-playschool-and-daycare-chain-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:primary-school-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:early-childhood-education-consultancy",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:early-childhood-teacher-training-academy-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-tech-in-mechanical-engineering",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-tech-in-electrical-engineering",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-tech-in-civil-engineering",
+   "depth": 4
+  },
+  {
+   "id": "degree:m-tech-in-electronics-and-communication-engineering",
+   "depth": 4
+  },
+  {
+   "id": "degree:ph-d-in-engineering",
+   "depth": 4
+  },
+  {
+   "id": "job_role:design-engineer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:production-engineer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:maintenance-engineer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:quality-engineer",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-executive-engineer-in-central-engineering-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-divisional-engineer-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-executive-engineer-in-central-water-engineering-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-executive-engineer-in-border-roads-engineering-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-executive-engineer-in-indian-defence-service-of-engineers",
+   "depth": 4
+  },
+  {
+   "id": "government_service:officer-in-indian-telecommunication-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:officer-in-indian-radio-regulatory-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:engineer-officer-in-indian-naval-armament-service",
+   "depth": 4
+  },
+  {
+   "id": "government_service:scientist-engineer-sc-at-isro",
+   "depth": 4
+  },
+  {
+   "id": "training:barc-orientation-course-for-engineering-graduates-and-science-postgraduates",
+   "depth": 4
+  },
+  {
+   "id": "training:dae-graduate-fellowship-scheme-fellowship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:engineering-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:principal-engineer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:technical-lead",
+   "depth": 4
+  },
+  {
+   "id": "job_role:engineering-project-manager",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-engineer-central-government",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-section-engineer-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-junior-engineer-psu",
+   "depth": 4
+  },
+  {
+   "id": "job_role:assistant-engineer-psu",
+   "depth": 4
+  },
+  {
+   "id": "degree:b-tech-in-civil-engineering",
+   "depth": 4
+  },
+  {
+   "id": "degree:b-tech-in-electrical-engineering",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-engineer-state-government",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:large-scale-manufacturing-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:export-oriented-manufacturing-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:contract-manufacturing-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:industrial-automation-solutions-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "job_role:service-operations-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:regional-service-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:after-sales-service-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:general-manager-service",
+   "depth": 4
+  },
+  {
+   "id": "job_role:maintenance-manager",
+   "depth": 4
+  },
+  {
+   "id": "job_role:plant-maintenance-manager",
+   "depth": 4
+  },
+  {
+   "id": "government_service:loco-pilot-goods-in-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-technician-indian-railways",
+   "depth": 4
+  },
+  {
+   "id": "government_service:technical-officer-a-drdo",
+   "depth": 4
+  },
+  {
+   "id": "government_service:technician-b-drdo",
+   "depth": 4
+  },
+  {
+   "id": "government_service:administrative-assistant-b-drdo",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-stenographer-in-government",
+   "depth": 4
+  },
+  {
+   "id": "government_service:personal-assistant-in-central-government",
+   "depth": 4
+  },
+  {
+   "id": "government_service:security-assistant-b-drdo",
+   "depth": 4
+  },
+  {
+   "id": "government_service:store-assistant-b-drdo",
+   "depth": 4
+  },
+  {
+   "id": "certification:certificate-in-stores-and-inventory-management",
+   "depth": 4
+  },
+  {
+   "id": "government_service:senior-vocational-instructor-government-iti",
+   "depth": 4
+  },
+  {
+   "id": "government_service:workshop-superintendent-government-iti",
+   "depth": 4
+  },
+  {
+   "id": "job_role:senior-vocational-instructor-at-a-private-institute",
+   "depth": 4
+  },
+  {
+   "id": "job_role:master-trainer-in-skill-development",
+   "depth": 4
+  },
+  {
+   "id": "job_role:corporate-technical-trainer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:skill-assessor-for-vocational-qualifications",
+   "depth": 4
+  },
+  {
+   "id": "exam:state-iti-vocational-instructor-recruitment-examination",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:vocational-training-centre-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "government_service:lance-naik-indian-army",
+   "depth": 4
+  },
+  {
+   "id": "exam:army-cadet-college-entry-examination",
+   "depth": 4
+  },
+  {
+   "id": "training:para-regiment-probation",
+   "depth": 4
+  },
+  {
+   "id": "job_role:security-supervisor",
+   "depth": 4
+  },
+  {
+   "id": "job_role:corporate-security-officer",
+   "depth": 4
+  },
+  {
+   "id": "job_role:security-manager",
+   "depth": 4
+  },
+  {
+   "id": "certification:certified-protection-professional-certification",
+   "depth": 4
+  },
+  {
+   "id": "certification:physical-security-professional-certification",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:e-commerce-retail-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "entrepreneurship:franchise-business-entrepreneurship",
+   "depth": 4
+  },
+  {
+   "id": "exam:upsc-cds",
+   "depth": 4
+  },
+  {
+   "id": "exam:afcat",
+   "depth": 4
+  },
+  {
+   "id": "certification:certificate-of-proficiency-as-able-seafarer-deck",
+   "depth": 4
+  },
+  {
+   "id": "certification:certificate-of-proficiency-as-able-seafarer-engine",
+   "depth": 4
+  },
+  {
+   "id": "certification:stcw-advanced-fire-fighting-certificate",
+   "depth": 4
+  },
+  {
+   "id": "diploma:diploma-in-nautical-science",
+   "depth": 4
+  },
+  {
+   "id": "certification:gmdss-general-operator-certificate",
+   "depth": 4
+  },
+  {
+   "id": "job_role:leading-aircraftman-indian-air-force",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-sub-inspector-in-capfs",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-commandant-in-border-security-force",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-commandant-in-central-reserve-police-force",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-commandant-in-central-industrial-security-force",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-commandant-in-indo-tibetan-border-police",
+   "depth": 4
+  },
+  {
+   "id": "government_service:assistant-commandant-in-sashastra-seema-bal",
+   "depth": 4
+  },
+  {
+   "id": "government_service:sub-inspector-in-state-police",
+   "depth": 4
+  },
+  {
+   "id": "government_service:head-constable-in-state-police",
+   "depth": 4
   }
  ],
  "expanded": [
@@ -928,56 +1724,126 @@
   "degree:b-arch",
   "degree:b-b-a-ll-b-hons",
   "degree:b-com",
+  "degree:b-com-hons",
   "degree:b-com-ll-b-hons",
   "degree:b-des-bachelor-of-design",
   "degree:b-ed-bachelor-of-education",
+  "degree:b-f-a-bachelor-of-fine-arts",
+  "degree:b-f-sc-bachelor-of-fisheries-science",
+  "degree:b-f-tech-bachelor-of-fashion-technology",
   "degree:b-pharm",
   "degree:b-plan-bachelor-of-planning",
+  "degree:b-s-w-ll-b-hons",
   "degree:b-sc",
   "degree:b-sc-hons-agriculture",
+  "degree:b-sc-hons-community-science",
+  "degree:b-sc-hons-forestry",
+  "degree:b-sc-hons-horticulture",
+  "degree:b-sc-in-fashion-design",
+  "degree:b-sc-in-hospitality-and-hotel-administration",
   "degree:b-sc-in-interior-design",
+  "degree:b-sc-ll-b-hons",
   "degree:b-sc-nursing",
   "degree:b-tech",
+  "degree:b-tech-in-agricultural-engineering",
+  "degree:b-tech-in-biotechnology",
+  "degree:b-tech-in-dairy-technology",
+  "degree:b-tech-in-food-technology",
+  "degree:b-v-sc-a-h-bachelor-of-veterinary-science-animal-husbandry",
   "degree:b-voc-bachelor-of-vocation",
   "degree:ba",
+  "degree:bachelor-of-business-economics-bbe",
+  "degree:bachelor-of-financial-and-investment-analysis-bfia",
+  "degree:bachelor-of-science-research",
+  "degree:bachelor-of-tourism-and-travel-management-bttm",
+  "degree:bachelor-s-degree-distance-learning",
+  "degree:bachelor-s-degree-ignou-defence-personnel-scheme",
+  "degree:bams-bachelor-of-ayurvedic-medicine-and-surgery",
   "degree:bba",
+  "degree:bba-in-hotel-management",
   "degree:bca",
+  "degree:bds",
+  "degree:bhms-bachelor-of-homeopathic-medicine-and-surgery",
   "degree:bpt-bachelor-of-physiotherapy",
+  "degree:bs-in-medical-sciences-and-engineering",
+  "degree:bs-ms-dual-degree",
   "degree:integrated-m-sc-bits",
+  "degree:ll-m-master-of-laws",
   "degree:llb",
+  "degree:m-com-master-of-commerce",
+  "degree:m-des-master-of-design",
+  "degree:m-sc-nursing",
+  "degree:ma-master-of-arts",
+  "degree:master-of-public-health-mph",
   "degree:mba",
+  "degree:mbbs",
+  "degree:mbbs-from-a-foreign-university",
   "degree:mca-master-of-computer-applications",
+  "degree:mpt-master-of-physiotherapy",
+  "degree:msw-master-of-social-work",
   "diploma:diploma-in-architectural-assistantship",
+  "diploma:diploma-in-bakery-and-confectionery",
   "diploma:diploma-in-elementary-education-d-el-ed",
+  "diploma:diploma-in-fashion-design",
+  "diploma:diploma-in-food-production",
+  "diploma:diploma-in-hotel-management",
   "diploma:diploma-in-paramedical-sciences",
   "diploma:polytechnic",
+  "entrepreneurship:diagnostic-lab-entrepreneurship",
+  "entrepreneurship:medium-scale-manufacturing-entrepreneurship",
+  "entrepreneurship:pharmacy-entrepreneurship",
+  "entrepreneurship:physiotherapy-clinic-entrepreneurship",
+  "entrepreneurship:playschool-entrepreneurship",
+  "entrepreneurship:small-business-entrepreneurship",
   "entrepreneurship:technical-services-entrepreneurship",
+  "exam:acet",
   "exam:agniveer",
+  "exam:all-india-bar-examination-aibe",
+  "exam:barc-oces",
   "exam:bitsat",
   "exam:ca-foundation",
+  "exam:ca-intermediate",
   "exam:cat",
+  "exam:ceed",
+  "exam:cfa-program",
   "exam:clat",
   "exam:cma-foundation",
+  "exam:cma-intermediate",
+  "exam:cs-executive",
   "exam:cseet",
   "exam:csir-net",
+  "exam:ctet",
   "exam:cuet-pg",
   "exam:cuet-ug",
+  "exam:departmental-promotion-exams",
   "exam:drdo-ceptam",
+  "exam:gate",
+  "exam:gmat",
+  "exam:gpat",
   "exam:gre",
   "exam:ibps-po",
   "exam:icar-aieea",
+  "exam:ielts",
   "exam:iiser-at",
   "exam:iit-jam",
+  "exam:isro-icrb",
   "exam:jee-advanced",
   "exam:jee-main",
+  "exam:judicial-services",
+  "exam:lateral-entry-entrance-test-leet",
   "exam:nata",
   "exam:nchm-jee",
   "exam:neet-ug",
+  "exam:nid-dat",
   "exam:nift-entrance",
   "exam:nimcet-nit-mca-common-entrance-test",
+  "exam:niper-jee",
   "exam:rrb-alp",
   "exam:rrb-group-d-level-1-exam",
   "exam:rrb-je",
+  "exam:rrb-ntpc",
+  "exam:rrb-paramedical-staff-recruitment",
+  "exam:sat",
   "exam:ssc-cgl",
   "exam:ssc-chsl",
   "exam:ssc-gd",
@@ -985,22 +1851,85 @@
   "exam:ssc-mts-exam",
   "exam:state-level-junior-engineer-exam",
   "exam:state-police-constable-recruitment-exam",
+  "exam:state-police-sub-inspector-recruitment-exam",
+  "exam:state-psc",
+  "exam:state-tet",
   "exam:uceed",
+  "exam:upsc-capf",
   "exam:upsc-cse",
+  "exam:upsc-ese",
   "exam:upsc-nda",
   "exam:viteee",
   "exam:wbjee",
+  "government_service:administrative-assistant-drdo",
+  "government_service:assistant-loco-pilot-indian-railways",
+  "government_service:community-health-officer",
   "government_service:constable-general-duty-in-capfs",
+  "government_service:data-entry-operator-deo",
+  "government_service:drug-inspector",
+  "government_service:government-physiotherapist",
+  "government_service:head-constable-in-capfs",
+  "government_service:judge-advocate-general-jag-entry-scheme",
+  "government_service:junior-engineer-central-government",
+  "government_service:junior-engineer-indian-railways",
+  "government_service:junior-engineer-state-government",
+  "government_service:legal-officer-in-a-psu",
+  "government_service:lower-divisional-clerk-junior-secretariat-assistant-ldc-jsa",
+  "government_service:military-nursing-officer",
+  "government_service:multi-tasking-staff-central-government",
+  "government_service:nursing-officer-government",
+  "government_service:paramedic-government",
+  "government_service:police-constable-state-police",
+  "government_service:postal-assistant-sorting-assistant-pa-sa",
+  "government_service:security-assistant-drdo",
+  "government_service:senior-technical-assistant-drdo",
+  "government_service:sepoy-indian-army",
+  "government_service:stenographer-government",
+  "government_service:store-assistant-drdo",
+  "government_service:technician-drdo",
+  "government_service:technician-indian-railways",
+  "government_service:vocational-instructor-government-iti",
+  "job_role:accountant",
   "job_role:agniveer-indian-air-force",
   "job_role:agniveer-indian-army",
   "job_role:agniveer-indian-navy",
+  "job_role:content-writer",
+  "job_role:corporate-counsel",
+  "job_role:corporate-security-personnel",
   "job_role:digital-marketing-specialist",
   "job_role:diploma-engineer-trainee-psu",
+  "job_role:educational-content-developer",
+  "job_role:fashion-designer",
+  "job_role:graduate-engineer-trainee",
+  "job_role:graphic-designer",
   "job_role:industrial-technician",
   "job_role:junior-engineer",
+  "job_role:junior-engineer-psu",
   "job_role:lab-technician",
+  "job_role:maintenance-supervisor",
+  "job_role:management-trainee",
   "job_role:medical-representative",
+  "job_role:nursery-teacher",
+  "job_role:operation-theatre-technician",
+  "job_role:permanent-airman-indian-air-force",
+  "job_role:permanent-sailor-indian-navy",
+  "job_role:pharmacist",
+  "job_role:physiotherapist",
+  "job_role:primary-school-teacher-private",
+  "job_role:private-tutor",
+  "job_role:product-designer",
+  "job_role:radiographer",
+  "job_role:sailor-merchant-navy",
+  "job_role:sales-executive",
+  "job_role:senior-engineer",
+  "job_role:senior-industrial-technician",
+  "job_role:service-manager",
   "job_role:software-developer",
+  "job_role:sports-physiotherapist",
+  "job_role:staff-nurse",
+  "job_role:technician-in-public-sector-undertaking-psu",
+  "job_role:ui-ux-designer",
+  "job_role:vocational-instructor-private-institute",
   "job_role:web-developer",
   "school_stage:class-10",
   "stream:arts-humanities",
