@@ -23,12 +23,12 @@ export default function V2FocusView({
   return (
     <main className="min-h-screen bg-neutral-50 pb-20 pt-10">
       <nav className="absolute left-4 right-4 top-4 mx-auto flex max-w-6xl items-center gap-3">
-        <Link href="/v2">
+        <Link href="/">
           <Image
             src="/icon.png"
             width={32}
             height={32}
-            alt="V2 directory"
+            alt="Career Tree home"
           />
         </Link>
         <Link
@@ -38,9 +38,6 @@ export default function V2FocusView({
         >
           <ArrowLeft size={20} />
         </Link>
-        <span className="ml-auto rounded-full border px-3 py-1 font-mono text-[10px]">
-          V2 PREVIEW
-        </span>
       </nav>
 
       <div className="mx-auto mt-14 flex max-w-6xl flex-col items-center px-4">

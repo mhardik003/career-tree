@@ -31,15 +31,12 @@ export default function V2BlogView({
     <main className="min-h-screen bg-neutral-50 px-4 pb-20 pt-8">
       <nav className="mx-auto flex max-w-3xl items-center gap-3">
         <Link
-          href="/v2"
-          aria-label="Back to V2 directory"
+          href="/"
+          aria-label="Back to career directory"
           className="rounded-full border bg-white p-2"
         >
           <ArrowLeft size={18} />
         </Link>
-        <span className="ml-auto rounded-full border px-3 py-1 font-mono text-[10px]">
-          V2 GUIDE
-        </span>
       </nav>
 
       <article className="mx-auto mt-12 max-w-3xl rounded-2xl border bg-white px-6 py-10 shadow-sm sm:px-10">
