@@ -18,10 +18,14 @@ from lib import (Registry, NodeType, EdgeType, atomic_write, read_jsonl,  # noqa
                  call_json, FRONTIER_FILE)
 from resolve import Resolver
 
-EXPAND_MODEL = "gemini-2.5-pro"
+EXPAND_MODEL = "gpt-5.6-terra"
 
 WORKING_TYPES = {NodeType.job_role, NodeType.government_service, NodeType.entrepreneurship}
 EDUCATION_TYPES = {NodeType.degree, NodeType.diploma, NodeType.certification, NodeType.training}
+
+
+def should_expand(depth: int, max_depth: int) -> bool:
+    return depth < max_depth
 
 
 class ChildRef(BaseModel):
@@ -81,7 +85,8 @@ Rules:
 
 
 def load_frontier() -> dict:
-    return json.load(open(FRONTIER_FILE))
+    with open(FRONTIER_FILE, encoding="utf-8") as frontier_file:
+        return json.load(frontier_file)
 
 
 def save_frontier(fr: dict):
@@ -98,14 +103,28 @@ def main():
     resolver = Resolver(reg)
     fr = load_frontier()
     expanded = set(fr["expanded"])
-    queue = [q for q in fr["queue"] if q["id"] not in expanded]
+    queue = [
+        q
+        for q in fr["queue"]
+        if q["id"] not in expanded and q["id"] in reg.nodes
+    ]
 
     done = 0
     consecutive_failures = 0
-    while queue:
-        item = queue.pop(0)
+    while True:
+        next_index = next(
+            (
+                index
+                for index, queued in enumerate(queue)
+                if should_expand(queued["depth"], args.max_depth)
+            ),
+            None,
+        )
+        if next_index is None:
+            break
+        item = queue.pop(next_index)
         nid, depth = item["id"], item["depth"]
-        if nid in expanded or depth >= args.max_depth or nid not in reg.nodes:
+        if nid in expanded or not should_expand(depth, args.max_depth) or nid not in reg.nodes:
             continue
         node = reg.nodes[nid]
         trail_ids = reg.shortest_trail(nid)
@@ -139,8 +158,15 @@ def main():
             print(f"limit {args.limit} reached")
             break
 
-    print(f"expanded {done} nodes; registry now {len(reg.nodes)} nodes / {len(reg.edges)} edges; "
-          f"frontier {len([q for q in queue if q['depth'] < args.max_depth])} pending")
+    pending_expandable = sum(
+        should_expand(item["depth"], args.max_depth) for item in queue
+    )
+    retained_boundary = sum(item["depth"] == args.max_depth for item in queue)
+    print(
+        f"expanded {done} nodes; registry now {len(reg.nodes)} nodes / "
+        f"{len(reg.edges)} edges; frontier {pending_expandable} pending expandable / "
+        f"{retained_boundary} retained at depth {args.max_depth}"
+    )
 
 
 def _process_successors(reg, resolver, node, nid, depth, result, queue, expanded, args):
