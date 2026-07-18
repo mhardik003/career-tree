@@ -23,10 +23,6 @@ vi.mock("@/lib/v2/data", () => ({
   },
 }));
 
-vi.mock("@/lib/treeUtils", () => ({
-  getNodeByKey: vi.fn(),
-}));
-
 import { POST } from "../route";
 
 const validBody = {

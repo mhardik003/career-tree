@@ -1,40 +1,38 @@
 # Career Tree — Web App
 
-The Next.js 16 (App Router) frontend for [Career Tree](../README.md). It renders the
-career graph from static JSON and stores community submissions in Supabase.
+The Next.js 16 App Router frontend renders the canonical V2 career graph and stores
+community submissions in Supabase for private review.
 
 ## Run it
 
 ```bash
 npm install
-npm run dev      # http://localhost:3000
-npm run build    # production build
+npm run dev
+npm test
 npm run lint
+npm run build
 ```
 
-## Configuration
-
-Browsing works with zero config — the tree (`data/career_tree_data.json` +
-`data/metadata.json`) ships with the repo.
-
-The suggest/edit forms and the homepage counters need Supabase. Create `.env.local`:
+Browsing uses the committed `data/v2/graph.json` snapshot and needs no runtime graph
+database. The homepage counters and stable-ID suggestion/edit APIs require:
 
 ```env
-SUPABASE_URL=https://<your-project>.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=<secret key — never expose to the client>
+SUPABASE_URL=https://<project>.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=<secret key>
 ```
 
-Run `supabase/schema.sql` once in your Supabase project's SQL editor to create the
-`suggestions` and `edits` tables (RLS enabled, no policies — only the service-role
-key can access them, from server code via `lib/supabase.ts`).
+Use `supabase/schema.sql` for a clean V2 installation. The destructive production
+cutover is in `supabase/migrations/20260719_v2_reset.sql` and must be run only through
+the release procedure.
 
-## Key places
+## Production surfaces
 
-- `lib/treeUtils.ts` — loads the JSON, slug/URL resolution, React Flow graph building.
-- `app/explore/[...slug]` — Focus View; `app/map` — global graph.
-- `app/api/suggest`, `app/api/edit` — Zod-validated inserts into Supabase with
-  `status: "pending_review"`.
-- `app/page.tsx` — landing page; counts all rows in both tables live (ISR, 5 min).
+- `/` — Class 10 entry action and searchable canonical directory.
+- `/careers/<type>/<slug>` — indexable, source-backed canonical guides.
+- `/explore/<type>/<slug>?from=<stable-id>` — contextual, noindex exploration.
+- `/map` — one visual node per canonical ID and all registry relationships.
+- `/api/suggest` and `/api/edit` — strict stable-ID submission endpoints.
 
-Submissions are reviewed and merged into the JSON with tooling in a separate private
-repo; approved/rejected rows stay in Supabase permanently.
+The public JSONL registry under `../pipeline/registry/` is canonical. The frontend
+snapshot is generated with `python pipeline/export_frontend.py`; it is never edited by
+hand or copied from a legacy tree.

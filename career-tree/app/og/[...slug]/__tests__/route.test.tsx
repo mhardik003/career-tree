@@ -18,18 +18,6 @@ vi.mock("@/lib/v2/data", () => ({
       type === "degree" && slug === "bca" ? mocks.node : undefined,
   },
 }));
-vi.mock("@/lib/treeUtils", () => ({
-  findNodeBySlug: () => ({
-    status: "found",
-    data: {
-      node_title: "BCA",
-      description: "An undergraduate computing degree.",
-      difficulty_rating: 5,
-      is_terminal: false,
-    },
-    parent: null,
-  }),
-}));
 vi.mock("@/lib/og", () => ({
   OG_SIZE: { width: 1200, height: 630 },
   OG_GREEN: "#16a34a",

@@ -8,10 +8,6 @@ vi.mock("@/lib/v2/data", () => ({
     ],
   },
 }));
-vi.mock("@/lib/treeUtils", () => ({
-  getCanonicalNodeSlugs: () => [["10th-class"]],
-}));
-
 import sitemap from "../sitemap";
 
 describe("sitemap", () => {
@@ -26,6 +22,6 @@ describe("sitemap", () => {
       expect.stringMatching(/\/careers\/degree\/bca$/),
     ]));
     expect(urls.some((url) => url.includes("/explore/"))).toBe(false);
-    expect(urls.some((url) => url.includes("/v2/"))).toBe(false);
+    expect(urls.some((url) => url.split("/").includes("v2"))).toBe(false);
   });
 });

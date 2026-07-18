@@ -19,10 +19,6 @@ vi.mock("@/lib/v2/data", () => ({
   v2Graph: { getNodeById: mocks.getNodeById },
 }));
 
-vi.mock("@/lib/treeUtils", () => ({
-  getNodeByKey: vi.fn(),
-}));
-
 import { POST } from "../route";
 
 const originalData = {
