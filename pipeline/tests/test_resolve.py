@@ -7,6 +7,8 @@ import warnings
 from pathlib import Path
 from unittest.mock import patch
 
+from pydantic import ValidationError
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import resolve
@@ -35,6 +37,22 @@ def node(node_id: str, node_type: NodeType, title: str, description: str) -> Nod
 
 
 class ResolverTests(unittest.TestCase):
+    def test_judge_verdict_rejects_unknown_decisions_and_missing_matches(self):
+        with self.assertRaises(ValidationError):
+            JudgeVerdict(
+                decision="merge",
+                matched_id=None,
+                rule=1,
+                rationale="not an allowed decision",
+            )
+        with self.assertRaises(ValidationError):
+            JudgeVerdict(
+                decision="same_role",
+                matched_id=None,
+                rule=1,
+                rationale="missing the selected candidate",
+            )
+
     def test_rubric_table_does_not_leak_an_open_file(self):
         with patch.object(resolve, "_RUBRIC_TABLE", None):
             with warnings.catch_warnings(record=True) as caught:
@@ -127,6 +145,48 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(
             ledger_row["candidates"][0]["id"], "job_role:business-analyst"
         )
+
+    def test_same_role_outside_supplied_shortlist_mints_for_review(self):
+        registry = in_memory_registry(
+            *[
+                node(
+                    f"job_role:analyst-{index}",
+                    NodeType.job_role,
+                    f"Analyst {index}",
+                    f"Analysis role {index}.",
+                )
+                for index in range(1, 5)
+            ]
+        )
+
+        def judge_call(_model, _prompt, _schema):
+            return JudgeVerdict(
+                decision="same_role",
+                matched_id="job_role:analyst-4",
+                rule=1,
+                rationale="selected a node that was not supplied",
+            )
+
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.object(
+                resolve, "ER_LEDGER_FILE", str(Path(directory) / "ledger.jsonl")
+            ):
+                resolver = Resolver(
+                    registry,
+                    embedder=lambda texts: [[1.0, 0.0] for _ in texts],
+                    judge_call=judge_call,
+                )
+                result = resolver.resolve(
+                    NodeType.job_role,
+                    "Analyst Candidate",
+                    "A candidate analysis role.",
+                    None,
+                    "gpt-5.6-terra",
+                )
+
+        self.assertEqual(result.action, "minted")
+        self.assertNotEqual(result.node_id, "job_role:analyst-4")
+        self.assertTrue(registry.nodes[result.node_id].needs_review)
 
 
 if __name__ == "__main__":

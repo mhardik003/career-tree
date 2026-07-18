@@ -14,9 +14,9 @@ merge is not).
 import os
 import re
 import json
-from typing import List, Optional, Tuple
+from typing import List, Literal, Optional, Tuple
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 from lib import (Registry, Node, NodeType, Provenance, is_bare_generic,
                  looks_aggregate, mint_id, embed_texts, cosine,
@@ -50,7 +50,7 @@ def rubric_table() -> str:
 
 
 class JudgeVerdict(BaseModel):
-    decision: str = Field(description="one of: same_role | distinct | unsure")
+    decision: Literal["same_role", "distinct", "unsure"]
     matched_id: Optional[str] = Field(None, description="the registry id judged same, if same_role")
     rule: int = Field(description="rubric row number applied (1-12)")
     rationale: str = Field(description="one short sentence")
@@ -60,6 +60,14 @@ class JudgeVerdict(BaseModel):
     @classmethod
     def _trim(cls, v: str) -> str:
         return v[:300]
+
+    @model_validator(mode="after")
+    def _matched_id_agrees_with_decision(self):
+        if self.decision == "same_role" and not (self.matched_id or "").strip():
+            raise ValueError("same_role requires matched_id")
+        if self.decision != "same_role" and self.matched_id is not None:
+            raise ValueError("matched_id is allowed only for same_role")
+        return self
 
 
 class Resolution(BaseModel):
@@ -127,14 +135,30 @@ class Resolver:
             top_id, top_sim = neighbors[0]
             if top_sim >= JUDGE_BAND:
                 candidates = neighbors[:3]
+                candidate_ids = [nid for nid, _ in candidates]
                 verdict = self._judge(node_type, title, definition, parent,
-                                      [nid for nid, _ in candidates])
-                if verdict.decision == "same_role" and verdict.matched_id in self.reg.nodes:
+                                      candidate_ids)
+                if (
+                    verdict.decision == "same_role"
+                    and verdict.matched_id in candidate_ids
+                ):
                     self.reg.add_alias(verdict.matched_id, title)
                     self._ledger("linked_judge", title, node_type, verdict.matched_id,
                                  top_sim, f"rule {verdict.rule}: {verdict.rationale}",
                                  judge_model=JUDGE_MODEL, candidates=candidates)
                     return Resolution(action="linked", node_id=verdict.matched_id)
+                if verdict.decision == "same_role":
+                    return self._mint(
+                        node_type,
+                        title,
+                        definition,
+                        model_for_mint,
+                        vec,
+                        needs_review=True,
+                        reason="judge selected an ID outside its supplied shortlist",
+                        judge_model=JUDGE_MODEL,
+                        candidates=candidates,
+                    )
                 # distinct or unsure -> mint; unsure additionally flags review (under-merge default)
                 return self._mint(node_type, title, definition, model_for_mint, vec,
                                   needs_review=(verdict.decision == "unsure") or pipe_flag,
