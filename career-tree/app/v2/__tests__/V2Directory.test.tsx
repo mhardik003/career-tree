@@ -9,7 +9,7 @@ const nodes = [
     title: "BCA",
     aliases: ["Bachelor of Computer Applications"],
     description: "Computing degree",
-    href: "/v2/careers/degree/bca",
+    href: "/careers/degree/bca",
     incomingCount: 2,
     outgoingCount: 4,
   },
@@ -19,7 +19,7 @@ const nodes = [
     title: "Product Manager",
     aliases: [],
     description: "Product role",
-    href: "/v2/careers/job_role/product-manager",
+    href: "/careers/job_role/product-manager",
     incomingCount: 4,
     outgoingCount: 0,
   },
@@ -36,7 +36,7 @@ describe("V2Directory", () => {
     });
     expect(screen.getByRole("link", { name: /BCA/ })).toHaveAttribute(
       "href",
-      "/v2/careers/degree/bca",
+      "/careers/degree/bca",
     );
     fireEvent.change(screen.getByRole("searchbox"), {
       target: { value: "unmapped phrase" },

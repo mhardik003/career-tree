@@ -94,7 +94,7 @@ describe("V2Graph", () => {
   it("builds lean directory summaries", () => {
     const mba = graph.directoryNodes().find((item) => item.id === "degree:mba");
     expect(mba).toMatchObject({
-      href: "/v2/careers/degree/mba",
+      href: "/careers/degree/mba",
       incomingCount: 1,
       outgoingCount: 0,
     });

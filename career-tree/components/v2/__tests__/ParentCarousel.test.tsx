@@ -30,7 +30,7 @@ const parents: V2ParentView[] = ["a", "b", "c"].map((slug) => ({
     is_common_route: true,
     prov,
   },
-  contextHref: `/v2/careers/degree/mba?from=degree%3A${slug}`,
+  contextHref: `/careers/degree/mba?from=degree%3A${slug}`,
 }));
 
 describe("ParentCarousel", () => {
@@ -41,13 +41,13 @@ describe("ParentCarousel", () => {
         currentTitle="MBA"
         parents={parents}
         selectedId="degree:a"
-        selectedParentHref="/v2/careers/degree/a"
+        selectedParentHref="/careers/degree/a"
         onSelect={onSelect}
       />,
     );
     expect(screen.getByRole("link", { name: "Open parent A" })).toHaveAttribute(
       "href",
-      "/v2/careers/degree/a",
+      "/careers/degree/a",
     );
     expect(screen.queryByText(/Other ways to reach/)).not.toBeInTheDocument();
     expect(screen.queryByText(/Parent 1 of 3/)).not.toBeInTheDocument();
@@ -75,7 +75,7 @@ describe("ParentCarousel", () => {
         currentTitle="MBA"
         parents={parents}
         selectedId="degree:a"
-        selectedParentHref="/v2/careers/degree/a"
+        selectedParentHref="/careers/degree/a"
         onSelect={onSelect}
       />,
     );

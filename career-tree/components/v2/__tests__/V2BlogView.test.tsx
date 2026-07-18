@@ -56,19 +56,19 @@ const product = node(
 const view: V2NodePageView = {
   node: mba,
   selectedParentId: bca.id,
-  backHref: "/v2/explore/degree/bca?from=school_stage%3Aclass-10",
+  backHref: "/explore/degree/bca?from=school_stage%3Aclass-10",
   parents: [
     {
       node: bca,
       edge: edge(bca.id, mba.id),
-      contextHref: "/v2/explore/degree/mba?from=degree%3Abca",
+      contextHref: "/explore/degree/mba?from=degree%3Abca",
     },
   ],
   children: [
     {
       node: product,
       edge: edge(mba.id, product.id),
-      href: "/v2/explore/job_role/product-manager?from=degree%3Amba",
+      href: "/explore/job_role/product-manager?from=degree%3Amba",
     },
   ],
   routes: [
@@ -95,7 +95,7 @@ describe("V2BlogView", () => {
     ).toBeInTheDocument();
     expect(
       screen.getByRole("link", { name: "Explore paths from here" }),
-    ).toHaveAttribute("href", "/v2/explore/degree/mba");
+    ).toHaveAttribute("href", "/explore/degree/mba");
     expect(
       screen.getByRole("heading", { name: "Routes from Class 10" }),
     ).toBeVisible();
@@ -105,7 +105,7 @@ describe("V2BlogView", () => {
     expect(document.querySelector("details")).toBeNull();
     expect(
       screen.getByRole("link", { name: /Product Manager/ }),
-    ).toHaveAttribute("href", "/v2/careers/job_role/product-manager");
+    ).toHaveAttribute("href", "/careers/job_role/product-manager");
     expect(
       screen.queryByRole("heading", { name: "Aliases" }),
     ).not.toBeInTheDocument();

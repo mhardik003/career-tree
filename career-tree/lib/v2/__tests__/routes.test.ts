@@ -136,12 +136,16 @@ describe("v2 route discovery", () => {
     expect(
       viaBca.parents.find((parent) => parent.node.id === "degree:bca")
         ?.contextHref,
-    ).toBe("/v2/explore/degree/mba?from=degree%3Abca");
+    ).toBe("/explore/degree/mba?from=degree%3Abca");
     expect(
       viaBca.children.find(
         (child) => child.node.id === "job_role:developer",
       )?.href,
-    ).toBe("/v2/explore/job_role/developer?from=degree%3Amba");
-    expect(viaBca.backHref).toContain("/v2/explore/degree/bca");
+    ).toBe("/explore/job_role/developer?from=degree%3Amba");
+    expect(viaBca.backHref).toContain("/explore/degree/bca");
+  });
+
+  it("returns parentless nodes to the production home page", () => {
+    expect(buildNodePageView(graph, "school_stage:class-10").backHref).toBe("/");
   });
 });

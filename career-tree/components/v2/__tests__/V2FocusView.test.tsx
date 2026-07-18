@@ -58,17 +58,17 @@ const bcaToMba = edge(bca.id, mba.id);
 const view: V2NodePageView = {
   node: mba,
   selectedParentId: developer.id,
-  backHref: "/v2/explore/job_role/developer",
+  backHref: "/explore/job_role/developer",
   parents: [bca, developer, llb].map((parent) => ({
     node: parent,
     edge: edge(parent.id, mba.id),
-    contextHref: `/v2/explore/degree/mba?from=${encodeURIComponent(parent.id)}`,
+    contextHref: `/explore/degree/mba?from=${encodeURIComponent(parent.id)}`,
   })),
   children: [
     {
       node: product,
       edge: edge(mba.id, product.id),
-      href: "/v2/explore/job_role/product-manager?from=degree%3Amba",
+      href: "/explore/job_role/product-manager?from=degree%3Amba",
     },
   ],
   routes: [
@@ -89,7 +89,7 @@ describe("V2FocusView", () => {
       screen.getByRole("link", { name: "View full guide" }),
     ).toHaveAttribute(
       "href",
-      "/v2/careers/degree/mba?from=job_role%3Adeveloper",
+      "/careers/degree/mba?from=job_role%3Adeveloper",
     );
     expect(
       screen.queryByText(/View complete routes from Class 10/),
@@ -98,7 +98,7 @@ describe("V2FocusView", () => {
     expect(screen.queryByText(/Parent 2 of 3/)).not.toBeInTheDocument();
     expect(
       screen.getByRole("link", { name: "Open parent Developer" }),
-    ).toHaveAttribute("href", "/v2/explore/job_role/developer");
+    ).toHaveAttribute("href", "/explore/job_role/developer");
     expect(
       screen.getByRole("heading", { level: 1, name: "MBA" }),
     ).toBeInTheDocument();
@@ -106,11 +106,11 @@ describe("V2FocusView", () => {
       screen.getByRole("link", { name: /Product Manager/ }),
     ).toHaveAttribute(
       "href",
-      "/v2/explore/job_role/product-manager?from=degree%3Amba",
+      "/explore/job_role/product-manager?from=degree%3Amba",
     );
     fireEvent.click(screen.getByRole("button", { name: "Select parent BCA" }));
     expect(replace).toHaveBeenCalledWith(
-      "/v2/explore/degree/mba?from=degree%3Abca",
+      "/explore/degree/mba?from=degree%3Abca",
       { scroll: false },
     );
     expect(

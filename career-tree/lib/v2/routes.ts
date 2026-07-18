@@ -245,7 +245,7 @@ export function buildNodePageView(
     routes,
     backHref: selectedId
       ? exploreHref(selectedId, selectedParentFrom)
-      : "/v2",
+      : "/",
     children: graph
       .outgoing(nodeId)
       .map((edge) => ({

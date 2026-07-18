@@ -100,7 +100,7 @@ describe("RouteMap", () => {
       }),
     ).toHaveAttribute(
       "href",
-      "/v2/explore/degree/bca?from=stream%3Acommerce",
+      "/explore/degree/bca?from=stream%3Acommerce",
     );
   });
 
@@ -119,7 +119,7 @@ describe("RouteMap", () => {
       }),
     ).toHaveAttribute(
       "href",
-      "/v2/explore/degree/mba?from=degree%3Ab-tech",
+      "/explore/degree/mba?from=degree%3Ab-tech",
     );
   });
 

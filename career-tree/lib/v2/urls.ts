@@ -12,12 +12,12 @@ export function nodeIdFromRoute(type: string, slug: string): string {
 
 export function nodeHref(id: string, fromId?: string): string {
   const { type, slug } = splitNodeId(id);
-  const base = `/v2/careers/${encodeURIComponent(type)}/${encodeURIComponent(slug)}`;
+  const base = `/careers/${encodeURIComponent(type)}/${encodeURIComponent(slug)}`;
   return fromId ? `${base}?from=${encodeURIComponent(fromId)}` : base;
 }
 
 export function exploreHref(id: string, fromId?: string): string {
   const { type, slug } = splitNodeId(id);
-  const base = `/v2/explore/${encodeURIComponent(type)}/${encodeURIComponent(slug)}`;
+  const base = `/explore/${encodeURIComponent(type)}/${encodeURIComponent(slug)}`;
   return fromId ? `${base}?from=${encodeURIComponent(fromId)}` : base;
 }

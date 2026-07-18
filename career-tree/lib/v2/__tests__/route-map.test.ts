@@ -71,7 +71,7 @@ describe("route map model", () => {
       true,
     );
     expect(model.nodes.find((node) => node.id === "degree:bca")?.href).toBe(
-      "/v2/explore/degree/bca?from=stream%3Acommerce",
+      "/explore/degree/bca?from=stream%3Acommerce",
     );
     expect(model.edges.filter((item) => item.isSelected)).toHaveLength(3);
     expect(model.edges[0].isSelected).toBe(false);

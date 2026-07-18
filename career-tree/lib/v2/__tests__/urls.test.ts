@@ -8,13 +8,13 @@ describe("v2 URLs", () => {
   });
 
   it("builds canonical blog and contextual explorer URLs", () => {
-    expect(nodeHref("degree:mba")).toBe("/v2/careers/degree/mba");
+    expect(nodeHref("degree:mba")).toBe("/careers/degree/mba");
     expect(nodeHref("degree:mba", "degree:bca")).toBe(
-      "/v2/careers/degree/mba?from=degree%3Abca",
+      "/careers/degree/mba?from=degree%3Abca",
     );
-    expect(exploreHref("degree:mba")).toBe("/v2/explore/degree/mba");
+    expect(exploreHref("degree:mba")).toBe("/explore/degree/mba");
     expect(exploreHref("degree:mba", "degree:bca")).toBe(
-      "/v2/explore/degree/mba?from=degree%3Abca",
+      "/explore/degree/mba?from=degree%3Abca",
     );
   });
 
