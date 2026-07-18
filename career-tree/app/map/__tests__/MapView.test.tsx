@@ -1,14 +1,22 @@
 import { fireEvent, render, screen } from "@testing-library/react";
+import type { MouseEvent, ReactNode } from "react";
 import { describe, expect, it, vi } from "vitest";
 import type { V2GlobalMap } from "@/lib/v2/global-map";
 import MapView from "../MapView";
 
 const push = vi.fn();
+type TestFlowNode = { id: string; data: { label: string } };
+type TestFlowProps = {
+  nodes: TestFlowNode[];
+  edges: unknown[];
+  onNodeClick: (event: MouseEvent, node: TestFlowNode) => void;
+  children: ReactNode;
+};
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push }) }));
 vi.mock("reactflow", () => ({
-  default: ({ nodes, edges, onNodeClick, children }: any) => (
+  default: ({ nodes, edges, onNodeClick, children }: TestFlowProps) => (
     <div data-testid="flow" data-edges={edges.length}>
-      {nodes.map((node: any) => (
+      {nodes.map((node) => (
         <button key={node.id} type="button" onClick={(event) => onNodeClick(event, node)}>
           {node.data.label}
         </button>
