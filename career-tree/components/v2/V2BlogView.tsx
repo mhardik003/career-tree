@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import type { ParentRouteMap } from "@/lib/v2/route-map";
 import type { V2NodePageView } from "@/lib/v2/types";
 import { exploreHref, nodeHref } from "@/lib/v2/urls";
+import ContributionActions from "./ContributionActions";
 import NodeFacts from "./NodeFacts";
 import RouteMapFromQuery, { RouteMap } from "./RouteMap";
 
@@ -112,6 +113,8 @@ export default function V2BlogView({
             </p>
           )}
         </section>
+
+        <ContributionActions node={view.node} />
 
         {sources.length > 0 && (
           <section className="mt-10 border-t pt-6">
