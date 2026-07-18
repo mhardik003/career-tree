@@ -1,4 +1,4 @@
-"""Career Tree v2 pipeline core: data model, registry I/O, normalization, Gemini wrapper.
+"""Career Tree v2 pipeline core: data model, registry I/O, normalization, OpenAI wrapper.
 
 Everything committable is sorted JSONL (diffable); ledger/ holds gitignored caches
 (LLM call cache, embeddings) plus the committed ER decision ledger.
@@ -7,7 +7,6 @@ import os
 import re
 import json
 import time
-import hashlib
 import tempfile
 from enum import Enum
 from typing import List, Optional, Dict, Iterable
@@ -16,9 +15,12 @@ import yaml
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
+from cache_keys import call_cache_key, embedding_cache_key
+from openai_provider import OpenAIProvider
+
 PIPE_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(PIPE_DIR)
-# override=True: the repo .env is authoritative — a stale GEMINI_API_KEY exported in
+# override=True: the repo .env is authoritative — a stale OPENAI_API_KEY exported in
 # the user's shell profile must not shadow it.
 load_dotenv(os.path.join(REPO_ROOT, ".env"), override=True)
 
@@ -28,9 +30,14 @@ FRONTIER_FILE = os.path.join(PIPE_DIR, "state", "frontier.json")
 CALL_CACHE_FILE = os.path.join(PIPE_DIR, "ledger", "call_cache.jsonl")      # gitignored
 EMBED_CACHE_FILE = os.path.join(PIPE_DIR, "ledger", "embeddings.jsonl")     # gitignored
 ER_LEDGER_FILE = os.path.join(PIPE_DIR, "ledger", "er_decisions.jsonl")     # committed
+USAGE_FILE = os.path.join(PIPE_DIR, "ledger", "usage.jsonl")                # gitignored
 VOCAB_FILE = os.path.join(PIPE_DIR, "vocab.yaml")
 
-PROMPT_VERSION = "v2.0"
+PROVIDER = "openai"
+PROMPT_VERSION = "v2-openai-1"
+EMBED_MODEL = "text-embedding-3-large"
+EMBED_DIMENSIONS = 1024
+EMBED_NORMALIZER = "er-v2"
 
 
 # --- data model -------------------------------------------------------------
@@ -281,19 +288,16 @@ class Registry:
         return "\n".join(lines)
 
 
-# --- Gemini wrapper with prompt-hash call cache ------------------------------
+# --- OpenAI wrapper with provider-aware call cache ----------------------------
 
-_client = None
+_provider: Optional[OpenAIProvider] = None
 
-def gemini():
-    global _client
-    if _client is None:
-        from google import genai
-        key = os.getenv("GEMINI_API_KEY")
-        if not key:
-            raise ValueError("GEMINI_API_KEY missing")
-        _client = genai.Client(api_key=key)
-    return _client
+
+def _get_provider() -> OpenAIProvider:
+    global _provider
+    if _provider is None:
+        _provider = OpenAIProvider()
+    return _provider
 
 
 _call_cache: Optional[Dict[str, str]] = None
@@ -305,34 +309,65 @@ def _load_call_cache() -> Dict[str, str]:
     return _call_cache
 
 
-def call_json(model: str, prompt: str, schema: type[BaseModel], retries: int = 5):
-    """Structured-output call with prompt-hash cache replay: rerunning the pipeline
-    with unchanged prompts costs nothing."""
-    key = hashlib.sha256(
-        f"{model}|{PROMPT_VERSION}|{schema.__name__}|{prompt}".encode()).hexdigest()
+def call_json(
+    model: str,
+    prompt: str,
+    schema: type[BaseModel],
+    *,
+    prompt_version: str = PROMPT_VERSION,
+    web_search: bool = False,
+):
+    """Return strict structured output, replaying only an exact OpenAI cache match."""
+    schema_json = json.dumps(
+        schema.model_json_schema(),
+        sort_keys=True,
+        separators=(",", ":"),
+        ensure_ascii=False,
+    )
+    tools = ("web_search",) if web_search else ()
+    key = call_cache_key(
+        PROVIDER,
+        model,
+        prompt_version,
+        schema.__name__,
+        schema_json,
+        prompt,
+        tools,
+    )
     cache = _load_call_cache()
     if key in cache:
         return schema.model_validate_json(cache[key])
-    last_err = None
-    for attempt in range(retries):
-        try:
-            resp = gemini().models.generate_content(
-                model=model,
-                contents=prompt,
-                config={
-                    "response_mime_type": "application/json",
-                    "response_json_schema": schema.model_json_schema(),
-                },
-            )
-            out = schema.model_validate_json(resp.text)
-            append_jsonl(CALL_CACHE_FILE, {"key": key, "model": model,
-                                           "schema": schema.__name__, "response": resp.text})
-            cache[key] = resp.text
-            return out
-        except Exception as e:  # noqa: BLE001 — retry then surface
-            last_err = e
-            time.sleep(2 * 2 ** attempt)
-    raise RuntimeError(f"Gemini call failed after {retries} tries: {last_err}")
+    out, usage_tokens = _get_provider().structured(
+        model,
+        prompt,
+        schema,
+        web_search=web_search,
+    )
+    response_json = out.model_dump_json()
+    row = {
+        "key": key,
+        "provider": PROVIDER,
+        "model": model,
+        "prompt_version": prompt_version,
+        "schema": schema.__name__,
+        "schema_json": schema_json,
+        "tools": list(tools),
+        "usage_tokens": usage_tokens,
+        "response": response_json,
+    }
+    append_jsonl(CALL_CACHE_FILE, row)
+    append_jsonl(
+        USAGE_FILE,
+        {
+            "key": key,
+            "provider": PROVIDER,
+            "model": model,
+            "prompt_version": prompt_version,
+            "usage_tokens": usage_tokens,
+        },
+    )
+    cache[key] = response_json
+    return out
 
 
 # --- embeddings with cache ----------------------------------------------------
@@ -348,29 +383,39 @@ def _load_embed_cache() -> Dict[str, List[float]]:
 
 def embed_texts(texts: List[str]) -> List[List[float]]:
     cache = _load_embed_cache()
-    keys = [hashlib.sha256(t.encode()).hexdigest() for t in texts]
+    keys = [
+        embedding_cache_key(
+            PROVIDER,
+            EMBED_MODEL,
+            EMBED_DIMENSIONS,
+            EMBED_NORMALIZER,
+            text,
+        )
+        for text in texts
+    ]
     missing = [(i, t) for i, (k, t) in enumerate(zip(keys, texts)) if k not in cache]
     for start in range(0, len(missing), 100):
         chunk = missing[start:start + 100]
-        last_err = None
-        for attempt in range(5):
-            try:
-                resp = gemini().models.embed_content(
-                    model="gemini-embedding-001",
-                    contents=[t for _, t in chunk],
-                    config={"task_type": "SEMANTIC_SIMILARITY", "output_dimensionality": 768},
-                )
-                break
-            except Exception as e:  # noqa: BLE001 — transient 503s must not kill a run
-                last_err = e
-                time.sleep(2 * 2 ** attempt)
-        else:
-            raise RuntimeError(f"embedding failed after 5 tries: {last_err}")
-        for (i, t), emb in zip(chunk, resp.embeddings):
+        vectors = _get_provider().embeddings(
+            EMBED_MODEL,
+            [text for _, text in chunk],
+            EMBED_DIMENSIONS,
+        )
+        for (i, text), vector in zip(chunk, vectors):
             k = keys[i]
-            cache[k] = list(emb.values)
-            append_jsonl(EMBED_CACHE_FILE, {"key": k, "text": t[:120], "vec": cache[k]})
-        time.sleep(0.3)
+            cache[k] = vector
+            append_jsonl(
+                EMBED_CACHE_FILE,
+                {
+                    "key": k,
+                    "provider": PROVIDER,
+                    "model": EMBED_MODEL,
+                    "dimensions": EMBED_DIMENSIONS,
+                    "normalizer": EMBED_NORMALIZER,
+                    "text": text[:120],
+                    "vec": vector,
+                },
+            )
     return [cache[k] for k in keys]
 
 
