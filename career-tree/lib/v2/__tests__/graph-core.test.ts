@@ -76,6 +76,12 @@ describe("V2Graph", () => {
     expect(graph.getNodeByRoute("degree", "mba")?.id).toBe("degree:mba");
   });
 
+  it("resolves exact IDs and detects an existing child title", () => {
+    expect(graph.getNodeById("degree:bca")?.title).toBe("BCA");
+    expect(graph.hasChildTitle("school_stage:class-10", "bca")).toBe(true);
+    expect(graph.getNodeById("10th Class/Science")).toBeUndefined();
+  });
+
   it("indexes incoming and outgoing relationships", () => {
     expect(graph.incoming("degree:mba").map((edge) => edge.from_id)).toEqual([
       "degree:bca",

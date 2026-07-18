@@ -35,6 +35,21 @@ export class V2Graph {
     return this.nodesById.get(id);
   }
 
+  getNodeById(id: string): V2Node | undefined {
+    return this.nodesById.get(id);
+  }
+
+  hasChildTitle(parentId: string, proposedTitle: string): boolean {
+    const normalized = proposedTitle.trim().toLocaleLowerCase("en-IN");
+    return this.outgoing(parentId).some((edge) => {
+      const child = this.nodesById.get(edge.to_id);
+      return child !== undefined && [child.title, ...child.aliases]
+        .some(
+          (value) => value.trim().toLocaleLowerCase("en-IN") === normalized,
+        );
+    });
+  }
+
   getNodeByRoute(type: string, slug: string): V2Node | undefined {
     const node = this.nodesById.get(`${type}:${slug}`);
     return node?.type === type && node.slug === slug ? node : undefined;
