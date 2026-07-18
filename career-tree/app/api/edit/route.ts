@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { getSupabase } from '@/lib/supabase';
 import { checkRateLimit } from '@/lib/rateLimit';
 import { EditSubmissionSchema } from '@/lib/schemas';
-import { getNodeByKey } from '@/lib/treeUtils';
+import { v2Graph } from '@/lib/v2/data';
 
 
 export async function POST(request: Request) {
@@ -36,21 +36,34 @@ export async function POST(request: Request) {
       );
     }
 
-    // Data is clean, proceed to DB
-    const { nodeKey, originalData, newData } = validation.data;
+    const { targetNodeId, proposedData } = validation.data;
+    const targetNode = v2Graph.getNodeById(targetNodeId);
 
-    if (!getNodeByKey(nodeKey)) {
+    if (!targetNode) {
       return NextResponse.json(
-        { success: false, message: "Unknown node key — this node doesn't exist in the tree." },
+        { success: false, message: "Unknown target node — this node doesn't exist in the tree." },
         { status: 400 }
+      );
+    }
+
+    const originalData = {
+      title: targetNode.title,
+      description: targetNode.description,
+      aliases: targetNode.aliases,
+    };
+
+    if (JSON.stringify(originalData) === JSON.stringify(proposedData)) {
+      return NextResponse.json(
+        { success: false, message: "The proposed data does not change this node." },
+        { status: 409 }
       );
     }
 
     const supabase = getSupabase();
     const { error } = await supabase.from('edits').insert({
-      target_node_key: nodeKey,
+      target_node_id: targetNodeId,
       original_data: originalData,
-      proposed_data: newData,
+      proposed_data: proposedData,
       status: 'pending_review'
     });
 
