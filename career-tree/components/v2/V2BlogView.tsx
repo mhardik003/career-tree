@@ -4,7 +4,18 @@ import { Suspense } from "react";
 import type { ParentRouteMap } from "@/lib/v2/route-map";
 import type { V2NodePageView } from "@/lib/v2/types";
 import { exploreHref, nodeHref } from "@/lib/v2/urls";
+import NodeFacts from "./NodeFacts";
 import RouteMapFromQuery, { RouteMap } from "./RouteMap";
+
+function sourceIndex(view: V2NodePageView): string[] {
+  const facts = view.node.facts;
+  return [...new Set([
+    ...view.node.prov.source_urls,
+    ...(facts?.quick_facts.flatMap((fact) => fact.source_urls) ?? []),
+    ...(facts?.sections.flatMap((section) => section.source_urls) ?? []),
+    ...(facts?.useful_links.map((link) => link.url) ?? []),
+  ])];
+}
 
 export default function V2BlogView({
   view,
@@ -13,7 +24,7 @@ export default function V2BlogView({
   view: V2NodePageView;
   parentRoutes: ParentRouteMap;
 }) {
-  const sources = [...new Set(view.node.prov.source_urls)];
+  const sources = sourceIndex(view);
 
   return (
     <main className="min-h-screen bg-neutral-50 px-4 pb-20 pt-8">
@@ -57,6 +68,29 @@ export default function V2BlogView({
           </section>
         )}
 
+        <section className="mt-10" aria-label="Route reference">
+          <Suspense
+            fallback={
+              <RouteMap
+                defaultRoutes={view.routes}
+                parentRoutes={{}}
+                targetId={view.node.id}
+                targetTitle={view.node.title}
+                requestedParentId={null}
+              />
+            }
+          >
+            <RouteMapFromQuery
+              defaultRoutes={view.routes}
+              parentRoutes={parentRoutes}
+              targetId={view.node.id}
+              targetTitle={view.node.title}
+            />
+          </Suspense>
+        </section>
+
+        {view.node.facts && <NodeFacts facts={view.node.facts} />}
+
         <section className="mt-10">
           <h2 className="font-mono text-sm font-bold">What can come next</h2>
           {view.children.length ? (
@@ -79,27 +113,6 @@ export default function V2BlogView({
           )}
         </section>
 
-        <section className="mt-10" aria-label="Route reference">
-          <Suspense
-            fallback={
-              <RouteMap
-                defaultRoutes={view.routes}
-                parentRoutes={{}}
-                targetId={view.node.id}
-                targetTitle={view.node.title}
-                requestedParentId={null}
-              />
-            }
-          >
-            <RouteMapFromQuery
-              defaultRoutes={view.routes}
-              parentRoutes={parentRoutes}
-              targetId={view.node.id}
-              targetTitle={view.node.title}
-            />
-          </Suspense>
-        </section>
-
         {sources.length > 0 && (
           <section className="mt-10 border-t pt-6">
             <h2 className="font-mono text-sm font-bold">Sources</h2>
@@ -108,7 +121,7 @@ export default function V2BlogView({
                 <li key={source}>
                   <a
                     href={source}
-                    rel="noreferrer"
+                    rel="noreferrer noopener"
                     target="_blank"
                     className="break-all text-sm underline"
                   >

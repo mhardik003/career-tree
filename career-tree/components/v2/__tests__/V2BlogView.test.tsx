@@ -5,6 +5,7 @@ import type {
   V2Node,
   V2NodePageView,
   V2NodeType,
+  V2NodeFacts,
 } from "@/lib/v2/types";
 import V2BlogView from "../V2BlogView";
 
@@ -112,5 +113,64 @@ describe("V2BlogView", () => {
     expect(
       screen.queryByRole("heading", { name: "Sources" }),
     ).not.toBeInTheDocument();
+  });
+
+  it("keeps claim-local citations and deduplicates the final source index", () => {
+    const shared = "https://example.edu/shared";
+    const facts: V2NodeFacts = {
+      schema_version: 1,
+      last_reviewed: "2026-07-19",
+      quick_facts: [{
+        label: "Duration",
+        value: "Two years",
+        source_urls: ["https://example.edu/duration"],
+      }],
+      sections: [
+        {
+          key: "eligibility",
+          heading: "Eligibility",
+          paragraphs: ["Applicants need an undergraduate degree."],
+          bullets: [],
+          source_urls: [shared],
+        },
+        {
+          key: "curriculum",
+          heading: "Curriculum",
+          paragraphs: ["The programme covers management foundations."],
+          bullets: [],
+          source_urls: [shared],
+        },
+      ],
+      useful_links: [{
+        label: "Programme finder",
+        url: "https://example.edu/programmes",
+        kind: "official",
+      }],
+      prov: {
+        model: "gpt-5.6-terra",
+        prompt_version: "v2-enrichment-1",
+        generated_at: "2026-07-19",
+      },
+    };
+    const citedView: V2NodePageView = {
+      ...view,
+      node: {
+        ...view.node,
+        facts,
+        prov: { ...view.node.prov, source_urls: [shared] },
+      },
+    };
+
+    const { container } = render(
+      <V2BlogView
+        view={citedView}
+        parentRoutes={{ "degree:bca": citedView.routes[0] }}
+      />,
+    );
+
+    expect(screen.getByRole("heading", { name: "Eligibility" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "Sources" })).toBeVisible();
+    expect(container.querySelectorAll(`a[href="${shared}"]`)).toHaveLength(3);
+    expect(screen.getAllByRole("link", { name: shared })).toHaveLength(1);
   });
 });

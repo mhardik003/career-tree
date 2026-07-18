@@ -20,6 +20,29 @@ export interface V2Provenance {
   source_urls: string[];
 }
 
+export interface V2FactItem {
+  label: string;
+  value: string;
+  source_urls: string[];
+}
+
+export interface V2ArticleSection {
+  key: string;
+  heading: string;
+  paragraphs: string[];
+  bullets: string[];
+  source_urls: string[];
+}
+
+export interface V2NodeFacts {
+  schema_version: 1;
+  last_reviewed: string;
+  quick_facts: V2FactItem[];
+  sections: V2ArticleSection[];
+  useful_links: { label: string; url: string; kind: string }[];
+  prov: { model: string; prompt_version: string; generated_at: string };
+}
+
 export interface V2Node {
   id: string;
   type: V2NodeType;
@@ -29,7 +52,7 @@ export interface V2Node {
   description: string;
   is_terminal: boolean;
   needs_review: boolean;
-  facts?: Record<string, unknown>;
+  facts?: V2NodeFacts;
   prov: V2Provenance;
 }
 
