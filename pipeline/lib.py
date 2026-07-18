@@ -207,13 +207,15 @@ def today() -> str:
 # --- registry ---------------------------------------------------------------
 
 class Registry:
-    def __init__(self):
+    def __init__(self, nodes_file: str = NODES_FILE, edges_file: str = EDGES_FILE):
+        self.nodes_file = nodes_file
+        self.edges_file = edges_file
         self.nodes: Dict[str, Node] = {}
         self.edges: Dict[str, Edge] = {}
-        for rec in read_jsonl(NODES_FILE):
+        for rec in read_jsonl(self.nodes_file):
             n = Node(**rec)
             self.nodes[n.id] = n
-        for rec in read_jsonl(EDGES_FILE):
+        for rec in read_jsonl(self.edges_file):
             e = Edge(**rec)
             self.edges[e.id] = e
         self._alias_index: Dict[tuple, str] = {}
@@ -278,9 +280,9 @@ class Registry:
     def save(self):
         nodes = sorted(self.nodes.values(), key=lambda n: n.id)
         edges = sorted(self.edges.values(), key=lambda e: e.id)
-        atomic_write(NODES_FILE, "".join(
+        atomic_write(self.nodes_file, "".join(
             json.dumps(n.model_dump(exclude_none=True), ensure_ascii=False) + "\n" for n in nodes))
-        atomic_write(EDGES_FILE, "".join(
+        atomic_write(self.edges_file, "".join(
             json.dumps(e.model_dump(exclude_none=True), ensure_ascii=False) + "\n" for e in edges))
 
     def registry_block(self) -> str:
