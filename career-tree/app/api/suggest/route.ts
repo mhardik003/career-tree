@@ -2,8 +2,7 @@ import { NextResponse } from 'next/server';
 import { getSupabase } from '@/lib/supabase';
 import { checkRateLimit } from '@/lib/rateLimit';
 import { SuggestionSchema } from '@/lib/schemas';
-import { getNodeByKey } from '@/lib/treeUtils';
-import { slugify } from '@/lib/slugify';
+import { v2Graph } from '@/lib/v2/data';
 
 
 export async function POST(request: Request) {
@@ -39,19 +38,16 @@ export async function POST(request: Request) {
       }, { status: 400 });
     }
 
-    const cleanData = result.data; // Use the sanitized data
+    const cleanData = result.data;
 
-    const parent = getNodeByKey(cleanData.parentPath);
-    if (!parent) {
+    if (!v2Graph.getNodeById(cleanData.parentNodeId)) {
       return NextResponse.json(
-        { success: false, message: "Unknown parent path — this node doesn't exist in the tree." },
+        { success: false, message: "Unknown parent node — this node doesn't exist in the tree." },
         { status: 400 }
       );
     }
 
-    // Slug comparison, matching how URLs resolve: "AI ML" duplicates "AI | ML"
-    const titleSlug = slugify(cleanData.title);
-    if (parent.children.some((child) => slugify(child) === titleSlug)) {
+    if (v2Graph.hasChildTitle(cleanData.parentNodeId, cleanData.title)) {
       return NextResponse.json(
         { success: false, message: `"${cleanData.title}" already exists under this node.` },
         { status: 409 }
@@ -61,7 +57,7 @@ export async function POST(request: Request) {
     // Create entry in Supabase
     const supabase = getSupabase();
     const { error } = await supabase.from('suggestions').insert({
-      parent_path: cleanData.parentPath,
+      parent_node_id: cleanData.parentNodeId,
       suggested_name: cleanData.title,
       suggested_description: cleanData.description,
       status: 'pending_review'
