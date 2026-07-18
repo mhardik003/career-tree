@@ -12,6 +12,7 @@ import re
 import sys
 from collections import defaultdict
 
+from facts import allowed_section_keys
 from lib import (
     FRONTIER_FILE,
     PIPE_DIR,
@@ -55,6 +56,14 @@ def release_errors(
         if node.facts is None:
             errors.append(f"{node.id}: missing facts")
             continue
+        allowed = set(allowed_section_keys(node.type.value))
+        unsupported = sorted(
+            {section.key for section in node.facts.sections} - allowed
+        )
+        if unsupported:
+            errors.append(
+                f"{node.id}: unsupported section keys: {', '.join(unsupported)}"
+            )
         for fact in node.facts.quick_facts:
             if not fact.source_urls:
                 errors.append(f"{node.id}: quick fact missing sources")
