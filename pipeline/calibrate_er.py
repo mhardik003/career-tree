@@ -1,25 +1,29 @@
-"""Calibrate ER thresholds against the frozen labeled set (pipeline/eval/er_labels.json,
-655 pairs, dual-agent consensus, salvaged from v2 Stage 0).
+"""Calibrate the OpenAI embedding shortlist against all 655 frozen ER labels.
 
-For every labeled pair we compute the resolver's deterministic signals (normalized
-exact match, embedding cosine) and report, per candidate threshold pair:
-  - auto-merge precision  (of pairs >= AUTO_LINK, how many are truly same_role)
-  - judge-band load       (share of pairs falling into the judge band)
-  - mint miss rate        (truly same_role pairs that fall below the judge band —
-                           duplicates the ladder would silently re-mint)
-Embeddings use title + context tail (the labels predate definitions).
-
-Run:  python pipeline/calibrate_er.py
+Cosine similarity is retrieval-only: it decides which candidates reach the OpenAI
+judge and never auto-merges a node.
 """
+import argparse
 import json
 import os
+from pathlib import Path
+from typing import Iterable
 
-from lib import normalize_title, embed_texts, cosine, PIPE_DIR
+from lib import (
+    EMBED_DIMENSIONS,
+    EMBED_MODEL,
+    EMBED_NORMALIZER,
+    PIPE_DIR,
+    PROVIDER,
+    atomic_write,
+    cosine,
+    embed_texts,
+    normalize_title,
+)
 
 LABELS_FILE = os.path.join(PIPE_DIR, "eval", "er_labels.json")
-
-AUTO_CANDIDATES = [0.90, 0.92, 0.93, 0.94, 0.95]
-BAND_CANDIDATES = [0.75, 0.78, 0.80, 0.82]
+REPORT_FILE = os.path.join(PIPE_DIR, "eval", "er_openai_report.json")
+BAND_CANDIDATES = [0.0, 0.25, 0.50, 0.60, 0.65, 0.70, 0.75, 0.78, 0.80, 0.82, 0.85, 0.88, 0.90]
 
 
 def pair_text(title: str, context: str) -> str:
@@ -27,58 +31,100 @@ def pair_text(title: str, context: str) -> str:
     return f"{title} — context: {tail}"
 
 
-def main():
-    data = json.load(open(LABELS_FILE))
-    pairs = [p for p in data["labels"] if p["label"] in ("same_role", "distinct")]
-    print(f"{len(pairs)} usable labeled pairs "
-          f"({sum(p['label'] == 'same_role' for p in pairs)} same_role)")
+def recommended_judge_band(
+    similarities: Iterable[tuple[float, str, bool]],
+    candidates: Iterable[float],
+) -> float:
+    non_exact_duplicates = [
+        score
+        for score, label, exact in similarities
+        if label == "same_role" and not exact
+    ]
+    safe = [
+        threshold
+        for threshold in candidates
+        if not any(score < threshold for score in non_exact_duplicates)
+    ]
+    if not safe:
+        raise ValueError("every tested threshold misses at least one duplicate")
+    return max(safe)
 
-    texts, seen = [], {}
-    for p in pairs:
+
+def build_report(
+    similarities: list[tuple[float, str, bool]],
+    labeled_pairs: int,
+    candidates: Iterable[float] = BAND_CANDIDATES,
+) -> dict:
+    band = recommended_judge_band(similarities, candidates)
+    missed = sum(
+        label == "same_role" and not exact and score < band
+        for score, label, exact in similarities
+    )
+    return {
+        "provider": PROVIDER,
+        "embedding_model": EMBED_MODEL,
+        "dimensions": EMBED_DIMENSIONS,
+        "normalizer": EMBED_NORMALIZER,
+        "labeled_pairs": labeled_pairs,
+        "recommended_judge_band": band,
+        "missed_duplicates": missed,
+    }
+
+
+def write_report(report: dict, path: str | Path = REPORT_FILE) -> None:
+    atomic_write(
+        str(path),
+        json.dumps(report, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
+    )
+
+
+def similarity_rows(labels: list[dict]) -> list[tuple[float, str, bool]]:
+    texts: list[str] = []
+    seen: dict[str, int] = {}
+    for pair in labels:
         for side in ("a", "b"):
-            t = pair_text(p[side], p.get(f"{side}_context", ""))
-            if t not in seen:
-                seen[t] = len(texts)
-                texts.append(t)
+            text = pair_text(pair[side], pair.get(f"{side}_context", ""))
+            if text not in seen:
+                seen[text] = len(texts)
+                texts.append(text)
+
     print(f"embedding {len(texts)} unique texts ...")
-    vecs = embed_texts(texts)
+    vectors = embed_texts(texts)
+    rows: list[tuple[float, str, bool]] = []
+    for pair in labels:
+        a_text = pair_text(pair["a"], pair.get("a_context", ""))
+        b_text = pair_text(pair["b"], pair.get("b_context", ""))
+        exact = normalize_title(pair["a"]) == normalize_title(pair["b"])
+        rows.append(
+            (
+                cosine(vectors[seen[a_text]], vectors[seen[b_text]]),
+                pair["label"],
+                exact,
+            )
+        )
+    return rows
 
-    exact_hits = same_exact = 0
-    sims = []
-    for p in pairs:
-        a = pair_text(p["a"], p.get("a_context", ""))
-        b = pair_text(p["b"], p.get("b_context", ""))
-        exact = normalize_title(p["a"]) == normalize_title(p["b"])
-        if exact:
-            exact_hits += 1
-            same_exact += p["label"] == "same_role"
-        sims.append((cosine(vecs[seen[a]], vecs[seen[b]]), p["label"], exact))
 
-    print(f"\nGate 1 (normalized exact): fires on {exact_hits} pairs, "
-          f"{same_exact} correctly same_role, {exact_hits - same_exact} WRONG merges")
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--write", action="store_true")
+    args = parser.parse_args(argv)
 
-    rest = [(s, lbl) for s, lbl, exact in sims if not exact]
-    print(f"\n{len(rest)} pairs reach the embedding gate. threshold sweep:")
-    print(f"{'auto':>5} {'band':>5} | {'auto-merge P':>12} {'auto hits':>9} | "
-          f"{'judge load':>10} | {'missed dupes':>12}")
-    for auto in AUTO_CANDIDATES:
-        for band in BAND_CANDIDATES:
-            auto_pairs = [(s, l) for s, l in rest if s >= auto]
-            judge_pairs = [(s, l) for s, l in rest if band <= s < auto]
-            below = [(s, l) for s, l in rest if s < band]
-            tp = sum(l == "same_role" for _, l in auto_pairs)
-            prec = tp / len(auto_pairs) if auto_pairs else 1.0
-            missed = sum(l == "same_role" for _, l in below)
-            print(f"{auto:>5} {band:>5} | {prec:>12.3f} {len(auto_pairs):>9} | "
-                  f"{len(judge_pairs):>10} | {missed:>12}")
+    with open(LABELS_FILE, encoding="utf-8") as labels_file:
+        labels = json.load(labels_file)["labels"]
+    print(
+        f"{len(labels)} usable labeled pairs "
+        f"({sum(pair['label'] == 'same_role' for pair in labels)} same_role)"
+    )
 
-    same_sims = sorted(s for s, l in rest if l == "same_role")
-    dist_sims = sorted(s for s, l in rest if l == "distinct")
-    if same_sims and dist_sims:
-        med = lambda xs: xs[len(xs) // 2]
-        print(f"\nsame_role cosine: min {same_sims[0]:.3f} med {med(same_sims):.3f}; "
-              f"distinct cosine: med {med(dist_sims):.3f} max {dist_sims[-1]:.3f}")
+    similarities = similarity_rows(labels)
+    report = build_report(similarities, len(labels))
+    print(json.dumps(report, indent=2, sort_keys=True))
+    if args.write:
+        write_report(report)
+        print(f"wrote {REPORT_FILE}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

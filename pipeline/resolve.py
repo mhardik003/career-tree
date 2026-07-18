@@ -4,7 +4,7 @@ committed RUBRIC.md decision table embedded in the judge prompt.
 
 Bands — CALIBRATED 2026-07-04 against pipeline/eval/er_labels.json (655 pairs):
   exact normalized match  -> link, no LLM      (65/65 correct on the labeled set)
-  cosine >= JUDGE_BAND    -> flash judge       (NO auto-link band: even at cosine
+  cosine >= JUDGE_BAND    -> OpenAI judge      (NO auto-link band: even at cosine
                              0.95 auto-merge precision is only 0.70 — distinct
                              qualifier siblings reach 0.993. Judge everything.)
   < JUDGE_BAND (0.80)     -> mint              (no true duplicate scored < 0.881)
@@ -13,6 +13,7 @@ merge is not).
 """
 import os
 import re
+import json
 from typing import List, Optional, Tuple
 
 from pydantic import BaseModel, Field, field_validator
@@ -21,8 +22,19 @@ from lib import (Registry, Node, NodeType, Provenance, is_bare_generic,
                  looks_aggregate, mint_id, embed_texts, cosine,
                  call_json, append_jsonl, today, ER_LEDGER_FILE, PIPE_DIR)
 
-JUDGE_BAND = 0.80
-JUDGE_MODEL = "gemini-2.5-flash"
+ER_REPORT_FILE = os.path.join(PIPE_DIR, "eval", "er_openai_report.json")
+
+
+def load_judge_band(path: str = ER_REPORT_FILE) -> float:
+    if not os.path.exists(path):
+        return 0.80
+    with open(path, encoding="utf-8") as report_file:
+        report = json.load(report_file)
+    return float(report["recommended_judge_band"])
+
+
+JUDGE_BAND = load_judge_band()
+JUDGE_MODEL = "gpt-5.6-luna"
 
 _RUBRIC_TABLE: Optional[str] = None
 
@@ -30,7 +42,8 @@ def rubric_table() -> str:
     """The decision table from RUBRIC.md, embedded verbatim in judge prompts."""
     global _RUBRIC_TABLE
     if _RUBRIC_TABLE is None:
-        text = open(os.path.join(PIPE_DIR, "RUBRIC.md")).read()
+        with open(os.path.join(PIPE_DIR, "RUBRIC.md"), encoding="utf-8") as rubric_file:
+            text = rubric_file.read()
         m = re.search(r"## Decision table.*?(?=## )", text, re.S)
         _RUBRIC_TABLE = m.group(0) if m else text
     return _RUBRIC_TABLE
@@ -42,8 +55,7 @@ class JudgeVerdict(BaseModel):
     rule: int = Field(description="rubric row number applied (1-12)")
     rationale: str = Field(description="one short sentence")
 
-    # Gemini doesn't reliably honor string maxLength in response schemas — truncate
-    # instead of failing validation (a 210-char rationale must not kill the run).
+    # Keep ledger rationales compact even if a provider returns excessive detail.
     @field_validator("rationale")
     @classmethod
     def _trim(cls, v: str) -> str:
@@ -61,15 +73,17 @@ def _er_text(node_type: NodeType, title: str, definition: str) -> str:
 
 
 class Resolver:
-    def __init__(self, reg: Registry):
+    def __init__(self, reg: Registry, embedder=embed_texts, judge_call=call_json):
         self.reg = reg
+        self.embedder = embedder
+        self.judge_call = judge_call
         self._reg_vecs: dict[str, List[float]] = {}
         self._refresh_embeddings()
 
     def _refresh_embeddings(self):
         nodes = list(self.reg.nodes.values())
         texts = [_er_text(n.type, n.title, n.description) for n in nodes]
-        vecs = embed_texts(texts)
+        vecs = self.embedder(texts)
         self._reg_vecs = {n.id: v for n, v in zip(nodes, vecs)}
 
     def _neighbors(self, node_type: NodeType, vec: List[float], k: int = 5) -> List[Tuple[str, float]]:
@@ -107,22 +121,25 @@ class Resolver:
         # Gate 2: embedding shortlist -> judge. Calibration showed cosine alone can
         # NEVER auto-merge here (distinct qualifier siblings reach 0.993), so every
         # shortlisted pair goes to the rubric judge.
-        vec = embed_texts([_er_text(node_type, title, definition)])[0]
+        vec = self.embedder([_er_text(node_type, title, definition)])[0]
         neighbors = self._neighbors(node_type, vec)
         if neighbors:
             top_id, top_sim = neighbors[0]
             if top_sim >= JUDGE_BAND:
+                candidates = neighbors[:3]
                 verdict = self._judge(node_type, title, definition, parent,
-                                      [nid for nid, _ in neighbors[:3]])
+                                      [nid for nid, _ in candidates])
                 if verdict.decision == "same_role" and verdict.matched_id in self.reg.nodes:
                     self.reg.add_alias(verdict.matched_id, title)
                     self._ledger("linked_judge", title, node_type, verdict.matched_id,
-                                 top_sim, f"rule {verdict.rule}: {verdict.rationale}")
+                                 top_sim, f"rule {verdict.rule}: {verdict.rationale}",
+                                 judge_model=JUDGE_MODEL, candidates=candidates)
                     return Resolution(action="linked", node_id=verdict.matched_id)
                 # distinct or unsure -> mint; unsure additionally flags review (under-merge default)
                 return self._mint(node_type, title, definition, model_for_mint, vec,
                                   needs_review=(verdict.decision == "unsure") or pipe_flag,
-                                  reason=f"judge {verdict.decision} (rule {verdict.rule})")
+                                  reason=f"judge {verdict.decision} (rule {verdict.rule})",
+                                  judge_model=JUDGE_MODEL, candidates=candidates)
 
         return self._mint(node_type, title, definition, model_for_mint, vec,
                           needs_review=pipe_flag, reason=f"no neighbor >= {JUDGE_BAND}")
@@ -149,23 +166,35 @@ EXISTING candidates:
 
 Answer with decision (same_role | distinct | unsure), matched_id (only if same_role),
 the rubric rule number you applied, and a one-sentence rationale."""
-        return call_json(JUDGE_MODEL, prompt, JudgeVerdict)
+        return self.judge_call(JUDGE_MODEL, prompt, JudgeVerdict)
 
     def _mint(self, node_type: NodeType, title: str, definition: str, model: str,
-              vec: List[float], needs_review: bool, reason: str) -> Resolution:
+              vec: List[float], needs_review: bool, reason: str,
+              judge_model: Optional[str] = None,
+              candidates: Optional[List[Tuple[str, float]]] = None) -> Resolution:
         nid = mint_id(node_type, title, self.reg.nodes.keys())
         node = Node(id=nid, type=node_type, title=title, description=definition,
                     needs_review=needs_review,
                     prov=Provenance(model=model, generated_at=today()))
         self.reg.add_node(node)
         self._reg_vecs[nid] = vec
-        self._ledger("minted", title, node_type, nid, None, reason)
+        self._ledger("minted", title, node_type, nid, None, reason,
+                     judge_model=judge_model, candidates=candidates)
         return Resolution(action="minted", node_id=nid, reason=reason)
 
     def _ledger(self, action: str, title: str, node_type: NodeType,
-                node_id: Optional[str], score: Optional[float], reason: str):
-        append_jsonl(ER_LEDGER_FILE, {
+                node_id: Optional[str], score: Optional[float], reason: str,
+                judge_model: Optional[str] = None,
+                candidates: Optional[List[Tuple[str, float]]] = None):
+        row = {
             "date": today(), "action": action, "title": title,
             "type": node_type.value, "node_id": node_id,
             "score": round(score, 4) if score is not None else None, "reason": reason,
-        })
+        }
+        if judge_model is not None:
+            row["judge_model"] = judge_model
+            row["candidates"] = [
+                {"id": candidate_id, "score": round(candidate_score, 4)}
+                for candidate_id, candidate_score in (candidates or [])
+            ]
+        append_jsonl(ER_LEDGER_FILE, row)

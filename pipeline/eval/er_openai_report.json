@@ -1,0 +1,9 @@
+{
+  "dimensions": 1024,
+  "embedding_model": "text-embedding-3-large",
+  "labeled_pairs": 655,
+  "missed_duplicates": 0,
+  "normalizer": "er-v2",
+  "provider": "openai",
+  "recommended_judge_band": 0.6
+}
