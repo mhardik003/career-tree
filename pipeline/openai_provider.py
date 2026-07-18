@@ -5,7 +5,7 @@ from collections.abc import Callable
 from typing import TypeVar
 
 from openai import OpenAI
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -32,11 +32,13 @@ class OpenAIProvider:
         retries: int = 5,
     ) -> tuple[T, int]:
         last_error: Exception | None = None
+        current_prompt = prompt
+        validation_failures = 0
         for attempt in range(retries):
             try:
                 response = self.client.responses.parse(
                     model=model,
-                    input=[{"role": "user", "content": prompt}],
+                    input=[{"role": "user", "content": current_prompt}],
                     text_format=schema,
                     tools=[{"type": "web_search"}] if web_search else [],
                 )
@@ -47,6 +49,16 @@ class OpenAIProvider:
                 )
             except Exception as exc:  # noqa: BLE001 - normalize provider failures
                 last_error = exc
+                if isinstance(exc, (ValidationError, ValueError)):
+                    validation_failures += 1
+                    if validation_failures >= 2:
+                        break
+                    current_prompt = (
+                        f"{prompt}\n\nYour previous structured output failed validation. "
+                        "Return a corrected result matching the schema exactly.\n"
+                        f"Validation feedback:\n{exc}"
+                    )
+                    continue
                 if attempt + 1 < retries:
                     self.sleeper((2**attempt) + random.random())
         raise ProviderCallError(
@@ -58,11 +70,22 @@ class OpenAIProvider:
         model: str,
         texts: list[str],
         dimensions: int,
+        retries: int = 5,
     ) -> list[list[float]]:
-        response = self.client.embeddings.create(
-            model=model,
-            input=texts,
-            dimensions=dimensions,
-            encoding_format="float",
+        last_error: Exception | None = None
+        for attempt in range(retries):
+            try:
+                response = self.client.embeddings.create(
+                    model=model,
+                    input=texts,
+                    dimensions=dimensions,
+                    encoding_format="float",
+                )
+                return [list(item.embedding) for item in response.data]
+            except Exception as exc:  # noqa: BLE001 - normalize provider failures
+                last_error = exc
+                if attempt + 1 < retries:
+                    self.sleeper((2**attempt) + random.random())
+        raise ProviderCallError(
+            f"OpenAI embeddings failed after {retries} attempts: {last_error}"
         )
-        return [list(item.embedding) for item in response.data]
