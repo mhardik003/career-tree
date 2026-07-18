@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
+import CareerDirectory from "@/components/v2/CareerDirectory";
 import { v2Graph } from "@/lib/v2/data";
-import V2Directory from "./V2Directory";
 
 export const metadata: Metadata = {
   title: "Career Graph V2 Preview — Career Tree",
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function V2DirectoryPage() {
-  return <V2Directory nodes={v2Graph.directoryNodes()} />;
+  return <CareerDirectory nodes={v2Graph.directoryNodes()} />;
 }

@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-import V2Directory from "../V2Directory";
+import CareerDirectory from "../CareerDirectory";
 
 const nodes = [
   {
@@ -25,33 +25,26 @@ const nodes = [
   },
 ];
 
-describe("V2Directory", () => {
+describe("CareerDirectory", () => {
   it("filters by alias and shows an empty state", () => {
-    render(<V2Directory nodes={nodes} />);
-    expect(
-      screen.getByRole("searchbox", { name: "Search canonical career nodes" }),
-    ).toBeInTheDocument();
-    fireEvent.change(screen.getByRole("searchbox"), {
-      target: { value: "computer applications" },
+    render(<CareerDirectory nodes={nodes} />);
+    const search = screen.getByRole("searchbox", {
+      name: "Search canonical career nodes",
     });
+    expect(search).toHaveAttribute("id", "career-search");
+    fireEvent.change(search, { target: { value: "computer applications" } });
     expect(screen.getByRole("link", { name: /BCA/ })).toHaveAttribute(
       "href",
       "/careers/degree/bca",
     );
-    fireEvent.change(screen.getByRole("searchbox"), {
-      target: { value: "unmapped phrase" },
-    });
-    expect(
-      screen.getByText("No canonical nodes match this search."),
-    ).toBeInTheDocument();
+    fireEvent.change(search, { target: { value: "unmapped phrase" } });
+    expect(screen.getByText("No canonical nodes match this search.")).toBeVisible();
   });
 
   it("filters by node type", () => {
-    render(<V2Directory nodes={nodes} />);
+    render(<CareerDirectory nodes={nodes} />);
     fireEvent.click(screen.getByRole("button", { name: "Job Role" }));
-    expect(
-      screen.getByRole("link", { name: /Product Manager/ }),
-    ).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /Product Manager/ })).toBeVisible();
     expect(screen.queryByRole("link", { name: /BCA/ })).not.toBeInTheDocument();
   });
 });
