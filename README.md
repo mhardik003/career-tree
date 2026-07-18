@@ -77,24 +77,21 @@ SUPABASE_SERVICE_ROLE_KEY=<secret key — server-side only>
 and run `career-tree/supabase/schema.sql` once in the Supabase SQL editor to create
 the `suggestions` and `edits` tables.
 
-### 3. (Optional) Add data from the Data Crawler
-If you want to expand the tree data yourself using AI (scripts live at the repo root):
+### Generate V2 career data
 
-1.  Create a `.env` file at the repo root and add your key:
-    ```env
-    GEMINI_API_KEY=your_actual_api_key_here
-    ```
-2.  Install Python requirements:
-    ```bash
-    pip install google-genai pydantic python-dotenv networkx pyvis
-    ```
-3.  Run the crawler:
-    ```bash
-    python generate_tree_gemini.py --node "<node path you want to expand>"
-    ```
-    *This reads and updates `career-tree/data/career_tree_data.json` in place (as does
-    `generate_metadata_gemini.py` for `metadata.json`) — the same files the app serves,
-    so just restart the dev server to see new data, then make a pull request.*
+Create a root `.env` containing `OPENAI_API_KEY`, then run:
+
+```bash
+python -m pip install -r pipeline/requirements.txt
+python pipeline/calibrate_er.py --write
+python pipeline/expand.py --max-depth 4
+python pipeline/enrich.py
+python pipeline/lint.py --release
+python pipeline/export_frontend.py
+```
+
+The JSONL registry under `pipeline/registry/` is canonical. Supabase stores only
+community submissions and review state.
 
 ---
 
@@ -137,6 +134,7 @@ We believe career data should be a public good, not a trade secret.
 
 ## 📝 Update Log
 
+*   **2026-07-19** — Began the production V2 cutover by defining a reproducible OpenAI pipeline runtime and separating transient generation ledgers from the canonical JSONL registry.
 *   **2026-07-17** — Added a read-only v2 frontend preview under `/v2`: a deterministic validated snapshot exported from the canonical JSONL registry, searchable node directory, separate stable canonical guide pages and contextual hierarchy explorer pages, a five-card circular parent carousel that preserves incoming route context, and bounded cycle-safe complete routes. V1 routes, data, sitemap, and Supabase workflows remain unchanged; v2 stays noindexed while the registry is dummy data.
 *   **2026-07-10** — Custom domain: `BASE_URL` (`career-tree/lib/site.ts`) now points at **https://careerstree.in** (bought via GoDaddy — SEO.md item 6); canonicals, sitemap, robots, JSON-LD, and OG image URLs all derive from it, so nothing else changed. Deploy only after the domain shows "Valid Configuration" on Vercel; DNS/Vercel/Search Console steps are tracked in SEO.md.
 *   **2026-07-04** — v2 pivot: the migration-based registry build is replaced by **from-scratch generation** (`pipeline/`). Seeded registry (20 hand seeds + the 103-exam curated table) + BFS expansion over *nodes, never paths*, with the whole registry riding along in every `gemini-2.5-pro` prompt so successors link to existing IDs instead of re-minting them; every genuinely new title passes entity resolution (normalized-exact gate → embedding shortlist → rubric-driven `flash` judge → mint) with a reversible decision ledger, plus structural lint (acyclicity, exam-gate edge grammar, slug collisions) and a prompt-hash call cache that makes reruns free. The frozen 655-pair ER evaluation set (now `pipeline/eval/er_labels.json`) calibrated the thresholds, with a decisive finding: **cosine similarity can never auto-merge in this domain** — distinct qualifier siblings reach 0.993 cosine and auto-merge precision is only 0.70 even at a 0.95 threshold, so every shortlisted pair goes to the judge (the exact-match gate scored 65/65; no true duplicate fell below 0.88). Migration-era scripts are removed; `RUBRIC.md` and the exam table moved into `pipeline/`. Smoke test: Class 10 + two science streams expanded with zero duplicate mints and correctly typed exam-gate edges (JEE Main, NATA, UCEED, NDA under PCM).

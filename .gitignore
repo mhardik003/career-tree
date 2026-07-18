@@ -25,6 +25,9 @@ edit_results.json
 # --- v2 pipeline transient caches ---
 pipeline/ledger/call_cache.jsonl
 pipeline/ledger/embeddings.jsonl
+pipeline/ledger/enrichment_failures.jsonl
+pipeline/ledger/source_audit.json
+pipeline/ledger/usage.jsonl
 pipeline/__pycache__/
 
 # --- Local visual brainstorming artifacts ---
