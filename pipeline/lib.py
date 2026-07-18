@@ -16,6 +16,7 @@ from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
 from cache_keys import call_cache_key, embedding_cache_key
+from facts import NodeFacts
 from openai_provider import OpenAIProvider
 
 PIPE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -77,7 +78,7 @@ class Node(BaseModel):
     description: str = ""
     is_terminal: bool = False
     needs_review: bool = False
-    facts: Optional[dict] = None           # NodeFacts, filled in Stage 2
+    facts: Optional[NodeFacts] = None      # source-backed Stage 2 enrichment
     prov: Provenance
 
 
