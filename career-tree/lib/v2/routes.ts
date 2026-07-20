@@ -1,7 +1,10 @@
 import { V2Graph } from "./graph-core";
 import type {
+  V2ChildView,
   V2Edge,
+  V2Node,
   V2NodePageView,
+  V2NodeSummary,
   V2ParentView,
   V2Route,
 } from "./types";
@@ -10,6 +13,23 @@ import { exploreHref } from "./urls";
 const EDGE_ORDER = { progression: 0, exam_gate: 1, lateral: 2 } as const;
 const DEFAULT_LIMITS = { maxRoutes: 10, maxDepth: 20, maxStates: 10_000 };
 const ROUTE_CACHE = new WeakMap<V2Graph, Map<string, V2Route[]>>();
+// Parent/child views are pure functions of (graph, nodeId). Caching them keeps
+// one shared reference per node, so React Flight serializes each list once
+// even when many page views embed it.
+const PARENT_CACHE = new WeakMap<V2Graph, Map<string, V2ParentView[]>>();
+const CHILD_CACHE = new WeakMap<V2Graph, Map<string, V2ChildView[]>>();
+
+function graphCache<T>(
+  store: WeakMap<V2Graph, Map<string, T>>,
+  graph: V2Graph,
+): Map<string, T> {
+  let cache = store.get(graph);
+  if (!cache) {
+    cache = new Map();
+    store.set(graph, cache);
+  }
+  return cache;
+}
 
 type RouteState = { nodeIds: string[]; edges: V2Edge[] };
 
@@ -76,6 +96,25 @@ class MinHeap<T> {
     this.items[index] = last;
     return root;
   }
+}
+
+// Memoized per node so repeated views share one reference and React Flight
+// serializes each summary once instead of per view.
+const SUMMARY_CACHE = new WeakMap<V2Node, V2NodeSummary>();
+
+function toSummary(node: V2Node): V2NodeSummary {
+  const cached = SUMMARY_CACHE.get(node);
+  if (cached) return cached;
+  const summary: V2NodeSummary = {
+    id: node.id,
+    type: node.type,
+    title: node.title,
+    slug: node.slug,
+    description: node.description,
+    is_terminal: node.is_terminal,
+  };
+  SUMMARY_CACHE.set(node, summary);
+  return summary;
 }
 
 function compareOptionalRoutes(a?: V2Route, b?: V2Route): number {
@@ -191,34 +230,37 @@ export function rankParents(
   nodeId: string,
   requestedParentId?: string,
 ): { parents: V2ParentView[]; selectedId: string | null } {
-  const ranked = graph
-    .incoming(nodeId)
-    .map((edge) => ({
-      edge,
-      node: graph.getNode(edge.from_id)!,
-      bestRootRoute: searchRoutes(graph, edge.from_id, 1)[0],
-    }))
-    .sort(
-      (a, b) =>
-        Number(b.edge.is_common_route) - Number(a.edge.is_common_route) ||
-        EDGE_ORDER[a.edge.edge_type] - EDGE_ORDER[b.edge.edge_type] ||
-        compareOptionalRoutes(a.bestRootRoute, b.bestRootRoute) ||
-        a.node.title.localeCompare(b.node.title) ||
-        a.node.id.localeCompare(b.node.id),
-    );
-  const selectedId = ranked.some(
+  const cache = graphCache(PARENT_CACHE, graph);
+  let parents = cache.get(nodeId);
+  if (!parents) {
+    parents = graph
+      .incoming(nodeId)
+      .map((edge) => ({
+        edge,
+        node: graph.getNode(edge.from_id)!,
+        bestRootRoute: searchRoutes(graph, edge.from_id, 1)[0],
+      }))
+      .sort(
+        (a, b) =>
+          Number(b.edge.is_common_route) - Number(a.edge.is_common_route) ||
+          EDGE_ORDER[a.edge.edge_type] - EDGE_ORDER[b.edge.edge_type] ||
+          compareOptionalRoutes(a.bestRootRoute, b.bestRootRoute) ||
+          a.node.title.localeCompare(b.node.title) ||
+          a.node.id.localeCompare(b.node.id),
+      )
+      .map(({ edge, node }) => ({
+        node: toSummary(node),
+        edge,
+        contextHref: exploreHref(nodeId, node.id),
+      }));
+    cache.set(nodeId, parents);
+  }
+  const selectedId = parents.some(
     (item) => item.node.id === requestedParentId,
   )
     ? requestedParentId!
-    : (ranked[0]?.node.id ?? null);
-  return {
-    selectedId,
-    parents: ranked.map(({ edge, node }) => ({
-      node,
-      edge,
-      contextHref: exploreHref(nodeId, node.id),
-    })),
-  };
+    : (parents[0]?.node.id ?? null);
+  return { selectedId, parents };
 }
 
 export function buildNodePageView(
@@ -238,6 +280,23 @@ export function buildNodePageView(
   const selectedIndex = active?.nodeIds.lastIndexOf(selectedId ?? "") ?? -1;
   const selectedParentFrom =
     selectedIndex > 0 ? active.nodeIds[selectedIndex - 1] : undefined;
+  const childCache = graphCache(CHILD_CACHE, graph);
+  let children = childCache.get(nodeId);
+  if (!children) {
+    children = graph
+      .outgoing(nodeId)
+      .map((edge) => ({
+        edge,
+        node: toSummary(graph.getNode(edge.to_id)!),
+        href: exploreHref(edge.to_id, nodeId),
+      }))
+      .sort(
+        (a, b) =>
+          a.node.title.localeCompare(b.node.title) ||
+          a.node.id.localeCompare(b.node.id),
+      );
+    childCache.set(nodeId, children);
+  }
   return {
     node,
     parents,
@@ -246,17 +305,6 @@ export function buildNodePageView(
     backHref: selectedId
       ? exploreHref(selectedId, selectedParentFrom)
       : "/",
-    children: graph
-      .outgoing(nodeId)
-      .map((edge) => ({
-        edge,
-        node: graph.getNode(edge.to_id)!,
-        href: exploreHref(edge.to_id, nodeId),
-      }))
-      .sort(
-        (a, b) =>
-          a.node.title.localeCompare(b.node.title) ||
-          a.node.id.localeCompare(b.node.id),
-      ),
+    children,
   };
 }

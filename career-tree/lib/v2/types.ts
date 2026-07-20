@@ -94,14 +94,27 @@ export interface V2Route {
   lateralEdges: number;
 }
 
+/**
+ * Slim node payload for non-focused nodes (parents/children) crossing the
+ * server->client boundary. Never carries `facts`.
+ */
+export interface V2NodeSummary {
+  id: string;
+  type: V2NodeType;
+  title: string;
+  slug: string;
+  description: string;
+  is_terminal: boolean;
+}
+
 export interface V2ParentView {
-  node: V2Node;
+  node: V2NodeSummary;
   edge: V2Edge;
   contextHref: string;
 }
 
 export interface V2ChildView {
-  node: V2Node;
+  node: V2NodeSummary;
   edge: V2Edge;
   href: string;
 }
