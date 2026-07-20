@@ -1,46 +1,45 @@
-import { render, screen } from "@testing-library/react";
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { fireEvent, render, screen } from "@testing-library/react";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import GuideBackLink from "../GuideBackLink";
 
-const { getSearchParam } = vi.hoisted(() => ({
-  getSearchParam: vi.fn(),
+const { back, push } = vi.hoisted(() => ({
+  back: vi.fn(),
+  push: vi.fn(),
 }));
 
 vi.mock("next/navigation", () => ({
-  useSearchParams: () => ({ get: getSearchParam }),
+  useRouter: () => ({ back, push }),
 }));
 
 describe("GuideBackLink", () => {
-  beforeEach(() => getSearchParam.mockReset());
-
-  it("returns to the same explorer parent context", () => {
-    getSearchParam.mockReturnValue("degree:bca");
-    render(
-      <GuideBackLink
-        nodeId="degree:mba"
-        validParentIds={["degree:bca", "degree:b-tech"]}
-      />,
-    );
-
-    expect(
-      screen.getByRole("link", { name: "Back to career tree" }),
-    ).toHaveAttribute(
-      "href",
-      "/explore/degree/mba?from=degree%3Abca",
-    );
+  beforeEach(() => {
+    back.mockReset();
+    push.mockReset();
   });
 
-  it.each([null, "degree:unrelated"])(
-    "falls back to the node explorer for context %s",
-    (from) => {
-      getSearchParam.mockReturnValue(from);
-      render(
-        <GuideBackLink nodeId="degree:mba" validParentIds={["degree:bca"]} />,
-      );
+  afterEach(() => vi.restoreAllMocks());
 
-      expect(
-        screen.getByRole("link", { name: "Back to career tree" }),
-      ).toHaveAttribute("href", "/explore/degree/mba");
-    },
-  );
+  it("returns to the previous browser-history entry", () => {
+    vi.spyOn(window.history, "length", "get").mockReturnValue(2);
+    render(<GuideBackLink nodeId="degree:mba" />);
+
+    fireEvent.click(
+      screen.getByRole("button", { name: "Back to previous page" }),
+    );
+
+    expect(back).toHaveBeenCalledOnce();
+    expect(push).not.toHaveBeenCalled();
+  });
+
+  it("opens the node explorer when there is no previous history entry", () => {
+    vi.spyOn(window.history, "length", "get").mockReturnValue(1);
+    render(<GuideBackLink nodeId="degree:mba" />);
+
+    fireEvent.click(
+      screen.getByRole("button", { name: "Back to previous page" }),
+    );
+
+    expect(push).toHaveBeenCalledWith("/explore/degree/mba");
+    expect(back).not.toHaveBeenCalled();
+  });
 });

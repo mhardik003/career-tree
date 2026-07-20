@@ -10,6 +10,7 @@ import type {
 import V2BlogView from "../V2BlogView";
 
 vi.mock("next/navigation", () => ({
+  useRouter: () => ({ back: vi.fn(), push: vi.fn() }),
   useSearchParams: () => ({ get: () => null }),
 }));
 
@@ -91,6 +92,9 @@ describe("V2BlogView", () => {
         parentRoutes={{ "degree:bca": view.routes[0] }}
       />,
     );
+    expect(
+      screen.getByRole("button", { name: "Back to previous page" }),
+    ).toBeVisible();
     expect(
       screen.getByRole("heading", { level: 1, name: view.node.title }),
     ).toBeInTheDocument();
