@@ -86,9 +86,21 @@ export interface V2DirectoryNode {
   outgoingCount: number;
 }
 
+/**
+ * Slim edge payload for client-bound views and routes. Never carries `prov`
+ * or `facts` — no client component renders them.
+ */
+export interface V2EdgeSummary {
+  id: string;
+  from_id: string;
+  to_id: string;
+  edge_type: V2EdgeType;
+  is_common_route: boolean;
+}
+
 export interface V2Route {
   nodeIds: string[];
-  edges: V2Edge[];
+  edges: V2EdgeSummary[];
   titles: string[];
   nicheEdges: number;
   lateralEdges: number;
@@ -96,26 +108,25 @@ export interface V2Route {
 
 /**
  * Slim node payload for non-focused nodes (parents/children) crossing the
- * server->client boundary. Never carries `facts`.
+ * server->client boundary. Never carries `facts`. Add a field ONLY if a
+ * client component provably renders it.
  */
 export interface V2NodeSummary {
   id: string;
   type: V2NodeType;
   title: string;
   slug: string;
-  description: string;
-  is_terminal: boolean;
 }
 
 export interface V2ParentView {
   node: V2NodeSummary;
-  edge: V2Edge;
+  edge: V2EdgeSummary;
   contextHref: string;
 }
 
 export interface V2ChildView {
   node: V2NodeSummary;
-  edge: V2Edge;
+  edge: V2EdgeSummary;
   href: string;
 }
 
@@ -125,5 +136,16 @@ export interface V2NodePageView {
   selectedParentId: string | null;
   children: V2ChildView[];
   routes: V2Route[];
+  backHref: string;
+}
+
+/**
+ * The only fields of a node page view that vary with the selected parent.
+ * Shipped per parent instead of a full `V2NodePageView`; the client overlays
+ * one of these on the canonical view.
+ */
+export interface V2ParentContext {
+  routes: V2Route[];
+  selectedParentId: string;
   backHref: string;
 }

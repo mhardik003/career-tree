@@ -2,6 +2,7 @@ import { V2Graph } from "./graph-core";
 import type {
   V2ChildView,
   V2Edge,
+  V2EdgeSummary,
   V2Node,
   V2NodePageView,
   V2NodeSummary,
@@ -33,7 +34,12 @@ function graphCache<T>(
 
 type RouteState = { nodeIds: string[]; edges: V2Edge[] };
 
-function routeScore(state: RouteState): [number, number, number, string] {
+type ScoredPath = {
+  nodeIds: string[];
+  edges: Pick<V2Edge, "edge_type" | "is_common_route">[];
+};
+
+function routeScore(state: ScoredPath): [number, number, number, string] {
   return [
     state.edges.filter((edge) => !edge.is_common_route).length,
     state.edges.filter((edge) => edge.edge_type === "lateral").length,
@@ -101,6 +107,23 @@ class MinHeap<T> {
 // Memoized per node so repeated views share one reference and React Flight
 // serializes each summary once instead of per view.
 const SUMMARY_CACHE = new WeakMap<V2Node, V2NodeSummary>();
+const EDGE_SUMMARY_CACHE = new WeakMap<V2Edge, V2EdgeSummary>();
+
+// Client-bound edges drop `prov`/`facts`; memoized per edge so every route
+// and view shares one reference per edge for React Flight dedupe.
+function toEdgeSummary(edge: V2Edge): V2EdgeSummary {
+  const cached = EDGE_SUMMARY_CACHE.get(edge);
+  if (cached) return cached;
+  const summary: V2EdgeSummary = {
+    id: edge.id,
+    from_id: edge.from_id,
+    to_id: edge.to_id,
+    edge_type: edge.edge_type,
+    is_common_route: edge.is_common_route,
+  };
+  EDGE_SUMMARY_CACHE.set(edge, summary);
+  return summary;
+}
 
 function toSummary(node: V2Node): V2NodeSummary {
   const cached = SUMMARY_CACHE.get(node);
@@ -110,8 +133,6 @@ function toSummary(node: V2Node): V2NodeSummary {
     type: node.type,
     title: node.title,
     slug: node.slug,
-    description: node.description,
-    is_terminal: node.is_terminal,
   };
   SUMMARY_CACHE.set(node, summary);
   return summary;
@@ -157,7 +178,7 @@ function searchRoutes(
     if (current === targetId) {
       results.push({
         nodeIds: state.nodeIds,
-        edges: state.edges,
+        edges: state.edges.map(toEdgeSummary),
         titles: state.nodeIds.map((id) => graph.getNode(id)?.title ?? id),
         nicheEdges: state.edges.filter((edge) => !edge.is_common_route).length,
         lateralEdges: state.edges.filter(
@@ -205,7 +226,7 @@ export function findCompleteRoutes(
   if (!parentRoute) return global;
   const combined: V2Route = {
     nodeIds: [...parentRoute.nodeIds, targetId],
-    edges: [...parentRoute.edges, edge],
+    edges: [...parentRoute.edges, toEdgeSummary(edge)],
     titles: [
       ...parentRoute.titles,
       graph.getNode(targetId)?.title ?? targetId,
@@ -250,7 +271,7 @@ export function rankParents(
       )
       .map(({ edge, node }) => ({
         node: toSummary(node),
-        edge,
+        edge: toEdgeSummary(edge),
         contextHref: exploreHref(nodeId, node.id),
       }));
     cache.set(nodeId, parents);
@@ -286,7 +307,7 @@ export function buildNodePageView(
     children = graph
       .outgoing(nodeId)
       .map((edge) => ({
-        edge,
+        edge: toEdgeSummary(edge),
         node: toSummary(graph.getNode(edge.to_id)!),
         href: exploreHref(edge.to_id, nodeId),
       }))

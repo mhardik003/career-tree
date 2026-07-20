@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { V2NodePageView } from "@/lib/v2/types";
+import type { V2NodePageView, V2ParentContext } from "@/lib/v2/types";
 import V2NodePageClient from "../V2NodePageClient";
 
 const navigation = vi.hoisted(() => ({ from: null as string | null }));
@@ -13,29 +13,39 @@ vi.mock("next/navigation", () => ({
 
 vi.mock("../V2FocusView", () => ({
   default: ({ view }: { view: V2NodePageView }) => (
-    <p>Selected: {view.selectedParentId ?? "none"}</p>
+    <p>
+      Selected: {view.selectedParentId ?? "none"} back: {view.backHref}
+    </p>
   ),
 }));
 
 const canonicalView = {
   selectedParentId: "degree:default",
-} as V2NodePageView;
-const bcaView = { selectedParentId: "degree:bca" } as V2NodePageView;
+  backHref: "/explore/degree/default",
+  routes: [],
+} as unknown as V2NodePageView;
+const bcaContext: V2ParentContext = {
+  routes: [],
+  selectedParentId: "degree:bca",
+  backHref: "/explore/degree/bca",
+};
 
 describe("V2NodePageClient", () => {
   beforeEach(() => {
     navigation.from = null;
   });
 
-  it("selects a precomputed valid parent context from the query string", () => {
+  it("overlays a precomputed valid parent context from the query string", () => {
     navigation.from = "degree:bca";
     render(
       <V2NodePageClient
         canonicalView={canonicalView}
-        parentViews={{ "degree:bca": bcaView }}
+        parentContexts={{ "degree:bca": bcaContext }}
       />,
     );
-    expect(screen.getByText("Selected: degree:bca")).toBeInTheDocument();
+    expect(
+      screen.getByText("Selected: degree:bca back: /explore/degree/bca"),
+    ).toBeInTheDocument();
   });
 
   it("falls back to the canonical context for an invalid parent", () => {
@@ -43,10 +53,12 @@ describe("V2NodePageClient", () => {
     render(
       <V2NodePageClient
         canonicalView={canonicalView}
-        parentViews={{ "degree:bca": bcaView }}
+        parentContexts={{ "degree:bca": bcaContext }}
       />,
     );
-    expect(screen.getByText("Selected: degree:default")).toBeInTheDocument();
+    expect(
+      screen.getByText("Selected: degree:default back: /explore/degree/default"),
+    ).toBeInTheDocument();
   });
 
   it.each(["__proto__", "constructor", "toString"])(
@@ -56,10 +68,14 @@ describe("V2NodePageClient", () => {
       render(
         <V2NodePageClient
           canonicalView={canonicalView}
-          parentViews={{ "degree:bca": bcaView }}
+          parentContexts={{ "degree:bca": bcaContext }}
         />,
       );
-      expect(screen.getByText("Selected: degree:default")).toBeInTheDocument();
+      expect(
+        screen.getByText(
+          "Selected: degree:default back: /explore/degree/default",
+        ),
+      ).toBeInTheDocument();
     },
   );
 });

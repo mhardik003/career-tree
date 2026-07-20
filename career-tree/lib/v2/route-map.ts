@@ -1,5 +1,5 @@
 import dagre from "dagre";
-import type { V2Edge, V2Route } from "./types";
+import type { V2Edge, V2EdgeSummary, V2Route } from "./types";
 import { exploreHref } from "./urls";
 
 export interface RouteMapNode {
@@ -42,7 +42,7 @@ interface AcceptedEdge {
   id: string;
   fromId: string;
   toId: string;
-  edge: V2Edge;
+  edge: V2EdgeSummary;
   isSelected: boolean;
 }
 
@@ -117,7 +117,7 @@ export function buildRouteMap(
 
   const titles = new Map<string, string>();
   const preferredParents = new Map<string, string>();
-  const preferredEdges = new Map<string, V2Edge>();
+  const preferredEdges = new Map<string, V2EdgeSummary>();
   const selectedNodes = new Set(routes[0].nodeIds);
   const selectedEdges = new Set(
     routes[0].nodeIds.slice(1).map((toId, index) =>
