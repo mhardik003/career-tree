@@ -27,7 +27,8 @@ the release procedure.
 
 ## Production surfaces
 
-- `/` — Class 10 entry action and searchable canonical directory.
+- `/` — Class 10 entry action and live community counters.
+- `/search` — searchable directory of every canonical node with type filters.
 - `/careers/<type>/<slug>` — indexable, source-backed canonical guides.
 - `/explore/<type>/<slug>?from=<stable-id>` — contextual, noindex exploration.
 - `/map` — one visual node per canonical ID and all registry relationships.

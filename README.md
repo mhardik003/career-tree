@@ -207,7 +207,8 @@ explorer pages are statically generated (`generateStaticParams` over all 677 nod
 
 | Route | What it is |
 | --- | --- |
-| `/` | Hero + live community counters (Supabase head-counts, ISR every 300 s, graceful 0 on error) + a searchable directory of all nodes with type filters. |
+| `/` | Hero + live community counters (Supabase head-counts, ISR every 300 s, graceful 0 on error). |
+| `/search` | Statically prerendered searchable directory of all nodes, with type filters and alias matching. |
 | `/careers/<type>/<slug>` | The canonical guide. Indexable, canonical URL, Article JSON-LD whose `citation` list unions every source in the node, per-node OG image at `/og/<type>/<slug>`. |
 | `/explore/<type>/<slug>?from=<id>` | The interactive explorer. Every parent variant is prebuilt server-side and the client swaps views by the `?from=` param — so context never breaks static generation. Explorers are `noindex,follow` with their canonical pointing at the guide, and are excluded from the sitemap. |
 | `/map` | Global React Flow map; dagre layout runs at build time; only visible elements render, so panning stays light. Clicking a node opens its guide. |
@@ -368,6 +369,7 @@ the destructive Supabase cutover, the moderation dry run — is in
 
 ## 📝 Update Log
 
+*   **2026-07-20** — The searchable canonical directory moved from the homepage to a dedicated, statically prerendered `/search` page (now in the sitemap); the hero's "Search for a career" button is a plain link there, and the scroll-to-search button component was removed.
 *   **2026-07-20** — README rewritten around the V2 architecture (this document), with `README_v2.md` added as the technical/release companion. Guide pages also regained their explorer context after a route-refactor regression, the guide back button now uses browser history, the unreachable-route test fixture was refreshed, and the lost `BUGS*.md` local-log ignore rule was restored.
 *   **2026-07-19** — V2 reached release completeness and replaced V1 in production: every one of the 677 nodes now has a source-cited guide; release lint enforces per-type fact sections; citation audits are restricted to public hosts; the homepage became V2 search + Class 10 exploration; guides moved to `/careers/…`, the explorer to `/explore/…`; the global map was rebuilt from stable IDs; sitemap/metadata published; the V1 routes and the `/v2` preview surface were removed. Suggestions and edits now use stable node IDs end-to-end, with a clean V2 Supabase schema and a destructive, transaction-guarded cutover migration.
 *   **2026-07-19** — The data pipeline moved to OpenAI: a cached structured-output provider (`gpt-5.6-terra` expansion and web-search enrichment, `gpt-5.6-luna` ER judge, `text-embedding-3-large` @ 1,024 dims), recalibrated entity-resolution band, expansion completed through depth four, bounded-parallel enrichment with a failure ledger, and hard release gates (`lint --release`, source audit, `export_frontend.py --check`).

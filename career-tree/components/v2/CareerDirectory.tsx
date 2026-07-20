@@ -31,14 +31,14 @@ export default function CareerDirectory({
   );
 
   return (
-    <section className="mt-24 border-t border-gray-100 pt-16" aria-labelledby="career-directory-title">
+    <section className="pt-4" aria-labelledby="career-directory-title">
       <header className="text-center">
         <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-gray-500">
           Canonical career graph
         </p>
-        <h2 id="career-directory-title" className="mt-3 text-4xl font-bold tracking-tight">
+        <h1 id="career-directory-title" className="mt-3 text-4xl font-bold tracking-tight">
           Find a stage, degree, exam or career
-        </h2>
+        </h1>
         <p className="mt-3 text-sm text-gray-500">
           {nodes.length} unique canonical nodes
         </p>

@@ -12,16 +12,6 @@ vi.mock("@/lib/supabase", () => ({
 vi.mock("@/lib/v2/data", () => ({
   v2Graph: {
     rootId: "school_stage:class-10",
-    directoryNodes: () => [{
-      id: "degree:bca",
-      type: "degree",
-      title: "BCA",
-      aliases: ["Bachelor of Computer Applications"],
-      description: "Computing degree",
-      href: "/careers/degree/bca",
-      incomingCount: 2,
-      outgoingCount: 4,
-    }],
   },
 }));
 
@@ -41,14 +31,12 @@ describe("production home page", () => {
     const primary = screen.getByRole("link", {
       name: /Start exploring from Class 10/i,
     });
-    const secondary = screen.getByRole("button", {
+    const secondary = screen.getByRole("link", {
       name: "Search for a career",
     });
     expect(primary).toHaveAttribute("href", "/explore/school_stage/class-10");
-    expect(secondary).toBeVisible();
-    expect(screen.getByRole("searchbox", {
-      name: "Search canonical career nodes",
-    })).toBeVisible();
+    expect(secondary).toHaveAttribute("href", "/search");
+    expect(screen.queryByRole("searchbox")).not.toBeInTheDocument();
     expect(
       primary.compareDocumentPosition(secondary) & Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy();

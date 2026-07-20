@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { ArrowRight, Database, GitFork, Globe, Users } from "lucide-react";
-import CareerDirectory from "@/components/v2/CareerDirectory";
-import SearchCareerButton from "@/components/v2/SearchCareerButton";
 import { getSupabase } from "@/lib/supabase";
 import { v2Graph } from "@/lib/v2/data";
 import { exploreHref } from "@/lib/v2/urls";
@@ -60,7 +58,12 @@ export default async function Home() {
               Start exploring from Class 10
               <ArrowRight aria-hidden="true" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
-            <SearchCareerButton />
+            <Link
+              href="/search"
+              className="rounded-lg border border-black bg-white px-6 py-3 font-mono text-sm transition hover:bg-neutral-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
+            >
+              Search for a career
+            </Link>
           </div>
           <div className="flex items-center gap-6 rounded-full border border-gray-200 bg-white/70 px-6 py-2 font-mono text-xs text-gray-500 backdrop-blur-sm">
             <span><strong className="text-black">{stats.suggestions}</strong> paths proposed</span>
@@ -71,8 +74,6 @@ export default async function Home() {
             Currently mapped for the Indian education system
           </p>
         </section>
-
-        <CareerDirectory nodes={v2Graph.directoryNodes()} />
 
         <section className="mt-24 grid gap-12 border-t border-gray-100 pt-16 md:grid-cols-3">
           <Value icon={<GitFork aria-hidden="true" />} title="Canonical pathways">
