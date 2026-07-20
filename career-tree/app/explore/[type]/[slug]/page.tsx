@@ -5,6 +5,7 @@ import V2FocusView from "@/components/v2/V2FocusView";
 import V2NodePageClient from "@/components/v2/V2NodePageClient";
 import { v2Graph } from "@/lib/v2/data";
 import { getFullNode } from "@/lib/v2/facts";
+import { prerenderParams } from "@/lib/v2/prerender";
 import { buildNodePageView } from "@/lib/v2/routes";
 import type { V2ParentContext } from "@/lib/v2/types";
 import { nodeHref } from "@/lib/v2/urls";
@@ -13,10 +14,15 @@ interface Props {
   params: Promise<{ type: string; slug: string }>;
 }
 
-export const dynamicParams = false;
+// Prerender only the high-value hubs; the long tail is rendered on first
+// request (dynamicParams) and cached for a day (ISR). Unknown {type,slug}
+// still 404s via the notFound() below. Facts are fs-read at request time,
+// so this route must stay listed under outputFileTracingIncludes.
+export const dynamicParams = true;
+export const revalidate = 86400;
 
 export function generateStaticParams() {
-  return v2Graph.nodes.map((node) => ({ type: node.type, slug: node.slug }));
+  return prerenderParams(v2Graph);
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
