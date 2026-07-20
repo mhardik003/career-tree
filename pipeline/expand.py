@@ -4,8 +4,9 @@ exactly once; successors must reference existing registry IDs whenever one exist
 resolution before an ID is minted.
 
 Run:  python pipeline/expand.py --max-depth 4 --limit 20
-Resumable: frontier + expanded set live in state/frontier.json; registry saves after
-every node; unchanged prompts replay from the call cache for free.
+Resumable: frontier + expanded set live in state/frontier.json; registry + frontier
+checkpoint together every SAVE_EVERY nodes and on exit/interrupt; unchanged prompts
+replay from the call cache for free.
 """
 import argparse
 import json
@@ -19,6 +20,11 @@ from lib import (Registry, NodeType, EdgeType, atomic_write, read_jsonl,  # noqa
 from resolve import Resolver
 
 EXPAND_MODEL = "gpt-5.6-terra"
+
+# Checkpoint cadence: Registry.save()/save_frontier() rewrite whole files (O(N)),
+# so saving per node makes a run O(N^2) in disk I/O. Batch instead; an interrupted
+# run loses at most SAVE_EVERY-1 nodes of work (the finally block flushes the rest).
+SAVE_EVERY = 25
 
 WORKING_TYPES = {NodeType.job_role, NodeType.government_service, NodeType.entrepreneurship}
 EDUCATION_TYPES = {NodeType.degree, NodeType.diploma, NodeType.certification, NodeType.training}
@@ -130,52 +136,66 @@ def main():
 
     done = 0
     consecutive_failures = 0
-    while True:
-        next_index = next(
-            (
-                index
-                for index, queued in enumerate(queue)
-                if should_expand(queued["depth"], args.max_depth)
-            ),
-            None,
-        )
-        if next_index is None:
-            break
-        item = queue.pop(next_index)
-        nid, depth = item["id"], item["depth"]
-        if nid in expanded or not should_expand(depth, args.max_depth) or nid not in reg.nodes:
-            continue
-        node = reg.nodes[nid]
-        trail_ids = reg.shortest_trail(nid)
-        trails = [" → ".join(reg.nodes[i].title for i in trail_ids)] if trail_ids else []
 
-        print(f"[depth {depth}] expanding {nid} ({node.title})")
-        try:
-            result = call_json(EXPAND_MODEL, expansion_prompt(reg, node, trails), ExpansionResult)
-            _process_successors(reg, resolver, node, nid, depth, result, queue, expanded, args)
-        except RuntimeError as e:
-            # isolate the failure: requeue this node at the back and move on, but
-            # abort if the API looks down (several failures in a row). Re-expanding
-            # a partially processed node is idempotent (cached call, deduped edges).
-            consecutive_failures += 1
-            print(f"   ! node failed ({e}); requeued")
-            queue.append(item)
-            if consecutive_failures >= 5:
-                print("aborting: 5 consecutive failures — API likely unavailable")
-                break
-            continue
-        consecutive_failures = 0
-
-        expanded.add(nid)
+    def checkpoint():
+        # Registry and frontier must land together: resume drops queue ids missing
+        # from the registry, so the frontier on disk must never be ahead of the
+        # saved registry (an "expanded" node whose minted children were never
+        # written would lose its whole subtree).
         reg.save()
         fr["queue"] = queue
         fr["expanded"] = sorted(expanded)
         save_frontier(fr)
 
-        done += 1
-        if args.limit and done >= args.limit:
-            print(f"limit {args.limit} reached")
-            break
+    try:
+        while True:
+            next_index = next(
+                (
+                    index
+                    for index, queued in enumerate(queue)
+                    if should_expand(queued["depth"], args.max_depth)
+                ),
+                None,
+            )
+            if next_index is None:
+                break
+            item = queue.pop(next_index)
+            nid, depth = item["id"], item["depth"]
+            if nid in expanded or not should_expand(depth, args.max_depth) or nid not in reg.nodes:
+                continue
+            node = reg.nodes[nid]
+            trail_ids = reg.shortest_trail(nid)
+            trails = [" → ".join(reg.nodes[i].title for i in trail_ids)] if trail_ids else []
+
+            print(f"[depth {depth}] expanding {nid} ({node.title})")
+            try:
+                result = call_json(EXPAND_MODEL, expansion_prompt(reg, node, trails), ExpansionResult)
+                _process_successors(reg, resolver, node, nid, depth, result, queue, expanded, args)
+            except RuntimeError as e:
+                # isolate the failure: requeue this node at the back and move on, but
+                # abort if the API looks down (several failures in a row). Re-expanding
+                # a partially processed node is idempotent (cached call, deduped edges).
+                consecutive_failures += 1
+                print(f"   ! node failed ({e}); requeued")
+                queue.append(item)
+                if consecutive_failures >= 5:
+                    print("aborting: 5 consecutive failures — API likely unavailable")
+                    break
+                continue
+            consecutive_failures = 0
+
+            expanded.add(nid)
+            done += 1
+            if done % SAVE_EVERY == 0:
+                checkpoint()
+            if args.limit and done >= args.limit:
+                print(f"limit {args.limit} reached")
+                break
+    finally:
+        # Flush the tail (and requeue churn) on every exit path, including
+        # KeyboardInterrupt and crashes: at most SAVE_EVERY-1 nodes are re-done
+        # on resume, and re-expansion is idempotent (see except branch above).
+        checkpoint()
 
     pending_expandable = sum(
         should_expand(item["depth"], args.max_depth) for item in queue

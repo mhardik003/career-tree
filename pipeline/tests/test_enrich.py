@@ -161,6 +161,91 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(completed, 1)
         self.assertEqual(remaining_failures, "")
 
+    def test_registry_saves_batch_every_25_completions_plus_final_flush(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            registry = write_registry(
+                root,
+                [node(f"degree:test-{index:02d}") for index in range(26)],
+            )
+            saves = []
+            original_save = registry.save
+
+            def counting_save():
+                saves.append(True)
+                original_save()
+
+            registry.save = counting_save
+
+            completed = enrich_registry(
+                registry,
+                lambda _item: facts(),
+                str(root / "failures.jsonl"),
+            )
+            reloaded = Registry(
+                nodes_file=str(root / "nodes.jsonl"),
+                edges_file=str(root / "edges.jsonl"),
+            )
+
+        self.assertEqual(completed, 26)
+        self.assertEqual(len(saves), 2)  # one at item 25, one final flush
+        self.assertTrue(all(item.facts is not None for item in reloaded.nodes.values()))
+
+    def test_custom_save_every_cadence_flushes_tail_in_finally(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            registry = write_registry(
+                root,
+                [node(f"degree:test-{index}") for index in range(5)],
+            )
+            saves = []
+            original_save = registry.save
+
+            def counting_save():
+                saves.append(True)
+                original_save()
+
+            registry.save = counting_save
+
+            completed = enrich_registry(
+                registry,
+                lambda _item: facts(),
+                str(root / "failures.jsonl"),
+                save_every=2,
+            )
+            reloaded = Registry(
+                nodes_file=str(root / "nodes.jsonl"),
+                edges_file=str(root / "edges.jsonl"),
+            )
+
+        self.assertEqual(completed, 5)
+        self.assertEqual(len(saves), 3)  # items 2 and 4, then the tail in finally
+        self.assertTrue(all(item.facts is not None for item in reloaded.nodes.values()))
+
+    def test_keyboard_interrupt_flushes_completed_items_via_finally(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            registry = write_registry(
+                root,
+                [node("degree:aa"), node("degree:bb"), node("degree:cc")],
+            )
+
+            def research(item):
+                if item.id == "degree:bb":
+                    raise KeyboardInterrupt
+                return facts()
+
+            with self.assertRaises(KeyboardInterrupt):
+                enrich_registry(registry, research, str(root / "failures.jsonl"))
+            reloaded = Registry(
+                nodes_file=str(root / "nodes.jsonl"),
+                edges_file=str(root / "edges.jsonl"),
+            )
+
+        self.assertIsNotNone(reloaded.nodes["degree:aa"].facts)
+        self.assertIsNone(reloaded.nodes["degree:bb"].facts)
+        self.assertIsNone(reloaded.nodes["degree:cc"].facts)
+
     def test_bounded_workers_research_in_parallel_and_serialize_saves(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

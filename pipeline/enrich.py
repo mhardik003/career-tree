@@ -59,6 +59,7 @@ def enrich_registry(
     node_ids: set[str] | None = None,
     force: bool = False,
     workers: int = 1,
+    save_every: int = 25,
 ) -> int:
     failed_ids = {
         row["node_id"]
@@ -81,31 +82,41 @@ def enrich_registry(
 
     worker_count = max(1, workers)
     abort = False
-    with ThreadPoolExecutor(max_workers=worker_count) as executor:
-        for start in range(0, len(candidates), worker_count):
-            batch = candidates[start : start + worker_count]
-            futures = [(node, executor.submit(research, node)) for node in batch]
-            for node, future in futures:
-                try:
-                    enriched = NodeFacts.model_validate(future.result())
-                    _validate_sections(node.type.value, enriched)
-                    node.facts = enriched
-                    reg.save()
-                    _replace_failure(failure_path, node.id, None)
-                except Exception as exc:  # noqa: BLE001 - isolate item failures
-                    consecutive_failures += 1
-                    _replace_failure(failure_path, node.id, str(exc))
-                    if consecutive_failures >= 5:
-                        abort = True
-                        for _pending_node, pending in futures:
-                            pending.cancel()
-                        break
-                    continue
+    try:
+        with ThreadPoolExecutor(max_workers=worker_count) as executor:
+            for start in range(0, len(candidates), worker_count):
+                batch = candidates[start : start + worker_count]
+                futures = [(node, executor.submit(research, node)) for node in batch]
+                for node, future in futures:
+                    try:
+                        enriched = NodeFacts.model_validate(future.result())
+                        _validate_sections(node.type.value, enriched)
+                        node.facts = enriched
+                        _replace_failure(failure_path, node.id, None)
+                    except Exception as exc:  # noqa: BLE001 - isolate item failures
+                        consecutive_failures += 1
+                        _replace_failure(failure_path, node.id, str(exc))
+                        if consecutive_failures >= 5:
+                            abort = True
+                            for _pending_node, pending in futures:
+                                pending.cancel()
+                            break
+                        continue
 
-                consecutive_failures = 0
-                completed += 1
-            if abort:
-                break
+                    consecutive_failures = 0
+                    completed += 1
+                    # Registry is not thread-safe: saves stay in this single-threaded
+                    # result loop, batched because reg.save() rewrites both JSONL
+                    # files in full (per-node saves make a run O(N^2) in disk I/O).
+                    if save_every and completed % save_every == 0:
+                        reg.save()
+                if abort:
+                    break
+    finally:
+        # Flush the tail on every exit path, including KeyboardInterrupt: an
+        # interrupted run loses at most save_every-1 enriched nodes, which stay
+        # facts=None on disk and are simply re-selected on the next run.
+        reg.save()
     return completed
 
 
