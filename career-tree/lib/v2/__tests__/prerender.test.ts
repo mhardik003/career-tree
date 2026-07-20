@@ -64,18 +64,20 @@ const snapshot: V2GraphSnapshot = {
 describe("prerenderParams", () => {
   const graph = new V2Graph(snapshot);
 
-  it("orders by in-degree descending with id-ascending tiebreak", () => {
+  it("puts the root first, then in-degree descending with id-ascending tiebreak", () => {
     expect(prerenderParams(graph)).toEqual([
+      { type: "school_stage", slug: "class-10" },
       { type: "exam", slug: "cat" },
       { type: "degree", slug: "bba" },
       { type: "degree", slug: "bca" },
       { type: "degree", slug: "mba" },
-      { type: "school_stage", slug: "class-10" },
     ]);
   });
 
-  it("caps the set at the limit", () => {
+  it("always includes the root beyond the limit, capping the rest", () => {
+    // The root has in-degree 0 — the lowest rank — yet must survive any limit.
     expect(prerenderParams(graph, 2)).toEqual([
+      { type: "school_stage", slug: "class-10" },
       { type: "exam", slug: "cat" },
       { type: "degree", slug: "bba" },
     ]);

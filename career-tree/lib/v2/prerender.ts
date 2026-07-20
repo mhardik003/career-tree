@@ -6,17 +6,21 @@ import type { V2Graph } from "./graph-core";
 export const PRERENDER_LIMIT = 200;
 
 /**
- * The high-value prerender set for /explore and /careers: the top `limit`
- * nodes by in-degree (most-referenced hubs get static HTML; everything else
- * is rendered on demand and cached). Deterministic so builds are
- * reproducible: in-degree descending, then id ascending as the tiebreaker
+ * The high-value prerender set for /explore and /careers: the graph root
+ * (always — it has in-degree 0 but is the homepage entry point, so its pages
+ * must never pay a first-request render) plus the top `limit` other nodes by
+ * in-degree (most-referenced hubs get static HTML; everything else is
+ * rendered on demand and cached). Deterministic so builds are reproducible:
+ * root first, then in-degree descending with id ascending as the tiebreaker
  * (plain code-unit compare — ids are lowercase ASCII, no locale dependence).
  */
 export function prerenderParams(
   graph: V2Graph,
   limit: number = PRERENDER_LIMIT,
 ): { type: string; slug: string }[] {
-  return graph.nodes
+  const root = graph.getNode(graph.rootId);
+  const ranked = graph.nodes
+    .filter((node) => node.id !== graph.rootId)
     .map((node) => ({ node, inDegree: graph.incoming(node.id).length }))
     .sort(
       (a, b) =>
@@ -24,4 +28,5 @@ export function prerenderParams(
     )
     .slice(0, limit)
     .map(({ node }) => ({ type: node.type, slug: node.slug }));
+  return root ? [{ type: root.type, slug: root.slug }, ...ranked] : ranked;
 }
