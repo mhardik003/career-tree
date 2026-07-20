@@ -5,6 +5,7 @@ Everything committable is sorted JSONL (diffable); ledger/ holds gitignored cach
 """
 import os
 import re
+import sys
 import json
 import time
 import tempfile
@@ -401,12 +402,32 @@ def _get_provider() -> OpenAIProvider:
     return _provider
 
 
+# The call and embedding ledgers are loaded wholesale into RAM (~11 MB and
+# ~28 MB today) — acceptable at this scale, but they grow forever.
+# TODO: move them to an indexed store (e.g. sqlite) instead of raising the
+# threshold once this warning fires.
+CACHE_WARN_BYTES = 100 * 1024 * 1024
+
+def _warn_if_large(path: str, limit: int = CACHE_WARN_BYTES):
+    try:
+        size = os.path.getsize(path)
+    except OSError:
+        return
+    if size > limit:
+        print(
+            f"warning: {path} is {size / (1024 * 1024):.0f} MB and is loaded "
+            "fully into RAM; move this ledger to an indexed store",
+            file=sys.stderr,
+        )
+
+
 _call_cache: Optional[Dict[str, str]] = None
 _call_cache_lock = threading.RLock()
 
 def _load_call_cache() -> Dict[str, str]:
     global _call_cache
     if _call_cache is None:
+        _warn_if_large(CALL_CACHE_FILE)
         _call_cache = {r["key"]: r["response"] for r in read_jsonl(CALL_CACHE_FILE)}
     return _call_cache
 
@@ -484,6 +505,7 @@ _embed_cache: Optional[Dict[str, List[float]]] = None
 def _load_embed_cache() -> Dict[str, List[float]]:
     global _embed_cache
     if _embed_cache is None:
+        _warn_if_large(EMBED_CACHE_FILE)
         _embed_cache = {r["key"]: r["vec"] for r in read_jsonl(EMBED_CACHE_FILE)}
     return _embed_cache
 

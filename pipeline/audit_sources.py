@@ -114,18 +114,74 @@ def audit_urls(urls: list[str], workers: int = 8) -> list[dict]:
         return sorted(executor.map(check_url, urls), key=lambda row: row["url"])
 
 
+def load_previous_report(report_file: str = REPORT_FILE) -> dict | None:
+    try:
+        with open(report_file, encoding="utf-8") as handle:
+            report = json.load(handle)
+    except (OSError, json.JSONDecodeError):
+        return None
+    return report if isinstance(report, dict) else None
+
+
+def _audit_key(url: str) -> str:
+    """Match key against previous report rows (check_url stores normalized URLs)."""
+    try:
+        return normalize_url(url)
+    except (TypeError, ValueError):
+        return url
+
+
+def split_incremental(
+    urls: list[str],
+    previous_report: dict | None,
+) -> tuple[list[str], list[dict]]:
+    """Partition URLs into (to_audit, carried-over OK rows).
+
+    A URL is skipped only when the previous report proved it reachable; its old
+    row is carried into the new report unchanged, so later incremental runs
+    still skip it. New, previously failing, and ambiguous URLs are re-audited;
+    rows for URLs no longer collected are dropped. With no previous report,
+    everything is audited (the full-audit release default).
+    """
+    ok_rows: dict[str, dict] = {}
+    for row in (previous_report or {}).get("checks", []):
+        if row.get("reachable") and row.get("url"):
+            ok_rows[row["url"]] = row
+    to_audit: list[str] = []
+    carried: dict[str, dict] = {}
+    for url in urls:
+        row = ok_rows.get(_audit_key(url))
+        if row is None:
+            to_audit.append(url)
+        else:
+            carried[row["url"]] = row
+    return to_audit, sorted(carried.values(), key=lambda row: row["url"])
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only-enriched-since")
+    parser.add_argument(
+        "--incremental",
+        action="store_true",
+        help="re-audit only URLs lacking a reachable result in the previous "
+        "report; the full audit stays the default for releases",
+    )
     parser.add_argument("--workers", type=int, default=8)
     args = parser.parse_args(argv)
     if args.only_enriched_since:
         date.fromisoformat(args.only_enriched_since)
 
     urls = collect_urls(Registry(), args.only_enriched_since)
-    checks = audit_urls(urls, max(1, args.workers))
+    previous = load_previous_report() if args.incremental else None
+    to_audit, carried = split_incremental(urls, previous)
+    checks = sorted(
+        audit_urls(to_audit, max(1, args.workers)) + carried,
+        key=lambda row: row["url"],
+    )
     report = {
         "audited_on": date.today().isoformat(),
+        "incremental": args.incremental,
         "url_count": len(urls),
         "definitive_failures": sum(
             row["definitive_failure"] for row in checks
@@ -137,7 +193,8 @@ def main(argv: list[str] | None = None) -> int:
         json.dumps(report, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
     )
     print(
-        f"source audit: {len(urls)} URLs, "
+        f"source audit: {len(urls)} URLs "
+        f"({len(to_audit)} checked, {len(carried)} carried over), "
         f"{report['definitive_failures']} definitive failures"
     )
     return 1 if report["definitive_failures"] else 0

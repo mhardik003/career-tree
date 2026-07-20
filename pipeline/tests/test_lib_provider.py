@@ -1,3 +1,5 @@
+import contextlib
+import io
 import sys
 import tempfile
 import unittest
@@ -107,6 +109,23 @@ class LibraryProviderTests(unittest.TestCase):
             rows = lib.read_jsonl(cache_path)
             self.assertEqual({row["dimensions"] for row in rows}, {1024})
             self.assertEqual({row["normalizer"] for row in rows}, {"er-v2"})
+
+    def test_warn_if_large_flags_only_oversized_cache_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = str(Path(directory) / "call_cache.jsonl")
+            Path(path).write_text("x" * 64, encoding="utf-8")
+
+            quiet = io.StringIO()
+            with contextlib.redirect_stderr(quiet):
+                lib._warn_if_large(path, limit=1024)
+                lib._warn_if_large(str(Path(directory) / "absent.jsonl"))
+            self.assertEqual(quiet.getvalue(), "")
+
+            noisy = io.StringIO()
+            with contextlib.redirect_stderr(noisy):
+                lib._warn_if_large(path, limit=10)
+            self.assertIn("loaded fully into RAM", noisy.getvalue())
+            self.assertIn(path, noisy.getvalue())
 
 
 if __name__ == "__main__":

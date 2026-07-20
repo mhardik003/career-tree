@@ -198,6 +198,47 @@ class ExportFrontendTests(unittest.TestCase):
             self.assertFalse(stale.exists())
             self.assertIsNone(stale_facts_reason(directory, files))
 
+    def test_write_snapshot_is_compact_and_byte_stable(self):
+        snapshot = self._complete_snapshot()
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "graph.json"
+            self.assertTrue(write_snapshot(target, snapshot))
+            text = target.read_text(encoding="utf-8")
+            self.assertNotIn("\n  ", text)  # no pretty-printed indentation
+            self.assertIn('"nodes":[{', text)
+            parsed = json.loads(text)
+            self.assertTrue(snapshot_matches(parsed, snapshot))
+            # Re-export of an unchanged registry is a byte-stable no-op.
+            self.assertFalse(write_snapshot(target, snapshot))
+            self.assertEqual(target.read_text(encoding="utf-8"), text)
+
+    def test_write_snapshot_recompacts_stale_pretty_printed_file(self):
+        snapshot = self._complete_snapshot()
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "graph.json"
+            target.write_text(
+                json.dumps(
+                    {**snapshot, "generated_at": "2026-01-01T00:00:00Z"},
+                    indent=2,
+                    ensure_ascii=False,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            # Structurally identical, but the old rendering must be replaced.
+            self.assertTrue(write_snapshot(target, snapshot))
+            self.assertNotIn("\n  ", target.read_text(encoding="utf-8"))
+            self.assertFalse(write_snapshot(target, snapshot))
+
+    def test_facts_files_are_written_compact(self):
+        files = facts_files(self._complete_snapshot())
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp) / "facts"
+            write_facts_dir(directory, files)
+            text = (directory / "degree--mba.json").read_text(encoding="utf-8")
+            self.assertNotIn("\n ", text)
+            self.assertEqual(json.loads(text), facts())
+
     def test_stale_facts_reason_detects_missing_and_changed_files(self):
         files = facts_files(self._complete_snapshot())
         with tempfile.TemporaryDirectory() as tmp:

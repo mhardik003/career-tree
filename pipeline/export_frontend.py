@@ -128,8 +128,13 @@ def facts_files(snapshot: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+# All frontend artifacts are machine-read only (JSON.parse / json.loads), so they
+# are rendered compact: indent=2 cost ~35% extra bytes on the 10 MB graph.json.
+_COMPACT = {"separators": (",", ":"), "ensure_ascii": False}
+
+
 def _render_facts(payload: Any) -> str:
-    return json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
+    return json.dumps(payload, **_COMPACT) + "\n"
 
 
 def write_facts_dir(directory: Path, expected: dict[str, Any]) -> bool:
@@ -184,25 +189,30 @@ def snapshot_matches(
     return _structural(existing) == _structural(expected)
 
 
+def _render_snapshot(snapshot: dict[str, Any], generated_at: Any) -> str:
+    return json.dumps({**snapshot, "generated_at": generated_at}, **_COMPACT) + "\n"
+
+
 def write_snapshot(path: Path, snapshot: dict[str, Any]) -> bool:
+    existing_text = None
     existing = None
     if path.exists():
+        existing_text = path.read_text(encoding="utf-8")
         try:
-            existing = json.loads(path.read_text(encoding="utf-8"))
+            existing = json.loads(existing_text)
         except json.JSONDecodeError:
             existing = None
     if existing and snapshot_matches(existing, snapshot):
-        return False
-    rendered = {
-        **snapshot,
-        "generated_at": datetime.now(timezone.utc)
-        .isoformat()
-        .replace("+00:00", "Z"),
-    }
-    atomic_write(
-        str(path),
-        json.dumps(rendered, indent=2, ensure_ascii=False) + "\n",
+        # Structurally current — rewrite only when the on-disk rendering is
+        # stale (e.g. a formatting change); keeping the stored generated_at in
+        # the comparison makes an up-to-date export byte-stable across runs.
+        if existing_text == _render_snapshot(snapshot, existing.get("generated_at")):
+            return False
+    rendered = _render_snapshot(
+        snapshot,
+        datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     )
+    atomic_write(str(path), rendered)
     return True
 
 

@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from audit_sources import check_url
+from audit_sources import check_url, split_incremental
 
 
 class FakeResponse:
@@ -56,6 +56,64 @@ class SourceAuditTests(unittest.TestCase):
         self.assertTrue(result["definitive_failure"])
         self.assertIn("public host", result["error"])
         self.assertEqual(requested, [("https://example.gov.in/source", False)])
+
+
+def row(url: str, status, reachable: bool, definitive: bool = False) -> dict:
+    return {
+        "url": url,
+        "status": status,
+        "error": None if reachable else f"HTTP {status}",
+        "reachable": reachable,
+        "definitive_failure": definitive,
+    }
+
+
+class IncrementalSelectionTests(unittest.TestCase):
+    def test_incremental_reaudits_only_urls_without_a_previous_ok(self):
+        previous = {
+            "checks": [
+                row("https://ok.gov.in/page", 200, True),
+                row("https://gone.gov.in/page", 404, False, definitive=True),
+                row("https://flaky.gov.in/page", None, False),
+                row("https://dropped.gov.in/page", 200, True),
+            ]
+        }
+        urls = [
+            "https://flaky.gov.in/page",
+            "https://gone.gov.in/page",
+            "https://new.gov.in/page",
+            "https://ok.gov.in/page",
+        ]
+
+        to_audit, carried = split_incremental(urls, previous)
+
+        self.assertEqual(
+            to_audit,
+            [
+                "https://flaky.gov.in/page",
+                "https://gone.gov.in/page",
+                "https://new.gov.in/page",
+            ],
+        )
+        # The OK row is carried over unchanged; the row for the URL no longer
+        # collected from the registry is dropped.
+        self.assertEqual(carried, [row("https://ok.gov.in/page", 200, True)])
+
+    def test_incremental_matches_previous_rows_by_normalized_url(self):
+        previous = {"checks": [row("https://ok.gov.in/", 200, True)]}
+
+        to_audit, carried = split_incremental(["HTTPS://OK.gov.in"], previous)
+
+        self.assertEqual(to_audit, [])
+        self.assertEqual(carried, [row("https://ok.gov.in/", 200, True)])
+
+    def test_full_audit_without_previous_report_checks_everything(self):
+        urls = ["https://a.gov.in/x", "https://b.gov.in/y"]
+
+        to_audit, carried = split_incremental(urls, None)
+
+        self.assertEqual(to_audit, urls)
+        self.assertEqual(carried, [])
 
 
 if __name__ == "__main__":
