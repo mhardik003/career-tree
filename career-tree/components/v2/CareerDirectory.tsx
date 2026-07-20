@@ -7,6 +7,11 @@ import {
   type DirectoryTypeFilter,
 } from "@/lib/v2/search";
 import type { V2DirectoryNode, V2NodeType } from "@/lib/v2/types";
+import { useDebouncedValue } from "@/lib/v2/use-debounced-value";
+
+// ISSUE-11b: render at most this many result cards; the rest collapse into a
+// "N more matches" notice instead of an unvirtualized O(N) list.
+export const MAX_RENDERED_RESULTS = 100;
 
 function label(value: string): string {
   return value
@@ -21,14 +26,23 @@ export default function CareerDirectory({
 }) {
   const [query, setQuery] = useState("");
   const [type, setType] = useState<DirectoryTypeFilter>("all");
+  // The input stays controlled by `query`; only the O(N) filter runs on the
+  // debounced copy, so a fast typing burst costs one filter pass, not one per
+  // keystroke. Type-filter clicks are discrete events and stay immediate.
+  const filterQuery = useDebouncedValue(query);
   const types = useMemo(
     () => [...new Set(nodes.map((node) => node.type))].sort() as V2NodeType[],
     [nodes],
   );
   const results = useMemo(
-    () => filterDirectory(nodes, query, type),
-    [nodes, query, type],
+    () => filterDirectory(nodes, filterQuery, type),
+    [nodes, filterQuery, type],
   );
+  const visibleResults = useMemo(
+    () => results.slice(0, MAX_RENDERED_RESULTS),
+    [results],
+  );
+  const hiddenCount = results.length - visibleResults.length;
 
   return (
     <section className="pt-4" aria-labelledby="career-directory-title">
@@ -70,29 +84,40 @@ export default function CareerDirectory({
         </div>
       </header>
 
-      <p className="mt-10 font-mono text-xs text-gray-500">
+      {/* Always-mounted polite live region: screen readers hear result-count
+          changes (including the cap) without interrupting typing. */}
+      <p className="mt-10 font-mono text-xs text-gray-500" aria-live="polite">
         {results.length} matching nodes
+        {hiddenCount > 0 ? ` · showing first ${visibleResults.length}` : ""}
       </p>
       <div className="mt-3 grid grid-cols-1 gap-4 md:grid-cols-2">
-        {results.length ? (
-          results.map((node) => (
-            <Link
-              key={node.id}
-              href={node.href}
-              className="rounded-xl border bg-white p-5 transition hover:-translate-y-0.5 hover:border-black hover:shadow-md"
-            >
-              <p className="font-mono text-[9px] uppercase tracking-widest text-gray-500">
-                {label(node.type)}
+        {visibleResults.length ? (
+          <>
+            {visibleResults.map((node) => (
+              <Link
+                key={node.id}
+                href={node.href}
+                className="rounded-xl border bg-white p-5 transition hover:-translate-y-0.5 hover:border-black hover:shadow-md"
+              >
+                <p className="font-mono text-[9px] uppercase tracking-widest text-gray-500">
+                  {label(node.type)}
+                </p>
+                <h3 className="mt-2 font-mono text-base font-bold">{node.title}</h3>
+                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-gray-600">
+                  {node.description}
+                </p>
+                <p className="mt-4 font-mono text-[10px] uppercase text-gray-500">
+                  {node.incomingCount} ways in · {node.outgoingCount} next
+                </p>
+              </Link>
+            ))}
+            {hiddenCount > 0 && (
+              <p className="col-span-full rounded-lg border border-dashed bg-white p-6 text-center font-mono text-xs text-gray-500">
+                {hiddenCount} more matches not shown — refine your search to see
+                them.
               </p>
-              <h3 className="mt-2 font-mono text-base font-bold">{node.title}</h3>
-              <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-gray-600">
-                {node.description}
-              </p>
-              <p className="mt-4 font-mono text-[10px] uppercase text-gray-500">
-                {node.incomingCount} ways in · {node.outgoingCount} next
-              </p>
-            </Link>
-          ))
+            )}
+          </>
         ) : (
           <p className="col-span-full rounded-lg border border-dashed bg-white p-8 text-center text-gray-500">
             No canonical nodes match this search.

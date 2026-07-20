@@ -1,6 +1,6 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { act, fireEvent, render, screen } from "@testing-library/react";
 import type { MouseEvent, ReactNode } from "react";
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { V2GlobalMap } from "@/lib/v2/global-map";
 import MapView from "../MapView";
 
@@ -66,7 +66,14 @@ const model: V2GlobalMap = {
 };
 
 describe("V2 MapView", () => {
-  it("filters canonical nodes and navigates to their guide", () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
+  it("filters canonical nodes after the debounce and navigates to their guide", () => {
     render(<MapView model={model} />);
     expect(screen.getByRole("searchbox", { name: "Search map nodes" })).toBeVisible();
     expect(screen.getByRole("combobox", { name: "Filter map by node type" })).toBeVisible();
@@ -74,6 +81,11 @@ describe("V2 MapView", () => {
     expect(screen.getByTestId("minimap")).toBeVisible();
 
     fireEvent.change(screen.getByRole("searchbox"), { target: { value: "business administration" } });
+    // The refilter is debounced: BCA is still on the map until it elapses.
+    expect(screen.getByRole("button", { name: "BCA" })).toBeVisible();
+    act(() => {
+      vi.advanceTimersByTime(200);
+    });
     expect(screen.queryByRole("button", { name: "BCA" })).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "MBA" }));
     expect(push).toHaveBeenCalledWith("/careers/degree/mba");
