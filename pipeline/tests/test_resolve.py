@@ -21,6 +21,7 @@ def in_memory_registry(*nodes: Node) -> Registry:
     registry.nodes = {}
     registry.edges = {}
     registry._alias_index = {}
+    registry._rebuild_edge_index()
     for node in nodes:
         registry.add_node(node)
     return registry

@@ -38,9 +38,11 @@ def main():
         ft = reg.nodes[e.from_id].type if e.from_id in reg.nodes else None
         tt = reg.nodes[e.to_id].type if e.to_id in reg.nodes else None
         if ft == NodeType.exam and tt == NodeType.exam:
-            del reg.edges[eid]
+            reg.remove_edge(eid)
             dropped += 1
         elif ft in WORKING and tt in EDUCATION and e.edge_type == EdgeType.progression:
+            # in-place retype is index-safe: _out/_in hold this same Edge object
+            # and its endpoints don't change
             e.edge_type = EdgeType.lateral
             retyped += 1
 

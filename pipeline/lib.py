@@ -222,6 +222,28 @@ class Registry:
         self._alias_index: Dict[tuple, str] = {}
         for n in self.nodes.values():
             self._index_node(n)
+        self._rebuild_edge_index()
+
+    def _rebuild_edge_index(self):
+        """(Re)build the adjacency index from self.edges.
+
+        Must be called whenever self.edges is replaced wholesale (init/load and
+        the in-memory test fixtures). All other edge mutations MUST go through
+        add_edge()/remove_edge() so _out/_in stay in sync — never write
+        self.edges[...] or del self.edges[...] directly. The index holds the
+        same Edge objects as self.edges, so mutating an edge's attributes in
+        place (e.g. repair scripts retyping edge_type) is safe, EXCEPT for
+        from_id/to_id: reassigning an endpoint would silently leave the edge in
+        the wrong bucket — remove and re-add instead.
+        """
+        self._out: Dict[str, List[Edge]] = {}
+        self._in: Dict[str, List[Edge]] = {}
+        for e in self.edges.values():
+            self._index_edge(e)
+
+    def _index_edge(self, e: Edge):
+        self._out.setdefault(e.from_id, []).append(e)
+        self._in.setdefault(e.to_id, []).append(e)
 
     def _index_node(self, n: Node):
         for surface in [n.title] + n.aliases:
@@ -250,13 +272,32 @@ class Registry:
                  is_common_route=is_common_route,
                  prov=Provenance(model=model, generated_at=today()))
         self.edges[eid] = e
+        self._index_edge(e)
         return e
 
+    def remove_edge(self, edge_id: str) -> Optional[Edge]:
+        """Remove an edge by id, keeping the adjacency index in sync.
+
+        The ONLY sanctioned way to delete an edge (never `del reg.edges[...]`).
+        Returns the removed Edge, or None if absent."""
+        e = self.edges.pop(edge_id, None)
+        if e is None:
+            return None
+        for index, key in ((self._out, e.from_id), (self._in, e.to_id)):
+            bucket = index[key]
+            bucket.remove(e)
+            if not bucket:
+                del index[key]
+        return e
+
+    # Both return fresh lists (mirrors V2Graph.incoming/outgoing in
+    # career-tree/lib/v2/graph-core.ts): callers may mutate the result without
+    # corrupting the index.
     def outgoing(self, node_id: str) -> List[Edge]:
-        return [e for e in self.edges.values() if e.from_id == node_id]
+        return list(self._out.get(node_id, ()))
 
     def incoming(self, node_id: str) -> List[Edge]:
-        return [e for e in self.edges.values() if e.to_id == node_id]
+        return list(self._in.get(node_id, ()))
 
     def shortest_trail(self, node_id: str, root: str = "school_stage:class-10") -> List[str]:
         """BFS shortest path root->node as a list of ids ([] if unreachable)."""

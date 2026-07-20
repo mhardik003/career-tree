@@ -14,6 +14,7 @@ def registry_with_root() -> Registry:
     registry.nodes = {}
     registry.edges = {}
     registry._alias_index = {}
+    registry._rebuild_edge_index()
     registry.add_node(
         Node(
             id="school_stage:class-10",
