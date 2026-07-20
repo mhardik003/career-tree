@@ -369,6 +369,7 @@ the destructive Supabase cutover, the moderation dry run — is in
 
 ## 📝 Update Log
 
+*   **2026-07-20** — `next build` static-generation workers are now capped at 4 (`experimental.cpus` in `next.config.ts`); each worker holds the full graph dataset, so the cap keeps peak build memory bounded on many-core machines (measured 8.3 GB → 3.5 GB aggregate RSS).
 *   **2026-07-20** — Explore pages stopped shipping one full page view per parent: the client now overlays a small per-parent context (`routes`/`selectedParentId`/`backHref`) on a single canonical view, client-bound edges and node summaries dropped unrendered fields (`prov`, `description`, `is_terminal`), taking `/explore/exam/cat` from ~123 KB to ~94 KB.
 *   **2026-07-20** — Explore/guide page payloads slimmed: parents and children now cross the server→client boundary as cached `V2NodeSummary` objects instead of full fact-laden nodes, cutting the heaviest prerendered page (`/explore/exam/cat`) from ~1 MB to ~123 KB.
 *   **2026-07-20** — The searchable canonical directory moved from the homepage to a dedicated, statically prerendered `/search` page (now in the sitemap); the hero's "Search for a career" button is a plain link there, and the scroll-to-search button component was removed.
