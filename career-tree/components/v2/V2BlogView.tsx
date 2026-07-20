@@ -1,10 +1,11 @@
-import { ArrowLeft, Compass } from "lucide-react";
+import { Compass } from "lucide-react";
 import Link from "next/link";
 import { Suspense } from "react";
 import type { ParentRouteMap } from "@/lib/v2/route-map";
 import type { V2NodePageView } from "@/lib/v2/types";
 import { exploreHref, nodeHref } from "@/lib/v2/urls";
 import ContributionActions from "./ContributionActions";
+import GuideBackLink, { GuideBackLinkFallback } from "./GuideBackLink";
 import NodeFacts from "./NodeFacts";
 import RouteMapFromQuery, { RouteMap } from "./RouteMap";
 
@@ -30,13 +31,12 @@ export default function V2BlogView({
   return (
     <main className="min-h-screen bg-neutral-50 px-4 pb-20 pt-8">
       <nav className="mx-auto flex max-w-3xl items-center gap-3">
-        <Link
-          href="/"
-          aria-label="Back to career directory"
-          className="rounded-full border bg-white p-2"
-        >
-          <ArrowLeft size={18} />
-        </Link>
+        <Suspense fallback={<GuideBackLinkFallback nodeId={view.node.id} />}>
+          <GuideBackLink
+            nodeId={view.node.id}
+            validParentIds={view.parents.map((parent) => parent.node.id)}
+          />
+        </Suspense>
       </nav>
 
       <article className="mx-auto mt-12 max-w-3xl rounded-2xl border bg-white px-6 py-10 shadow-sm sm:px-10">
