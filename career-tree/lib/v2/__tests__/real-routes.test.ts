@@ -21,12 +21,17 @@ it("does not label a fallback route as an unreachable selected parent", () => {
   const graph = new V2Graph(snapshotJson as unknown as V2GraphSnapshot);
   const view = buildNodePageView(
     graph,
-    "degree:b-tech",
-    "exam:jee-advanced",
+    "exam:nift-entrance",
+    "degree:b-f-tech-bachelor-of-fashion-technology",
   );
 
-  expect(view.selectedParentId).toBe("exam:jee-advanced");
+  expect(view.selectedParentId).toBe(
+    "degree:b-f-tech-bachelor-of-fashion-technology",
+  );
   expect(
-    findRouteThroughParent(view.routes, "exam:jee-advanced"),
+    findRouteThroughParent(
+      view.routes,
+      "degree:b-f-tech-bachelor-of-fashion-technology",
+    ),
   ).toBeUndefined();
 });
