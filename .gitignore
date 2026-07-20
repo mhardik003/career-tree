@@ -33,3 +33,6 @@ pipeline/__pycache__/
 # --- Local visual brainstorming artifacts ---
 /.superpowers/
 /docs/superpowers/
+
+# --- Local review logs ---
+BUGS*.md
