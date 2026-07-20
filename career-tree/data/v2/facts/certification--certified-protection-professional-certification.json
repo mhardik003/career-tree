@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Awarding body",
+      "value": "ASIS International awards the Certified Protection Professional (CPP®), a board certification in security management.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/certified-protection-professional-cpp/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "label": "Intended level",
+      "value": "CPP is intended for senior-level security managers and requires substantial relevant security experience plus at least three years in responsible charge of a security function.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/certified-protection-professional-cpp/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "label": "Exam format",
+      "value": "The computer-based CPP examination has 200 scored multiple-choice items and 25 unscored pretest items, with a four-hour testing time.",
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+        "https://www.asisonline.org/certification/certified-protection-professional-cpp/"
+      ]
+    },
+    {
+      "label": "Testing access",
+      "value": "ASIS states that its examinations can be taken at Prometric test centres worldwide or remotely through Prometric’s ProProctor platform, subject to the applicable testing requirements.",
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "label": "Validity and renewal",
+      "value": "CPP holders must recertify every three years; ASIS requires 60 continuing professional education (CPE) hours during each three-year certification cycle.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/recertification/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "label": "Indicative examination fee",
+      "value": "ASIS lists CPP application-and-exam fees of US$580 for members and US$910 for nonmembers, with lower emerging-market rates. These USD amounts, country classification, taxes, exchange rates, and optional preparation costs are variable and should be checked before applying.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/apply-for-certification/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who the CPP is for and eligibility requirements",
+      "paragraphs": [
+        "CPP is an experience-based professional certification rather than an entry-level course. ASIS specifies one of three education-and-experience routes: seven years of security experience without a higher-education degree; six years with a bachelor’s degree or international equivalent; or five years with a master’s degree or international equivalent. Each route requires at least three years in responsible charge of a security function. Candidates holding ASIS’s APP designation receive a one-year reduction in the stated general-security-experience requirement, while the three years of responsible charge still applies.",
+        "“Responsible charge” means authority to make independent decisions and actions regarding operational methodology and execution of a security-related project or process. It does not require supervising others, but ASIS says it generally excludes patrol-officer-equivalent roles.",
+        "In addition to the CPP-specific experience route, applicants must have been employed full time in a security-related role, meet ASIS conduct requirements, and not have a disqualifying felony conviction. Relevant full-time internship experience of up to one year may count under ASIS rules. Current employment is not required."
+      ],
+      "bullets": [
+        "No higher-education degree: 7 years of security experience, or 6 years if the applicant holds APP, plus 3 years in responsible charge.",
+        "Bachelor’s degree or international equivalent: 6 years of security experience, or 5 with APP, plus 3 years in responsible charge.",
+        "Master’s degree or international equivalent: 5 years of security experience, or 4 with APP, plus 3 years in responsible charge.",
+        "For Indian applicants, ASIS evaluates degrees as higher education or an international equivalent; retain an unofficial university transcript for the application."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+        "https://www.asisonline.org/certification/certified-protection-professional-cpp/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Time commitment, examination window, and credential cycle",
+      "paragraphs": [
+        "CPP does not have a fixed teaching duration because it is a certification examination based on prior professional experience. The exam appointment itself allows four hours for 200 scored and 25 unscored multiple-choice items.",
+        "After ASIS approves an application, it states that review normally takes about two to three weeks. The authorization-to-test period is one year, within which a candidate has up to three attempts; ASIS requires at least 60 days between attempts. An applicant who does not take the examination within the one-year eligibility period forfeits the application and testing fee.",
+        "Once certified, the CPP cycle is three years. To remain active, the certificant must complete 60 CPE hours and submit recertification through the ASIS process in the final year of that cycle."
+      ],
+      "bullets": [
+        "Exam appointment: 4 hours.",
+        "Application review: approximately 2–3 weeks after submission, according to ASIS.",
+        "Candidacy: 1 year after authorization to test, with up to 3 attempts.",
+        "Maintenance: 60 CPE hours every 3 years."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+        "https://www.asisonline.org/certification/apply-for-certification/",
+        "https://www.asisonline.org/certification/recertification/"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the CPP examination covers",
+      "paragraphs": [
+        "ASIS organizes the CPP body of knowledge into seven weighted domains. The examination is broader than physical guarding or technical security alone: it tests security-program leadership, commercial management, investigations, people protection, physical protection, information security, and crisis management.",
+        "The published domain weighting is: Security Principles and Practices (22%); Business Principles and Practices (15%); Investigations (9%); Personnel Security (11%); Physical Security (16%); Information Security (14%); and Crisis Management (13%). Candidates should use the official body of knowledge to map their work experience and study plan against the examined tasks.",
+        "Examples of tested capability include security risk assessments and enterprise security risk management; budgeting and supplier-contract management; evidence, surveillance, and interviews; workplace and executive protection; facility surveys and security-system design; integrated information-security controls; and business continuity, incident response, and recovery."
+      ],
+      "bullets": [
+        "Security Principles and Practices — 22%.",
+        "Business Principles and Practices — 15%.",
+        "Investigations — 9%.",
+        "Personnel Security — 11%.",
+        "Physical Security — 16%.",
+        "Information Security — 14%.",
+        "Crisis Management — 13%."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+        "https://www.asisonline.org/certification/certified-protection-professional-cpp/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Application and examination process",
+      "paragraphs": [
+        "Applicants apply online to ASIS. Before starting, ASIS asks candidates to prepare a résumé or CV aligned to the certification domains, an unofficial university transcript where applicable, contact details for three references able to verify work experience, a supervisor contact able to verify employment, and payment of the application and examination fee.",
+        "Following approval, ASIS sends an authorization-to-test email containing the eligibility ID and scheduling instructions. Candidates schedule through Prometric for either an eligible test-centre appointment or remote proctoring. The name in the application must exactly match a valid government-issued photo ID; otherwise ASIS states the candidate will not be admitted to test.",
+        "ASIS offers optional study manuals, reference sets, practice materials, review courses, and chapter study groups. These are preparation resources, not compulsory admissions requirements, and ASIS notes that study materials are purchased separately from the examination fee."
+      ],
+      "bullets": [
+        "Apply online only after checking the education-and-experience route.",
+        "Document work history carefully against CPP domains and arrange independent employment references.",
+        "Use the authorization-to-test email and ASIS ID to schedule with Prometric.",
+        "Ensure the application name and government photo ID match exactly."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/certification/apply-for-certification/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+        "https://www.asisonline.org/certification/certified-protection-professional-cpp/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and budgeting considerations",
+      "paragraphs": [
+        "ASIS publishes CPP application-and-exam fees in US dollars. Its listed standard rates are US$580 for ASIS members and US$910 for nonmembers. ASIS also publishes Emerging Market 1 and Emerging Market 2 rates: US$480 and US$460 respectively for members, and US$720 and US$680 respectively for nonmembers. The listed prices include a nonrefundable US$160 component.",
+        "For an Indian candidate, the applicable rate should be verified directly with ASIS at the time of application because emerging-market treatment is linked to World Bank country classifications and ASIS says rates are adjusted accordingly. Budget separately for foreign-exchange conversion, payment-provider charges, applicable taxes, travel if choosing a test centre, and optional study resources.",
+        "If a retake is needed, ASIS lists CPP/PCI/PSP retake fees of US$480 at the standard rate, US$360 for Emerging Market 1, and US$330 for Emerging Market 2. ASIS also states that fees are evaluated every two years, so applicants should treat all fee figures as dated and variable rather than guaranteed future prices."
+      ],
+      "bullets": [
+        "Published standard fee: US$580 for members; US$910 for nonmembers.",
+        "Published emerging-market fee bands: US$480/US$460 for members and US$720/US$680 for nonmembers.",
+        "Published retake fees: US$480 standard, US$360 Emerging Market 1, US$330 Emerging Market 2.",
+        "Study materials are optional and sold separately."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/certification/apply-for-certification/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After certification",
+      "paragraphs": [
+        "After passing, ASIS issues a certificate showing the certification-cycle dates and certification number, and provides a digital credential through its credentialing partner. The practical next step is to plan CPE activity from the start of the three-year cycle rather than waiting until recertification is due.",
+        "For professionals seeking a more specialised ASIS pathway, the related credentials are Professional Certified Investigator (PCI®), focused on investigations and case management, and Physical Security Professional (PSP®), focused on physical-security assessment, systems, and implementation. CPP is the senior, broad security-management credential; a candidate who already holds CPP is not permitted to take ASIS’s entry-level APP examination."
+      ],
+      "bullets": [
+        "Claim the certificate and digital credential after passing.",
+        "Record eligible CPE evidence in the ASIS portal throughout the three-year cycle.",
+        "Consider PCI for investigation-focused work or PSP for specialist physical-security work, where career responsibilities fit those bodies of knowledge."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+        "https://www.asisonline.org/certification/recertification/",
+        "https://www.asisonline.org/certification/apply-for-certification/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official CPP overview and eligibility",
+      "url": "https://www.asisonline.org/certification/certified-protection-professional-cpp/",
+      "kind": "official certification page"
+    },
+    {
+      "label": "ASIS certification application guidance",
+      "url": "https://www.asisonline.org/certification/apply-for-certification/",
+      "kind": "official application guidance"
+    },
+    {
+      "label": "ASIS International Certification Handbook",
+      "url": "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+      "kind": "official handbook"
+    },
+    {
+      "label": "ASIS recertification requirements",
+      "url": "https://www.asisonline.org/certification/recertification/",
+      "kind": "official renewal guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

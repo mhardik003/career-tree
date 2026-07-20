@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role focus",
+      "value": "Product designers develop tangible responses to user needs, balancing usability, aesthetics, ergonomics, materials and manufacturing considerations.",
+      "source_urls": [
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes/product-design-bdes"
+      ]
+    },
+    {
+      "label": "Typical undergraduate route",
+      "value": "B.Des. is a UGC-specified four-year bachelor’s degree entered after 10+2; NID offers Product Design within its Industrial Design faculty.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1095.html",
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes",
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes/product-design-bdes"
+      ]
+    },
+    {
+      "label": "Postgraduate option",
+      "value": "At NID, the full-time M.Des. is two-and-a-half years and includes Product Design in the Industrial Design faculty; for the 2026–27 cycle, NID stated that a bachelor’s degree or equivalent in any discipline could meet its educational-qualification requirement, subject to all admissions rules.",
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "label": "National classification context",
+      "value": "India’s National Classification of Occupations (NCO 2015) includes related titles such as Product Design Manager, Product Design Engineer and Prototyping Engineer, so employer job titles may differ from the canonical title “Product Designer.”",
+      "source_urls": [
+        "https://www.ncs.gov.in/hi-in/Documents/NCO%20-%202015.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a product designer does",
+      "paragraphs": [
+        "In the physical-product context, product design starts with understanding users and turns those needs into tangible solutions. NID’s Product Design curriculum describes work across products, services and experiences, with emphasis on user needs, ergonomics, materials, manufacturing techniques and aesthetic judgement.",
+        "A typical development cycle can include research, concept development, detailing, prototyping and refinement for production. An NID industry-linked ceramic-product project, for example, documented market research, assessment of manufacturing capability, product-range development, prototyping, final-product development, packaging, and attention to production friendliness and cost.",
+        "The role should not be confused automatically with a digital-only UI/UX role: product design can overlap with interaction and services, but this node is specifically anchored in designing physical products that can be manufactured."
+      ],
+      "bullets": [
+        "Investigate user, market and contextual needs before defining a design direction.",
+        "Develop and communicate concepts through sketches, models, drawings or other design representations.",
+        "Apply ergonomics, material knowledge, manufacturing constraints and aesthetic judgement.",
+        "Work with production stakeholders to prototype, evaluate, detail and improve a product before manufacture."
+      ],
+      "source_urls": [
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes/product-design-bdes",
+        "https://youngdesigners.nid.edu/archive/yd14/cgd/student/259"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Education and entry routes in India",
+      "paragraphs": [
+        "A direct route is a four-year B.Des. with Product Design or an Industrial Design specialisation. The UGC degree-specification compendium lists B.Des. as a four-year bachelor’s programme with 10+2 as the minimum entry qualification, and NID lists Product Design as a B.Des. discipline in its Industrial Design faculty.",
+        "For selected IIT/IIITDM undergraduate design programmes, UCEED is an admissions route. For the 2026 cycle, applicants needed a UCEED rank and a qualifying Class XII/equivalent examination; subject-stream eligibility varied by institute, with some participating institutes open to all streams and others requiring specified science subjects. These rules are cycle- and institute-specific.",
+        "A postgraduate route is M.Des. Product Design or a related design specialisation. NID’s 2026–27 handbook lists Product Design among its M.Des. Industrial Design disciplines and states that applicants needed a bachelor’s degree or equivalent in any discipline, alongside the applicable age and DAT requirements. CEED is another qualifying examination used by several institutes for M.Des. admissions, but a CEED qualification alone does not guarantee admission because institutes may apply further tests, interviews and eligibility checks."
+      ],
+      "bullets": [
+        "Build a demonstrable portfolio of research, ideation, model-making/prototypes, iteration and final rationale alongside formal study.",
+        "Check the current admissions handbook of each institute rather than relying on an earlier year’s eligibility, exam date, fee or seat information.",
+        "Students considering manufacturing-oriented work can complement design education with exposure to materials, fabrication processes, ergonomics and production constraints."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1095.html",
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes",
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes/product-design-bdes",
+        "https://www.uceed.iitb.ac.in/2026/eligibility-admission.html",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf",
+        "https://www.ceed.iitb.ac.in/2026/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The core capability is user-centred problem solving that remains feasible in the physical world. NID explicitly identifies design principles, ergonomics, materials, manufacturing techniques, aesthetic sensibility, research and responsiveness to varied user needs as central to Product Design learning.",
+        "Admission and progression in design also reward visual and spatial ability, drawing, logical reasoning, creativity, communication and problem solving. IIT Bombay’s CEED framework identifies these as design aptitudes assessed for postgraduate design entry; these are useful preparation targets rather than a complete employer competency standard."
+      ],
+      "bullets": [
+        "User research and synthesis: identify physical, economic and emotional user needs.",
+        "Concept generation and visual communication: sketch, draw, model and explain alternatives clearly.",
+        "Ergonomics and human factors: account for fit, comfort, accessibility and use.",
+        "Materials and manufacturing literacy: design with process capability, cost and production constraints in mind.",
+        "Prototyping and evaluation: make, test, learn and refine rather than treating the first concept as final.",
+        "Communication and collaboration: explain design decisions to users, clients, engineers, fabricators and production teams."
+      ],
+      "source_urls": [
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes/product-design-bdes",
+        "https://www.ceed.iitb.ac.in/2026/downloads/CEED2026_Brochure.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Possible progression and adjacent paths",
+      "paragraphs": [
+        "Progression is employer-dependent rather than fixed. Related occupational titles in NCO 2015 include Product Design Engineer, Prototyping Engineer and Product Design Manager, indicating possible movement from hands-on product development toward prototyping, engineering coordination or design-management responsibilities.",
+        "Further specialisation is available through M.Des. study. NID’s 2026–27 offering includes Product Design as well as adjacent Industrial Design disciplines such as Furniture & Interior Design, Toy & Game Design, Transportation & Automobile Design and Universal Design; it also lists Strategic Design Management in an interdisciplinary faculty. These are examples of directions, not mandatory career stages."
+      ],
+      "bullets": [
+        "Early practice: contribute to research, concepts, models, prototypes and detailed development under project or senior-design guidance.",
+        "Senior practice: lead larger portions of the design process and coordinate more closely with engineering, fabrication or manufacturing stakeholders.",
+        "Specialisation or leadership: pursue product-design depth, related physical-design domains, prototyping/engineering collaboration, research, consultancy, or design-management responsibilities.",
+        "Postgraduate study: consider M.Des. Product Design or another appropriate specialism when it serves a defined portfolio, research or career goal."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/hi-in/Documents/NCO%20-%202015.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NID Product Design (B.Des.)",
+      "url": "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes/product-design-bdes",
+      "kind": "programme_page"
+    },
+    {
+      "label": "UCEED undergraduate admissions eligibility (2026 cycle)",
+      "url": "https://www.uceed.iitb.ac.in/2026/eligibility-admission.html",
+      "kind": "exam_admissions"
+    },
+    {
+      "label": "NID M.Des. Admissions Handbook 2026–27",
+      "url": "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf",
+      "kind": "admissions_handbook"
+    },
+    {
+      "label": "CEED official portal",
+      "url": "https://www.ceed.iitb.ac.in/2026/",
+      "kind": "exam_admissions"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

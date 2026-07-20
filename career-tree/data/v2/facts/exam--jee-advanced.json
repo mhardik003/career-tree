@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Purpose",
+      "value": "JEE (Advanced) is the entrance examination whose performance forms the basis for admission at the 10+2 entry level to bachelor’s, integrated master’s and dual-degree programmes at the IITs.",
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf"
+      ]
+    },
+    {
+      "label": "Conduct and organising institute",
+      "value": "The 2026 examination was conducted by the seven Zonal Coordinating IITs under the Joint Admission Board; IIT Roorkee was the organising institute for the 2026 cycle. The organising IIT and annual rules may change by cycle.",
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+        "https://jeeadv.ac.in/"
+      ]
+    },
+    {
+      "label": "2026 eligibility gateway for Indian nationals",
+      "value": "For the 2026 cycle, an Indian national or OCI/PIO (I) candidate had to be among the top 250,000 successful candidates in the JEE Main 2026 B.E./B.Tech. paper, as well as satisfy the other published age, attempt, Class XII and prior-IIT-admission criteria.",
+      "source_urls": [
+        "https://jeeadv.ac.in/eligibility.html",
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf"
+      ]
+    },
+    {
+      "label": "Exam format",
+      "value": "In 2026, JEE (Advanced) was a computer-based test with two compulsory three-hour papers. Each paper covered Physics, Chemistry and Mathematics; the marking scheme could include negative marks for some questions.",
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf"
+      ]
+    },
+    {
+      "label": "2026 examination date",
+      "value": "The 2026 exam was held on Sunday, May 17, 2026, with Paper 1 from 09:00–12:00 IST and Paper 2 from 14:30–17:30 IST. These dates are cycle-specific and already past as of this review.",
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf"
+      ]
+    },
+    {
+      "label": "Seat allocation",
+      "value": "A JEE (Advanced) rank does not itself guarantee an IIT seat: candidates must participate in JoSAA’s online joint seat-allocation process, and allotment depends on merit, choices, eligibility and seats available in each round.",
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+        "https://josaa.nic.in/josaa/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What JEE Advanced is for",
+      "paragraphs": [
+        "JEE (Advanced) is the IIT undergraduate entrance examination following the JEE Main screening route for most Indian applicants. In the 2026 information brochure, the Joint Admission Board states that a candidate’s performance is the basis for admission to IIT bachelor’s, integrated-master’s and dual-degree programmes for the 2026–27 academic year.",
+        "It is not a universal engineering-admission examination. The IIT programme types shown in the 2026 brochure include B.Tech., B.S., B.Arch., B.Tech.–M.Tech. dual degrees, B.S.–M.S. dual degrees and selected integrated or dual-degree variants; the exact programme and seat matrix are published by JoSAA for the relevant admission year.",
+        "One important pathway distinction: B.Arch. at the listed IITs requires both qualification in JEE (Advanced) and a pass in the Architecture Aptitude Test (AAT). By contrast, JoSAA identifies JEE Main B.Planning—not JEE Advanced—as the qualifying examination for B.Planning admissions in its 2026 system."
+      ],
+      "bullets": [
+        "Use JEE Main B.E./B.Tech. performance to become eligible for JEE (Advanced), if applying as an Indian national or OCI/PIO (I).",
+        "Use the resulting JEE (Advanced) rank in the applicable JoSAA process for IIT choices and allotment.",
+        "Treat programme availability, seat counts and admission business rules as annual, not permanent."
+      ],
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+        "https://josaa.nic.in/josaa/"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: the 2026 rules in practical terms",
+      "paragraphs": [
+        "Eligibility is cycle-specific. For Indian nationals and OCI/PIO (I) candidates in 2026, all five criteria applied together: top-250,000 performance in the JEE Main B.E./B.Tech. paper; the stated age limit; no more than two attempts in two consecutive years; first appearance in Class XII/equivalent in the permitted years with Physics, Chemistry and Mathematics compulsory; and compliance with restrictions relating to earlier IIT admission.",
+        "For 2026 specifically, the normal age threshold was birth on or after October 1, 2001, with a five-year relaxation for SC, ST and PwD candidates. A candidate could attempt JEE (Advanced) at most twice in two consecutive years. The Class XII first-appearance rule was normally 2025 or 2026, subject to a narrowly specified board-result-date exception for certain 2024 candidates.",
+        "Being permitted to sit the exam is different from meeting the Class XII condition for IIT admission. For 2026 admission, candidates needed Physics, Chemistry and Mathematics and had to meet either at least 75% aggregate marks in a minimum of five Class XII subjects (65% for SC, ST and PwD candidates) or be within their category-wise top 20 percentile in the relevant board examination. Applicants should read the current year’s brochure rather than rely on these 2026 thresholds."
+      ],
+      "bullets": [
+        "Foreign nationals and OCI/PIO (F) candidates follow separate eligibility and direct-registration provisions; they were not required to write JEE Main in the 2026 rules.",
+        "Earlier admission to an IIT can make a candidate ineligible, although the brochure specifies limited exceptions, such as certain withdrawals before the final allocation round.",
+        "Reservation, disability accommodations and documentation are governed by the current brochure and applicable Government of India rules."
+      ],
+      "source_urls": [
+        "https://jeeadv.ac.in/eligibility.html",
+        "https://jeeadv.ac.in/admission_criteria.html",
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam structure and what it tests",
+      "paragraphs": [
+        "The 2026 test used computer-based testing only. It comprised Paper 1 and Paper 2, each lasting three hours, and a candidate had to appear in both for responses to be evaluated. Each paper had separate Physics, Chemistry and Mathematics sections.",
+        "The papers are designed to assess comprehension, reasoning and analytical ability. They were offered in English and Hindi, with the candidate able to switch languages during the examination; the English version prevailed if an interpretation differed. Some questions could carry negative marks, and the detailed question-type and marking instructions were provided at the time of the examination.",
+        "For candidates eligible for compensatory time under the published disability provisions, the 2026 rules allowed one additional hour per paper. The official site also provided practice tests for Paper 1 and Paper 2, useful for becoming familiar with the CBT interface."
+      ],
+      "bullets": [
+        "Plan for the full two-paper day rather than treating Paper 2 as optional.",
+        "Practise the official CBT workflow as well as PCM problem solving.",
+        "Read the marking instructions on the live test carefully; they can vary by question type."
+      ],
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+        "https://jeeadv.ac.in/"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and admission process",
+      "paragraphs": [
+        "For the 2026 cycle, eligible candidates registered online through the JEE (Advanced) portal. Registration for JEE Main-qualified candidates ran from April 23, 2026 to May 2, 2026, and the fee-payment deadline was May 4, 2026. These dates are historical 2026 dates, not a forecast for a future cycle.",
+        "The 2026 India-centre registration fee was ₹1,600 for female candidates of all categories and for SC, ST and PwD candidates, and ₹3,200 for other Indian-national candidates; payment-gateway and bank charges were excluded. Fees, categories, centres and deadlines can change, so applicants should use the current official registration notice before paying.",
+        "After the examination, qualifying candidates receive category-wise All India Ranks through the JEE (Advanced) portal and then use JoSAA’s online process to submit choices and participate in seat allocation. A rank, choice filling or participation does not guarantee admission because allotment depends on merit and available seats. For B.Arch. at IIT (BHU) Varanasi, IIT Kharagpur and IIT Roorkee in 2026, a qualified candidate also needed to pass AAT."
+      ],
+      "bullets": [
+        "Check eligibility before beginning registration; registration can later be cancelled if criteria are not met.",
+        "Keep the current brochure’s document, category-certificate and payment instructions alongside the portal checklist.",
+        "After results, follow JoSAA’s current-year business rules, schedule, seat matrix and institute-specific restrictions."
+      ],
+      "source_urls": [
+        "https://jeeadv.ac.in/registration.html",
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+        "https://josaa.nic.in/josaa/"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach grounded in the official exam design",
+      "paragraphs": [
+        "Build preparation around the official syllabus and the three subject areas in both papers: Physics, Chemistry and Mathematics. Because the papers are intended to assess comprehension, reasoning and analytical ability—not merely recall—use timed multi-step problem practice and review the reasoning behind errors.",
+        "Take the official Paper 1 and Paper 2 practice tests before exam day. This reduces avoidable friction with the CBT interface, including moving among questions, selecting answers and working under the on-screen timer. Also use official previous-year question papers and the current syllabus available from the JEE (Advanced) website.",
+        "Include a two-paper simulation in the study plan. In the 2026 format, both three-hour papers were compulsory and negative marking could apply to some questions, so accuracy, question selection and time management are as important as attempting a high volume of questions."
+      ],
+      "bullets": [
+        "Map every topic to the official syllabus before adding external study material.",
+        "Use full-length, two-session mocks and analyse incorrect, guessed and unattempted questions separately.",
+        "Recheck the current brochure for changes to format, language, accessibility arrangements or marking instructions."
+      ],
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+        "https://jeeadv.ac.in/"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a JEE Advanced result can lead to",
+      "paragraphs": [
+        "A qualifying JEE (Advanced) result produces rank-list eligibility, not automatic enrolment. In 2026, rank lists were prepared from aggregate marks across Physics, Chemistry and Mathematics, and JoSAA used the common online allocation process for seats across participating institutions. Candidates should judge options using the current year’s published opening/closing ranks, seat matrix, programme restrictions and business rules rather than assume a past closing rank will repeat.",
+        "The principal outcome is access to IIT undergraduate programmes, subject to Class XII performance requirements and allocation. The JEE (Advanced) brochure also notes that some other institutions have used JEE (Advanced) ranks for admissions, including IISc, IISERs, IIST, RGIPT and IIPE, but applicants must consult those institutions directly because their participation and rules may differ by year.",
+        "For the 2026 JoSAA session, the Ministry of Education’s joint allocation system covered IITs and IISc alongside other institute groups, but different qualifying examinations apply to different programmes. That distinction matters when comparing engineering, architecture and planning routes."
+      ],
+      "bullets": [
+        "For IIT B.Arch., plan for AAT in addition to JEE (Advanced) qualification.",
+        "For B.Planning, verify the JEE Main B.Planning route rather than assuming JEE (Advanced) applies.",
+        "Compare programme curriculum, location, duration and institute-specific admission conditions after the current seat matrix is released."
+      ],
+      "source_urls": [
+        "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+        "https://josaa.nic.in/josaa/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "JEE (Advanced) official website",
+      "url": "https://jeeadv.ac.in/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "JEE (Advanced) 2026 Information Brochure",
+      "url": "https://jeeadv.ac.in/documents/IBEnglish_2026.pdf",
+      "kind": "official brochure"
+    },
+    {
+      "label": "JEE (Advanced) eligibility criteria",
+      "url": "https://jeeadv.ac.in/eligibility.html",
+      "kind": "official eligibility page"
+    },
+    {
+      "label": "Joint Seat Allocation Authority (JoSAA)",
+      "url": "https://josaa.nic.in/josaa/",
+      "kind": "official counselling and allocation portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

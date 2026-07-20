@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Conducting body",
+      "value": "The National Testing Agency (NTA), an autonomous organization under India’s Ministry of Education, conducts CUET-UG.",
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "What it is for",
+      "value": "CUET-UG is a common entrance test whose scores are used by Central Universities and other participating universities/institutions for undergraduate admissions.",
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "Eligibility baseline for CUET-UG 2026",
+      "value": "There was no age limit; candidates who had passed Class 12/equivalent or were appearing in 2026 could sit the test, subject to the admission conditions of their target university and programme.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "2026 test structure",
+      "value": "CUET-UG 2026 offered 37 tests—13 languages, 23 domain subjects, and one General Aptitude Test. A candidate could choose up to five tests.",
+      "source_urls": [
+        "https://cuet.nta.nic.in/cuetug-2026-syllabus/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "2026 delivery and marking",
+      "value": "The 2026 examination used computer-based testing. Each test paper had 50 compulsory multiple-choice questions in 60 minutes, with +5 for a correct answer and −1 for an incorrect answer.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "Score use",
+      "value": "For the 2026 cycle, the NTA score was valid only for admission to the 2026–27 academic year; individual universities conducted their own merit-list and admission processes.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and place in undergraduate admissions",
+      "paragraphs": [
+        "CUET-UG is a national common entrance examination for undergraduate programmes. NTA’s role is to register candidates, conduct the test, host answer-key challenges, declare NTA scores, and provide scorecards. The participating university—not NTA—sets the programme-level eligibility, prepares the merit list, and manages counselling or admission.",
+        "For students coming from arts, commerce, PCM, PCB, or PCMB in Classes 11–12, CUET-UG can support applications to a broad range of participating-university programmes. It is not itself an admission offer: a candidate must meet the specific university’s required Class 12 subjects, marks, category rules, documentation requirements, and any other admission conditions."
+      ],
+      "bullets": [
+        "Use CUET-UG to seek admission to programmes at Central Universities and other participating state, deemed, private, autonomous, or other institutions.",
+        "Check the intended university’s programme mapping before selecting CUET papers; the participating-university list and programme offerings can change.",
+        "Do not assume that a CUET score alone guarantees a seat."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: exam eligibility versus course eligibility",
+      "paragraphs": [
+        "For CUET-UG 2026, NTA imposed no age limit. Candidates who had passed Class 12 (or an equivalent qualifying examination), or who were appearing in Class 12/equivalent in 2026, could take the examination. Recognized qualifying routes included 10+2 examinations of recognized boards, certain pre-university examinations, NIOS senior secondary examinations, specified diplomas, and recognized international qualifications.",
+        "This exam-level permission does not replace course eligibility. A university may impose its own age limit, minimum marks, required Class 12 subjects, accepted qualifying-examination year, reservation requirements, or additional criteria. Students should therefore first choose target programmes and then select only the CUET tests required by those programmes."
+      ],
+      "bullets": [
+        "There was no CUET-UG 2026 age limit, but a target university could apply one.",
+        "Candidates could choose CUET tests irrespective of their Class 12 subjects for the exam; however, university programme requirements still governed admission eligibility.",
+        "Candidates with overseas or otherwise unlisted Class 12-equivalent qualifications may need an equivalence certificate as specified by NTA and the admitting university."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "https://cuet.nta.nic.in/universities/"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "CUET-UG 2026 format",
+      "paragraphs": [
+        "CUET-UG 2026 was conducted only as a computer-based test (CBT), in multiple shifts as required by candidate volume and subject choices. Question papers were available in 13 Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, and Urdu. Where a bilingual paper was used, the English version prevailed in case of a discrepancy.",
+        "The 2026 catalogue comprised 13 language tests, 23 domain-specific tests, and the General Aptitude Test. Candidates could select a maximum of five tests, including languages and the General Aptitude Test. Each selected test paper had 50 compulsory objective MCQs and a 60-minute duration. The published marking rule was +5 for a correct response, −1 for an incorrect response, and 0 for an unanswered question."
+      ],
+      "bullets": [
+        "Language tests assess reading comprehension, literary aptitude, and vocabulary.",
+        "Domain-subject syllabi are based on NCERT syllabi.",
+        "The General Aptitude Test covers general knowledge and current affairs, mental ability, numerical/quantitative reasoning, and logical and analytical reasoning.",
+        "PwBD candidates eligible for compensatory time were provided 20 minutes for each hour of examination."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/cuetug-2026-syllabus/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process and 2026 fee context",
+      "paragraphs": [
+        "The CUET-UG 2026 process was online through the NTA CUET portal. Applicants registered to obtain an application number, completed personal and education details, selected universities/programmes and test papers, chose examination-city preferences, uploaded the required photograph, signature, and applicable disability/identity documents, paid the fee online, and saved the confirmation page. NTA instructed candidates to submit only one application form.",
+        "For context only, the original 2026 bulletin scheduled applications for January 3–30, 2026, followed by a January 31 fee-payment deadline and a February 2–4 correction window; NTA subsequently issued separate notices about registration and deadline extensions. These dates are past and should not be reused for a later cycle. Prospective applicants should rely on the live CUET-UG notice board and the relevant year’s information bulletin.",
+        "The 2026 fee was variable by category and number of selected subjects. For up to three subjects, it was ₹1,000 for General candidates, ₹900 for OBC-NCL/EWS candidates, ₹800 for SC/ST/PwD/PwBD/third-gender candidates, and ₹4,500 at centres outside India; additional-subject charges applied. Bank/payment-gateway charges and GST could be additional. These are dated 2026 figures, not a forecast for future cycles."
+      ],
+      "bullets": [
+        "Read the target university prospectus before submitting the form; confirm required CUET subjects, Class 12 prerequisites, minimum marks, and admission procedures.",
+        "Use an email address and mobile number that remain accessible, retain the application number, and download the confirmation page after successful payment.",
+        "Monitor official notices for any correction window, city-intimation slip, admit card, answer-key challenge, and scorecard updates."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cuet.nta.nic.in/documents/page/3/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Begin with reverse planning from the intended degree and university. Identify each programme’s prescribed CUET subjects, then download the official syllabus for every selected language, domain subject, and/or General Aptitude Test. This matters especially for applicants whose school stream is broad: for example, a commerce, humanities, science, or vocational student should select papers based on the receiving programme’s stated requirements rather than on assumptions about the stream alone.",
+        "Prepare domain papers from the applicable NCERT-aligned syllabus, build language-test skill through timed comprehension, vocabulary, and literary-aptitude practice, and prepare General Aptitude through current-affairs awareness plus numerical, logical, and analytical-reasoning practice. Since every paper is a 60-minute CBT with all 50 questions compulsory and negative marking, use full-length computer-based practice to refine pacing, accuracy, and question-selection discipline."
+      ],
+      "bullets": [
+        "Make a paper-selection sheet: target university, programme, mandatory Class 12 subjects, required CUET tests, and admission portal/counselling steps.",
+        "Use the official subject syllabus rather than relying solely on coaching-material topic lists.",
+        "Review mistakes by category—concept gap, careless error, time-management issue, or incorrect guess—to reduce the impact of −1 marking.",
+        "Keep university admissions separate from exam preparation: after results, monitor every target university’s merit-list and counselling notices."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/cuetug-2026-syllabus/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Results, counselling, and next steps",
+      "paragraphs": [
+        "NTA calculates results from the final answer key. For papers held in multiple shifts, raw marks are converted into an NTA Score using the published multi-shift procedure. In the 2026 cycle, NTA stated that the resulting score was valid only for the 2026–27 academic year, and that there would be no re-evaluation or re-checking after the result.",
+        "A CUET score enables participation in admissions at universities that accept the relevant score, but it does not grant admission automatically. Each institution applies its own programme eligibility, merit/rank rules, document verification, medical-fitness requirements where applicable, reservation rules, and counselling schedule. The student must therefore complete the separate university admission/counselling process and act on that university’s deadlines.",
+        "The range of possible academic outcomes includes undergraduate routes such as BA, B.Com, B.Sc, BBA, BCA, B.Voc, agriculture-related degrees, and integrated law or other programmes where a participating university lists CUET-UG for that course. Availability, required papers, seat counts, and admission cut-offs are university- and year-specific."
+      ],
+      "bullets": [
+        "Download and retain the scorecard, confirmation page, and admit card.",
+        "Follow each target university’s admissions portal after NTA results; NTA does not conduct university counselling or publish the final institutional merit list.",
+        "Treat participating-university and programme lists as dynamic, and verify the current mapping directly with the university before making decisions."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "https://cuet.nta.nic.in/universities/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CUET-UG official portal",
+      "url": "https://cuet.nta.nic.in/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "CUET-UG 2026 Information Bulletin",
+      "url": "https://cuet.nta.nic.in/information-bulletin/",
+      "kind": "official bulletin"
+    },
+    {
+      "label": "CUET-UG 2026 syllabus",
+      "url": "https://cuet.nta.nic.in/cuetug-2026-syllabus/",
+      "kind": "official syllabus"
+    },
+    {
+      "label": "Participating universities and programme information",
+      "url": "https://cuet.nta.nic.in/universities/",
+      "kind": "official university directory"
+    },
+    {
+      "label": "CUET-UG notices and documents",
+      "url": "https://cuet.nta.nic.in/documents/",
+      "kind": "official notices"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

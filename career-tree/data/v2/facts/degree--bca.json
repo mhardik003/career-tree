@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Credential",
+      "value": "BCA is an undergraduate computing qualification. A three-year full-time undergraduate programme leads to a bachelor's degree under UGC's undergraduate framework; IGNOU's BCA is an example with a 36-month minimum duration.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/locf/files/basic-html/page10.html",
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW"
+      ]
+    },
+    {
+      "label": "Illustrative entry requirement",
+      "value": "Requirements are institution-specific. IGNOU currently lists 10+2 or equivalent, or a Diploma in Commercial Practice/equivalent, for its BCA programme.",
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW"
+      ]
+    },
+    {
+      "label": "Typical study areas",
+      "value": "An official BCA curriculum example includes programming, data structures and algorithms, DBMS, computer organisation, operating systems, networks, web programming, software engineering, laboratories, and a software project.",
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW",
+        "https://www.ignou.ac.in/viewFile/SOCIS/programmeguide/BCA_NEW-May-2026.pdf"
+      ]
+    },
+    {
+      "label": "Admission route",
+      "value": "CUET-UG scores are used for undergraduate admissions at central and other participating universities, but applicants must confirm the specific BCA programme's eligibility and required test subjects with the chosen university.",
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "Illustrative published fee",
+      "value": "As listed by IGNOU when reviewed, its ODL BCA fee is ₹8,300 per semester (₹49,800 across all semesters). This is one provider's published fee, not an India-wide BCA fee benchmark, and may change.",
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW"
+      ]
+    },
+    {
+      "label": "MCA pathway",
+      "value": "For NIMCET 2026, a three-year-or-longer undergraduate degree requires Mathematics or Statistics as a subject and the prescribed aggregate/CGPA; a BCA title alone does not establish NIMCET eligibility.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: check the institution, not just the degree name",
+      "paragraphs": [
+        "BCA entry rules differ by university, mode of study, and admission year. IGNOU's current ODL BCA listing accepts 10+2 or equivalent, or a Diploma in Commercial Practice/equivalent. Its listing does not make Mathematics at Class 12 a universal condition for that version of the programme.",
+        "Where a university uses CUET-UG, CUET is an admissions test route rather than a single nationwide BCA eligibility rule. NTA instructs candidates to review the target university's programme eligibility, qualifying marks, reservation rules, available seats, and required CUET subject choices before applying."
+      ],
+      "bullets": [
+        "Students from Science, Commerce, or other Class 12 backgrounds should compare the exact BCA eligibility clause at each target institution; do not assume that PCM, Commerce, Computer Science, or Mathematics is universally required or universally waived.",
+        "For a later MCA plan, retain and document Mathematics or Statistics study where possible: some MCA admissions routes apply subject-specific conditions at the bachelor's-degree stage."
+      ],
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and academic structure",
+      "paragraphs": [
+        "BCA is commonly organised as a three-year undergraduate course. The UGC learning-outcomes framework states that students completing three years of full-time undergraduate study are awarded a bachelor's degree. Under UGC's newer undergraduate curriculum-and-credit framework, institutions may also implement flexible credit structures and multiple entry/exit arrangements, so the precise award structure should be verified with the admitting institution.",
+        "For a concrete current example, IGNOU describes its BCA as having a minimum duration of 36 months and a maximum duration of 72 months. That maximum-completion window is specific to IGNOU's programme and should not be treated as a rule for all colleges."
+      ],
+      "bullets": [
+        "Confirm whether the programme is regular, online, or open/distance learning, as delivery, attendance, laboratory arrangements, assessment, and completion rules can differ.",
+        "Check the current prospectus for the number of semesters, credits, project requirements, and any exit options before paying an admission fee."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/locf/files/basic-html/page10.html",
+        "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students typically study",
+      "paragraphs": [
+        "There is no single national BCA syllabus: universities set their own curriculum within applicable academic frameworks. IGNOU's current BCA curriculum is a useful official illustration rather than a universal syllabus. It covers computer fundamentals, mathematics, C and Python, computer organisation, operating systems, data structures and algorithms, database management systems, C++, Java, web programming, networks, statistics, software engineering, e-commerce, and practical laboratory work.",
+        "A substantial capstone component can matter for job readiness. IGNOU describes its BCA project as a sixth-semester software solution that applies requirements analysis, systems design, development, testing, and documentation; it encourages undertaking the project in a software industry or research organisation where feasible."
+      ],
+      "bullets": [
+        "Look for hands-on programming and database labs, not only theory papers.",
+        "Compare whether the syllabus includes current practical exposure in web development, databases, networks, software engineering, algorithms, and a final project.",
+        "Review the current semester-wise scheme because course codes, programming languages, elective choices, and project rules can change."
+      ],
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW",
+        "https://www.ignou.ac.in/viewFile/SOCIS/programmeguide/BCA_NEW-May-2026.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admissions: CUET may be relevant, but is not universal",
+      "paragraphs": [
+        "BCA admission is administered by the university or college. CUET-UG provides a common score for undergraduate admissions at central universities and other participating state, deemed, private, and government institutions. Participation in CUET does not mean every participating institution offers BCA, nor that every BCA provider uses CUET.",
+        "For CUET-UG 2026, NTA stated that applicants could select up to five subjects, including languages and the General Aptitude Test, and specifically directed them to choose tests according to the eligibility requirements of their desired university programme. Therefore, select the target BCA programme first, then map its stated test-subject requirements before registration in a future cycle."
+      ],
+      "bullets": [
+        "Use the university's programme page/prospectus to verify: whether BCA is offered; Class 12 subjects and minimum marks; entrance-test route; reservation and document rules; counselling process; and fee schedule.",
+        "Treat admission calendars and application deadlines as year-specific. The CUET-UG 2026 registration and examination dates published by NTA applied only to that cycle."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cuet.nta.nic.in/participating-universities/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs: use provider-level figures, not a national average",
+      "paragraphs": [
+        "BCA fees vary materially by institution type, location, delivery mode, facilities, and year. As a dated official reference point, IGNOU's current ODL BCA page lists ₹8,300 per semester and ₹49,800 for all semesters. It is not evidence of the fee at a regular college, private university, or another distance/online provider.",
+        "Applicants should separate tuition from one-time admission charges, examination fees, laboratory or technology charges, study materials, hostel and living costs, and entrance-test fees. The current official prospectus and payment page of the chosen institution are the appropriate sources for a final cost calculation."
+      ],
+      "bullets": [
+        "Record the publication date and academic session attached to every fee quote.",
+        "Check refund, instalment, scholarship, and category-concession rules directly with the institution before enrolling."
+      ],
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After BCA: employment, MCA, and other postgraduate choices",
+      "paragraphs": [
+        "A BCA can support entry-level IT or IT-enabled-services pathways when paired with demonstrable skills, projects, internships, and the employer's stated requirements. IGNOU identifies examples including assistant programmer, assistant software engineer, and data-processing assistant; these are illustrative roles rather than guaranteed outcomes or a salary promise.",
+        "MCA is a common academic progression. NIMCET 2026 is the national-level entrance route for MCA admissions at 11 participating NITs and two IIITs. Its 2026 eligibility required Indian nationals to have at least 60% aggregate or 6.5/10 CGPA (55% or 6.0/10 for SC/ST/PwD) in a minimum three-year undergraduate programme with Mathematics or Statistics as a subject, or a BE/BTech. Candidates should re-check the next cycle's brochure because eligibility, institutions, fees, and schedule can change.",
+        "A BCA graduate may also consider MBA or other master's programmes, government recruitment examinations, or specialised skill paths such as software development, web development, and digital marketing. Each route has independent degree, subject, age, test, work-experience, and selection conditions; the relevant official notification—not the BCA degree alone—determines eligibility."
+      ],
+      "bullets": [
+        "For software and web roles, build a portfolio with source code, deployed work, documentation, and evidence of testing or collaboration.",
+        "For MCA planning, check Mathematics/Statistics eligibility early and preserve mark sheets/course records.",
+        "For MBA, public-sector examinations, or overseas study, verify the specific examination or university's current eligibility and selection rules."
+      ],
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BCA_NEW",
+        "https://nimcet.admissions.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "IGNOU BCA programme information",
+      "url": "https://www.ignou.ac.in/schools/programme/BCA_NEW",
+      "kind": "official programme page"
+    },
+    {
+      "label": "IGNOU BCA programme guide (May 2026)",
+      "url": "https://www.ignou.ac.in/viewFile/SOCIS/programmeguide/BCA_NEW-May-2026.pdf",
+      "kind": "official curriculum guide"
+    },
+    {
+      "label": "CUET-UG official portal",
+      "url": "https://cuet.nta.nic.in/",
+      "kind": "official examination portal"
+    },
+    {
+      "label": "CUET-UG 2026 information bulletin",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+      "kind": "official examination bulletin"
+    },
+    {
+      "label": "NIMCET official portal",
+      "url": "https://nimcet.admissions.nic.in/",
+      "kind": "official examination portal"
+    },
+    {
+      "label": "NIMCET 2026 information brochure",
+      "url": "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf",
+      "kind": "official examination brochure"
+    },
+    {
+      "label": "UGC Curriculum and Credit Framework for Undergraduate Programmes",
+      "url": "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+      "kind": "regulator framework"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

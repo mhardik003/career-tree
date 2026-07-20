@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Entry point under the current ICAI scheme",
+      "value": "A student may commence practical training only after passing both groups of CA Intermediate and successfully completing the four-week Integrated Course on Information Technology and Soft Skills (ICITSS).",
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "Practical training under ICAI’s New Scheme of Education and Training is two years. Students who had already commenced a three-year articleship under the old scheme continue under that prior arrangement.",
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+        "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf"
+      ]
+    },
+    {
+      "label": "Leave entitlement",
+      "value": "Under the New Scheme, an articled assistant is entitled to 12 days of leave in each year of practical training; leave beyond that entitlement is excess leave to be served.",
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+        "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf"
+      ]
+    },
+    {
+      "label": "Digital training record",
+      "value": "For students commencing practical training on or after January 1, 2026, ICAI requires use of the E-Diary to record attendance and work performed, with periodic review by the principal.",
+      "source_urls": [
+        "https://www.icai.org/post/prc-icai-launch-mandatory-e-diary-08012026"
+      ]
+    },
+    {
+      "label": "Industrial-training alternative",
+      "value": "During the second year/last part of the two-year practical-training period, an eligible articled assistant may undertake industrial training for 9–12 months through an ICAI-approved arrangement. ICAI’s January 2026 announcement states that eligibility requires at least 12 months of practical training and Intermediate passed.",
+      "source_urls": [
+        "https://www.icai.org/post/23674",
+        "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who can begin CA articleship?",
+      "paragraphs": [
+        "For students following ICAI’s New Scheme of Education and Training, passing CA Intermediate alone is not sufficient: the student must have passed both Intermediate groups and completed the four-week ICITSS before commencing practical training. ICITSS combines the Orientation Course and Information Technology Training.",
+        "This makes articleship the supervised work-based stage after Intermediate rather than a route that can ordinarily begin alongside Intermediate study. Students should confirm their course-scheme status in ICAI’s Self Service Portal (SSP), because candidates who began under earlier schemes can remain subject to transition arrangements."
+      ],
+      "bullets": [
+        "The prerequisite is both groups of CA Intermediate passed.",
+        "ICITSS must be completed before the training start date.",
+        "Students who commenced three-year training under the old scheme continue that three-year commitment rather than automatically moving to two years."
+      ],
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+        "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Length, leave, and working-time framework",
+      "paragraphs": [
+        "The New Scheme prescribes two years of practical training. ICAI’s articleship guidance allows 12 days of leave in each training year; excess leave must be made good, so it can extend the effective completion date.",
+        "ICAI’s working-hours directions specify 35 hours a week excluding lunch. Work beyond normal hours is intended only for exceptional circumstances, and aggregate hours may not exceed 45 in a week; compensatory leave applies where weekly hours exceed 35. These directions also restrict attendance at college or another institution during training work hours."
+      ],
+      "bullets": [
+        "New Scheme duration: 2 years.",
+        "Leave: 12 days in each year; excess leave must be served.",
+        "Normal training workload: 35 hours per week excluding lunch; the exceptional maximum is 45 hours per week.",
+        "The normal office hours for articled assistants are not to begin after 11:00 a.m. or end before 5:00 p.m."
+      ],
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+        "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf",
+        "https://icai.org/post/announcement-regarding-working-hours-of-the-articled-assistants"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What practical training covers",
+      "paragraphs": [
+        "Articleship is supervised on-the-job professional training rather than a standalone classroom syllabus. ICAI’s E-Diary framework requires trainees beginning from January 1, 2026 to digitally record attendance and tasks, while principals review the entries. ICAI describes the system as a mechanism for skill mapping, training-quality consistency, and monitoring.",
+        "The work exposure is shaped by the principal or approved training setting. ICAI specifically identifies auditing, taxation, and consultancy among the areas whose hours and tasks can be tracked through the E-Diary. A student should therefore assess a prospective principal or organisation for the breadth of assignments and supervision offered, rather than assuming every articleship provides identical exposure."
+      ],
+      "bullets": [
+        "Record daily attendance and work performed in the E-Diary if commencing on or after January 1, 2026.",
+        "Submit task records fortnightly for principal review and approval.",
+        "Expect work-based exposure that may include audit, tax, and consultancy, depending on the training placement."
+      ],
+      "source_urls": [
+        "https://www.icai.org/post/prc-icai-launch-mandatory-e-diary-08012026"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How articleship is registered",
+      "paragraphs": [
+        "In practice, the student first secures a training placement with a principal and executes the articleship deed. ICAI’s articleship-forms FAQ states that the deed must be executed on stamp paper dated within 30 days of commencement; failure to execute Form 102 on stamp paper makes the articles training invalid.",
+        "Registration is handled through the SSP workflow. ICAI says physical copies of Forms 102, 103, or 104 need not be posted to the regional office; after member approval, the student submits the form through SSP for regional-office approval. Delayed filing is possible with a condonation request, prescribed fee, and supporting records such as attendance, work diary, and bank evidence of stipend payment."
+      ],
+      "bullets": [
+        "Execute the deed, including Form 102, on appropriate stamp paper within 30 days of starting.",
+        "Submit the applicable registration form through ICAI SSP after member approval; do not rely on postal submission alone.",
+        "Keep copies and evidence of the deed, attendance, work diary, and monthly stipend credits.",
+        "If pursuing another course or occupation alongside articleship, obtain ICAI permission through Form 112 as applicable."
+      ],
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf",
+        "https://icai.org/post/announcement-regarding-working-hours-of-the-articled-assistants"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Stipend and filing-cost context",
+      "paragraphs": [
+        "Articleship is paid training, but the applicable stipend rules should be checked at the time of joining. ICAI’s New Scheme FAQ, last updated September 27, 2024, described proposed two-year-scheme monthly minimums of ₹5,000/₹6,000 in cities or towns with population of 20 lakh or more, ₹4,000/₹5,000 for locations from 5 lakh to below 20 lakh, and ₹3,000/₹4,000 for locations below 5 lakh, for the first and second year respectively. Crucially, ICAI labelled these figures as recommendations subject to amendment of Regulation 48, so they should not be treated as confirmed current 2026 rates without checking the then-current regulation or SSP guidance.",
+        "For industrial training, ICAI’s January 2026 announcement states a minimum monthly stipend of ₹15,000, with the amount otherwise mutually agreed between the industrial trainee and the member imparting training. Administrative charges can also arise if registration forms are late: ICAI’s articleship FAQ lists dated condonation-fee bands from ₹500 to ₹10,000 depending on delay length. These amounts and procedures can change, so applicants should verify them before submission."
+      ],
+      "bullets": [
+        "Do not assume a proposed or historical stipend table is the current statutory minimum.",
+        "Industrial-training stipend: ICAI stated a minimum of ₹15,000 per month in its January 12, 2026 announcement.",
+        "Late registration can trigger variable condonation fees; submit forms promptly through SSP."
+      ],
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+        "https://www.icai.org/post/23674",
+        "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Options after and during practical training",
+      "paragraphs": [
+        "The principal next pathway is CA Final. Under ICAI’s New Scheme FAQ, a student may appear for the Final Examination after registering for Final, completing practical training six months before the first day of the examination month, completing Advanced ICITSS, and qualifying all four applicable Self-Paced Online Modules.",
+        "An alternative within the training period is industrial training. ICAI’s current January 2026 announcement permits an articled assistant who has completed at least 12 months of practical training to undertake 9–12 months of industrial training, subject to the required notice to the principal and an approved training arrangement. ICAI treats completed industrial training as service under articles when the prescribed completion certificate is furnished."
+      ],
+      "bullets": [
+        "Progress to CA Final after satisfying Final registration, practical-training, Advanced ICITSS, and self-paced-module requirements.",
+        "Consider 9–12 months of industrial training after at least 12 months of practical training, if an approved placement is available.",
+        "Complete and submit the relevant training-completion documentation through ICAI’s processes."
+      ],
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+        "https://www.icai.org/post/23674"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ICAI New Scheme of Education and Training FAQ",
+      "url": "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+      "kind": "official_guidance"
+    },
+    {
+      "label": "ICAI Articleship Forms FAQ",
+      "url": "https://icai-call-sahayata.icai.org/assets/pdf/Articleship-FAQ-NEW-20-08-2024-2.pdf",
+      "kind": "official_guidance"
+    },
+    {
+      "label": "ICAI E-Diary announcement",
+      "url": "https://www.icai.org/post/prc-icai-launch-mandatory-e-diary-08012026",
+      "kind": "official_announcement"
+    },
+    {
+      "label": "ICAI industrial-training eligibility announcement, effective January 1, 2026",
+      "url": "https://www.icai.org/post/23674",
+      "kind": "official_announcement"
+    },
+    {
+      "label": "ICAI Self Service Portal",
+      "url": "https://eservices.icai.org/",
+      "kind": "portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

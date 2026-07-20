@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential purpose",
+      "value": "This is the STCW A-VI/3 certificate of proficiency for seafarers designated to control shipboard fire-fighting operations; the required training emphasizes organization, tactics and command.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/Content/PageUrl.aspx?page_name=StandardsofTrainingCertificationWatchkeepingforSeafarers1998",
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf"
+      ]
+    },
+    {
+      "label": "Published DGS entry requirements",
+      "value": "DGS’s Training, Examination & Assessment Programme (TEAP) lists prior approved basic fire-prevention and fire-fighting training, age 18 or above, medical fitness, and either 12 months of approved sea service or approved pre-sea training plus at least 6 months of sea service.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf"
+      ]
+    },
+    {
+      "label": "Initial-course duration",
+      "value": "DGS Order No. 18 of 2021 lists Advanced Fire Fighting (course ID 6311) as 24 theory hours and 12 practical hours—36 hours total—shown as four days for theory and two days for practical when calculated at six hours per day.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/WriteReadData/News/202105040422310879139DGSOrder18of2021-04-05-2021.pdf"
+      ]
+    },
+    {
+      "label": "Refresher requirement",
+      "value": "STCW A-VI/3 requires qualified seafarers to provide evidence every five years that they have maintained the required competence. DGS’s refresher circular provides for approved AFF refresher training and specifies a four-hour AFF refresher in that circular.",
+      "source_urls": [
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+        "https://www.dgshipping.gov.in/Content/viewNotice.aspx?noticeid=976"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and intended candidates",
+      "paragraphs": [
+        "The certificate is intended for seafarers assigned to control fire-fighting operations aboard ship. Under the DGS-published TEAP flowchart, candidates should already have completed approved basic training or instruction in fire prevention and fire fighting under STCW A-VI/1-2, be at least 18, be medically fit, and meet the published sea-service route: 12 months of approved sea service, or approved pre-sea training plus at least six months of approved sea service.",
+        "India’s Merchant Shipping (Standards of Training, Certification and Watchkeeping for Seafarers) Rules state that a seafarer designated to control fire-fighting operations must successfully complete advanced fire-fighting training and meet the A-VI/3 competence standard. Applicants should confirm documentary and medical-fitness requirements with the selected DGS-approved maritime training institute before enrolling, because institute intake procedures can vary."
+      ],
+      "bullets": [
+        "Prior competence: approved Fire Prevention and Fire Fighting/basic fire-fighting training (STCW A-VI/1-2).",
+        "Age and fitness: 18 or above and medically fit in the DGS TEAP chart.",
+        "Sea service in the DGS TEAP chart: 12 months approved sea service, or pre-sea training plus six months approved sea service."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf",
+        "https://www.dgshipping.gov.in/Content/PageUrl.aspx?page_name=StandardsofTrainingCertificationWatchkeepingforSeafarers1998"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and renewal cycle",
+      "paragraphs": [
+        "For the initial Advanced Fire Fighting course, DGS Order No. 18 of 2021 records 24 hours of theory and 12 hours of practical training for course ID 6311. This is 36 training hours in total; the order’s batch-upload table converts that into four theory days and two practical days using a six-hour training day. Actual calendars, holidays, batch dates and scheduling remain institute-specific.",
+        "This initial-course duration should not be confused with refresher training. The DGS advanced-safety refresher circular lists a four-hour AFF refresher module, while the STCW Code requires evidence of maintained competence every five years."
+      ],
+      "bullets": [
+        "Initial AFF course: 24 theory hours + 12 practical hours (36 total) in DGS Order No. 18 of 2021.",
+        "Order’s day calculation: four theory days and two practical days at six hours per day.",
+        "Published AFF refresher duration: four hours in DGS Training Circular No. 6 of 2011."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/WriteReadData/News/202105040422310879139DGSOrder18of2021-04-05-2021.pdf",
+        "https://www.dgshipping.gov.in/Content/viewNotice.aspx?noticeid=976",
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the training covers",
+      "paragraphs": [
+        "The controlling STCW standard is A-VI/3. It requires advanced fire-fighting capability with particular emphasis on the organization, tactics and command needed to control fire-fighting operations aboard ship, with competence demonstrated through the Table A-VI/3 assessment framework.",
+        "The standard’s specified competence areas include shipboard procedures at sea and in port; communication and coordination; ventilation control and smoke extraction; control of fuel and electrical systems; fire-process hazards such as dry distillation, chemical reactions and boiler-uptake fires; storage and handling hazards; management of injured persons; and coordination with shore-based firefighters. The practical component shown in the DGS course-duration order supports assessment of these operational competencies rather than classroom study alone."
+      ],
+      "bullets": [
+        "Command, organization and tactics for shipboard fire response.",
+        "Communications, coordination, ventilation and smoke control.",
+        "Fuel/electrical isolation and fire-process hazard control.",
+        "Casualty management and liaison with shore-based fire services."
+      ],
+      "source_urls": [
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+        "https://www.dgshipping.gov.in/WriteReadData/News/202105040422310879139DGSOrder18of2021-04-05-2021.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission and certification process",
+      "paragraphs": [
+        "Enroll in an Advanced Fire Fighting course conducted by a maritime training institute approved by the Directorate General of Shipping. DGS states that, after satisfactory completion of the advanced training and demonstration of the Table A-VI/3 tasks, duties and responsibilities, an appropriate certificate is issued to the seafarer.",
+        "A practical application sequence is: select a DGS-approved provider, submit evidence of the published prerequisite training, sea service, age and medical fitness, complete the approved theory and practical training, and pass the required competence demonstration. Because course providers administer their own batch registration and document checks, applicants should obtain the provider’s current checklist before paying or travelling."
+      ],
+      "bullets": [
+        "Use a DGS-approved maritime training institute.",
+        "Prepare evidence of basic fire-fighting training, approved sea service and medical fitness.",
+        "Complete both theory and practical elements and demonstrate competence for certificate issue."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/Content/PageUrl.aspx?page_name=StandardsofTrainingCertificationWatchkeepingforSeafarers1998",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf",
+        "https://www.dgshipping.gov.in/WriteReadData/News/202105040422310879139DGSOrder18of2021-04-05-2021.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "How it fits into a merchant-navy pathway",
+      "paragraphs": [
+        "The AFF certificate is a safety competency, not a standalone academic qualification. In DGS’s TEAP flowchart it is identified as a mandatory requirement for candidates pursuing deck and/or engine Certificates of Competency and for seafarers designated to control fire-fighting operations. It therefore commonly sits alongside other STCW safety and operational courses in an officer-development pathway.",
+        "For continued employability in roles requiring this competence, plan for the five-year maintenance-of-competence cycle. STCW permits administrations to accept onboard training and experience for specified maintenance areas, and the DGS refresher framework requires shore-based demonstration for elements that cannot be conducted onboard; the applicable route should be checked against current DGS and employer requirements before a certificate reaches five years."
+      ],
+      "bullets": [
+        "Supports progression toward deck or engine Certificates of Competency where required by the applicable pathway.",
+        "Qualifies a seafarer for designated shipboard fire-control responsibilities when assigned by the operator.",
+        "Requires planning for evidence of maintained competence at five-year intervals."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf",
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+        "https://www.dgshipping.gov.in/Content/viewNotice.aspx?noticeid=976"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Directorate General of Shipping: Merchant Shipping STCW Rules",
+      "url": "https://www.dgshipping.gov.in/Content/PageUrl.aspx?page_name=StandardsofTrainingCertificationWatchkeepingforSeafarers1998",
+      "kind": "regulator"
+    },
+    {
+      "label": "DGS Order No. 18 of 2021: STCW course duration table",
+      "url": "https://www.dgshipping.gov.in/WriteReadData/News/202105040422310879139DGSOrder18of2021-04-05-2021.pdf",
+      "kind": "regulator"
+    },
+    {
+      "label": "IMO STCW Code: Section A-VI/3 advanced fire fighting",
+      "url": "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+      "kind": "international_standard"
+    },
+    {
+      "label": "DGS Training Circular No. 6 of 2011: safety-course refresher training",
+      "url": "https://www.dgshipping.gov.in/Content/viewNotice.aspx?noticeid=976",
+      "kind": "regulator"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

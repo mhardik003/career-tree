@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Recruiting examination and post classification",
+      "value": "The Staff Selection Commission’s CGL notice lists “Auditor — Offices under C&AG” as a Group C post at Pay Level 5, with an age band of 18–27 years in that notice.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf"
+      ]
+    },
+    {
+      "label": "Education requirement",
+      "value": "For Auditor and other CGL posts not assigned a separate qualification, the cited SSC notice requires a bachelor’s degree from a recognised university or equivalent. Eligibility conditions and cut-off dates must be checked in the relevant annual notice.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf"
+      ]
+    },
+    {
+      "label": "Audit remit",
+      "value": "The CAG’s audit mandate covers Union, State and relevant Union Territory government receipts, expenditure and transactions; its mandate also extends, under applicable law, to government companies, corporations, bodies and authorities.",
+      "source_urls": [
+        "https://cag.gov.in/en/page-audit-regulations"
+      ]
+    },
+    {
+      "label": "Internal advancement examination",
+      "value": "An Auditor in an Audit Office is among the categories eligible for the departmental Subordinate Audit/Accounts Service (SAS) Examination after at least three years of continuous service in the specified field office and successful completion of probation; SAS is conducted for appointment to Assistant Audit/Accounts Officer, a Group B gazetted post.",
+      "source_urls": [
+        "https://cag.gov.in/en/examination/examination-details/775"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "The SSC notice cited above shows Pay Level 5 as ₹29,200–₹92,300 in the pay matrix. This is dated pay-matrix/basic-pay context, not a promise of take-home salary; appointment terms, location and then-applicable government orders determine actual remuneration.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Auditor in CAG does",
+      "paragraphs": [
+        "An Auditor works within the Indian Audit and Accounts Department’s audit function. The CAG regulations define audit as examination of accounts, transactions and records in carrying out the CAG’s constitutional and statutory duties; an “auditor” is an officer authorised to conduct audit. The work therefore centres on examining documentary and financial evidence against applicable rules, accounting principles and audit objectives, under the direction and procedures of the relevant audit office.",
+        "The subject matter can include government receipts and expenditure, government transactions, and—in the circumstances prescribed by law—government companies, statutory corporations, bodies and authorities. CAG auditing standards apply to financial, compliance and performance audits, so the precise assignments depend on the office and audit plan rather than being limited to one kind of account."
+      ],
+      "bullets": [
+        "Examine records, accounts, transactions and supporting information made available for audit.",
+        "Apply CAG auditing standards and professional judgement while performing assigned audit work.",
+        "Help document and communicate audit observations through the audit-office process; CAG audit reports are ultimately placed before the appropriate legislature."
+      ],
+      "source_urls": [
+        "https://cag.gov.in/en/page-audit-regulations",
+        "https://cag.gov.in/en/page-duties-power-and-conditions-of-services-act"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Primary entry route: SSC CGL",
+      "paragraphs": [
+        "The normal external entry route represented by this node is the Staff Selection Commission’s Combined Graduate Level Examination (SSC CGL). The SSC notice lists Auditor in Offices under C&AG as a Group C, Pay Level 5 post. Candidates are allotted posts based on merit and the post preferences they submit; a post preference should be made only after checking the annual notice’s requirements.",
+        "In the cited SSC CGL notice, Auditor falls under the general qualification rule for “all other posts”: a bachelor’s degree from a recognised university or equivalent. The same notice describes a Tier I computer-based examination used for shortlisting and Tier II Paper I for posts other than the specialised JSO, Statistical Investigator, AAO and AAO-related papers. Examination structure, vacancies, eligibility dates, age relaxations and cut-offs can change from cycle to cycle, so candidates should use the active SSC notification rather than relying solely on this summary."
+      ],
+      "bullets": [
+        "Complete a recognised bachelor’s degree or equivalent by the eligibility date in the applicable SSC CGL notice.",
+        "Apply for SSC CGL and include Auditor, Offices under C&AG in post preferences when the Commission requests preferences.",
+        "Qualify the examination stages and complete document verification and departmental appointment formalities if allotted the post."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
+        "https://cag.gov.in/en/recruitment-notices?arch=1"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills that fit the role",
+      "paragraphs": [
+        "Useful preparation combines accounting and public-finance literacy with careful evidence handling. CAG regulations require audits to follow auditing standards, state that auditors must apply their own judgement to varied audit situations, and emphasise access to relevant data, information and documents. Those requirements make accuracy, structured analysis, ethical independence and clear written documentation particularly relevant skills.",
+        "Candidates can build practical readiness by strengthening numerical reasoning; reading of government rules and financial records; spreadsheet and computer proficiency; concise drafting; and the ability to ask focused questions about records and explanations. These are role-relevant capabilities inferred from the CAG’s stated audit standards and audit process, not additional SSC eligibility conditions."
+      ],
+      "bullets": [
+        "Accounting, transaction and document analysis.",
+        "Understanding of audit evidence, internal controls, compliance and public-sector rules.",
+        "Professional judgement, attention to detail and independence from the auditable entity.",
+        "Clear written communication and comfort working with digital records and data."
+      ],
+      "source_urls": [
+        "https://cag.gov.in/en/page-audit-regulations"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is carried out",
+      "paragraphs": [
+        "The post is in Offices under the C&AG within the Indian Audit and Accounts Department. CAG regulations describe an audit office as an office responsible for audit and recognise that audit may require access to accounts, books, papers and other documents relevant to auditable transactions. Accordingly, work may combine audit-office record analysis with audit activity involving the offices or entities being audited.",
+        "The particular state, audit office and subject area are allocation-dependent. CAG recruitment notices show that selected CGL candidates are allocated to a State/office, so applicants should treat the eventual place of posting and office allocation as part of the employment decision rather than assuming a single national headquarters location."
+      ],
+      "bullets": [
+        "Audit-office work involving review and documentation of records.",
+        "Interaction with auditable government departments or entities for information and records within the CAG audit framework.",
+        "State/office allocation following selection, subject to the recruitment process for that cycle."
+      ],
+      "source_urls": [
+        "https://cag.gov.in/en/page-audit-regulations",
+        "https://cag.gov.in/en/recruitment-notices?arch=1"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and the SAS pathway",
+      "paragraphs": [
+        "The departmental SAS Examination is an important formal progression route for eligible staff. The CAG states that SAS is conducted for the post of Assistant Audit/Accounts Officer, a Group B gazetted post. Its published eligibility list includes Auditors in Audit Offices who have completed at least three years of continuous service in one or more specified capacities in the relevant field office and successfully completed probation.",
+        "This should not be read as an automatic promotion guarantee: eligibility to sit SAS, qualifying the examination, vacancies, service rules and departmental decisions govern progression. The CAG states that SAS has a preliminary examination conducted by field offices and a computer-based main examination conducted by headquarters."
+      ],
+      "bullets": [
+        "Entry role: Auditor, Pay Level 5, in an Audit Office.",
+        "Published intermediate category: Senior Auditor, Pay Level 6, appears in the SAS eligibility framework.",
+        "Potential examination-based route: SAS for Assistant Audit Officer, Group B gazetted, subject to the governing conditions."
+      ],
+      "source_urls": [
+        "https://cag.gov.in/en/examination/examination-details/775"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "As a dated reference point, the SSC CGL notice available for the 2026 eligibility cycle lists Auditor in Offices under C&AG at Pay Level 5, with the pay-matrix range ₹29,200–₹92,300. This is the published level and basic-pay range, rather than a single starting salary or take-home figure.",
+        "Actual monthly pay can vary with the stage in the pay matrix and applicable government allowances and deductions. Applicants should verify the appointment offer, current pay rules and the applicable SSC notice at the time of selection."
+      ],
+      "bullets": [
+        "Post shown in the cited SSC notice: Group C Auditor, Offices under C&AG.",
+        "Published pay context in that notice: Pay Level 5, ₹29,200–₹92,300.",
+        "Do not use the matrix range as a take-home-pay estimate."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "SSC CGL notice (official PDF)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
+      "kind": "exam_notice"
+    },
+    {
+      "label": "CAG Audit Regulations",
+      "url": "https://cag.gov.in/en/page-audit-regulations",
+      "kind": "official_guidance"
+    },
+    {
+      "label": "CAG SAS Examination information",
+      "url": "https://cag.gov.in/en/examination/examination-details/775",
+      "kind": "departmental_exam"
+    },
+    {
+      "label": "CAG recruitment notices",
+      "url": "https://cag.gov.in/en/recruitment-notices?arch=1",
+      "kind": "recruitment"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

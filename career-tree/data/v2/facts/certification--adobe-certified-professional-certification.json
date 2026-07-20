@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and provider",
+      "value": "Adobe Certified Professional is an industry-recognized, application-specific credential for Adobe Creative Cloud skills. Adobe partners with Certiport, a Pearson VUE business, to develop and deliver the examinations.",
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/faq",
+        "https://certifiedprofessional.adobe.com/en/get-started"
+      ]
+    },
+    {
+      "label": "Assessment format",
+      "value": "The credential is earned by passing a proctored 50-minute examination with selected-response questions and live-in-the-application tasks in Adobe software. Adobe states that the passing score is 700 out of 1,000.",
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/faq",
+        "https://certifiedprofessional.adobe.com/en/get-started"
+      ]
+    },
+    {
+      "label": "Recommended preparation",
+      "value": "Adobe recommends approximately 150 hours of hands-on experience and instruction in the chosen Creative Cloud application before attempting a Professional Certification exam; this can come from courses, tutorials, and practical use.",
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/how-it-works",
+        "https://certifiedprofessional.adobe.com/en/faq"
+      ]
+    },
+    {
+      "label": "Validity",
+      "value": "Each Adobe Certified Professional certification is valid for three years from its issue date, after which it becomes non-current.",
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/faq"
+      ]
+    },
+    {
+      "label": "Delivery in India",
+      "value": "Candidates can take an exam through a Certiport Authorized Testing Center or, where available and subject to delivery rules, through Certiport OnVUE online delivery. Candidates in India should confirm language, appointment, identification, and technical requirements with the selected test center or online-delivery provider before booking.",
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/get-started",
+        "https://certifiedprofessional.adobe.com/en/faq"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and readiness",
+      "paragraphs": [
+        "Adobe presents the Professional Certification as suitable for professionals, job seekers, and students. Its published guidance emphasizes readiness rather than a stated academic-degree prerequisite: candidates are recommended to build about 150 hours of relevant application experience through hands-on work, classes, or tutorials before testing.",
+        "For online proctored delivery, candidates must follow Certiport/testing-provider instructions, including using the name shown on the government-issued identification presented to the proctor. Test-center procedures, supported languages, and accessibility arrangements can vary; candidates should verify these locally before scheduling."
+      ],
+      "bullets": [
+        "Choose an application-specific certification aligned to the intended work, such as Photoshop for visual design, Illustrator for graphic design and illustration, or InDesign for print and digital publication.",
+        "Use the official exam guide for the selected application to check the applicable skills and objective domains before preparing."
+      ],
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/how-it-works",
+        "https://certifiedprofessional.adobe.com/en/resources/how-to-get-adobe-certified",
+        "https://certifiedprofessional.adobe.com/en/faq"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Time commitment and exam duration",
+      "paragraphs": [
+        "This is an examination-based certification rather than a prescribed diploma course. Adobe estimates that reaching exam-ready proficiency generally requires approximately 150 hours of hands-on experience and instruction for a selected Creative Cloud application; the actual preparation time will vary with prior experience and the application selected.",
+        "The proctored certification examination itself lasts 50 minutes. Adobe describes 30–45 questions, combining selected-response items with practical activities performed inside the relevant Creative Cloud application."
+      ],
+      "bullets": [
+        "Preparation: approximately 150 recommended hours per application.",
+        "Assessment: one 50-minute proctored exam per application certification.",
+        "Credential currency: three years from the date of issue."
+      ],
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/faq",
+        "https://certifiedprofessional.adobe.com/en/how-it-works"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the certification assesses",
+      "paragraphs": [
+        "There is no single common course syllabus for all Adobe Certified Professional credentials. Assessment is tied to a chosen Creative Cloud application and uses both knowledge questions and practical, live-in-the-app tasks. Candidates should therefore treat the official guide for their particular application as the controlling curriculum.",
+        "Adobe’s current certification catalogue includes credentials in areas such as Visual Design using Adobe Photoshop, Graphic Design and Illustration using Adobe Illustrator, Print and Digital Media Publication using Adobe InDesign, Digital Video using Adobe Premiere, Visual Effects and Motion Graphics using Adobe After Effects, animation, web authoring, Acrobat Pro, Adobe Express, and Adobe Firefly. Exact objectives and available exam versions can change, so candidates should review the applicable guide before booking."
+      ],
+      "bullets": [
+        "Practical workflow in the chosen Adobe application.",
+        "Selected-response knowledge checks alongside live software tasks.",
+        "Application-specific objective domains and creative-production concepts described in the relevant official exam guide."
+      ],
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/exams",
+        "https://certifiedprofessional.adobe.com/en/faq",
+        "https://certifiedprofessional.adobe.com/en/get-started"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Registration and examination process",
+      "paragraphs": [
+        "Candidates first select an application certification, prepare using its official exam guide and learning resources, then schedule through a Certiport Authorized Testing Center or Certiport’s OnVUE online option. Adobe states that OnVUE delivery is currently limited to English-language exams; candidates should confirm whether their selected exam and delivery method are available before purchase.",
+        "After passing, the candidate receives an official certificate through the Certiport account and an invitation to claim a Credly digital badge. The badge and certificate can be used in a portfolio, résumé, or professional profile, while the certificate can be validated using its unique verification code."
+      ],
+      "bullets": [
+        "Select the Adobe application certification and review its official guide.",
+        "Prepare and, if useful, take a CertPREP practice test.",
+        "Book through a local Certiport Authorized Testing Center or eligible OnVUE delivery.",
+        "Complete the 50-minute proctored exam and obtain the score report; a passing score is 700/1,000."
+      ],
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/get-started",
+        "https://certifiedprofessional.adobe.com/en/faq",
+        "https://certifiedprofessional.adobe.com/en/resources/how-to-get-adobe-certified"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and India-specific pricing considerations",
+      "paragraphs": [
+        "As of Adobe’s current published guidance, an Adobe Certified Professional exam typically costs US$150, but this is only a general reference—not an India fee quote. Adobe and Certiport state that individual pricing varies by delivery method and location, and that each Certiport Authorized Testing Center may set its own voucher and proctoring charges or package an exam with training, practice material, or retakes.",
+        "For an Indian applicant, the practical cost should be obtained in INR directly from the chosen Certiport Authorized Testing Center or the applicable Certiport purchasing channel immediately before booking. Students should also check their school, college, or training provider because Adobe notes that discounted or free campus exams and promotional offers may be available."
+      ],
+      "bullets": [
+        "Published general reference: typically US$150; regional price may differ.",
+        "Possible additional or bundled elements: local proctoring, training, practice tests, and retake options.",
+        "Potential reductions: campus arrangements, school/university discounts, and time-limited promotions."
+      ],
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/how-it-works",
+        "https://certifiedprofessional.adobe.com/en/faq",
+        "https://certifiedprofessional.adobe.com/en/resources/benefits-of-adobe-certification"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Progression after certification",
+      "paragraphs": [
+        "A holder can add further application certifications to demonstrate broader Adobe workflow capability. Adobe automatically awards certain Specialty Credentials when a candidate completes an eligible pair of related Professional Certifications through live-in-the-app exams; available pathways include Visual, Video, Web, Marketing Design, and other current specialty offerings.",
+        "For the immediate parent pathways in this node, the most directly relevant route is application selection: Photoshop and Illustrator are especially aligned with graphic-design work; InDesign supports publication and layout work; and Adobe Express or Acrobat Pro may support educational-content and document-production workflows. Certification should complement—not replace—a portfolio, relevant work samples, and role-specific design or content skills."
+      ],
+      "bullets": [
+        "Build a multi-application portfolio by adding related Adobe Certified Professional exams.",
+        "Complete an eligible pair of certifications to receive an applicable Specialty Credential automatically.",
+        "Maintain currency by planning renewal or a current certification before the three-year validity period ends."
+      ],
+      "source_urls": [
+        "https://certifiedprofessional.adobe.com/en/exams",
+        "https://certifiedprofessional.adobe.com/en/faq",
+        "https://certifiedprofessional.adobe.com/en/why-get-certified"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Adobe Certified Professional — official start and scheduling overview",
+      "url": "https://certifiedprofessional.adobe.com/en/get-started",
+      "kind": "official programme page"
+    },
+    {
+      "label": "Adobe Certified Professional — official FAQs",
+      "url": "https://certifiedprofessional.adobe.com/en/faq",
+      "kind": "official programme page"
+    },
+    {
+      "label": "Adobe Certified Professional — exam catalogue and guides",
+      "url": "https://certifiedprofessional.adobe.com/en/exams",
+      "kind": "official exam guide index"
+    },
+    {
+      "label": "Certiport — Adobe Certified Professional programme",
+      "url": "https://certiport.pearsonvue.com/Certifications/Adobe/ACP",
+      "kind": "official examination provider"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

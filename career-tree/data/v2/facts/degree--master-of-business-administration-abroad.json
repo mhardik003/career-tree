@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What this node covers",
+      "value": "A full-time MBA pursued at a business school outside India where the programme accepts the GRE General Test. GRE acceptance is not universal: applicants must confirm the policy for the exact MBA, intake and application round.",
+      "source_urls": [
+        "https://www.ets.org/gre/score-users/business-schools/program-list.html",
+        "https://www.gsb.stanford.edu/programs/mba/admission/application/test-scores"
+      ]
+    },
+    {
+      "label": "GRE acceptance",
+      "value": "ETS states that more than 1,300 business schools accept GRE General Test scores for some or all MBA programmes. Stanford GSB, for example, requires either a GMAT or GRE score and states that it has no preference between them.",
+      "source_urls": [
+        "https://www.ets.org/gre/score-users/business-schools/program-list.html",
+        "https://www.gsb.stanford.edu/programs/mba/admission/application/test-scores/gmat-gre"
+      ]
+    },
+    {
+      "label": "English testing",
+      "value": "IELTS is programme-specific rather than automatic for every Indian applicant. Stanford requires an English-proficiency test for applicants whose undergraduate instruction included a language other than English, subject to its stated graduate-study exception; it accepts IELTS. INSEAD accepts IELTS, TOEFL or PTE Academic where English proof is needed, and also describes English-taught-degree/exchange alternatives.",
+      "source_urls": [
+        "https://www.gsb.stanford.edu/programs/mba/admission/application/test-scores",
+        "https://www.insead.edu/master-programmes/master-business-administration/admissions"
+      ]
+    },
+    {
+      "label": "Typical format",
+      "value": "MBA duration varies substantially by school and country. INSEAD describes its MBA as a one-year, full-time programme, while Stanford describes a two-year MBA.",
+      "source_urls": [
+        "https://www.insead.edu/master-programmes/master-business-administration/curriculum",
+        "https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum"
+      ]
+    },
+    {
+      "label": "Illustrative tuition context",
+      "value": "Fees are institution- and intake-specific. As published for INSEAD's August 2026 and January 2027 intakes, its MBA tuition was €109,860, payable in instalments; applicants should use each target school's current fee page before budgeting.",
+      "source_urls": [
+        "https://www.insead.edu/master-programmes/master-business-administration/faqs"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: assess the target school's rules, not a single “abroad MBA” standard",
+      "paragraphs": [
+        "There is no universal eligibility rule for an MBA abroad. Schools can differ on prior education, work experience, aptitude tests and English-language evidence. For example, Stanford GSB says work experience is not required for entry, whereas INSEAD reports that participants in its current class have an average of six years of post-graduate experience, with a two-to-ten-year range.",
+        "For a GRE-led application, first check that the precise full-time MBA accepts the GRE for the intended intake and whether it is required, optional or waivable. Stanford requires a valid GMAT or GRE and says neither test is preferred. INSEAD requires GMAT or GRE scores for its MBA application and says scores must be sent directly and remain valid for five years.",
+        "Applicants educated in India should also review the individual school's English-language policy rather than assume IELTS is always necessary. Stanford accepts IELTS, TOEFL and PTE Academic for applicants who must demonstrate English proficiency. INSEAD requires fluency in English and, where applicable, accepts IELTS Academic, TOEFL or PTE Academic; it also recognises specified evidence of degree or exchange study taught fully in English."
+      ],
+      "bullets": [
+        "Prepare official academic transcripts and diploma/degree evidence where required; INSEAD requests scanned transcripts and diploma during application, with official documents required if admitted.",
+        "Plan professional references early. INSEAD requires two recommendations and recommends referees who can evaluate professional performance.",
+        "Do not treat an MBA as restricted to business graduates: INSEAD states that applicants from academic and professional backgrounds including arts, law, medicine, military and non-profit are welcome, with leadership potential and prior performance considered."
+      ],
+      "source_urls": [
+        "https://www.gsb.stanford.edu/programs/mba/admission/application/professional-experience",
+        "https://www.gsb.stanford.edu/programs/mba/admission/application/test-scores/gmat-gre",
+        "https://www.gsb.stanford.edu/programs/mba/admission/application/test-scores",
+        "https://www.insead.edu/master-programmes/master-business-administration/admissions",
+        "https://www.insead.edu/master-programmes/master-business-administration/faqs"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study model",
+      "paragraphs": [
+        "An overseas MBA is not a fixed-length qualification. One-year accelerated programmes and two-year programmes both exist. INSEAD structures its full-time MBA over one year in five eight-week periods; Stanford structures its MBA over two years, with foundations in year one and electives in year two.",
+        "This difference affects more than calendar time: it can change the timing available for electives, internships, recruiting and relocation. Compare the academic calendar and career timetable of each target programme rather than assuming that all overseas MBAs operate alike."
+      ],
+      "bullets": [
+        "INSEAD: one year, full time; two intakes; five periods of eight weeks each.",
+        "Stanford: two years; first-year foundations followed by an elective-focused second year."
+      ],
+      "source_urls": [
+        "https://www.insead.edu/master-programmes/master-business-administration/curriculum",
+        "https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "MBA curricula generally combine core management disciplines with electives and applied learning, but the required course mix differs by school. INSEAD's published curriculum requires 14 core courses, 10.5 elective courses and one capstone project. Its core subjects include accounting, finance, markets, strategy, organisational behaviour, operations, marketing, macroeconomics, ethics and public policy.",
+        "At Stanford, the first year is organised around analytical, leadership and management foundations, alongside a global-experience requirement. The second year consists of electives, and students may also pursue seminars, courses elsewhere at Stanford, or a joint/dual degree subject to programme rules.",
+        "For applicants, curriculum fit should be tested against a target role—for example, whether the school provides sufficient depth in finance, strategy, operations, entrepreneurship, technology, sustainability or leadership—rather than chosen solely because it accepts the GRE."
+      ],
+      "bullets": [
+        "Core learning commonly covers accounting, finance, economics, marketing, operations, strategy, data/decision-making and organisational behaviour.",
+        "Electives allow specialisation, but the number, format and availability of electives are school-specific.",
+        "Experiential components can include capstone work, simulations, global experiences, case discussion and team-based learning."
+      ],
+      "source_urls": [
+        "https://www.insead.edu/master-programmes/master-business-administration/curriculum",
+        "https://www.insead.edu/master-programmes/master-business-administration/core-courses",
+        "https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum",
+        "https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/first-year"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admissions roadmap for a GRE-based MBA application",
+      "paragraphs": [
+        "Start by building a school-by-school admissions sheet: MBA format and location, GRE policy, test-score validity, English-language policy, required documents, recommendation requirements, rounds, fees and interview format. This is essential because even schools accepting the same test can apply different rules.",
+        "For GRE timing, allow enough time for the score to be available and valid by the relevant deadline. ETS says GRE scores are valid for five years; Stanford requires the exam to be taken before application submission and says the test must be taken before the deadline of the round applied to. INSEAD similarly says GMAT/GRE scores are valid for five years and may be taken up to the selected application deadline.",
+        "A complete application is broader than a test score. INSEAD's current process includes an online application, test scores, a video and written assessment, career and motivation responses, two recommendations, CV, transcripts/diploma, supporting documents and application fee. Candidates pre-selected by INSEAD are invited to interviews with alumni before committee review.",
+        "Deadlines are variable and can change by intake. For example, INSEAD publishes separate rounds for its January 2027 and August 2027 intakes; use the school's live admissions page, not an older coaching-site calendar, when selecting a round."
+      ],
+      "bullets": [
+        "Choose GRE or GMAT based on the policies of every target programme and your strongest credible score; do not assume that submitting a GRE is a disadvantage where a school states no test preference.",
+        "Request official score transmission using the institution's current reporting instructions.",
+        "Where IELTS is required, check whether the school requires IELTS Academic, its accepted test-delivery format, minimum sub-scores and the score-validity period.",
+        "Submit well before a final round if you need time for scholarship decisions, visas, financing or relocation; the appropriate timing is school- and country-specific."
+      ],
+      "source_urls": [
+        "https://www.ets.org/gre.html",
+        "https://www.gsb.stanford.edu/programs/mba/admission/application/test-scores/gmat-gre",
+        "https://www.insead.edu/master-programmes/master-business-administration/admissions",
+        "https://www.insead.edu/master-programmes/master-business-administration/faqs"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and budgeting",
+      "paragraphs": [
+        "Published MBA tuition is only comparable when the intake, currency, programme length and what the fee covers are clear. As one dated example, INSEAD lists €109,860 tuition for its August 2026 and January 2027 MBA intakes, payable in instalments. Its page says this amount covers specified items including printed course materials, library and campus IT access, language tuition and testing, student council fees, gym access, printing and health insurance.",
+        "Applicants should create a school-specific budget that separates the official tuition figure from application and test fees, deposits, housing, travel, visa/immigration expenses, local living costs and foregone earnings. The amounts, currency exposure and funding arrangements vary by destination, school and personal circumstances; verify each item through the university and relevant government sources before committing.",
+        "Funding availability also varies. INSEAD's admissions materials note that applying in earlier rounds may be preferable where scholarships or relocation time are priorities, but this should not be read as a universal rule across MBA programmes."
+      ],
+      "bullets": [
+        "Record the fee's stated intake and currency; tuition can change between cohorts.",
+        "Check the payment schedule and whether any initial instalment or deposit is non-refundable.",
+        "Use the school's official tuition, scholarship and cost-of-living information as the primary budget source."
+      ],
+      "source_urls": [
+        "https://www.insead.edu/master-programmes/master-business-administration/faqs",
+        "https://www.insead.edu/master-programmes/master-business-administration/admissions"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ETS list of MBA programmes accepting GRE scores",
+      "url": "https://www.ets.org/gre/score-users/business-schools/program-list.html",
+      "kind": "official test provider"
+    },
+    {
+      "label": "Stanford GSB MBA test-score policy",
+      "url": "https://www.gsb.stanford.edu/programs/mba/admission/application/test-scores",
+      "kind": "official university admissions policy"
+    },
+    {
+      "label": "INSEAD MBA admissions requirements and process",
+      "url": "https://www.insead.edu/master-programmes/master-business-administration/admissions",
+      "kind": "official university admissions policy"
+    },
+    {
+      "label": "INSEAD MBA curriculum",
+      "url": "https://www.insead.edu/master-programmes/master-business-administration/curriculum",
+      "kind": "official university curriculum"
+    },
+    {
+      "label": "INSEAD MBA fees and admissions FAQs",
+      "url": "https://www.insead.edu/master-programmes/master-business-administration/faqs",
+      "kind": "official university fee information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

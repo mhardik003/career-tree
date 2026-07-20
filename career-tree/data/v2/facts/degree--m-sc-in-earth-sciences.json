@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Degree route",
+      "value": "In the JAM 2026 Geology (GG) admission matrix, relevant postgraduate routes include M.Sc. Applied Geology, M.Sc. (Tech.) Applied Geology, Joint M.Sc.-Ph.D. Geology, and Joint M.Sc.-Ph.D. Geophysics; programme titles and eligibility differ by institute.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "label": "Entrance examination",
+      "value": "JAM 2026 included Geology (GG) as one of its seven computer-based test papers. Admission is based on All India Rank, applicable Government of India reservation policy, and seat availability, subject to institute requirements.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/About.html"
+      ]
+    },
+    {
+      "label": "Typical duration",
+      "value": "A standalone M.Sc. example at IIT Bombay is a two-year programme over four semesters; Earth Sciences specializations listed there are Applied Geology and Applied Geophysics.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/msc"
+      ]
+    },
+    {
+      "label": "Subject eligibility is programme-specific",
+      "value": "For example, JAM 2026 lists IIT Bombay M.Sc. Applied Geology as requiring Geology for three years/six semesters plus any two of Mathematics, Physics, Chemistry, and Biological Science; applicants must check the current programme-level MEQ rather than assume one common Earth Sciences rule.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "label": "Illustrative fee context",
+      "value": "For IIT Bombay's 2026-27 Autumn Semester, the published academic-fee total for new Indian-national entrants to the two-year M.Sc./M.Sc.-Ph.D. programmes was ₹42,400 for GEN/EWS/OBC-NCL and ₹34,150 for SC/ST/PwD, including one-time admission fees and refundable deposits but excluding hostel charges. IIT Bombay states that fees may be revised in later semesters.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/Schedule_for_payment_of_Academic_Fees_for_MSC_and_%20MSCandPh.D._2026-27.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: verify the exact institute and specialization",
+      "paragraphs": [
+        "There is no single subject-combination rule for every JAM Geology pathway. The JAM 2026 brochure specifies minimum educational qualifications separately for each institute and programme. For IIT Bombay's M.Sc. Applied Geology, the listed requirement is Geology for three years/six semesters and any two of Mathematics, Physics, Chemistry, and Biological Science. IIT Roorkee lists the same subject pattern for its M.Sc. Applied Geology and states that engineering degrees have no restrictions; IIT Kharagpur's Joint M.Sc.-Ph.D. Geology requires six semesters/three years of Geology plus specified Physics–Mathematics, Physics–Chemistry, or Chemistry–Mathematics combinations.",
+        "bullets=[",
+        "],",
+        "source_urls"
+      ],
+      "bullets": [
+        "For JAM 2026, candidates who had completed, or were appearing in the final examination of, their qualifying degree in 2026 could sit the examination. Before admission, they had to complete the undergraduate programme and submit proof of the qualifying degree meeting the admitting institute's requirements.",
+        "Eligibility requirements, seat matrices, and programme availability are explicitly subject to change under admitting-institute policy. Use the admission-year JAM brochure and the target institute's notice as the controlling sources."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://jam2026.iitb.ac.in/About.html"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and programme formats",
+      "paragraphs": [
+        "A conventional M.Sc. in this area is commonly a two-year programme. IIT Bombay describes its M.Sc. programmes as two years, with core and elective courses distributed across four semesters and often a research-project component. Its Earth Sciences department lists Applied Geology and Applied Geophysics as M.Sc. specializations.",
+        "The JAM Geology paper can also lead to longer research-oriented formats rather than only a standalone M.Sc. The JAM 2026 matrix includes Joint M.Sc.-Ph.D. programmes in Geology and Geophysics at IIT Kharagpur, and IIT Kharagpur confirms that its Joint M.Sc.-Ph.D. entries in Geology and Geophysics use JAM for admission."
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/msc",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://www.iitkgp.ac.in/admission-pg"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the Earth Sciences curriculum can cover",
+      "paragraphs": [
+        "Curriculum is specialization- and institute-dependent. IIT Bombay says its two-year Applied Geology and Applied Geophysics M.Sc. programmes build theoretical and practical foundations for industry work and research. Its Applied Geology description names economic geology; geological and geochemical exploration; geochemistry; engineering, environmental and petroleum geology; mineralogy; mining geology; petrology; palaeontology; remote sensing; sedimentology; and structural geology, with practical field-based and laboratory training.",
+        "At IIT Bombay, the broader M.Sc. structure combines core and elective courses. The first two semesters generally address fundamental and applied aspects, while later semesters place more weight on electives and advanced study; a research project is often included. Applicants should obtain the current departmental course catalogue before treating a topic as compulsory."
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://jam.iitb.ac.in/about.html",
+        "https://acad.iitb.ac.in/admissions/masters/msc"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission through JAM Geology",
+      "paragraphs": [
+        "For the 2026 cycle, JAM was a computer-based test, and Geology (GG) was one of the available test papers. JAM states that admission uses the candidate's All India Rank in the relevant paper, Government of India reservation policies, and seat availability. A qualifying JAM result does not override each admitting institute's programme-specific minimum educational qualification.",
+        "JAM distinguishes between Admitting Institutes, whose process is coordinated through the JAM organizing institute, and Result Sharing Institutes, which candidates approach directly after qualifying. The current admission-year brochure should be used to identify the exact programme code, seats, eligibility requirements, application process, and deadlines."
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/About.html",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs: use institute-specific, dated fee schedules",
+      "paragraphs": [
+        "Fees vary materially by institute, category, residence/hostel choice, and academic year. As a dated illustration, IIT Bombay's fee schedule dated June 12, 2026 lists Autumn Semester 2026-27 academic fees for new Indian-national entrants to its two-year M.Sc. and M.Sc.-Ph.D. programmes as ₹42,400 for GEN/EWS/OBC-NCL students and ₹34,150 for SC/ST/PwD students. These totals include one-time admission charges and refundable security deposits, while hostel charges are handled separately.",
+        "The same IIT Bombay notice says SC/ST/PwD students are exempt from tuition fees and reserves IIT Bombay's right to revise the fee structure in subsequent semesters. Therefore, applicants should budget using the fee notice published by the specific admitting institute for their entry year, not a generic M.Sc. estimate."
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/Schedule_for_payment_of_Academic_Fees_for_MSC_and_%20MSCandPh.D._2026-27.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Progression after the M.Sc.",
+      "paragraphs": [
+        "A research pathway is available at some institutions. IIT Bombay states that students in its M.Sc. programme may convert to a Ph.D. programme when they meet Senate-approved eligibility criteria in force at the time. Separately, JAM Geology also offers direct entry routes into Joint M.Sc.-Ph.D. programmes at participating institutes, including Geology and Geophysics at IIT Kharagpur.",
+        "Whether to choose a two-year M.Sc. followed by a separate Ph.D. application or a Joint M.Sc.-Ph.D. route depends on the institute, specialization, academic performance, and the current rules. Confirm the applicable regulations with the target department and admission office."
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/msc",
+        "https://www.iitkgp.ac.in/admission-pg",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "JAM 2026 official information",
+      "url": "https://jam2026.iitb.ac.in/About.html",
+      "kind": "exam"
+    },
+    {
+      "label": "JAM 2026 admission brochure and Geology programme matrix",
+      "url": "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+      "kind": "admission_brochure"
+    },
+    {
+      "label": "IIT Bombay M.Sc. and M.Sc.+Ph.D. admissions",
+      "url": "https://acad.iitb.ac.in/admissions/masters/msc",
+      "kind": "university_admissions"
+    },
+    {
+      "label": "IIT Bombay 2026-27 M.Sc. fee schedule",
+      "url": "https://acad.iitb.ac.in/sites/default/files/Schedule_for_payment_of_Academic_Fees_for_MSC_and_%20MSCandPh.D._2026-27.pdf",
+      "kind": "fees"
+    },
+    {
+      "label": "IIT Kharagpur postgraduate programmes",
+      "url": "https://www.iitkgp.ac.in/admission-pg",
+      "kind": "university_admissions"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

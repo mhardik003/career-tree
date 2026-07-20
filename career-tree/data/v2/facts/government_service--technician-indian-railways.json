@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Recruiting designation and level",
+      "value": "The principal open-market entry designation is Technician Grade III, ordinarily in Pay Level 2 of the 7th CPC pay matrix; the 2025 RRB Technician notification listed an initial basic pay of ₹19,900 for this level. This is dated recruitment-notice context, not a guarantee of current take-home pay.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf"
+      ]
+    },
+    {
+      "label": "Technical eligibility",
+      "value": "For most Technician Grade III categories in CEN 02/2025, eligibility was Matriculation/SSLC plus an NCVT/SCVT-recognised ITI in the specified trade, or a completed Act Apprenticeship in that trade. The exact acceptable trade is post-specific.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf"
+      ]
+    },
+    {
+      "label": "Selection route",
+      "value": "The 2025 RRB Technician process comprised a computer-based test, document verification, and railway medical examination; future notifications can change the process.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf"
+      ]
+    },
+    {
+      "label": "Specialisations",
+      "value": "Technician Grade III vacancies have covered track-machine, bridge, carriage-and-wagon, diesel, electrical, signal-and-telecom, air-conditioning, workshop, fitter, machinist, millwright, and welding work, among other categories.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf"
+      ]
+    },
+    {
+      "label": "Medical fitness",
+      "value": "Medical standards are assigned by post and may be A-3, B-1, B-2, or C-1. They can include visual-acuity and, for some standards, colour, binocular, night, and mesopic-vision testing.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf"
+      ]
+    },
+    {
+      "label": "Workshop career hierarchy",
+      "value": "In the Indian Railways Rolling Stock Code's workshop classification, the artisan hierarchy is Technician Grade III, Technician Grade II, Technician Grade I, Senior Technician, Junior Engineer, and Senior Section Engineer. Actual progression depends on the cadre, eligibility, vacancies, and applicable selection rules.",
+      "source_urls": [
+        "https://indianrailways.gov.in/railwayboard/uploads/codesmanual/Indian%20Railway%20Rolling%20Stock%20Code.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What the role involves",
+      "paragraphs": [
+        "Technician is a broad railway artisan role rather than one identical job. Work is tied to the allotted trade and department: the RRB's Grade III categories span equipment and assets such as track machines, bridges, rolling stock, diesel and electrical equipment, traction-related work, signalling and telecommunications, refrigeration/air-conditioning, and production or maintenance workshops.",
+        "In a signal specialisation, the Railway Board's Signal Engineering Manual assigns technicians responsibility for efficient maintenance and testing of mechanical, electrical, electronic, and telecommunications equipment under their charge; carrying out authorised alterations; responding promptly to alerts or messages; and escalating emergencies beyond their competence. This is a useful example of the safety-critical, rule-based nature of technical work, but exact duties differ by trade and posting."
+      ],
+      "bullets": [
+        "Inspect, test, maintain, troubleshoot, repair, or assist with authorised modification of trade-specific railway assets.",
+        "Follow technical manuals, safety procedures, supervisory instructions, and the applicable medical/safety requirements.",
+        "Report faults, emergencies, and conditions outside the technician's authority to the appropriate JE/SSE or officer."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf",
+        "https://indianrailways.gov.in/railwayboard/uploads/directorate/signal/2023/3-Duties%20of%20Signal%20Supervisors%20%26%20Technical%20Staff.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes and qualifications",
+      "paragraphs": [
+        "The standard external route is to watch for an RRB Centralised Employment Notification for Technician categories, apply only for categories matching the candidate's precise qualification and trade, then clear the notified CBT, document verification, and medical examination. CEN 02/2025 is a past recruitment cycle: its online application period was June 28 to July 28, 2025, so candidates should use an active RRB notice—not that deadline—for any new application.",
+        "For the 2025 Grade III notice, the usual qualifying pathway was Class 10/SSLC plus an ITI from an NCVT/SCVT-recognised institution in the named trade, or a course-completed Act Apprenticeship in that trade. Some categories had distinct rules: for example, Technician Grade III (S&T) also allowed 10+2 with Physics and Mathematics. Applicants must match the category-specific Annexure rather than relying on a generic degree title.",
+        "A Polytechnic Diploma or B.Tech can be valuable for longer-term technical development, but it should not be assumed to replace the notified ITI/Act Apprenticeship requirement for a Technician Grade III post. Railway instructions have specifically stated that a Diploma in Engineering is not an alternative higher qualification where the prescribed qualification is relevant ITI/Act Apprenticeship. CITS is likewise not listed as a general standalone substitute in the cited Technician Grade III notification; assess it alongside, not instead of, the exact qualification required in the live notice."
+      ],
+      "bullets": [
+        "Build eligibility around a relevant ITI trade or completed Act Apprenticeship, then verify the live RRB category table.",
+        "Prepare for the CBT subjects and retain original education, caste/category, identity, and apprenticeship documents required for verification.",
+        "Check the medical standard before giving post preferences, because different Grade III categories at the same pay level can have different medical requirements."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf",
+        "https://scr.indianrailways.gov.in/uploads/files/1583839522789-sc2019arc.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "Core skills are trade-dependent. The official initial curriculum for Apprentice Technician (Telecom) Grade III illustrates the practical expectations: safe work near tracks and railway electrification, maintenance and troubleshooting of assets, first aid/CPR awareness, use of hand tools and measuring instruments, electrical measurement, soldering, and working knowledge of railway rules and technical manuals.",
+        "For applicants, the RRB Grade III CBT syllabus also makes foundational mathematics, basic science and engineering, electricity and magnetism, electronics, measurement, and reasoning relevant preparation areas. These are examination and role-preparation signals, not a replacement for hands-on trade competence."
+      ],
+      "bullets": [
+        "Trade practice: installation, inspection, testing, preventive maintenance, fault isolation, and repair appropriate to the assigned trade.",
+        "Safety discipline: PPE, trackside and electrical precautions, fire prevention, first aid, escalation, and procedural compliance.",
+        "Technical literacy: interpret manuals and instructions; use tools and meters accurately; record or communicate faults clearly.",
+        "Employability preparation: basic mathematics, science/engineering fundamentals, reasoning, and computer awareness for the RRB examination."
+      ],
+      "source_urls": [
+        "https://er.indianrailways.gov.in/cris/uploads/files/1760007850432-SC_121_2025.pdf",
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where technicians work",
+      "paragraphs": [
+        "Posting can be in open-line divisions, sheds, depots, stations, track-machine or engineering units, workshops, and production units. The 2025 recruitment notice identifies Grade III work across Engineering, Mechanical, Electrical, Signal & Telecom, workshops, and production-unit settings; the specific worksite follows the allotted category and railway/zone.",
+        "Workshop and rolling-stock environments are operational rather than purely desk-based. The Rolling Stock Code describes locomotives, coaches, trainsets, and freight stock being maintained through sheds and depots, including preventive maintenance, carriage/wagon maintenance, safety examinations, and unscheduled attention. Depending on the role, work may therefore involve shift, depot, workshop, station, or field conditions."
+      ],
+      "bullets": [
+        "Examples of assets and settings: locomotives and diesel sheds, coaches and wagons, electrical/general-service equipment, signal and telecom installations, track machines, bridges, workshops, and production units.",
+        "Working conditions and medical requirements differ materially by post; candidates should use the category's notified medical standard and job context when ordering preferences."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf",
+        "https://indianrailways.gov.in/railwayboard/uploads/codesmanual/Indian%20Railway%20Rolling%20Stock%20Code.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and further study",
+      "paragraphs": [
+        "In the workshop artisan structure, Technician Grade III can lead through Technician Grade II and Technician Grade I to Senior Technician, with Junior Engineer and Senior Section Engineer appearing above the artisan grades in the Rolling Stock Code's classification. This is a structural map, not an automatic promotion promise: eligibility, seniority, suitability or selection/trade tests, departmental rules, sanctioned vacancies, and the employee's department determine an individual's progression.",
+        "Railway instructions establishing Senior Technician as a regular functional level state that it is filled from Technician Grade I on a seniority-cum-suitability basis, and describe a selection route from the higher artisan level toward JE-II under the then-applicable arrangements. Current departmental notifications and rules must be checked because cadre structures and promotion procedures can be revised.",
+        "Relevant higher education—such as a Polytechnic Diploma or B.Tech in electrical or mechanical engineering—and training such as CITS can broaden technical knowledge and support other career goals. However, candidates should distinguish education choices from the specific departmental eligibility conditions for a particular promotion or recruitment notice."
+      ],
+      "bullets": [
+        "Near-term: develop reliable trade competence, safety record, and familiarity with railway manuals and local procedures.",
+        "Internal route: monitor departmental selection, trade-test, and LDCE/promotion notices issued by the employing railway or division.",
+        "Longer-term: assess diploma/degree or instructor-training options against the requirements of the intended supervisory, instructional, or external technical pathway."
+      ],
+      "source_urls": [
+        "https://indianrailways.gov.in/railwayboard/uploads/codesmanual/Indian%20Railway%20Rolling%20Stock%20Code.pdf",
+        "https://scr.indianrailways.gov.in/uploads/files/1306491072148-2005sc.pdf",
+        "https://scr.indianrailways.gov.in/view_section.jsp?backgroundColor=LIGHTSTEELBLUE&fontColor=black&id=0%2C1%2C291%2C355%2C996%2C2350&lang=0"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "As a dated reference point, CEN 02/2025 listed Technician Grade III at 7th CPC Pay Level 2 with initial basic pay of ₹19,900. The final monthly amount received is not represented by that figure alone: it can vary with admissible allowances, posting location, deductions, tax, and changes in government pay or allowance rules.",
+        "Do not use a recruitment notice's vacancy count, dates, or initial-pay figure as a permanent forecast. The 2025 notification itself stated that vacancies could increase or decrease according to Railway Administration requirements, and future notices can revise recruitment parameters."
+      ],
+      "bullets": [
+        "Use the notified pay level and initial basic pay only as a dated baseline.",
+        "Confirm current allowance, deduction, and posting details from the appointment terms and the applicable railway/pay rules before making financial decisions."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "RRB CEN 02/2025 Technician notification (official PDF)",
+      "url": "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN.pdf",
+      "kind": "official recruitment notification"
+    },
+    {
+      "label": "RRB Chandigarh Technician notices page",
+      "url": "https://www.rrbcdg.gov.in/2025-02-tech.php",
+      "kind": "official recruitment updates"
+    },
+    {
+      "label": "Railway Board Signal Engineering Manual—duties of technical staff",
+      "url": "https://indianrailways.gov.in/railwayboard/uploads/directorate/signal/2023/3-Duties%20of%20Signal%20Supervisors%20%26%20Technical%20Staff.pdf",
+      "kind": "official technical manual"
+    },
+    {
+      "label": "Indian Railway Rolling Stock Code",
+      "url": "https://indianrailways.gov.in/railwayboard/uploads/codesmanual/Indian%20Railway%20Rolling%20Stock%20Code.pdf",
+      "kind": "official technical and workforce reference"
+    },
+    {
+      "label": "Railway instruction on Technician Grade III qualification",
+      "url": "https://scr.indianrailways.gov.in/uploads/files/1583839522789-sc2019arc.pdf",
+      "kind": "official establishment circular"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and regulatory standard",
+      "value": "An Indian Certificate of Proficiency (CoP) as Able Seafarer Deck is the STCW Regulation II/5 rating credential. Under India’s M.S. (STCW) Rules, 2014, an Able Seafarer Deck serving on a seagoing ship of 500 gross tonnage or more must hold this CoP and meet the competence standard in STCW Code section A-II/5.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf"
+      ]
+    },
+    {
+      "label": "Minimum age",
+      "value": "A candidate must be at least 18 years old on the date the certificate is issued.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf"
+      ]
+    },
+    {
+      "label": "Required prior certificate",
+      "value": "The candidate must first hold a Certificate of Proficiency as a Rating Forming Part of a Navigational Watch (R-NW).",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf"
+      ]
+    },
+    {
+      "label": "Sea-service route",
+      "value": "After R-NW certification, the standard route requires either at least 18 months of approved deck-department sea service, or at least 12 months plus approved training.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf"
+      ]
+    },
+    {
+      "label": "Assessment evidence",
+      "value": "DGS’s Training, Examination and Assessment Programme describes scrutiny of approved sea service and the on-board Rating Training Record Book (RTRB) by the assessment centre before certification.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who is eligible",
+      "paragraphs": [
+        "This is an advanced deck-rating certification, not an entry-level merchant-navy qualification. India’s 2014 STCW Rules require an applicant to be at least 18 at issue, already hold the R-NW CoP, complete the required approved deck sea service, and meet STCW Code section A-II/5 competence requirements.",
+        "DGS’s TEAP guidance additionally lists a pass in the 10th-standard board examination (matriculation) for this certification pathway, requires an approved Rating Training Record Book for the on-board training, and describes the competence assessment as scrutiny of service and RTRB evidence."
+      ],
+      "bullets": [
+        "Age: 18 or older at certificate issue.",
+        "Prior credential: CoP as Rating Forming Part of a Navigational Watch (R-NW).",
+        "Experience: 18 months of approved deck-department sea service after R-NW, or 12 months after R-NW together with approved training.",
+        "Competence: the STCW Code A-II/5 standard for Able Seafarer Deck at the support level.",
+        "DGS TEAP administrative guidance: 10th-standard/matriculation qualification and an approved RTRB."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Time required",
+      "paragraphs": [
+        "There is no single fixed course duration stated in India’s rule for the CoP. The controlling timeline is sea service earned after the R-NW certificate: at least 18 months in the deck department, or at least 12 months where the candidate has also completed approved training. The actual end-to-end time therefore varies with the candidate’s prior R-NW certification date, vessel assignment, documented service, training availability, and assessment processing.",
+        "DGS’s TEAP flow diagram confirms that both routes culminate in post-sea assessment of the approved sea service and RTRB, followed by the Able Seafarer Deck CoP."
+      ],
+      "bullets": [
+        "Standard route: minimum 18 months’ approved deck sea service after R-NW.",
+        "Training route: minimum 12 months’ approved deck sea service after R-NW plus approved training.",
+        "No fixed duration for the approved-training component is specified in the cited Rule 34/TEAP material."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Competence areas",
+      "paragraphs": [
+        "The certification is competence-based. STCW Table A-II/5 requires Able Seafarer Deck ratings to demonstrate support-level competence across navigation; cargo handling and stowage; controlling ship operations and care for people on board; and maintenance and repair. Assessment can draw on approved in-service experience, practical training, examination, training-ship experience, or—where appropriate—simulator training.",
+        "In practical terms, the standard covers contributing to a safe navigational watch and to berthing, anchoring and mooring; safe cargo and stores handling, including dangerous, hazardous and harmful cargoes; safe use of deck equipment and machinery; occupational safety and anti-pollution precautions; survival-craft and rescue-boat operation; and routine shipboard maintenance and repair. Examples in the table include line handling, anchoring equipment, pilot ladders and gangways, knots and splices, deck/cargo gear, and safe work in enclosed spaces or aloft."
+      ],
+      "bullets": [
+        "Safe navigational watchkeeping, watch handover, and communication with the officer of the watch.",
+        "Mooring, anchoring, berthing, line handling, and related deck operations.",
+        "Safe handling, stowage, securing, and identification of cargoes and stores, including hazardous cargoes.",
+        "Deck machinery and equipment, including winches, windlasses, cranes, hatches, ropes, cables, chains, ladders, and access arrangements.",
+        "Shipboard safety, pollution prevention, survival craft/rescue boats, and routine maintenance."
+      ],
+      "source_urls": [
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Application and certification process",
+      "paragraphs": [
+        "The DGS TEAP describes the certification stage as an assessment-centre review of satisfactory approved sea service, approved training where applicable, and the documented on-board training in the approved RTRB. This means sea-service records and training-record evidence are central to the application rather than merely course attendance.",
+        "For filing, DGS Circular No. 3 of 2015 published a Facilitation Centre checklist for Able Seafarer Deck CoPs. It listed a signed application, INDoS printout, Indian CDC, passport, R-NW CoP, employer/operator sea-service letter, applicable safety/security and deck-rating course certificates, Article of Agreement or foreign-vessel contract letter, valid medical fitness certificate, and photographs. This is a dated procedural checklist, so applicants should confirm the live filing channel, documentary format, service charges, and fee schedule with DGS/MMD or the authorised Facilitation Centre before applying."
+      ],
+      "bullets": [
+        "Prepare evidence of the prerequisite R-NW CoP, qualifying deck sea service, approved training if using the 12-month route, and completed RTRB.",
+        "Expect assessment-centre scrutiny of sea service and on-board training evidence.",
+        "Use the DGS/MMD or authorised Facilitation Centre’s current instructions to validate documents and fees before submission; the cited checklist is from 2015."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201511180318353307295nteng_cir_03_15.pdf",
+        "https://dgshipping.gov.in/Content/DGSCirculars.aspx?branchid=56"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DGS: Merchant Shipping (STCW) Rules, 2014 notification",
+      "url": "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+      "kind": "official regulation"
+    },
+    {
+      "label": "DGS: Training, Examination and Assessment Programme (TEAP), including Able Seafarer Deck section",
+      "url": "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf",
+      "kind": "official guidance"
+    },
+    {
+      "label": "IMO: STCW Code, including section and Table A-II/5",
+      "url": "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+      "kind": "international standard"
+    },
+    {
+      "label": "DGS Circular No. 3 of 2015: Facilitation Centre checklist for Able Seafarer Deck/Engine CoPs",
+      "url": "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201511180318353307295nteng_cir_03_15.pdf",
+      "kind": "official procedure"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

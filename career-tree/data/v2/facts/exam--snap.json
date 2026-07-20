@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Exam owner and purpose",
+      "value": "SNAP (Symbiosis National Aptitude Test) is the common entrance test used for admission to specified postgraduate MBA programmes at Symbiosis International (Deemed University) (SIU).",
+      "source_urls": [
+        "https://www.snaptest.org/entrance-exam-overview.html",
+        "https://www.snaptest.org/"
+      ]
+    },
+    {
+      "label": "2026-cycle status",
+      "value": "As reviewed on July 19, 2026, the official SNAP homepage displayed “SNAP 2026 Enquiries Open.” Applicants should rely on the official portal for the eventual 2026 bulletin, dates, fees, participating programmes, and rules rather than treating prior-cycle details as current.",
+      "source_urls": [
+        "https://www.snaptest.org/"
+      ]
+    },
+    {
+      "label": "Baseline academic eligibility",
+      "value": "For many listed MBA programmes in the published eligibility table, the baseline is a degree from a recognised university or Institution of National Importance with at least 50% marks/equivalent grade; the published SC/ST threshold is 45%. Programme-specific requirements can differ.",
+      "source_urls": [
+        "https://www.snaptest.org/eligibility.html"
+      ]
+    },
+    {
+      "label": "Published 2025 test format",
+      "value": "The 2025 official structure was a 60-minute computer-based objective test with 60 questions and 60 marks across General English (15), Analytical & Logical Reasoning (25), and Quantitative, Data Interpretation & Data Sufficiency (20).",
+      "source_urls": [
+        "https://www.snaptest.org/snap-exam-syllabus.html"
+      ]
+    },
+    {
+      "label": "Scoring and attempts in the published 2025 cycle",
+      "value": "For SNAP 2025, each incorrect answer carried 25% negative marking. Candidates could take up to three tests, with the higher score used for final percentile calculation if more than one attempt was taken.",
+      "source_urls": [
+        "https://www.snaptest.org/snap-exam-syllabus.html"
+      ]
+    },
+    {
+      "label": "2025 fee context, not a 2026 quote",
+      "value": "In the 2025 cycle, the test registration fee was INR 2,250 per test plus applicable government taxes, and programme registration was INR 1,000 per selected programme plus applicable taxes; the fees were stated to be non-refundable and non-transferable. These amounts may change for a later cycle.",
+      "source_urls": [
+        "https://www.snaptest.org/how-to-register-for-snaptest.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What SNAP is for",
+      "paragraphs": [
+        "SNAP is SIU’s common admissions test for the MBA programmes designated by the university. The published 2025 overview states that an applicant seeking an MBA at an SIU institute had to take the common SNAP computer-based test at a test centre, then apply to the desired programme or programmes separately through the integrated portal.",
+        "A SNAP score is an entry point, not an admission offer. Under the published process, an applicant shortlisted by a chosen programme proceeded to that programme’s further selection process, identified by SIU as GE-PI. Admission is based on the university’s prescribed criteria and assessment process."
+      ],
+      "bullets": [
+        "Use SNAP only for the SIU MBA programmes listed for the applicable admission cycle; the participating programme list can change.",
+        "Confirm the precise programme, campus, specialization, eligibility conditions, and follow-up selection process before paying fees."
+      ],
+      "source_urls": [
+        "https://www.snaptest.org/entrance-exam-overview.html",
+        "https://www.snaptest.org/"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: start with the programme, not only the test",
+      "paragraphs": [
+        "The published SIU eligibility table shows a common baseline for many MBA options: graduation from a recognised university or Institution of National Importance with at least 50% marks or equivalent grade, reduced to 45% for SC/ST candidates. Final-year candidates were permitted in the published 2025 FAQ, subject to meeting the required marks at admission; applicants with a qualifying degree from a foreign university were directed to obtain an Association of Indian Universities equivalence certificate.",
+        "Eligibility is programme-specific. For example, the published table gave additional academic or work-experience requirements for some programmes, including MBA (Infrastructure Development and Management), MBA (Business Analytics), MBA (Operations Management), and certain dual-degree offerings. SIU explicitly advises candidates to check the criteria for each programme they select."
+      ],
+      "bullets": [
+        "Match your degree, marks, category documentation, work experience, and any subject-specific requirements to the exact programme page.",
+        "Do not infer eligibility for a specialized or dual-degree MBA from the general 50%/45% baseline.",
+        "Re-check the 2026 eligibility table once SIU publishes the active admission-cycle details."
+      ],
+      "source_urls": [
+        "https://www.snaptest.org/eligibility.html",
+        "https://www.snaptest.org/faq.html"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Test format and how to interpret it",
+      "paragraphs": [
+        "The latest fully specified official test structure available in the reviewed material is for SNAP 2025. It used computer-based testing (CBT), ran for 60 minutes, and contained 60 objective questions worth 60 marks: 15 General English questions, 25 Analytical & Logical Reasoning questions, and 20 Quantitative, Data Interpretation & Data Sufficiency questions. Each question had four responses.",
+        "For that 2025 cycle, wrong answers attracted a 25% deduction. Candidates could attempt sections in any order. SIU also allowed up to three test attempts and stated that, where a candidate took more than one, the higher score would be considered for final percentile calculation. SIU reserved the right to alter schedules or test structure in unavoidable circumstances, so these rules should be verified against the 2026 notice."
+      ],
+      "bullets": [
+        "Treat the 2025 60-question, 60-minute structure as a preparation reference—not a guarantee for SNAP 2026.",
+        "Practice selecting questions and moving between sections, because the published 2025 instructions allowed any section order.",
+        "Account for negative marking in attempt decisions rather than guessing indiscriminately."
+      ],
+      "source_urls": [
+        "https://www.snaptest.org/snap-exam-syllabus.html"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process",
+      "paragraphs": [
+        "In the published 2025 process, registration was online through snaptest.org. Candidates registered for SNAP test attempt(s), paid the test registration fee, selected the SIU programme(s) they wished to pursue, and paid a separate registration fee for each programme. SIU stated that paying only the SNAP test fee did not make an applicant eligible for shortlisting to a programme.",
+        "The 2025 registration guide instructed candidates to create an account, verify with an OTP, retain their SNAP ID, upload a recent colour passport-size photograph, provide accurate details, and maintain a valid unique email address and mobile number throughout admissions. The published 2025 payment options included BillDesk, Easebuzz, and demand draft.",
+        "Fees and deadlines are cycle-specific. For context only, SNAP 2025 registration/payment closed on November 20, 2025, with the three tests held on December 6, 14, and 20, 2025; results were announced on January 9, 2026. Those dates have passed and must not be used as 2026 deadlines."
+      ],
+      "bullets": [
+        "Register for both the SNAP attempt(s) and every target programme; they are distinct payments in the published process.",
+        "Save payment confirmations, the SNAP ID, admit card, and scorecard.",
+        "Before payment, check the live 2026 portal for active dates, test-city availability, programme deadlines, document rules, taxes, and refund policy."
+      ],
+      "source_urls": [
+        "https://www.snaptest.org/how-to-register-for-snaptest.html",
+        "https://www.snaptest.org/snap-important-dates.html",
+        "https://www.snaptest.org/"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach aligned to the published structure",
+      "paragraphs": [
+        "Build preparation around the published sections: General English (reading comprehension, verbal reasoning, and verbal ability); Analytical & Logical Reasoning; and Quantitative, Data Interpretation & Data Sufficiency. Because the published 2025 structure allocated 60 questions to 60 minutes and used negative marking, preparation should include timed mixed-section practice as well as accuracy review.",
+        "Use mock attempts to establish a personal section order, time budget, and skip rule. After each attempt, classify errors as concept gaps, question-selection mistakes, calculation or reading errors, and rushed guesses; then revise by section. This is a practical strategy derived from the published one-hour format, free section order, and 25% penalty for incorrect responses—not an official cutoff or score guarantee."
+      ],
+      "bullets": [
+        "Practice all three published sections, then prioritize the error types that recur in timed work.",
+        "Simulate the full 60-minute CBT-style attempt rather than preparing only through untimed drills.",
+        "Attempt questions when you can eliminate options or solve confidently; review whether negative-marked guesses helped or hurt in mocks.",
+        "Check the active 2026 information bulletin before finalizing preparation, since SIU may change the structure."
+      ],
+      "source_urls": [
+        "https://www.snaptest.org/snap-exam-syllabus.html",
+        "https://www.snaptest.org/blogs/snap-test-preparation-guide"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What happens after the test",
+      "paragraphs": [
+        "In the published 2025 admissions flow, a candidate’s SNAP score was used for shortlisting to the SIU programme(s) for which the candidate had separately registered. A shortlisted applicant then participated in that programme’s subsequent admission process (GE-PI). The relevant institute, rather than a single universal SNAP cutoff, published category-wise merit-list and wait-list cutoffs after results.",
+        "The official portal listed 17 Symbiosis institutes and 29 MBA programmes for the 2025 cycle. Available outcomes therefore depended on the programme selected and on meeting its distinct eligibility and selection requirements; a test score alone did not complete admission. SIU states that admissions are strictly merit-based under the university’s prescribed criteria and processes."
+      ],
+      "bullets": [
+        "Keep the scorecard until the programme’s admission process is complete; SIU identified it as necessary for further institute selection processes in the published 2025 guidance.",
+        "Follow the selected institute’s own shortlist, GE-PI, merit-list, and wait-list announcements.",
+        "Do not rely on third-party “guaranteed admission” claims; SIU’s official caution notice says it has not appointed individuals or agencies to make such assurances."
+      ],
+      "source_urls": [
+        "https://www.snaptest.org/entrance-exam-overview.html",
+        "https://www.snaptest.org/faq.html",
+        "https://www.snaptest.org/snap-exam-syllabus.html",
+        "https://www.snaptest.org/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official SNAP portal",
+      "url": "https://www.snaptest.org/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "Official SNAP eligibility table",
+      "url": "https://www.snaptest.org/eligibility.html",
+      "kind": "eligibility"
+    },
+    {
+      "label": "Official SNAP test structure",
+      "url": "https://www.snaptest.org/snap-exam-syllabus.html",
+      "kind": "test format"
+    },
+    {
+      "label": "Official SNAP registration instructions",
+      "url": "https://www.snaptest.org/how-to-register-for-snaptest.html",
+      "kind": "application process"
+    },
+    {
+      "label": "Official SNAP MBA-programme overview",
+      "url": "https://www.snaptest.org/entrance-exam-overview.html",
+      "kind": "programme and admissions overview"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

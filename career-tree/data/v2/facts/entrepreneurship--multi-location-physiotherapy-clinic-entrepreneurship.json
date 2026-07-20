@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Professional category",
+      "value": "Physiotherapy is listed as a “Physiotherapy Professional” category under the National Commission for Allied and Healthcare Professions framework; the official enrolment FAQ lists “Physiotherapist” among the 56 allied and healthcare professions.",
+      "source_urls": [
+        "https://ahpr.abdm.gov.in/faq",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00023_202114_1622792373723&orderno=1&orgactid=AC_CEN_12_13_00023_202114_1622792373723&sectionId=54438&sectionno=1&statehandle=123456789%2F1362"
+      ]
+    },
+    {
+      "label": "Minimum staffing reference",
+      "value": "The Central Clinical Establishments physiotherapy-centre standard specifies at least one physiotherapist, with BPT from a recognised university (or DPT awarded until 1991), and council registration where applicable.",
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf"
+      ]
+    },
+    {
+      "label": "Clinic registration is location-sensitive",
+      "value": "The Clinical Establishments Act framework covers clinics and allied-health establishments, but implementation is through the relevant State/UT framework. The central portal lists the States/UTs that have adopted the Act and separately publishes State/UT rules and notifications.",
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/en/node/1",
+        "https://www.clinicalestablishments.mohfw.gov.in/en/state-and-uts-rules-and-notification"
+      ]
+    },
+    {
+      "label": "Multi-state tax footprint",
+      "value": "For a taxable business, GST registration is generally considered state-wise: CBIC’s FAQ says a fresh registration is required for a branch office in another state. Thresholds and exemptions depend on the nature of supplies and current law, so a clinic network should obtain tax advice before opening each additional-state location.",
+      "source_urls": [
+        "https://cbic-gst.gov.in/faq.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Route into multi-location physiotherapy-clinic entrepreneurship",
+      "paragraphs": [
+        "A credible route is to first establish clinical leadership: operate with physiotherapists whose qualifications, scope of service and registration meet applicable requirements. The Central Clinical Establishments physiotherapy standard uses a BPT from a recognised university as its minimum qualification reference and calls for State Physiotherapy and Occupational Therapy Council registration where applicable. The NCAHP/ABDM enrolment system also identifies physiotherapy as an allied-health professional category.",
+        "A practical expansion route is founder-led clinical practice to a repeatable single-site model, then to company-owned branches, partner-operated sites or a franchise/licensing structure. Before choosing the legal vehicle, founders should obtain corporate, tax and healthcare-regulatory advice. MCA’s SPICe+ materials describe the electronic company-incorporation route, while the Udyam portal provides optional MSME registration for eligible enterprises."
+      ],
+      "bullets": [
+        "Build a documented lead-clinician and credential-verification process before delegating patient care across sites.",
+        "Validate a first clinic’s referral, assessment, treatment-plan, documentation, billing, infection-control and complaint-handling workflows before reproducing them.",
+        "Select an entity and ownership structure that can contract for leases, employment, equipment, insurance, technology and branding; company incorporation and MSME registration are business formalisation tools, not substitutes for clinic-level approvals.",
+        "Treat every new branch as a separate local due-diligence project, especially when opening in another State/UT."
+      ],
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://ahpr.abdm.gov.in/faq",
+        "https://www.mca.gov.in/Ministry/pdf/SPICe%2B_help.pdf",
+        "https://udyamregistration.gov.in/?open_in_new_tab=true"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities needed to scale without diluting care quality",
+      "paragraphs": [
+        "The operating capability is not only clinical. The published physiotherapy-centre standard expects services to match the professional’s qualifications, training and registration; staff professional records; periodic skill enhancement; maintained equipment; patient registration; and a documented assessment and plan of care. A network therefore needs a common clinical-governance system that makes those expectations auditable at every site.",
+        "Operational leadership is equally important. Multi-location founders need site selection, lease and vendor management, staffing and rota design, branch-level cash controls, service-quality monitoring, local-language patient communication, and a system to investigate complaints and corrective actions. These are scale capabilities inferred from the standard’s requirements for patient records, support services, maintenance, infection control, safety and local-law compliance."
+      ],
+      "bullets": [
+        "Clinical governance: approved care pathways, referral/escalation rules, peer review and periodic competency refreshers.",
+        "People systems: credential checks, role definitions, induction, supervision ratios and branch manager accountability.",
+        "Service operations: standardized reception, booking, fee disclosure, billing, consent, patient identification and follow-up workflows.",
+        "Asset discipline: a location-wise equipment register, preventive-maintenance calendar, calibration/service evidence where relevant, and replacement planning.",
+        "Data and analytics: comparable indicators by clinic—for example, appointment attendance, treatment-plan completion, patient feedback, incidents, therapist utilisation and receivables—using access-controlled systems."
+      ],
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://abdm.gov.in/FAQ"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "A replicable clinic-network operating model",
+      "paragraphs": [
+        "A scalable model separates what should be standardised centrally from what must be delivered locally. Centralise the brand, clinical policies, credentialing criteria, training, technology, procurement standards, finance controls and quality dashboard. Keep local accountability for community outreach, daily staffing, appointment flow, facility readiness and compliance with municipal and State/UT requirements. This design is aligned with the physiotherapy-centre standard, which contemplates both standalone centres and physiotherapy sections attached to hospitals or polyclinics, and permits certain support functions such as registration and billing to be shared.",
+        "The clinical workflow should remain consistent across sites: register every patient; record the referring doctor’s working diagnosis where applicable, relevant history and findings, the plan of care, exercises/modalities, and the physiotherapist’s signature and date. The published standard also describes review/re-prescription for continuing care after three weeks. Founders should confirm the currently applicable requirements in the jurisdiction rather than assume that a central standard alone settles the legal position."
+      ],
+      "bullets": [
+        "Company-owned branches: strongest direct control over staffing, quality and patient experience; requires central working capital and direct local management.",
+        "Hospital or polyclinic partnerships: can share registration, billing and waste-management support, but contracts should clearly allocate clinical governance, patient-record access, branding, revenue collection and incident responsibility.",
+        "Franchise or licensed-partner locations: can broaden reach, but should only be considered after a proven clinical manual, rigorous credentialing, audit rights, mandatory reporting, brand-use rules and a clear mechanism to suspend unsafe operations.",
+        "Digital layer: use appointment and record systems that preserve each patient’s privacy and support consent-based sharing if integrating with ABDM-enabled services."
+      ],
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://abdm.gov.in/FAQ",
+        "https://abdm.gov.in/abdm"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance checklist for each clinic location",
+      "paragraphs": [
+        "Treat compliance as a branch-opening gate, not a head-office exercise. The Clinical Establishments framework says that the owner is responsible for registration and that implementation is through State councils and district registration authorities; its official site also shows that the Act has not been adopted uniformly across India. Each proposed clinic should therefore be checked against the applicable State/UT clinical-establishment law or rules, municipal permissions, building and fire requirements, local labour obligations, and any professional-registration requirement before patient services begin.",
+        "The physiotherapy-centre standard calls for compliance with local regulations and law, prominent display of the centre name, practitioner details/registration number, fee structure, hours and services; maintenance of records; infection-control measures; first-aid readiness; and biomedical-waste management. The central biomedical-waste guidance requires healthcare facilities generating covered waste to follow the Biomedical Waste Management Rules and, where available, use an authorised common biomedical-waste treatment facility rather than establish their own on-site treatment facility.",
+        "Patient records and CRM data require governance. The Digital Personal Data Protection Act, 2023 includes obligations of data fiduciaries and rights of data principals, while ABDM’s health-data approach is consent-based for record linking and sharing. Build privacy notices, role-based access, retention/deletion controls, grievance handling, vendor controls and breach-response procedures with legal advice based on the then-effective rules."
+      ],
+      "bullets": [
+        "Before signing a lease: verify permitted use, local clinical-establishment registration pathway, building/fire requirements, accessibility, signage rules, parking and landlord permissions for equipment and medical use.",
+        "Before opening: verify every treating professional’s qualification and any applicable council/NCAHP enrolment or registration status; ensure scope-of-practice and referral/escalation policies are documented.",
+        "During operation: display required information; maintain patient, staff and equipment records; maintain hygiene and safety procedures; train staff in first aid/BLS as appropriate; and contract with authorised waste providers if biomedical waste is generated.",
+        "Tax and employment: review GST position, invoicing, payroll, social-security and State labour compliance for the entity and each location. GST treatment can vary with the supplies offered, exemptions and the location from which a supply is made.",
+        "This is a compliance map, not legal advice: obtain written, jurisdiction-specific advice for every State/UT and refresh it when laws, notifications or business services change."
+      ],
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/en/faq",
+        "https://www.clinicalestablishments.mohfw.gov.in/en/state-and-uts-rules-and-notification",
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+        "https://www.indiacode.nic.in/handle/123456789/22037",
+        "https://abdm.gov.in/FAQ",
+        "https://cbic-gst.gov.in/faq.html"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths after the first repeatable clinic",
+      "paragraphs": [
+        "Growth should follow evidence of repeatability rather than a fixed number of branches. The standard itself distinguishes standalone physiotherapy centres and units attached to hospitals or polyclinics, which supports several expansion routes: additional owned clinics, hospital-based physiotherapy units, or partner-operated sites with shared non-clinical support. The choice should be made after reviewing clinical outcomes, patient safety, workforce availability, referral relationships, unit economics and the local compliance burden.",
+        "MSME formalisation can be useful for eligible enterprises: the Udyam portal states that registration is free, paperless and based on self-declaration, and it identifies the current investment-and-turnover classification thresholds. Eligibility, financing and scheme benefits are time-sensitive; verify them at the point of application rather than treating them as guaranteed funding."
+      ],
+      "bullets": [
+        "Density expansion: open nearby sites only when the clinical-leadership bench, referrals and quality controls can support them.",
+        "Institutional partnerships: build physiotherapy units within hospitals or polyclinics, with written allocation of records, billing, support services and clinical oversight.",
+        "Specialised service lines: add only services for which each location has appropriately trained personnel, facilities, equipment and referral/escalation arrangements.",
+        "Network enablement: after standardisation, centralise training, procurement, finance, patient experience and technology; keep local clinical-accountability and compliance ownership explicit.",
+        "Franchising/licensing: consider only after documenting standards, audit methods, corrective-action rights and a mechanism to protect patients and the brand when a partner fails compliance."
+      ],
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://udyamregistration.gov.in/?open_in_new_tab=true",
+        "https://udyamregistration.gov.in/SiteHighlights.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Clinical Establishments Act portal — standards, State/UT rules and registration information",
+      "url": "https://www.clinicalestablishments.mohfw.gov.in/",
+      "kind": "regulator"
+    },
+    {
+      "label": "Physiotherapy Centre minimum standards (PDF)",
+      "url": "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+      "kind": "standard"
+    },
+    {
+      "label": "NCAHP Allied and Healthcare Professionals enrolment FAQ",
+      "url": "https://ahpr.abdm.gov.in/faq",
+      "kind": "professional_regulator"
+    },
+    {
+      "label": "Ayushman Bharat Digital Mission — health-data and consent information",
+      "url": "https://abdm.gov.in/FAQ",
+      "kind": "government_program"
+    },
+    {
+      "label": "Udyam Registration portal",
+      "url": "https://udyamregistration.gov.in/",
+      "kind": "government_business_service"
+    },
+    {
+      "label": "CBIC GST FAQ",
+      "url": "https://cbic-gst.gov.in/faq.html",
+      "kind": "tax_regulator"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

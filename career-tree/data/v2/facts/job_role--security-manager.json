@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Closest national skills benchmark",
+      "value": "India’s NSDC listing identifies the Security Officer qualification (MEP/Q7202) under the occupation “Security Management” at NSQF Level 6. It is a useful adjacent benchmark for a corporate Security Manager, rather than proof that every employer uses the same title or requires this qualification.",
+      "source_urls": [
+        "https://nsdcindia.org/node/30008",
+        "https://nsdcindia.org/contentavailability/all?combine=&order=field_qp_code&page=5&sort=desc"
+      ]
+    },
+    {
+      "label": "Private-agency regulatory context",
+      "value": "Where security is supplied through a private security agency, the agency must hold a licence under the Private Security Agencies (Regulation) Act, 2005 (PSARA). The Act defines private security as protection of people and/or property and includes supervisors within the definition of private security guard.",
+      "source_urls": [
+        "https://www.mha.gov.in/sites/default/files/The%20Private%20Security%20Agencies%20%28Regulation%29%20Act%2C%202005.pdf"
+      ]
+    },
+    {
+      "label": "Core management scope",
+      "value": "The national Security Supervisor occupational standard covers deployment of staff and equipment, operational checks, incident reporting, training needs, security documentation, risk controls and emergency response—functions that commonly scale into a Security Manager’s remit.",
+      "source_urls": [
+        "https://nsdcindia.org/sites/default/files/MEPQ7201-Security-Supervisor-v1-29.03.2018.pdf"
+      ]
+    },
+    {
+      "label": "Operational settings",
+      "value": "The Security Supervisor occupational standard identifies commercial and industrial private-security deployments; the PSARA definition also expressly covers guards supplied to industrial or business undertakings and companies.",
+      "source_urls": [
+        "https://nsdcindia.org/sites/default/files/MEPQ7201-Security-Supervisor-v1-29.03.2018.pdf",
+        "https://www.mha.gov.in/sites/default/files/The%20Private%20Security%20Agencies%20%28Regulation%29%20Act%2C%202005.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Security Manager does",
+      "paragraphs": [
+        "A Security Manager leads the physical-security operation for a site or group of facilities: translating site instructions and risk information into guard deployment, shift rosters, equipment allocation, checks and reports. The NSDC Security Supervisor standard specifically includes identifying premises-specific risks and assets, planning manpower and equipment deployment, monitoring staff and equipment, maintaining key and movement control, and checking operational effectiveness through briefings, patrols, surprise checks, mock drills and rehearsals.",
+        "A manager-level role also coordinates incidents and continuity response. The same standard covers restricting access to an incident scene, evacuation, prioritising key assets, receiving and briefing fire/rescue/medical teams, recording incidents and liaising with police. In an agency-supplied guarding model, PSARA requires guards to assist police investigations and report noticed legal violations through the prescribed reporting chain.",
+        "In practice, the role should be distinguished from cyber-security management: this node concerns corporate physical security and guarding operations. The closest NSDC benchmark is “Security Officer” in the Security Management occupation, while the statutory framework regulates private security agencies and their guards/supervisors rather than creating a single, protected corporate job title called Security Manager."
+      ],
+      "bullets": [
+        "Plan guard-force and security-equipment deployment across shifts and posts.",
+        "Review threats, hazards, access arrangements, patrols, keys, visitor/material movement and site controls.",
+        "Manage vendor guard performance, attendance, training requirements, welfare issues, documentation and escalations.",
+        "Lead incident response, drills and post-incident reporting; coordinate with facilities, fire/medical responders and police where needed.",
+        "Protect operational information: PSARA restricts disclosure of information acquired during security employment except to authorised parties or where required by law."
+      ],
+      "source_urls": [
+        "https://nsdcindia.org/sites/default/files/MEPQ7201-Security-Supervisor-v1-29.03.2018.pdf",
+        "https://www.mha.gov.in/sites/default/files/The%20Private%20Security%20Agencies%20%28Regulation%29%20Act%2C%202005.pdf",
+        "https://nsdcindia.org/node/30008"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "A common operational route is to build supervised-guarding experience before taking wider site responsibility. NSDC’s Security Supervisor qualification (MEP/Q7201) is listed at NSQF Level 5, while its Security Officer qualification (MEP/Q7202), classified in Security Management, is listed at Level 6. These are skills-framework benchmarks, not universal legal or employer hiring requirements for the title “Security Manager.”",
+        "For private-agency work, compliance matters alongside education and experience. PSARA requires agencies to ensure prescribed training and skills for guards and supervisors, requires agencies to employ the prescribed number of supervisors, and gives preference—when engaging a supervisor—to people with at least three years’ service in the armed forces, state police organisations including armed constabularies, or Home Guards. State rules and employer requirements can add to or vary practical entry expectations.",
+        "Candidates can therefore develop toward this role through guard/supervisor operations, facility-security or loss-prevention work, security-control-room/CCTV exposure, or relevant armed-forces/police/Home Guards experience, then demonstrate capability in multi-person deployment, documentation, vendor coordination and emergency handling."
+      ],
+      "bullets": [
+        "Use the NSDC Security Supervisor and Security Officer qualifications as reference points when comparing training providers or role readiness.",
+        "Before joining or contracting with a guarding vendor, verify that the private security agency holds the required PSARA licence and follows the applicable state/UT rules.",
+        "Treat advertised degrees, training hours and experience thresholds as employer- and state-specific unless they are explicitly stated in the governing state rules or vacancy notice."
+      ],
+      "source_urls": [
+        "https://nsdcindia.org/security-supervisor-0",
+        "https://nsdcindia.org/node/30008",
+        "https://nsdcindia.org/contentavailability/all?combine=&order=field_qp_code&page=5&sort=desc",
+        "https://www.mha.gov.in/sites/default/files/The%20Private%20Security%20Agencies%20%28Regulation%29%20Act%2C%202005.pdf",
+        "https://www.mha.gov.in/sites/default/files/2023-05/sop_03052023.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role requires operational leadership as much as guarding knowledge. The NSDC standard identifies staff and equipment deployment, leadership and supervision, on-the-job training, honest reporting, communication with stakeholders, emergency decision-making, risk/threat identification and analysis, and use of security and communication equipment as relevant capabilities.",
+        "Written and oral communication are central because managers must turn shift activity into actionable records and instructions. The standard calls for documenting instructions and task lists, writing reports, reading organisational procedures and identity documents, giving clear team instructions, communicating with visitors and stakeholders, and raising alarms or making announcements over phone or radio.",
+        "Digital and administrative competence is also relevant: the standard includes basic use of computers, word processing, spreadsheets, email and internet browsing, alongside maintenance of rosters, incident/complaint reports, movement-control records, key-control registers, training registers and mock-drill records."
+      ],
+      "bullets": [
+        "Risk assessment and practical control design.",
+        "Guard-force leadership, scheduling, performance monitoring and vendor management.",
+        "Access control, patrol, key and movement-control processes.",
+        "Incident command, evacuation, drills, first aid/fire-response coordination and police liaison.",
+        "Clear report writing, documentation discipline, stakeholder communication and confidentiality.",
+        "Operational use and basic checks of surveillance, alarm, communications and access-control equipment."
+      ],
+      "source_urls": [
+        "https://nsdcindia.org/sites/default/files/MEPQ7201-Security-Supervisor-v1-29.03.2018.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the role is performed",
+      "paragraphs": [
+        "Security Managers commonly operate at commercial and industrial premises, either as an in-house corporate function or as the client-facing manager for a licensed guarding agency. The NSDC standard describes commercial and industrial private-security contexts, and PSARA includes private security services supplied to industrial or business undertakings, companies, persons and property.",
+        "The work is site-led and may span shifts, multiple entry/exit points, patrol areas, control rooms and emergency coordination. It involves regular contact with facilities teams, maintenance, fire/control-room personnel, guard vendors, visitors and, during incidents, external emergency services and police."
+      ],
+      "bullets": [
+        "Corporate offices, campuses, industrial sites, warehouses, retail or other business premises.",
+        "Mix of desk-based planning/reporting and on-site inspections, briefings and incident response.",
+        "Potential shift, on-call or after-hours responsibility where facilities operate continuously or have elevated risk."
+      ],
+      "source_urls": [
+        "https://nsdcindia.org/sites/default/files/MEPQ7201-Security-Supervisor-v1-29.03.2018.pdf",
+        "https://www.mha.gov.in/sites/default/files/The%20Private%20Security%20Agencies%20%28Regulation%29%20Act%2C%202005.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "A typical progression is from guarding or security operations into supervision and then broader security-management responsibility. NSDC’s currently listed benchmarks place Security Supervisor at NSQF Level 5 and Security Officer, in the Security Management occupation, at Level 6. Titles vary by employer, so movement should be assessed by scope—team size, sites, vendor responsibility, risk ownership, incident authority and stakeholder management—not title alone.",
+        "At higher levels, the work broadens from running a shift or site to setting security plans, reviewing operational performance, managing multiple facilities or vendors, and reporting material risks and incidents to senior leadership. The underlying supervisory standard already includes performance monitoring, identifying team training needs, proactive risk reporting and administration of personnel, all of which support that transition."
+      ],
+      "bullets": [
+        "Security Guard / control-room or site-security operations → Security Supervisor.",
+        "Security Supervisor / Security Officer → Security Manager or multi-site security operations role.",
+        "Senior progression may lead to regional security, head of security or chief security officer responsibilities, subject to employer structure."
+      ],
+      "source_urls": [
+        "https://nsdcindia.org/security-supervisor-0",
+        "https://nsdcindia.org/node/30008",
+        "https://nsdcindia.org/contentavailability/all?combine=&order=field_qp_code&page=5&sort=desc",
+        "https://nsdcindia.org/sites/default/files/MEPQ7201-Security-Supervisor-v1-29.03.2018.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NSDC: Security Officer (MEP/Q7202)",
+      "url": "https://nsdcindia.org/node/30008",
+      "kind": "national skills benchmark"
+    },
+    {
+      "label": "NSDC: Security Supervisor (MEP/Q7201)",
+      "url": "https://nsdcindia.org/security-supervisor-0",
+      "kind": "national skills benchmark"
+    },
+    {
+      "label": "Ministry of Home Affairs: Private Security Agencies (Regulation) Act, 2005",
+      "url": "https://www.mha.gov.in/sites/default/files/The%20Private%20Security%20Agencies%20%28Regulation%29%20Act%2C%202005.pdf",
+      "kind": "law"
+    },
+    {
+      "label": "Ministry of Home Affairs: PSARA acts and rules",
+      "url": "https://www.mha.gov.in/en/divisionofmha/police-modernisation-division/acts-rules",
+      "kind": "regulatory reference"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

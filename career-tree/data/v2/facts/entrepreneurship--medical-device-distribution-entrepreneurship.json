@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Primary regulated activity",
+      "value": "A distributor that sells, stocks, exhibits, offers for sale, or distributes medical devices—including in-vitro diagnostic (IVD) devices—uses the sale-and-distribution registration route under the Medical Devices Rules, 2017.",
+      "source_urls": [
+        "https://drugscontrol.py.gov.in/sites/default/files/GSR-754E-new.pdf",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"
+      ]
+    },
+    {
+      "label": "Registration route",
+      "value": "For a distribution premises, the application is made in Form MD-41 to the relevant State Licensing Authority; the resulting registration certificate is Form MD-42. State authorities enforce sale, stock, exhibition, offer for sale, and distribution for devices of all risk classes.",
+      "source_urls": [
+        "https://drugscontrol.py.gov.in/sites/default/files/GSR-754E-new.pdf",
+        "https://www.cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/Medical%20Devices%20Rules%2C%202017.pdf",
+        "https://www.cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/MDFAQ1324.pdf"
+      ]
+    },
+    {
+      "label": "Risk classes",
+      "value": "India classifies medical devices and IVDs by risk into Class A (low), B (low-moderate), C (moderate-high), and D (high). Product classification should be checked before taking on a new portfolio.",
+      "source_urls": [
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/InVitro-Diagnostics/",
+        "https://www.cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/MDFAQ1324.pdf"
+      ]
+    },
+    {
+      "label": "Distribution-control baseline",
+      "value": "The registration framework requires appropriate premises and storage conditions, self-certification for Good Distribution Compliance, competent technical staff, and purchase/sales records that can show manufacturer or importer details, batch or lot numbers, and expiry dates where applicable.",
+      "source_urls": [
+        "https://drugscontrol.py.gov.in/sites/default/files/GSR-754E-new.pdf",
+        "https://www.dfcojk.org/pdf/Medical%20Devices%20Registration%20Formalities%20updated-1.pdf"
+      ]
+    },
+    {
+      "label": "Import expansion",
+      "value": "A distributor planning to import devices must use the Central Licensing Authority’s import pathway. CDSCO states that importers need an MD-15 import licence under MDR 2017, except that non-sterile, non-measuring Class A devices follow the applicable registration route; an overseas manufacturer appoints an Indian authorized agent through a power of attorney.",
+      "source_urls": [
+        "https://www.cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/MDFAQ1324.pdf",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Starting a medical-device distribution venture",
+      "paragraphs": [
+        "The practical entry route is to establish a legally constituted business, secure a suitable distribution premises, and apply to the State Licensing Authority for registration to sell or distribute devices. Form MD-41 captures the applicant, premises, business constitution, and competent person; a successful applicant receives the Form MD-42 registration certificate.",
+        "A founder does not need to manufacture a device to operate as a distributor. However, the distribution registration framework requires sales activity to be undertaken under the direction and supervision of competent technical staff, and requires evidence relating to the premises, the firm, and distribution compliance. Because implementation is administered by State Licensing Authorities, the intended state’s drug-control authority should be consulted before committing to a premises or product range."
+      ],
+      "bullets": [
+        "Choose a legal form appropriate for ownership, contracting, banking, taxation, and supplier arrangements; MD-41 accommodates proprietorships, partnerships/LLPs, companies, societies, trusts, and other specified forms.",
+        "Identify the proposed storage and dispatch premises before filing: supporting documentation for ownership or occupancy is part of the registration materials.",
+        "Appoint and document a competent technical person, then assemble qualification and experience records required by the applicable registration process.",
+        "Begin with products whose classification, labelling, storage, and supplier authorizations can be verified consistently rather than building a catalogue first and checking compliance later."
+      ],
+      "source_urls": [
+        "https://drugscontrol.py.gov.in/sites/default/files/GSR-754E-new.pdf",
+        "https://www.dfcojk.org/pdf/Medical%20Devices%20Registration%20Formalities%20updated-1.pdf",
+        "https://www.cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/MDFAQ1324.pdf"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities that make the business credible",
+      "paragraphs": [
+        "This is a regulated supply-chain business, not simply a general trading operation. The operator needs enough product and regulatory literacy to identify the correct device or IVD classification, check labels and storage directions, distinguish an authorized supply source from an unverified one, and preserve traceability from inbound batch or lot to customer delivery.",
+        "Operational capability also means designing records and inventory processes around inspection readiness. The rules require records of purchases and sales with product quantities, manufacturer or importer details, batch or lot numbers, and expiry dates where applicable; records must be available to the Medical Device Officer."
+      ],
+      "bullets": [
+        "Portfolio and clinical-use understanding: know whether the item is a medical device or IVD, its intended use, risk classification, label requirements, and storage requirements.",
+        "Quality operations: receiving inspection, expiry and batch/lot control, stock rotation, quarantine of suspect or recalled inventory, and documented handling of customer complaints.",
+        "Commercial execution: supplier contracting, hospital/laboratory account management, tender reading, credit control, invoicing, and dispatch planning.",
+        "Data discipline: maintain a product master and transaction records that connect supplier, invoice, batch or lot, expiry where relevant, customer, and delivery."
+      ],
+      "source_urls": [
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/InVitro-Diagnostics/",
+        "https://drugscontrol.py.gov.in/sites/default/files/GSR-754E-new.pdf",
+        "https://www.cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/Medical%20Devices%20Rules%2C%202017.pdf"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "How the distribution model works",
+      "paragraphs": [
+        "A typical model links authorized manufacturers or importers to clinical customers such as hospitals, diagnostic laboratories, clinics, and other registered buyers. The distributor earns through negotiated product margins, service arrangements, logistics execution, and—in suitable categories—availability of stocked inventory. The regulatory operating model is built around buying only from permitted supply sources, maintaining storage requirements stated on labels, and retaining complete transaction records.",
+        "For imported products, the distributor can either buy from an Indian importer/authorized agent or, when it has the required approvals and overseas-manufacturer authorization, operate in the import pathway itself. CDSCO identifies the Central Licensing Authority as responsible for imports of all device classes and describes Form MD-14/MD-15 for import licensing."
+      ],
+      "bullets": [
+        "Source from an importer, licensed manufacturer, or registered/licensed entity; retain supplier authorization and invoice evidence.",
+        "Receive and store devices under the labelled conditions, including required temperature and lighting controls where relevant.",
+        "Sell and dispatch against documented customer orders; keep electronic or physical purchase-and-sale records with required traceability fields.",
+        "Use demand forecasting and expiry-aware replenishment to avoid shortages and prevent sale of expired stock.",
+        "For public-sector opportunities, assess whether the relevant products and business credentials fit Government e-Marketplace seller and bid requirements before pursuing tenders."
+      ],
+      "source_urls": [
+        "https://drugscontrol.py.gov.in/sites/default/files/GSR-754E-new.pdf",
+        "https://www.cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/MDFAQ1324.pdf",
+        "https://assets-bg.gem.gov.in/resources/pdf/seller-registration-pre-requisites-v1.2.pdf"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance priorities",
+      "paragraphs": [
+        "The core compliance control is registration of the operating premises for sale or distribution. The applicable framework requires an MD-41 application to the State Licensing Authority and specifies conditions for the certificate, including adequate space, proper storage, purchase from authorized sources, and traceable sales and purchase records. The certificate must be displayed prominently at the registered premises.",
+        "The business should treat expiry, label directions, storage excursions, suspect products, customer complaints, field-safety actions, and adverse-event information as controlled quality events. CDSCO publishes medical-device adverse-event reporting materials and has issued circulars addressing adverse-event reporting and post-market safety surveillance. Obligations can depend on the business’s role—for example, distributor, importer, authorized agent, or manufacturer—so contracts should clearly allocate complaint escalation, recall cooperation, and reporting responsibilities.",
+        "Regulatory requirements, online processes, forms, fee schedules, device-classification lists, and state-level implementation can change. This guide is a starting point, not legal advice; confirm the current requirements with the relevant State Licensing Authority and CDSCO before launch, expansion, or import activity."
+      ],
+      "bullets": [
+        "Maintain the MD-42 registration certificate and ensure the actual premises, competent-person arrangement, and activities remain aligned with the registration.",
+        "Store each product according to its label; do not sell, supply, or dispense a device after its labelled expiry date or contrary to labelled directions.",
+        "Keep purchase and sales records, including manufacturer/importer identification, batch or lot information, and expiry date where applicable, available for inspection.",
+        "Maintain written procedures for receiving, storage, stock rotation, complaint intake, traceability, recall/field action support, and supplier/customer communication.",
+        "Check CDSCO notices and device-classification information routinely, particularly before adding IVDs, higher-risk devices, imported devices, or products requiring specialized storage."
+      ],
+      "source_urls": [
+        "https://drugscontrol.py.gov.in/sites/default/files/GSR-754E-new.pdf",
+        "https://www.cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/Medical%20Devices%20Rules%2C%202017.pdf",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths after a compliant base is established",
+      "paragraphs": [
+        "Growth can begin by deepening distribution within a defined clinical category, then adding adjacent devices or IVDs only after confirming product classification, storage needs, supplier authorization, and recordkeeping capacity. Since sales and distribution of IVDs are also regulated under MDR 2017 and subject to risk classification, an IVD expansion should be treated as a regulated portfolio decision rather than a simple catalogue extension.",
+        "A more advanced route is import representation. CDSCO describes an authorized agent as an Indian person, firm, or organization appointed by an overseas manufacturer through power of attorney, and provides the import-licence process through MD-14 and MD-15. This route increases control over the portfolio but also adds central regulatory, documentation, and post-market responsibilities.",
+        "Public procurement can be another channel. GeM’s seller-registration materials describe registration prerequisites for proprietorships, firms, companies, trusts, societies, and government entities, while bid participation can require additional validated tax-return information unless an exception applies. Requirements should be checked at the time of registration and tendering."
+      ],
+      "bullets": [
+        "Specialist distributor: build depth in a focused category, with stronger technical support, inventory availability, and traceability.",
+        "Multi-city or multi-state distribution: add registered premises and state-specific compliance processes as the footprint expands.",
+        "IVD distribution: add diagnostics only after validating classification, storage, technical support, and customer-service processes.",
+        "Importer/authorized-agent model: secure overseas manufacturer authorization and pursue the CDSCO import route where commercially justified.",
+        "Government-institution channel: complete applicable GeM seller onboarding and prepare product, tax, and compliance documentation needed for bids."
+      ],
+      "source_urls": [
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/InVitro-Diagnostics/",
+        "https://www.cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/MDFAQ1324.pdf",
+        "https://assets-bg.gem.gov.in/resources/pdf/seller-registration-pre-requisites-v1.2.pdf",
+        "https://ui.gem.gov.in/login"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CDSCO — Medical Device & Diagnostics portal",
+      "url": "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "CDSCO — Medical Devices Rules, 2017 and amendments",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/Acts-and-rules/Medical-Devices-Rules/",
+      "kind": "regulation"
+    },
+    {
+      "label": "CDSCO — Medical Devices Rules, 2017 consolidated PDF",
+      "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/Medical%20Devices%20Rules%2C%202017.pdf",
+      "kind": "regulation text"
+    },
+    {
+      "label": "CDSCO — MDR 2017 FAQ",
+      "url": "https://www.cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/MDFAQ1324.pdf",
+      "kind": "regulator FAQ"
+    },
+    {
+      "label": "State drug-control example — MD-41/MD-42 registration formalities",
+      "url": "https://www.dfcojk.org/pdf/Medical%20Devices%20Registration%20Formalities%20updated-1.pdf",
+      "kind": "state implementation guidance"
+    },
+    {
+      "label": "Government e-Marketplace — seller registration prerequisites",
+      "url": "https://assets-bg.gem.gov.in/resources/pdf/seller-registration-pre-requisites-v1.2.pdf",
+      "kind": "public procurement guidance"
+    },
+    {
+      "label": "Udyam Registration portal",
+      "url": "https://udyamregistration.gov.in/",
+      "kind": "MSME registration"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

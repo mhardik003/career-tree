@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Provider and structure",
+      "value": "The CFA Program is administered by CFA Institute and comprises three sequential exams: Level I, Level II, and Level III.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/exam"
+      ]
+    },
+    {
+      "label": "Level I entry routes",
+      "value": "For Level I registration, a candidate must have a completed bachelor’s degree, be an undergraduate within 23 months of graduation, or meet CFA Institute’s combined higher-education/professional-work-experience route; an international travel passport is also required.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/policies"
+      ]
+    },
+    {
+      "label": "Exam delivery and sequence",
+      "value": "Exams are computer-based. Candidates must pass Level I before Level II and Level II before Level III; CFA Institute permits no more than two attempts in a calendar year, not in consecutive windows or within six months, with a maximum of six attempts per level.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide",
+        "https://www.cfainstitute.org/programs/cfa-program/exam"
+      ]
+    },
+    {
+      "label": "Study expectation",
+      "value": "CFA Institute states that successful candidates report spending more than 300 hours preparing for each exam level; this is an indicative preparation benchmark, not a guarantee of success.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-i-exam"
+      ]
+    },
+    {
+      "label": "2026 fee context",
+      "value": "For exams from 2026, CFA Institute lists total registration fees across all three levels at USD 3,520–4,600 depending on early versus standard registration; local taxes may be added and individual exam-window prices and deadlines vary.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/dates-fees"
+      ]
+    },
+    {
+      "label": "What is required for the charter",
+      "value": "Passing all three exams alone does not award the CFA designation. The candidate must also complete required Practical Skills Modules, obtain at least 4,000 hours of qualifying experience over at least 36 months, and become a CFA Institute Charterholder member.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/charter",
+        "https://www.cfainstitute.org/membership/types/charterholder"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and place in a finance career",
+      "paragraphs": [
+        "The CFA Program is a professional investment credential pathway rather than an Indian university degree. CFA Institute describes its three progressively more complex levels as building knowledge and skills for investment analysis and portfolio management. It is therefore commonly relevant to learners moving from commerce, economics, finance, or management education toward analytical investment roles, but enrolment and examination success do not themselves guarantee a particular job or salary.",
+        "The curriculum covers foundational and advanced investment topics, with Level I focused on learning and describing concepts, Level II on analyzing and evaluating vignette-based situations, and Level III on integrating and applying concepts in portfolio-management-oriented scenarios."
+      ],
+      "bullets": [
+        "The program assesses investment-industry knowledge and application across three exam levels.",
+        "It is international in administration; Indian candidates should use CFA Institute’s current exam calendar to check available local appointments, fees, taxes, and deadlines for their selected window."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/curriculum",
+        "https://www.cfainstitute.org/programs/cfa-program/exam",
+        "https://www.cfainstitute.org/programs/cfa-program/dates-fees"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility for Level I and progression through the program",
+      "paragraphs": [
+        "A candidate registering for Level I must satisfy one of CFA Institute’s education or work-experience entry routes. The degree route requires a completed bachelor’s or equivalent degree. A current undergraduate may select a Level I window that is no more than 23 months before the graduation month. Alternatively, the candidate may qualify through a combination of at least 4,000 hours of professional work experience and/or higher education obtained over at least three sequential years; the education and work periods cannot overlap for this calculation.",
+        "An international travel passport is required for registration. To sit Level II, candidates must have passed Level I and meet the program’s continuing requirements; to sit Level III, they must have passed Level II and, if entering as a student, completed the bachelor’s degree or accrued 4,000 hours of professional work experience."
+      ],
+      "bullets": [
+        "Paid internships/articleships may be accepted in the professional-work-experience entry route; CFA Institute states that the work does not need to be investment related for Level I enrolment.",
+        "Applicants should confirm their own graduation timing, degree equivalence, identification, and exam-window rules directly with CFA Institute before paying, as policies can change."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/policies",
+        "https://www.cfainstitute.org/programs/cfa-program/exam"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Three-level exam format",
+      "paragraphs": [
+        "Each CFA exam has two timed content sessions and approximately 4.5 hours of testing time. Level I consists of stand-alone multiple-choice questions. Level II uses vignettes followed by multiple-choice questions. Level III combines vignette-supported constructed-response (essay) and multiple-choice questions, assessing integration and application of the curriculum.",
+        "For the currently published format, Level I has 180 multiple-choice questions in two 135-minute sessions. CFA Institute states that Level II and Level III also total 4.5 hours, with 132 minutes allotted to each of their two content sessions; candidates should rely on the current level-specific guide for their chosen exam window."
+      ],
+      "bullets": [
+        "Level I: learn and describe.",
+        "Level II: analyze and evaluate.",
+        "Level III: integrate and apply."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/exam",
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-i-exam"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Registration, scheduling, and exam-day administration",
+      "paragraphs": [
+        "CFA Institute describes registration as a two-step process: create or access a CFA Institute account and register for the relevant exam; after payment is processed, use the candidate account to schedule the appointment. Registration windows include early and standard deadlines as well as scheduling, rescheduling, and accommodation deadlines, so candidates in India should select their intended level and window in the official calendar rather than rely on third-party dates.",
+        "CFA exams are offered at test centres in multiple global locations. CFA Institute says candidates should arrive about 30 minutes before the appointment and bring a valid international travel passport and an approved calculator. Before the result is released, candidates must complete at least one required Practical Skills Module."
+      ],
+      "bullets": [
+        "Check the registration deadline and then separately schedule the test-centre appointment.",
+        "Verify the passport name against the CFA Institute account well before the appointment.",
+        "Review the current personal-belongings, identification, calculator, conduct, and rescheduling rules before travel."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide",
+        "https://www.cfainstitute.org/programs/cfa-program/dates-fees",
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/pre-exam-preparation-guide",
+        "https://www.cfainstitute.org/programs/cfa-program/exam"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparing effectively",
+      "paragraphs": [
+        "CFA Institute provides a Learning Ecosystem and identifies practice questions, mock exams, its mobile app, candidate discussion resources, Practical Skills Modules, and an approved-prep-provider list among available study supports. Its reported benchmark is more than 300 hours of preparation per exam level among successful candidates, but an appropriate plan depends on a candidate’s prior finance knowledge, work commitments, and selected exam date.",
+        "Preparation should match the level’s question style: foundational concepts and formulas for Level I, vignette analysis for Level II, and both constructed responses and item sets for Level III. Candidates should also use the official exam tutorial and become familiar with the test software before their appointment."
+      ],
+      "bullets": [
+        "Begin with the current official curriculum and topic outlines for the registered exam year.",
+        "Build timed practice around the actual level-specific question format.",
+        "Complete the required Practical Skills Module in time for exam results to be issued."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-i-exam",
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/pre-exam-preparation-guide",
+        "https://www.cfainstitute.org/programs/cfa-program/dates-fees"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "From exam candidate to CFA charterholder",
+      "paragraphs": [
+        "Completion of the three exams is an important milestone but is distinct from being awarded the CFA charter. To become a Charterholder member and use the CFA designation, CFA Institute requires completion of the CFA Program and Practical Skills Modules, at least 4,000 hours of eligible work experience accumulated over a minimum of 36 months, professional references, and successful membership application.",
+        "Qualifying experience must be directly involved in investment decision-making or produce work that informs or adds value to that process. CFA Institute states that relevant experience can be earned before, during, or after program participation and may be full-time, part-time, or remote. This makes the program compatible with gaining relevant finance experience while progressing through the exams, subject to CFA Institute’s review of the membership application."
+      ],
+      "bullets": [
+        "Passing Levels I–III does not by itself confer the right to use “CFA.”",
+        "Relevant experience may include work such as investment research, portfolio-related analysis, financial modelling, investment advice, or work products supporting investment decisions, subject to CFA Institute review.",
+        "The direct next credential outcome is Charterholder membership; career outcomes such as research, credit, investment, portfolio, banking, or wealth roles depend on the candidate’s experience, employer requirements, and labour market conditions."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/charter",
+        "https://www.cfainstitute.org/membership/types/charterholder",
+        "https://www.cfainstitute.org/membership/types/work-experience-self-assessment"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official CFA exam dates, registration windows, and fees",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/dates-fees",
+      "kind": "official schedule and fees"
+    },
+    {
+      "label": "CFA Program policies and enrolment requirements",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/policies",
+      "kind": "official policy"
+    },
+    {
+      "label": "CFA exam registration and scheduling guide",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide",
+      "kind": "official guide"
+    },
+    {
+      "label": "How to become a CFA charterholder",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/charter",
+      "kind": "official charter guide"
+    },
+    {
+      "label": "CFA Program curriculum overview",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/curriculum",
+      "kind": "official curriculum"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

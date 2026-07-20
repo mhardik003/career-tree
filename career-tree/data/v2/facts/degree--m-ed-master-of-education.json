@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Qualification type",
+      "value": "M.Ed. is an NCTE-regulated, postgraduate professional programme in teacher education. It is intended to prepare teacher educators and education professionals, including curriculum developers, policy analysts, planners, administrators, school principals, supervisors and researchers.",
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "Under NCTE’s 2014 norms, the M.Ed. is a two-academic-year programme. It includes field attachment of at least four weeks and a research dissertation; requirements may be completed within a maximum of three years from admission.",
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf"
+      ]
+    },
+    {
+      "label": "Baseline entry qualification",
+      "value": "The NCTE norm sets 50% marks or an equivalent grade in B.Ed., B.A.B.Ed./B.Sc.B.Ed., B.El.Ed., or D.El.Ed. plus an undergraduate degree with 50% in each qualification. Applicable reservation and relaxation rules are set by the relevant Central or State authority.",
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf"
+      ]
+    },
+    {
+      "label": "Typical delivery",
+      "value": "M.Ed. is generally a full-time programme. NCTE norms require at least 200 working days each year, with minimum attendance of 80% in theory/practicum and 90% in field attachment.",
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf"
+      ]
+    },
+    {
+      "label": "Admissions route",
+      "value": "Admission may be based on qualifying-examination merit, an entrance examination, or another selection process under the policy of the university or government. CUET-PG is used by some institutions; for example, the University of Delhi’s 2025-26 M.Ed. admission used CUET-PG scores.",
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf",
+        "https://cie.du.ac.in/userfiles/downloads/Admissions/MED/MED2025/E-Prospectus%20M.Ed%202025-26.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "The national baseline in NCTE’s Appendix 5 is at least 50% marks, or an equivalent grade, in B.Ed.; integrated B.A.B.Ed. or B.Sc.B.Ed.; B.El.Ed.; or D.El.Ed. together with an undergraduate degree, with 50% in each of the latter qualifications. The applicable Central or State rules govern category-based reservation and relaxation.",
+        "Individual universities can publish programme-specific conditions and document requirements. For example, the University of Delhi’s 2025-26 prospectus used the same qualifying routes and 50% threshold, while specifying that category concessions followed university rules. Applicants should therefore check the current prospectus of every target institution rather than relying only on the national minimum."
+      ],
+      "bullets": [
+        "Primary route: B.Ed. with at least 50% marks or equivalent grade.",
+        "Other recognised routes: B.A.B.Ed./B.Sc.B.Ed., B.El.Ed., or D.El.Ed. plus a bachelor’s degree, subject to the stated marks conditions.",
+        "Reservation, relaxation, equivalence and documentation requirements vary by the applicable government and university rules."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf",
+        "https://cie.du.ac.in/userfiles/downloads/Admissions/MED/MED2025/E-Prospectus%20M.Ed%202025-26.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study commitment",
+      "paragraphs": [
+        "The NCTE standard is two academic years, including a minimum four-week field attachment and a research dissertation. Students are allowed up to three years from admission to complete the programme under the cited norm.",
+        "The programme is structured as intensive professional study: NCTE specifies at least 200 working days per year and minimum attendance of 80% for theory and practicum and 90% for field attachment. A current institution’s academic calendar, semester system and daily schedule should be confirmed locally."
+      ],
+      "bullets": [
+        "Two academic years under the NCTE 2014 norm.",
+        "Minimum four weeks of field attachment.",
+        "Research dissertation is compulsory.",
+        "Maximum completion period: three years from admission under the norm."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and learning experience",
+      "paragraphs": [
+        "At the regulatory level, M.Ed. combines advanced study in education with practicum, field attachment and a research dissertation. The qualification is designed for preparation in teacher education and wider education-professional work, rather than being solely a classroom-teaching credential.",
+        "Course titles and specialisations are set by universities. As an illustrative official university structure, the University of Delhi’s 2025-26 M.Ed. prospectus described research-methods courses and seminar work, perspective courses spanning philosophical, sociological, psychological, historical and economic foundations of education and teacher education, optional specialisation courses, project work and a dissertation. It also described teaching through lectures, discussions, practicum, presentations, group work, school-based assignments and seminars."
+      ],
+      "bullets": [
+        "Research methods and research capacity development.",
+        "Foundations and perspectives of education.",
+        "Optional or institution-defined specialisation study.",
+        "Practicum, school/field-based work and a dissertation."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf",
+        "https://cie.du.ac.in/userfiles/downloads/Admissions/MED/MED2025/E-Prospectus%20M.Ed%202025-26.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "NCTE permits admission on the basis of qualifying-examination marks, an entrance examination, or another selection process, according to the policy of the relevant State Government, Central Government, university or Union Territory administration. Consequently, M.Ed. admissions are not governed by one universal application route.",
+        "CUET-PG is an important route at participating institutions, but it is not universally required. The University of Delhi’s 2025-26 M.Ed. prospectus, for example, selected candidates through CUET-PG merit, while the Central University of Gujarat listed M.Ed. under CUET-PG with test-paper code COQP15 for its 2025-26 intake. Entrance codes, participating institutions, counselling steps and dates can change by admission cycle; applicants should consult the current NTA and university notices."
+      ],
+      "bullets": [
+        "Confirm the institution’s current eligibility and selection method before applying.",
+        "If a target institution uses CUET-PG, register for the required paper code and complete that institution’s separate admission or counselling process where required.",
+        "Keep qualifying-degree records, marksheets, category certificates where applicable, identity documents and entrance-test records ready for verification."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf",
+        "https://cie.du.ac.in/userfiles/downloads/Admissions/MED/MED2025/E-Prospectus%20M.Ed%202025-26.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and cost considerations",
+      "paragraphs": [
+        "There is no single national M.Ed. tuition figure. Under the NCTE norm, an institution may charge only the fee prescribed by its affiliating body or State Government under the applicable fee-regulation framework, and it must not charge donations or capitation fees.",
+        "Actual student cost is therefore institution- and location-specific. It can include tuition and university charges, examination and registration charges, accommodation, travel, learning materials and fieldwork expenses. As a dated example of how variable disclosure can be, the University of Delhi’s 2025-26 M.Ed. prospectus stated that fee structures for its offering institutions would be announced at admission time and that concessions would follow university guidelines. Verify the published fee notice for the specific academic session before accepting an offer."
+      ],
+      "bullets": [
+        "Do not treat fee figures from past admission cycles as current.",
+        "Request or download the official fee schedule for the relevant institution and session.",
+        "Avoid any institution or intermediary seeking capitation fees or donations."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf",
+        "https://cie.du.ac.in/userfiles/downloads/Admissions/MED/MED2025/E-Prospectus%20M.Ed%202025-26.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Progression and career directions",
+      "paragraphs": [
+        "The programme’s stated purpose supports work and further development in teacher education, curriculum development, education policy analysis, planning, administration, supervision, school leadership and educational research. Specific appointments depend on the recruiting organisation’s own eligibility rules and experience requirements.",
+        "A research progression may include applying for a Ph.D. after the master’s degree, subject to the university’s admissions process and the UGC Ph.D. Regulations. For higher-education teaching, an M.Ed. alone is not a universal appointment guarantee: UGC regulations set broader requirements for Assistant Professor appointments, including a relevant master’s degree with at least 55% marks and ordinarily NET/SLET/SET, subject to the stated Ph.D. and discipline-related provisions."
+      ],
+      "bullets": [
+        "Ph.D. and education-research pathways, subject to university admission criteria.",
+        "Teacher-education and academic roles, subject to UGC, NCTE, university and employer requirements.",
+        "Education administration, curriculum, policy, planning, school leadership and research-oriented roles."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page876.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCTE Regulations 2014 — Appendix 5: M.Ed. norms and standards",
+      "url": "https://ncte.gov.in/Website/PDF/regulation/regulation2014/english/appendix5.pdf",
+      "kind": "regulator"
+    },
+    {
+      "label": "NCTE recognised teacher-education institutions portal",
+      "url": "https://ncte.gov.in/Website/RecognizedInstitution.aspx",
+      "kind": "regulator"
+    },
+    {
+      "label": "NTA CUET-PG portal",
+      "url": "https://exams.nta.ac.in/CUET-PG/",
+      "kind": "exam"
+    },
+    {
+      "label": "University of Delhi M.Ed. 2025-26 prospectus",
+      "url": "https://cie.du.ac.in/userfiles/downloads/Admissions/MED/MED2025/E-Prospectus%20M.Ed%202025-26.pdf",
+      "kind": "university"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

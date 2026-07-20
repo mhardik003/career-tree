@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What this node covers",
+      "value": "Restaurant entrepreneurship is the creation and operation of a food-service business such as a restaurant, café, take-away or delivery-led kitchen. FSSAI describes a restaurant as a food-service operation that prepares and serves food and drinks for payment; it notes that operations may include take-out and delivery-only service.",
+      "source_urls": [
+        "https://fctest.fssai.gov.in/search-eligibility/Reg"
+      ]
+    },
+    {
+      "label": "Core food-business approval",
+      "value": "Food-business licensing or registration is mandatory under Section 31 of the Food Safety and Standards Act, 2006. Applications, renewals and modifications are handled through FSSAI’s FoSCoS system.",
+      "source_urls": [
+        "https://southregion.fssai.gov.in/Licensing.php",
+        "https://foscos.fssai.gov.in/"
+      ]
+    },
+    {
+      "label": "Relevant education routes",
+      "value": "Useful feeder routes include hospitality degrees, food-production diplomas and entrepreneurship training. NCHMCT’s B.Sc. in Hospitality and Hotel Administration includes food production, food and beverage service, food safety and quality, hotel accountancy, financial management and facility planning; its Diploma in Food Production is a 1.5-year programme for eligible Class 12 completers.",
+      "source_urls": [
+        "https://www.nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+        "https://www.nchm.gov.in/admission/diploma-food-production"
+      ]
+    },
+    {
+      "label": "FSSAI scale threshold",
+      "value": "For the restaurant category, FSSAI’s eligibility tool indicates basic registration for annual turnover up to ₹12 lakh and a State licence above that threshold. The correct category depends on the specific business activity, capacity, location and operating model, so applicants should confirm it in FoSCoS before applying.",
+      "source_urls": [
+        "https://foscos.fssai.gov.in/search-eligibility/CL",
+        "https://foscos.fssai.gov.in/"
+      ]
+    },
+    {
+      "label": "MSME registration context",
+      "value": "An eligible restaurant or cloud-kitchen enterprise may obtain Udyam registration. The official portal states that registration is online, paperless, self-declaration based and free; it also states that no renewal is required.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/"
+      ]
+    },
+    {
+      "label": "GST context",
+      "value": "GST registration generally becomes necessary when aggregate turnover exceeds ₹20 lakh across India for a PAN, subject to statutory exceptions and different thresholds in specified special-category States. This should be checked with a tax professional for the venture’s State, supply pattern and business model.",
+      "source_urls": [
+        "https://cbic-gst.gov.in/hindi/sectoral-faq.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes into restaurant entrepreneurship",
+      "paragraphs": [
+        "There is no single compulsory degree for opening a restaurant, but the listed parent routes provide practical entry points. The NCHMCT B.Sc. in Hospitality and Hotel Administration is a three-year programme with operational training in food production, food and beverage service, front office and housekeeping, alongside managerial study in accountancy, food safety and quality, human resources, facility planning and financial management. These are directly relevant to designing and running a food-service outlet.",
+        "A Diploma in Food Production is a more kitchen-centred route. NCHMCT lists it as a 1.5-year, three-semester programme open to Class 12 students who studied English, and positions food-production diplomas for employment in hotels, restaurants, fast-food outlets and allied hospitality operations. A prospective founder can pair this operational foundation with experience in a professional kitchen, service outlet or delivery kitchen before investing in an independent venture.",
+        "Small-business entrepreneurship learning is particularly useful for the ownership side: selecting an entity structure, defining founder roles, preparing a business plan, arranging finance, negotiating leases and supplier terms, and building compliance routines. Startup India identifies sole proprietorship, partnership, LLP and company structures among the forms through which a business may be conducted; the appropriate choice depends on ownership, capital, liability, tax and fundraising needs."
+      ],
+      "bullets": [
+        "Use a hospitality-management route when the intended role combines outlet operations, guest experience, staffing and commercial management.",
+        "Use a food-production route when the founder’s initial advantage is menu development, kitchen execution, standard recipes and production control.",
+        "Build evidence before launch through a pilot menu, pop-up, catering assignment, delivery-only test kitchen or work experience; NCHMCT’s hospitality entrepreneurship syllabus specifically covers opportunity evaluation, resource planning, ownership forms and hospitality business plans."
+      ],
+      "source_urls": [
+        "https://www.nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+        "https://www.nchm.gov.in/admission/diploma-food-production",
+        "https://www.startupindia.gov.in/content/sih/en/Legal-Considerations-for-a-Startup-.html",
+        "https://nchm.gov.in/sites/default/files/2026-01/B.Sc%20%28HHA%29%20III%20Year%20Syllabus.pdf"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities to build",
+      "paragraphs": [
+        "Restaurant founders need both hospitality capability and disciplined small-business management. Relevant technical capabilities include food production, food and beverage service, food safety and quality, facility planning, cost-aware purchasing, stock control and team supervision. NCHMCT’s hospitality curriculum explicitly combines operational laboratory training with accounting, financial management, human-resource management, tourism marketing and strategic management inputs.",
+        "A founder should translate these skills into repeatable systems: standard recipes and portions; approved suppliers and receiving checks; prep, storage and cleaning routines; opening and closing checklists; training for cooks and service staff; a daily sales-and-wastage review; and documented customer-complaint handling. This operating discipline supports the Food Safety Management System required of licensed food businesses.",
+        "Commercial capability matters as much as cooking skill. The entrepreneur should be able to identify a target customer and occasion, price the menu from realistic ingredient and packaging costs, estimate demand and staffing by daypart, monitor contribution by item/channel, and decide whether dine-in, takeaway, delivery or catering is the primary model. NCHMCT’s entrepreneurship curriculum includes idea evaluation, business-plan development, resource management and hospitality-specific ownership choices."
+      ],
+      "bullets": [
+        "Food execution: recipes, yield, portion control, production scheduling and safe storage.",
+        "Hospitality execution: service design, guest recovery, ambience and queue/order flow.",
+        "Business control: bookkeeping, cash-flow monitoring, procurement, inventory, payroll and vendor management.",
+        "People leadership: hiring, training, shift planning and clear accountability for food safety."
+      ],
+      "source_urls": [
+        "https://www.nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+        "https://www.nchm.gov.in/sites/default/files/2026-01/B.Sc%20%28HHA%29%20III%20Year%20Syllabus.pdf",
+        "https://fssai.gov.in/cms/hygiene-requirements.php"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Choosing and operating the food-service model",
+      "paragraphs": [
+        "Choose the format only after matching the offering to its demand source and operational constraints. A full-service restaurant requires a guest-facing site, service staff and table-turn management; a café may focus on beverages, snacks and repeat daytime traffic; a takeaway or delivery-led/cloud-kitchen model concentrates on production, packaging, dispatch and platform or direct-order fulfilment. FSSAI’s restaurant definition expressly covers dine-in, take-out and delivery-only operations, so food-safety obligations remain relevant regardless of channel.",
+        "Prepare a business plan that identifies the concept, customer segment, menu, location or delivery catchment, ownership structure, equipment, staffing, suppliers, capital requirement, pricing and route to market. Hospitality entrepreneurship training under NCHMCT includes idea generation and screening, plans for hospitality ventures, management of land, staff and equipment, and ownership forms; these are a sensible structure for a launch plan.",
+        "Run the outlet through a small number of measurable routines: forecast covers/orders; buy to par levels; record receiving and wastage; reconcile sales and cash/digital payments daily; review menu-item performance; and schedule labour to actual trading hours. The exact sales, rent, commission, food-cost and payroll mix varies sharply by city, site, cuisine, ordering channel and business stage, so financial projections should be locally costed and reviewed with an accountant or adviser rather than copied from a generic benchmark."
+      ],
+      "bullets": [
+        "Start with a defined customer promise rather than a broad menu: for example, quick workday meals, specialty coffee, regional cuisine or office catering.",
+        "Design the menu around production capacity, food safety, ingredient availability and expected order volume.",
+        "If using online ordering, establish packaging, dispatch-time and customer-data processes in addition to kitchen controls.",
+        "Treat the restaurant as a regulated operating business, not solely as a culinary project."
+      ],
+      "source_urls": [
+        "https://fctest.fssai.gov.in/search-eligibility/Reg",
+        "https://nchm.gov.in/sites/default/files/2026-01/B.Sc%20%28HHA%29%20III%20Year%20Syllabus.pdf",
+        "https://www.startupindia.gov.in/content/sih/en/bloglist/blogs/legal-and-regulatory-checklist.html"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance checklist for an Indian restaurant venture",
+      "paragraphs": [
+        "Before trading, obtain the applicable FSSAI registration or licence through FoSCoS. FSSAI states that food-business licensing/registration is mandatory under Section 31, and its eligibility tool distinguishes basic registration and licences based on the kind of business and relevant scale criteria. The applicant should select the actual activity—such as restaurant, catering or other food service—and use the current FoSCoS eligibility and document requirements rather than relying only on turnover summaries.",
+        "Food safety must be embedded in daily operations. FSSAI states that licensed food businesses must have a documented Food Safety Management System plan and comply with Schedule 4 of the Licensing and Registration Regulations. Schedule 4 includes general hygiene and sanitary practices, with a dedicated part for catering. This makes cleaning, personal hygiene, pest prevention, safe storage, process control and records operational requirements rather than optional quality measures.",
+        "Set up the business structure and tax registrations appropriate to the founders and venture. Startup India notes that proprietorships, partnership firms, LLPs and companies are among available legal structures. CBIC’s published GST FAQ gives a general ₹20 lakh aggregate-turnover registration threshold, while noting exceptions; special-category State treatment and the venture’s supply arrangements can change the result. Obtain professional tax advice before assuming an exemption or tax rate.",
+        "Also verify State and local permissions for the exact premises and activities. Startup India’s regulatory checklist identifies local trade licences and location-dependent labour-law obligations, including the relevant Shops and Establishments Act, as examples of requirements that may apply. Premises-related approvals, fire safety, signage, building use, waste handling, excise permissions for alcohol and labour registrations are jurisdiction- and activity-specific; confirm them with the municipal authority, State departments and qualified local advisers before fit-out and opening.",
+        "Udyam registration can be considered where the enterprise qualifies as an MSME. The official portal says its registration process is free, online and paperless, and that the certificate does not require renewal. It is not a substitute for FSSAI, GST or local operating approvals."
+      ],
+      "bullets": [
+        "Confirm the FSSAI kind of business, registration/licence category, premises documents and renewal/modification needs through FoSCoS.",
+        "Maintain an FSMS plan and hygiene controls aligned to the applicable Schedule 4 requirements.",
+        "Choose and document the ownership structure; use written founder, lease, supplier and employment arrangements where relevant.",
+        "Check GST, income-tax/TDS, payroll and labour obligations with a chartered accountant or labour adviser.",
+        "Obtain and maintain local premises and activity approvals before opening; requirements differ across States, cities and business activities."
+      ],
+      "source_urls": [
+        "https://southregion.fssai.gov.in/Licensing.php",
+        "https://foscos.fssai.gov.in/",
+        "https://foscos.fssai.gov.in/search-eligibility/CL",
+        "https://fssai.gov.in/cms/hygiene-requirements.php",
+        "https://www.startupindia.gov.in/content/sih/en/Legal-Considerations-for-a-Startup-.html",
+        "https://cbic-gst.gov.in/hindi/sectoral-faq.html",
+        "https://www.startupindia.gov.in/content/sih/en/bloglist/blogs/legal-and-regulatory-checklist.html",
+        "https://udyamregistration.gov.in/"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths after the first outlet",
+      "paragraphs": [
+        "A restaurant entrepreneur can grow by strengthening one profitable unit before replicating it: standardise the menu and production process, document operating procedures, train supervisors, improve procurement and reporting, and then add formats such as a second outlet, a delivery kitchen, catering, packaged products or a franchise-ready concept. NCHMCT’s hospitality entrepreneurship curriculum treats restaurant and food-service ventures, resource planning, leadership, strategic planning and franchise case studies as relevant entrepreneurial capabilities.",
+        "Growth does not automatically make every restaurant eligible for DPIIT Startup recognition. Startup India states that recognition is for qualifying incorporated entities that work toward innovation or improvement of products, services or processes, or have a scalable model with employment or wealth-creation potential, subject to its stated age, turnover and entity conditions. A conventional restaurant should therefore assess eligibility against the current criteria instead of assuming that incorporation or MSME registration alone creates Startup India eligibility.",
+        "As the venture formalises, Udyam registration may support access to MSME-facing systems and services where eligible. The official Udyam portal notes integration with government marketplaces, public-procurement systems, TReDS and the MSME Samadhaan portal; these potential benefits should be assessed in relation to the business’s actual buyer mix and registration status."
+      ],
+      "bullets": [
+        "Operator path: chef or manager to single-unit owner, then multi-unit operator.",
+        "Channel path: dine-in to takeaway, delivery, catering, corporate meals or central-kitchen production.",
+        "Brand path: documented SOPs, stronger procurement, trademark strategy and franchise or licensing evaluation.",
+        "Formalisation path: appropriate entity structure, accounting discipline, Udyam registration where eligible, and possible DPIIT recognition only if the venture meets the notified startup criteria."
+      ],
+      "source_urls": [
+        "https://nchm.gov.in/sites/default/files/2026-01/B.Sc%20%28HHA%29%20III%20Year%20Syllabus.pdf",
+        "https://www.startupindia.gov.in/santhali/content/sih/en/startupgov/startup_recognition_page.html",
+        "https://udyamregistration.gov.in/SiteHighlights.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "FSSAI FoSCoS: apply, renew or modify food-business registration/licence",
+      "url": "https://foscos.fssai.gov.in/",
+      "kind": "regulator portal"
+    },
+    {
+      "label": "FSSAI eligibility checker",
+      "url": "https://foscos.fssai.gov.in/search-eligibility/CL",
+      "kind": "regulator tool"
+    },
+    {
+      "label": "FSSAI hygiene and FSMS / Schedule 4 resources",
+      "url": "https://fssai.gov.in/cms/hygiene-requirements.php",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "Udyam registration portal",
+      "url": "https://udyamregistration.gov.in/",
+      "kind": "government portal"
+    },
+    {
+      "label": "CBIC GST sectoral FAQs",
+      "url": "https://cbic-gst.gov.in/hindi/sectoral-faq.html",
+      "kind": "tax guidance"
+    },
+    {
+      "label": "NCHMCT B.Sc. in Hospitality and Hotel Administration",
+      "url": "https://www.nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+      "kind": "education provider"
+    },
+    {
+      "label": "NCHMCT Diploma in Food Production",
+      "url": "https://www.nchm.gov.in/admission/diploma-food-production",
+      "kind": "education provider"
+    },
+    {
+      "label": "Startup India legal and regulatory checklist",
+      "url": "https://www.startupindia.gov.in/content/sih/en/bloglist/blogs/legal-and-regulatory-checklist.html",
+      "kind": "government guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

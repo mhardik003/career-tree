@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and issuer",
+      "value": "Physical Security Professional (PSP®) is an ASIS International board certification that evidences knowledge and experience in physical-security assessment; security-system application, design and integration; and implementation of physical-security measures.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/physical-security-professional/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "label": "Who it suits",
+      "value": "It is intended for experienced professionals in physical security, with the required experience varying from three to five years according to education and APP® status.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/physical-security-professional/",
+        "https://external.asisonline.org/eweb/DynamicPage.aspx?ct1_key=79C0A5E9-5AAC-4554-A641-645C37EB038B&webcode=AGSCertProcApp"
+      ]
+    },
+    {
+      "label": "Assessment",
+      "value": "The PSP examination has 125 scored and 15 unscored multiple-choice questions across three domains: physical-security assessment; application, design and integration of physical-security systems; and implementation of physical-security measures.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/physical-security-professional/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "label": "Delivery and schedule",
+      "value": "After approval, candidates may test at a Prometric centre or via Prometric ProProctor remote proctoring; ASIS states that its exams are offered year-round.",
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "label": "Maintenance",
+      "value": "To remain certified, PSP holders must complete 60 hours of continuing professional education (CPE) during each three-year certification cycle.",
+      "source_urls": [
+        "https://www.asisonline.org/certification/recertification/"
+      ]
+    },
+    {
+      "label": "Accreditation context",
+      "value": "ANAB lists ASIS International's PSP personnel-certification scope as accredited through December 7, 2027.",
+      "source_urls": [
+        "https://anabpd.ansi.org/Accreditation/credentialing/personnel-certification/AllDirectoryDetails?orgID=90&prgID=201&statusID=4"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility for Indian physical-security professionals",
+      "paragraphs": [
+        "PSP is an experience-led professional certification. The official eligibility pathways are: five years of physical-security experience without a higher-education degree; four years with a bachelor’s degree or international equivalent; or three years with a master’s degree or international equivalent. Holding the ASIS APP® can reduce the no-degree route to four years and the bachelor’s route to three years; the master’s route remains three years.",
+        "ASIS also requires full-time employment in a security-related role, agreement to the ASIS Certification Code of Conduct and programme policies, and no criminal conviction that would reflect negatively on the profession, ASIS, or the certification programme. Candidates in India relying on a degree should be prepared to document an accredited higher-education qualification or international equivalent."
+      ],
+      "bullets": [
+        "Suitable experience should align to the PSP domains, such as conducting threat or vulnerability surveys, assessing physical-security risks, specifying or integrating access control/CCTV/intrusion or related systems, procurement, commissioning, acceptance testing, and ongoing programme evaluation.",
+        "This is not an entry-level qualification: applicants who do not yet have the required physical-security experience should first build supervised, documented experience in roles such as corporate/facility security, security systems design or integration, loss prevention, critical-infrastructure security, or security consulting."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/certification/physical-security-professional/",
+        "https://external.asisonline.org/eweb/DynamicPage.aspx?ct1_key=79C0A5E9-5AAC-4554-A641-645C37EB038B&webcode=AGSCertProcApp",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the PSP examination covers",
+      "paragraphs": [
+        "The examination blueprint assigns 34% to Physical Security Assessment, 35% to Application, Design, and Integration of Physical Security Systems, and 31% to Implementation of Physical Security Measures. ASIS describes the exam as experience-based: candidates need to apply professional judgement rather than merely memorise reference texts.",
+        "Assessment content includes identifying critical assets and vulnerabilities; qualitative and quantitative risk assessment; countermeasure selection and cost-benefit analysis; system performance requirements and design documentation; access, surveillance, communications, network and power considerations; procurement and vendor evaluation; installation, commissioning and acceptance testing; personnel support; and life-cycle evaluation of systems."
+      ],
+      "bullets": [
+        "ASIS’s listed PSP reference set comprises the POA Physical Security volume, Implementing Physical Protection Systems: A Practical Guide (3rd edition), the ASIS Physical Asset Protection Standard, and the Business Continuity Management Guideline.",
+        "ASIS offers study guides, review courses, practice resources and chapter study groups, but its handbook says preparatory materials are not included in the application fee and do not guarantee a passing result."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/certification/physical-security-professional/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Application and examination process",
+      "paragraphs": [
+        "The application is completed online. Applicants should have a résumé/CV that maps relevant work to the certification domains, an unofficial higher-education transcript where applicable, contact details for three work-experience references, a supervisor who can verify employment, and payment for the application and exam fee. Documents submitted in a foreign language must include an English translation.",
+        "ASIS says application review normally takes about two to three weeks. Once approved, the candidate receives an authorization-to-test email and schedules with Prometric. The PSP is offered in English and Spanish; for candidates in India, the available relevant option stated by ASIS is English. Testing can be at a Prometric centre or remotely through ProProctor, subject to the technical and identity-check requirements."
+      ],
+      "bullets": [
+        "Ensure that the name in the application exactly matches the valid government-issued photo ID used on test day.",
+        "For remote testing, ASIS advises against using a company computer because firewall restrictions can interfere with delivery; an interrupted remote exam may result in loss of the paid attempt and a retake fee."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/certification/apply-for-certification/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Time commitment and certification cycle",
+      "paragraphs": [
+        "PSP is a certification examination rather than a fixed-duration academic programme. ASIS offers exams year-round. From the authorization-to-test email, a candidate has one year and up to three attempts to pass; there must be at least 60 days between testing dates. This makes preparation time flexible, but the one-year candidacy window is a firm operational limit.",
+        "After earning the credential, the maintenance cycle is three years. To recertify, the PSP holder must record and submit 60 CPE hours earned through eligible security-, business- or safety-related learning, teaching, or service activities that connect to the certification domains."
+      ],
+      "bullets": [
+        "Application review is stated to take approximately two to three weeks before authorization to test.",
+        "ASIS permits a test-centre appointment or remote-proctored delivery after approval."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+        "https://www.asisonline.org/certification/recertification/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and budgeting",
+      "paragraphs": [
+        "ASIS publishes PSP fees in US dollars and reviews certification and recertification fees every two years, so an Indian applicant should confirm the live amount and applicable market category before paying. At the official fee schedule available when this guide was reviewed, the initial PSP fee was US$580 for ASIS members and US$910 for non-members. ASIS also listed Emerging Market 1 rates of US$480 for members and US$720 for non-members, and Emerging Market 2 rates of US$460 and US$680 respectively.",
+        "ASIS states that emerging-market rates depend on the World Bank country classification, rather than on a candidate self-selecting a discount tier. The published PSP retake fee was US$480, with lower listed emerging-market rates of US$360 or US$330. Published fees include a non-refundable US$160 processing component; recommended study resources are additional costs."
+      ],
+      "bullets": [
+        "Budget separately for optional preparation resources, possible review courses, and any costs associated with a test-centre visit or maintaining a suitable remote-testing setup.",
+        "A denied or cancelled application is refunded less the US$160 non-refundable processing fee; ASIS states that no refund is issued 90 days after application approval."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/certification/apply-for-certification/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Progression after PSP",
+      "paragraphs": [
+        "The immediate next professional priority is maintaining PSP through the three-year, 60-CPE recertification requirement. CPE activity must be relevant to security, business or safety and linked to the certification domains; ASIS specifies limits for some activity categories.",
+        "For professionals moving from a physical-security specialism into broader security-management leadership, ASIS’s Certified Protection Professional (CPP®) is a possible later credential. CPP requires three years in responsible charge of a security function plus overall security experience that varies by education: seven years without a higher-education degree, six with a bachelor’s degree, or five with a master’s degree; APP® holders receive a one-year reduction in the stated overall-experience routes."
+      ],
+      "bullets": [
+        "A PSP holder can use continuing education to deepen capability in risk assessment, physical-security systems, procurement, business continuity, programme measurement and security leadership.",
+        "Whether CPP is appropriate depends on actual management responsibility, not PSP possession alone; ASIS defines responsible charge as authority to make independent operational decisions and manage execution of a security-related project or process."
+      ],
+      "source_urls": [
+        "https://www.asisonline.org/certification/recertification/",
+        "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ASIS PSP official overview and preparation resources",
+      "url": "https://www.asisonline.org/certification/physical-security-professional/",
+      "kind": "official certification page"
+    },
+    {
+      "label": "ASIS International Board Certification Handbook",
+      "url": "https://www.asisonline.org/globalassets/certification/documents/certification-handbook_final.pdf",
+      "kind": "official handbook"
+    },
+    {
+      "label": "ASIS certification application and current published fee schedule",
+      "url": "https://www.asisonline.org/certification/apply-for-certification/",
+      "kind": "official application page"
+    },
+    {
+      "label": "ASIS recertification requirements",
+      "url": "https://www.asisonline.org/certification/recertification/",
+      "kind": "official recertification page"
+    },
+    {
+      "label": "ANAB accreditation directory entry for ASIS PSP",
+      "url": "https://anabpd.ansi.org/Accreditation/credentialing/personnel-certification/AllDirectoryDetails?orgID=90&prgID=201&statusID=4",
+      "kind": "accreditor directory"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

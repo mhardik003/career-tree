@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Occupation classification",
+      "value": "India’s National Classification of Occupations (NCO) 2015 places Software Developers in occupational family 2512. Listed related titles include Software Engineer, Software Developer – Application Development, Junior Software Developer, and Application Maintenance Engineer.",
+      "source_urls": [
+        "https://www.ncs.gov.in/documents/national%20classification%20of%20occupations%20_vol%20i-%202015.pdf"
+      ]
+    },
+    {
+      "label": "Core purpose",
+      "value": "A software developer translates problem statements and project requirements into programs, records technical development information, and corrects errors after implementation.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4638&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Recognised degree routes",
+      "value": "UGC’s degree specifications list B.Tech as a four-year bachelor’s degree entered after 10+2, BCA as a three-year bachelor’s degree entered after 10+2, and MCA as a master’s degree entered after a bachelor’s degree.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1095.html"
+      ]
+    },
+    {
+      "label": "NIT/IIIT MCA route",
+      "value": "For the 2026–27 session, NIMCET is the common national-level entrance test used for MCA admission at 11 participating NITs and two IIITs; programme eligibility, schedule, seats, and counselling rules must be checked in the current official brochure.",
+      "source_urls": [
+        "https://nimcet.admissions.nic.in/"
+      ]
+    },
+    {
+      "label": "Skill standard",
+      "value": "NSDC’s National Occupational Standards catalogue lists the IT-ITeS Sector Skill Council qualification pack SSC/Q6702, “Software Developer,” under Application Development at NSQF level 7.",
+      "source_urls": [
+        "https://nsdcindia.org/nos-export-custom-data"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Software Developer does",
+      "paragraphs": [
+        "The role is centred on converting requirements into working software and improving it over time. The National Career Service description for the closely aligned Computer Programmer role includes analysing problem statements and project requirements, creating or modifying programs, entering code, documenting development and revisions, and fixing errors after implementation.",
+        "A developer should therefore expect work beyond writing new code: understanding requirements, making changes safely, documenting technical decisions, testing or validating behaviour, investigating defects, and maintaining existing applications. The exact balance differs across application development, product development and delivery, embedded software, and maintenance roles represented in the NCO software-developer family."
+      ],
+      "bullets": [
+        "Analyse requirements and break problems into implementable tasks.",
+        "Develop or modify program code and retain usable technical documentation.",
+        "Test, debug, and correct defects after implementation.",
+        "Maintain and extend existing software as well as build new features."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4638&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.ncs.gov.in/documents/national%20classification%20of%20occupations%20_vol%20i-%202015.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in the Indian education system",
+      "paragraphs": [
+        "A common direct route is a B.Tech, normally four years after 10+2 under UGC’s degree specification, followed by campus recruitment, internships, projects, or entry-level hiring. BCA is another recognised undergraduate route; it is specified as a three-year bachelor’s degree after 10+2. MCA is a postgraduate route for bachelor’s-degree holders and can build further computing depth before entry into software roles.",
+        "NIMCET is a distinct admission route rather than a degree. In 2026 it is used for MCA admissions at participating NITs and IIITs, so it is relevant to candidates seeking an MCA pathway after an eligible undergraduate qualification. Admission requirements and counselling rules are cycle-specific and should be verified from the active official NIMCET information brochure.",
+        "At BITS Pilani, admission to Integrated First Degree programmes for the 2026–27 academic year is through BITSAT-2026. The official brochure separately lists B.E. Computer Science and several integrated M.Sc. programmes; applicants should rely on the current institute rules for programme combinations, academic progression, and eligibility rather than treating every M.Sc. title as a computer-science degree."
+      ],
+      "bullets": [
+        "B.Tech: four-year bachelor’s route after 10+2; Computer Science or related engineering specialisations are common preparation routes.",
+        "BCA: three-year bachelor’s route after 10+2; strengthen it with programming projects, data structures, databases, and practical experience.",
+        "MCA: postgraduate route after a bachelor’s degree; NIMCET is a major admission mechanism for participating NITs and IIITs.",
+        "BITS Pilani Integrated First Degree programmes: use the current BITSAT brochure and institute regulations to confirm the applicable programme path."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1095.html",
+        "https://nimcet.admissions.nic.in/",
+        "https://www.bitsadmission.com/FD/FD_brochure.html"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The occupational tasks support a foundation in programming, requirement analysis, debugging, technical documentation, and attention to detail. NSDC’s standards catalogue also formally identifies Software Developer as an Application Development occupation, while NCS identifies effective writing and being detail-oriented as desirable competencies for the aligned programming role.",
+        "For employability, build demonstrable capability rather than only collecting course certificates: create software projects, use version control, explain design and trade-offs, write tests, diagnose failures, and communicate clearly with reviewers and teammates. The technology stack depends on the role—web, mobile, enterprise systems, data platforms, embedded systems, or developer tooling—so candidates should align projects and learning with their target domain."
+      ],
+      "bullets": [
+        "Programming fundamentals and data structures.",
+        "Requirement analysis, problem decomposition, and debugging.",
+        "Testing and quality practices alongside implementation.",
+        "Clear technical writing and documentation.",
+        "Detail orientation, communication, and collaborative review habits.",
+        "A portfolio of completed projects that shows code quality, testing, and maintenance work."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4638&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://nsdcindia.org/nos-export-custom-data"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression and adjacent paths",
+      "paragraphs": [
+        "The National Career Service presents an indicative progression from trainee to computer programmer, senior computer programmer, team leader or application architect or web solution developer, delivery lead, domain or offering lead, and ultimately head of company or CEO. Actual titles and pace vary by employer, capability, business domain, and performance.",
+        "Within the canonical graph, an early-career developer may deepen technical expertise toward Senior Software Engineer; move into adjacent roles such as Data Scientist or Product Manager; pursue postgraduate study through M.Tech in Computer Science, MBA, or Ph.D.; prepare for GATE where relevant; pursue a startup; or seek research-oriented work. Government research recruitment is not automatic: DRDO states that entry-level Scientist B recruitment is conducted through RAC open advertisements and typically draws from engineering disciplines including Computer Science; applicants must follow each recruitment notice’s current eligibility and selection rules."
+      ],
+      "bullets": [
+        "Technical progression: developer or programmer → senior developer or engineer → technical lead, architect, or domain specialist.",
+        "Cross-functional progression: product, data, engineering management, or entrepreneurship, depending on demonstrated skills and opportunities.",
+        "Higher-study progression: MCA/M.Tech, MBA, or Ph.D.; admission and eligibility are institution-specific.",
+        "Public research progression: monitor the official recruitment channels of organisations such as DRDO and CSIR/RAB for current notices."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4638&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://drdo.gov.in/drdo/en/resources/video-gallery/join-drdo",
+        "https://rab.csir.res.in/home.php"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service occupation profile: Computer Programmer",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4638&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career profile"
+    },
+    {
+      "label": "National Classification of Occupations 2015",
+      "url": "https://www.ncs.gov.in/documents/national%20classification%20of%20occupations%20_vol%20i-%202015.pdf",
+      "kind": "government occupational classification"
+    },
+    {
+      "label": "NIMCET 2026 official portal",
+      "url": "https://nimcet.admissions.nic.in/",
+      "kind": "official examination portal"
+    },
+    {
+      "label": "BITSAT 2026 Integrated First Degree brochure",
+      "url": "https://www.bitsadmission.com/FD/FD_brochure.html",
+      "kind": "university admissions portal"
+    },
+    {
+      "label": "NSDC National Occupational Standards catalogue",
+      "url": "https://nsdcindia.org/nos-export-custom-data",
+      "kind": "national skills standard"
+    },
+    {
+      "label": "DRDO recruitment information",
+      "url": "https://drdo.gov.in/drdo/en/resources/video-gallery/join-drdo",
+      "kind": "government employer information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

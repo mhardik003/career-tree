@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Entry profile",
+      "value": "This is typically a self-employed progression from digital-marketing-specialist work: the consultant independently develops, executes, measures and improves client campaigns across agreed channels. Google’s official training describes Google Ads work in terms of creating, measuring and optimising campaigns.",
+      "source_urls": [
+        "https://skillshop.withgoogle.com/googleads/"
+      ]
+    },
+    {
+      "label": "Skill development",
+      "value": "Platform-specific training can provide demonstrable evidence of capability. Google Skillshop offers product training and Google Ads certifications, including Search, Video and measurement-related learning paths; these are vendor credentials rather than a government occupational licence.",
+      "source_urls": [
+        "https://skillshop.withgoogle.com/",
+        "https://skillshop.withgoogle.com/googleads/"
+      ]
+    },
+    {
+      "label": "GST registration context",
+      "value": "For service suppliers, the general GST registration threshold is aggregate annual turnover above ₹20 lakh, with a lower ₹10 lakh threshold in special-category states; statutory exceptions can apply, so a consultant should check the facts of each business model and location before relying on the threshold.",
+      "source_urls": [
+        "https://cbic-gst.gov.in/pdf/01062019-GST-An-Update.pdf",
+        "https://cbic-gst.gov.in/hindi/sectoral-faq.html"
+      ]
+    },
+    {
+      "label": "Income-tax filing context",
+      "value": "Freelance consulting income is ordinarily considered under profits and gains of business or profession for return-selection purposes. The Income Tax Department identifies ITR-3 for individuals/HUFs with such income who are not eligible for ITR-1, ITR-2 or ITR-4; ITR-4 has separate presumptive-tax and eligibility conditions.",
+      "source_urls": [
+        "https://www.incometax.gov.in/iec/foportal/help/individual-business-profession",
+        "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/file-itr-4-sugam-online"
+      ]
+    },
+    {
+      "label": "Business formalisation option",
+      "value": "An eligible service enterprise may use the Government of India’s Udyam portal for MSME registration. The portal states that registration is online, paperless, self-declared and free; it supports proprietorships as well as partnership, LLP and company forms.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/",
+        "https://udyamregistration.gov.in/UdyamRegistration.aspx"
+      ]
+    },
+    {
+      "label": "Personal-data compliance timeline",
+      "value": "As of July 18, 2026, the DPDP Act’s main processing, notice, consent and data-fiduciary provisions are scheduled to commence eighteen months after November 13, 2025—i.e., May 13, 2027. A consultant handling audiences, leads or customer lists should prepare client data practices before that date.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_45_0_00003_2023-22_1763464807080&orderno=1&orgactid=AC_CEN_45_0_00003_2023-22_1763464807080&sectionId=101267&sectionno=1&statehandle=123456789%2F1362",
+        "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025%C3%AF%C2%BF%C2%BC"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Building a route from specialist to independent consultant",
+      "paragraphs": [
+        "A practical entry route is to first establish hands-on delivery evidence as a digital marketing specialist, then sell a clearly bounded consulting offer: for example, paid-search setup and optimisation, campaign measurement, or a channel audit followed by an improvement plan. Google’s official learning paths cover campaign creation, measurement and optimisation, which are useful building blocks for a portfolio of work rather than merely a course-completion record.",
+        "Start by selecting one or two channels and a customer segment where you can state a concrete outcome, deliverables, measurement method and exclusions. Use vendor training and certifications to structure learning, but validate competence through documented campaign hypotheses, implementation records, dashboards and client-approved case studies. Certification can help signal platform familiarity; it does not replace commercial judgement, client permissions or compliance responsibilities."
+      ],
+      "bullets": [
+        "Build a portfolio that records the business objective, target audience, budget constraints, actions taken, metrics used and lessons learned; remove or anonymise client-confidential data.",
+        "Develop capability in campaign planning, keyword or audience strategy, creative briefing, tracking and reporting before taking responsibility for an independent client budget.",
+        "Use written scopes of work so advisory, execution, media-spend handling, reporting frequency, revision limits and ownership of creative and accounts are explicit."
+      ],
+      "source_urls": [
+        "https://skillshop.withgoogle.com/",
+        "https://skillshop.withgoogle.com/googleads/",
+        "https://www.ascionline.in/social/dos-dont/"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Core capabilities to offer credibly",
+      "paragraphs": [
+        "A viable consultant needs both channel execution and measurement capability. Google’s official Google Ads training distinguishes campaign creation from measurement and optimisation, and its Google Marketing Platform material covers planning, executing and measuring campaigns. This supports an offer that connects client objectives to campaign design, implementation, performance analysis and successive improvement rather than offering posting or ad buying in isolation.",
+        "Consultants should also be able to assess whether a marketing claim can be substantiated before it is used. The ASCI Code says advertisements must be truthful, and objectively ascertainable claims and comparisons must be capable of substantiation. Where claims rely on independent research or assessment, ASCI says the source and date should be indicated."
+      ],
+      "bullets": [
+        "Channel planning: map the client objective to an appropriate search, social, video, display, content or local-business approach.",
+        "Measurement: define conversion events, reporting cadence, interpretation limits and optimisation decisions before launch.",
+        "Commercial communication: distinguish paid, owned and earned activity; retain evidence supporting performance or product claims.",
+        "Client communication: translate metrics into decisions, risks, next tests and budget implications rather than reporting platform figures without context."
+      ],
+      "source_urls": [
+        "https://skillshop.withgoogle.com/",
+        "https://skillshop.withgoogle.com/googleads/",
+        "https://www.ascionline.in/the-asci-code/"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating independently while protecting client control",
+      "paragraphs": [
+        "The consultant model works best when engagements are separated into diagnosis, strategy, implementation, optimisation and reporting, with each phase having agreed outputs and acceptance criteria. Maintain client ownership and access to their advertising, analytics, website and creative accounts wherever feasible, and document who may approve spend, publish content, access leads and change tracking. This makes responsibilities auditable and reduces disputes when an engagement ends.",
+        "Price and fee structures should be chosen for the actual scope rather than presented as a market standard. Fixed project fees can suit audits or setup work; retainers can suit recurring optimisation and reporting; and performance-linked elements require particularly clear definitions of eligible revenue, attribution, data source, exclusions and payment timing. Fees, client budgets and outcomes vary substantially by sector, platform access, scope and risk, so they should be quoted as dated, client-specific commercial terms."
+      ],
+      "bullets": [
+        "Use a written proposal or contract covering scope, deliverables, timelines, approvals, payment terms, intellectual-property permissions, confidentiality, termination and access handover.",
+        "Do not present client testimonials, research, comparative claims or results without appropriate permission and substantiation.",
+        "Keep a decision log for budget changes, campaign pauses, targeting changes and material creative or claim approvals."
+      ],
+      "source_urls": [
+        "https://www.ascionline.in/the-asci-code/",
+        "https://www.ascionline.in/social/dos-dont/",
+        "https://www.ascionline.in/influencer-resource/"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "India-specific compliance checklist",
+      "paragraphs": [
+        "Tax and invoicing should be designed before client volume grows. Monitor aggregate turnover against the applicable GST registration rules; if registered, the GST portal states that registered taxable persons generally file GSTR-1 details of outward supplies, subject to listed exclusions. Select the income-tax return based on the taxpayer’s facts and current Income Tax Department eligibility guidance, rather than assuming that a particular presumptive scheme applies to every marketing consultant.",
+        "When campaign work involves personal data—such as lead forms, CRM exports, remarketing audiences, analytics identifiers or customer lists—define the client and consultant roles, minimise access, secure credentials, and retain only data needed for the agreed service. The Digital Personal Data Protection Act, 2023 provides for processing grounds, notices, consent and data-fiduciary obligations; its principal operational provisions are scheduled to begin on May 13, 2027. Client contracts and internal procedures should be made ready ahead of that commencement date.",
+        "Advertising content needs review for misleading claims and for sponsored-content disclosure. ASCI requires truthful, substantiated advertising claims. Its influencer guidelines identify prominent disclosure labels such as Advertisement, Ad, Sponsored, Collaboration, Partnership, Affiliate and platform paid-promotion labels where a material connection exists. The Department of Consumer Affairs has also issued endorsement guidance for celebrities and social-media influencers."
+      ],
+      "bullets": [
+        "Check GST registration requirements against aggregate turnover, state category and any exception relevant to the supplies; obtain professional tax advice for unusual, interstate or overseas arrangements.",
+        "Issue invoices and retain contracts, approvals, scope changes, expense evidence and campaign records in a form suitable for accounting, tax and client reconciliation.",
+        "Avoid uploading customer lists, lead exports or analytics data to personal devices or unauthorised tools; give the client a clear access-handover process at exit.",
+        "For paid endorsements or influencer-led work, make material-connection disclosures upfront and prominent, and ensure claims have substantiation before publication."
+      ],
+      "source_urls": [
+        "https://cbic-gst.gov.in/hindi/sectoral-faq.html",
+        "https://tutorial.gst.gov.in/userguide/returns/GSTR_1.htm",
+        "https://www.incometax.gov.in/iec/foportal/help/individual-business-profession",
+        "https://www.indiacode.nic.in/handle/123456789/22037",
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_45_0_00003_2023-22_1763464807080&orderno=1&orgactid=AC_CEN_45_0_00003_2023-22_1763464807080&sectionId=101267&sectionno=1&statehandle=123456789%2F1362",
+        "https://www.ascionline.in/the-asci-code/",
+        "https://www.ascionline.in/social/wp-content/uploads/2025/04/ASCI-Influencer-Guidelines.pdf",
+        "https://consumeraffairs.nic.in/pressrelease/centre-releases-endorsement-guidelines-celebs-and-social-media-influencers-20-jan-2023"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Ways to grow the practice",
+      "paragraphs": [
+        "Growth can come from deeper specialisation or from a broader managed-service practice. Google’s training ecosystem separates Google Ads campaign skills, Google Analytics, Google Marketing Platform and Business Profile learning, enabling a consultant to add measurement, planning or local-business services deliberately rather than claiming to cover every channel immediately.",
+        "As recurring work, staff and contractual commitments increase, reassess the operating structure with a qualified adviser. The Udyam system accommodates proprietorship, partnership, LLP and company organisational forms, and permits multiple service activities under one registration. Udyam registration itself is free and paperless, but it does not decide which legal form, tax treatment or contractual allocation of liability is best for an individual consultant."
+      ],
+      "bullets": [
+        "Specialise by channel: search, social advertising, video, analytics or local-business marketing.",
+        "Specialise by client problem: lead generation, e-commerce acquisition, measurement remediation, launch planning or retention marketing.",
+        "Build a small delivery network only after defining quality assurance, client confidentiality, account access and subcontractor responsibilities.",
+        "Move toward an agency or partnership structure when work requires durable team capacity, governance and contractual risk-sharing; obtain legal and tax advice before restructuring."
+      ],
+      "source_urls": [
+        "https://skillshop.withgoogle.com/",
+        "https://skillshop.withgoogle.com/googleads/",
+        "https://udyamregistration.gov.in/",
+        "https://udyamregistration.gov.in/UdyamRegistration.aspx"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Google Skillshop",
+      "url": "https://skillshop.withgoogle.com/",
+      "kind": "training"
+    },
+    {
+      "label": "Google Ads learning and certification",
+      "url": "https://skillshop.withgoogle.com/googleads/",
+      "kind": "training"
+    },
+    {
+      "label": "Udyam Registration portal",
+      "url": "https://udyamregistration.gov.in/",
+      "kind": "government_registration"
+    },
+    {
+      "label": "Income Tax Department: business or profession income",
+      "url": "https://www.incometax.gov.in/iec/foportal/help/individual-business-profession",
+      "kind": "government_guidance"
+    },
+    {
+      "label": "GST Portal GSTR-1 user guide",
+      "url": "https://tutorial.gst.gov.in/userguide/returns/GSTR_1.htm",
+      "kind": "government_guidance"
+    },
+    {
+      "label": "ASCI Code",
+      "url": "https://www.ascionline.in/the-asci-code/",
+      "kind": "professional_standard"
+    },
+    {
+      "label": "Digital Personal Data Protection Act, 2023",
+      "url": "https://www.indiacode.nic.in/handle/123456789/22037",
+      "kind": "law"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Indian occupational reference",
+      "value": "The National Career Service (Ministry of Labour & Employment) lists “Service Manager” as an alias for the automotive role “Area Service Manager.”",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Occupation code",
+      "value": "India’s National Classification of Occupations (NCO) 2015 identifies Area Service Manager as code 1213.0201, associated with Qualification Pack ASC/Q0603 and NSQF Level 6.",
+      "source_urls": [
+        "https://www.ncs.gov.in/Documents/National%20Classification%20of%20Occupations%20_Vol%20II-A-%202015.pdf"
+      ]
+    },
+    {
+      "label": "Typical technical education",
+      "value": "For the automotive-service interpretation of the role, NCS indicates that a graduate degree or diploma in automotive or mechanical engineering is preferred; it also identifies ASDC-aligned Area Service Manager training as a relevant route.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Indicative progression",
+      "value": "NCS gives an indicative automotive-service progression of Area Service Manager to Regional Service Manager to Country Service Manager.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Service Manager does",
+      "paragraphs": [
+        "In the Indian automotive and technical-service context, a Service Manager oversees the service network or workshop operation: managing customer relationships and service quality, monitoring channel-partner service activity, ensuring service processes are followed, identifying technician training needs, and resolving customer issues and complaints. The NCO description similarly characterises an Area Service Manager as supervising an assigned-area service network and reviewing dealership processes.",
+        "source: National Career Service; National Classification of Occupations 2015."
+      ],
+      "bullets": [
+        "Plan and monitor maintenance, repair and service delivery against organisational or OEM processes.",
+        "Lead service technicians and supervisors; identify workforce and training gaps.",
+        "Track customer requirements, turnaround time, repair quality, warranty or performance feedback, and escalated complaints.",
+        "Use operational reporting, CRM/MIS records and performance measures to improve service quality, cost and speed."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.ncs.gov.in/Documents/National%20Classification%20of%20Occupations%20_Vol%20II-A-%202015.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "A common route is to build technical-service experience after a diploma or degree in mechanical or automotive engineering, then move through workshop or field-service positions into supervision and service management. NCS identifies automotive/mechanical diploma or graduate education as preferred for the related Area Service Manager role, and notes ASDC-aligned training as relevant. Its guidance also indicates that candidates outside the specified ASDC or postgraduate routes generally need on-the-job training and that many employers expect prior experience.",
+        "source: National Career Service."
+      ],
+      "bullets": [
+        "Technical route: diploma or degree in mechanical or automotive engineering, followed by workshop, maintenance, dealer-service or field-service experience.",
+        "Skill-certification route: pursue an Automotive Skills Development Council-aligned service qualification where available, while gaining employer-based practical experience.",
+        "Progression route: start in technician, service-advisor, service-supervisor or comparable technical-service roles; ASDC’s Service Supervisor standard covers work allocation, workshop load planning, technician supervision and reporting upward to a Service Manager or GM Service."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.asdc.org.in/job-roles"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role combines technical-service knowledge with operational management. NCS highlights knowledge of workshop profitability, value-added services, OEM service and repair timelines, technical specifications, CRM, MS Office and management-information systems. It also identifies market analysis, customer-centric readiness, warranty-related documentation, coordination and team-management capability as relevant. The ASDC Service Supervisor qualification pack further emphasises goal-setting, team metrics, performance evaluation, documentation and process improvement.",
+        "source: National Career Service; Automotive Skills Development Council."
+      ],
+      "bullets": [
+        "Technical and process: maintenance/repair workflows, diagnostics context, OEM procedures, job-card and warranty documentation, parts and workshop-resource planning.",
+        "Customer and commercial: complaint handling, service-quality improvement, turnaround-time management, customer communication and workshop profitability awareness.",
+        "People and data: technician allocation, coaching, coordination, KPI design and review, CRM/MIS use, spreadsheet and report preparation."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Work setting",
+      "paragraphs": [
+        "In automotive service, the work is operational rather than desk-only: NCS states that the role involves handling a team of service technicians and may involve local travel. Its career guidance says organisations commonly operate five or six days a week for roughly eight or nine hours a day, while stressing that schedules, shift arrangements and overtime vary by employer. Comparable service-supervision standards describe planning work across customer sites, roadside locations and workshops, reinforcing that the setting can combine workshop-floor, dealer-network and field coordination.",
+        "source: National Career Service; Automotive Skills Development Council."
+      ],
+      "bullets": [
+        "Typical employers include vehicle manufacturers and their dealer or service networks; the same service-operations capabilities can transfer to equipment maintenance and engineering-support settings.",
+        "Expect regular interaction with technicians, service advisers, customers, channel partners, parts teams and senior service leadership.",
+        "Travel, shifts and overtime depend on the employer, geography, service network and customer-support model."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "Service management is normally reached after experience in technical service and team supervision. The NCS pathway for the closely aligned automotive role is Area Service Manager, then Regional Service Manager, then Country Service Manager; it expressly describes this as indicative. Within a dealership or workshop hierarchy, ASDC’s Service Supervisor standard identifies reporting to a Service Manager or GM Service, supporting a pathway from hands-on or supervisory work into Service Manager and subsequently GM Service, regional-management or broader service-operations roles.",
+        "source: National Career Service; Automotive Skills Development Council."
+      ],
+      "bullets": [
+        "Feeder roles: technician, master technician, service adviser, field-service engineer or service supervisor.",
+        "Management roles: Service Manager, After-Sales Service Manager, Service Operations Manager or GM Service.",
+        "Larger-network roles: Regional Service Manager and other multi-site or OEM service-network leadership posts."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Area Service Manager (alias: Service Manager)",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career profile"
+    },
+    {
+      "label": "National Classification of Occupations 2015, Volume II-A",
+      "url": "https://www.ncs.gov.in/Documents/National%20Classification%20of%20Occupations%20_Vol%20II-A-%202015.pdf",
+      "kind": "government occupational classification"
+    },
+    {
+      "label": "Automotive Skills Development Council job-role catalogue",
+      "url": "https://www.asdc.org.in/job-roles",
+      "kind": "sector skill council catalogue"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

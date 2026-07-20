@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Award",
+      "value": "Doctor of Philosophy (Ph.D.), a research degree pursued in a humanities subject or an interdisciplinary humanities area at an eligible Indian higher-education institution.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page565.html",
+        "https://www.iitjammu.ac.in/Programme/phdadmissions/2026/foreign/Foreign%20National%20PhD%20Advt.pdf"
+      ]
+    },
+    {
+      "label": "Typical entry route from this node's parent",
+      "value": "An MA holder is eligible under the UGC route where the master's qualification has at least 55% aggregate marks (or equivalent grade), subject to the institution’s notified criteria; applicable reserved-category relaxations are provided in the regulations.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    },
+    {
+      "label": "Minimum and normal regulatory duration",
+      "value": "The UGC minimum is 3 years including coursework, with a standard maximum of 6 years from admission; institutional re-registration can permit up to 8 years in total, subject to the regulations and institution’s ordinance.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    },
+    {
+      "label": "Mandatory doctoral coursework",
+      "value": "UGC regulations require at least 12 coursework credits, including research methodology and Research and Publication Ethics; scholars must earn at least 55% (or equivalent) in coursework to continue and submit the thesis.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html"
+      ]
+    },
+    {
+      "label": "Common admission routes",
+      "value": "An institution may admit candidates with qualifying national fellowships/tests through interview and/or through its own entrance test followed by interview; for an institutional entrance test, the UGC specifies a 50% research-methodology and 50% subject-specific syllabus and 70:30 entrance-test/interview weighting.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html"
+      ]
+    },
+    {
+      "label": "Fee context",
+      "value": "Fees are institution-specific. As an illustrative official listing, IGNOU’s regular Ph.D. (Hindi) page lists ₹17,850 per year and states that examination fees are additional as decided by the university; applicants should confirm the current department prospectus before applying.",
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/PHDHIN"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility after an MA",
+      "paragraphs": [
+        "For the usual MA-to-Ph.D. route, the UGC’s 2022 Ph.D. Regulations allow applicants with a qualifying master’s degree and at least 55% aggregate marks or equivalent grade. A 5-percentage-point relaxation (or equivalent grade relaxation) may apply to SC, ST, OBC non-creamy layer, Persons with Disabilities, EWS, and other categories as decided by the Commission from time to time.",
+        "Eligibility is not limited to an MA: the regulations also provide routes from a qualifying four-year bachelor’s degree and from an M.Phil. However, a humanities MA in, or demonstrably related to, the proposed research field is the direct pathway represented by this node. Individual universities can set discipline-specific conditions, minimum marks above the UGC floor, language requirements, and supervisor/seat availability.",
+        "For example, IISER Pune’s Humanities and Social Sciences Ph.D. admission page for the August 2026 session required a relevant master’s degree with stated minimum marks and a qualifying national test, while also using a research-plan-based shortlist and interview. This illustrates why candidates must read the current departmental notice rather than rely on a single national threshold."
+      ],
+      "bullets": [
+        "Prepare an academic record/transcripts and category certificate where applicable.",
+        "Match the proposed topic with faculty research areas and advertised seats.",
+        "Check whether the department requires NET/JRF, NET-PhD eligibility, another national test, or an institutional entrance examination."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.iiserpune.ac.in/research/department/humanities-and-social-sciences/admissions"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and completion window",
+      "paragraphs": [
+        "Under the UGC Ph.D. Regulations, the programme has a minimum duration of three years, inclusive of coursework, and a maximum duration of six years from the admission date. The higher-education institution may permit up to two further years through re-registration under its own statute or ordinance, but the ordinary overall cap is eight years.",
+        "Female scholars and Persons with Disabilities with more than 40% disability may receive up to two additional years of relaxation, subject to an overall cap of ten years. Female Ph.D. scholars may also be provided maternity/child-care leave of up to 240 days during the programme. Exact implementation is governed by the university’s regulations."
+      ],
+      "bullets": [
+        "Treat three years as the regulatory minimum, not a guaranteed completion date.",
+        "Confirm registration, progress-review, extension, and re-registration rules in the university’s current Ph.D. ordinance."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the doctorate involves",
+      "paragraphs": [
+        "A Ph.D. in Arts and Humanities is primarily supervised original research culminating in a thesis. The humanities subject, theoretical framework, languages, archives or field materials, and methods depend on the department and approved research proposal. A Research Advisory Committee reviews and finalises the topic, guides the study design and methodology, identifies required courses, and reviews progress.",
+        "National minimum standards require at least 12 credits of coursework, including research methodology and Research and Publication Ethics. All doctoral scholars must also receive training in teaching, education, pedagogy, or writing connected to their Ph.D. subject; institutions may assign teaching or research-assistant work.",
+        "Before thesis submission, the scholar presents the work before the Research Advisory Committee. The institution must use plagiarism-detection mechanisms; the thesis is submitted with originality declarations and is evaluated by the supervisor and at least two external experts."
+      ],
+      "bullets": [
+        "Core elements: approved proposal, coursework, supervised research, periodic progress presentations, thesis, external evaluation, and final examination procedures set by the institution.",
+        "Humanities-specific content varies: one department may emphasise textual criticism, languages, archives, history of ideas, theory, cultural analysis, or interdisciplinary methods."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html",
+        "https://www.iitj.ac.in/Office-of-Academics/en/Academic-Regulations"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "Admissions are competitive and institution-led. UGC regulations permit two broad routes: admission of candidates who qualify for fellowships/scholarships through UGC-NET, UGC-CSIR NET, GATE, CEED, or similar national tests, based on interview; and/or admission through an institution’s own entrance test. For the latter, the prescribed syllabus is 50% research methodology and 50% subject-specific, candidates scoring 50% may be called for interview, and selection uses 70% entrance-test and 30% interview weightage.",
+        "The university must publish its prospectus in advance with seat numbers, discipline-wise distribution, eligibility, and procedure, while following the applicable national or state reservation policy. In practice, applicants should expect a topic- or supervisor-fit assessment in addition to formal eligibility.",
+        "For a current humanities example, NLSIU requires a research proposal addressing a tentative title, research problem and questions, relevant literature, and methodology for its Ph.D. in Social Sciences, Humanities and Public Policy. Its published process then evaluates the written proposal and oral presentation. Requirements differ by institution and admission cycle."
+      ],
+      "bullets": [
+        "Shortlist current departments, supervisors, and advertised research areas.",
+        "Write a focused proposal that states the question, sources/materials, literature context, method, and feasibility.",
+        "Track the institution’s official admissions page for cycle-specific dates, fees, tests, and interview arrangements."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+        "https://www.nls.ac.in/programme/ph-d-social-sciences-humanities-and-public-policy/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and funding",
+      "paragraphs": [
+        "There is no single national Ph.D. fee for Arts and Humanities. Tuition, registration, examination, hostel, thesis-evaluation, and other charges are set by the university and may differ by full-time or part-time mode, category, and year of entry. Applicants should use the current official prospectus and fee notice—not older aggregators—to budget.",
+        "As an illustrative official listing rather than a sector-wide benchmark, IGNOU’s regular Ph.D. (Hindi) programme page lists ₹17,850 per year and notes that examination fees are not included. Some institutions also offer competitive doctoral fellowships: NLSIU’s published Ph.D. page states that selected candidates may receive a doctoral fellowship, subject to its stated conditions and continuation requirements. Funding availability, amount, and eligibility are time-sensitive and must be verified for the intended intake."
+      ],
+      "bullets": [
+        "Budget separately for application fees, tuition/registration, living costs, travel or archival research, and thesis examination/submission charges where applicable.",
+        "Check national fellowships and the university’s current fellowship notice before accepting an offer.",
+        "Do not assume that admission automatically includes a stipend."
+      ],
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/PHDHIN",
+        "https://www.nls.ac.in/programme/ph-d-social-sciences-humanities-and-public-policy/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — eligibility",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — duration and institutional criteria",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — admission methods",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — coursework",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — progress and thesis evaluation",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "IISER Pune Humanities and Social Sciences Ph.D. admissions",
+      "url": "https://www.iiserpune.ac.in/research/department/humanities-and-social-sciences/admissions",
+      "kind": "university"
+    },
+    {
+      "label": "NLSIU Ph.D. in Social Sciences, Humanities and Public Policy",
+      "url": "https://www.nls.ac.in/programme/ph-d-social-sciences-humanities-and-public-policy/",
+      "kind": "university"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

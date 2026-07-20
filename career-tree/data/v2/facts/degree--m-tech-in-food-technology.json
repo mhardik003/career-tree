@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential focus",
+      "value": "An M.Tech in this area is a postgraduate engineering programme centred on advanced food processing and product technology, process engineering, food safety and regulation, quality evaluation, and management/entrepreneurship components. Programme titles are not fully standardized: for example, NIFTEM offers M.Tech Food Technology and Management alongside Food Process Engineering and Management and Food Safety and Quality Management.",
+      "source_urls": [
+        "https://niftem.ac.in/academics/programmes/mtech"
+      ]
+    },
+    {
+      "label": "Typical structure",
+      "value": "A common full-time structure is four semesters: taught coursework is concentrated in the first two semesters, followed by industrial training or research and a research project. This is demonstrated in the published curricula of NIFTEM and IIT Kharagpur's postgraduate Food Process Engineering curriculum.",
+      "source_urls": [
+        "https://niftem.ac.in/academics/programmes/mtech",
+        "https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp?curr_type=NEW&splCode=AG3&stuType=PG"
+      ]
+    },
+    {
+      "label": "Entry background",
+      "value": "Eligibility is institute- and specialisation-specific, but a B.Tech in Food Technology is directly aligned. NIFTEM's 2026–27 prospectus lists food technology, food science, food processing, food engineering, dairy, agricultural/food engineering and certain allied engineering or science qualifications for its Food Technology and Management M.Tech, with a four-year bachelor's degree or relevant master's degree and at least 60% aggregate marks; it states a 5% relaxation for reserved categories.",
+      "source_urls": [
+        "https://niftem.ac.in/storage/updates/1779434382_ADMISSION%20PROSPECTUS%20Academic%20Session%202026%E2%80%9327%20Programmes%20for%20Admission%20%E2%80%A2%20B.Tech%20%28FTM%29%20%E2%80%A2%20Integrated%20B.Tech%20%28FT%29%20%2B%20MBA%20%E2%80%A2%20BBA%20%28Hons%29%20%E2%80%A2%20M.Tech%20%E2%80%A2%20M.Sc%20%E2%80%A2%20MBA%20%E2%80%A2%20Executive%20MBA%20%E2%80%A2%20Ph.D.%20%28Regular%20Early%20Ph.D.%29-compressed-compressed.pdf"
+      ]
+    },
+    {
+      "label": "Admissions are not uniform",
+      "value": "Selection route depends on the institute and academic year. NIFTEM's 2026 admissions page publishes separate M.Tech counselling/eligibility materials for valid GATE scores, CUET scores, and its own non-GATE/non-CUET entrance examination; IIT Kharagpur lists Food Process Engineering among its GATE-entry postgraduate programmes.",
+      "source_urls": [
+        "https://niftem.ac.in/admission",
+        "https://www.iitkgp.ac.in/admission-pg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who is usually eligible",
+      "paragraphs": [
+        "For a graduate of B.Tech in Food Technology, this degree is a direct academic progression. However, applicants should treat eligibility as programme-specific rather than assuming that every M.Tech with “Food Technology” in its title has the same rules. Food Technology and Management programmes may also admit graduates from food science, food engineering, dairy technology, agricultural and food engineering, and specified allied fields; some institutes additionally accept relevant M.Sc. holders and may prescribe bridge or deficiency courses.",
+        "NIFTEM's 2026–27 prospectus is an example of the variability: it requires a relevant four-year bachelor's degree or master's degree with at least 60% aggregate marks for its Food Technology and Management M.Tech, subject to the stated reserved-category relaxation. Applicants should verify the exact discipline list, marks threshold, category rules, and any deficiency-course provision in the current prospectus of each target institute."
+      ],
+      "bullets": [
+        "B.Tech in Food Technology is normally within the explicitly accepted discipline set for food-technology-focused M.Tech programmes.",
+        "Allied-degree acceptance can be broader for food process engineering than for food technology/management programmes.",
+        "A relevant M.Sc. may be accepted at some institutions, but this does not make eligibility universal; bridge coursework can apply."
+      ],
+      "source_urls": [
+        "https://niftem.ac.in/academics/programmes/mtech",
+        "https://niftem.ac.in/storage/updates/1779434382_ADMISSION%20PROSPECTUS%20Academic%20Session%202026%E2%80%9327%20Programmes%20for%20Admission%20%E2%80%A2%20B.Tech%20%28FTM%29%20%E2%80%A2%20Integrated%20B.Tech%20%28FT%29%20%2B%20MBA%20%E2%80%A2%20BBA%20%28Hons%29%20%E2%80%A2%20M.Tech%20%E2%80%A2%20M.Sc%20%E2%80%A2%20MBA%20%E2%80%A2%20Executive%20MBA%20%E2%80%A2%20Ph.D.%20%28Regular%20Early%20Ph.D.%29-compressed-compressed.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study pattern",
+      "paragraphs": [
+        "The usual full-time pattern is two academic years over four semesters. Published examples show classroom, laboratory, seminar, and elective work in semesters one and two; industrial attachment, internship, or research work in semester three; and a substantial research project in semester four. Exact credit totals, internship length, and whether the third-semester activity is titled industrial training, attachment, or research vary by institution.",
+        "At NIFTEM, the Food Technology and Management curriculum identifies first and second semester course loads, a third-semester comprehensive viva and industrial training/research component, and a fourth-semester research project. IIT Kharagpur's postgraduate Food Process Engineering curriculum likewise shows four semesters, including a summer internship and successive project components."
+      ],
+      "bullets": [
+        "Plan for laboratory and applied processing work, not only theory.",
+        "Expect a research project or dissertation-style capstone in the final phase.",
+        "Confirm attendance, internship, and project evaluation requirements in the institution's academic regulations."
+      ],
+      "source_urls": [
+        "https://niftem.ac.in/academics/programmes/mtech",
+        "https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp?curr_type=NEW&splCode=AG3&stuType=PG"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "The curriculum combines food science with engineering and operational decision-making. A Food Technology and Management example includes advanced plant and animal food processing, engineering properties of food and biomaterials, food regulation, food-quality evaluation, nutraceuticals and functional foods, advanced food-process technology, new product development, food-safety management systems, research methodology, entrepreneurship, and marketing.",
+        "The engineering-oriented side of the field is visible in Food Process Engineering curricula: advanced mechanical and thermal operations, food chemistry and microbiology, food process and product technology, food analysis, food plant/equipment design, process equipment design, packaging, automation, process control, and food engineering laboratories. The precise mix depends on whether the programme emphasizes technology and management, process engineering, safety/quality, plant operations, or supply chains."
+      ],
+      "bullets": [
+        "Processing and preservation: plant/animal products, unit operations, thermal and mechanical processing.",
+        "Quality and compliance: food analysis, microbiology, quality evaluation, food safety systems, regulations and standards.",
+        "Innovation and delivery: product development, packaging, equipment/process design, instrumentation, management, and research methods.",
+        "Experiential learning: laboratories, seminars, industrial attachment or internship, and a research project."
+      ],
+      "source_urls": [
+        "https://niftem.ac.in/academics/programmes/mtech",
+        "https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp?curr_type=NEW&splCode=AG3&stuType=PG"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How admission commonly works",
+      "paragraphs": [
+        "There is no single all-India admission pathway for this degree. GATE is a common route for M.Tech admissions: IIT Kharagpur lists Food Process Engineering under its GATE-entry postgraduate programmes and identifies accepted GATE paper codes for that programme. Institutional processes can also involve programme choices, shortlisting, and, where applicable, interviews or written assessments.",
+        "NIFTEM's current admissions materials for 2026–27 show a multi-route model, with M.Tech materials published for valid GATE-score candidates, valid CUET-score candidates, and a NIFTEM entrance examination for non-GATE/non-CUET candidates. Its programme page explains that the detailed selection process may give GATE candidates priority and use an institutional test and interview to fill seats that remain vacant. Dates, seat availability, accepted test scores, cut-offs, and fee-payment deadlines are admission-cycle-specific; applicants should rely on the live admission page and the relevant year's prospectus rather than prior-year notices."
+      ],
+      "bullets": [
+        "Shortlist programmes by their precise specialization and accepted qualifying disciplines.",
+        "Check whether the target institute requires or accepts GATE, CUET-PG, an institute test, interview, or a combination.",
+        "Use only the current cycle's prospectus for deadlines, category documentation, seat matrix, and fee/payment rules."
+      ],
+      "source_urls": [
+        "https://niftem.ac.in/admission",
+        "https://niftem.ac.in/academics/programmes/mtech",
+        "https://www.iitkgp.ac.in/admission-pg",
+        "https://gateoffice.iitkgp.ac.in/jmp/d/?p=104"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options after the degree",
+      "paragraphs": [
+        "The degree can lead to specialised professional work in food processing, process and plant engineering, product development, food safety and quality systems, analytical/quality laboratories, packaging, operations, supply chains, and technical or research roles. The strongest role fit depends on the electives, laboratory competence, industrial training, and research project completed, rather than the degree title alone.",
+        "A research pathway is also available. NIFTEM lists doctoral study in food technology, management, and allied sciences, and its admissions page publishes Ph.D. activity across Food Science and Technology, Food Engineering, and related departments. Candidates considering a Ph.D. should match their M.Tech project and supervisor interests to the intended research area and verify the current doctoral eligibility and entrance requirements separately."
+      ],
+      "bullets": [
+        "Industry pathway: processing operations, process design, product development, quality assurance/quality control, food-safety systems, packaging, and technical services.",
+        "Research pathway: Ph.D. in food science and technology, food engineering, post-harvest/bioprocessing, or an allied discipline, subject to the target institution's rules.",
+        "Entrepreneurship/management pathway: food-product ventures, manufacturing operations, supply-chain roles, or further management-oriented study where appropriate."
+      ],
+      "source_urls": [
+        "https://niftem.ac.in/academics",
+        "https://niftem.ac.in/admission",
+        "https://niftem.ac.in/academics/programmes/mtech"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NIFTEM M.Tech programmes, curriculum, eligibility and guidance",
+      "url": "https://niftem.ac.in/academics/programmes/mtech",
+      "kind": "official programme page"
+    },
+    {
+      "label": "NIFTEM admissions portal",
+      "url": "https://niftem.ac.in/admission",
+      "kind": "official admissions page"
+    },
+    {
+      "label": "NIFTEM 2026–27 admission prospectus",
+      "url": "https://niftem.ac.in/storage/updates/1779434382_ADMISSION%20PROSPECTUS%20Academic%20Session%202026%E2%80%9327%20Programmes%20for%20Admission%20%E2%80%A2%20B.Tech%20%28FTM%29%20%E2%80%A2%20Integrated%20B.Tech%20%28FT%29%20%2B%20MBA%20%E2%80%A2%20BBA%20%28Hons%29%20%E2%80%A2%20M.Tech%20%E2%80%A2%20M.Sc%20%E2%80%A2%20MBA%20%E2%80%A2%20Executive%20MBA%20%E2%80%A2%20Ph.D.%20%28Regular%20Early%20Ph.D.%29-compressed-compressed.pdf",
+      "kind": "official prospectus"
+    },
+    {
+      "label": "IIT Kharagpur postgraduate programmes",
+      "url": "https://www.iitkgp.ac.in/admission-pg",
+      "kind": "official admissions page"
+    },
+    {
+      "label": "IIT Kharagpur postgraduate Food Process Engineering curriculum",
+      "url": "https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp?curr_type=NEW&splCode=AG3&stuType=PG",
+      "kind": "official curriculum"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

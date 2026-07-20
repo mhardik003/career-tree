@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Conducting body",
+      "value": "Indian Maritime University (IMU), which conducts IMU-CET on an all-India basis for admissions to its campuses and affiliated institutes.",
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf"
+      ]
+    },
+    {
+      "label": "UG scope",
+      "value": "For the 2026 cycle, the technical UG CET covered B.Tech (Marine Engineering), B.Sc. (Nautical Science), Diploma in Nautical Science (DNS), B.Tech (Naval Architecture & Ocean Engineering), and B.Tech (Naval Architecture & Ship Building); BBA had a separate admission route.",
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf",
+        "https://www.imu.edu.in/imunew/admissions-2026-27"
+      ]
+    },
+    {
+      "label": "2026 exam status",
+      "value": "IMU scheduled IMU-CET 2026 for May 24, 2026. Its 2026 admissions page subsequently published the CET result, qualified-candidate lists, rank-certificate access, counselling notices, and admission lists; these dates and processes are cycle-specific rather than standing deadlines.",
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_24022026.pdf",
+        "https://www.imu.edu.in/imunew/admissions-2026-27"
+      ]
+    },
+    {
+      "label": "UG test content",
+      "value": "For the 2026 UG technical test, IMU specified 200 multiple-choice questions from English, General Aptitude, Physics, Chemistry, and Mathematics at Class 12/Plus Two/Intermediate/equivalent level. IMU stated that each wrong answer attracts a 0.25-mark deduction.",
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf"
+      ]
+    },
+    {
+      "label": "Rank and use",
+      "value": "IMU says it issues a rank certificate to qualified CET candidates. The certificate is essential for admission to IMU courses and affiliated institutes, and for the specified DG Shipping-approved B.Tech (Marine Engineering), B.Sc. (Nautical Science), and DNS programmes at non-affiliated maritime training institutes.",
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf"
+      ]
+    },
+    {
+      "label": "2026 registration fee context",
+      "value": "For 2026, the published registration fee for UG and PG programmes other than BBA was ₹1,200 for General/General-EWS/OBC(NCL) applicants and ₹800 for SC/ST applicants. Fees can change in later admission cycles.",
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_24022026.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What IMU CET is for",
+      "paragraphs": [
+        "IMU-CET is Indian Maritime University’s all-India common entrance test. In the 2026 admission cycle, its UG technical route was used for the principal maritime programmes: B.Tech (Marine Engineering), B.Sc. (Nautical Science), DNS, B.Tech (Naval Architecture & Ocean Engineering), and B.Tech (Naval Architecture & Ship Building). Applicants should not treat the test as a universal route to every IMU undergraduate programme: IMU’s 2026 prospectus describes a separate BBA admission mechanism.",
+        "For maritime pre-sea training, the CET rank has importance beyond IMU campuses. IMU states that DG Shipping-regulated maritime training institutes are required to admit candidates on the basis of IMU-CET rank, and that the rank certificate is needed for the named DG Shipping-approved Marine Engineering, Nautical Science, and DNS programmes, including at relevant non-affiliated institutes."
+      ],
+      "bullets": [
+        "The exam is a selection and ranking step; passing the test alone does not replace programme-specific academic, medical, document-verification, counselling, or seat-allotment requirements.",
+        "The precise programme list, admission rules, and schedule should be checked against the prospectus and admissions page for the target academic year."
+      ],
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf",
+        "https://www.imu.edu.in/imunew/admissions-2026-27"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: check the programme, not only the exam",
+      "paragraphs": [
+        "Eligibility is programme-specific. For example, IMU’s published B.Sc. Nautical Science criteria require 10+2 with Physics, Chemistry and Mathematics, at least 60% aggregate in PCM, and at least 50% in English; the page also sets medical-fitness requirements. The 2026 prospectus lists recognized 10+2/equivalent qualifications for UG applicants and says a candidate whose qualifying examination is scheduled after the CET date is not eligible to register for IMU-CET 2026.",
+        "Marine programmes can impose additional professional fitness conditions. IMU’s FAQ says applicants to B.Tech (Marine Engineering), B.Sc. (Nautical Science), DNS, and PGDME must meet the physical-fitness standards and eyesight conditions prescribed by the Directorate General of Shipping, and selected candidates submit the required medical certificate at admission."
+      ],
+      "bullets": [
+        "Review the exact course page and current prospectus for PCM/English marks, age limits, category relaxations, marital-status conditions where applicable, and lateral-entry rules.",
+        "For sea-going courses, obtain an eligibility view from a DG Shipping-approved medical practitioner early; do not assume that an academic score or CET rank overrides medical standards.",
+        "DNS at an IMU affiliated institute has an additional sponsorship condition: IMU says sponsorship is required there, although not for courses in IMU campuses."
+      ],
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf",
+        "https://www.imu.edu.in/imunew/course-programs?course=8",
+        "https://www.imu.edu.in/imunew/faq"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "UG technical test format",
+      "paragraphs": [
+        "For IMU-CET 2026, IMU specified 200 multiple-choice questions for UG technical programmes. The stated syllabus areas were English, General Aptitude, Physics, Chemistry, and Mathematics at the Class 12/Plus Two/Intermediate/equivalent level. IMU also specified negative marking: 0.25 mark is deducted for each incorrect answer.",
+        "IMU reserves the right to change the distribution, type, or difficulty of questions and to conduct the CET through a centre-based or proctored mode or another suitable alternative arrangement. Candidates should therefore rely on the current-year information bulletin, admit-card instructions, and IMU announcements rather than older coaching-site patterns."
+      ],
+      "bullets": [
+        "Prioritize accuracy as well as coverage because wrong answers carried a penalty in the 2026 rule set.",
+        "Use IMU’s official model-question-paper sets; the 2026 admissions page provided UG materials overall and separate practice papers for English, Physics, Chemistry, Mathematics, and Aptitude."
+      ],
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf",
+        "https://www.imu.edu.in/imunew/admissions-2026-27"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application through admission and counselling",
+      "paragraphs": [
+        "The 2026 process was online and followed the sequence of registration, city selection, admit-card download, IMU-CET, result/rank certificate, counselling, seat allotment/confirmation, and certificate verification. IMU’s admissions page records these stages for the 2026 cycle, including a city-selection portal, admit-card notice, result, counselling, qualified-candidate lists, rank-certificate download, admission lists, confirmation portal, and document-verification schedule.",
+        "As dated context only, IMU’s February 2026 prospectus initially listed February 5, 2026 as the tentative registration opening, April 24, 2026 as the tentative closing date, May 24, 2026 as the CET date, and August 1, 2026 as programme commencement. IMU explicitly noted that dates could change, so these are not deadlines for a future cycle."
+      ],
+      "bullets": [
+        "Create the application with personal and academic details that match supporting records; retain payment and application acknowledgements.",
+        "Select examination-city preferences when IMU opens that facility. In 2026, IMU stated that city selection was available for a limited window and used a first-come, first-served process within preference levels.",
+        "After qualifying, download the rank certificate and complete counselling and document verification within the dates IMU publishes for that cycle."
+      ],
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/admissions-2026-27",
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_24022026.pdf",
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Notification_IMU-CET2026_CitySelection.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach grounded in the official syllabus",
+      "paragraphs": [
+        "Build preparation around the official UG subject list: Class 12/equivalent Physics, Chemistry and Mathematics, plus English and General Aptitude. Start with syllabus mapping and core concepts, then practise timed multiple-choice questions across all five areas. Because IMU applied a 0.25-mark penalty to wrong answers in 2026, full-length practice should include an attempt-selection strategy rather than indiscriminate guessing.",
+        "IMU published official model question papers for the 2026 CET, including an overall UG (except BBA) set and separate sets for English, Physics, Chemistry, Mathematics, and Aptitude. These are the most appropriate starting point for familiarising yourself with IMU’s own question style; use the current-cycle materials whenever they are released."
+      ],
+      "bullets": [
+        "Make a topic checklist from the current prospectus, then diagnose weak areas with short timed tests.",
+        "Practise calculations and reading accuracy under timed conditions; review every error by cause—concept gap, formula recall, interpretation, or rushed guessing.",
+        "For sea-going programme choices, prepare application documentation and assess medical eligibility in parallel with exam study."
+      ],
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf",
+        "https://www.imu.edu.in/imunew/admissions-2026-27",
+        "https://www.imu.edu.in/imunew/faq"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a qualifying rank can lead to",
+      "paragraphs": [
+        "A qualifying IMU-CET rank produces a rank certificate that can be used in IMU’s counselling and, subject to each institute’s admission conditions, for the relevant affiliated and DG Shipping-approved maritime training pathways. It is not an employment guarantee and does not by itself secure a berth, course seat, medical clearance, or admission.",
+        "The undergraduate pathways reached through the CET lead to distinct maritime education routes. IMU describes B.Tech (Marine Engineering) as a four-year residential programme focused on the design, construction, operation, and maintenance of ships and marine vessels. It describes B.Sc. Nautical Science as preparation for deck-officer and broader maritime-industry careers, while DNS is a one-year residential programme in navigation, seamanship, and safety management that leads toward the examinations required for a Deck Officer Certificate of Competency."
+      ],
+      "bullets": [
+        "Use counselling preferences to distinguish sea-going technical programmes from naval-architecture and shipbuilding-oriented programmes.",
+        "Evaluate each target institute’s approval status, residential requirements, medical standards, sponsorship rules where relevant, fees for that specific cycle, and published placement/career support separately from the CET rank."
+      ],
+      "source_urls": [
+        "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf",
+        "https://www.imu.edu.in/imunew/course-programs?course=2",
+        "https://www.imu.edu.in/imunew/course-programs?course=8",
+        "https://www.imu.edu.in/imunew/course-programs?course=10"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "IMU Admissions 2026–27 portal",
+      "url": "https://www.imu.edu.in/imunew/admissions-2026-27",
+      "kind": "official admissions page"
+    },
+    {
+      "label": "IMU 2026–27 admission prospectus",
+      "url": "https://www.imu.edu.in/imunew/uploads/files/admissions/2026/Prospectus_2026-27_19032026.pdf",
+      "kind": "official prospectus"
+    },
+    {
+      "label": "IMU FAQs on admissions, medical fitness, passport, and sponsorship",
+      "url": "https://www.imu.edu.in/imunew/faq",
+      "kind": "official FAQ"
+    },
+    {
+      "label": "IMU B.Sc. Nautical Science programme page",
+      "url": "https://www.imu.edu.in/imunew/course-programs?course=8",
+      "kind": "official programme page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

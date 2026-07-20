@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core activity",
+      "value": "A pharmaceutical distributor buys medicines from licensed sources, stores them under conditions that preserve their properties, and supplies licensed dealers and permitted institutional buyers with documented batch-level transactions.",
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf"
+      ]
+    },
+    {
+      "label": "Wholesale sale-licence forms",
+      "value": "For allopathic drugs, Form 20B covers wholesale sale of drugs other than those in Schedules C, C(1) and X; Form 21B covers wholesale sale of Schedule C and C(1) drugs. Schedule X wholesale activity has a separate licence category.",
+      "source_urls": [
+        "https://drugs.delhi.gov.in/drugs/procedures-obtaining-licences",
+        "https://drugscontrol.py.gov.in/help-manual"
+      ]
+    },
+    {
+      "label": "Minimum wholesale premises requirement",
+      "value": "The Drugs Rules specify at least 10 square metres for a Form 20B and/or 21B wholesale premises; where retail and wholesale licences are combined, the stated minimum is 15 square metres.",
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf"
+      ]
+    },
+    {
+      "label": "Competent person",
+      "value": "A wholesale operation must be in the charge of a competent person: a registered pharmacist, or a matriculation/equivalent holder with four years’ drug-sale experience, or a recognised-university degree holder with one year’s experience dealing with drugs.",
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf"
+      ]
+    },
+    {
+      "label": "Wholesale documentation",
+      "value": "Wholesale supplies require a cash or credit memo containing the seller’s identity and licence number, buyer details, medicine name, quantity, batch number, manufacturer, and the supervising competent person’s signature; retained memo copies are kept for three years.",
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf"
+      ]
+    },
+    {
+      "label": "Licence continuity",
+      "value": "A drug-sale licence remains valid subject to payment of the prescribed retention fee before each succeeding five-year period, unless suspended or cancelled. Applicants should confirm the live process, fees, and local documentation with their State or Union Territory licensing authority.",
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf",
+        "https://statedrugs.gov.in/SFDA/UserRegistrationForm"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entry route: establish a licensable wholesale operation",
+      "paragraphs": [
+        "This is a regulated business route rather than an occupation that inherently requires the founder to hold a pharmacy degree. The legal baseline is that the proposed premises must have appropriate storage and be under the charge of a competent person accepted by the licensing authority. A founder who is not personally eligible can structure the business to engage an eligible competent person, subject to the State or Union Territory authority’s approval and documentation requirements.",
+        "The practical application route is state-specific. For example, the Delhi Drug Control Department requires an online application, firm-constitution and premises documents, identification and non-conviction affidavits, plus the competent person’s qualification, experience, appointment letter and biodata; originals are shown during inspection. The national online licensing system provides State FDA services, but applicants should use the applicable local authority’s current checklist rather than relying on another state’s procedure."
+      ],
+      "bullets": [
+        "Secure suitable premises before applying: the national rule specifies a minimum 10 m² wholesale area for Form 20B/21B licences, with proper storage accommodation.",
+        "Identify the product scope before choosing the licence: ordinary allopathic wholesale medicines and Schedule C/C(1) medicines use different wholesale form categories; Schedule X is separately controlled.",
+        "Put the competent person and operating records in place before inspection, including proof of the person’s qualification/experience and the business’s right to occupy the premises."
+      ],
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf",
+        "https://drugs.delhi.gov.in/drugs/procedures-obtaining-licences",
+        "https://statedrugs.gov.in/SFDA/avialble-service.html"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities needed to run the enterprise",
+      "paragraphs": [
+        "The operational capability is principally regulated supply-chain control: verify that suppliers and wholesale customers are appropriately licensed or are permitted institutional buyers, preserve product quality during storage, maintain batch-level traceability, and make stock and transaction records inspection-ready. The wholesale memo and purchase-record rules make accurate master data for licences, customers, products, manufacturers, batches, quantities, and dates a core business capability.",
+        "A competent person must supervise and control sale, distribution, and preservation of medicines. The enterprise therefore needs a clear delegation model: commercial sales, warehouse handling, cold-chain monitoring where label conditions require it, invoicing, credit control, and recalls should operate within technical oversight rather than independently of it."
+      ],
+      "bullets": [
+        "Licence and customer validation for pharmacies, other licensed dealers, hospitals, medical institutions, and government purchasing authorities.",
+        "Inventory discipline: batch, expiry, manufacturer, quantity, purchase source, and sale destination must be retrievable.",
+        "Storage-quality controls appropriate to product labelling, including refrigeration or cold storage where needed to preserve medicine stability.",
+        "Document control and inspection readiness, including serially numbered purchase bills and cash/credit memos."
+      ],
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf",
+        "https://drugs.delhi.gov.in/faqs"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating model: licensed B2B medicine distribution",
+      "paragraphs": [
+        "The standard model is business-to-business distribution: procure medicines from authorised sources, receive and store inventory, then sell to licensed dealers or to the government, hospitals, medical or educational institutions, research institutions, or registered medical practitioners in the circumstances recognised by the Rules. Each wholesale supply is tied to a cash or credit memo that identifies both parties and the medicine’s batch and manufacturer, creating the audit trail for the movement of stock.",
+        "The warehouse and invoice system should be designed around batch traceability, not only stock value. Wholesale purchase records must show the purchase date, supplier name, address and licence number, product, quantity, batch number, and manufacturer; sales documentation must then link stock to the eligible recipient. This enables response to quality complaints, expiry management, returns, and regulator inspection."
+      ],
+      "bullets": [
+        "Inbound: buy only against documented transactions and retain chronological purchase bills.",
+        "Warehouse: segregate and protect stock according to labelled storage requirements; control expiry and batch movement.",
+        "Outbound: issue a compliant wholesale cash/credit memo for every sale and verify the buyer or institutional category.",
+        "Governance: make records available to a drug inspector on demand; preserve wholesale-sale memo copies for three years."
+      ],
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance priorities",
+      "paragraphs": [
+        "The central compliance framework is the Drugs and Cosmetics Act, 1940 and the Drugs Rules, 1945, administered in day-to-day sale licensing by State and Union Territory drug-control authorities. Licence grant depends on adequate premises, storage capable of preserving the medicines concerned, and a competent person in charge. The authority may also require local documents and conduct inspection, so requirements such as building use, local premises evidence, online workflow, and fees must be checked in the jurisdiction of operation.",
+        "Record retention and controlled-product procedures are material risks. Wholesale sales require prescribed documentation and three-year preservation of memo copies; wholesale purchase records must be maintained and inspectors may demand records and information. Supplies of Schedule H, H1, and X medicines to registered medical practitioners, hospitals, dispensaries, and nursing homes require signed written orders that are preserved for two years. Schedule X has additional safeguards and should not be added to the business without confirming the specialised licence and security obligations."
+      ],
+      "bullets": [
+        "Maintain proper storage that preserves product properties and follow labelled cold-chain requirements.",
+        "Operate continuously under the charge of the approved competent person and update the authority when that person or the premises changes, following the local procedure.",
+        "Retain wholesale sale and purchase evidence in a serially controlled, chronological system; make it available during inspection.",
+        "Treat Schedule X and prescription-only categories as heightened-control inventory, with separate licence, written-order, record, and storage requirements as applicable.",
+        "Pay licence retention fees on time; under Rule 63, the recurring retention point is every five years from issue, subject to the current fee schedule."
+      ],
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf",
+        "https://drugs.delhi.gov.in/drugs/procedures-obtaining-licences",
+        "https://drugscontrol.py.gov.in/help-manual"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths within the regulated model",
+      "paragraphs": [
+        "A distributor can broaden its lawful operating scope by adding regulated categories or channels rather than treating all medicines as interchangeable stock. The licensing framework distinguishes ordinary allopathic wholesale activity, Schedule C/C(1) wholesale activity, Schedule X activity, wholesale homoeopathic medicines, and distribution from a motor vehicle. Each expansion should be assessed as a separate licensing and operational-control decision with the relevant State or Union Territory authority.",
+        "Another route is an integrated retail-and-wholesale establishment. The Rules state a 15 m² minimum for premises seeking both retail and wholesale licences, compared with 10 m² for wholesale alone. This route adds retail-side obligations, including registered-pharmacist requirements for retail pharmacy activity, so it should be evaluated as a distinct compliance model rather than merely an additional customer segment."
+      ],
+      "bullets": [
+        "Deepen B2B coverage by supplying eligible pharmacies and institutional purchasers with stronger inventory, credit, and delivery controls.",
+        "Add product categories only after obtaining the applicable licence and storage, documentation, and competent-person arrangements.",
+        "Consider a combined retail-plus-wholesale model only if the premises, staffing, and retail compliance obligations are all met.",
+        "Consider licensed motor-vehicle distribution only under the specific Form 19AA / Form 20BB or 21BB route; ordinary use of a hired carrier is treated differently under the Rules."
+      ],
+      "source_urls": [
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf",
+        "https://statedrugs.gov.in/SFDA/avialble-service.html",
+        "https://drugscontrol.py.gov.in/help-manual"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CDSCO: Drugs Rules, 1945 (official consolidated PDF)",
+      "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%2C%201945.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "National Drugs Licensing System (State FDA)",
+      "url": "https://statedrugs.gov.in/SFDA/UserRegistrationForm",
+      "kind": "application_portal"
+    },
+    {
+      "label": "Delhi Drug Control Department: procedure for obtaining sale licences",
+      "url": "https://drugs.delhi.gov.in/drugs/procedures-obtaining-licences",
+      "kind": "state_regulator_guidance"
+    },
+    {
+      "label": "Puducherry Department of Drugs Control: sale-licence help manual",
+      "url": "https://drugscontrol.py.gov.in/help-manual",
+      "kind": "state_regulator_guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

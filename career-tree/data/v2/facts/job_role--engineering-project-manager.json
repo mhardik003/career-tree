@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core remit",
+      "value": "Engineering Project Managers coordinate delivery of engineering work by defining objectives and scope, planning tasks and resources, tracking schedule and budget, addressing risks, and communicating with stakeholders.",
+      "source_urls": [
+        "https://www.pmi.org/about/what-is-a-project-manager",
+        "https://www.pmi.org/learning/library/human-resource-management-project-management-4772"
+      ]
+    },
+    {
+      "label": "Typical foundation",
+      "value": "For the Indian education context, an undergraduate engineering pathway provides technical-domain grounding; AICTE model curricula include engineering projects, internships and professional competencies such as project management and finance.",
+      "source_urls": [
+        "https://www.aicte.gov.in/sites/default/files/ug-vol1.pdf",
+        "https://www.education.gov.in/sites/upload_files/mhrd/files/AICTE_short_term.pdf"
+      ]
+    },
+    {
+      "label": "Experience-based credential option",
+      "value": "PMP is an optional professional credential rather than a prerequisite for the job title. Under PMI’s July 2026 outline, a bachelor’s degree or higher is paired with at least 36 months of non-overlapping professional project-management experience within the preceding 10 years, plus applicable training requirements.",
+      "source_urls": [
+        "https://www.pmi.org/-/media/pmi/documents/public/pdf/microsites/announcements/pmp-examination-content-outline-2026.pdf?rev=bd471d64ad914e1f98440011cf243043"
+      ]
+    },
+    {
+      "label": "Early-career credential option",
+      "value": "CAPM is a possible foundational credential for candidates building project-management knowledge: PMI lists a secondary degree (or global equivalent) and 23 hours of project-management education as eligibility requirements.",
+      "source_urls": [
+        "https://www.pmi.org/certifications/certified-associate-capm"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Engineering Project Manager does",
+      "paragraphs": [
+        "An Engineering Project Manager turns an approved engineering objective into an executable delivery plan. Typical work includes clarifying goals, requirements and boundaries; decomposing work and dependencies; building and maintaining schedules and budgets; allocating or coordinating resources; monitoring progress and deliverables; documenting decisions and changes; and resolving blockers or escalating decisions.",
+        "The role also manages the trade-offs among scope, quality, schedule, budget, resources and risk. In engineering settings, this requires sufficient technical credibility to understand interfaces, methods and constraints while coordinating engineers, vendors, customers, leadership and other stakeholders.",
+        "Risk and communication are continuing responsibilities rather than one-time planning tasks: risks should be identified, analysed, assigned response actions and communicated with the stakeholders affected by them."
+      ],
+      "bullets": [
+        "Define project objectives, scope, deliverables, milestones, assumptions and acceptance criteria.",
+        "Develop integrated work plans, schedules, resource plans and cost/budget baselines.",
+        "Coordinate multidisciplinary engineering teams and external suppliers or contractors.",
+        "Track delivery, quality, cost, schedule, changes, issues and risks; provide clear status reporting.",
+        "Maintain stakeholder alignment and obtain decisions when engineering, cost, schedule or scope trade-offs arise."
+      ],
+      "source_urls": [
+        "https://www.pmi.org/about/what-is-a-project-manager",
+        "https://www.pmi.org/learning/library/human-resource-management-project-management-4772",
+        "https://www.pmi.org/learning/library/eight-project-management-processes-9362",
+        "https://www.pmi.org/learning/library/project-risk-management-success-tool-6078"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "A common route is to first develop depth in an engineering discipline—such as civil, mechanical, electrical, electronics or software engineering—and then take progressively larger responsibility for planning, coordination, reporting and delivery. This aligns with the node’s immediate-parent relationship from Senior Engineer: senior technical experience can provide the domain context needed to manage engineering work, although employers may set different degree and experience requirements.",
+        "In the Indian higher-education context, AICTE model engineering curricula include substantial project work and industry-internship exposure, while AICTE’s employability guidance identifies project management and finance among undergraduate engineering attributes. Candidates can build evidence of readiness through project/internship outcomes, scheduling and cost-control practice, requirements/change documentation, and cross-functional coordination.",
+        "Structured learning can supplement engineering experience. For example, IIT Delhi’s project-management certificate programme covers scope, stakeholders, planning, scheduling, cost, control, risk, quality and project-management software; its published eligibility and fees are programme-specific and subject to change, so they should not be treated as a universal entry requirement."
+      ],
+      "bullets": [
+        "Complete an appropriate engineering qualification and build discipline-specific technical competence.",
+        "Use internships, capstone projects and early engineering roles to demonstrate planning, coordination, reporting and ownership of deliverables.",
+        "Progress from Senior Engineer or comparable engineering roles by taking responsibility for work packages, estimates, schedules, interfaces and stakeholder updates.",
+        "Consider foundational project-management education or certification where it is relevant to the target employer or sector.",
+        "Treat PMP as a later-career option: PMI’s current published eligibility is explicitly experience-based."
+      ],
+      "source_urls": [
+        "https://www.aicte.gov.in/sites/default/files/ug-vol1.pdf",
+        "https://www.education.gov.in/sites/upload_files/mhrd/files/AICTE_short_term.pdf",
+        "https://cepqip.iitd.ac.in/post/program/certificate-programme-in-project-management-batch-14",
+        "https://www.pmi.org/certifications/project-management-pmp"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "The role combines engineering judgment with delivery management. Core technical-management capabilities include scope definition, work-breakdown planning, schedule development, resource and cost management, risk and issue management, quality awareness, reporting, and use of project controls or planning tools appropriate to the sector.",
+        "Leadership capabilities matter equally: clear written and verbal communication, stakeholder management, negotiation, teamwork, decision-making, organisation, time management, adaptability and problem-solving. An Engineering Project Manager must translate technical detail into timely decisions for both engineering teams and non-technical stakeholders.",
+        "For construction and infrastructure-oriented work, practical familiarity with tools such as Primavera P6 or Microsoft Project may be useful. Tool expectations vary by employer and engineering domain; candidates should prioritise the scheduling, resource-allocation, cost-estimation and monitoring concepts behind the tools."
+      ],
+      "bullets": [
+        "Technical: engineering-domain understanding, interfaces, estimates, schedules, budgets, quality and risk controls.",
+        "Delivery: work breakdown structures, milestones, dependencies, change control, progress tracking and status reporting.",
+        "People: leadership, conflict resolution, stakeholder communication, team coordination and vendor management.",
+        "Analytical: prioritisation, trade-off analysis, root-cause problem-solving and data-based forecasting.",
+        "Tools: project scheduling and reporting software selected for the employer’s sector and delivery method."
+      ],
+      "source_urls": [
+        "https://www.pmi.org/about/what-is-a-project-manager",
+        "https://www.pmi.org/learning/library/human-resource-management-project-management-4772",
+        "https://internship.aicte-india.org/internship-details.php?uid=SU5URVJOU0hJUF8xNzc5NTI2NjAwNmExMTZiYzhlY2U1OA%3D%3D"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and collaboration model",
+      "paragraphs": [
+        "Engineering Project Managers work through cross-functional delivery teams rather than as isolated individual contributors. Their day-to-day work commonly connects technical specialists with sponsors, customers, functional managers, suppliers, consultants and other stakeholders, using plans, meetings, reviews, risk registers, schedules and performance reports to keep the work aligned.",
+        "The exact setting varies by engineering sector and project type. Responsibilities can be shaped by the project’s size, complexity, contractual model, safety or regulatory requirements, geography and delivery methodology. Consequently, the balance between office-based planning, site/customer interaction and technical review is employer- and project-specific."
+      ],
+      "bullets": [
+        "Coordinate engineering, commercial, procurement, quality and customer-facing contributors.",
+        "Establish communication routines, decision paths and reporting appropriate to the project.",
+        "Use project artefacts such as a charter, scope statement, schedule, budget baseline, risk register and progress reports.",
+        "Adapt governance and control detail to project size, complexity and reporting requirements."
+      ],
+      "source_urls": [
+        "https://www.pmi.org/learning/library/human-resource-management-project-management-4772",
+        "https://www.pmi.org/learning/library/managing-leading-small-projects-7245",
+        "https://www.pmi.org/learning/library/eight-project-management-processes-9362"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression from this role",
+      "paragraphs": [
+        "Within this node’s career taxonomy, Engineering Project Manager follows Senior Engineer. Progression is typically demonstrated by moving from responsibility for defined technical work packages to accountability for end-to-end delivery of increasingly complex engineering projects, including wider budgets, risks, teams, suppliers and stakeholder groups.",
+        "A longer-term direction can be programme management, where the practitioner manages multiple related and coordinated projects rather than a single project. PMI describes its PgMP credential as aimed at professionals with real-world experience managing multiple complex projects within a coordinated programme; this illustrates a distinct next-level scope, not a mandatory promotion route."
+      ],
+      "bullets": [
+        "Senior Engineer → ownership of estimates, interfaces and delivery coordination → Engineering Project Manager.",
+        "Broaden project scale through larger teams, multi-site work, supplier/contract management, customer-facing delivery and governance responsibility.",
+        "Potential later directions include senior project leadership, programme management, project controls, engineering operations or a sector-specific delivery leadership role."
+      ],
+      "source_urls": [
+        "https://www.pmi.org/learning/library/human-resource-management-project-management-4772",
+        "https://www.pmi.org/certifications"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AICTE model curriculum for undergraduate engineering and technology",
+      "url": "https://www.aicte.gov.in/sites/default/files/ug-vol1.pdf",
+      "kind": "regulator curriculum"
+    },
+    {
+      "label": "PMI overview of project-manager responsibilities",
+      "url": "https://www.pmi.org/about/what-is-a-project-manager",
+      "kind": "professional body"
+    },
+    {
+      "label": "PMI PMP certification and eligibility",
+      "url": "https://www.pmi.org/certifications/project-management-pmp",
+      "kind": "professional credential"
+    },
+    {
+      "label": "PMI CAPM certification and eligibility",
+      "url": "https://www.pmi.org/certifications/certified-associate-capm",
+      "kind": "professional credential"
+    },
+    {
+      "label": "IIT Delhi Certificate Programme in Project Management",
+      "url": "https://cepqip.iitd.ac.in/post/program/certificate-programme-in-project-management-batch-14",
+      "kind": "university continuing education"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

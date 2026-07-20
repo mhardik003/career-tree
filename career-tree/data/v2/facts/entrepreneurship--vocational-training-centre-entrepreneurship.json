@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core operating choice",
+      "value": "A founder can run independent, fee-based trade training, or pursue affiliation/partnership routes for NSQF-aligned or Skill India ecosystem delivery; the latter brings defined onboarding, data, quality, and monitoring expectations.",
+      "source_urls": [
+        "https://www.nsdcindia.org/existingpartners",
+        "https://ncvet.gov.in/national-skills-qualification-framework/"
+      ]
+    },
+    {
+      "label": "Credentials and certification",
+      "value": "For an NSQF-aligned qualification, certification is connected to an NCVET-recognised Awarding Body and its approved qualification framework; a private training centre should not present its own course-completion certificate as an NCVET/NSQF certificate unless its arrangement expressly permits that claim.",
+      "source_urls": [
+        "https://ncvet.gov.in/guidelines/",
+        "https://ncvet.gov.in/national-skills-qualification-framework/"
+      ]
+    },
+    {
+      "label": "MSME registration context",
+      "value": "If eligible, an education-and-training enterprise may use the official Udyam portal: registration is stated to be free, online, paperless, and based on self-declaration. MSME classification thresholds and registration requirements can change, so founders should check the live portal before filing.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/Important.aspx"
+      ]
+    },
+    {
+      "label": "NSDC affiliation branding",
+      "value": "NSDC states that only training partners holding a valid Partnership Certificate and/or Agreement may use NSDC branding or claim benefits of NSDC affiliation.",
+      "source_urls": [
+        "https://www.nsdcindia.org/existingpartners"
+      ]
+    },
+    {
+      "label": "Quality model",
+      "value": "NCVET’s published framework emphasises outcome-based qualifications, industry partnership, progression routes, recognition of prior learning, and quality assurance across vocational education and training.",
+      "source_urls": [
+        "https://ncvet.gov.in/national-skills-qualification-framework/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes: move from instruction into centre ownership",
+      "paragraphs": [
+        "A practical route from private vocational instruction to entrepreneurship is to start with one trade in which the founder has credible delivery experience, define the learner and employer segment, then pilot a small, equipment-appropriate batch before committing to a multi-trade facility. This is consistent with the national skills framework’s emphasis on competencies, industry engagement, and progression into the labour market rather than treating vocational delivery as classroom instruction alone.",
+        "A second route is to become an affiliated training provider or centre under an established training partner, Sector Skill Council, or Awarding Body arrangement. This can provide access to specified qualification packs, assessments and recognised certification pathways, but it also makes the operator accountable to the partner’s terms and the relevant regulator’s quality processes. NSDC describes onboarding around agreements, quality control, Skill India Portal registration and training-data processes; NCVET publishes the governing guidelines for Awarding Bodies, Assessment Agencies, trainers and related quality functions.",
+        "For a founder who intends only to offer proprietary, fee-based short courses, the key market question is whether the course outcome, equipment, trainer expertise and employer linkage justify the fee. For a founder intending to advertise an NSQF-aligned outcome, the key question is instead which recognised Awarding Body will own the qualification and certification pathway, and what affiliation conditions it imposes."
+      ],
+      "bullets": [
+        "Begin with a local demand scan: select a trade only after speaking with employers, workshops, contractors, service firms, or self-employment intermediaries that can validate job tasks and practical equipment needs.",
+        "Choose the delivery identity before marketing: independent certificate of completion, affiliated delivery centre, or direct role within a recognised Awarding Body are materially different propositions.",
+        "Use written agreements to define the right to teach a curriculum, use brand marks, upload learner data, schedule assessments, issue certificates, and make placement claims."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/national-skills-qualification-framework/",
+        "https://www.nsdcindia.org/existingpartners",
+        "https://ncvet.gov.in/guidelines/"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities needed to run a credible vocational training centre",
+      "paragraphs": [
+        "The entrepreneur needs both trade credibility and education operations capability. In practice, that means translating real job tasks into supervised practical exercises, observing learners against clear performance criteria, maintaining tools and consumables, and ensuring trainers can demonstrate as well as explain the work. NCVET’s framework is explicitly outcome-oriented and identifies industry partnership as a core element of the NSQF.",
+        "Trainer development should be designed as an operating system, not an informal staffing decision. NCVET publishes Training of Trainers guidance, while NSDC states that its quality function checks training-provider conformance with qualification packs and National Occupational Standards where those apply. A centre should therefore maintain trainer qualifications, induction records, lesson plans, practical-session plans, attendance, learner feedback, and corrective-action records.",
+        "Commercial capability matters equally: schedule batches to match workshop capacity, price courses with equipment depreciation and consumables included, manage inquiries and admissions transparently, and track completion, assessment, placement, apprenticeship, or self-employment outcomes separately. These records make it possible to distinguish enrolment volume from actual learner results."
+      ],
+      "bullets": [
+        "Trade and workshop management: safe tool use, maintenance schedules, inventory control, consumable planning, and instructor-to-learner supervision.",
+        "Learning design: competency-based modules, demonstrations, repeated practice, formative checks, remedial support, and evidence of practical performance.",
+        "Employer engagement: job-task validation, guest demonstrations, worksite exposure where permitted, interviews, and outcome follow-up.",
+        "Centre management: admissions documentation, fee receipts and refund terms, attendance, grievance handling, learner data protection, and truthful marketing."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/national-skills-qualification-framework/",
+        "https://ncvet.gov.in/guidelines/",
+        "https://www.nsdcindia.org/existingpartners"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating model: build around outcomes, capacity, and certification clarity",
+      "paragraphs": [
+        "A resilient centre separates four layers of the service: recruitment and counselling; training delivery; independent or partner-managed assessment and certification; and employment or enterprise support. This prevents a common failure mode in which an admissions target drives the course while practical capacity, assessment readiness, and employer demand are treated as afterthoughts. NCVET’s framework places qualifications, assessment standards, learner progression and employer partnership within the wider quality system.",
+        "The initial centre can be deliberately narrow: one or two related job families, a timetable that protects hands-on practice, and a workshop layout that safely accommodates the maximum batch size. Expand only when the centre can consistently evidence attendance, practical competency, learner satisfaction, assessment completion and post-course outcomes. Where delivering under NSDC affiliation, the operator should plan for the reporting and centre-visit processes described by NSDC, including training data, infrastructure, delivery, branding, and data-reporting checks.",
+        "Revenue can combine learner-paid courses, employer-sponsored upskilling, customised corporate training, and—where eligibility and contracts permit—delivery under a partner or public-skilling programme. Each stream should have separate unit economics because equipment intensity, assessment costs, receivables timing, placement obligations, and compliance burdens differ."
+      ],
+      "bullets": [
+        "Design a batch-capacity sheet covering benches or workstations, tools, power/load needs, trainer coverage, safety supervision, consumables, and make-up sessions.",
+        "Publish a learner-facing course sheet: entry requirements, duration, practical hours, total fee and what it includes, certificate issuer, assessment method, refund/cancellation terms, and realistic career outcomes.",
+        "Maintain an outcome dashboard: inquiries, enrolments, attendance, completion, assessment pass rate where applicable, verified placements, retention follow-up, and self-employment starts.",
+        "Do not use NSDC branding or imply NSDC affiliation without the valid certificate or agreement NSDC requires."
+      ],
+      "source_urls": [
+        "https://www.nsdcindia.org/existingpartners",
+        "https://ncvet.gov.in/national-skills-qualification-framework/",
+        "https://ncvet.gov.in/guidelines/"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance: distinguish business setup from skills-system recognition",
+      "paragraphs": [
+        "Set up the operating entity and tax/commercial administration appropriate to the chosen structure and state of operation, then confirm local premises, labour, safety, fire, municipal, and sector-specific requirements before opening or adding high-risk practical trades. The exact obligations are location-, activity-, building-, workforce-, and course-specific, so a founder should obtain current advice from the relevant state/local authorities and qualified legal, tax, and safety professionals rather than relying on a national skills affiliation as a substitute.",
+        "For MSME status, the official Udyam portal says eligible enterprises may register online without fee and on self-declaration; it also lists current classification thresholds and portal requirements. This registration is an MSME registration mechanism, not an educational accreditation or permission to represent a course as NSQF-aligned.",
+        "For NSQF-linked delivery, verify the whole chain in writing: the qualification’s approval/alignment status; the recognised Awarding Body; the centre’s affiliation/accreditation status; approved trainer and infrastructure conditions; the assessment agency/process; learner-data responsibilities; grievance process; and the precise certificate wording. NCVET identifies Awarding Bodies and Assessment Agencies as principal regulated quality actors and publishes current guidelines in these areas.",
+        "Tax treatment is fact-specific. The CBIC explains that GST aggregate turnover is calculated on an all-India basis for persons with the same PAN and includes taxable, exempt, export and inter-State supplies, subject to statutory exclusions. Before pricing courses or issuing invoices, verify whether registration or any education-related exemption applies to the actual service model and jurisdiction; do not assume that every private training course is exempt."
+      ],
+      "bullets": [
+        "Keep separate evidence folders for entity formation, PAN/tax records, lease/title and local permissions, insurance, safety inspections, trainer contracts, learner terms, and affiliation/assessment agreements.",
+        "Make no unsupported claim of government approval, NSQF alignment, NCVET recognition, guaranteed employment, salary outcome, or placement rate.",
+        "Treat learner records as controlled data: define who can access attendance, assessment, identity, payment, and placement data, and retain it only for legitimate operational and contractual purposes.",
+        "Recheck live rules before a new centre, new state, new trade, government-funded programme, online/blended expansion, or change in certificate issuer."
+      ],
+      "source_urls": [
+        "https://udyamregistration.gov.in/Important.aspx",
+        "https://cbic-gst.gov.in/hindi/sectoral-faq.html",
+        "https://ncvet.gov.in/guidelines/",
+        "https://ncvet.gov.in/monitoring/"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths: deepen quality before multiplying locations",
+      "paragraphs": [
+        "The first growth path is vertical depth: add advanced modules, refresher training, employer-specific equipment, and assessment preparation within the same trade family. This is usually more controllable than immediately adding unrelated trades because trainers, workshop assets, employer relationships, and safety systems can be reused. NCVET’s multi-skilling and cross-sectoral guidance recognises the need for structured skill combinations, while the NSQF framework supports progression pathways.",
+        "The second path is institutional: progress from an independent centre to an affiliated training provider/centre, or—where the organisation has the governance and capability required—to a larger role in the regulated ecosystem. NCVET’s published Awarding Body and Assessment Agency guidelines show that certification and assessment carry distinct quality and regulatory responsibilities; a growing operator should not treat those functions as mere marketing add-ons.",
+        "The third path is enterprise and employer integration: provide contract training for local firms, create worksite or on-the-job learning arrangements where permitted, and develop alumni support for self-employment. Expansion decisions should be driven by verified outcomes and contractual demand, not only enquiries or social-media reach."
+      ],
+      "bullets": [
+        "Adjacent-trade expansion: add related roles only after mapping trainer capability, safety requirements, equipment utilisation, and employer demand.",
+        "Network expansion: standardise curriculum, workshop specifications, trainer induction, learner documentation, audits, and grievance handling before opening a second site or franchise-style partner model.",
+        "Recognition expansion: where relevant, pursue only those affiliations whose audit, assessment, reporting, and certification obligations the business can actually sustain.",
+        "Outcome expansion: build employer repeat business, alumni referrals, verified placement follow-up, and credible self-employment support rather than relying on unverified placement promises."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/guidelines/",
+        "https://ncvet.gov.in/national-skills-qualification-framework/",
+        "https://www.nsdcindia.org/existingpartners"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCVET policies and guidelines",
+      "url": "https://ncvet.gov.in/guidelines/",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "NCVET National Skills Qualification Framework",
+      "url": "https://ncvet.gov.in/national-skills-qualification-framework/",
+      "kind": "regulator framework"
+    },
+    {
+      "label": "NSDC training-partner lifecycle and monitoring",
+      "url": "https://www.nsdcindia.org/existingpartners",
+      "kind": "partner operations"
+    },
+    {
+      "label": "Official Udyam MSME registration portal",
+      "url": "https://udyamregistration.gov.in/Important.aspx",
+      "kind": "business registration"
+    },
+    {
+      "label": "CBIC GST sectoral FAQs",
+      "url": "https://cbic-gst.gov.in/hindi/sectoral-faq.html",
+      "kind": "tax guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Core remit",
+      "value": "A Curriculum Designer translates curriculum aims into sequenced learning experiences, learning outcomes, teaching resources, and assessment approaches; in the CBSE context, curriculum materials are explicitly organised around competencies, learning outcomes, pedagogical practices, and assessment.",
+      "source_urls": [
+        "https://cbseacademic.nic.in/curriculum_2027.html",
+        "https://cbseacademic.nic.in/cbe/index.html"
+      ]
+    },
+    {
+      "label": "School-system alignment",
+      "value": "For school-facing work, the applicable board, grade, subject, and academic-session curriculum must be checked rather than assumed. CBSE publishes a 2026–27 curriculum that includes academic, vocational, interdisciplinary, physical-education, arts, and computational-thinking/AI areas.",
+      "source_urls": [
+        "https://cbseacademic.nic.in/curriculum_2027.html",
+        "https://cbseacademic.nic.in/skill-education-curriculum.html"
+      ]
+    },
+    {
+      "label": "Assessment orientation",
+      "value": "Competency-based design requires assessments that evidence achievement of learning outcomes and application of knowledge and skills, including formative feedback and authentic, real-world contexts.",
+      "source_urls": [
+        "https://cbseacademic.nic.in/cbe/index.html",
+        "https://cbseacademic.nic.in/cbe/learning-framework.html"
+      ]
+    },
+    {
+      "label": "Typical preparation",
+      "value": "There is no single nationally prescribed entry qualification identified for this job title. A closely related Government of India National Career Service profile for Associate–Learning lists a bachelor’s degree in any discipline as preferred and treats instructional-design certification as desirable; employers may set different requirements.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3930&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Formal upskilling example",
+      "value": "IGNOU’s PG Diploma in Distance Education is open to graduates in any discipline and includes instructional-design, educational-technology, and digital-content objectives. It is an example of relevant professional preparation, not a mandatory credential for all curriculum-design roles.",
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/PGDDE"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Curriculum Designer does",
+      "paragraphs": [
+        "In Indian school and learning-content settings, the role is to turn broad curricular intent into usable designs: define or map learning outcomes and competencies; sequence concepts, lessons, activities, and resources; and ensure that assessment tasks measure the intended learning. This work should be aligned to the relevant board or institutional framework rather than treated as generic content writing.",
+        "For CBSE-aligned work, designers need to work from the current curriculum for the relevant class and subject. The Board’s 2026–27 catalogue covers multiple learning areas, including vocational education, interdisciplinary learning, art, physical education and well-being, and computational thinking and AI, so the design constraints can differ materially by subject and stage.",
+        "A competency-based approach places the learner’s demonstrated attainment at the centre. Accordingly, curriculum designs should connect outcomes, learning activities, feedback, and assessment; CBSE describes formative assessment, differentiated support, real-world contexts, and authentic problems as relevant features of this approach."
+      ],
+      "bullets": [
+        "Map curricular aims and board/institution requirements into observable competencies and grade-appropriate learning outcomes.",
+        "Create coherent scopes and sequences, lesson or module plans, learner activities, teacher guidance, and learning resources.",
+        "Develop or review assessment specifications, rubrics, question types, and exemplar tasks so that they test the designated skills and outcomes.",
+        "Review content for factual accuracy, clarity, age appropriateness, inclusion, and consistency across learning material and assessments."
+      ],
+      "source_urls": [
+        "https://cbseacademic.nic.in/curriculum_2027.html",
+        "https://cbseacademic.nic.in/cbe/index.html",
+        "https://cbseacademic.nic.in/cbe/learning-framework.html",
+        "https://ncert.nic.in/pdf/announcement/NCERT-Advisory-for-Schools.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "A practical route is to build a foundation in a relevant subject area, education, educational technology, content development, or teaching, then develop a portfolio that demonstrates curriculum mapping, lesson or module sequencing, assessment design, and clear learner-facing and teacher-facing materials. The National Career Service’s adjacent Associate–Learning profile identifies structured courseware, training materials in print/digital/multimedia formats, and e-learning material as relevant early-career work; it lists a bachelor’s degree as preferred and instructional-design certification as desirable.",
+        "For structured study, IGNOU offers graduate-entry distance-education programmes that explicitly cover instructional design, educational technology, courseware or digital-content creation, learner support, and curriculum development. These programmes can support a transition from teaching, vocational instruction, or educational content development, but they are not universal hiring requirements.",
+        "Candidates moving from vocational instruction should combine domain expertise with demonstrable curriculum-design capability. In CBSE school contexts, vocational education is a distinct curriculum area, making familiarity with the relevant vocational subject curriculum and its assessment model especially useful."
+      ],
+      "bullets": [
+        "Teaching or vocational-instruction route: convert classroom or trade expertise into mapped modules, learner activities, and competency-linked assessments.",
+        "Educational-content route: move from writing individual assets to owning scope-and-sequence, outcomes, pedagogical design, and assessment coherence.",
+        "Instructional-design/ODL route: undertake relevant postgraduate study or certification and build samples for digital, blended, or self-learning formats.",
+        "Portfolio route: present curriculum maps, prototype lesson sequences, sample assessment items with rubrics, and evidence of alignment to an identified board or framework."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3930&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.ignou.ac.in/schools/programme/PGDDE",
+        "https://www.ignou.ac.in/schools/programme/MADE",
+        "https://cbseacademic.nic.in/skill-education-curriculum.html"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The key technical skill is constructive alignment: being able to make the learning outcome, learning experience, and evidence of learning point to the same competency. NCERT’s implementation guidance describes a progression from curricular aims to curricular goals, competencies, and specific learning outcomes, and states that learning outcomes help teachers plan content, pedagogy, and assessment.",
+        "Designers also need strong editorial and production discipline. The NCS profile for the related Associate–Learning occupation lists document structuring, selecting appropriate content structures, editing for factual, linguistic, and formatting errors, content writing, English proficiency, and use of common productivity tools among its competencies.",
+        "For competency-based school content, pedagogical design should account for learner-centred activity, feedback, differentiated support, formative assessment, and authentic application rather than relying solely on recall-oriented testing."
+      ],
+      "bullets": [
+        "Curriculum and standards mapping across grades, subjects, and assessment requirements.",
+        "Learning-outcome and competency writing using observable, assessable language.",
+        "Scope-and-sequence design and lesson or module architecture.",
+        "Assessment design: blueprints, item types, marking schemes, rubrics, and formative-feedback activities.",
+        "Subject-matter research, factual checking, editing, and accessible instructional writing.",
+        "Collaboration with teachers, subject-matter experts, editors, visual designers, and learning-technology teams."
+      ],
+      "source_urls": [
+        "https://ncert.nic.in/pdf/announcement/NCERT-Advisory-for-Schools.pdf",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3930&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://cbseacademic.nic.in/cbe/index.html"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Possible progression",
+      "paragraphs": [
+        "Progression is employer-dependent, but a related National Career Service learning-content pathway illustrates movement from Associate–Learning to Senior Associate–Instructional Design, Team Leader–Instructional Design, Manager–Instructional Design, and Head of Learning. For a Curriculum Designer, comparable advancement may involve greater ownership of subject portfolios, grade bands, assessment programmes, content operations, or curriculum strategy.",
+        "Progression is strengthened by evidence that the designer can lead cross-functional review, maintain alignment across a large curriculum set, use learner or teacher feedback to improve materials, and manage changes when a board or institution updates its curriculum."
+      ],
+      "bullets": [
+        "Entry: curriculum/content associate, learning associate, teacher-resource developer, or instructional-design associate.",
+        "Mid-career: curriculum designer, senior curriculum designer, subject or assessment lead.",
+        "Senior: curriculum manager, instructional-design manager, academic-content lead, or head of learning/curriculum."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3930&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://cbseacademic.nic.in/curriculum_2027.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CBSE Curriculum 2026–27",
+      "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+      "kind": "official curriculum"
+    },
+    {
+      "label": "CBSE Competency-Based Education resources",
+      "url": "https://cbseacademic.nic.in/cbe/index.html",
+      "kind": "official guidance"
+    },
+    {
+      "label": "NCERT advisory on implementing NCF-SE 2023",
+      "url": "https://ncert.nic.in/pdf/announcement/NCERT-Advisory-for-Schools.pdf",
+      "kind": "official guidance"
+    },
+    {
+      "label": "National Career Service: Associate–Learning profile",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3930&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career profile"
+    },
+    {
+      "label": "IGNOU PG Diploma in Distance Education",
+      "url": "https://www.ignou.ac.in/schools/programme/PGDDE",
+      "kind": "university programme"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

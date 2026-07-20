@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Conducting institution",
+      "value": "NID DAT is the National Institute of Design’s Design Aptitude Test admission process. NID Ahmedabad is an autonomous Institute of National Importance under DPIIT, Ministry of Commerce & Industry, Government of India.",
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Programmes reached through DAT",
+      "value": "For the 2026–27 cycle, DAT was used for B.Des admission at NID Ahmedabad, Andhra Pradesh, Haryana, Madhya Pradesh and Assam, and for M.Des admission at NID Ahmedabad, Bengaluru and Gandhinagar.",
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/Default.aspx",
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Selection structure",
+      "value": "The process has two stages: DAT Prelims followed by DAT Mains. Prelims is used to shortlist candidates; it does not itself confer admission.",
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Latest published-cycle dates",
+      "value": "In the published 2026–27 handbooks, the online-application deadline was 1 December 2025 at 11:59 pm IST and DAT Prelims was scheduled for 21 December 2025. These dates are cycle-specific and should not be treated as dates for a future admission cycle.",
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Official application channel",
+      "value": "NID states that applications are invited online through its official admissions portal; candidates should rely on the current handbook and notices on that portal for changes.",
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/Default.aspx",
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What NID DAT is for",
+      "paragraphs": [
+        "NID DAT is the entrance and selection process for designated undergraduate and postgraduate design programmes at National Institute of Design campuses. NID describes the test objective as assessing candidates’ knowledge, skills and behavioural abilities for design education. Qualifying or appearing in a stage does not create an automatic right to admission; final admission depends on the applicable merit list, seat availability, eligibility verification and the rules of that admission cycle.",
+        "For B.Des, the 2026–27 handbook covered a four-year programme across NID Ahmedabad and four other NIDs. For M.Des, it covered NID Ahmedabad, Bengaluru and Gandhinagar; the handbook describes that programme as a two-and-a-half-year full-time degree. Programme locations, disciplines, capacities and rules can change by cycle, so applicants should use the handbook released for their own year."
+      ],
+      "bullets": [
+        "Use the B.Des route after senior secondary education (10+2 or an accepted equivalent).",
+        "Use the M.Des route after a qualifying bachelor’s degree or equivalent, subject to the cycle’s detailed eligibility rules.",
+        "Treat DAT as an admission examination, not as a standalone degree or professional credential."
+      ],
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf",
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: B.Des and M.Des differ",
+      "paragraphs": [
+        "For the 2026–27 B.Des cycle, candidates needed to meet both age and educational requirements. The educational requirement was passing, or appearing in 2025–26 for, a recognised higher-secondary (10+2) examination in any stream; NID listed examples including CBSE, IB and ICSE/equivalent. The cycle’s age cut-offs differed by category—for example, General and General-EWS Indian applicants had to be born on or after 1 July 2005. These are historical, cycle-specific thresholds rather than a prediction of future cut-offs.",
+        "For the 2026–27 M.Des cycle, applicants needed a bachelor’s degree or equivalent in any discipline from an eligible Indian institution, or an appropriately recognised equivalent qualification. Final-year candidates could apply provisionally subject to passing and submitting their result by the stipulated date. The published age cut-off for General and General-EWS Indian applicants was birth on or after 1 July 1994; reserved-category and PwD cut-offs differed. International qualifications required the specified equivalence documentation."
+      ],
+      "bullets": [
+        "B.Des: 10+2 in any stream is the central academic route in the cited 2026–27 rules.",
+        "M.Des: a bachelor’s degree or equivalent in any discipline is the baseline academic route in the cited 2026–27 rules.",
+        "Always check nationality, category, age, equivalence, final-result and document requirements in the current official handbook before applying."
+      ],
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and merit calculation",
+      "paragraphs": [
+        "Both B.Des and M.Des use DAT Prelims and DAT Mains. In the 2026–27 rules, Prelims was a common paper-and-pencil/pen examination held across test centres, with text and visual questions, in English. Its score was used for shortlisting to Mains and was not carried into the final Mains-stage calculation.",
+        "The Mains components differed by programme in 2026–27. B.Des Mains comprised a Studio Sensitivity Test and an In-Person Sensitivity Test; final B.Des marks were weighted 60% and 40% respectively. M.Des Mains comprised a Studio Test and Interviews, weighted 40% and 60% respectively. NID reserves the right to change the schedule, mode or structure in exceptional circumstances, so applicants should confirm the current-cycle admit-card instructions and handbook."
+      ],
+      "bullets": [
+        "B.Des DAT Prelims: common paper-and-pencil/pen test; Prelims is only a shortlist stage.",
+        "B.Des DAT Mains: Studio Sensitivity Test plus In-Person Sensitivity Test.",
+        "M.Des DAT Prelims: one common paper for all faculty streams; applicants select a faculty stream and may apply to up to two disciplines within that stream under the cited rules.",
+        "M.Des DAT Mains: Studio Test plus Interviews."
+      ],
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "How to apply through the official portal",
+      "paragraphs": [
+        "NID’s published process begins at the official admissions portal. Applicants first read the applicable handbook and register online by selecting the programme, nationality and category. They then complete personal and educational details, upload the required documents, pay the application fee online and retain the completed application form. M.Des applicants also provide work-experience information where requested by the portal.",
+        "Use an active personal email address and mobile number, because NID uses these for OTP validation, login credentials, admit-card and admissions communications. The published handbooks make applicants responsible for the accuracy of their submitted information; incorrect information or invalid supporting documents can lead to cancellation of candidature or admission. The application portal may offer a limited edit window, but key registration details and rules on editable fields are cycle-specific."
+      ],
+      "bullets": [
+        "Start only from NID’s official admissions portal, not from a coaching, intermediary or look-alike website.",
+        "Upload the photo, signature and category/PwD documents that apply to your application; check the current handbook for file and certificate requirements.",
+        "Pay and complete the final submission step, then save or print the completed form.",
+        "Download DAT admit cards from the portal when announced; NID’s handbooks say separate physical admit cards are not issued."
+      ],
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/Default.aspx",
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation using official materials",
+      "paragraphs": [
+        "Begin with the current B.Des or M.Des admissions handbook, because it defines the applicable eligibility rules, test stages, admissions workflow and any cycle-specific changes. NID also publishes DAT Prelims sample test papers for B.Des and M.Des on its admissions portal. These are the most reliable starting point for understanding the official style of practice material, although they are not a guarantee that future questions will match past samples.",
+        "For preparation, practise working with both written and visual prompts, communicate ideas clearly within time limits, and develop a disciplined approach to studio-style problem solving and in-person discussion. For M.Des, align preparation with the selected faculty stream and discipline preferences. NID explicitly says it does not encourage coaching for the admission test and has not authorised or franchised anyone to conduct such classes."
+      ],
+      "bullets": [
+        "Download and attempt the official DAT Prelims sample paper relevant to your programme.",
+        "Review your response for clarity of observation, visual communication, reasoning and idea development—not only for a final answer.",
+        "For M.Des, decide the faculty stream and up to two discipline preferences carefully, because the cited rules make those applications discipline-specific and non-transferable.",
+        "Do not rely on claims that a private coaching provider is NID-authorised."
+      ],
+      "source_urls": [
+        "https://admissions.nid.edu/NIDA2026/Default.aspx",
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a successful DAT result can lead to",
+      "paragraphs": [
+        "A successful final result can lead to a seat offer in the programme and campus for which the candidate is eligible and ranked, subject to the candidate’s submitted preferences, category rules, document verification and seat availability. It does not guarantee a particular specialisation unless the applicable programme structure and allocation process say so.",
+        "The immediate academic outcomes are a B.Des or M.Des admission. At NID Ahmedabad, the official B.Des page describes a four-year degree with a Foundation Programme and specialisations across communication, industrial, textile/apparel/lifestyle and ceramic-and-glass design areas. The 2026–27 M.Des handbook lists faculty streams including Industrial Design, Communication Design, Textile/Apparel/Lifestyle Accessory Design, IT Integrated Design and Interdisciplinary Design Studies. Specific disciplines, seats and allotment arrangements are variable by campus and cycle."
+      ],
+      "bullets": [
+        "B.Des outcome: entry to a full-time undergraduate design degree, subject to final admissions conditions.",
+        "M.Des outcome: entry to a full-time postgraduate design degree, subject to final admissions conditions.",
+        "A rank or test appearance alone is not an offer of admission; follow the official result, preference, document-upload and seat-allotment instructions for the relevant cycle."
+      ],
+      "source_urls": [
+        "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes",
+        "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+        "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NID Admissions portal",
+      "url": "https://admissions.nid.edu/",
+      "kind": "official admissions portal"
+    },
+    {
+      "label": "B.Des Admissions Handbook 2026–27",
+      "url": "https://admissions.nid.edu/NIDA2026/download/BDes_AdmissionsHandbook2026-27.pdf",
+      "kind": "official handbook"
+    },
+    {
+      "label": "M.Des Admissions Handbook 2026–27",
+      "url": "https://admissions.nid.edu/NIDA2026/download/MDes_AdmissionsHandbook2026-27.pdf",
+      "kind": "official handbook"
+    },
+    {
+      "label": "NID B.Des programme information",
+      "url": "https://www.nid.edu/public/academics/programmes/bachelor-of-design-bdes",
+      "kind": "official programme page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

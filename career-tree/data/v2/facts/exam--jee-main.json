@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Conducting body",
+      "value": "The National Testing Agency (NTA) conducts JEE (Main); the Department of Higher Education, Ministry of Education has entrusted NTA with conducting it since 2019.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf"
+      ]
+    },
+    {
+      "label": "Papers and academic purpose",
+      "value": "Paper 1 is for B.E./B.Tech undergraduate engineering admissions and is also the eligibility test for JEE (Advanced); Paper 2A is for B.Arch and Paper 2B is for B.Planning.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf"
+      ]
+    },
+    {
+      "label": "2026 examination cycle",
+      "value": "For academic session 2026–27, NTA conducted JEE (Main) in two sessions: January 2026 and April 2026. The official portal lists final scores/scorecards for Paper 1 and Paper 2.",
+      "source_urls": [
+        "https://jeemain.nta.nic.in/",
+        "https://www.nta.ac.in/Download/Notice/Notice_20260505200408.pdf"
+      ]
+    },
+    {
+      "label": "Paper 1 format in 2026",
+      "value": "Paper 1 (B.E./B.Tech) was a three-hour computer-based test covering Mathematics, Physics and Chemistry, with MCQs and numerical-value questions.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf"
+      ]
+    },
+    {
+      "label": "Paper 2 format in 2026",
+      "value": "Paper 2A combined CBT Mathematics and Aptitude with an offline pen-and-paper Drawing Test; Paper 2B used CBT for Mathematics, Aptitude and Planning-based questions.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf"
+      ]
+    },
+    {
+      "label": "2026 exam eligibility",
+      "value": "There was no age limit for appearing in JEE (Main) 2026. Candidates who passed Class XII/equivalent in 2024 or 2025, or were appearing in 2026, could take the examination; admission eligibility is separately determined by the admitting system or institution.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What JEE Main is for",
+      "paragraphs": [
+        "JEE (Main) is India’s national undergraduate entrance examination administered by NTA for engineering, architecture and planning pathways. In the 2026 bulletin, NTA specifies that Paper 1 serves undergraduate engineering admissions at NITs, IIITs, other centrally funded technical institutions, and participating state-funded/recognised institutions; it also functions as the qualifying examination for JEE (Advanced), the route to IIT admissions. Paper 2 is used for B.Arch and B.Planning admissions.",
+        "A JEE (Main) score is therefore an entrance-test result rather than an offer of admission. The institute, programme, counselling authority and applicable admission rules determine whether and how a score can be used."
+      ],
+      "bullets": [
+        "Paper 1: B.E./B.Tech.",
+        "Paper 2A: B.Arch.",
+        "Paper 2B: B.Planning.",
+        "JEE (Advanced): a separate examination for which JEE (Main) is an eligibility test, subject to that examination’s rules."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: distinguish taking the test from getting a seat",
+      "paragraphs": [
+        "For the 2026 examination, NTA set no age limit. The examination-level Class XII/equivalent window covered candidates who had passed in 2024 or 2025 and those appearing in 2026; candidates who had passed in 2023 or earlier were not eligible for JEE (Main) 2026. These dates are cycle-specific and should not be assumed for a later JEE Main cycle.",
+        "Admission requirements can be more restrictive than examination eligibility. For the NIT+ system through JoSAA/CSAB in 2026, the bulletin required Class XII/equivalent with at least five subjects and either 75% aggregate marks (65% for SC/ST/PwD candidates) or a place in the category-wise top 20 percentile. It also specifies subject combinations: Paper 2A requires Physics, Chemistry, Mathematics and two additional subjects; Paper 2B requires Mathematics plus four other subjects. JoSAA/CSAB may modify its criteria and procedures."
+      ],
+      "bullets": [
+        "Check the NTA bulletin for the applicable examination year before applying.",
+        "Check JoSAA/CSAB and the target institution separately before ranking colleges or relying on a score.",
+        "PCM fits Paper 1’s tested subjects; PCMB students may also take Paper 1, but programme-level subject requirements still govern admission."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+        "https://josaa.nic.in/",
+        "https://csab.nic.in/"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Examination format",
+      "paragraphs": [
+        "In 2026, Paper 1 was delivered entirely in computer-based test (CBT) mode. Its three equally weighted subject areas were Mathematics, Physics and Chemistry, and its question types included multiple-choice and numerical-value questions. A single Paper 1, Paper 2A, or Paper 2B attempt had a three-hour duration; candidates taking both architecture and planning components had three hours and 30 minutes.",
+        "Paper 2 was not a single uniform format. Paper 2A (B.Arch) used CBT for Mathematics and Aptitude, but the Drawing Test was completed offline on an A4 drawing sheet. Paper 2B (B.Planning) used CBT for Mathematics, Aptitude and Planning-based questions. NTA’s 2026 result process used NTA Scores, and where a candidate appeared in both sessions, the best total NTA Score—not separate best subject scores—was considered for further ranking processing."
+      ],
+      "bullets": [
+        "Paper 1: Mathematics, Physics and Chemistry; CBT only.",
+        "Paper 2A: Mathematics, Aptitude and Drawing; mixed CBT plus offline drawing.",
+        "Paper 2B: Mathematics, Aptitude and Planning-based questions; CBT only.",
+        "In 2026, question papers were offered in 13 languages for Paper 2 Session 2; language and delivery arrangements can change by cycle."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+        "https://www.nta.ac.in/Download/Notice/Notice_20260505200408.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process and status of the 2026 cycle",
+      "paragraphs": [
+        "The 2026 process required online registration, creation of an application number and password, completion of personal, educational, paper and exam-city details, upload of prescribed images/documents, online fee payment, and retention of the confirmation page. NTA stated that one application number was used for both sessions, while Session 2 registration/payment was handled during its own application period.",
+        "As of the review date, the 2026 examination and results cycle has concluded: the official portal displays 2026 Paper 1 and Paper 2 scorecard services and final-result notices. A candidate targeting a future cycle should not use the 2026 dates, documents or fees as deadlines; monitor the NTA JEE Main portal for the next information bulletin and public notices."
+      ],
+      "bullets": [
+        "Use only the official JEE Main portal for notices, application access, city/admit-card instructions and scorecards.",
+        "Keep the application number, password and confirmation page securely.",
+        "Fees, correction windows, permitted edits, document specifications and dates are cycle-specific and variable."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+        "https://jeemain.nta.nic.in/"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach grounded in the official scheme",
+      "paragraphs": [
+        "Begin with the official NTA syllabus and match preparation to the selected paper. For Paper 1, build coverage and timed practice across Mathematics, Physics and Chemistry, remembering that the 2026 scheme assigned equal weight to the three subjects and included both MCQ and numerical-value questions. For Paper 2A, add drawing practice; for Paper 2B, prepare Planning-based questions rather than assuming the B.Arch drawing component applies.",
+        "Use official question papers and the CBT familiarisation material linked by the JEE Main site to practise the interface and timing. For an attempt in a later year, re-check the new bulletin before finalising a plan because the syllabus, paper pattern, language options and operational instructions may be revised."
+      ],
+      "bullets": [
+        "Download the current official syllabus before making a topic checklist.",
+        "Practise full-length, paper-specific tests under the applicable time limit.",
+        "Review mistakes by topic and question type, then reattempt weak areas.",
+        "For Paper 2A, practise drawing under the stated offline format; for Paper 2B, practise planning-based CBT questions."
+      ],
+      "source_urls": [
+        "https://jeemain.nta.nic.in/document/ib-2026/",
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/10/202510311323551056.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What follows a JEE Main result",
+      "paragraphs": [
+        "A JEE Main result can support different next steps depending on the paper: Paper 1 ranking is used for engineering admissions and for eligibility toward JEE (Advanced); Paper 2A and Paper 2B rankings support B.Arch and B.Planning routes respectively. Candidates who took both 2026 sessions had their best total NTA Score considered in the overall ranking process.",
+        "For NITs, IIEST, IIITs and other government-funded technical institutions in the NIT+ system, seat allocation is handled through JoSAA/CSAB rather than by NTA’s result alone. Candidates should use their score/rank alongside the current counselling business rules, category and home-state conditions, programme prerequisites, seat matrix and institute-specific requirements. Other institutions and states may use JEE Main results under their own admissions policies."
+      ],
+      "bullets": [
+        "Engineering outcome: pursue eligible B.E./B.Tech admissions through the relevant counselling or institutional process.",
+        "Architecture/planning outcome: use the relevant Paper 2A/Paper 2B result where accepted, subject to programme rules.",
+        "IIT outcome: if otherwise eligible, apply separately for JEE (Advanced).",
+        "Do not treat an NTA scorecard as a counselling registration or a confirmed seat."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+        "https://josaa.nic.in/",
+        "https://csab.nic.in/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official JEE Main portal",
+      "url": "https://jeemain.nta.nic.in/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "JEE Main 2026 Information Bulletin",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+      "kind": "official information bulletin"
+    },
+    {
+      "label": "JoSAA counselling portal",
+      "url": "https://josaa.nic.in/",
+      "kind": "official counselling authority"
+    },
+    {
+      "label": "CSAB counselling portal",
+      "url": "https://csab.nic.in/",
+      "kind": "official counselling authority"
+    },
+    {
+      "label": "National Testing Agency",
+      "url": "https://nta.ac.in/",
+      "kind": "official conducting agency"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

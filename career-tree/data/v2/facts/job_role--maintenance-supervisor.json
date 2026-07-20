@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Closest official occupational reference",
+      "value": "National Career Service (NCS) lists the closely aligned occupation as “Supervisor (Plant & Machinery)” under NCO 2015 code 3122.5202 and ISCO 2008 code 3122 (Manufacturing Supervisors).",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Core remit",
+      "value": "The role commonly combines team/shift supervision with planning and execution of preventive and breakdown maintenance, coordination with stakeholders, maintenance documentation, and managing availability of spares and consumables.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Common preparation route",
+      "value": "A diploma in mechanical or automobile engineering is identified by NCS as preferred for plant-and-machinery supervision. Employer specifications vary: a UCIL maintenance tender sought a mechanical-engineering diploma plus two years’ experience, with an experience-based alternative.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Working pattern",
+      "value": "This is generally an on-site, physically active team-lead role. NCS notes that shifts and overtime may be available or required; round-the-clock maintenance contracts may roster supervisors across operating shifts.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Pay context, not a current benchmark",
+      "value": "NCS’s plant-and-machinery supervisor profile, last updated April 28, 2024, reported an indicative experienced-candidate range of ₹50,000–₹65,000 per month and explicitly stated that figures are subject to change. It should not be treated as a 2026 salary promise.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Maintenance Supervisor does",
+      "paragraphs": [
+        "A Maintenance Supervisor converts production or asset-availability requirements into planned work: allocating people, scheduling equipment work, coordinating with managers and other sections, and keeping operational records. In a UCIL plant-maintenance contract, the supervisor was assigned responsibility for staff shift management, preventive and breakdown-maintenance planning and execution, and maintaining adequate spares and consumables.",
+        "In safety-critical settings, supervision is not only administrative. The Ministry of Labour and Employment’s mine regulations require a mechanical supervisor to inspect machinery, ensure it is safe to operate, supervise erection, commissioning, repair, maintenance and decommissioning, stop unsafe equipment, report the condition, and record shift activities. Those rules apply specifically to mines, but illustrate the high-accountability version of the maintenance-supervision role."
+      ],
+      "bullets": [
+        "Plan preventive-maintenance work and respond to breakdowns.",
+        "Assign, guide and monitor technicians or trade workers across shifts.",
+        "Maintain work records, equipment documentation, handover information and maintenance reports.",
+        "Coordinate with operations, engineering, vendors and site stakeholders.",
+        "Track critical spares and consumables so repairs can be completed with minimal downtime.",
+        "Escalate or stop work when machinery is unsafe, where the applicable workplace rules require it."
+      ],
+      "source_urls": [
+        "https://www.labour.gov.in/static/uploads/2026/02/dde0e6667243665c258b52d2c36db66a.pdf",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "The usual route is progression from hands-on technical work into supervision. NCS identifies a diploma in mechanical or automobile engineering as the preferred educational background for the comparable Supervisor (Plant & Machinery) occupation, alongside a sector-aligned supervisory training route. Its profile describes experience expectations as variable: generally three years of relevant supervisory experience for candidates with a related diploma or degree, and longer equipment-operations experience for those without one.",
+        "A Polytechnic Diploma in Mechanical Engineering or Mechanical (Maintenance) Engineering can provide a direct technical foundation. For example, Delhi’s technical-education directorate lists Mechanical Engineering and Mechanical Engineering (Maintenance Engineering) among diploma programmes open after Class 10 subject to its published eligibility conditions; it also provides a lateral-entry route for eligible ITI or vocational-engineering candidates. Actual admission rules differ by state, board and academic year.",
+        "A B.Tech/BE route may support entry where employers need broader engineering responsibility. In one Tata Memorial Centre maintenance contract, the supervisor requirement was either a mechanical/electrical diploma with five years’ experience or a BE/B.Tech in the same disciplines with three years’ experience. This is an employer-specific example rather than a universal eligibility rule."
+      ],
+      "bullets": [
+        "Build practical maintenance experience through ITI, technician, fitter, electrical, mechanical or industrial-maintenance work.",
+        "Progress through a diploma in mechanical, maintenance, automobile, electrical, instrumentation or another discipline matched to the plant’s assets.",
+        "Develop evidence of maintenance planning, shutdown work, fault response, spare-parts control, documentation and technician leadership.",
+        "Check each vacancy or contract carefully: qualification, trade, years of experience, shift requirements and sector-specific certifications vary."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://tte.delhi.gov.in/tte/eligibility-full-time-diploma-courses",
+        "https://tmc.gov.in/event/upload/15112021_5/Scope%20of%20Work%20%20with%20maintenance%20schedule.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "Technical credibility and supervisory judgement are both central. NCS highlights familiarity with equipment, estimating manpower needs, assigning suitable people to projects, conducting training and upskilling, communication, problem-solving, and exposure to quality systems, project management and OEM maintenance training. Maintenance supervisors also need to turn this knowledge into clear shift instructions, safe work practices and reliable records.",
+        "The precise technical stack depends on the site. A fire-protection and utility-maintenance contract, for example, expected familiarity with distribution boxes, supplies, layouts, drawings, valves and installations, while the mine regulations emphasize inspection, safe working condition, reporting and formal shift records. Candidates should therefore learn the equipment, drawings, procedures and compliance requirements of their target industry rather than assuming one generic maintenance skill set fits every plant."
+      ],
+      "bullets": [
+        "Preventive, corrective and breakdown-maintenance planning.",
+        "Fault diagnosis and understanding of mechanical, electrical, utility or automation systems relevant to the site.",
+        "Work allocation, manpower estimation, coaching and shift handover.",
+        "Reading layouts, equipment documents and maintenance records.",
+        "Spare-parts, consumables and basic inventory control.",
+        "Clear communication, problem-solving, quality awareness and safety leadership."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://tmc.gov.in/event/upload/15112021_5/Scope%20of%20Work%20%20with%20maintenance%20schedule.pdf",
+        "https://www.labour.gov.in/static/uploads/2026/02/dde0e6667243665c258b52d2c36db66a.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is done",
+      "paragraphs": [
+        "Maintenance Supervisors work wherever machinery, utilities or technical assets must remain available: manufacturing and processing plants, infrastructure-equipment operations, mines, facilities and utility systems. NCS names manufacturing units as probable employers for the comparable plant-and-machinery supervisor role; UCIL and Tata Memorial Centre documents show examples in ore processing and critical building/fire-protection systems.",
+        "The work is normally site-based and can involve physical activity, technician management, shifts, overtime and urgent breakdown response. At continuous operations, maintenance coverage may be organised over multiple shifts and seven-day work patterns. The balance between routine planned work and emergency response depends on the asset, production schedule and maintenance contract."
+      ],
+      "bullets": [
+        "Plant floor, workshop, utilities area, equipment yard or facility-services site.",
+        "Direct interaction with technicians, operations teams, engineers, contractors and stores personnel.",
+        "Potential shift work and on-call or breakdown-response expectations.",
+        "Safety-sensitive machinery and documented maintenance processes, especially in regulated sectors."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://tmc.gov.in/event/upload/15112021_5/Scope%20of%20Work%20%20with%20maintenance%20schedule.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression options",
+      "paragraphs": [
+        "This role is a supervisory bridge between technicians and engineering or operations management. NCS presents Plant Manager as an indicative progression from Supervisor (Plant & Machinery), while cautioning that its progression path is indicative. In practice, movement depends on sector, qualifications, demonstrated safety and reliability performance, team size, and responsibility for budgets, shutdowns or multiple asset areas.",
+        "For the supplied node pathway, adjacent next steps can include Maintenance Engineer, Maintenance Manager, Plant Maintenance Manager or Assistant Manager in Operations. These titles should be treated as organisation-specific pathways rather than guaranteed promotions; employers may use different grade structures and may require an engineering degree, additional experience or internal selection."
+      ],
+      "bullets": [
+        "Deepen responsibility from a single shift or asset group to an entire maintenance area.",
+        "Take ownership of shutdown planning, preventive-maintenance compliance, stores/spares and contractor coordination.",
+        "Move toward maintenance engineering, maintenance management, plant maintenance or operations leadership where employer criteria are met.",
+        "Pursue further engineering education or sector/OEM training when it matches the desired role and employer requirements."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://tmc.gov.in/event/upload/15112021_5/Scope%20of%20Work%20%20with%20maintenance%20schedule.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Pay varies materially by industry, location, technical discipline, shift pattern, employment model, experience, statutory benefits and whether the position is permanent, contractual or outsourced. The closest NCS profile reported ₹50,000–₹65,000 per month for experienced candidates, but that page was last updated on April 28, 2024 and labels the figures indicative and subject to change; it is useful only as historical context, not as a current market rate.",
+        "As a contrast showing employer and contract variation, a January 2026 Tata Memorial Centre outsourced Junior Engineer (Mechanical) notice specified a consolidated ₹30,000–₹40,000 per month for a role requiring a mechanical diploma plus five years’ experience and willingness to work shifts. That vacancy is not a Maintenance Supervisor salary benchmark, but it demonstrates why candidates should compare current, like-for-like local vacancies and total benefits rather than rely on one generic salary number."
+      ],
+      "bullets": [
+        "Compare fixed pay with shift allowance, overtime, EPF/ESIC coverage, insurance, housing, travel and bonus where applicable.",
+        "Ask whether the post is direct payroll, fixed-term, contractor payroll or outsourced, as this can affect benefits and progression.",
+        "Use dated job notices and current official recruitment portals as context only; do not treat historic postings as future compensation commitments."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://tmc.gov.in/postmaster/ViewFile.aspx?FileId=ZAnVqpPD%2F+hcWYkLEC5wqw%3D%3D"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Supervisor (Plant & Machinery) career profile",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "official career profile"
+    },
+    {
+      "label": "Delhi Directorate of Training and Technical Education: full-time diploma eligibility",
+      "url": "https://tte.delhi.gov.in/tte/eligibility-full-time-diploma-courses",
+      "kind": "official education-admissions guidance"
+    },
+    {
+      "label": "Ministry of Labour and Employment: mining regulations containing mechanical-supervisor provisions",
+      "url": "https://www.labour.gov.in/static/uploads/2026/02/dde0e6667243665c258b52d2c36db66a.pdf",
+      "kind": "official regulation"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

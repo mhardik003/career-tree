@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What this node covers",
+      "value": "In the NCHMCT system, “Diploma in Hotel Management” is best treated as an umbrella label for trade diplomas rather than one single generic award. NCHMCT lists diplomas in Food Production, Food & Beverage Service, Front Office Operation, Housekeeping Operation, and Bakery & Confectionery.",
+      "source_urls": [
+        "https://nchm.gov.in/course"
+      ]
+    },
+    {
+      "label": "Typical entry requirement",
+      "value": "For the NCHMCT trade-diploma model, applicants must have passed Class 12 / the +2 system and studied English as a subject.",
+      "source_urls": [
+        "https://nchm.gov.in/admission/diploma-front-office-operation"
+      ]
+    },
+    {
+      "label": "Typical duration",
+      "value": "NCHMCT presents its Front Office diploma as 3 semesters (1.5 years); its course description specifies 36 weeks of instruction followed by 24 weeks of industrial training.",
+      "source_urls": [
+        "https://nchm.gov.in/admission/diploma-front-office-operation"
+      ]
+    },
+    {
+      "label": "Admission route",
+      "value": "NCHMCT states that affiliated institutes invite applications and conduct their own transparent selection process. NCHM JEE and centralized counselling are the stated route for NCHMCT’s B.Sc. Hospitality & Hotel Administration, not the listed trade diplomas.",
+      "source_urls": [
+        "https://nchm.gov.in/admission/diploma-front-office-operation",
+        "https://nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic"
+      ]
+    },
+    {
+      "label": "Fee context",
+      "value": "Under NCHMCT’s fee notice available as of July 2026, affiliated institutes may set tuition within a cap of ₹35,000 per semester for Food Production and Bakery & Confectionery diplomas, and ₹25,000 per semester for other diploma programmes. The notice also lists ₹1,500 admission, ₹1,200 diploma enrolment, ₹2,500 examination, and applicable caution-money charges; institutes may charge activity fees separately.",
+      "source_urls": [
+        "https://nchm.gov.in/sites/default/files/2025-10/Fee_Structure_1.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: normally Class 12 with English",
+      "paragraphs": [
+        "For NCHMCT-affiliated trade diplomas represented by this node, the published baseline is a pass in the 10+2 / Class 12 system with English studied as one of the subjects. Applicants should still read the current prospectus of the specific Institute of Hotel Management (IHM), because the exact course availability, seat count, documentary requirements, category rules, and local selection procedure are institute-specific."
+      ],
+      "bullets": [
+        "The published NCHMCT requirement is 12th pass in the +2 system with English as a subject.",
+        "This is a vocational, operations-focused diploma route; it should not be conflated with NCHMCT’s graduate B.Sc. programme."
+      ],
+      "source_urls": [
+        "https://nchm.gov.in/admission/diploma-front-office-operation",
+        "https://nchm.gov.in/state-government-affiliated-institutes-of-hotel-management"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and work-integrated training",
+      "paragraphs": [
+        "A representative NCHMCT trade diploma, Diploma in Front Office Operation, is listed as 3 semesters (1.5 years). Its course description describes 36 weeks of academic instruction followed by 24 weeks of industrial training. Prospective students should confirm the academic calendar and training placement arrangements with the particular institute, since this umbrella node covers several specializations and providers."
+      ],
+      "bullets": [
+        "Published structure: 36 weeks of instruction plus 24 weeks of industrial training.",
+        "Assessment is described as annual term-end examinations, alongside institute mid-term theory and practical examinations."
+      ],
+      "source_urls": [
+        "https://nchm.gov.in/admission/diploma-front-office-operation"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum: choose an operational specialization",
+      "paragraphs": [
+        "There is no single NCHMCT curriculum called simply “Diploma in Hotel Management.” Instead, NCHMCT’s diploma portfolio is organized around hotel operating departments: food production, food and beverage service, front office operation, housekeeping operation, and bakery and confectionery. Training is designed around the selected specialization and includes practical work in institute kitchens and laboratories, together with industrial training."
+      ],
+      "bullets": [
+        "Food Production: kitchen and culinary-production pathway.",
+        "Food & Beverage Service: restaurant and service operations pathway.",
+        "Front Office Operation: guest-arrival, reception, and front-office pathway.",
+        "Housekeeping Operation: rooms and housekeeping-services pathway.",
+        "Bakery & Confectionery: baking and patisserie pathway."
+      ],
+      "source_urls": [
+        "https://nchm.gov.in/course",
+        "https://nchm.gov.in/admission/diploma-front-office-operation"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission: apply to the institute; do not assume NCHM JEE is required",
+      "paragraphs": [
+        "For the NCHMCT trade diplomas, the Council states that applications are invited by the individual affiliated IHMs, historically through local advertisements around June, with selection through the institute’s process. Therefore, candidates should monitor the admission notice of each target IHM rather than rely on a single national diploma counselling timetable.",
+        "The node’s listed parent, NCHM JEE, needs an important qualification: NCHMCT describes NCHM JEE, All India Rank, and centralized counselling as the admission process for the 3-year B.Sc. in Hospitality & Hotel Administration. The trade-diploma page instead describes institute-level applications and selection. A candidate planning the diploma should verify the current institute notice before paying an application fee."
+      ],
+      "bullets": [
+        "Check whether the chosen IHM actually offers the desired specialization; NCHMCT’s institute directory shows that diploma availability differs by institute.",
+        "For a future B.Sc. HHA application, NCHMCT currently specifies NCHM JEE-based admission and 10+2 with English."
+      ],
+      "source_urls": [
+        "https://nchm.gov.in/admission/diploma-front-office-operation",
+        "https://nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+        "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+        "https://nchm.gov.in/state-government-affiliated-institutes-of-hotel-management"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs: institute-specific tuition within NCHMCT caps",
+      "paragraphs": [
+        "Fees are variable and should be treated as dated information, not as a guaranteed total. In the NCHMCT fee notice available as of July 2026, tuition for Food Production and Bakery & Confectionery diplomas is capped at ₹35,000 per semester (₹70,000 per year), while other diplomas are capped at ₹25,000 per semester (₹50,000 per year). The same notice lists ₹1,500 admission fee, ₹1,200 NCHM diploma enrolment fee, ₹2,500 examination fee, and caution money of ₹3,000 for Food Production and Bakery & Confectionery or ₹2,500 for other programmes.",
+        "The notice permits institutes to charge activity fees for planned student activities, while stating that institutes will not charge fees during industrial training. Accommodation, mess, uniforms, tools, travel, and other institute charges may materially change the out-of-pocket cost, so obtain a written current fee schedule from the admitting IHM."
+      ],
+      "bullets": [
+        "Verify whether the stated amount includes institute activity charges, hostel, mess, uniform, and equipment costs.",
+        "Use the current institute prospectus as the payment authority; caps and ancillary charges can be revised by later NCHMCT or institute notices."
+      ],
+      "source_urls": [
+        "https://nchm.gov.in/sites/default/files/2025-10/Fee_Structure_1.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options after the diploma",
+      "paragraphs": [
+        "The most direct next step is entry-level work aligned to the specialization—such as kitchen/food-production, food-service, front-office, housekeeping, or bakery operations—using the practical and industrial-training experience built into the diploma. Job title, pay, and promotion prospects are employer-, location-, shift-, and experience-dependent, so they should not be inferred from the qualification alone.",
+        "For a broader academic route, the NCHMCT B.Sc. in Hospitality & Hotel Administration is a separate 3-year programme with laboratory work across Food Production, Food & Beverage Service, Front Office Operations, and Housekeeping, plus management subjects. Its published admission route is NCHM JEE and centralized counselling; holding a diploma does not replace the published Class 12-with-English eligibility or the entrance process. Candidates should confirm current admission rules before treating the B.Sc. as a guaranteed progression route."
+      ],
+      "bullets": [
+        "Employment route: seek department-specific operational roles after completing industrial training.",
+        "Degree route: apply separately to B.Sc. Hospitality & Hotel Administration through the then-current NCHM JEE process, if eligible.",
+        "Later postgraduate options require separate eligibility; NCHMCT’s M.Sc. Hospitality Administration page notes pathways for holders of a 3-year diploma or a 3/4-year degree, not a short trade diploma."
+      ],
+      "source_urls": [
+        "https://nchm.gov.in/admission/diploma-front-office-operation",
+        "https://nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+        "https://nchm.gov.in/admission/msc-hospitality-administration"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCHMCT course catalogue",
+      "url": "https://nchm.gov.in/course",
+      "kind": "official course catalogue"
+    },
+    {
+      "label": "NCHMCT diploma admission example: Front Office Operation",
+      "url": "https://nchm.gov.in/admission/diploma-front-office-operation",
+      "kind": "official course and admission page"
+    },
+    {
+      "label": "NCHMCT affiliated diploma/PG diploma fee notice",
+      "url": "https://nchm.gov.in/sites/default/files/2025-10/Fee_Structure_1.pdf",
+      "kind": "official fee notice"
+    },
+    {
+      "label": "NCHMCT B.Sc. Hospitality & Hotel Administration admissions",
+      "url": "https://nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+      "kind": "official progression and entrance information"
+    },
+    {
+      "label": "NCHMCT affiliated IHM directory",
+      "url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+      "kind": "official institute directory"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

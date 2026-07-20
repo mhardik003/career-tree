@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role scope",
+      "value": "IT Officer titles in public-sector organisations cover technical work such as computer programming, software and system design, system integration, ICT projects, networking and information security; the precise remit depends on the employer and recruitment notice.",
+      "source_urls": [
+        "https://nhai.gov.in/nhai/sites/default/files/vaccancy_current/1_Advt_-_Dy._Mgr_IT__1_.pdf",
+        "https://uidai.gov.in/images/VC_13_2026.pdf"
+      ]
+    },
+    {
+      "label": "MCA pathway",
+      "value": "An MCA is a relevant postgraduate computing qualification for some public-sector IT posts, but it does not by itself create eligibility for every PSU vacancy: employers may specify additional experience, marks, age, discipline, or other conditions.",
+      "source_urls": [
+        "https://nhai.gov.in/nhai/sites/default/files/vaccancy_current/1_Advt_-_Dy._Mgr_IT__1_.pdf",
+        "https://uidai.gov.in/images/VC_13_2026.pdf"
+      ]
+    },
+    {
+      "label": "NIMCET connection",
+      "value": "NIMCET is an all-India entrance test for MCA admissions at participating NITs and IIITs. It is therefore an education route to an MCA, not a PSU recruitment examination.",
+      "source_urls": [
+        "https://nimcet.admissions.nic.in/",
+        "https://www.nitt.edu/home/academics/admission_procedure/"
+      ]
+    },
+    {
+      "label": "Public-sector bank route",
+      "value": "For participating public-sector banks, IBPS runs a Common Recruitment Process for Specialist Officers; its CRP SPL-XVI notification includes IT Officer examination components, including Professional Knowledge.",
+      "source_urls": [
+        "https://www.ibps.in/index.php/faq/",
+        "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What the role can involve",
+      "paragraphs": [
+        "An IT Officer in a PSU is a broad employer-specific role rather than one uniform national job description. Official public-sector technical recruitment material illustrates responsibilities across the lifecycle of organisational systems: programming and software/system design, systems integration, ICT project work, networking, telecommunications and information security. In practice, this means maintaining or improving the digital services on which the enterprise operates, while working within the technical, procurement, security and operational processes of that employer.",
+        "The job title should therefore be read alongside the individual vacancy notice. A transport-infrastructure authority’s IT recruitment rules, for example, refer to programming, software, system design and integration experience, while a national digital-identity authority lists project management, procurement/RFP preparation, e-governance, networking, telecom and information security as relevant experience areas."
+      ],
+      "bullets": [
+        "Support and integrate enterprise applications, infrastructure and digital services.",
+        "Contribute to software, system-design and system-integration work.",
+        "Work on ICT projects and, where required, project documentation or procurement inputs.",
+        "Maintain or strengthen network, telecom and information-security capabilities."
+      ],
+      "source_urls": [
+        "https://nhai.gov.in/nhai/sites/default/files/vaccancy_current/1_Advt_-_Dy._Mgr_IT__1_.pdf",
+        "https://uidai.gov.in/images/VC_13_2026.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from MCA and NIMCET",
+      "paragraphs": [
+        "The parent path is best understood in two stages. NIMCET is the admission test used for MCA programmes at participating NITs and IIITs, so a NIMCET rank can be a route into an MCA programme. The MCA can then be relevant to technical recruitment, but candidates must match the qualification and experience wording in each PSU’s notification; some roles accept MCA alongside other computing qualifications, while some specify post-qualification experience.",
+        "A separate route exists for public-sector banking: IBPS coordinates recruitment processes for Specialist Officers in participating public-sector banks. Its current CRP SPL-XVI notification identifies IT Officer as a post and tests Professional Knowledge, alongside English language, reasoning and quantitative aptitude in the preliminary examination. This route is specific to participating banks and should not be treated as a universal route into every central public-sector enterprise."
+      ],
+      "bullets": [
+        "Use NIMCET, where eligible, to seek MCA admission at participating NITs/IIITs.",
+        "Track the careers pages and detailed advertisements of individual PSUs; eligibility is vacancy-specific.",
+        "For participating public-sector banks, monitor the official IBPS Specialist Officer CRP and read the current detailed notification before applying.",
+        "Treat advertised vacancies, eligibility, selection stages and dates as variable from one recruitment cycle and employer to another."
+      ],
+      "source_urls": [
+        "https://nimcet.admissions.nic.in/",
+        "https://www.nitt.edu/home/academics/admission_procedure/",
+        "https://www.ibps.in/index.php/clientele/",
+        "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "The strongest transferable preparation is a combination of core computing capability and the ability to deliver reliable institutional systems. Official role criteria point to programming, software/system design, system integration, networking, information security, ICT project work and e-governance-related work. For roles involving large service operations, public-sector technology recruitment also explicitly values project management, problem solving, crisis management and communication.",
+        "Candidates should use the detailed notification—not the generic title alone—to prioritise skills. A systems-integration or infrastructure vacancy may weight networking and security more heavily, while an application or project role may place greater weight on software design, integration, documentation and delivery management."
+      ],
+      "bullets": [
+        "Programming, software engineering and system design.",
+        "Systems integration and troubleshooting.",
+        "Networking, telecommunications and information security.",
+        "ICT project execution, documentation and procurement/RFP literacy where the role requires it.",
+        "Problem solving, communication and operational incident handling."
+      ],
+      "source_urls": [
+        "https://uidai.gov.in/images/VC_13_2026.pdf",
+        "https://nhai.gov.in/nhai/sites/default/files/vaccancy_current/1_Advt_-_Dy._Mgr_IT__1_.pdf",
+        "https://www.cdac.gov.in/index.aspx?id=print_page&print=ca_TvmContractStaff130526"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace context",
+      "paragraphs": [
+        "These roles serve public institutions and government-owned enterprises, so the work is usually tied to a large organisation’s operational systems rather than a single consumer product. The relevant official recruitment examples span a national highways authority and the national digital-identity authority, showing that IT work can support infrastructure administration, digital public services, enterprise systems and secure networks.",
+        "Location, field-versus-office balance, travel, on-call expectations and security responsibilities are not standardised by the title. They should be checked in the recruiting organisation’s advertisement, job description and service rules."
+      ],
+      "bullets": [
+        "Potential settings include enterprise IT teams, project offices, data/network operations and digital-service programmes.",
+        "Work may involve coordination with business units, vendors, government stakeholders and technical teams.",
+        "Security, reliability, documentation and compliance can be central because the systems support public-facing or mission-critical functions."
+      ],
+      "source_urls": [
+        "https://nhai.gov.in/nhai/sites/default/files/vaccancy_current/1_Advt_-_Dy._Mgr_IT__1_.pdf",
+        "https://uidai.gov.in/images/VC_13_2026.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NIMCET 2026 official portal",
+      "url": "https://nimcet.admissions.nic.in/",
+      "kind": "admission"
+    },
+    {
+      "label": "IBPS Specialist Officer recruitment information",
+      "url": "https://www.ibps.in/",
+      "kind": "recruitment"
+    },
+    {
+      "label": "IBPS CRP SPL-XVI detailed notification",
+      "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+      "kind": "recruitment"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

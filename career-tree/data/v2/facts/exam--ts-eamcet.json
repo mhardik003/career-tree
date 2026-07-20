@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Current name and legacy name",
+      "value": "The Telangana Engineering, Agriculture and Pharmacy Common Entrance Test is officially styled TG EAPCET; “TS EAMCET” remains a widely used legacy name for the examination.",
+      "source_urls": [
+        "https://eapcet.tgche.ac.in/",
+        "https://cdn.testbook.com/1771489153550-05%20I%20Booklet%20-%20E%20-%202026.pdf/1771489155.pdf"
+      ]
+    },
+    {
+      "label": "Conducting arrangement",
+      "value": "For the 2026 cycle, JNT University Hyderabad conducted TG EAPCET on behalf of the Telangana Council of Higher Education (TGCHE).",
+      "source_urls": [
+        "https://cdn.testbook.com/1771489153550-05%20I%20Booklet%20-%20E%20-%202026.pdf/1771489155.pdf",
+        "https://articles.findmycollege.com/wp-content/uploads/2026/02/TG-EAPCET-Official-Notification-2026.pdf"
+      ]
+    },
+    {
+      "label": "Engineering-paper structure (2026)",
+      "value": "The Engineering paper has 160 objective questions—80 Mathematics, 40 Physics and 40 Chemistry—for 160 marks, with one mark per correct response and no negative marking.",
+      "source_urls": [
+        "https://cdn.testbook.com/1771489153550-05%20I%20Booklet%20-%20E%20-%202026.pdf/1771489155.pdf"
+      ]
+    },
+    {
+      "label": "Mode and duration (2026)",
+      "value": "The Engineering test is a computer-based test of three hours; 2026 sessions were scheduled from 9:00 AM–12:00 noon and 3:00 PM–6:00 PM.",
+      "source_urls": [
+        "https://cdn.testbook.com/1771489153550-05%20I%20Booklet%20-%20E%20-%202026.pdf/1771489155.pdf"
+      ]
+    },
+    {
+      "label": "Engineering-stream qualification route",
+      "value": "For engineering courses, the 2026 notification permits candidates who have passed or are appearing in the final year of Intermediate (10+2) with Physics, Chemistry and Mathematics, or a recognized equivalent; course-specific conditions also apply at admission.",
+      "source_urls": [
+        "https://articles.findmycollege.com/wp-content/uploads/2026/02/TG-EAPCET-Official-Notification-2026.pdf",
+        "https://tgeapcetd.nic.in/files/TGEAPCET2026DETNOTIFICATION.PDF"
+      ]
+    },
+    {
+      "label": "Admission use",
+      "value": "A TG EAPCET rank is used in Telangana’s centralized admissions process for eligible candidates; admission also depends on counseling eligibility, verification, options exercised, reservation/local-status rules, seat availability and allotment.",
+      "source_urls": [
+        "https://tgeapcetd.nic.in/files/TGEAPCET2026DETNOTIFICATION.PDF",
+        "https://www.tgeapcetd.nic.in/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What TG EAPCET is for",
+      "paragraphs": [
+        "TG EAPCET is Telangana’s undergraduate entrance examination for Engineering, Agriculture and Pharmacy professional-course pathways. In the engineering context, its rank is used for admissions to first-year B.E./B.Tech. and specified related programmes offered by Telangana universities and private unaided affiliated professional colleges, subject to the applicable admission rules and each course’s requirements.",
+        "The exam itself is distinct from admission: writing or qualifying in TG EAPCET does not by itself create a right to a seat. The subsequent admissions authority verifies eligibility and allocates seats through counseling and web-option processing."
+      ],
+      "bullets": [
+        "Use the official exam portal for examination notices, application access, hall-ticket/result services, syllabus and mock-test materials.",
+        "Use the TGCHE/NIC TG EAPCET admissions portal for counseling-stage instructions, certificate verification, web options and allotment information."
+      ],
+      "source_urls": [
+        "https://articles.findmycollege.com/wp-content/uploads/2026/02/TG-EAPCET-Official-Notification-2026.pdf",
+        "https://tgeapcetd.nic.in/files/TGEAPCET2026DETNOTIFICATION.PDF",
+        "https://www.tgeapcetd.nic.in/"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: separate exam eligibility from seat-admission eligibility",
+      "paragraphs": [
+        "For the 2026 examination, applicants had to be Indian nationals, Persons of Indian Origin (PIO), or Overseas Citizen of India (OCI) card holders, and meet Telangana local/non-local-status requirements. The precise application and admission rules can change by cycle, so candidates should treat the current official notification and counseling notification as controlling documents.",
+        "For the Engineering stream, the core academic route is passing or appearing in the final year of Intermediate (10+2) with Mathematics, Physics and Chemistry, or a recognized equivalent. The detailed notification also sets course-specific conditions—for example, different subject, marks, age or qualification requirements may apply to particular programmes. A candidate eligible to sit the test must still meet the separate requirements for counseling and the allotted course."
+      ],
+      "bullets": [
+        "Check the current cycle’s notification before paying the fee or choosing a stream.",
+        "Keep original and scanned qualifying-exam, identity, study/local-status, category/EWS and special-category documents ready where applicable; counseling verification is consequential.",
+        "Do not infer eligibility for every programme merely from an EAPCET rank: the admissions notification and the institution/course rules apply additionally."
+      ],
+      "source_urls": [
+        "https://articles.findmycollege.com/wp-content/uploads/2026/02/TG-EAPCET-Official-Notification-2026.pdf",
+        "https://tgeapcetd.nic.in/files/TGEAPCET2026DETNOTIFICATION.PDF"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Engineering test format",
+      "paragraphs": [
+        "In the 2026 Engineering instruction booklet, TG EAPCET used a three-hour computer-based test with 160 multiple-choice questions: Mathematics 80, Physics 40 and Chemistry 40. Each correct answer carried one mark, and the booklet specified no negative marking.",
+        "The 2026 test was held in multiple sessions. The official process describes normalization to account for session-level variation before ranks are prepared; candidates should therefore focus on maximizing their own correct responses rather than treating another shift’s perceived difficulty as a direct score comparison."
+      ],
+      "bullets": [
+        "Total: 160 questions / 160 marks.",
+        "Subject weight: Mathematics 50%; Physics 25%; Chemistry 25%.",
+        "Question languages for the Engineering paper are English–Telugu or English–Urdu, as specified in the instruction booklet."
+      ],
+      "source_urls": [
+        "https://cdn.testbook.com/1771489153550-05%20I%20Booklet%20-%20E%20-%202026.pdf/1771489155.pdf",
+        "https://static.collegedekho.com/media/uploads/2026/02/19/detailed-notification-2026.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and admissions workflow",
+      "paragraphs": [
+        "The recurring workflow is: read the official notification and stream-specific instruction booklet; submit the online application and fee through the official EAPCET portal within the notified window; use any notified correction facility; download the hall ticket; take the test; then use the rank/result in the separate TGCHE admissions process if eligible. Dates, fee amounts, correction rules and acceptable payment methods are cycle-specific and should never be carried forward from an earlier year.",
+        "For the 2026 cycle, the examination application period and testing dates have already passed. Candidates planning a future attempt should monitor the official EAPCET portal for the next notification rather than relying on third-party calendars. Candidates participating in admissions should follow the TGCHE/NIC portal’s live counseling instructions, including certificate verification and option-entry requirements."
+      ],
+      "bullets": [
+        "Enter names, qualifying-exam details, category and local-status information exactly as supported by documents.",
+        "Save the payment reference, application number, submitted application PDF and hall ticket.",
+        "At counseling, upload or present only the documents specified in the live admissions notification; incomplete or incorrect documents can affect eligibility or allotment."
+      ],
+      "source_urls": [
+        "https://eapcet.tgche.ac.in/",
+        "https://www.tgeapcetd.nic.in/",
+        "https://tgeapcetd.nic.in/files/TGEAPCET2026DETNOTIFICATION.PDF"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach for the Engineering stream",
+      "paragraphs": [
+        "Build preparation around the officially prescribed Engineering syllabus and the actual paper structure: Mathematics accounts for half of the questions, while Physics and Chemistry account for one quarter each. Study the Intermediate-level concepts in the official syllabus first, then use timed practice to convert knowledge into three-hour computer-based-test execution.",
+        "Use the official online mock test and official/authorized question-paper and answer-key materials when they are published for the relevant cycle. Practice full 160-question sessions under the same time limit, then review errors by topic, calculation mistake, concept gap and time-management issue. Because there is no negative marking in the 2026 scheme, a test-day attempt strategy should be based on informed answers and sufficient time to read every remaining question, rather than leaving answers blank solely due to a penalty concern."
+      ],
+      "bullets": [
+        "Create a topic checklist from the official syllabus, not from a coaching-provider prediction list.",
+        "Take full-length CBT-style mocks regularly and review them more carefully than you take them.",
+        "Prioritize accuracy in familiar questions before spending disproportionate time on one difficult problem."
+      ],
+      "source_urls": [
+        "https://cdn.testbook.com/1771489153550-05%20I%20Booklet%20-%20E%20-%202026.pdf/1771489155.pdf",
+        "https://eapcet.tgche.ac.in/"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a TG EAPCET result can lead to",
+      "paragraphs": [
+        "The principal outcome is a normalized TG EAPCET rank that can support participation in Telangana undergraduate professional-course admissions, provided the candidate meets the counseling and course eligibility conditions. For engineering applicants, choices normally involve both programme/branch and college; the outcome is determined by the candidate’s rank, verified eligibility, applicable reservation and local/unreserved rules, preferences, seats available and the counseling allotment process.",
+        "A rank is also recognized in some JNTUH-specific opportunities alongside other admission routes. For example, JNTUH’s 2026 international integrated-programme notifications specified seat allocation using JEE Main and TG EAPCET ranks. This is programme-specific, not a general guarantee of admission or employment.",
+        "Neither an EAPCET score nor an allotment is a salary, placement, ranking or career-outcome guarantee. Those outcomes vary materially by institution, branch, student performance, internships, labor-market conditions and the year of graduation."
+      ],
+      "bullets": [
+        "After results, compare eligible colleges and branches using official intake, fee and accreditation information for the applicable year.",
+        "Rank preferences broadly enough during web-option entry to reduce the risk of receiving no allotment.",
+        "Read the allotment, reporting and fee-payment instructions for the current counseling phase carefully; missing a deadline can affect the allotment."
+      ],
+      "source_urls": [
+        "https://tgeapcetd.nic.in/files/TGEAPCET2026DETNOTIFICATION.PDF",
+        "https://doa.jntuh.ac.in/downloads/Nnotification_RUKF_JNTUH_IIBMP_2026.pdf",
+        "https://doa.jntuh.ac.in/uploads/5Yrs_IDDMP_program_BTH_Sweden_JNTUH_NOTIFICATION_2026-27.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "TG EAPCET examination portal",
+      "url": "https://eapcet.tgche.ac.in/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "TG EAPCET admissions portal (TGCHE/NIC)",
+      "url": "https://www.tgeapcetd.nic.in/",
+      "kind": "official counseling portal"
+    },
+    {
+      "label": "2026 Engineering instruction booklet",
+      "url": "https://cdn.testbook.com/1771489153550-05%20I%20Booklet%20-%20E%20-%202026.pdf/1771489155.pdf",
+      "kind": "instruction booklet mirror"
+    },
+    {
+      "label": "2026 TG EAPCET admissions detailed notification",
+      "url": "https://tgeapcetd.nic.in/files/TGEAPCET2026DETNOTIFICATION.PDF",
+      "kind": "official admissions notification"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

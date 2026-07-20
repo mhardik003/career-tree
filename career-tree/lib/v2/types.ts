@@ -66,12 +66,31 @@ export interface V2Edge {
   prov: V2Provenance;
 }
 
+/**
+ * A canonical node as it appears in graph.core.json: every field except the
+ * heavyweight `facts` blob (96% of graph.json's bytes), which lives in
+ * data/v2/facts/{type}--{slug}.json and is loaded on demand via
+ * lib/v2/facts.ts. A full `V2Node` is assignable wherever a core node is
+ * expected because `facts` is optional.
+ */
+export type V2NodeCore = Omit<V2Node, "facts">;
+
 export interface V2GraphSnapshot {
   schema_version: 1;
   root_id: string;
   source_digest: string;
   generated_at: string;
   nodes: V2Node[];
+  edges: V2Edge[];
+}
+
+/** graph.core.json — same shape as `V2GraphSnapshot` with fact-less nodes. */
+export interface V2GraphCoreSnapshot {
+  schema_version: 1;
+  root_id: string;
+  source_digest: string;
+  generated_at: string;
+  nodes: V2NodeCore[];
   edges: V2Edge[];
 }
 

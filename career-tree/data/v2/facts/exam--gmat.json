@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "The GMAT is a graduate-management admissions test used by MBA and business master’s programs to assess problem-solving, critical-reasoning, and data-analysis skills.",
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/faqs"
+      ]
+    },
+    {
+      "label": "Test owner",
+      "value": "The GMAT is administered through GMAC’s mba.com platform; GMAC provides the official registration, policy, scoring, and preparation resources.",
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/register",
+        "https://www.mba.com/exams/gmat-exam/faqs"
+      ]
+    },
+    {
+      "label": "Current structure",
+      "value": "The current exam has three 45-minute sections—Quantitative Reasoning, Verbal Reasoning, and Data Insights—for 2 hours 15 minutes of testing time, plus an optional 10-minute break.",
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/faqs",
+        "https://www.mba.com/exams/gmat-exam/about/exam-content"
+      ]
+    },
+    {
+      "label": "Score scale and validity",
+      "value": "The Total Score scale is 205–805, and GMAT scores are valid for five years from the test date.",
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/faqs"
+      ]
+    },
+    {
+      "label": "Minimum age and retakes",
+      "value": "Candidates must ordinarily be at least 18; candidates aged 13–17 may test at a centre with written parent/guardian consent. GMAC permits up to five attempts in a rolling 12-month period, with at least 16 days between attempts.",
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/register/exam-policies"
+      ]
+    },
+    {
+      "label": "Indian-school context",
+      "value": "GMAT acceptance in India is programme- and applicant-category-specific. For example, IIM Ahmedabad uses GMAT for overseas Indian candidates or foreign nationals for its two-year MBA, while ISB lists a valid GMAT/GRE score among its PGP application requirements.",
+      "source_urls": [
+        "https://www.iima.ac.in/academics/mba/admissions",
+        "https://pgpapp.isb.edu/user/AppRequirements.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and where the GMAT fits",
+      "paragraphs": [
+        "The GMAT is designed for applicants to graduate business education, including MBA and business master’s programmes. It measures skills relevant to analytical and data-led management study rather than requiring an undergraduate business degree.",
+        "For an India-based applicant, the GMAT can support applications abroad and to Indian programmes that explicitly accept it. Acceptance is not uniform: applicants should verify the current admissions policy, eligible applicant category, accepted delivery mode, score-validity rule, and application-round deadline for every target programme before booking the test."
+      ],
+      "bullets": [
+        "At IIM Ahmedabad, the two-year MBA admissions page distinguishes CAT for domestic applicants from GMAT for overseas Indian candidates or foreign nationals.",
+        "For ISB’s PGP application, a GMAT/GRE score report is listed as an application requirement, and the score must remain valid until the programme begins.",
+        "A GMAT score is only one component of admissions; schools may also assess academics, work experience, essays, recommendations, interviews, and other stated criteria."
+      ],
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/faqs",
+        "https://www.iima.ac.in/academics/mba/admissions",
+        "https://pgpapp.isb.edu/user/AppRequirements.html"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and policy checks",
+      "paragraphs": [
+        "GMAC’s exam eligibility is primarily age- and policy-based rather than dependent on a specified degree or stream. Candidates aged 18 or over may schedule and take the exam. Candidates aged 13–17 may take it at a test centre after providing written parent or guardian consent before scheduling.",
+        "Exam eligibility is different from programme eligibility. A business school may require a bachelor’s degree, minimum marks, work experience, a particular residency or applicant category, and a score that is valid on a specified date. For example, IIM Ahmedabad’s Blended PGP has separate degree, work-experience, age, and score-validity requirements."
+      ],
+      "bullets": [
+        "Use identification that meets GMAC’s location-specific requirements; the ID must be current, government-issued, original, match the registration details, and include a recognizable photo and signature.",
+        "Candidates seeking testing accommodations must apply for them before scheduling; approved accommodations cannot simply be added to an existing appointment.",
+        "There is a 16-day wait between attempts, and all online and test-centre attempts count toward the five-attempt rolling 12-month limit."
+      ],
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/register/exam-policies",
+        "https://www.iima.ac.in/academics/bpgp/admissions"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and scoring",
+      "paragraphs": [
+        "The current GMAT comprises Quantitative Reasoning, Verbal Reasoning, and Data Insights. Each section is 45 minutes, producing 2 hours 15 minutes of testing time, with an optional 10-minute break. The three section scores contribute equally to the Total Score.",
+        "Quantitative Reasoning contains 21 Problem Solving questions and tests arithmetic, elementary algebra, logic, and analytical reasoning; calculator use is not available in this section. Verbal Reasoning contains 23 Reading Comprehension and Critical Reasoning questions. Data Insights contains 20 questions spanning data sufficiency, multi-source reasoning, table analysis, graphics interpretation, and two-part analysis; an on-screen calculator is available for this section.",
+        "The Total Score is reported on a 205–805 scale. A target score should be set by comparing it with the current published class profile or score range of each target programme, rather than relying on a universal “good score.”"
+      ],
+      "bullets": [
+        "Quantitative Reasoning: 21 questions.",
+        "Verbal Reasoning: 23 questions.",
+        "Data Insights: 20 questions.",
+        "Total score: 205–805; scores are valid for five years from the test date."
+      ],
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/about/exam-content",
+        "https://www.mba.com/exams/gmat-exam/faqs"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Registration, score reporting, and school applications",
+      "paragraphs": [
+        "GMAT registration and business-school applications are separate processes. To schedule the exam, create an mba.com account, complete the profile, select the test-centre or online delivery option where available, choose an appointment, and pay the applicable fee. GMAC states that appointments are available year-round, subject to availability.",
+        "Fees, taxes, payment options, cancellation terms, and rescheduling charges vary by country, delivery format, and timing. Applicants in India should check the live mba.com payment page during registration rather than treating any previously published rupee or dollar figure as current.",
+        "After the Official Score Report is available, a candidate may send it to up to five programmes without charge if selections are made within 48 hours. Additional score reports may be purchased, subject to GMAC’s current policies. Score reporting does not replace the programme’s own application, document submission, or deadline requirements."
+      ],
+      "bullets": [
+        "Create and verify the mba.com profile before scheduling; name and identity details should match the accepted ID.",
+        "Choose delivery mode only after confirming that every target programme accepts that mode; GMAC directs candidates to verify each programme’s admissions requirements.",
+        "Schedule with enough time for score availability, a possible retake, and the school’s application deadline."
+      ],
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/register",
+        "https://www.mba.com/exams/gmat-exam/register/exam-payment",
+        "https://www.mba.com/exams/gmat-exam/register/exam-policies",
+        "https://www.mba.com/exams/gmat-exam/scores/sending-your-score"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Begin by learning the current section structure and question types, then take an official full-length practice exam to establish a baseline. Use the result to identify whether Quantitative Reasoning, Verbal Reasoning, Data Insights, pacing, or test endurance needs the most work.",
+        "GMAC’s official preparation guidance recommends studying the format, understanding question types, using Practice Exam 1 to establish a baseline, reviewing answer explanations, and using a subsequent official practice exam under test-like conditions. The official starter kit includes two full-length practice exams, and GMAC states that its official practice exams use the same algorithm, scoring, and timing as the real exam.",
+        "Build a study schedule around the intended application round, not merely the test date. GMAC’s July 2026 planning guidance suggests allowing at least six weeks of serious study and taking the exam at least four weeks before an application deadline; this is guidance rather than an admissions rule, and applicants should allow extra margin if a retake may be needed."
+      ],
+      "bullets": [
+        "Practise the exact section timing and full-test pacing, not only untimed topic drills.",
+        "Review incorrect answers and the reasoning behind correct solutions; convert recurring errors into targeted practice sets.",
+        "Use official practice resources to become familiar with the test interface, score reports, and timing conditions."
+      ],
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/prep-for-the-exam",
+        "https://www.mba.com/exams-and-exam-prep/gmat-exam-prep/gmat-official-practice-exams-and-questions",
+        "https://www.mba.com/exams-and-exam-prep/gmat-exam/gmat-registration-guide"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Outcomes and next steps",
+      "paragraphs": [
+        "A valid GMAT score can be used in applications to MBA and business master’s programmes, subject to each school’s rules. GMAC states that scores are valid for five years, while individual schools can impose their own requirements for validity at application or programme start.",
+        "For Indian management education, applicants should use the GMAT only where the programme explicitly accepts it for their applicant category. IIM Ahmedabad’s two-year MBA page, for instance, specifies GMAT for overseas Indian candidates or foreign nationals; its Blended PGP separately accepts a qualifying GMAT/GRE score among several admissions-test routes. ISB’s application requirements list GMAT/GRE and state that the score must remain valid until the programme commences.",
+        "A strong score does not guarantee admission. Candidates should pair score planning with the school-specific requirements for academics, work experience, essays, references, interviews, and other selection stages."
+      ],
+      "bullets": [
+        "GMAC allows score reports to be sent to up to five programmes free within 48 hours after the Official Score Report becomes available.",
+        "Confirm how each school handles multiple test attempts and which score-report delivery modes it accepts.",
+        "Retain time for school-specific application work after the GMAT; the exam is one part of the overall admissions process."
+      ],
+      "source_urls": [
+        "https://www.mba.com/exams/gmat-exam/faqs",
+        "https://www.mba.com/exams/gmat-exam/scores/sending-your-score",
+        "https://www.iima.ac.in/academics/mba/admissions",
+        "https://www.iima.ac.in/academics/bpgp/admissions",
+        "https://pgpapp.isb.edu/user/AppRequirements.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official GMAT overview and FAQs",
+      "url": "https://www.mba.com/exams/gmat-exam/faqs",
+      "kind": "official exam information"
+    },
+    {
+      "label": "Official GMAT registration",
+      "url": "https://www.mba.com/exams/gmat-exam/register",
+      "kind": "official registration"
+    },
+    {
+      "label": "Official GMAT content and question types",
+      "url": "https://www.mba.com/exams/gmat-exam/about/exam-content",
+      "kind": "official exam guide"
+    },
+    {
+      "label": "Official GMAT preparation resources",
+      "url": "https://www.mba.com/exams/gmat-exam/prep-for-the-exam",
+      "kind": "official preparation"
+    },
+    {
+      "label": "Official GMAT score-reporting guidance",
+      "url": "https://www.mba.com/exams/gmat-exam/scores/sending-your-score",
+      "kind": "official score reporting"
+    },
+    {
+      "label": "IIM Ahmedabad MBA admissions",
+      "url": "https://www.iima.ac.in/academics/mba/admissions",
+      "kind": "institutional admissions policy"
+    },
+    {
+      "label": "ISB PGP application requirements",
+      "url": "https://pgpapp.isb.edu/user/AppRequirements.html",
+      "kind": "institutional admissions policy"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

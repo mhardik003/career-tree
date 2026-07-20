@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Typical entry credential",
+      "value": "Medical Officer vacancies commonly require an MBBS degree, completion of compulsory rotating internship, and medical registration; exact experience, marks, and registration requirements differ by employer and recruitment notice.",
+      "source_urls": [
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp",
+        "https://www.nmc.org.in/rules-regulations-nmc/"
+      ]
+    },
+    {
+      "label": "Core public-health remit",
+      "value": "In a PHC setting, the Medical Officer is the overall clinical and operational in-charge for health and family-welfare activities in the service area, alongside curative, preventive, promotive, referral, and programme-delivery work.",
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/360_0.pdf"
+      ]
+    },
+    {
+      "label": "Public-sector recruitment route",
+      "value": "For Central Health Service General Duty Medical Officer posts, recruitment has historically been through UPSC’s Combined Medical Services Examination; UPSC listed a Combined Medical Services Examination for 2026, with the examination scheduled for August 2, 2026.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/6355649643BackgroundCHS_0.pdf",
+        "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+      ]
+    },
+    {
+      "label": "Common work settings",
+      "value": "Medical Officers can work in PHCs and their linked primary-care networks, hospitals, government departments, and employer health units. The exact service mix depends on the facility and employer.",
+      "source_urls": [
+        "https://aam.mohfw.gov.in/home/aboutus",
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "Pay is employer-, location-, appointment-, and allowance-dependent. As one dated central-government example, ISRO’s 2026 advertisement placed Medical Officer–SC at Pay Level 10 (₹56,100–₹1,77,500 basic pay) plus admissible allowances and stated Non-Practising Allowance at 20% of basic pay.",
+      "source_urls": [
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Medical Officer does",
+      "paragraphs": [
+        "The role combines direct general medical care with responsibility for safe, coordinated service delivery. In the Ministry of Health and Family Welfare’s PHC guidance, the Medical Officer organises the dispensary and OPD, arranges emergency-case workflows, supports appropriate diagnostic services, attends referred cases, identifies patients requiring specialist care, and refers them onward when needed.",
+        "In government primary care, the remit extends beyond consultations. The same guidance assigns supervision and guidance of the health team, implementation of national health and family-welfare programmes, community and field coordination, planning, and participation in preventive and promotive activities. The precise balance of clinical, administrative, public-health, and on-call duties varies substantially by post and employer."
+      ],
+      "bullets": [
+        "Provide assessment and treatment for common illnesses and urgent presentations within the facility’s scope.",
+        "Recognise cases that need specialist or higher-level care and arrange referral.",
+        "Organise OPD, emergency workflows, and supporting diagnostic services.",
+        "Supervise and guide health workers and coordinate delivery of public-health and family-welfare programmes.",
+        "Maintain professional and clinical responsibilities required by the applicable employer, regulator, and facility protocols."
+      ],
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/360_0.pdf",
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes after MBBS",
+      "paragraphs": [
+        "The standard foundation is an MBBS qualification followed by the internship and registration requirements specified in the relevant recruitment notice and medical-registration framework. Requirements are not identical across jobs: for example, ISRO’s 2026 Medical Officer–SC notice required a second-class MBBS, compulsory rotating internship, recognised qualification, registration, and two years’ experience.",
+        "Government recruitment may be conducted through a central or state/UT recruitment process, while autonomous bodies, hospitals, public-sector employers, and private organisations may recruit directly. For the Central Health Service General Duty Medical Officer stream, the Ministry of Health and Family Welfare identifies UPSC’s Combined Medical Services Examination as the recruitment route; candidates should always rely on the current vacancy notification for eligibility, age limits, experience, category rules, and selection stages."
+      ],
+      "bullets": [
+        "Complete MBBS from a recognised medical institution.",
+        "Complete compulsory rotating internship where required.",
+        "Obtain and maintain the registration required for the post.",
+        "Apply through the relevant government examination/recruitment body or directly to the employer.",
+        "Check each notification for experience, domicile, language, medical fitness, and document-verification requirements."
+      ],
+      "source_urls": [
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp",
+        "https://www.nmc.org.in/rules-regulations-nmc/",
+        "https://www.mohfw.gov.in/sites/default/files/6355649643BackgroundCHS_0.pdf",
+        "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills needed for effective practice",
+      "paragraphs": [
+        "The job calls for broad clinical judgement: assessing undifferentiated patients, managing common conditions and emergencies within scope, using available diagnostics appropriately, and deciding when referral is necessary. PHC guidance also makes team supervision, service organisation, programme implementation, and coordination with community and government stakeholders material parts of the role.",
+        "Communication and operational skills are especially important because Medical Officers may work with patients, families, nurses, pharmacists, laboratory staff, health workers, ASHAs, programme staff, and referral facilities. In employer health services, responsibilities can additionally include preventive examinations, health education, emergency response, and administrative work."
+      ],
+      "bullets": [
+        "General clinical assessment, triage, initial management, and referral judgement.",
+        "Clear patient communication, counselling, documentation, and ethical professional practice.",
+        "Team leadership, delegation, supervision, and coordination across clinical and field staff.",
+        "Public-health programme planning, monitoring, and community engagement.",
+        "Emergency preparedness and the ability to work within the equipment, staffing, and escalation pathways of the facility."
+      ],
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/360_0.pdf",
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where Medical Officers work",
+      "paragraphs": [
+        "A Medical Officer may be posted to a PHC, urban primary-care facility, hospital, dispensary, government health service, or an employer-operated medical unit. In the Ayushman Arogya Mandir primary-care model, a PHC can act as the first referral point for linked health-and-wellness centres, and its Medical Officer is responsible for ensuring comprehensive primary-health-care services are delivered through both the PHC and its linked centres.",
+        "Working patterns differ by setting. A PHC post can include OPD, community visits, programme supervision, referrals, and local coordination. An employer medical-unit role can include clinic consultations, medical and surgical emergencies, employee health checks, health education, ambulance evacuation support, and standby duties."
+      ],
+      "bullets": [
+        "Primary Health Centres and linked health-and-wellness-centre networks.",
+        "District, sub-district, and other public hospitals or dispensaries.",
+        "Central, state, and union-territory government health services.",
+        "Autonomous organisations and employer or industrial health units.",
+        "Private hospitals, clinics, and health organisations, subject to their hiring requirements."
+      ],
+      "source_urls": [
+        "https://aam.mohfw.gov.in/home/aboutus",
+        "https://www.clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/360_0.pdf",
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "Progression depends on the cadre and employer. Within the Central Health Service General Duty Medical Officer sub-cadre, the Ministry of Health and Family Welfare identifies a sequence from Medical Officer to Senior Medical Officer, Chief Medical Officer, Chief Medical Officer (NFSG), and Senior Administrative Grade. This is a central-service example rather than a universal career ladder for every state, contract, private, or autonomous-body Medical Officer post.",
+        "Doctors may also pursue postgraduate training and move toward specialist, public-health, teaching, management, or administrative roles, subject to the eligibility and selection rules of the relevant pathway. For central GDMO service, the Ministry records the listed promotion grades and related cadre management separately from specialist sub-cadres."
+      ],
+      "bullets": [
+        "Medical Officer → Senior Medical Officer → Chief Medical Officer → Chief Medical Officer (NFSG) → Senior Administrative Grade in the Central Health Service GDMO example.",
+        "Postgraduate education can support movement into specialist, public-health, teaching, or leadership pathways.",
+        "Actual promotion timing, pay level, transfer obligations, and eligibility vary by cadre rules, seniority, performance processes, vacancies where applicable, and employer policy."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/D5.pdf",
+        "https://www.mohfw.gov.in/sites/default/files/6355649643BackgroundCHS_0.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "There is no single India-wide Medical Officer salary. Compensation varies materially by government versus private employer, regular versus contractual appointment, state or union territory, seniority, location, experience requirements, duty pattern, and applicable allowances.",
+        "As a dated reference point only, ISRO’s 2026 Medical Officer–SC advertisement stated Pay Level 10, with a basic-pay range of ₹56,100–₹1,77,500, admissible allowances, and Non-Practising Allowance at 20% of basic pay. This example should not be treated as a salary promise, a national benchmark, or evidence of the pay offered by another recruiter."
+      ],
+      "bullets": [
+        "Read the pay matrix or consolidated-remuneration clause in the specific vacancy notice.",
+        "Check whether the appointment is permanent, temporary, contractual, deputation-based, or outsourced.",
+        "Confirm eligibility for allowances such as NPA, house-rent, transport, risk, rural, or on-call payments where applicable.",
+        "Compare total compensation only after accounting for location, duty hours, benefits, pension/NPS arrangements, and service obligations."
+      ],
+      "source_urls": [
+        "https://apps.ursc.gov.in/URSCBE-2026/advt.jsp"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Medical Commission: rules and regulations",
+      "url": "https://www.nmc.org.in/rules-regulations-nmc/",
+      "kind": "regulator"
+    },
+    {
+      "label": "UPSC examination-notification archive",
+      "url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+      "kind": "exam"
+    },
+    {
+      "label": "MoHFW Indian Public Health Standards portal",
+      "url": "https://clinicalestablishments.mohfw.gov.in/index.php/en/iphs",
+      "kind": "government_guidance"
+    },
+    {
+      "label": "Ayushman Arogya Mandir: primary-care model",
+      "url": "https://aam.mohfw.gov.in/home/aboutus",
+      "kind": "government_guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

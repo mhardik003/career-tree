@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Two principal formats",
+      "value": "In India, the standard law-degree routes represented by this node are a five-year integrated undergraduate law programme after Class 12 and a three-year LL.B. route after graduation; the latter is reflected in university regulations for applicants who have graduated in any discipline.",
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html"
+      ]
+    },
+    {
+      "label": "Integrated-route eligibility context",
+      "value": "For CLAT 2026 UG admissions, candidates needed 10+2/equivalent with at least 45% marks, or 40% for SC/ST/PwD candidates; there was no upper age limit. Individual institutions and non-CLAT routes can set additional or different requirements.",
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+        "https://consortiumofnlus.ac.in/clat-2026/ug-instructions.html"
+      ]
+    },
+    {
+      "label": "Professional-practice significance",
+      "value": "An LL.B. from a Bar Council of India-recognised university is central to eligibility for enrolment as an advocate, but the degree alone is not the same as enrolment or a certificate to practise.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=29&orgactid=AC_CEN_3_46_00001_196125_1517807320172&sectionId=14659&sectionno=24&statehandle=123456789%2F2517",
+        "https://www.allindiabarexamination.com/about.html"
+      ]
+    },
+    {
+      "label": "Common academic content",
+      "value": "LL.B. curricula commonly cover constitutional law, contract, torts, criminal law, evidence, family law, property, public international law, company law, procedure, labour law and drafting; exact papers, credits, clinical work and electives differ by university and programme.",
+      "source_urls": [
+        "https://lawfaculty.du.ac.in/Students/Centenary-Chance-Special-Examination/Centenary-Chance-Special-Examination-November-2025-LLB-Course-Syllabus",
+        "https://consortiumofnlus.ac.in/clat-2026/pg-syllabus.html"
+      ]
+    },
+    {
+      "label": "LL.M. progression",
+      "value": "LL.B. graduates can use CLAT-PG for admission to participating NLUs' LL.M. programmes. For CLAT 2026, the stated minimum was 50% in LL.B./equivalent, reduced to 45% for SC/ST/PwD candidates.",
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/pg-eligibility.html",
+        "https://consortiumofnlus.ac.in/clat-2026/FAQs.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Choose the route based on when you enter law",
+      "paragraphs": [
+        "The five-year integrated route is designed for students entering after Class 12. B.A. LL.B. combines legal study with arts and social-science foundations; other integrated formats, such as B.B.A. LL.B. and B.Com. LL.B., combine law with their named discipline. For the CLAT 2026 UG cycle, the Consortium required 10+2/equivalent with 45% marks, or 40% for SC/ST/PwD candidates, and stated that there was no upper age limit.",
+        "The three-year LL.B. is the post-graduation route. A representative public-university regulation states that a graduate in any discipline from a recognised/equivalent institution may apply; it also illustrates that qualifying-mark thresholds and category relaxations are admission rules that must be checked institution by institution. Candidates intending to practise should verify that the specific university/college and law programme are recognised or approved for the relevant Bar Council of India purposes before enrolling."
+      ],
+      "bullets": [
+        "Integrated route: Class 12 → five-year B.A. LL.B./B.B.A. LL.B./similar integrated law programme.",
+        "Graduate-entry route: bachelor’s degree in another discipline → three-year LL.B.",
+        "Recognition check: do not infer professional-practice eligibility merely from a course title or a university’s general recognition; check the law programme’s BCI status and the current admission notice."
+      ],
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=7&orgactid=AC_CEN_3_46_00001_196125_1517807320172&statehandle=123456789%2F1362"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Programme length and structure",
+      "paragraphs": [
+        "The integrated route is a five-year programme beginning after Class 12, while the graduate-entry LL.B. is a three-year programme. The UGC’s degree compendium identifies integrated law degrees such as B.Com. LL.B. as five years, and the Advocates Act refers to a three-year course of study in law at a university recognised by the Bar Council of India for advocate-enrolment purposes.",
+        "The difference is not simply the amount of law taught: integrated programmes also incorporate an allied disciplinary component across the degree. For example, NALSAR describes foundational courses in history, political science, economics, sociology and English in the initial years of its five-year B.A. LL.B. programme, alongside compulsory law courses."
+      ],
+      "bullets": [
+        "Five-year integrated LL.B.: normally entered after 10+2.",
+        "Three-year LL.B.: normally entered after an undergraduate degree.",
+        "Confirm the academic calendar, attendance rules, internship/clinical requirements and maximum completion period from the admitting university’s current regulations."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1080.html",
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=29&orgactid=AC_CEN_3_46_00001_196125_1517807320172&sectionId=14659&sectionno=24&statehandle=123456789%2F2517",
+        "https://clat2025.consortiumofnlus.ac.in/clat-2025/nlus/brochure/NALSAR.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the degree teaches",
+      "paragraphs": [
+        "The core legal curriculum is broad rather than limited to courtroom procedure. Official university syllabi list subjects including jurisprudence, contract, torts, criminal law, family law, evidence, property law, constitutional law, civil procedure, administrative law, company law, labour law, taxation, intellectual-property law and drafting, pleading and conveyancing.",
+        "Integrated programmes add interdisciplinary study and may include research projects, moots, seminars, internships and other experiential work. The exact title of the integrated degree does not itself determine a legal specialisation: students should compare the university’s current scheme of study, clinical courses, electives, credit requirements and assessment rules."
+      ],
+      "bullets": [
+        "Foundational law: jurisprudence, constitutional law, contract and torts.",
+        "Public and private law: criminal, family, property, evidence, procedure and administrative law.",
+        "Professional and commercial areas: company, labour, tax, intellectual-property law and drafting.",
+        "Experiential components can include moots, internships, projects and legal-clinic work, depending on the institution."
+      ],
+      "source_urls": [
+        "https://lawfaculty.du.ac.in/Students/Centenary-Chance-Special-Examination/Centenary-Chance-Special-Examination-November-2025-LLB-Course-Syllabus",
+        "https://clat2025.consortiumofnlus.ac.in/clat-2025/nlus/brochure/TNNLU.pdf",
+        "https://clat2025.consortiumofnlus.ac.in/clat-2025/nlus/brochure/NALSAR.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admissions: CLAT is important, but not the only route",
+      "paragraphs": [
+        "CLAT is the common admission test used for five-year integrated LL.B. programmes at participating National Law Universities; the Consortium states that its purpose is to facilitate admission to participating NLUs. It does not govern every law college or every three-year LL.B. programme in India, so applicants should identify the relevant state entrance test, university entrance test, counselling system or merit process for each target institution.",
+        "For dated context, the CLAT 2026 UG examination was scheduled for December 7, 2025, for programmes commencing in academic year 2026–27, and the online application window listed by the Consortium ran from August 1 to October 31, 2025. Those dates are past as of this node’s July 2026 review and must not be treated as deadlines for a later admissions cycle. The Consortium also states that each participating NLU’s intake, reservation rules, courses and fee structure are institution-specific and subject to change."
+      ],
+      "bullets": [
+        "For participating NLUs: consult the current CLAT eligibility, instructions, participating-university list and the target NLU’s brochure.",
+        "For three-year LL.B. and non-NLU options: consult the relevant university or state admissions authority directly.",
+        "Before paying fees: verify programme recognition/approval, total cost, hostel terms, reservation documentation, entrance-test route and counselling deadlines from official notices."
+      ],
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/objectives.html",
+        "https://consortiumofnlus.ac.in/clat-2026/ug-instructions.html",
+        "https://consortiumofnlus.ac.in/clat-2026/participating_universities.html",
+        "https://punjablawadmissions.gndu.ac.in/RegisterEmailIDwithOTPNew.aspx"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After the LL.B.: study, practice and allied professional routes",
+      "paragraphs": [
+        "For postgraduate legal study, LL.B. holders may apply to LL.M. programmes. CLAT-PG is one admission route for participating NLUs; the CLAT 2026 rules required an LL.B./equivalent degree and set category-specific minimum marks. Universities may have separate admissions procedures and specialisations, so this is not a universal LL.M. rule.",
+        "For litigation and court practice, the usual professional sequence is to obtain a qualifying law degree, seek enrolment with the relevant State Bar Council subject to the Advocates Act and applicable rules, and satisfy the current AIBE requirements. The AIBE website states that successful candidates receive a Certificate of Practice and are eligible to practise in courts in India; its currently published eligibility notices also make BCI recognition/college approval material.",
+        "LL.B. holders may also consider non-litigation pathways such as in-house legal work, compliance, contracts, policy, academia, further management study or company-secretarial study. For the CS route, ICSI states that graduates are eligible for admission to the Executive Programme, subject to its current registration and examination rules."
+      ],
+      "bullets": [
+        "LL.M.: postgraduate legal study; check the target university’s current entrance and eligibility requirements.",
+        "AIBE and State Bar Council enrolment: the pathway relevant to advocate practice; follow the current rules, not outdated summaries.",
+        "CS Executive: an allied corporate-governance qualification route for graduates under ICSI’s current rules.",
+        "Employment roles such as corporate counsel or legal officer are recruitment-specific: review the employer’s current notice for required experience, enrolment status, marks and age conditions."
+      ],
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/pg-eligibility.html",
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=29&orgactid=AC_CEN_3_46_00001_196125_1517807320172&sectionId=14659&sectionno=24&statehandle=123456789%2F2517",
+        "https://www.allindiabarexamination.com/about.html",
+        "https://www.allindiabarexamination.com/notification.html",
+        "https://www.icsi.edu/media/webmodules/student/24_hours_helpline.htm"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CLAT 2026 UG eligibility",
+      "url": "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+      "kind": "official admissions criteria"
+    },
+    {
+      "label": "CLAT participating universities",
+      "url": "https://consortiumofnlus.ac.in/clat-2026/participating_universities.html",
+      "kind": "official admissions directory"
+    },
+    {
+      "label": "Advocates Act, 1961 — Section 24",
+      "url": "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=29&orgactid=AC_CEN_3_46_00001_196125_1517807320172&sectionId=14659&sectionno=24&statehandle=123456789%2F2517",
+      "kind": "official law"
+    },
+    {
+      "label": "All India Bar Examination",
+      "url": "https://www.allindiabarexamination.com/",
+      "kind": "official professional examination"
+    },
+    {
+      "label": "CLAT 2026 PG eligibility",
+      "url": "https://consortiumofnlus.ac.in/clat-2026/pg-eligibility.html",
+      "kind": "official postgraduate admissions criteria"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

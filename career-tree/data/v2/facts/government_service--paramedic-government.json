@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Occupational equivalence",
+      "value": "The National Qualification Register describes Emergency Medical Technician (EMT) as also known as a “paramedic”; its core work is emergency support and care for critically ill or injured people and transport to a medical facility within stipulated time limits.",
+      "source_urls": [
+        "https://nqr.gov.in/sites/default/files/1.%20NSQF%20-%20QF-EMT-B_0.pdf"
+      ]
+    },
+    {
+      "label": "National skills classification",
+      "value": "EMT-Basic is listed at NSQF Level 4. The National Classification of Occupations places both EMT-Basic and EMT-Advanced in the paramedical-practitioners family.",
+      "source_urls": [
+        "https://nqr.gov.in/sites/default/files/1.%20NSQF%20-%20QF-EMT-B_0.pdf"
+      ]
+    },
+    {
+      "label": "Ambulance-service baseline",
+      "value": "The National Health Mission’s June 2026 National Ambulance Service guidelines say EMTs should hold a recognised EMT or Pre-Hospital Trauma Technician qualification aligned with a national or state-notified curriculum, maintain valid BLS certification, and, for ALS ambulances, hold valid ALS/ACLS or equivalent advanced-resuscitation certification.",
+      "source_urls": [
+        "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf"
+      ]
+    },
+    {
+      "label": "Government recruitment is not one uniform exam",
+      "value": "Government employers recruit under locally issued notices and service conditions. For example, a 2026 Andhra Pradesh district hospital recruitment stated that selection would be by final general merit subject to reservation rules, while a central-government hospital recruitment archive records direct recruitment, written examinations, document verification and results for Group B/C technical posts.",
+      "source_urls": [
+        "https://krishna.ap.gov.in/notice_category/recruitment/",
+        "https://www.vmmc-sjh.mohfw.gov.in/regular-and-deputation-etc-posts-recruitment"
+      ]
+    },
+    {
+      "label": "Government-hospital examples",
+      "value": "Official Andhra Pradesh district notices show EMT vacancies and merit-list activity in Government Medical College and Government General Hospital settings, confirming that EMT is used as a government-hospital post title in at least some state systems.",
+      "source_urls": [
+        "https://konaseema.ap.gov.in/notice/apmes-gmcrjy-combined-notification-for-recruitment-for-certain-vacant-posts-in-government-medical-college-and-government-general-hospitalrajamahendravarameast-godavari-district-request-for-upload-a/",
+        "https://guntur.ap.gov.in/notice/final-merit-list-of-government-general-hospital-piduguralla/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a government paramedic/EMT does",
+      "paragraphs": [
+        "In this node, “paramedic” is best read as the emergency-medical-technician stream rather than as one nationally standardised civil-service designation. The nationally registered EMT-Basic qualification describes the role as providing emergency support and care to critically ill or injured people and transporting them to an appropriate medical facility.",
+        "The EMT-Basic curriculum covers responding to emergency calls; scene size-up; evidence-based patient management; on-site assessment and triage; cardiovascular and other emergencies; selection of a receiving provider institution; transport; and patient handover. Actual duties in a government hospital, ambulance service or health department must remain within the post’s notified scope, clinical protocols and the worker’s competence and authority."
+      ],
+      "bullets": [
+        "Provide pre-hospital emergency care using defined clinical protocols.",
+        "Assess the scene and patient, triage severity, and support safe transport and handover.",
+        "Maintain safety, infection-control, biomedical-waste and quality procedures.",
+        "Work with ambulance drivers, clinicians, emergency departments and receiving facilities rather than independently replacing doctors or nurses."
+      ],
+      "source_urls": [
+        "https://nqr.gov.in/sites/default/files/1.%20NSQF%20-%20QF-EMT-B_0.pdf",
+        "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes into government service",
+      "paragraphs": [
+        "A Diploma in Paramedical Sciences can be a relevant parent qualification, but applicants should not assume that every government paramedic post accepts the same diploma. The controlling document is the particular recruitment notification: it specifies the accepted course, recognition or affiliation, registration where applicable, experience, age, reservation, domicile and selection rules.",
+        "For National Ambulance Service deployment, NHM’s June 2026 guidance specifies a recognised EMT or Pre-Hospital Trauma Technician qualification aligned to a national or state-notified EMT curriculum and approved by the national/state allied-health council or awarded by a recognised university or AICTE-affiliated institution, as applicable. It also sets Class 12 or equivalent as the minimum educational entry qualification for EMT-Basic training.",
+        "Candidates should monitor the official recruiting authority—not only generic job portals. Recruitment may be regular direct recruitment at central institutions, or state/district recruitment on merit, contract or outsourcing terms. In the cited 2026 Krishna district notice, applicants were required to submit documents and selection was stated to be on final general merit subject to reservation rules."
+      ],
+      "bullets": [
+        "Complete the exact EMT/emergency-care or paramedical credential named in the notification.",
+        "Keep educational certificates, identity, category/reservation and experience documents ready for scrutiny or document verification.",
+        "Maintain BLS; obtain ALS/ACLS when aiming for advanced-life-support ambulance assignments.",
+        "Apply only through the official hospital, health department, National Health Mission, public-service commission or recruiting-board channel named in the notice."
+      ],
+      "source_urls": [
+        "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf",
+        "https://nqr.gov.in/sites/default/files/1.%20NSQF%20-%20QF-EMT-B_0.pdf",
+        "https://krishna.ap.gov.in/notice_category/recruitment/",
+        "https://www.vmmc-sjh.mohfw.gov.in/regular-and-deputation-etc-posts-recruitment"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills and professional standards",
+      "paragraphs": [
+        "The formal EMT-Basic qualification is practical as well as academic: it includes theory, practical training, on-the-job training and employability skills. Its competency units emphasize emergency response, clinical assessment, triage, emergency management, patient transfer and handover.",
+        "Government-service readiness also requires dependable documentation and teamwork. The qualification explicitly includes communicating health information, working effectively with others, maintaining a safe environment, acting within competence and authority, professional conduct, biomedical-waste disposal, infection control and quality assurance. NHM additionally expects clear local-language communication and functional Hindi and English for National Ambulance Service EMTs."
+      ],
+      "bullets": [
+        "Rapid but protocol-based assessment, triage and escalation.",
+        "BLS competence; ALS/ACLS capability for applicable advanced ambulances.",
+        "Clear patient information, handover and inter-professional communication.",
+        "Infection prevention, biomedical-waste handling, safety and quality discipline.",
+        "Professional judgment about when to seek clinical support and stay within authorised scope."
+      ],
+      "source_urls": [
+        "https://nqr.gov.in/sites/default/files/1.%20NSQF%20-%20QF-EMT-B_0.pdf",
+        "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is found",
+      "paragraphs": [
+        "The government-side role can sit in state-run ambulance networks and in government medical-college/general-hospital establishments. NHM’s National Ambulance Service guidance sets recruitment and certification expectations for ambulance EMTs, while official Andhra Pradesh notices identify Emergency Medical Technician posts within Government Medical College and Government General Hospital recruitment and merit-list processes.",
+        "Employment status is important to verify before applying. Public health systems may use regular direct recruitment for some posts and contract or outsourcing arrangements for others; this affects tenure, leave, pay structure, transfer rules and promotion eligibility. Candidates should read the appointment and service-condition clauses in the exact advertisement."
+      ],
+      "bullets": [
+        "National or state ambulance services, including BLS and ALS ambulances.",
+        "Emergency departments and related units in government hospitals.",
+        "Government medical colleges and general hospitals.",
+        "State or district health-service establishments operating on regular, contractual or outsourced terms."
+      ],
+      "source_urls": [
+        "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf",
+        "https://konaseema.ap.gov.in/notice/apmes-gmcrjy-combined-notification-for-recruitment-for-certain-vacant-posts-in-government-medical-college-and-government-general-hospitalrajamahendravarameast-godavari-district-request-for-upload-a/",
+        "https://guntur.ap.gov.in/notice/final-merit-list-of-government-general-hospital-piduguralla/",
+        "https://srikakulam.ap.gov.in/notice/notification-for-recruitment-of-paramedical-other-on-contract-out-sourcing-for-one-year-period-in-dsh-hospitals/"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and upskilling",
+      "paragraphs": [
+        "The national EMT qualification identifies progression to relevant diploma or degree qualifications after training, as well as possible progression to trainer, assessor and EMT-Basic roles through the stated pathways. This supports the academic branch to a B.Sc. in Emergency Medical Technology or another recognised relevant degree, subject to that university’s own admission rules.",
+        "For ambulance work, ALS/ACLS is a directly relevant next credential: NHM requires advanced life-support certification for EMTs or other clinical personnel deployed on ALS or critical-care ambulances. A move to senior paramedic, supervisory or departmental roles is not automatic; it depends on the employer’s notified recruitment rules, sanctioned cadre structure, qualifying service and any departmental selection or promotion process."
+      ],
+      "bullets": [
+        "Maintain and renew BLS; add ALS/ACLS for advanced ambulance assignments.",
+        "Pursue a recognised emergency-medical-technology degree where it aligns with career goals and eligibility.",
+        "Build documented experience in protocols, handover, quality and team coordination.",
+        "Check the employing department’s service rules before relying on a departmental promotion route."
+      ],
+      "source_urls": [
+        "https://nqr.gov.in/sites/default/files/1.%20NSQF%20-%20QF-EMT-B_0.pdf",
+        "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf",
+        "https://upnrhm.gov.in/assets/site-files/tenders/als-ambulance/RFP_Part_2_Schedules_-_ALS_Ambulance_Project.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Health Mission — Operational Guidelines for National Ambulance Service, June 2026",
+      "url": "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf",
+      "kind": "official_guideline"
+    },
+    {
+      "label": "National Qualification Register — Emergency Medical Technician-Basic qualification file",
+      "url": "https://nqr.gov.in/sites/default/files/1.%20NSQF%20-%20QF-EMT-B_0.pdf",
+      "kind": "national_qualification"
+    },
+    {
+      "label": "VMMC & Safdarjung Hospital — recruitment notices",
+      "url": "https://www.vmmc-sjh.mohfw.gov.in/regular-and-deputation-etc-posts-recruitment",
+      "kind": "employer_recruitment"
+    },
+    {
+      "label": "Krishna District, Andhra Pradesh — recruitment notices",
+      "url": "https://krishna.ap.gov.in/notice_category/recruitment/",
+      "kind": "state_employer_recruitment"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

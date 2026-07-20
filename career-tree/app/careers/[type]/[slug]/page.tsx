@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import V2BlogView from "@/components/v2/V2BlogView";
 import { v2Graph } from "@/lib/v2/data";
+import { getFullNode } from "@/lib/v2/facts";
 import { findRouteThroughParent } from "@/lib/v2/route-map";
 import { buildNodePageView } from "@/lib/v2/routes";
 import type { V2Node } from "@/lib/v2/types";
@@ -48,9 +49,13 @@ function citations(node: V2Node): string[] {
 
 export default async function CareerGuidePage({ params }: Props) {
   const { type, slug } = await params;
-  const node = v2Graph.getNodeByRoute(type, slug);
+  const core = v2Graph.getNodeByRoute(type, slug);
+  if (!core) notFound();
+  // The graph holds fact-less core nodes; the guide is the one place on this
+  // route that renders facts, so re-attach them to the focused node only.
+  const node = await getFullNode(core.id);
   if (!node) notFound();
-  const canonicalView = buildNodePageView(v2Graph, node.id);
+  const canonicalView = { ...buildNodePageView(v2Graph, node.id), node };
   const parentRoutes = Object.fromEntries(
     canonicalView.parents.flatMap((parent) => {
       const routes = buildNodePageView(v2Graph, node.id, parent.node.id).routes;

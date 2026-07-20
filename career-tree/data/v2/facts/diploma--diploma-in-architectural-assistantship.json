@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Programme format",
+      "value": "A representative state-board curriculum in Goa structures the Diploma in Architectural Assistantship across six semesters, with a 16-week architectural-training semester in Semester VI.",
+      "source_urls": [
+        "https://dte.goa.gov.in/sites/default/files/23cc.pdf"
+      ]
+    },
+    {
+      "label": "Entry qualification",
+      "value": "Admission rules are set by the admitting institution or state authority. For example, Uka Tarsadia University lists Class 10 or 10+2 and at least 35% aggregate for its Diploma in Architectural Assistantship; applicants must verify the current prospectus of the specific institute.",
+      "source_urls": [
+        "https://utu.ac.in/CurriculumDAA.html"
+      ]
+    },
+    {
+      "label": "NATA relationship",
+      "value": "NATA is an aptitude test for admission to the first year of the five-year B.Arch. degree, not a nationally prescribed entrance test for this diploma. The node’s NATA parent should therefore be read as a possible later B.Arch pathway rather than a standard diploma-admission requirement.",
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&layout=&level=0&lid=218&linkid=42",
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628"
+      ]
+    },
+    {
+      "label": "Typical applied outcomes",
+      "value": "The Goa curriculum specifies skills in presentation, technical and construction drawings, contemporary software, construction supervision, estimates, and assistance with site and project management.",
+      "source_urls": [
+        "https://dte.goa.gov.in/sites/default/files/23cc.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: check the state or institute rule",
+      "paragraphs": [
+        "There is no single eligibility statement evidenced here for every Diploma in Architectural Assistantship provider in India. Requirements can be set by the state technical-education system and the admitting institute. As one official university example, Uka Tarsadia University accepts candidates who have completed Class 10 or 10+2 from a recognised board, with at least 35% aggregate marks.",
+        "Applicants should treat the institute’s current admission notice as controlling, including any requirements for Mathematics, Science, English, domicile, category reservation, merit calculation, or counselling. A provider may impose conditions more specific than the illustrative university rule."
+      ],
+      "bullets": [
+        "Baseline example: Class 10 or Class 10+2 from a recognised board, with 35% aggregate at UTU.",
+        "Do not assume that NATA is required for diploma entry: the Council of Architecture describes NATA as the qualifier aptitude test for B.Arch. admissions."
+      ],
+      "source_urls": [
+        "https://utu.ac.in/CurriculumDAA.html",
+        "https://coa.gov.in/index1.php?lang=1&layout=&level=0&lid=218&linkid=42"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and practical training",
+      "paragraphs": [
+        "A three-year, six-semester design is common in the official examples reviewed. Goa’s Board of Technical Education curriculum identifies Semester VI as 16 weeks of architectural training. The training is intended to provide professional experience in an architect’s office and on a building site, following the preceding semesters of course work.",
+        "Because academic calendars, internship assessment, and re-admission rules are board-specific, students should confirm the current scheme of examination and training-placement arrangements with the chosen polytechnic."
+      ],
+      "bullets": [
+        "Semesters I–V: studio, technical, construction, drawing, services and management learning.",
+        "Semester VI in the Goa scheme: 16-week architectural training.",
+        "The Goa curriculum says offices used for placement are to be approved by the relevant architectural-engineering department."
+      ],
+      "source_urls": [
+        "https://dte.goa.gov.in/sites/default/files/23cc.pdf",
+        "https://msubaroda.ac.in/academics/POLY/Programs/42"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students learn",
+      "paragraphs": [
+        "The diploma is practice-oriented rather than a licence-qualifying architecture degree. In the Goa curriculum, early study includes basic architectural drawing, building components, construction materials, graphics, model making, mathematics for architecture, architectural design, CAD and environmental studies. Later semesters add architectural design, construction detailing, history, measured drawing, building services, structures, surveying, computer graphics, working drawings, estimating and costing.",
+        "The working-drawing and training components directly support assistantship work: learners prepare submission and technical drawing sets, coordinate drawings with consultant or shop drawings, develop electrical and plumbing layouts, and gain exposure to office structure, building regulations, project-management stages and site activities."
+      ],
+      "bullets": [
+        "Design and representation: architectural design studios, presentation graphics, model making and computer graphics/CAD.",
+        "Technical documentation: approval/submission drawings, working drawings, schedules, construction details and service layouts.",
+        "Construction delivery: materials, construction systems, structures, surveying, estimating, costing, site supervision and project management.",
+        "Professional exposure: architectural-office and building-site training in the final semester of the Goa scheme."
+      ],
+      "source_urls": [
+        "https://dte.goa.gov.in/sites/default/files/23cc.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission route and the NATA distinction",
+      "paragraphs": [
+        "For diploma admission, follow the application, merit list, entrance test or counselling procedure published by the specific state technical-education authority or institute. The evidence reviewed does not support treating NATA as a universal admission requirement for the Diploma in Architectural Assistantship.",
+        "For progression to B.Arch., NATA becomes relevant. The Council of Architecture’s 2026 brochure states that NATA is the qualifying aptitude test for B.Arch. admissions. It permits candidates who have passed or are appearing in a 10+3 diploma with Mathematics to take NATA; actual first-year B.Arch. admission additionally requires a 10+3 diploma with Mathematics as a compulsory subject and at least 45% aggregate, plus the applicable admission-authority process. NATA qualification alone does not guarantee a seat.",
+        "For date clarity, the Council’s 2026 brochure scheduled NATA tests from April 4, 2026 through June 13, 2026. Those dates are already past as of July 19, 2026; prospective applicants should rely on the next published cycle rather than those dates."
+      ],
+      "bullets": [
+        "Diploma entry: use the chosen institute’s current admission notice.",
+        "B.Arch. progression: confirm Mathematics and aggregate-mark requirements, take the applicable aptitude test, and participate in the relevant counselling/admission process.",
+        "A diploma does not itself create a right to B.Arch. admission or to direct/lateral entry; the receiving university and counselling authority govern the route."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&layout=&level=0&lid=218&linkid=42",
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees: provider-specific and subject to revision",
+      "paragraphs": [
+        "Fees vary substantially by state, institution type, domicile/category, and included services. As a dated provider example reviewed on July 19, 2026, RIMT University lists a one-time application fee of ₹1,000, registration fee of ₹10,000, refundable security of ₹8,000, and semester fee of ₹35,000 for its diploma programme. This is not a national benchmark and may change before admission.",
+        "Before accepting an offer, obtain the current fee notice and check whether tuition, examination charges, studio materials, software, hostel, transport, security deposit, training-related travel, and refund rules are included or charged separately."
+      ],
+      "bullets": [
+        "Use the provider’s current official fee schedule, not an aggregate estimate from a listing site.",
+        "Ask specifically about refundable deposits and recurring examination or studio charges.",
+        "Check scholarships, fee waivers and state-category provisions directly with the admitting institution."
+      ],
+      "source_urls": [
+        "https://rimt.ac.in/school-of-architecture-planning/diploma-in-architecture-assistantship/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Progression and employment options",
+      "paragraphs": [
+        "A principal education pathway is first-year B.Arch. admission after the diploma, subject to the Council of Architecture’s current eligibility conditions, a qualifying NATA score where applicable, and the admission process of the competent university or counselling authority. The 2026 NATA brochure expressly recognises the 10+3 diploma route when Mathematics and the required aggregate marks are present.",
+        "The skills taught by the diploma align with architectural-office support and construction-documentation work: drafting and presentation, working drawings, CAD, model making, estimating, site supervision and project support. Job titles and eligibility are employer-specific. As evidence that public recruitment can explicitly recognise this qualification, the Haryana Staff Selection Commission lists an ‘Architecture Jobs’ examination group at the level of Matric plus Diploma in Architectural Assistantship. This should not be read as eligibility for every Junior Engineer, RRB JE, SSC JE, PSU trainee, or AMIE route; each notification and professional body sets its own branch, recognition and experience conditions."
+      ],
+      "bullets": [
+        "Further study: apply to eligible first-year B.Arch. routes; do not assume lateral entry unless the receiving authority explicitly offers it.",
+        "Private-sector work: architectural-office drafting/documentation, design-support, model-making, site and project-support roles, subject to employer requirements.",
+        "Public-sector recruitment: review each live notification’s exact discipline, qualification, domicile, age and reservation conditions; a named post title alone is insufficient evidence of eligibility."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+        "https://dte.goa.gov.in/sites/default/files/23cc.pdf",
+        "https://www.hssc.gov.in/examsyllabus"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Council of Architecture: NATA information",
+      "url": "https://coa.gov.in/index1.php?lang=1&layout=&level=0&lid=218&linkid=42",
+      "kind": "regulator"
+    },
+    {
+      "label": "Council of Architecture: NATA 2026 brochure",
+      "url": "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+      "kind": "regulator_document"
+    },
+    {
+      "label": "Goa Directorate of Technical Education: Diploma in Architectural Assistantship curriculum",
+      "url": "https://dte.goa.gov.in/sites/default/files/23cc.pdf",
+      "kind": "government_curriculum"
+    },
+    {
+      "label": "Delhi Directorate of Training and Technical Education: syllabus portal",
+      "url": "https://tte.delhi.gov.in/tte/syllabus",
+      "kind": "government_curriculum"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

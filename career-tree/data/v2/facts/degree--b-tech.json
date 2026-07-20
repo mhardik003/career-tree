@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Standard duration",
+      "value": "AICTE’s Approval Process Handbook lists the undergraduate Engineering and Technology programme as a 4-year programme.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "Baseline entry qualification",
+      "value": "For AICTE-approved undergraduate Engineering and Technology programmes, the handbook specifies 10+2 with a permitted combination of relevant subjects (including Physics, Mathematics, Chemistry and other listed subjects), with at least 45% in the listed subjects together; the stated threshold is 40% for reserved-category candidates. Institutional and affiliating-university rules can add conditions.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "National admissions route",
+      "value": "For the 2026–27 JoSAA system, qualifying examinations listed for engineering admissions include JEE (Advanced) 2026 and JEE (Main) 2026 B.E./B.Tech.; JoSAA allocates seats at IITs, IISc Bengaluru, NITs, IIEST, IIITs and other GFTIs that participate in its process.",
+      "source_urls": [
+        "https://josaa.nic.in/josaa/"
+      ]
+    },
+    {
+      "label": "Level",
+      "value": "AICTE classifies the 4-year undergraduate Engineering and Technology programme at NCrF Level 4.0 in its 2024–2027 handbook.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "B.E. and B.Tech naming",
+      "value": "National GATE 2026 eligibility explicitly lists B.E./B.Tech. as bachelor’s degrees in Engineering/Technology. Exact recognition and branch eligibility for a particular admission or recruitment process must be checked in that process’s current notice.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and preparation",
+      "paragraphs": [
+        "The usual route is completion of Class 12 (10+2), commonly through PCM. AICTE’s current Approval Process Handbook defines a broader baseline for approved Engineering and Technology programmes: applicants must have passed 10+2 with the relevant combination drawn from subjects such as Physics, Mathematics, Chemistry, Computer Science, Electronics, Information Technology, Biology and specified vocational subjects. It states a minimum aggregate of 45% in the applicable subjects, or 40% for reserved-category candidates. The affiliating university’s admission policy remains relevant, so applicants should treat this as the regulatory baseline rather than a guarantee of eligibility at every college or branch.",
+        "bullets:["
+      ],
+      "bullets": [
+        "Check the target institute’s programme-specific subject requirements, category rules, domicile rules and qualifying-examination conditions.",
+        "A Polytechnic Diploma can be relevant for lateral-entry B.E./B.Tech pathways where the applicable technical university or institution offers them; the precise admission year, branch mapping and examination route are set locally.",
+        "For GATE 2026, B.E./B.Tech students in the third year or above, and graduates, are eligible to appear; qualifying for GATE does not by itself establish eligibility for every M.Tech admission programme."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://gate2026.iitg.ac.in/faqs.html"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study pattern",
+      "paragraphs": [
+        "A regular undergraduate Engineering and Technology degree is four years under AICTE’s programme framework. The normal format is eight semesters after Class 12. Some entrants with a diploma may be admitted through an approved lateral-entry arrangement; in that case, the time remaining and the conditions are governed by the admitting university or institution rather than by a single nationwide rule.",
+        "B.E. and B.Tech titles coexist across Indian institutions. For example, the official GATE eligibility framework groups B.E./B.Tech together as four-year engineering/technology bachelor’s degrees after 10+2, and also recognises a three-year format after a B.Sc. or Diploma in Engineering/Technology.",
+        "source_urls_placeholder"
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and branches",
+      "paragraphs": [
+        "The detailed syllabus, credit structure, electives and assessment rules are decided by the university or autonomous institute. AICTE’s Model Curriculum for Undergraduate Degree Courses in Engineering and Technology is a reference framework, not a substitute for the curriculum published by the admitting institute. It is designed around foundational science and engineering learning, discipline-specific study, laboratories, projects and broader professional learning.",
+        "Students select an engineering discipline offered by their institution. Common examples across the system include Computer Science and Engineering, Electronics and Communication/Electronics, Mechanical Engineering and Civil Engineering, but branch availability, title and specialisation vary by institute. Before accepting a seat, review the current scheme of study, laboratory facilities, accreditation status and branch-specific entry restrictions.",
+        "bullets"
+      ],
+      "bullets": [
+        "Use the institute’s current academic regulations—not coaching material or an older syllabus—as the authoritative source for graduation requirements.",
+        "Expect practical components such as laboratory work, design work and projects alongside theory; the precise balance differs by branch and university."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/ug-vol2.pdf",
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission routes",
+      "paragraphs": [
+        "Admission is decentralised: the entrance examination, counselling authority and eligibility rules depend on the institute. For centrally coordinated participating institutions in 2026–27, JoSAA uses JEE (Advanced) 2026 and JEE (Main) 2026 B.E./B.Tech as qualifying examinations and administers a common seat-allocation platform for IITs, IISc Bengaluru, NITs, IIEST Shibpur, IIITs and other GFTIs.",
+        "JEE Main is administered by the National Testing Agency, whose 2026 notices identify Paper 1 as the B.E./B.Tech paper. Other institutions can use state-level counselling/examinations or their own admissions process. Applicants should therefore confirm the current information bulletin, programme eligibility, choice-filling rules and dates directly with the relevant examination and counselling authority; these change each admission year.",
+        "bullets"
+      ],
+      "bullets": [
+        "JEE Main → commonly relevant to the NIT+ system and is also the qualifying route toward JEE Advanced under that examination’s rules.",
+        "JEE Advanced → relevant to JoSAA allocation for IIT programmes and participating IISc undergraduate routes, subject to the current business rules.",
+        "State, deemed/private and university systems → may use state CETs, institutional examinations or other approved selection mechanisms; verify directly with the college and state counselling authority."
+      ],
+      "source_urls": [
+        "https://josaa.nic.in/josaa/",
+        "https://jeemain.nta.nic.in/",
+        "https://jeemain.nta.nic.in/admission-bulletin/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and financial planning",
+      "paragraphs": [
+        "There is no single national B.Tech fee. Tuition, institute charges, hostel charges, mess advances, insurance, examination charges and refundable deposits can vary substantially by institution, category, income-based remission rules, hostel choice and year of admission. Costs should be treated as dated information and verified against the target institute’s current official fee notice before a seat is accepted.",
+        "As examples of why comparison must be itemised, NIT Tiruchirappalli publishes an undergraduate fee structure with multiple fee components, while IIT Bombay separately publishes a fee structure for new undergraduate entrants, including hostel and mess-related amounts. These are institution-specific examples, not a nationwide fee benchmark.",
+        "bullets"
+      ],
+      "bullets": [
+        "Compare the full first-year payable amount, not tuition alone.",
+        "Check whether the quoted amount includes hostel, mess advance, one-time deposits and medical/insurance charges.",
+        "Review current scholarship, fee-remission and education-loan information from the institute and the applicable government scheme administrator before payment."
+      ],
+      "source_urls": [
+        "https://www.nitt.edu/home//academics/fees_section/ug_courses_fee_structure/",
+        "https://acad.iitb.ac.in/sites/default/files/Offer_letter_INMO_2026_SAMPLE.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After B.Tech: study, examinations and careers",
+      "paragraphs": [
+        "A B.Tech can lead directly to graduate-engineer and software or engineering roles, or to postgraduate study and public-sector recruitment. Eligibility is always branch- and notification-specific. GATE 2026 permits B.E./B.Tech students in the third year or higher and completed graduates to take the examination; the receiving M.Tech/Ph.D. institution independently sets its own admission requirements.",
+        "For research and government technical pathways, current official notices illustrate the importance of reading discipline rules closely. BARC’s OCES/DGFS-2026 programme is a recruitment/training route for eligible engineering graduates and science postgraduates, with qualifying-degree and discipline restrictions. ISRO lists Scientist/Engineer pathways for B.E./B.Tech candidates; its published requirements vary by recruitment channel and can include a minimum aggregate/CGPA, a relevant discipline, GATE score, written test and/or interview.",
+        "UPSC conducts both Civil Services and Engineering Services examinations. A B.Tech holder may consider them where the current UPSC notification’s educational, age, nationality and other conditions are met; Engineering Services is specifically branch-structured, whereas Civil Services has its own separate eligibility rules. For CAT, GRE, entrepreneurship and private-sector roles, the degree is only one part of the profile: entrance scores, portfolio/projects, work experience and the target institution or employer’s requirements may matter.",
+        "bullets"
+      ],
+      "bullets": [
+        "Higher study: GATE-based M.Tech/Ph.D. routes in India; overseas study routes such as GRE where a target university requires or accepts it.",
+        "Technical public-sector/research routes: BARC OCES/DGFS and ISRO Scientist/Engineer recruitment, subject to the current advertisement’s branch and marks criteria.",
+        "Competitive examinations: UPSC Civil Services and UPSC Engineering Services, subject to their separate current notifications.",
+        "Employment and enterprise: Graduate Engineer Trainee, software-development and discipline-specific engineering roles; internships, demonstrable projects and branch-relevant skills are important evidence for employers."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://barcocesexam.in/index.php",
+        "https://www.isro.gov.in/CareerOpportunities.html",
+        "https://www.upsc.gov.in/examinations/active-exams",
+        "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AICTE Approval Process Handbook 2024–2027",
+      "url": "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+      "kind": "regulator"
+    },
+    {
+      "label": "JEE Main official portal",
+      "url": "https://jeemain.nta.nic.in/",
+      "kind": "examination"
+    },
+    {
+      "label": "JoSAA 2026 admissions and counselling",
+      "url": "https://josaa.nic.in/josaa/",
+      "kind": "counselling"
+    },
+    {
+      "label": "GATE 2026 eligibility criteria",
+      "url": "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+      "kind": "examination"
+    },
+    {
+      "label": "BARC OCES/DGFS official portal",
+      "url": "https://barcocesexam.in/index.php",
+      "kind": "employer"
+    },
+    {
+      "label": "ISRO career opportunities",
+      "url": "https://www.isro.gov.in/CareerOpportunities.html",
+      "kind": "employer"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Degree positioning",
+      "value": "This is a postgraduate engineering pathway in electronics and communications. Institutes may title the specialization differently—for example, “M.Tech. in Communications Engineering” at IIT Delhi or “Communication Engineering” within Electrical Engineering at IIT Bombay.",
+      "source_urls": [
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEE",
+        "https://www.ee.iitb.ac.in/~eeoffice/curriculum/ee_mtech_ce.htm"
+      ]
+    },
+    {
+      "label": "Usual entry examination",
+      "value": "GATE is the principal admission route for many full-time M.Tech. seats, but the accepted GATE paper, qualifying degree, score threshold, and any test/interview are set by each institute and programme.",
+      "source_urls": [
+        "https://www.iitr.ac.in/Academics/static/Admission/PG/M.Tech/2026/Regular/Information_Brochure_2026.pdf",
+        "https://care.iitd.ac.in/Academics/M_Tech.html"
+      ]
+    },
+    {
+      "label": "Typical full-time format",
+      "value": "A representative IIT Delhi Communications Engineering curriculum is structured across four semesters and requires 62 graded credits; duration and credit requirements are institute-specific.",
+      "source_urls": [
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEE"
+      ]
+    },
+    {
+      "label": "Counselling route at participating NIT-system institutes",
+      "value": "For the 2026 admission cycle, CCMT is the common counselling platform for M.Tech./M.Arch./M.Plan. admissions at participating NITs, IIEST Shibpur, some IIITs and CFTIs, using GATE scores from 2024, 2025, and 2026.",
+      "source_urls": [
+        "https://ccmt.admissions.nic.in/about-department/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "There is no single India-wide eligibility rule for this specialization. As an institute-level example, IIT Roorkee’s 2026 M.Tech. brochure requires at least 60% marks or 6.00/10 CGPA for General/Gen-EWS/OBC-NCL applicants and 55% or 5.50/10 for SC/ST/PwD applicants, alongside the programme’s stated minimum educational qualifications; it admits GATE-qualified candidates using valid normalized GATE marks. The exact qualifying degree and accepted GATE paper must be checked against the target programme’s current notice.",
+        "For a communications/electronics-oriented example, IIT Delhi’s RF Design and Technology M.Tech. lists B.Tech./B.E. in Electronics, Communication, Electrical Engineering, or related areas, and calls for a valid GATE score in EE or EC for full-time GATE entrants. This illustrates why an applicant with an adjacent degree should verify the programme-specific eligibility matrix rather than assume that any GATE qualification confers admission eligibility.",
+        "GATE examination eligibility and M.Tech. admission eligibility are different questions. The GATE 2026 brochure allows candidates in the third or higher year of an undergraduate degree, or graduates, in a wide set of approved disciplines to take the examination; individual institutes can nevertheless impose narrower qualifying-degree, marks, paper-code, and selection requirements for a particular M.Tech. seat."
+      ],
+      "bullets": [
+        "Before applying, match all four items in the current institute notice: qualifying degree, minimum marks/CGPA, acceptable GATE paper(s), and selection category (such as TA, sponsored, project staff, or institute graduate).",
+        "Do not treat a GATE score as an automatic admission offer; institute shortlisting and document verification still apply."
+      ],
+      "source_urls": [
+        "https://www.iitr.ac.in/Academics/static/Admission/PG/M.Tech/2026/Regular/Information_Brochure_2026.pdf",
+        "https://care.iitd.ac.in/Academics/M_Tech.html",
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-28092025.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study mode",
+      "paragraphs": [
+        "The common full-time pattern is two academic years (four semesters), but it is not universal. IIT Delhi’s M.Tech. in Communications Engineering schedule explicitly spans semesters 1 through 4, while its RF Design and Technology M.Tech. describes a two-year/four-semester programme. Applicants considering sponsored or employed-study routes should note that part-time formats can be longer: IIT Bombay Electrical Engineering describes a three-year M.Tech. option for specified sponsored, institute-staff, project-staff, and research-assistant categories.",
+        "A substantial project component is normal in research-oriented programmes. In IIT Delhi’s Communications Engineering curriculum, the fourth semester includes M.Tech. Project Part 2; the IIT Bombay EE department states that one year of thesis work is required for successful completion of its M.Tech. degree."
+      ],
+      "bullets": [
+        "Full-time route: commonly four semesters, subject to the awarding institute’s regulations.",
+        "Sponsored/part-time route: may have distinct experience requirements and a longer duration.",
+        "Plan for a major thesis or project, not only taught courses."
+      ],
+      "source_urls": [
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEE",
+        "https://care.iitd.ac.in/Academics/M_Tech.html",
+        "https://www.ee.iitb.ac.in/admissions/postgraduation/",
+        "https://www.ee.iitb.ac.in/web/academics/mtech/"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and specializations",
+      "paragraphs": [
+        "There is no nationally prescribed M.Tech. ECE syllabus; course content depends on the institute and the chosen track. IIT Delhi’s Communications Engineering curriculum demonstrates the communications and signal-processing core: Signal Theory, Digital Communications, Detection and Estimation Theory, Computer Communication Networks, Wireless Communications, a wireless laboratory, project work, electives, and open electives. Its stated learning outcomes emphasize theoretical and applied foundations in signal processing and wireless communications.",
+        "Electronics-facing options can extend into VLSI and integrated-circuit work. IIT Delhi’s Integrated Electronics and Circuits M.Tech. includes Digital CMOS VLSI Design, Semiconductor Microelectronics, Analog Circuit Design, Analog IC Design, Electronic Measurements, Digital Communications, Advanced Digital Signal Processing, machine learning/optimization, and staged project work. Thus, candidates should select a programme by its published course structure, faculty/lab strengths, and thesis areas—not just by the degree title.",
+        "Examples of advanced communications electives in the IIT Delhi Communications Engineering curriculum include microwave techniques, applied VLSI design, coding theory, statistical and multichannel signal processing, image processing, fibre-optic communications, MIMO, and machine learning for wireless communications. Availability can change with curriculum revisions and faculty offerings."
+      ],
+      "bullets": [
+        "Common technical themes: digital and wireless communication, signal processing, networks, information/coding theory, RF/microwave systems, and laboratory work.",
+        "Possible electronics-oriented themes: VLSI, semiconductor microelectronics, analog/mixed-signal IC design, embedded or intelligent systems.",
+        "Research/project work is a defining component and should be checked for thesis expectations, credits, and supervisor allocation rules."
+      ],
+      "source_urls": [
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEE",
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEN"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "For many IIT/IISc-style full-time admissions, applicants apply to the institute and use the Common Offer Acceptance Portal (COAP) to view and act on offers. IIT Bombay’s M.Tech. admissions FAQ states that GATE-qualified applicants in TA, RA, TAP, or RAP categories receive offers exclusively through COAP and must register there to access them. Programme selection may be based on GATE score alone or may add a written test and/or interview, depending on the department and category.",
+        "For NITs, IIEST Shibpur, and participating IIITs/CFTIs, CCMT 2026 provides a central application and counselling platform. It displays only the institute-programme choices for which a registered candidate meets the prescribed qualifications and minimum eligibility criteria. Its 2026 rules and schedules are cycle-specific, so applicants should rely on the active year’s information brochure, programme mapping, seat matrix, and special-eligibility notices.",
+        "Some alternatives exist but are not portable rules. For example, IIT Roorkee’s 2026 brochure provides direct admission without GATE to IIT graduates with a CGPA of at least 8.00/10 under its stated conditions, while IIT Bombay EE describes sponsored and staff categories with their own assessment and experience conditions. These exceptions must be verified in the target institute’s current brochure."
+      ],
+      "bullets": [
+        "Apply separately to the relevant institute(s) unless the target seat is covered by a centralized counselling process such as CCMT.",
+        "Register for COAP when required for IIT/IISc-style GATE-based offers.",
+        "Keep current documents ready: qualifying-degree records, GATE scorecard, category/PwD certificates where applicable, and sponsorship/employment evidence for non-regular categories.",
+        "Treat dates, cut-offs, vacancies, and selection mechanics as annual and variable."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/faq-mtech",
+        "https://ccmt.admissions.nic.in/",
+        "https://ccmt.admissions.nic.in/how-to-fill-choices/",
+        "https://www.iitr.ac.in/Academics/static/Admission/PG/M.Tech/2026/Regular/Information_Brochure_2026.pdf",
+        "https://www.ee.iitb.ac.in/admissions/postgraduation/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and funding",
+      "paragraphs": [
+        "Fees are set by the awarding institute, category, study mode, and accommodation choice; there is no single national M.Tech. ECE fee. IIT Bombay’s 2026–27 M.Tech. brochure explicitly describes its listed fees, deposits, and hostel rent as subject to revision by the Ministry of Education/Board of Governors. Candidates should therefore use the current fee circular and hostel schedule of each shortlisted institute, rather than extrapolate from an older brochure or another campus.",
+        "Funding can materially change the net cost. IIT Bombay Electrical Engineering notes the availability of TA and RA stipends, as well as possible scholarships and fellowships linked to merit, need, companies, or research agencies. Separately, the Ministry of Education’s 2023–24 annual report describes the AICTE PG Scholarship Scheme as ₹12,400 per month for up to 24 months for eligible GATE/CEED-qualified students admitted to AICTE-approved programmes within approved intake. That figure is dated scheme context, not a guaranteed entitlement for every 2026 entrant; verify current AICTE and institute conditions before budgeting."
+      ],
+      "bullets": [
+        "Budget separately for academic fees, one-time deposits, hostel/mess, insurance/medical charges, books, travel, and project-related personal expenses.",
+        "Confirm whether the admission category is eligible for TA/RA support or an AICTE PG scholarship; sponsored candidates may have different support rules.",
+        "Use current institute fee notices because charges and waiver policies can change by semester or academic year."
+      ],
+      "source_urls": [
+        "https://www.ee.iitb.ac.in/web/academics/mtech/",
+        "https://www.education.gov.in/sites/upload_files/mhrd/files/document-reports/AR_2023-24_en.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options after the degree",
+      "paragraphs": [
+        "A graduate can pursue engineering and R&D work aligned with the programme’s technical concentration—for example communications systems, wireless/networking, signal processing, RF/microwave, microelectronics, VLSI, or embedded/intelligent electronic systems. This is an evidence-based mapping from the published course and research areas, rather than a guarantee of a particular job title or salary.",
+        "Doctoral study is a common academic progression for candidates who want deeper research training. IIT Bombay Electrical Engineering states that some M.Tech. students convert to a Ph.D. in the department or seek Ph.D. admission at other universities; it also permits eligible students in its two- or three-year M.Tech. options to apply for conversion to its dual M.Tech.+Ph.D. programme. Such pathways are institute-specific and subject to academic review.",
+        "For career planning, compare the thesis topic, laboratory exposure, internship opportunity, and placement support of each programme. IIT Bombay EE notes that students generally sit for placements toward the end of their second-last semester, while its curriculum and research pages show distinct communications, signal-processing, electronics, IC, and related research areas."
+      ],
+      "bullets": [
+        "Industry and applied R&D roles in the programme’s specialization area.",
+        "Research assistantship, project roles, or a Ph.D. in electronics, electrical engineering, communications, or an interdisciplinary area.",
+        "Further specialization through a thesis, publications, internships, and portfolio projects in the chosen technical domain."
+      ],
+      "source_urls": [
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEE",
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEN",
+        "https://www.ee.iitb.ac.in/admissions/postgraduation/",
+        "https://www.ee.iitb.ac.in/web/optional_requirement/optional-requirements-2/",
+        "https://www.ee.iitb.ac.in/web/academics/mtech/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "GATE 2026 Information Brochure",
+      "url": "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-28092025.pdf",
+      "kind": "official_exam_information"
+    },
+    {
+      "label": "CCMT 2026",
+      "url": "https://ccmt.admissions.nic.in/",
+      "kind": "official_counselling"
+    },
+    {
+      "label": "IIT Delhi M.Tech. in Communications Engineering curriculum",
+      "url": "https://curriculum.iitd.ac.in/view_program.php?program_code=EEE",
+      "kind": "official_curriculum"
+    },
+    {
+      "label": "IIT Delhi M.Tech. in Integrated Electronics and Circuits curriculum",
+      "url": "https://curriculum.iitd.ac.in/view_program.php?program_code=EEN",
+      "kind": "official_curriculum"
+    },
+    {
+      "label": "IIT Roorkee M.Tech. Admission Information Brochure 2026",
+      "url": "https://www.iitr.ac.in/Academics/static/Admission/PG/M.Tech/2026/Regular/Information_Brochure_2026.pdf",
+      "kind": "official_admission_information"
+    },
+    {
+      "label": "IIT Bombay M.Tech. admissions FAQ",
+      "url": "https://acad.iitb.ac.in/admissions/faq-mtech",
+      "kind": "official_admission_information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

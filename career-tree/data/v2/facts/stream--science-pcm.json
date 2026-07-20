@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What PCM means",
+      "value": "PCM is the Class XI–XII subject combination of Physics, Chemistry and Mathematics. In CBSE’s 2026–27 senior-secondary curriculum, all three are listed as separate academic electives; students also take a language and may have other school/board-prescribed subjects and internal-assessment components.",
+      "source_urls": [
+        "https://cbseacademic.nic.in/curriculum_2027.html"
+      ]
+    },
+    {
+      "label": "Engineering and IIT route",
+      "value": "PCM is directly relevant to engineering admissions: for JEE (Advanced) 2026, candidates must have appeared in Class XII with Physics, Chemistry and Mathematics as compulsory subjects; JEE (Main) is the qualifying route for Indian candidates seeking JEE (Advanced), subject to the published criteria.",
+      "source_urls": [
+        "https://jeeadv.ac.in/eligibility.html",
+        "https://jeeadv.ac.in/admission_criteria.html"
+      ]
+    },
+    {
+      "label": "Architecture route",
+      "value": "For first-year B.Arch admission under the Council of Architecture’s stated 2026 criteria, Physics and Mathematics are compulsory at 10+2, alongside one permitted third subject that includes Chemistry. NATA is an aptitude-test qualifier, not by itself a guarantee of admission.",
+      "source_urls": [
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628"
+      ]
+    },
+    {
+      "label": "Not an exclusive route to every field",
+      "value": "PCM keeps mathematics-dependent options open, but it is not required for every listed entrance route: CLAT UG accepts qualifying 10+2 candidates meeting its marks requirement, while UCEED permits candidates from all streams for the examination, although participating B.Des institutes can set programme-specific subject conditions.",
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+        "https://www.uceed.iitb.ac.in/2026/eligibility-exam.html",
+        "https://www.uceed.iitb.ac.in/2026/eligibility-admission.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "subjects",
+      "heading": "What students study in the PCM stream",
+      "paragraphs": [
+        "Science—PCM is normally undertaken in Classes XI and XII after Class 10. It centres on Physics, Chemistry and Mathematics, but the exact subject package, language requirement, additional elective, practical work and assessment scheme depend on the board and school. For example, CBSE’s 2026–27 senior-secondary curriculum places Physics, Chemistry and Mathematics among academic electives and separately lists languages and internal-assessment subjects.",
+        "The academic profile is strongly quantitative and includes conceptual study, problem-solving and experimental work. In CBSE’s Class XI Physics curriculum, the syllabus begins with measurement and moves through mechanics, gravitation, properties of matter, thermodynamics, kinetic theory, oscillations and waves; CBSE describes the subject as developing experimental, observational, investigatory, decision-making and problem-solving skills. The corresponding Mathematics curriculum includes sets and functions, algebra, coordinate geometry, calculus, statistics and probability."
+      ],
+      "bullets": [
+        "Confirm whether the school offers Mathematics (rather than only Applied Mathematics), Physics and Chemistry together, and obtain its exact Class XI subject-combination rules before enrolment.",
+        "Treat laboratory attendance, practical records and board-specific assessment requirements as part of the stream, not as optional extras.",
+        "Check the current syllabus issued by the student’s own board; the CBSE examples describe CBSE, not a universal national syllabus."
+      ],
+      "source_urls": [
+        "https://cbseacademic.nic.in/curriculum_2027.html",
+        "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Physics_SecP2_2026-27.pdf",
+        "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Maths_SecP2_2026-27.pdf"
+      ]
+    },
+    {
+      "key": "selection_considerations",
+      "heading": "How to decide whether PCM is a good fit",
+      "paragraphs": [
+        "PCM is an especially practical choice when a student wants to preserve eligibility for programmes that expressly require Mathematics with Physics and Chemistry. For the 2026 cycle, JEE (Advanced) requires Physics, Chemistry and Mathematics as compulsory Class XII subjects; BITS Pilani’s B.E. and M.Sc. eligibility requires Physics, Chemistry and Mathematics among five Class XII subjects; and VIT’s published PCM route is eligible for all of its B.Tech programmes. These are programme-specific rules, not a universal guarantee of admission.",
+        "Architecture is another reason to retain Mathematics. The Council of Architecture’s 2026 B.Arch criteria require Physics and Mathematics at 10+2 plus an approved third subject, and specify that qualifying NATA alone does not create a right to admission. Conversely, students should not select PCM solely because it is perceived as the only route to higher education: CLAT and UCEED illustrate routes whose examination eligibility is not universally PCM-only.",
+        "A sound choice therefore combines genuine readiness for sustained mathematics and science study with a shortlist of intended courses and entrance routes. Before finalising subjects, compare the currently published eligibility rules for each target institution or examination, since requirements, thresholds, attempts, age rules, reservations and counselling procedures can change by admission cycle."
+      ],
+      "bullets": [
+        "Choose PCM if you are willing to practise mathematical problem-solving regularly and to complete theory and practical work in Physics and Chemistry.",
+        "If engineering is a target, map Class XII subjects early against JEE (Main), JEE (Advanced), BITSAT, state examinations and target-university rules rather than assuming that one examination covers every college.",
+        "If B.Arch is a target, retain Mathematics and review the Council of Architecture rules plus the relevant state/institution admission process.",
+        "Keep a separate list of deadlines and eligibility rules for each exam; do not infer eligibility from the name of a stream alone."
+      ],
+      "source_urls": [
+        "https://jeeadv.ac.in/eligibility.html",
+        "https://admissions.bits-pilani.ac.in/FD/BITSAT_eligibility.html",
+        "https://viteee.vit.ac.in/",
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+        "https://www.uceed.iitb.ac.in/2026/eligibility-exam.html"
+      ]
+    },
+    {
+      "key": "future_routes",
+      "heading": "Routes available after Class XII PCM",
+      "paragraphs": [
+        "Engineering and quantitative undergraduate routes are the most direct continuation. JEE (Main) has B.E./B.Tech and B.Arch/B.Planning papers; candidates meeting the relevant JEE (Main) criteria may progress to JEE (Advanced), whose 2026 Indian-national eligibility requires a top-2,50,000 position in the JEE (Main) B.E./B.Tech paper and Class XII PCM. Other major routes include BITSAT for BITS first-degree programmes, VITEEE for VIT B.Tech admissions, and WBJEE for undergraduate engineering, technology, pharmacy and architecture admissions in West Bengal. Eligibility, marks thresholds, examination patterns and counselling rules are cycle-specific.",
+        "For B.Arch, students can use NATA or the JEE route where accepted by the competent admission authority, while also satisfying the Council of Architecture’s Class XII subject and marks requirements. PCM is also relevant to some defence technical opportunities: the Indian Navy’s published Agniveer SSR eligibility requires 10+2 Mathematics and Physics, subject to its stated marks, fitness and recruitment conditions.",
+        "PCM does not prevent movement to broader options. B.Sc and BCA admission requirements are set by the admitting university or college; CUET-UG and institution-level admission criteria should be checked course by course. It can also coexist with applications to law, design and overseas admissions, but these routes have independent entrance, subject, score and institutional requirements rather than a single PCM-based rule."
+      ],
+      "bullets": [
+        "B.Tech / engineering: JEE Main, JEE Advanced, BITSAT, VITEEE, WBJEE and institution-specific admissions.",
+        "B.Arch / architecture: NATA or the applicable JEE route, followed by the competent authority’s admission process.",
+        "B.Sc and BCA: verify the target university’s current programme-level subject eligibility and its accepted admission route, including CUET-UG where applicable.",
+        "Defence: review the live recruitment notice for the particular service and entry; PCM may meet academic requirements for some technical entries, but does not replace physical, medical, age or other selection criteria.",
+        "Law, design and overseas routes: PCM students may apply where their individual qualifying and test rules are met; CLAT and UCEED eligibility demonstrate that these are not inherently PCM-exclusive."
+      ],
+      "source_urls": [
+        "https://jeemain.nta.nic.in/",
+        "https://jeeadv.ac.in/eligibility.html",
+        "https://admissions.bits-pilani.ac.in/FD/BITSAT_eligibility.html",
+        "https://viteee.vit.ac.in/",
+        "https://wbjeeb.nic.in/wbjee/",
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+        "https://www.joinindiannavy.gov.in/files/Eligibility_Criteria.pdf",
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+        "https://www.uceed.iitb.ac.in/2026/eligibility-exam.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CBSE 2026–27 senior-secondary curriculum",
+      "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+      "kind": "official curriculum"
+    },
+    {
+      "label": "JEE (Main) official portal",
+      "url": "https://jeemain.nta.nic.in/",
+      "kind": "official examination portal"
+    },
+    {
+      "label": "JEE (Advanced) 2026 eligibility",
+      "url": "https://jeeadv.ac.in/eligibility.html",
+      "kind": "official examination eligibility"
+    },
+    {
+      "label": "NATA 2026 brochure — Council of Architecture",
+      "url": "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+      "kind": "official professional-body brochure"
+    },
+    {
+      "label": "CUET-UG official portal",
+      "url": "https://exams.nta.ac.in/CUET-UG/",
+      "kind": "official examination portal"
+    },
+    {
+      "label": "UPSC examinations portal — NDA & NA notifications",
+      "url": "https://www.upsc.gov.in/examinations/active-exams",
+      "kind": "official government examination portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

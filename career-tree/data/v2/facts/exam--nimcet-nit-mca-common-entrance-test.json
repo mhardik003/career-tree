@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "NIMCET is the national-level common entrance test used for MCA admission at participating NITs and IIITs; for the 2026–27 cycle, admission at 11 NITs and 2 IIITs is based on NIMCET-2026 rank.",
+      "source_urls": [
+        "https://nimcet.admissions.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "label": "2026 eligibility",
+      "value": "Indian nationals need either a minimum three-year undergraduate degree with Mathematics or Statistics as a subject, or a B.E./B.Tech.; the required aggregate is 60% or 6.5/10 CGPA, reduced to 55% or 6.0/10 for SC/ST/PwD candidates.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "label": "Test format (2026)",
+      "value": "The computer-based test is a single, two-hour paper with 120 English-language MCQs: Mathematics (50), Analytical Ability and Logical Reasoning (40), Computer Awareness (20), and General English (10).",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "label": "Scoring (2026)",
+      "value": "The paper carries 1,000 weighted marks. Each wrong answer attracts a 25% negative mark for that question, while unanswered questions have no deduction.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "label": "2026 application-fee context",
+      "value": "For the 2026 test, the non-refundable application processing fee was ₹2,500 for OPEN/OPEN-EWS/OBC candidates and ₹1,250 for SC/ST and PwD candidates. Fees and future-cycle dates can change, so applicants should use the current official brochure.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and participating institutions",
+      "paragraphs": [
+        "NIMCET is the common national entrance route for MCA programmes at the participating institutes. In the 2026–27 admission cycle, the official portal identifies 11 NITs—Agartala, Allahabad, Bhopal, Delhi, Jamshedpur, Kurukshetra, Meghalaya, Patna, Raipur, Tiruchirappalli and Warangal—and IIIT Bhopal and IIIT Vadodara. Admission is determined through the NIMCET rank and the candidate’s online institute choices, rather than through a separate state quota."
+      ],
+      "bullets": [
+        "The 2026 brochure states that there is no separate state-wise quota.",
+        "Reservation for SC, ST, OBC, EWS and PwD is governed by Government of India rules.",
+        "The MCA curricula are described by the coordinating authority as being designed with IT-sector needs in mind; this describes programme intent, not a guarantee of placement or salary."
+      ],
+      "source_urls": [
+        "https://nimcet.admissions.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "For NIMCET 2026, eligibility to sit the test required Indian nationality and either: (1) a minimum three-year undergraduate programme in which Mathematics or Statistics was a subject, or (2) a B.E./B.Tech. from a recognised university or institution. Candidates needed at least 60% aggregate marks or 6.5 CGPA on a 10-point scale; the threshold was 55% or 6.0 CGPA for SC/ST/PwD candidates."
+      ],
+      "bullets": [
+        "Candidates appearing in their qualifying undergraduate examination could apply, but had to submit proof of meeting the requirements by September 30, 2026 for that cycle.",
+        "A minimum three-year bachelor’s programme completed through an open university could qualify when the programme had the approvals specified in the brochure.",
+        "Eligibility to take the test does not itself secure MCA admission: only candidates who receive a NIMCET rank are eligible for admission in the participating institutes."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam pattern and ranking",
+      "paragraphs": [
+        "In the 2026 cycle, NIMCET was a computer-based, single-paper examination lasting two hours. The sections were time-locked: Mathematics had 50 questions in 70 minutes; Analytical Ability and Logical Reasoning had 40 questions in 30 minutes; and Computer Awareness plus General English had 20 and 10 questions respectively in the final 20 minutes. Candidates could not move back to a prior section after its time expired."
+      ],
+      "bullets": [
+        "Mathematics: 12 marks for a correct answer and 3 marks deducted for a wrong answer.",
+        "Analytical Ability and Logical Reasoning, and Computer Awareness: 6 marks for a correct answer and 1.5 marks deducted for a wrong answer.",
+        "General English: 4 marks for a correct answer and 1 mark deducted for a wrong answer.",
+        "A candidate with zero or negative marks in Mathematics or in the total score is disqualified from ranking. Rankings use total weighted marks; ties are first resolved using Mathematics marks, then Analytical Ability and Logical Reasoning, then Computer Awareness, followed by age and computerised random sampling if necessary."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and counselling process",
+      "paragraphs": [
+        "The 2026 process was online. Applicants registered with a personal email address and mobile number, completed personal and academic details, selected three test-centre preferences, uploaded required documents, paid the application-processing fee, and downloaded the final submitted application form carrying its registration number. The 2026 application window ran from March 3, 2026 to May 1, 2026 at 5:00 PM IST, so those dates are historical rather than a timetable for a future cycle."
+      ],
+      "bullets": [
+        "For 2026, required uploads included a photograph, signature, academic marksheets/grade cards and certificates, identity proof, and applicable category certificates.",
+        "After qualifying, candidates applied separately for online counselling, filled and locked institute choices, and could be allotted a seat based on NIMCET rank, preferences and seat availability.",
+        "For the 2026 counselling process, the brochure specified a ₹1,000 counselling registration fee and a ₹10,000 seat-acceptance fee after allotment. These are cycle-specific amounts and may be revised.",
+        "Candidates should rely on the official NIMCET portal and current information brochure for future deadlines, document rules, fees, test centres and counselling instructions."
+      ],
+      "source_urls": [
+        "https://nimcet.admissions.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "A practical preparation plan should mirror the official blueprint: devote the largest share of study and timed practice to Mathematics because it has 50 questions, the longest section, the largest marks allocation, and priority in the rank tie-break rules. This is a preparation recommendation inferred from the official 2026 pattern, not an official prescribed study plan."
+      ],
+      "bullets": [
+        "Build Mathematics coverage around set theory and logic, probability and statistics, algebra, coordinate geometry, calculus and trigonometry.",
+        "Practise timed reasoning sets covering verbal and non-verbal reasoning, puzzles, seating arrangements, syllogisms, data interpretation, numerical reasoning and data sufficiency.",
+        "Review computer fundamentals, data representation, hardware, operating systems, internet/email and basic online security; also practise reading comprehension, vocabulary, grammar and technical-expression questions.",
+        "Use full-length computer-based mocks with the official 70/30/20-minute section timing. Include accuracy review because wrong answers carry 25% negative marking and unanswered questions do not attract a deduction."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a NIMCET result enables",
+      "paragraphs": [
+        "A qualifying NIMCET result produces a rank, which enables the candidate to participate in the MCA counselling and choice-filling process for the participating institutes. Final allotment depends on the NIMCET rank, the institutes selected by the candidate and seat availability; it is not automatic merely because a candidate took the test."
+      ],
+      "bullets": [
+        "The immediate education outcome is admission consideration for a participating MCA programme.",
+        "The 2026 brochure describes MCA graduates as having potential for IT-sector jobs, while the official site says the participating MCA curricula are designed with the needs of IT firms in India and abroad in view. Specific job outcomes, employers and compensation vary by institute, skills, experience and labour-market conditions.",
+        "Programme fees vary materially by institute and scheme. The 2026 brochure directs candidates to each institute’s official website for complete fee details, particularly where listed figures are tuition-only or subject to revision."
+      ],
+      "source_urls": [
+        "https://nimcet.admissions.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official NIMCET admissions portal",
+      "url": "https://nimcet.admissions.nic.in/",
+      "kind": "official portal"
+    },
+    {
+      "label": "NIMCET 2026 information brochure",
+      "url": "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2026/02/202602271304076377.pdf",
+      "kind": "official brochure"
+    },
+    {
+      "label": "NIMCET 2026 schedule",
+      "url": "https://nimcet.admissions.nic.in/document/schedule-3/",
+      "kind": "official schedule"
+    },
+    {
+      "label": "NIMCET 2026 syllabus",
+      "url": "https://nimcet.admissions.nic.in/document/syllabus-2026/",
+      "kind": "official syllabus"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "The United States Medical Licensing Examination (USMLE) is a three-exam sequence—Step 1, Step 2 Clinical Knowledge (CK), and Step 3—and is a joint program of the Federation of State Medical Boards (FSMB) and the National Board of Medical Examiners (NBME).",
+      "source_urls": [
+        "https://www.usmle.org/usmle-privacy-policy",
+        "https://www.usmle.org/bulletin-information/overview"
+      ]
+    },
+    {
+      "label": "Eligibility for Indian/other international medical students and graduates",
+      "value": "For Step 1 and Step 2 CK, an applicant from a medical school outside the United States must be enrolled in or a graduate of a school listed in the World Directory of Medical Schools as meeting ECFMG eligibility requirements, and must meet other ECFMG criteria. Step 3 additionally requires passing Steps 1 and 2 CK, an eligible medical degree, and a valid, unexpired ECFMG Certificate for international graduates.",
+      "source_urls": [
+        "https://www.usmle.org/2026-bulletin-information-addendum"
+      ]
+    },
+    {
+      "label": "Where the exams are taken",
+      "value": "Step 1 and Step 2 CK are administered worldwide at Prometric testing locations; Step 3 is administered only in the United States.",
+      "source_urls": [
+        "https://www.usmle.org/performance-data",
+        "https://www.usmle.org/bulletin-information/applying-scheduling"
+      ]
+    },
+    {
+      "label": "Application route for international applicants",
+      "value": "Since the 2026 USMLE service transition, eligible students and graduates of medical schools outside the United States apply for Steps 1, 2 CK, and 3 through the FSMB USMLE portal; ECFMG continues to determine ECFMG Certification eligibility.",
+      "source_urls": [
+        "https://www.usmle.org/2026-bulletin-information-addendum",
+        "https://usmle.fsmb.org/licensure/licensure"
+      ]
+    },
+    {
+      "label": "Fees (variable; 2026–27 published schedule)",
+      "value": "The published 2026–27 base fees are US$695 for Step 1, US$695 for Step 2 CK, and US$955 for Step 3. For Step 1 or Step 2 CK taken outside the US/Canada, region fees apply; for the India testing region, the USMLE program states that an 18% Indian OIDAR GST is collected for Steps 1 and 2. Fees and taxes can change.",
+      "source_urls": [
+        "https://www.usmle.org/apply-exams"
+      ]
+    },
+    {
+      "label": "Score reporting",
+      "value": "Step 1 is reported pass/fail for exams administered on or after January 26, 2022. Step 2 CK and Step 3 use three-digit scores plus pass/fail outcomes; the currently published minimum passing scores are 218 for Step 2 CK (effective July 1, 2025) and 200 for Step 3 (effective January 1, 2024), subject to periodic review.",
+      "source_urls": [
+        "https://www.usmle.org/scores-transcripts/examination-results-and-scoring"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and place in a medical career pathway",
+      "paragraphs": [
+        "USMLE assesses progressively different competencies relevant to medical practice in the United States. Step 1 focuses on applying foundational sciences to medicine; Step 2 CK assesses application of clinical science and patient-centred skills for care under supervision; Step 3 assesses knowledge and skills needed when assuming independent responsibility for general medical care, with emphasis on ambulatory patient management.",
+        "For graduates of MBBS programs outside the United States, passing Step 1 and Step 2 CK satisfies ECFMG’s current medical-science examination requirement for ECFMG Certification. Certification also has separate clinical-skills and communication-skills requirements, currently addressed through an applicable ECFMG Pathway and satisfactory OET Medicine performance. USMLE results alone do not constitute a US medical licence; Step 3 and state-specific licensing requirements remain relevant."
+      ],
+      "bullets": [
+        "The examination sequence is particularly relevant to Indian MBBS students and graduates seeking ECFMG Certification, US residency training, and eventual state medical licensure.",
+        "Step 3 eligibility for an international medical graduate requires ECFMG Certification and a valid, unexpired ECFMG Certificate; USMLE recommends that applicants have completed, or be near completion of, at least one year of accredited US postgraduate training before Step 3."
+      ],
+      "source_urls": [
+        "https://www.usmle.org/step-exams/step-1",
+        "https://www.usmle.org/step-exams/step-2-ck/step-2-ck-exam-content",
+        "https://www.usmle.org/exam-resources",
+        "https://portal.ecfmg.org/certification-pathways/",
+        "https://www.usmle.org/2026-bulletin-information-addendum"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "At both application and test date, Step 1 and Step 2 CK candidates must be enrolled in or graduates of an eligible US MD/DO program, or—if studying outside the United States—enrolled in or graduates of a medical school listed in the World Directory of Medical Schools as meeting ECFMG eligibility requirements and meeting ECFMG’s other criteria. An MBBS degree by itself is therefore not sufficient unless the medical school’s listing and the applicant’s status meet the applicable ECFMG requirements.",
+        "For Step 3, candidates must have passed Step 1 and Step 2 CK and meet degree requirements. International graduates must have the equivalent medical degree from an eligible non-US school, ECFMG Certification, and a valid, unexpired ECFMG Certificate, in addition to all other Bulletin requirements."
+      ],
+      "bullets": [
+        "Check the specific medical school’s World Directory listing and ECFMG eligibility notation before making an exam plan or paying fees.",
+        "Eligibility rules and ECFMG Certification processes can change; applicants should use the current USMLE Bulletin and ECFMG materials for the intended testing year."
+      ],
+      "source_urls": [
+        "https://www.usmle.org/2026-bulletin-information-addendum",
+        "https://www.usmle.org/apply-exams"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and testing locations",
+      "paragraphs": [
+        "As of the 2026 testing-software update, Step 1 is a one-day, approximately eight-hour examination with up to 280 items arranged in fourteen 30-minute blocks. Step 2 CK is a one-day, approximately nine-hour examination with up to 318 items in sixteen 30-minute blocks. Both are computer-based examinations administered at Prometric centres.",
+        "Step 3 is taken over two days and is available only in the United States. Under the updated format, Day 1 has up to 232 multiple-choice items in twelve 30-minute blocks over approximately seven hours. Day 2 has up to 180 multiple-choice items in nine 30-minute blocks plus 13–14 computer-based case simulations, over approximately nine hours.",
+        "Step 1 and Step 2 CK can be taken internationally, including in the India testing region where available. Test-centre availability, scheduling windows, local fees, and appointment dates are variable and must be checked in the official scheduling system."
+      ],
+      "bullets": [
+        "Step 3 includes computer-based case simulations; performance on them contributes to the Step 3 score and can affect pass/fail outcome.",
+        "All three exams use the updated testing software as of May 14, 2026; candidates should complete the relevant official interactive testing experience before test day."
+      ],
+      "source_urls": [
+        "https://www.usmle.org/step-exams/step-1",
+        "https://www.usmle.org/step-exams/step-2-ck/step-2-ck-exam-content",
+        "https://www.usmle.org/exam-resources",
+        "https://www.usmle.org/performance-data",
+        "https://www.usmle.org/test-delivery-software-updates-place-step-1"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and scheduling process",
+      "paragraphs": [
+        "For medical students and graduates of schools outside the United States, the current process is to apply through FSMB’s USMLE portal. Applicants submit the application and non-refundable fees; FSMB verifies eligibility and issues a scheduling permit. After registration is completed and the permit is available, the candidate schedules an appointment with Prometric.",
+        "ECFMG still determines whether international medical students and graduates are eligible for ECFMG Certification. Accordingly, applicants should resolve school eligibility and ECFMG-related requirements early, before choosing dates or committing to non-refundable exam fees.",
+        "Published 2026–27 base fees are US$695 for each of Step 1 and Step 2 CK and US$955 for Step 3. International testing-region fees may apply to Steps 1 and 2 CK; the official USMLE page identifies a US$210 region fee for Step 1 and US$235 for Step 2 CK outside the US and Canada, plus India-specific OIDAR GST where applicable. These are dated figures and should be rechecked when applying."
+      ],
+      "bullets": [
+        "For international applicants, use FSMB—not the former ECFMG USMLE application route—for USMLE registration under the 2026 service transition.",
+        "Read the current USMLE Bulletin of Information before each registration, because requirements and procedures may be updated.",
+        "Step 3 is not administered during the first 14 days of January; actual available dates appear in the scheduling system."
+      ],
+      "source_urls": [
+        "https://usmle.fsmb.org/licensure/licensure",
+        "https://www.usmle.org/2026-bulletin-information-addendum",
+        "https://www.usmle.org/apply-exams"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Start with the official content outline and Step-specific test specifications, then use the USMLE interactive testing experience to learn the current software and item formats. USMLE explicitly directs examinees to use the content outlines and physician tasks/competencies documents for study and requires familiarity with the applicable interactive testing experience before test day.",
+        "Preparation should match the Step. Step 1 requires integrated foundational-science reasoning; Step 2 CK focuses on clinical knowledge, patient care under supervision, health promotion, and disease prevention; Step 3 requires clinical decision-making for independent general medical care and includes case simulations. For Step 3, practise both multiple-choice clinical reasoning and the official case-simulation interface.",
+        "Use only legitimate preparation resources. Reconstructing, reproducing, or distributing recalled USMLE items breaches examination security and USMLE intellectual-property rules."
+      ],
+      "bullets": [
+        "Complete the official interactive test for the current software version, rather than relying on an old tutorial or screenshots.",
+        "Use a timed practice plan that reflects the shorter 30-minute blocks introduced in 2026.",
+        "For Step 3, include repeated practice of computer-based case simulations and review how patient-management actions affect simulated cases."
+      ],
+      "source_urls": [
+        "https://www.usmle.org/step-exams/step-1",
+        "https://www.usmle.org/exam-resources/step-2-ck-materials/step-2-ck-test-question-formats",
+        "https://www.usmle.org/exam-resources/step-3-materials/step-3-formats-questions",
+        "https://www.usmle.org/exam-resources",
+        "https://www.usmle.org/bulletin-information/overview"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Results and next steps",
+      "paragraphs": [
+        "USMLE provides a recommended pass/fail outcome for each Step. Step 1 is reported pass/fail; Step 2 CK and Step 3 report a three-digit score and a pass/fail outcome. As of the currently published standards, Step 2 CK’s minimum passing score is 218 and Step 3’s is 200, but passing standards are periodically reviewed and may change.",
+        "Results are typically available two to four weeks after the test date, but the USMLE program advises allowing at least eight weeks for notification because reporting can be delayed. For international applicants registered through FSMB, score reports are delivered through the FSMB USMLE portal.",
+        "For an international medical graduate, passing Steps 1 and 2 CK contributes to the medical-science examination requirement for ECFMG Certification. Completing ECFMG Certification requires additional requirements, including the applicable Pathway and OET Medicine under the current ECFMG Pathways framework. Step 3 can then be pursued once its separate eligibility conditions are met."
+      ],
+      "bullets": [
+        "Do not treat a published passing score as permanent; verify the standard in force for the planned test date.",
+        "Allow extra time before residency, credentialing, visa, or other deadline-sensitive plans because score reporting is not expedited.",
+        "A passing USMLE result is an important credentialing milestone, but state medical boards set licensure requirements independently."
+      ],
+      "source_urls": [
+        "https://www.usmle.org/scores-transcripts/examination-results-and-scoring",
+        "https://www.usmle.org/2026-bulletin-information-addendum",
+        "https://portal.ecfmg.org/certification-pathways/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "USMLE: Apply for Exams and current fee schedule",
+      "url": "https://www.usmle.org/apply-exams",
+      "kind": "official application information"
+    },
+    {
+      "label": "USMLE 2026 Bulletin service-transition addendum",
+      "url": "https://www.usmle.org/2026-bulletin-information-addendum",
+      "kind": "official eligibility and registration policy"
+    },
+    {
+      "label": "FSMB USMLE portal for international medical graduates",
+      "url": "https://usmle.fsmb.org/licensure/licensure",
+      "kind": "official registration portal"
+    },
+    {
+      "label": "USMLE exam resources and official interactive tests",
+      "url": "https://www.usmle.org/exam-resources",
+      "kind": "official preparation resource"
+    },
+    {
+      "label": "ECFMG 2027 Pathways requirements",
+      "url": "https://portal.ecfmg.org/certification-pathways/",
+      "kind": "official ECFMG Certification information"
+    },
+    {
+      "label": "USMLE scores and transcripts",
+      "url": "https://www.usmle.org/scores-transcripts/examination-results-and-scoring",
+      "kind": "official scoring information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

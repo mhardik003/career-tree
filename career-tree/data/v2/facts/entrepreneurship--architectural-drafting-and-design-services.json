@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Diploma baseline",
+      "value": "Council of Architecture (CoA) diploma guidelines set Architectural Assistantship/Architecture diploma study at a minimum of 3 academic years (6 semesters) and require passing Class 10 or an equivalent examination for admission.",
+      "source_urls": [
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179"
+      ]
+    },
+    {
+      "label": "Professional-title boundary",
+      "value": "A diploma course is not a recognised qualification for registration with the CoA under section 25 of the Architects Act; separately, section 37 restricts use of the title and style “architect” to a registered architect or firm of architects.",
+      "source_urls": [
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=134&sublinkid=120"
+      ]
+    },
+    {
+      "label": "Core service outputs",
+      "value": "Architectural-drafting work can include 2D CAD drawings, 3D/IFC model files, working drawings, plans, elevations, sections and visual presentation material; the exact output and software-file protocol depend on the client and approving authority.",
+      "source_urls": [
+        "https://swcs.rajasthan.gov.in/BPAS/PRECHECK.ASPX",
+        "https://urise.up.gov.in/resources/profile_image/syllabus/2025-26/318_2025_26.pdf"
+      ]
+    },
+    {
+      "label": "Approval-submission reality",
+      "value": "Building-permission workflows are local. For example, Greater Chennai Corporation routes applications through registered architects or registered engineers, while Rajasthan BPAS accepts drawing pre-check uploads in DWG (2D) and IFC (3D) formats.",
+      "source_urls": [
+        "https://chennaicorporation.gov.in/gcc/department/town-planning/",
+        "https://swcs.rajasthan.gov.in/BPAS/PRECHECK.ASPX"
+      ]
+    },
+    {
+      "label": "Business formalisation context",
+      "value": "Udyam registration is an official, free, paperless, self-declaration MSME registration process. GST registration obligations should be checked against the business’s aggregate turnover, state and transaction-specific exceptions; CBIC’s published general threshold is above ₹20 lakh, with ₹10 lakh stated for special-category states.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/",
+        "https://cbic-gst.gov.in/sectoral-faq.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entry route: build a drafting-services practice without misrepresenting professional status",
+      "paragraphs": [
+        "The immediate educational base is the Diploma in Architectural Assistantship. CoA’s 2022 guidelines prescribe a minimum three-year programme and Class 10/equivalent entry requirement. The curriculum framework is specifically for diploma education and says that such a diploma is not, by itself, a recognised qualification for CoA registration under section 25 of the Architects Act.",
+        "A viable entrepreneurship route is therefore to offer clearly described technical services—such as CAD drafting, working-drawing production, 3D/BIM model support, quantity/schedule-ready documentation, visualisation and drawing-format conversion—under a business name that does not imply CoA architect registration. If the business needs to lodge, certify or sign a plan in a jurisdiction that requires a registered professional, work through the appropriately registered architect, engineer or local-authority empanelled professional."
+      ],
+      "bullets": [
+        "Complete the diploma and develop a portfolio showing accurately dimensioned plans, elevations, sections, details, working drawings and model outputs.",
+        "State the engagement scope in writing: drafting/model-production support versus design responsibility, site verification, structural design, certification and statutory submission.",
+        "Use designations such as architectural drafter, CAD technician, BIM modeller or design-services provider unless entitled to use the protected “architect” title."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=134&sublinkid=120",
+        "https://chennaicorporation.gov.in/gcc/department/town-planning/"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities to productise",
+      "paragraphs": [
+        "The diploma pathway supports a practical services portfolio: working drawings for design schemes, plans and elevations for interiors, physical/model-based presentation, and CAD submissions. A current Uttar Pradesh diploma curriculum, for example, requires working drawings and AutoCAD-based submissions, while Rajasthan’s BPAS pre-check system explicitly supports DWG 2D files and IFC 3D files.",
+        "For higher-value repeat work, standardise drawing layers, title blocks, scales, revision control, file naming, drawing registers and client handover folders. This is particularly useful where submissions pass through automated scrutiny systems that impose drawing protocols and pre-check requirements."
+      ],
+      "bullets": [
+        "2D drafting: site plans, floor plans, elevations, sections, schedules and construction-detail sheets.",
+        "3D/BIM support: base-model creation, model cleanup, IFC exports and coordinated drawing extraction, subject to the lead professional’s review.",
+        "Approval-document support: authority-specific drawing templates, DWG/IFC pre-check preparation and response-drawing revisions.",
+        "Presentation support: interior layouts, perspectives, rendered boards and client-ready drawing sets."
+      ],
+      "source_urls": [
+        "https://urise.up.gov.in/resources/profile_image/syllabus/2025-26/318_2025_26.pdf",
+        "https://swcs.rajasthan.gov.in/BPAS/PRECHECK.ASPX"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating model: separate production work from regulated approval responsibility",
+      "paragraphs": [
+        "A prudent small-firm model is to sell drawing-production packages to architects, engineers, contractors, interior practices, developers and owners, while allocating statutory responsibility to the professional authorised by the relevant local authority. This distinction is important because approval workflows can require a registered architect or registered engineer to inspect the site, prepare the drawing, enter registration information and submit the application online.",
+        "For direct-to-owner projects, the business can coordinate document collection and produce drawings, but should establish at the outset who will perform site measurement, code/byelaw review, structural design, professional certification and portal submission. The Greater Chennai Corporation process illustrates why: it assigns drawing preparation, site visit, compliance submission and registration details to the registered architect/registered engineer, and requires supporting land, NOC and structural-stability documents in relevant cases."
+      ],
+      "bullets": [
+        "Use a written proposal that identifies deliverables, number of revisions, source-data responsibility, turnaround time, ownership of editable files and professional sign-off requirements.",
+        "Maintain a referral or subcontract network of CoA-registered architects, registered engineers, structural engineers, surveyors and MEP specialists appropriate to the city and project type.",
+        "Build authority-specific checklists rather than treating one city’s rules, portal formats or approval roles as applicable across India."
+      ],
+      "source_urls": [
+        "https://chennaicorporation.gov.in/gcc/department/town-planning/",
+        "https://adaamritsar.gov.in/en/how-do-i/obtain-approval-for-building-plans",
+        "https://swcs.rajasthan.gov.in/BPAS/PRECHECK.ASPX"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance: title protection, local professional rules and business registrations",
+      "paragraphs": [
+        "Do not market the proprietorship, partnership or individual as an “architect” unless the relevant person is registered with the CoA; section 37 of the Architects Act restricts the title and style to a registered architect or firm of architects. CoA’s diploma guidelines also expressly say that diploma instruction is not to be construed as a recognised qualification for CoA registration.",
+        "Check the municipal/development-authority process before accepting “submission drawing” work. Requirements differ: Amritsar Development Authority describes situations in which drawings carry the signature of a CoA-registered architect and self-certification is limited to empanelled architects, while Greater Chennai Corporation’s online workflow uses registered architects or registered engineers. A drafting business should not promise approval, certification or authority sign-off unless it is entitled and engaged to provide it.",
+        "For enterprise formalisation, Udyam registration is available through the Ministry of MSME’s official portal and is stated to be free, paperless and self-declaration based. Tax treatment is fact-specific: CBIC’s published guidance states a general GST registration threshold above ₹20 lakh aggregate turnover, with a ₹10 lakh threshold stated for special-category states, and notes exceptions; obtain current professional tax advice before invoicing with GST or relying on a threshold."
+      ],
+      "bullets": [
+        "Verify local empanelment/licensing requirements for every approving authority and project category.",
+        "Use engagement documents that identify the registered professional responsible for certification, signing and portal submission.",
+        "Keep client permissions, source surveys, drawing revisions, issue records and final approved-plan copies in the project file.",
+        "Use only the official Udyam portal for MSME registration; the Ministry warns against private parties presenting themselves as authorised registrars."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=134&sublinkid=120",
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+        "https://adaamritsar.gov.in/en/how-do-i/obtain-approval-for-building-plans",
+        "https://chennaicorporation.gov.in/gcc/department/town-planning/",
+        "https://udyamregistration.gov.in/",
+        "https://cbic-gst.gov.in/sectoral-faq.html"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths",
+      "paragraphs": [
+        "The business can deepen technically by moving from standalone 2D drafting into coordinated CAD/BIM production, authority-protocol documentation and repeatable drawing standards for other practices. Rajasthan BPAS’s acceptance of DWG and IFC files is one official example of the value of maintaining both 2D and interoperable 3D-model capability.",
+        "For a person whose long-term goal is to use the protected architect title and take on the corresponding professional role, the regulatory route is different from simply gaining drafting experience: section 25 ties CoA registration to holding a recognised qualification (subject to the Act’s provisions), and the CoA diploma guidelines state that the diploma is not such a recognised qualification. That makes a recognised architecture qualification and subsequent CoA registration the relevant progression to investigate, rather than treating the diploma itself as registration-qualifying."
+      ],
+      "bullets": [
+        "Specialise in BIM/CAD production for architecture, structure or MEP teams while maintaining clear coordination and review workflows.",
+        "Develop recurring business from architecture and engineering firms that need overflow drafting, as-built documentation or submission-package production.",
+        "Progress into a recognised architecture qualification and CoA registration only if the intended service model requires lawful use of the “architect” title or work reserved by local approval processes for registered professionals."
+      ],
+      "source_urls": [
+        "https://swcs.rajasthan.gov.in/BPAS/PRECHECK.ASPX",
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=133&sublinkid=119",
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Council of Architecture — Diploma Course Guidelines, 2022",
+      "url": "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+      "kind": "regulator_guideline"
+    },
+    {
+      "label": "Council of Architecture — Architects Act provisions, including section 37",
+      "url": "https://coa.gov.in/index1.php?lang=1&level=2&lid=134&sublinkid=120",
+      "kind": "regulator_law"
+    },
+    {
+      "label": "Greater Chennai Corporation — Town Planning approval procedure",
+      "url": "https://chennaicorporation.gov.in/gcc/department/town-planning/",
+      "kind": "local_authority_procedure"
+    },
+    {
+      "label": "Rajasthan BPAS — drawing pre-check and upload protocol",
+      "url": "https://swcs.rajasthan.gov.in/BPAS/PRECHECK.ASPX",
+      "kind": "local_authority_portal"
+    },
+    {
+      "label": "Udyam Registration — Ministry of MSME official portal",
+      "url": "https://udyamregistration.gov.in/",
+      "kind": "government_business_registration"
+    },
+    {
+      "label": "CBIC GST sectoral FAQs",
+      "url": "https://cbic-gst.gov.in/sectoral-faq.html",
+      "kind": "government_tax_guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

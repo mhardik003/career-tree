@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core role",
+      "value": "A General Practitioner is the MBBS-trained physician of first contact for community primary care, with preparation for promotive, preventive, curative, rehabilitative, palliative care and referral services.",
+      "source_urls": [
+        "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FE_Compendium_of_NMC_2024%2F10.+Curriculum.pdf"
+      ]
+    },
+    {
+      "label": "Practice requirement",
+      "value": "To practise medicine in India, a doctor must be enrolled in a State Medical Register and have that enrolment reflected in the National Medical Register maintained by the Ethics and Medical Registration Board.",
+      "source_urls": [
+        "https://www.nmc.org.in/wp-content/uploads/2026/03/FAQ_NMCACT_pdf.pdf"
+      ]
+    },
+    {
+      "label": "Typical entry pathway",
+      "value": "The standard route is admission to an NMC-recognised MBBS programme through NEET (UG), followed by completion of MBBS training and the applicable registration process.",
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://www.nmc.org.in/information-desk/college-and-course-search/",
+        "https://www.nmc.org.in/wp-content/uploads/2026/03/FAQ_NMCACT_pdf.pdf"
+      ]
+    },
+    {
+      "label": "Professional framework",
+      "value": "NMC’s undergraduate framework defines the Indian Medical Graduate as a clinician, team leader/member, communicator, lifelong learner and accountable professional.",
+      "source_urls": [
+        "https://www.nmc.org.in/wp-content/uploads/2019/01/AETCOM_book.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a General Practitioner does",
+      "paragraphs": [
+        "In the Indian MBBS framework, the first-contact physician is expected to provide primary care and to contribute across promotive, preventive, curative, rehabilitative and palliative care, while using referral services when appropriate. In practical terms, this supports the canonical role of consulting patients with common conditions, making an initial clinical assessment, managing care within competence and arranging escalation or specialist referral when needed."
+      ],
+      "bullets": [
+        "Provide first-contact, person-centred clinical care for common health needs.",
+        "Support prevention, health promotion, treatment, rehabilitation and palliation within the scope of training and registration.",
+        "Recognise when referral or a higher level of care is needed, and coordinate that hand-off.",
+        "Work ethically and accountably as a registered medical practitioner."
+      ],
+      "source_urls": [
+        "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FE_Compendium_of_NMC_2024%2F10.+Curriculum.pdf",
+        "https://www.nmc.org.in/wp-content/uploads/2019/01/AETCOM_book.pdf",
+        "https://www.nmc.org.in/wp-content/plugins/wonderplugin-pdf-embed/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.nmc.org.in%2Fwp-content%2Fuploads%2F2023%2F02%2FNMC_RMP_Conduct_Regulations_2023.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route from MBBS to practice",
+      "paragraphs": [
+        "For a student entering medicine in India, NEET (UG) is the common, uniform entrance test for undergraduate medical education. Applicants should use NMC’s College and Course Search to check the recognition status and approved intake of the intended MBBS institution.",
+        "After the MBBS pathway, registration is not optional: NMC states that no person may practise medicine in India unless enrolled in a State Medical Register and reflected in the National Medical Register. Requirements, processes and documentary checks can change, so candidates should confirm the current instructions with the relevant State Medical Council and NMC registration services before applying."
+      ],
+      "bullets": [
+        "Take NEET (UG) and participate in the applicable counselling/admission process for MBBS.",
+        "Choose an MBBS programme whose recognition status can be verified in NMC’s official course-search resource.",
+        "Complete the required MBBS training, including compulsory rotating internship requirements where applicable.",
+        "Obtain State Medical Register enrolment and ensure it is reflected in the National Medical Register before independent medical practice."
+      ],
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://www.nmc.org.in/information-desk/college-and-course-search/",
+        "https://www.nmc.org.in/wp-content/uploads/2026/03/FAQ_NMCACT_pdf.pdf",
+        "https://www.nmc.org.in/rules-regulations-nmc/1000/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills and professional capabilities",
+      "paragraphs": [
+        "The NMC competency framework makes clinical capability only one part of the role. A practice-ready MBBS doctor must also communicate with patients, families, colleagues and communities; participate in healthcare teams and systems; use health information appropriately; continue learning; and act ethically, responsively and accountably.",
+        "For a General Practitioner, these capabilities translate into sound first-contact clinical reasoning, clear explanations and counselling, appropriate documentation and referral communication, collaboration with other health workers, and an active commitment to keeping knowledge and skills current."
+      ],
+      "bullets": [
+        "Clinical assessment and safe, evidence-informed primary-care decision-making.",
+        "Communication with patients, families, colleagues and community.",
+        "Teamwork, health-data use and coordination across the care system.",
+        "Ethics, accountability, professionalism and continuous learning."
+      ],
+      "source_urls": [
+        "https://www.nmc.org.in/wp-content/uploads/2019/01/AETCOM_book.pdf",
+        "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FE_Compendium_of_NMC_2024%2F10.+Curriculum.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is practised",
+      "paragraphs": [
+        "NMC’s medical-graduate framework positions the first-contact doctor in primary-care settings serving communities in both urban and rural India, and emphasises that education should be community-based as well as hospital-based. Accordingly, general practice may be carried out in community-facing primary-care services, clinics and hospital-linked outpatient settings, subject to the doctor’s registration, employer requirements and local service arrangements."
+      ],
+      "bullets": [
+        "Urban or rural community primary-care settings.",
+        "Clinic and outpatient care settings.",
+        "Hospital-linked services that need first-contact assessment, continuity and referral coordination."
+      ],
+      "source_urls": [
+        "https://www.nmc.org.in/wp-content/uploads/2018/11/UG-Curriculum-Vol-I-1.pdf",
+        "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FE_Compendium_of_NMC_2024%2F10.+Curriculum.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and further training",
+      "paragraphs": [
+        "An MBBS doctor who satisfies registration requirements can practise as a General Practitioner; postgraduate study is a development option rather than a prerequisite for the basic first-contact role. For doctors wishing to deepen broad primary-care expertise, NMC recognises M.D. (Family Medicine) among postgraduate broad-speciality qualifications.",
+        "A further route is NBEMS DNB broad-speciality training. NBEMS lists Family Medicine among its DNB disciplines and states that post-MBBS DNB training is three years, with entry after qualifying NEET-PG and through the prescribed merit-based counselling process. Exact eligibility, seat availability, examination arrangements and counselling dates are variable and should be checked in the current official bulletins."
+      ],
+      "bullets": [
+        "Continue as a registered MBBS General Practitioner while building experience in primary care.",
+        "Pursue recognised postgraduate options such as M.D. (Family Medicine), where available.",
+        "Consider the three-year post-MBBS DNB Family Medicine route through NBEMS, subject to the current NEET-PG and counselling rules.",
+        "Alternatively pursue another recognised broad specialty aligned with longer-term clinical interests."
+      ],
+      "source_urls": [
+        "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FLatestNews%2FPGMER+2023.pdf",
+        "https://natboard.edu.in/dnbbroad",
+        "https://www.nmc.org.in/wp-content/uploads/2026/03/FAQ_NMCACT_pdf.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NMC College and Course Search",
+      "url": "https://www.nmc.org.in/information-desk/college-and-course-search/",
+      "kind": "official regulator resource"
+    },
+    {
+      "label": "NEET (UG) official portal",
+      "url": "https://neet.nta.nic.in/",
+      "kind": "official examination resource"
+    },
+    {
+      "label": "NMC rules and regulations",
+      "url": "https://www.nmc.org.in/rules-regulations-nmc/",
+      "kind": "official regulator resource"
+    },
+    {
+      "label": "NBEMS DNB broad-specialty courses",
+      "url": "https://natboard.edu.in/dnbbroad",
+      "kind": "official postgraduate-training resource"
+    },
+    {
+      "label": "NMC Act FAQ on registration and practice",
+      "url": "https://www.nmc.org.in/wp-content/uploads/2026/03/FAQ_NMCACT_pdf.pdf",
+      "kind": "official regulator guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

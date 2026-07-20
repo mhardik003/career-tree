@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role pattern",
+      "value": "In India, “Research Assistant” is not a single standardized occupation: job requirements and duties are set by the sponsoring project, discipline and employer. Official ICMR and university advertisements show roles spanning health, social-science, data and technology projects.",
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.jnu.ac.in/node/159897598"
+      ]
+    },
+    {
+      "label": "Typical appointment status",
+      "value": "Many university and government-funded project Research Assistant posts are temporary, performance-linked and co-terminus with the project rather than permanent institutional posts.",
+      "source_urls": [
+        "https://www.jnu.ac.in/node/159897543",
+        "https://www.iitk.ac.in/dord/project/doms-ra-19-05-26.html"
+      ]
+    },
+    {
+      "label": "Education threshold",
+      "value": "Eligibility varies substantially: an ICMR Research Assistant advertisement accepted a relevant master’s degree or a relevant bachelor’s degree plus three years’ experience, while ICSSR-funded university posts commonly sought a relevant postgraduate degree with 55% marks plus NET/M.Phil./Ph.D. credentials.",
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.jnu.ac.in/node/159898120"
+      ]
+    },
+    {
+      "label": "Pay context, not a national salary scale",
+      "value": "Published project advertisements illustrate variable consolidated pay: ₹31,000 per month in one ICMR Research Assistant advertisement and ₹37,000 per month in several 2025–26 ICSSR-funded university advertisements. These are dated examples, not a universal salary entitlement.",
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.iitk.ac.in/dord/project/doms-ra-19-05-26.html",
+        "https://www.jnu.ac.in/node/159898120"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Research Assistant does",
+      "paragraphs": [
+        "Research Assistants support the principal investigator and project team in activities that depend on the study. In official ICMR examples, this includes compiling and collating multi-site data, conducting site visits, coordinating project activities, and contributing to scientific reports and manuscripts. Other health-research advertisements specify quantitative and qualitative data analysis, report writing and manuscript writing.",
+        "For laboratory, biomedical, engineering and data-oriented projects, the work may additionally require discipline-specific experimental, computational or analytical activity. Applicants should therefore read the project title, essential qualifications and stated duties—not the job title alone—to determine whether a vacancy is lab-based, field-based, desk-based or mixed."
+      ],
+      "bullets": [
+        "Collect, clean, collate and analyse research data.",
+        "Assist with project coordination, monitoring, meetings or site visits where required.",
+        "Prepare reports, documentation and, in some posts, manuscripts for publication.",
+        "Carry out project-specific tasks assigned by the principal investigator, which may include fieldwork, software-supported analysis or research-platform support."
+      ],
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.icmr.gov.in/icmrobject/custom_data/1708068936_advt_icmr_nims_ccva_april_2023.pdf",
+        "https://www.icmr.gov.in/icmrobject/custom_data/1708497251_advertisment_ra_st.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from the listed parent qualifications",
+      "paragraphs": [
+        "A relevant bachelor’s degree can be a route into Research Assistant work when paired with relevant experience. For example, an ICMR project advertisement accepted graduates in relevant subjects with three years’ experience, or candidates with a relevant master’s degree. This makes laboratory technician experience and project exposure potentially useful bridges for candidates from science, biotechnology, food technology, veterinary, medical-science and allied-health backgrounds.",
+        "For social-science, public-policy, law and humanities projects, university advertisements commonly specify a relevant postgraduate degree with at least 55% marks and often ask for NET/SLET, M.Phil. or Ph.D. qualifications. Accordingly, MA, LL.M. and MPH graduates should target vacancies whose discipline, methods and subject area match their training.",
+        "Technical and biomedical routes are also project-specific. A JNU biotechnology project accepted M.Sc., M.Tech., or B.Tech. candidates with two years’ experience and required prior work with biological data, analytical tools and deep-learning methods. Candidates should build evidence of the exact methods named in advertisements rather than assume that any degree alone qualifies them."
+      ],
+      "bullets": [
+        "Apply to project vacancies aligned with the subject area of the degree and any practical research experience.",
+        "Use internships, dissertations, lab technician work, field surveys, data projects or research internships to demonstrate relevant experience.",
+        "For posts that state NET, M.Phil. or Ph.D. as eligibility or preference, obtain the stated credential before applying or target positions with alternative eligibility.",
+        "Submit a tailored CV and the degree, marksheet and experience evidence requested in the advertisement; selection is commonly through shortlisting and interview."
+      ],
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.jnu.ac.in/node/159898120",
+        "https://www.jnu.ac.in/node/159897598",
+        "https://www.jnu.ac.in/node/159897592"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills employers commonly seek",
+      "paragraphs": [
+        "The strongest recurring skills in official advertisements are research-data skills and clear communication: data collection and handling, statistical or qualitative analysis, report writing, and written and verbal communication. ICMR advertisements also list MS Office and statistical-tool knowledge; an IIT Kanpur project advertisement named SPSS, R, Python, MATLAB and Mathematica as relevant tools.",
+        "The technical toolkit should follow the research area. For example, health and social-research roles may value fieldwork, survey or multi-site-study experience, while computational biology roles can require biological-data analysis and deep-learning frameworks. Build a portfolio that documents methods used, data handled, reports written and any reproducible analysis or laboratory protocols completed, while respecting confidentiality and research ethics."
+      ],
+      "bullets": [
+        "Research methods: data collection, fieldwork or laboratory/project procedures appropriate to the discipline.",
+        "Analysis: quantitative, qualitative or mixed-methods analysis; statistical software where required.",
+        "Documentation: accurate data handling, report writing and manuscript support.",
+        "Professional skills: English communication, teamwork, project coordination and the ability to follow a principal investigator’s research protocol.",
+        "Technical tools: MS Office plus domain-specific tools such as SPSS, R, Python, MATLAB or deep-learning frameworks when the vacancy specifies them."
+      ],
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.iitk.ac.in/dord/project/doms-ra-19-05-26.html",
+        "https://www.jnu.ac.in/node/159897598"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is performed",
+      "paragraphs": [
+        "Research Assistants work in universities, government research bodies, institutes and sponsored research projects. The workplace can be a campus department, research headquarters, laboratory or data-focused office; it can also involve field sites and travel. One ICMR advertisement placed the role at its New Delhi headquarters but required site visits and project work across India, including remote areas.",
+        "Work arrangements are driven by the study design. A data or AI project may be largely analytical, whereas public-health and social-science projects may require community engagement, surveys, workshops, multi-site coordination or archival research. Confirm the place of posting, travel expectations, duration and whether the role is project-co-terminus before accepting an offer."
+      ],
+      "bullets": [
+        "Academic departments and university-funded research projects.",
+        "Government and autonomous research institutions, including medical and public-health research bodies.",
+        "Laboratory, data-analysis, field-research or hybrid settings.",
+        "Temporary sponsored projects with a defined duration and specified posting location."
+      ],
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.jnu.ac.in/node/159897543",
+        "https://www.jnu.ac.in/node/159897598"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and next steps",
+      "paragraphs": [
+        "Research Assistant experience can build the methods, project-delivery record and research outputs used to pursue more advanced research roles or doctoral study, but progression is not automatic because many appointments end with the project. A current JNU project advertisement illustrates a distinct Research Associate level requiring a Ph.D. and prior research experience, alongside a Research Assistant position paid at a lower consolidated rate.",
+        "Practical progression is therefore portfolio-based: seek progressively complex responsibilities, document analytical and writing contributions, and pursue the higher qualification or specialized methods requested in target roles. Candidates seeking a stable career should also monitor permanent recruitment separately; a project Research Assistant appointment should not be assumed to convert into a permanent university or government post."
+      ],
+      "bullets": [
+        "Strengthen research experience through data analysis, field/lab methods, reports and publications where permitted.",
+        "Pursue a relevant master’s, NET or doctoral pathway when target advertisements require it.",
+        "Progress to higher project roles only when the required qualification and experience are met; titles, duties and pay differ by employer.",
+        "Treat each new project appointment as a separate recruitment opportunity unless an advertisement expressly states otherwise."
+      ],
+      "source_urls": [
+        "https://www.jnu.ac.in/career",
+        "https://www.jnu.ac.in/node/159897543",
+        "https://www.jnu.ac.in/node/159898120"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "There is no single India-wide pay figure for the Research Assistant title. As dated illustrations, an ICMR Headquarters project advertisement listed ₹31,000 per month consolidated for a Project Assistant (Research Assistant)/Project Technical Support III role, while an IIT Kanpur ICSSR project advertisement dated May 2026 listed ₹37,000 per month consolidated. A JNU biotechnology project instead listed ₹20,000 plus HRA for a temporary Research Assistant role.",
+        "Compensation must be assessed vacancy by vacancy. Compare the consolidated amount, HRA or other stated allowance, contract duration, location, travel/fieldwork expectations, eligibility level and whether the appointment is co-terminus with the funded project. Do not infer a universal salary or benefit package from these examples."
+      ],
+      "bullets": [
+        "Published pay varies by funder, discipline, qualification requirements, location and project budget.",
+        "Advertisements may specify consolidated pay, HRA, or both; benefits should not be presumed if they are not stated.",
+        "Short project duration and temporary status are material parts of total compensation context."
+      ],
+      "source_urls": [
+        "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+        "https://www.iitk.ac.in/dord/project/doms-ra-19-05-26.html",
+        "https://www.jnu.ac.in/node/159897598"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "JNU recruitment portal",
+      "url": "https://www.jnu.ac.in/career",
+      "kind": "employer_recruitment_portal"
+    },
+    {
+      "label": "ICMR Research Assistant / Project Technical Support III example advertisement",
+      "url": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1727153372_vte_ra_advt_sept2024.pdf",
+      "kind": "official_recruitment_example"
+    },
+    {
+      "label": "IIT Kanpur ICSSR Research Assistant example advertisement",
+      "url": "https://www.iitk.ac.in/dord/project/doms-ra-19-05-26.html",
+      "kind": "official_recruitment_example"
+    },
+    {
+      "label": "JNU biotechnology Research Assistant example advertisement",
+      "url": "https://www.jnu.ac.in/node/159897598",
+      "kind": "official_recruitment_example"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

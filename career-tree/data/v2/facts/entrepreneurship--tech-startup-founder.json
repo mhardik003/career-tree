@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "DPIIT recognition: eligible entity forms",
+      "value": "For DPIIT Startup Recognition, the entity must be incorporated or registered as a private limited company, registered partnership firm, LLP, or cooperative society; recognition is not the same thing as incorporation.",
+      "source_urls": [
+        "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html"
+      ]
+    },
+    {
+      "label": "DPIIT recognition: scale and age criteria",
+      "value": "As presented on the Startup India portal, non-DeepTech entities can remain within the startup definition for up to 10 years and must stay below ₹200 crore turnover in any previous financial year; the portal lists separate higher limits for DeepTech startups. These criteria and notifications can change, so founders should verify them when applying.",
+      "source_urls": [
+        "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html"
+      ]
+    },
+    {
+      "label": "Company incorporation route",
+      "value": "For a company, MCA's SPICe+ webform combines name reservation, incorporation, DIN applications, and PAN/TAN allocation; GSTIN can also be requested through the integrated process where applicable.",
+      "source_urls": [
+        "https://www.mca.gov.in/Ministry/pdf/SPICe%2B_help.pdf",
+        "https://www.mca.gov.in/content/dam/mca/pdf/SPICEplus-and-linked-filings-FAQs-V3-20230122.pdf"
+      ]
+    },
+    {
+      "label": "Structured founder learning",
+      "value": "Startup India's Learning Program is described by the portal as a free, four-week online entrepreneurship program covering idea validation, business planning, finance and legal basics, fundraising, valuation, pitching, and term sheets. Availability and platform terms should be checked at enrolment.",
+      "source_urls": [
+        "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html"
+      ]
+    },
+    {
+      "label": "Early-stage public seed-funding context",
+      "value": "The Startup India Seed Fund Scheme portal describes support, delivered through eligible incubators, for proof of concept, prototype development, product trials, market entry, and commercialisation. Eligibility, calls, and funding availability are time-sensitive and must be checked on the live scheme portal.",
+      "source_urls": [
+        "https://seedfund.startupindia.gov.in/",
+        "https://seedfund.startupindia.gov.in/faq"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entering the tech-startup-founder path",
+      "paragraphs": [
+        "A tech founder can build readiness through a technical role, an academic technology route, a management pathway, or prior small-business experience. The common practical work is to turn a customer problem into a testable venture: assess the idea against prospective customers and the market, formulate a business plan, and acquire enough legal, finance, and pitching literacy to make informed early decisions.",
+        "There is no substitute for operating evidence. A sensible entry sequence is: identify a narrowly defined problem; interview and test with intended users; create a demonstrable prototype or service; decide on an appropriate entity structure with professional advice; and then pursue customers, an incubator, mentors, or funding that fits the stage. Startup India's seed-fund materials specifically frame proof of concept, prototype development, product trials, market entry, and commercialisation as distinct early venture needs."
+      ],
+      "bullets": [
+        "Use prior software, web-development, engineering, product, sales, or business experience to identify a problem domain where the founder has genuine customer access or technical insight.",
+        "Use structured learning to cover gaps in customer validation, finance, company formation, IP, fundraising, valuation, and term sheets.",
+        "Treat incorporation as a business and compliance decision rather than proof that the venture has product-market fit; seek a chartered accountant, company secretary, or lawyer for entity-specific advice."
+      ],
+      "source_urls": [
+        "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        "https://seedfund.startupindia.gov.in/",
+        "https://www.mca.gov.in/Ministry/pdf/SPICe%2B_help.pdf"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities to develop",
+      "paragraphs": [
+        "The founder role combines product judgment with commercial and governance judgment. The Startup India curriculum identifies the core capability areas directly: idea identification and assessment; customer and market evaluation; company-registration and compliance fundamentals; finance and accounting, including financial statements and break-even analysis; business planning; fundraising and valuation; and pitching and term sheets.",
+        "For a technology-led venture, add the ability to translate a user need into a product roadmap, make proportionate build-versus-buy decisions, protect security and reliability, recruit or manage technical talent, and explain both the product and business model to customers and investors. The exact division of responsibilities may sit with co-founders or early hires, but the founder remains accountable for ensuring these functions are covered."
+      ],
+      "bullets": [
+        "Customer discovery and problem validation.",
+        "Product strategy, prototyping, delivery, security, and quality decisions.",
+        "Unit economics, cash management, financial statements, and break-even thinking.",
+        "Sales, partnerships, positioning, fundraising, and investor communication.",
+        "Legal, tax, IP, employment, and data-governance awareness; obtain specialist advice rather than relying solely on templates."
+      ],
+      "source_urls": [
+        "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        "https://maarg.startupindia.gov.in/"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "How the venture is typically operated",
+      "paragraphs": [
+        "A founder normally runs an iterative loop rather than a one-time launch: validate the problem and market, build and test a minimum viable product or service, measure customer response, improve the offer, establish repeatable sales or distribution, and scale only when economics and delivery capacity support it. The official Startup India learning material places customer-and-market assessment before finance, legal formation, business planning, and fundraising; the Seed Fund Scheme similarly distinguishes prototype, product-trial, market-entry, and commercialisation stages.",
+        "Funding should be matched to the venture's maturity and risk. The Seed Fund Scheme describes incubator-mediated assistance for proof of concept through commercialisation and notes that its support can include milestone-based grants for validation/prototypes/product trials and debt or convertible instruments for market entry, commercialisation, or scaling. This is program context, not an assurance of eligibility, selection, or currently available funds."
+      ],
+      "bullets": [
+        "Maintain a written problem statement, customer segment, experiment log, product roadmap, cash forecast, and basic governance record from the outset.",
+        "Use milestones that are observable: prototype performance, pilot completion, paid conversions, retention, revenue quality, delivery reliability, and compliance readiness.",
+        "Choose financing only after understanding dilution, repayment obligations, control rights, reporting obligations, and the runway created by the round."
+      ],
+      "source_urls": [
+        "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        "https://seedfund.startupindia.gov.in/faq",
+        "https://www.startupindia.gov.in/content/dam/invest-india/Templates/public/Guidelines%20for%20Startup%20India%20Seed%20Fund%20Scheme.pdf"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Indian incorporation, recognition, and operating compliance",
+      "paragraphs": [
+        "First choose an entity form suited to the founders, investors, tax position, liability profile, and intended fundraising. If incorporating a company, the MCA's SPICe+ process is the official integrated route for name reservation, incorporation, director identification number applications, and PAN/TAN allocation. Incorporation creates continuing company-law and tax responsibilities; founders should create a compliance calendar and use qualified professional advice for filings, books, contracts, payroll, and sector-specific licences.",
+        "DPIIT Startup Recognition is optional and separate from incorporation. The Startup India portal states that eligible entities may apply through the National Single Window System and describes the accepted entity forms, innovation/scalability condition, turnover and age limits. It also states that the Ministry does not charge a fee for the recognition certificate. Recognition can enable applications for particular benefits, but each benefit has its own conditions; for example, the portal says the section 80-IAC tax exemption is available only after recognition and application, and only to private limited companies and LLPs that satisfy the stated conditions.",
+        "For a digital product that processes personal data, build privacy and data-governance work into the product lifecycle: document data flows, minimise collection, assign ownership for requests and incidents, and monitor the implementation timetable and notices issued under the Digital Personal Data Protection framework. MeitY lists the Digital Personal Data Protection Rules, 2025, associated corrigendum, enforcement timeline, and Data Protection Board materials; the practical obligations applicable to a particular startup depend on its activities and the relevant commencement provisions."
+      ],
+      "bullets": [
+        "Confirm whether GST registration, returns, invoicing, withholding, labour registrations, foreign-exchange rules, sector approvals, consumer-law obligations, or cybersecurity requirements apply to the actual business model.",
+        "Use written founder arrangements, IP-assignment provisions, employment/consultant agreements, customer terms, privacy notices, and vendor agreements appropriate to the business.",
+        "Do not represent the venture as DPIIT-recognised or tax-exempt until the relevant approval or certificate has actually been granted.",
+        "Recheck thresholds, forms, deadlines, and benefit eligibility with the current regulator portal and professional advisers; they are variable and can be amended."
+      ],
+      "source_urls": [
+        "https://www.mca.gov.in/Ministry/pdf/SPICe%2B_help.pdf",
+        "https://www.mca.gov.in/content/dam/mca/pdf/SPICEplus-and-linked-filings-FAQs-V3-20230122.pdf",
+        "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html",
+        "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa",
+        "https://tutorial.gst.gov.in/userguide/returns/GSTR_1.htm"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths and ecosystem support",
+      "paragraphs": [
+        "After initial validation, a founder may grow as a product-led bootstrapped business, seek incubation and seed support, raise external capital, sell to enterprises or government, expand into new markets, or build a specialist deep-tech venture. The appropriate route depends on capital intensity, time to revenue, regulation, founder control preferences, and the evidence that the product can scale.",
+        "Startup India offers ecosystem mechanisms that can support this progression. Its MAARG portal is designed to connect startups with mentors across sectors, functions, stages, and geographies. Its learning program supplies foundational founder education, while the Seed Fund Scheme describes incubator-based support for qualifying early-stage ventures. These are support channels rather than substitutes for customer traction, sound governance, or disciplined execution."
+      ],
+      "bullets": [
+        "Pre-revenue: validate a narrow use case, pilot with users, and use mentors or incubators to sharpen the proposition.",
+        "Early revenue: improve retention and unit economics, strengthen customer contracts and delivery operations, and formalise finance and compliance processes.",
+        "Scaling: build leadership capacity, security and privacy controls, repeatable go-to-market systems, and board/investor governance suited to the financing model.",
+        "Experienced founders can later become repeat entrepreneurs, angel investors, incubator mentors, product leaders, or operators of acquired or scaled technology businesses."
+      ],
+      "source_urls": [
+        "https://maarg.startupindia.gov.in/",
+        "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        "https://seedfund.startupindia.gov.in/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DPIIT Startup Recognition and tax-exemption information",
+      "url": "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html",
+      "kind": "government portal"
+    },
+    {
+      "label": "MCA SPICe+ incorporation instruction kit",
+      "url": "https://www.mca.gov.in/Ministry/pdf/SPICe%2B_help.pdf",
+      "kind": "government guidance"
+    },
+    {
+      "label": "Startup India Learning Program",
+      "url": "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+      "kind": "learning resource"
+    },
+    {
+      "label": "Startup India MAARG mentorship portal",
+      "url": "https://maarg.startupindia.gov.in/",
+      "kind": "mentorship platform"
+    },
+    {
+      "label": "Startup India Seed Fund Scheme",
+      "url": "https://seedfund.startupindia.gov.in/",
+      "kind": "government funding program"
+    },
+    {
+      "label": "MeitY Digital Personal Data Protection Rules, 2025 resources",
+      "url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa",
+      "kind": "regulatory resource"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

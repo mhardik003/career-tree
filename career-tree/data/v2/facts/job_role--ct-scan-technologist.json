@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Recognised role title",
+      "value": "“CT scan Technologist” is one of the job designations identified in the Ministry of Health and Family Welfare’s Medical Radiology and Imaging Technology curriculum handbook.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf"
+      ]
+    },
+    {
+      "label": "Core function",
+      "value": "CT Scan Technologists are medical imaging professionals who use CT equipment to create diagnostic images of organs and body parts for the clinical team.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf"
+      ]
+    },
+    {
+      "label": "Typical education benchmark",
+      "value": "The MoHFW model curriculum recommends a four-year bachelor’s pathway, including one year of clinical training/internship, for entry-level Medical Radiology and Imaging Technology practice; local admission and employer requirements can differ.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf"
+      ]
+    },
+    {
+      "label": "Safety context",
+      "value": "CT is a diagnostic-radiology modality regulated within India’s radiation-safety framework; AERB publishes CT-specific facility, quality-assurance and technologist-training resources.",
+      "source_urls": [
+        "https://aerb.gov.in/english/regulatory-facilities/radiation-facilities/application-in-medicine/diagnostic-radiology",
+        "https://www.aerb.gov.in/images/PDF/DiagnosticRadiology/2-PERIODIC-QUALITY-ASSURANCE-TEST-REPORT-FOR-COMPUTED-TOMOGRAPHY-EQUIPMENT.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a CT Scan Technologist does",
+      "paragraphs": [
+        "A CT Scan Technologist prepares and positions patients, follows the requested CT examination protocol, sets up and operates the CT scanner, acquires images, and uses image-processing tools so that diagnostically useful images can be provided to the clinician and radiology team.",
+        "CT work includes knowing the examination’s clinical indications and contraindications; patient preparation and care; contrast-media type, dose, injection technique and timing; image display and post-processing; and CT anatomy across body regions. The role also requires evaluating images for technical quality, recognising and managing emergencies within scope and departmental protocol, maintaining equipment, and applying radiation protection and quality-assurance procedures.",
+        "This is a patient-facing allied-health role rather than a medical-doctor role: the technologist supports the imaging examination and technical image quality while working with radiologists and the wider healthcare team."
+      ],
+      "bullets": [
+        "Prepare, identify, communicate with, transfer and position patients safely for CT examinations.",
+        "Set scan parameters and perform CT acquisitions according to authorised protocols and departmental procedures.",
+        "Support contrast-enhanced CT processes and monitor for adverse reactions in accordance with local clinical protocols.",
+        "Perform image reconstruction and post-processing, check technical adequacy, and document or escalate issues appropriately.",
+        "Follow radiation-protection, equipment-care, infection-control, emergency-response and quality-assurance requirements."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf",
+        "https://nagalanduniversity.ac.in/file/documents/2026-bmrit.pdf",
+        "https://aerb.gov.in/english/regulatory-facilities/radiation-facilities/application-in-medicine/diagnostic-radiology"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "The clearest broad entry route is an undergraduate programme in Medical Radiology and Imaging Technology, commonly titled B.Sc. MRIT/BMRIT or a closely related radiography-and-imaging degree, followed by supervised clinical training. The MoHFW model curriculum recommends 10+2 science entry, with stated model thresholds of 50% aggregate and 55% in PCB, plus a four-year bachelor’s programme including one clinical-training/internship year. These are curriculum recommendations, not a substitute for the specific eligibility, entrance and admission rules of a university, state, employer or regulator.",
+        "A diploma route has historically existed: the same model curriculum describes a 2.5-year Diploma in Medical Radiology and Imaging Technology including six months of clinical training. However, it also states a policy aim to phase out diploma and PG-diploma routes in favour of bachelor’s and master’s education. Applicants should therefore verify both the course’s current recognition and the qualification required by intended employers.",
+        "After baseline imaging education, focused CT experience and advanced training may strengthen readiness for CT-only posts. For example, Tata Memorial Centre advertised a CT Scan Imaging advanced training course in 2025 for eligible imaging-technology graduates/diploma holders; its dates, fees, seats and conditions were specific to that past intake and should not be treated as current admissions information."
+      ],
+      "bullets": [
+        "Complete 10+2 with the science subjects required by the particular institution.",
+        "Choose a recognised/appropriate MRIT, radiography or imaging-technology programme and verify current approval or recognition directly with the institution and relevant authorities.",
+        "Complete the programme’s clinical postings or internship and build supervised competence in CT protocols, patient care, radiation safety and image processing.",
+        "For specialisation, seek CT clinical exposure or a structured advanced course only after checking its current eligibility and recognition."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf",
+        "https://aerb.gov.in/english/regulatory-facilities/radiation-facilities/application-in-medicine/diagnostic-radiology",
+        "https://actrec.gov.in/sites/default/files/Advanced%20Training%20Courses%20in%20Department%20of%20Radio-Diagnosis.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills and knowledge to develop",
+      "paragraphs": [
+        "Competence combines imaging science with careful clinical practice. Training covers CT principles and instrumentation, data acquisition, reconstruction, image quality, artefacts, CT protocols, contrast-media administration, documentation, safety and quality assurance.",
+        "Strong patient-care and communication skills matter because technologists need to explain and prepare patients, respond empathetically, position or transfer people safely, collaborate with clinicians, and work effectively when patients are anxious, unwell, unconscious or unable to cooperate. The MoHFW handbook also identifies spatial visualisation, sustained standing and safe patient-transfer capability as relevant physical and practical demands.",
+        "Radiation safety is central. AERB provides diagnostic-radiology guidance, recognised-course information and CT quality-assurance formats; facilities use these regulatory resources alongside their local operating procedures and supervision arrangements."
+      ],
+      "bullets": [
+        "CT physics, scanner operation, acquisition parameters and protocol adherence.",
+        "Cross-sectional anatomy, patient positioning, image reconstruction and post-processing.",
+        "Recognition of artefacts and technical image-quality checks.",
+        "Patient communication, consent-related workflow support, patient monitoring and teamwork.",
+        "Contrast-media awareness, emergency preparedness, infection control and documentation.",
+        "Radiation protection, equipment care, quality control and quality assurance."
+      ],
+      "source_urls": [
+        "https://nagalanduniversity.ac.in/file/documents/2026-bmrit.pdf",
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf",
+        "https://aerb.gov.in/english/regulatory-facilities/radiation-facilities/application-in-medicine/diagnostic-radiology"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is practised",
+      "paragraphs": [
+        "CT Scan Technologists work in diagnostic-imaging services, including hospital radiology departments and private imaging clinics or centres. Their workflow may interface with outpatient services, emergency and trauma care, inpatient wards, operating theatres and specialist procedure areas, depending on the facility’s services.",
+        "The setting is technology-intensive and team-based: a technologist works closely with radiologists, referring clinicians, nurses and other imaging staff. CT rooms and equipment are subject to radiation-safety, shielding, licensing and quality-assurance arrangements overseen at facility level under the AERB framework."
+      ],
+      "bullets": [
+        "Hospital radiology and imaging departments.",
+        "Independent diagnostic centres and imaging clinics.",
+        "Emergency, trauma, inpatient and outpatient imaging workflows.",
+        "Specialist centres that undertake advanced CT, angiographic or interventional-imaging support."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf",
+        "https://aerb.gov.in/english/regulatory-facilities/radiation-facilities/application-in-medicine/diagnostic-radiology"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression and adjacent paths",
+      "paragraphs": [
+        "CT is commonly a specialisation within the broader Medical Radiology and Imaging Technologist profession. The MoHFW handbook’s proposed progression places a B.Sc. MRIT holder at Medical Radiology and Imaging Technologist level, followed by Senior MRIT and technical-officer roles with additional experience and, for higher academic progression, postgraduate education. The handbook explicitly notes that this progression was proposed and that implementation may vary by sector and regulations.",
+        "With experience, a CT-focused technologist may broaden into MRI, mammography, angiography/interventional support, PACS, quality control, radiation safety, department administration, equipment applications or industry roles. The same handbook identifies technical, academic, managerial, quality-control and imaging-industry pathways, while specific job titles and promotion criteria remain employer-dependent.",
+        "A master’s degree in Medical Radiology and Imaging Technology can support advanced academic and technical progression. The MoHFW curriculum maps a master’s degree and experience to senior technical and academic roles, but candidates should confirm the current qualifications required by each university or employer."
+      ],
+      "bullets": [
+        "CT-focused Medical Radiology and Imaging Technologist.",
+        "Senior technologist or modality lead after relevant experience.",
+        "Technical-officer, quality-control, PACS, applications-specialist or radiation-safety-adjacent roles.",
+        "Teaching, research, management or industry pathways, often supported by postgraduate study and experience."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "MoHFW Model Curriculum Handbook: Medical Radiology and Imaging Technology",
+      "url": "https://www.mohfw.gov.in/sites/default/files/865321458963256.pdf",
+      "kind": "government curriculum guidance"
+    },
+    {
+      "label": "AERB Diagnostic Radiology resources",
+      "url": "https://aerb.gov.in/english/regulatory-facilities/radiation-facilities/application-in-medicine/diagnostic-radiology",
+      "kind": "radiation regulator guidance"
+    },
+    {
+      "label": "AERB CT periodic quality-assurance test report format",
+      "url": "https://www.aerb.gov.in/images/PDF/DiagnosticRadiology/2-PERIODIC-QUALITY-ASSURANCE-TEST-REPORT-FOR-COMPUTED-TOMOGRAPHY-EQUIPMENT.pdf",
+      "kind": "radiation regulator quality-assurance resource"
+    },
+    {
+      "label": "Nagaland University BMRIT curriculum",
+      "url": "https://nagalanduniversity.ac.in/file/documents/2026-bmrit.pdf",
+      "kind": "university curriculum"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

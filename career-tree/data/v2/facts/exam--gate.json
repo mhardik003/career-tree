@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "GATE (Graduate Aptitude Test in Engineering) is a national computer-based examination. For the 2026 edition, IIT Guwahati was the organizing institute and the examination covered 30 test papers.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf"
+      ]
+    },
+    {
+      "label": "Who can appear",
+      "value": "For GATE 2026, candidates in the third year or higher of a government-approved undergraduate programme, or graduates of such programmes, in Engineering, Technology, Architecture, Science, Commerce, Arts or Humanities were eligible. There was no age limit and no limit on attempts.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/faqs.html",
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf"
+      ]
+    },
+    {
+      "label": "Exam structure",
+      "value": "The 2026 examination was a three-hour CBT with 65 questions for 100 marks. It used MCQ, MSQ and numerical-answer questions; all papers included a 15-mark General Aptitude component.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf"
+      ]
+    },
+    {
+      "label": "Score validity",
+      "value": "A GATE 2026 scorecard is valid for three years from the date results were announced.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf"
+      ]
+    },
+    {
+      "label": "What a qualifying score can support",
+      "value": "A GATE score can be used in postgraduate admissions and, where an institute's rules permit, scholarship or assistantship consideration. Several PSUs have used GATE scores in recruitment, but qualification does not guarantee admission, funding or employment.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf",
+        "https://coap2026.iitr.ac.in/coap2026/registration-procedure.php"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and role in the Indian higher-education and career pathway",
+      "paragraphs": [
+        "GATE assesses subject knowledge and aptitude for a range of engineering, science, architecture, humanities and related disciplines. It is principally an entrance/selection input rather than an admission offer: centrally funded institutes may use GATE alone or together with an admission test, interview and/or academic record. The GATE 2026 brochure states that Ministry of Education guidelines prescribe at least 70% weight for GATE performance when such additional components are used, while each admitting institute sets its own detailed process.",
+        "A valid score may also be relevant to employment. The 2026 organizing institute records that PSUs have used GATE scores in recruitment; candidates must separately satisfy and apply through each employer's recruitment process. The Common Offer Acceptance Portal (COAP) similarly states that candidates must apply independently to participating institute admission portals or PSU job portals in order to receive offers."
+      ],
+      "bullets": [
+        "Treat GATE as a gateway score, not a universal M.Tech, PhD, scholarship or PSU-job guarantee.",
+        "Check the target programme's eligible GATE paper, minimum educational qualification, selection stages, category rules, dates and funding terms directly with that institution.",
+        "For participating IIT admissions and PSU offers in the 2026 cycle, COAP accepted valid GATE 2024, 2025 and 2026 scores; this is cycle-specific and should not be assumed for later years."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf",
+        "https://coap2026.iitr.ac.in/coap2026/registration-procedure.php",
+        "https://coap2026.iitr.ac.in/coap2026/data/Information-Brochure-COAP2026.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "The GATE 2026 eligibility rule was broad: a person could appear while studying in the third or higher year of an undergraduate degree, or after completing a government-approved degree, across Engineering, Technology, Architecture, Science, Commerce, Arts and Humanities. The official FAQ confirms there was no age limit and no restriction on the number of attempts.",
+        "Eligibility to write GATE is distinct from eligibility for a particular postgraduate programme. For example, IIT Roorkee's 2026 M.Tech admission brochure separately specifies its programme-level minimum educational qualifications and admission requirements. Applicants should therefore verify both the GATE rules and the target institute's current admission brochure before choosing a paper or applying."
+      ],
+      "bullets": [
+        "A candidate could choose one paper, or up to two papers only from the permitted two-paper combinations for that edition.",
+        "Candidates may choose a paper in line with their admission plans, but the GATE office advises selecting one appropriate to the qualifying discipline; an institute can still restrict which GATE papers it accepts for a programme.",
+        "International and overseas-degree candidates should review the edition-specific GATE eligibility provisions and the target institute's admission rules."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/faqs.html",
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf",
+        "https://www.iitr.ac.in/Academics/static/Admission/PG/M.Tech/2026/Regular/Information_Brochure_2026.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and scoring",
+      "paragraphs": [
+        "In GATE 2026, every paper was delivered as a computer-based test in English and was entirely objective in format. Each paper lasted three hours, contained 65 questions and carried 100 marks. Questions were MCQs, MSQs and Numerical Answer Type (NAT) questions; a virtual scientific calculator was provided on-screen.",
+        "The marking rules matter for strategy. Wrong MCQ answers incurred negative marking: one-third of a mark for a wrong one-mark MCQ and two-thirds for a wrong two-mark MCQ. MSQ and NAT questions had no negative marking, but did not award partial credit. General Aptitude carried 15 marks in all test papers; the detailed subject/optional-section allocation varies by paper."
+      ],
+      "bullets": [
+        "Use the syllabus and question-paper pattern for the specific paper code, rather than assuming all papers have the same subject distribution.",
+        "For multi-session papers, marks may be normalized before the GATE score is calculated.",
+        "The 2026 schedule, paper set and rules are historical edition-specific context; candidates should use the next official GATE website and information brochure when a later cycle opens."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process",
+      "paragraphs": [
+        "For GATE 2026, applications and document uploads were online only through the official application portal; applicants were instructed not to send hard copies to IIT Guwahati or GATE offices. The process included registration, choosing the test paper(s) and examination-city preferences, uploading a photograph, signature and valid photo ID, providing eligibility-degree details, and paying the fee electronically.",
+        "Application fees, category documentation, available cities, permissible two-paper combinations and deadlines change by edition. In the 2026 cycle, the regular registration window ran from August 25 to September 25, 2025, and the extended window ended October 6, 2025; those dates are past and should not be used for a later cycle. The application fee for that edition was non-refundable in most circumstances, and service or bank charges could be additional."
+      ],
+      "bullets": [
+        "Create and submit one application; the official FAQ said one email address could be used for only one application form.",
+        "If applying for two papers, select both within the single application and only from the officially permitted combinations.",
+        "After receiving a GATE score, apply separately to each university programme or employer. Where relevant, register on COAP as well; COAP registration itself does not replace an institute or PSU application."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf",
+        "https://gate2026.iitg.ac.in/faqs.html",
+        "https://coap2026.iitr.ac.in/coap2026/registration-procedure.php"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Start with the official syllabus and question-paper pattern for the chosen paper code. Build coverage of General Aptitude alongside paper-specific topics, then practise under the actual three-hour, computer-based format. Because MCQs carry negative marking while MSQs and NATs do not, full-length practice should include disciplined answer selection and time allocation rather than only topic-wise problem solving.",
+        "Use the official GATE archive for previous question papers and answer keys, and use the official mock-test links when available to become familiar with the on-screen interface and virtual calculator. Review errors by topic and question type, then revisit weak syllabus areas. Do not rely on any person or service claiming to sell official GATE papers: the organizing institute explicitly warns that zonal GATE offices do not sell or advertise test papers or syllabus."
+      ],
+      "bullets": [
+        "Download the official syllabus for the exact paper before purchasing materials or joining a course.",
+        "Practise MCQ accuracy to manage negative marking; also rehearse precise numeric entry and rounding for NAT questions.",
+        "Use previous papers as diagnostic evidence, not as a promise of identical future questions or cut-offs."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/download.html",
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Results and next steps",
+      "paragraphs": [
+        "For GATE 2026, results were announced on March 19, 2026, and qualified candidates could download scorecards. The scorecard remains valid for three years from the result-announcement date. A candidate should preserve the electronic scorecard because hard copies are not issued.",
+        "A score can lead to applications for M.Tech and related postgraduate programmes, research pathways and selected employer recruitment processes, but outcomes depend on the receiving institution or employer. Institutes may use GATE with an interview, test or academic-record criteria; scholarship or assistantship administration and conditions also rest with the admitting institute. For 2026 COAP participation, the portal accepted candidates qualified in GATE 2024, 2025 or 2026 who sought participating M.Tech offers or PSU job offers."
+      ],
+      "bullets": [
+        "Shortlist programmes based on the accepted GATE paper, academic eligibility, selection method, financial-support rules and research fit—not score alone.",
+        "Monitor the target university's own admission portal and, where applicable, COAP offer windows.",
+        "Do not infer a PSU offer from GATE qualification: each employer independently publishes its vacancy, eligible papers, score rules and recruitment stages."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf",
+        "https://coap2026.iitr.ac.in/coap2026/registration-procedure.php",
+        "https://www.iitr.ac.in/Academics/static/Admission/PG/M.Tech/2026/Regular/Information_Brochure_2026.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "GATE 2026 official downloads: information brochure, syllabus, previous papers and answer keys",
+      "url": "https://gate2026.iitg.ac.in/download.html",
+      "kind": "official exam resource"
+    },
+    {
+      "label": "GATE 2026 official FAQ",
+      "url": "https://gate2026.iitg.ac.in/faqs.html",
+      "kind": "official exam resource"
+    },
+    {
+      "label": "GATE 2026 official information brochure (PDF)",
+      "url": "https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-v22082025-1300.pdf",
+      "kind": "official information brochure"
+    },
+    {
+      "label": "COAP 2026 registration procedure",
+      "url": "https://coap2026.iitr.ac.in/coap2026/registration-procedure.php",
+      "kind": "official admission-offer portal"
+    },
+    {
+      "label": "IIT Roorkee 2026 M.Tech admission information brochure (example of programme-level requirements)",
+      "url": "https://www.iitr.ac.in/Academics/static/Admission/PG/M.Tech/2026/Regular/Information_Brochure_2026.pdf",
+      "kind": "official university admissions resource"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

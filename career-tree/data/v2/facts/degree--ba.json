@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and standard length",
+      "value": "A BA is an undergraduate bachelor’s qualification in the arts/humanities/social-science space. Under the National Credit Framework, a bachelor’s degree is normally three years (six semesters); a four-year bachelor’s degree is designated honours/research.",
+      "source_urls": [
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf"
+      ]
+    },
+    {
+      "label": "Entry qualification",
+      "value": "Admission requirements are set programme-by-programme by the university. BA applicants commonly enter after Class 12 (10+2) or an accepted equivalent, but required school subjects, minimum marks, reservations, and relaxation rules vary by institution.",
+      "source_urls": [
+        "https://cuet.nta.nic.in/guru-gobind-singh-indraprastha-university/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "Admissions route",
+      "value": "CUET-UG is a major route to BA and other undergraduate programmes at central and participating universities. NTA conducts the test, while each university applies its own eligibility, merit, counselling, and admission process.",
+      "source_urls": [
+        "https://cuet.nta.nic.in/information-bulletin/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf"
+      ]
+    },
+    {
+      "label": "Curricular model",
+      "value": "The UGC undergraduate framework promotes flexible, multidisciplinary study, choice-based credits, and multiple entry/exit options. The particular BA major, minor, electives, language requirements, fieldwork, and assessment scheme are university-specific.",
+      "source_urls": [
+        "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf"
+      ]
+    },
+    {
+      "label": "Selected progression routes",
+      "value": "A completed BA can lead to a two-year MA after a three-year bachelor’s degree, or a one-year MA after a four-year honours/research bachelor’s degree under the National Credit Framework. It can also meet the degree-level baseline for routes such as B.Ed., UPSC Civil Services, and many SSC CGL posts, subject to the relevant year’s notification and any post-specific conditions.",
+      "source_urls": [
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html",
+        "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: start with Class 12, then check the exact BA programme",
+      "paragraphs": [
+        "The normal entry point is successful completion of Class 12 (10+2) or an equivalent examination accepted by the admitting university. This is not a single national BA eligibility rule: universities can prescribe different minimum marks, subject combinations, language requirements, category relaxations, and documentary conditions.",
+        "For CUET-UG admissions, candidates should choose test subjects that match the eligibility of their intended programme. NTA explicitly states that qualifications, subject combinations, quotas, reservations, and programme eligibility remain the responsibility of the respective university; simply taking CUET does not itself confer admission eligibility."
+      ],
+      "bullets": [
+        "Before registering, read the current BA programme bulletin of every university and college on your shortlist.",
+        "If using CUET-UG, map its required language/domain/general-test papers to the target BA programme before selecting subjects.",
+        "Confirm that the institution is authorised to award the degree and, where relevant, that its online or ODL offering is entitled/recognised by UGC for that academic session."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/guru-gobind-singh-indraprastha-university/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "https://ugc.gov.in/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and exit structure",
+      "paragraphs": [
+        "The conventional BA endpoint is a three-year, six-semester bachelor’s degree. The National Credit Framework maps this to 120 credits across three years (40 credits per year).",
+        "The framework also maps a four-year, eight-semester undergraduate programme to a bachelor’s degree with honours/research. It describes intermediate awards as an undergraduate certificate after the first year and an undergraduate diploma after the first two years, within the multiple-entry/multiple-exit model. Actual availability, transfer rules, and award titles depend on the university’s implementation."
+      ],
+      "bullets": [
+        "Three-year BA: six semesters; National Credit Framework reference point of 120 credits.",
+        "Four-year BA honours/research: eight semesters; National Credit Framework reference point of 160 credits.",
+        "Do not assume every college offers every exit, re-entry, honours, or research option; verify the programme regulations."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf",
+        "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What a BA curriculum covers",
+      "paragraphs": [
+        "BA study is organised around a chosen disciplinary area or combination of areas in the humanities and social sciences, but there is no nationally identical BA syllabus. Under UGC’s CCFUP direction, institutions can build multidisciplinary and flexible curricula using a choice-based credit structure.",
+        "In practical terms, a student should inspect the university’s current syllabus for the major/discipline, minor or supporting discipline, elective basket, ability- or skill-oriented courses, language requirements, experiential components, attendance rules, and assessment pattern. These details determine what the degree will actually contain more reliably than the BA title alone."
+      ],
+      "bullets": [
+        "Compare the exact subject combination available at each college, not only the course name.",
+        "Check whether the programme is a three-year BA, a four-year BA honours/research route, or a distinct liberal-arts structure.",
+        "Use the university’s published scheme of study and examination rules as the definitive curriculum source for the admission year."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process: CUET is an examination route, not the final admission decision",
+      "paragraphs": [
+        "For the 2026–27 cycle, CUET-UG is used for undergraduate admissions at central universities and other participating institutions. NTA’s role is registration, testing, answer-key/result processing, and scorecards; participating universities prepare merit lists and run their own counselling and admissions.",
+        "Accordingly, a typical CUET-based BA application involves: selecting the appropriate CUET test papers; taking CUET; then completing the target university’s separate admission or counselling process, if required; submitting preferences and documents; and meeting the institution’s programme-specific eligibility and merit conditions. The participating-university list and university schedules are dynamic, so applicants should rely on the current NTA and university notices rather than prior-year dates."
+      ],
+      "bullets": [
+        "Use the current CUET-UG information bulletin for test rules and participating-university information.",
+        "Use the target university’s admissions portal for BA eligibility, preferences, counselling, document verification, fees, and deadlines.",
+        "Keep original/valid school records, category or disability certificates where applicable, identity documents, and any university-specific documents ready for verification."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/information-bulletin/",
+        "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "https://admission.uod.ac.in/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After BA: postgraduate, professional, and competitive-exam paths",
+      "paragraphs": [
+        "For academic progression, the National Credit Framework provides for a two-year master’s degree after a three-year bachelor’s degree and a one-year master’s degree after a four-year honours/research bachelor’s degree. Admission to a particular MA remains subject to the receiving university’s discipline, marks, entrance-test, and other rules.",
+        "For teacher education, UGC’s specified-degree material lists B.Ed. as a two-year bachelor-level programme with a bachelor’s degree as the minimum eligibility qualification. Requirements of the admitting institution and applicable teacher-education regulations must still be checked for the relevant cycle.",
+        "For public-sector examinations, a BA is a recognised graduate degree for routes whose notification calls for a bachelor’s/graduate degree. For example, the UPSC Civil Services Examination 2026 notification requires a graduate degree from a qualifying university or an equivalent qualification. SSC CGL 2026 lists a bachelor’s degree for most posts, while some posts have additional subject, language, or other qualifications. These notices change by year and post, so a BA alone should not be treated as a guarantee of eligibility or selection."
+      ],
+      "bullets": [
+        "MA and related postgraduate study: review the receiving university’s subject and entrance requirements.",
+        "B.Ed.: a BA can satisfy the baseline degree requirement; confirm marks, reservation, entrance, and institution-recognition conditions.",
+        "UPSC Civil Services and State PSC: a BA supplies the graduation foundation, but age, attempts, nationality, and notification conditions also apply.",
+        "SSC CGL: many posts accept a bachelor’s degree, but statistical and specialised posts can require specified subjects or qualifications.",
+        "Law, management tests, social work, media, content, policy, and private-sector roles are possible directions, but each employer, university, or examination sets its own requirements."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html",
+        "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC: Curriculum and Credit Framework for Undergraduate Programmes",
+      "url": "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "NTA: CUET-UG 2026 Information Bulletin",
+      "url": "https://cuet.nta.nic.in/information-bulletin/",
+      "kind": "exam information"
+    },
+    {
+      "label": "UGC: National Credit Framework (notified document)",
+      "url": "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf",
+      "kind": "framework"
+    },
+    {
+      "label": "UPSC: Civil Services Examination 2026 notification",
+      "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "kind": "exam notification"
+    },
+    {
+      "label": "SSC: Combined Graduate Level Examination 2026 notice",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf",
+      "kind": "exam notification"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

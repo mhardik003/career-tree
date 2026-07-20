@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "National baseline",
+      "value": "The UGC (Minimum Standards and Procedure for Award of Ph.D. Degree) Regulations, 2022 set minimum standards for Ph.D. programmes at Indian universities, colleges, and deemed-to-be universities covered by the regulations.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page565.html"
+      ]
+    },
+    {
+      "label": "Typical entry route",
+      "value": "UGC permits entry after a qualifying master’s degree with at least 55% aggregate marks (with specified category relaxations); a four-year bachelor’s route requires at least 75%. For example, IIT Delhi CSE specifically lists MCA applicants with a valid accepted GATE score among its Ph.D. eligibility routes.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://phd.cse.iitd.ac.in/index.php/2011-12-29-22-45-50/degree-programs?id=28"
+      ]
+    },
+    {
+      "label": "Regulatory duration",
+      "value": "The UGC minimum duration is three years including coursework; the normal maximum is six years from admission, with re-registration and specified additional-relaxation provisions potentially extending the permitted completion period.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    },
+    {
+      "label": "Core doctoral requirements",
+      "value": "UGC requires at least 12 coursework credits, including research methodology and Research and Publication Ethics, followed by supervised original research, thesis submission, plagiarism checks, and evaluation involving the supervisor and at least two external examiners.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html"
+      ]
+    },
+    {
+      "label": "Fees and funding context",
+      "value": "Fees are institution- and admission-category-specific. IIT Bombay’s published Autumn 2026–27 schedule distinguishes concessional and non-concessional Ph.D. categories, identifies assistantship and government-fellowship categories, and states that its fee structure may be revised in later semesters.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/Fee%20cirular_24.06.26.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility for a Ph.D. in Computer Science",
+      "paragraphs": [
+        "At the UGC minimum-standard level, applicants may enter after a one-year master’s following a four-year bachelor’s degree, a two-year master’s following a three-year bachelor’s degree, or an equivalent qualification, normally with at least 55% aggregate marks or an equivalent grade. The regulations provide a 5-percentage-point relaxation for specified categories; applicants using the four-year/8-semester bachelor’s route require at least 75%, subject to the stated relaxation provisions.",
+        "For this node’s MCA pathway, department-level rules matter. As a concrete Computer Science example, IIT Delhi CSE lists an MCA with a valid GATE score in accepted papers as an eligibility route. Applicants should therefore check the target department’s current qualifying-degree, score-validity, discipline, category, and seat requirements rather than assuming that an MCA alone guarantees eligibility."
+      ],
+      "bullets": [
+        "A master’s degree route is the standard regulatory pathway; marks/grade thresholds and applicable category relaxations must be checked against the current institutional notice.",
+        "Computer Science departments can require a relevant national test score, specify acceptable GATE papers, and impose additional shortlisting criteria.",
+        "A four-year bachelor’s degree can also be a UGC-recognized entry route, but its regulatory minimum is 75% aggregate or equivalent rather than the master’s-route threshold."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://phd.cse.iitd.ac.in/index.php/2011-12-29-22-45-50/degree-programs?id=28"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration",
+      "paragraphs": [
+        "Under the UGC Ph.D. Regulations, 2022, the programme has a minimum duration of three years, including coursework, and a normal maximum duration of six years from admission. An HEI may allow up to two additional years through re-registration under its own statute or ordinance, subject to the UGC’s overall limits. Female scholars and persons with disabilities above the stated threshold may receive further regulatory relaxation, with a maximum completion period of up to ten years in those cases.",
+        "Actual time to completion in Computer Science depends on the research problem, coursework and qualifying requirements, progress reviews, publications or other institution-specific milestones, thesis preparation, and examination timelines."
+      ],
+      "bullets": [
+        "Minimum: 3 years, including coursework.",
+        "Normal maximum: 6 years from admission.",
+        "Potential extensions are governed by UGC limits and the institution’s own rules."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and research work",
+      "paragraphs": [
+        "A Ph.D. in Computer Science is principally a supervised research programme rather than a fixed taught-degree syllabus. UGC requires at least 12 credits of coursework, including research methodology and Research and Publication Ethics. The Research Advisory Committee may identify additional courses and may recommend UGC-recognized online courses as part of the credit requirement.",
+        "After coursework, the scholar develops and executes an original research project under a supervisor and Research Advisory Committee. UGC requires periodic semester-wise progress presentations and reports. Before award, the scholar produces a thesis, completes institutional plagiarism and research-integrity processes, and undergoes evaluation by the supervisor and at least two external subject experts.",
+        "Computer Science-specific topics—such as algorithms, artificial intelligence, systems, security, theory, programming languages, data science, networks, graphics, or human-computer interaction—are determined by the department, available supervisors, and approved research proposal rather than prescribed nationally as a single uniform specialisation list."
+      ],
+      "bullets": [
+        "Minimum 12 coursework credits, including research methodology and Research and Publication Ethics.",
+        "Teaching, education, pedagogy, or writing training is required during the doctoral period; institutions may assign 4–6 weekly hours of teaching or research assistance.",
+        "Research progress is reviewed by a Research Advisory Committee, and the completed thesis is externally evaluated."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "UGC permits HEIs to admit candidates who qualify for fellowships or scholarships through UGC-NET, UGC-CSIR NET, GATE, CEED, or similar national-level tests on the basis of an interview. Alternatively, an HEI may conduct its own entrance test: its syllabus must be 50% research methodology and 50% subject-specific, candidates need 50% to be eligible for interview subject to listed relaxations, and selection through that test must weight the entrance test at 70% and the interview/viva voce at 30%.",
+        "The institution must publish its prospectus or admission notice in advance with available seats, discipline-wise distribution, eligibility, and procedures, and it must follow the applicable Central or State reservation policy. IIT Delhi CSE illustrates how this national framework is implemented locally: it states that admissions are held twice yearly and gives its own degree and GATE-based eligibility conditions. Dates, accepted test papers, shortlisting cut-offs, and interview formats should always be taken from the current departmental notification."
+      ],
+      "bullets": [
+        "Identify prospective supervisors and research fit before applying.",
+        "Read the current institute and department notice for eligible degrees, accepted examination papers, score validity, seat categories, documents, and deadlines.",
+        "Prepare for an interview or for the institution’s entrance test, where applicable."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+        "https://phd.cse.iitd.ac.in/index.php/2011-12-29-22-45-50/degree-programs?id=28"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs, assistantships, and fee variability",
+      "paragraphs": [
+        "There is no single all-India Ph.D. in Computer Science fee. Costs vary by HEI, residency status, admission category, semester, hostel choice, and whether the scholar receives a teaching assistantship, research assistantship, government fellowship, sponsorship, or self-financing placement. Applicants should use the fee notice for the exact admission cycle and budget separately for academic, refundable-deposit, hostel, and living costs where applicable.",
+        "As dated context, IIT Bombay’s Autumn 2026–27 official fee circular separates concessional and non-concessional Ph.D. fee groups and lists teaching assistantships, research assistantships, and several government fellowship categories in its concessional group. It also explicitly reserves the right to revise fees in subsequent semesters, so this is an institutional example rather than a national price benchmark."
+      ],
+      "bullets": [
+        "Verify the current cycle’s institute fee circular before accepting an offer.",
+        "Check whether the offer is tied to TA, RA, project, fellowship, sponsored, external, or self-financed status.",
+        "Confirm whether tuition concessions or exemptions apply to the relevant category and whether hostel charges are separate."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/Fee%20cirular_24.06.26.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — eligibility",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+      "kind": "regulation"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — admission procedure",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+      "kind": "regulation"
+    },
+    {
+      "label": "IIT Delhi CSE Ph.D. programme and eligibility",
+      "url": "https://phd.cse.iitd.ac.in/index.php/2011-12-29-22-45-50/degree-programs?id=28",
+      "kind": "university_programme"
+    },
+    {
+      "label": "IIT Bombay Autumn 2026–27 Ph.D. fee circular",
+      "url": "https://acad.iitb.ac.in/sites/default/files/Fee%20cirular_24.06.26.pdf",
+      "kind": "fee_schedule"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

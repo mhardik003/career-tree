@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Current nomenclature at the principal University of Delhi reference provider",
+      "value": "The legacy Bachelor of Financial and Investment Analysis (BFIA) nomenclature is now used as Bachelor of Business Administration (Financial Investment Analysis), or BBA(FIA), at Shaheed Sukhdev College of Business Studies (SSCBS), University of Delhi.",
+      "source_urls": [
+        "https://sscbs.du.ac.in/files/news/NAAC_All_Final_16-Mar-15_Done.pdf",
+        "https://sscbs.du.ac.in/bachelor-of-business-administration-financial-investment-analysis/"
+      ]
+    },
+    {
+      "label": "Academic focus",
+      "value": "The current BBA(FIA) programme is designed around banking and financial services, investment and fund management, corporate financial management, and financial risk management, with quantitative and econometric tools including SPSS, EViews, R, and Python.",
+      "source_urls": [
+        "https://sscbs.du.ac.in/bachelor-of-business-administration-financial-investment-analysis/"
+      ]
+    },
+    {
+      "label": "Entry route at DU",
+      "value": "For the documented DU BBA(FIA) admission route, merit is based on CUET-UG performance in a prescribed combination of one language, Mathematics/Applied Mathematics, and the CUET General Test; the precise annual bulletin and CSAS rules should be checked for the intended cycle.",
+      "source_urls": [
+        "https://admission.uod.ac.in/userfiles/downloads/28022024_BOI-UG-2024-25_compressed-o.pdf",
+        "https://admission.uod.ac.in/userfiles/downloads/2026/17052026_Updated_FAQsUG%202026-final.pdf",
+        "https://sscbs.du.ac.in/bachelor-of-business-administration-financial-investment-analysis/"
+      ]
+    },
+    {
+      "label": "Curriculum coverage",
+      "value": "The published UGCF curriculum includes financial accounting and analysis, economics, statistics, corporate finance, econometrics, investment analysis and portfolio management, income tax, financial derivatives, corporate restructuring, international finance, financial services, and electives such as wealth management and corporate analysis and valuation.",
+      "source_urls": [
+        "https://sscbs.du.ac.in/wp-content/uploads/2024/03/NEP-BBA-1st-sem.pdf",
+        "https://sscbs.du.ac.in/wp-content/uploads/2024/03/NEP-BBA-3rd-Sem-FINAL.pdf",
+        "https://sscbs.du.ac.in/wp-content/uploads/2024/03/Appendix-61-IV-V-VI-SEMESTERS.pdf"
+      ]
+    },
+    {
+      "label": "Relationship to CMA Foundation",
+      "value": "CMA Foundation should not be treated as a mandatory prerequisite for the DU/SSCBS BBA(FIA) route. ICMAI permits Foundation-course admission after Class X, while DU documents BBA(FIA) admission through Class XII/CUET requirements.",
+      "source_urls": [
+        "https://admission.uod.ac.in/userfiles/downloads/28022024_BOI-UG-2024-25_compressed-o.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and the CMA Foundation relationship",
+      "paragraphs": [
+        "For the University of Delhi BBA(FIA) reference route, applicants must take CUET-UG in the programme-specific combination: one language from List A, Mathematics/Applied Mathematics, and CUET Section III (General Test). Merit is calculated from that combination. The 2026 DU FAQ additionally confirms that a student who studied Applied Mathematics in Class XII should select Mathematics as the CUET domain-specific subject when applying for BBA(FIA). Requirements are admission-cycle-specific, so applicants should use the applicable year’s DU undergraduate bulletin and CSAS instructions rather than relying on an earlier bulletin.",
+        "BFIA is a legacy title rather than a universal, standardized national qualification with one common eligibility rule. At SSCBS/DU, the older BFIA ordinance required Class XII or an equivalent examination to take the admission test; the current programme page identifies CUET-based selection. CMA Foundation is therefore best understood as a separate professional-accountancy pathway that a student may pursue alongside or before university study, not as a stated compulsory feeder qualification for this degree route."
+      ],
+      "bullets": [
+        "CMA Foundation admission is available after Class X under ICMAI rules; appearing for the Foundation examination follows completion of the relevant senior-secondary qualifying stage.",
+        "Check the university, college, CUET subject mapping, category provisions, and annual application schedule for the cycle in which admission is sought."
+      ],
+      "source_urls": [
+        "https://admission.uod.ac.in/userfiles/downloads/28022024_BOI-UG-2024-25_compressed-o.pdf",
+        "https://admission.uod.ac.in/userfiles/downloads/2026/17052026_Updated_FAQsUG%202026-final.pdf",
+        "https://sscbs.du.ac.in/files/courses/bfiaordinance.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "The current SSCBS BBA(FIA) curriculum combines finance with accounting, economics, statistics and analytics. Early published course materials cover financial accounting and analysis, microeconomics, statistics for business decisions, cost and management accounting, macroeconomics and business communication-oriented coursework. Financial Accounting & Analysis explicitly addresses corporate statements, Ind AS/IFRS context, ratio and cash-flow analysis, and financial-distress indicators.",
+        "The finance specialization becomes more pronounced through corporate finance, econometrics, investment analysis and portfolio management, tax, derivatives, restructuring, international finance and financial services. The published semester-IV to semester-VI curriculum also lists elective pools in strategic corporate finance, corporate analysis and valuation, wealth management, digital finance, management of financial institutions, insurance management and financial econometrics. This makes the degree relevant preparation for analytical finance roles, but it is not by itself a professional licence or a guaranteed job outcome."
+      ],
+      "bullets": [
+        "Quantitative preparation: statistics, regression/econometrics, and use of tools such as R and Python are highlighted by SSCBS.",
+        "Investment preparation: securities-market structure, stock trading, mutual funds, risk-return analysis, security analysis, valuation and portfolio analysis appear in the published curriculum.",
+        "Corporate-finance preparation: capital budgeting, cost of capital, capital structure, dividend decisions and working-capital management are covered in the corporate-finance syllabus."
+      ],
+      "source_urls": [
+        "https://sscbs.du.ac.in/bachelor-of-business-administration-financial-investment-analysis/",
+        "https://sscbs.du.ac.in/wp-content/uploads/2024/03/NEP-BBA-1st-sem.pdf",
+        "https://sscbs.du.ac.in/wp-content/uploads/2024/03/NEP-BBA-3rd-Sem-FINAL.pdf",
+        "https://sscbs.du.ac.in/wp-content/uploads/2024/03/Appendix-61-IV-V-VI-SEMESTERS.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "For the DU example, the practical sequence is to take CUET-UG with the required subject combination, then participate in DU’s Common Seat Allocation System (CSAS) and college/programme preference process when notified. SSCBS states that BBA(FIA) selection is based on CUET scores under the applicable eligibility criteria and directs candidates to the DU undergraduate bulletin for the current subject choices.",
+        "Do not infer a permanent cutoff, seat count, fee, or deadline from a past prospectus. DU’s 2024 bulletin expressly notes that seat matrices can vary and tells applicants to visit the relevant college for updated fee information. SSCBS posted a separate course-fee notice for academic session 2026–27 on June 23, 2026, illustrating that annual information changes."
+      ],
+      "bullets": [
+        "Plan CUET subjects before registration: the DU reference combination requires a language, Mathematics/Applied Mathematics, and the General Test.",
+        "Use only the admission-cycle bulletin and official DU/college notices for dates, documentation, category certificates, seat availability and payment instructions.",
+        "At SSCBS, the programme is listed under the current BBA(FIA) title; searching solely for “BFIA” may obscure the current admissions page."
+      ],
+      "source_urls": [
+        "https://sscbs.du.ac.in/bachelor-of-business-administration-financial-investment-analysis/",
+        "https://admission.uod.ac.in/userfiles/downloads/28022024_BOI-UG-2024-25_compressed-o.pdf",
+        "https://admission.uod.ac.in/userfiles/downloads/2026/17052026_Updated_FAQsUG%202026-final.pdf",
+        "https://sscbs.du.ac.in/course-fee-for-2026-27/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Progression after BFIA/BBA(FIA)",
+      "paragraphs": [
+        "A finance-and-investment degree can support entry-level pathways toward financial analysis, research analysis, corporate-finance analysis, banking/financial-services roles, capital-markets work and wealth-management-oriented work. SSCBS identifies corporate finance analysis and valuation, banking and finance, investment and capital markets, risk management and project financing among the role areas its learning outcomes target. These are career directions, not assurances of placement or regulated-job eligibility.",
+        "For professional credentials, CFA Program Level I can be attempted by an undergraduate whose selected exam window is within 23 months of graduation, subject to CFA Institute’s other requirements; progression to Levels II and III has additional graduation and prior-level requirements. FRM registration has no educational or professional prerequisite according to GARP, although certification requires passing both exam parts and submitting qualifying work experience under GARP rules. These credentials are independent programmes: a BFIA/BBA(FIA) degree can be useful preparation, but it does not grant exemptions from their exams."
+      ],
+      "bullets": [
+        "CFA Program: suitable for students aiming at investment analysis, portfolio management, research, corporate banking or investment management; verify current registration, passport and scheduling rules directly with CFA Institute.",
+        "FRM: suitable for a risk-focused path spanning market, credit, operational, liquidity and investment-management risk; verify examination and experience-submission rules with GARP.",
+        "Postgraduate routes such as an MBA in finance or a finance/economics master’s degree may also be considered, but eligibility, entrance tests and selection criteria are set separately by each institution."
+      ],
+      "source_urls": [
+        "https://sscbs.du.ac.in/bachelor-of-business-administration-financial-investment-analysis/",
+        "https://www.cfainstitute.org/programs/cfa-program/policies",
+        "https://www.cfainstitute.org/programs/cfa-program/exam",
+        "https://www.garp.org/frm/frequently-asked-questions"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "SSCBS BBA(FIA) programme page",
+      "url": "https://sscbs.du.ac.in/bachelor-of-business-administration-financial-investment-analysis/",
+      "kind": "official university programme page"
+    },
+    {
+      "label": "SSCBS BBA(FIA) syllabus hub",
+      "url": "https://sscbs.du.ac.in/syllabus-2/",
+      "kind": "official university curriculum page"
+    },
+    {
+      "label": "DU Undergraduate Admissions portal",
+      "url": "https://admission.uod.ac.in/",
+      "kind": "official university admissions portal"
+    },
+    {
+      "label": "DU 2026 undergraduate admissions FAQ",
+      "url": "https://admission.uod.ac.in/userfiles/downloads/2026/17052026_Updated_FAQsUG%202026-final.pdf",
+      "kind": "official university admissions guidance"
+    },
+    {
+      "label": "CFA Program policies and registration requirements",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/policies",
+      "kind": "official professional-body guidance"
+    },
+    {
+      "label": "GARP FRM examination FAQ",
+      "url": "https://www.garp.org/frm/frequently-asked-questions",
+      "kind": "official professional-body guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

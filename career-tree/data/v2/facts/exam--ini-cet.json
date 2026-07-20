@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "INI-CET (Institute of National Importance Combined Entrance Test) is the common postgraduate entrance examination for specified MD, MS, six-year DM, six-year MCh, MDS, and MD (Hospital Administration) seats at participating Institutes of National Importance (INIs).",
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf"
+      ]
+    },
+    {
+      "label": "Conducting authority",
+      "value": "AIIMS New Delhi’s Examination Section administers the examination process in consultation with participating INIs; institute-specific admission rules remain governed by the relevant institute’s prospectus and regulations.",
+      "source_urls": [
+        "https://docs.aiimsexams.ac.in/sites/2_PROSPECTUS%20PART-A%20INI-CET%20JULY%202025%20SESSION.pdf",
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf"
+      ]
+    },
+    {
+      "label": "Eligible qualifying degrees",
+      "value": "For the medical postgraduate streams, the qualifying degree is MBBS; for MDS, it is BDS. The degree must meet the recognition requirements stated in the session prospectus.",
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf"
+      ]
+    },
+    {
+      "label": "July 2026 exam format",
+      "value": "The July 2026 prospectus specified a computer-based test of 200 objective questions in 180 minutes, with +1 for a correct answer, −1/3 for an incorrect answer, and 0 for unanswered or marked-for-review questions.",
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf"
+      ]
+    },
+    {
+      "label": "Admission threshold",
+      "value": "For the July 2026 session, the prospectus used INI-CET percentile eligibility thresholds of 50th percentile for UR/OCI, EWS, sponsored, and foreign-national seats, and 45th percentile for OBC, SC, ST, PwBD, and the specified Bhutanese-national category at PGIMER Chandigarh.",
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and place after MBBS",
+      "paragraphs": [
+        "INI-CET is a postgraduate medical and dental entrance route after MBBS or BDS, rather than an undergraduate entrance examination. It is used for admissions to the session-specific MD, MS, six-year DM, six-year MCh, MDS, and MD (Hospital Administration) seats announced by participating INIs.",
+        "AIIMS New Delhi manages the common examination, results, and seat-allocation process. However, the final admission conditions, course availability, fees, stipends, reporting requirements, and other institute-level rules are not uniform: applicants must read the Part B prospectus and admission instructions for every institute they may prefer."
+      ],
+      "bullets": [
+        "Treat the session’s Part A prospectus as the source for examination-wide rules.",
+        "Treat each participating institute’s Part B prospectus as the source for institute- and course-specific admission conditions.",
+        "Do not assume that a qualifying rank alone guarantees admission; seat availability, eligibility verification, preference order, and allocation rules also matter."
+      ],
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf",
+        "https://docs.aiimsexams.ac.in/sites/2_PROSPECTUS%20PART-A%20INI-CET%20JULY%202025%20SESSION.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: core checks before applying",
+      "paragraphs": [
+        "For the July 2026 cycle, applicants for MD/MS/DM (six years)/MCh (six years)/MD (Hospital Administration) needed an MBBS qualification, while MDS applicants needed BDS. The prospectus also requires completion of the prescribed compulsory rotating internship by the session’s stated cut-off and applies recognition requirements to the qualifying degree.",
+        "The published minimum aggregate requirement for Indian nationals was 50% for SC/ST candidates and 55% for other categories including OBC/EWS; PwBD applicants follow the threshold applicable to their underlying category. Eligibility to take the examination is not identical to eligibility for every institute or seat, so institute-specific conditions must be checked separately."
+      ],
+      "bullets": [
+        "Confirm the qualifying degree, internship completion date, registration/document requirements, and category documentation against the current session prospectus.",
+        "Check the Part B prospectus of each preferred INI, because an applicant may be eligible for some participating institutes but not others.",
+        "Foreign-national, sponsored, OCI, and institute-specific categories have separate conditions and should be verified directly from the applicable prospectus."
+      ],
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf",
+        "https://www.jipmer.edu.in/sites/default/files/3.%20%20Prospectus%20Part%20-%20B%20%28JIPMER%29.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and scoring",
+      "paragraphs": [
+        "For July 2026, INI-CET was a computer-based examination with 200 objective questions over three hours. Questions could include single-correct-choice and multiple-correct-choice formats. Scoring was +1 for a correct response, −1/3 for an incorrect response, and 0 for an unanswered or marked-for-review response.",
+        "The July 2026 paper was divided into four sequential 50-question parts, each available for 45 minutes. Once a part’s time expired, it was submitted automatically and the next part opened; candidates could not return to an earlier part. This makes paced decision-making and block-by-block practice important."
+      ],
+      "bullets": [
+        "Plan for four 45-minute blocks rather than treating the paper as a freely navigable three-hour test.",
+        "Use the applicable percentile threshold only as an eligibility threshold, not as a prediction of a particular specialty or institute allocation.",
+        "Re-check the next session’s prospectus because question delivery, scoring, and cut-offs can be revised."
+      ],
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and allocation process",
+      "paragraphs": [
+        "The common process is online and proceeds through application, examination, and seat allocation. For the July 2026 cycle, AIIMS’s revised registration process used One-Time Registration (OTR), followed by submission of qualification and internship details, online fee payment, image uploads, and final submission. The notice states that information placed in OTR is intended for future examinations and may not be changeable later, so applicants should enter it carefully.",
+        "After the examination and result, eligible candidates participate in online seat allocation. The prospectus describes at least two allocation rounds followed by an open round, with additional rounds possible. Original-document verification and final joining occur under the rules of the allotted INI."
+      ],
+      "bullets": [
+        "Use only the AIIMS examinations portal and official notices for the active session’s dates, uploads, correction window, admit card, result, seat matrix, and allocation schedule.",
+        "Save the submitted application/registration record and verify the admit-card details when it becomes available.",
+        "Rank preferences only after reviewing the current seat matrix and every preferred institute’s Part B prospectus; seats and rules can change by session."
+      ],
+      "source_urls": [
+        "https://rrpdocuments.aiimsexams.ac.in/1759260106860-154112016.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20251001%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251001T062141Z&X-Amz-Expires=18000&X-Amz-Signature=d0c59f71a46e3bc9f234979870ba81b96be03a148175b49865b5efbe44e92e92&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach aligned to the official format",
+      "paragraphs": [
+        "Build preparation around the official format first: timed, computer-based practice in four 45-minute blocks; deliberate handling of negative marking; and a strategy for completing and reviewing questions within the currently active block. Because an earlier block cannot be revisited after time expires in the July 2026 scheme, leaving all uncertain questions for a final-paper review is not workable.",
+        "Use the current session’s prospectus and notices as the authority for administrative preparation as well: eligibility cut-off, document formats, registration steps, admit-card instructions, and allocation procedure. These rules can change between sessions, so older coaching material or past prospectuses should not override current official instructions."
+      ],
+      "bullets": [
+        "Practise 50-question, 45-minute sets to mirror the block structure.",
+        "Track incorrect answers separately from unattempted questions so that revision also addresses the −1/3 negative-marking trade-off.",
+        "Before submitting the application, audit degree, internship, identity, category, and other required documents against the active prospectus."
+      ],
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf",
+        "https://www.aiimsexams.ac.in/landingpage/key-dates"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a result can lead to",
+      "paragraphs": [
+        "A qualifying INI-CET result permits participation in the applicable online seat-allocation process; it does not itself constitute admission. Allocation depends on the applicant’s merit/rank, eligibility, submitted preferences, category and roster rules where applicable, and the session’s available seats.",
+        "Successful allocation can lead to postgraduate training in a participating INI in the allotted specialty. Applicants should evaluate the institute-specific Part B prospectus before choosing preferences because programme eligibility, fees, stipends, hostel arrangements, resignation rules, and reporting requirements are set at institute level and may vary by session."
+      ],
+      "bullets": [
+        "Use the official seat matrix and allocation notices, not unofficial rank-versus-branch estimates, to make final choices.",
+        "Complete reporting and original-document verification by the allotted institute’s deadline.",
+        "If no seat is allotted, follow the official notices for any later allocation or open-round opportunities rather than assuming they will occur."
+      ],
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf",
+        "https://jipmer.edu.in/announcement/mdmsmdsintegrated-6-year-mch-courses-admission-process-july-2026-session-based-ini-cet"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AIIMS Examinations: entrance-exam calendar and key dates",
+      "url": "https://www.aiimsexams.ac.in/landingpage/key-dates",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "INI-CET July 2026 Prospectus Part A",
+      "url": "https://jipmer.edu.in/sites/default/files/2.%20Prospectus%20Part%20-%20A.pdf",
+      "kind": "official prospectus"
+    },
+    {
+      "label": "JIPMER: INI-CET July 2026 admission notices and institute documents",
+      "url": "https://jipmer.edu.in/announcement/mdmsmdsintegrated-6-year-mch-courses-admission-process-july-2026-session-based-ini-cet",
+      "kind": "official institute admission page"
+    },
+    {
+      "label": "AIIMS examinations archive and notices",
+      "url": "https://aiimsexams.ac.in/info/archive_notice2025.html",
+      "kind": "official notices archive"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

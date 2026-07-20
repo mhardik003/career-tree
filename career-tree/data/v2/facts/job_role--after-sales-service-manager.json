@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Closest official occupational mapping",
+      "value": "For the automotive context, India’s National Career Service (NCS) lists “Area Service Manager” with the alias “Service Manager,” under the Automotive sector; it maps the role to NCO 2015 code 1213.0201.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Core remit",
+      "value": "The role oversees service delivery through dealer or authorised-service networks, including customer satisfaction, technician capability, service-process performance, complaints, warranty-related matters, and product-performance feedback.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Typical education",
+      "value": "NCS identifies a graduate degree or diploma in automotive or mechanical engineering as the preferred education background for the closely related Area Service Manager/Service Manager occupation.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Work setting",
+      "value": "This is generally an operational, customer-facing role rather than a desk-only job. NCS notes team handling, local travel, possible shifts and overtime; exact arrangements vary by employer and product sector.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an After-Sales Service Manager does",
+      "paragraphs": [
+        "In Indian automotive and equipment after-sales operations, an After-Sales Service Manager translates the manufacturer’s service standards into consistent execution by workshops, dealers and authorised service stations. The work includes monitoring service quality and turnaround time, reviewing product-performance feedback, improving customer-engagement measures, and taking corrective action from performance reports.",
+        "A major customer-resolution responsibility is managing and documenting complaints, coordinating prompt redressal, and ensuring warranty claims and other performance issues are handled under the organisation’s terms, procedures and escalation framework. The manager also coordinates technician training needs, checks readiness for new products, and audits warranty, failed-parts and safety-related issues.",
+        "The exact title varies by employer. In the official skills ecosystem, related titles include Service Manager, Area Service Manager, Territory Service Manager, Workshop Manager, Warranty Incharge and spare-parts operations roles; an employer may distribute these responsibilities across several positions."
+      ],
+      "bullets": [
+        "Set and monitor service KPIs such as service/repair turnaround, customer satisfaction, complaint recurrence, workshop productivity and profitability.",
+        "Coordinate service advisers, technicians, warranty personnel, parts teams and channel partners; identify capability gaps and arrange training or corrective support.",
+        "Track customer and field feedback, investigate recurring defects or service failures, and relay findings to OEM, technical, quality or sales functions.",
+        "Support service readiness: appropriate tools, trained people, initial parts availability, workshop infrastructure and clear processes for new-product launches.",
+        "Handle escalated customer cases and warranty-performance issues with accurate CRM, job-card, audit and reporting records."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "A common route is a diploma or degree in mechanical or automotive engineering followed by workshop, service-adviser, technical-service, warranty, parts or dealer-operations experience. NCS describes automotive/mechanical graduation or diploma study as preferred for the closely related Area Service Manager role.",
+        "The Automotive Skills Development Council (ASDC) qualifications framework is useful for identifying adjacent roles and learning pathways. Its published Territory Service Manager pack describes a role focused on retail service support and lists automotive/mechanical qualifications, on-the-job training and service-network, customer-relationship and work-planning standards. Because qualification-pack status and employer recognition can change, applicants should confirm the current course, assessment and hiring requirements directly with an approved training provider or employer.",
+        "Progression from technical and workshop roles is particularly relevant: the NSDC occupational-standards catalogue includes service adviser, service supervisor, workshop manager, warranty, spare-parts and territory/area service-management roles."
+      ],
+      "bullets": [
+        "Diploma or degree route: mechanical engineering, automotive engineering or a closely related technical discipline, followed by dealership, workshop or OEM after-sales experience.",
+        "Vocational/skills route: build experience through service adviser, technician, warranty, parts or service-supervision roles and pursue employer or ASDC-aligned training where available.",
+        "Internal-promotion route: demonstrate customer-resolution, workshop KPI, warranty, parts-coordination and team-leadership capability in an authorised service network."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://nsdcindia.org/nos-export-custom-data"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "Technical credibility and operational control are both central. NCS identifies knowledge of OEM technical specifications, workshop profitability, value-added services, service and repair times, warranty documentation, CRM, MS Office and management-information systems as relevant competencies for the related Service Manager occupation.",
+        "The ASDC occupational standard additionally emphasizes analysing dealer or workshop performance, reducing cost and service time, using reports to take corrective action, documenting service plans and training requirements, reading policies and performance reports, and building constructive relationships with dealers and customers.",
+        "As vehicles and equipment become more software- and electrification-intensive, employers may also expect familiarity with diagnostic workflows, remote or predictive diagnostics, EV-specific service practices and safe escalation to technical experts. Mahindra’s 2025–26 after-sales announcements illustrate this employer-side shift toward trained eSUV technicians, remote diagnostics, battery-repair support and structured service-team upskilling."
+      ],
+      "bullets": [
+        "Service operations: scheduling, turnaround-time control, quality checks, capacity and productivity monitoring.",
+        "Customer management: complaint investigation, clear expectation-setting, warranty-process communication and escalation handling.",
+        "Commercial and analytical ability: parts/service revenue awareness, cost control, KPI interpretation and action planning.",
+        "People leadership: coaching technicians and advisers, identifying training needs, coordinating cross-functional teams and dealer partners.",
+        "Digital and technical fluency: CRM/DMS or equivalent systems, service reports, OEM documentation and product-specific diagnostics."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.mahindra.com/news-room/press-release/mahindra-transforms-customer-journey-with-the-launch-of-next-gen-sales-and-service-experience",
+        "https://www.mahindra.com/news-room/press-release/en/mahindra-scales-up-aftersales-service-operations-in-delhi-ncr"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the role is performed",
+      "paragraphs": [
+        "After-sales service managers work across OEM service organisations, dealer groups, authorised workshops, service-network offices and field-support functions. The role commonly connects the workshop floor with customers, parts and warranty teams, channel partners and OEM technical or quality functions.",
+        "NCS characterises the related Area Service Manager role as involving technician-team handling and possible local travel; it notes that shift work and overtime may occur depending on the organisation. The ASDC Territory Service Manager standard similarly centers on dealer and authorised-service-station monitoring rather than purely office-based work.",
+        "The product context changes the day-to-day work. Automotive employers are adding EV service bays, trained technicians, remote diagnostics and battery-support arrangements, while industrial-equipment after-sales organisations may include installation, commissioning and maintenance-contract support."
+      ],
+      "bullets": [
+        "Dealership and workshop operations, including customer-facing service reception and repair-floor coordination.",
+        "OEM or regional field-support roles that visit dealers, review service quality and deploy training or improvement plans.",
+        "Parts, warranty and technical-support interfaces, especially for escalated repairs and repeat complaints.",
+        "Possible travel within an assigned territory or service network."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.mahindra.com/news-room/press-release/mahindra-transforms-customer-journey-with-the-launch-of-next-gen-sales-and-service-experience",
+        "https://epoweroluat.mahindra.com/PowerolDMS/Public/AboutPowerol.aspx"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "A typical progression is from technician, service adviser, warranty or parts operations into service supervision or workshop management, then into service-management roles covering a dealer, territory or area. The NCS career guide gives the indicative sequence Area Service Manager → Regional Service Manager → Country Service Manager for its closely related automotive Service Manager occupation.",
+        "At larger OEMs, progression can also become specialised: regional customer care, service process, service marketing, parts management, technical training, warranty, dealer development or network leadership. These adjacent roles appear in the NSDC/ASDC occupational-standards catalogue, though a catalogue entry is not itself a guarantee of vacancies or a mandatory promotion structure."
+      ],
+      "bullets": [
+        "Early career: technician, service adviser, warranty processor, parts operations executive or service-office role.",
+        "First-line management: service supervisor, warranty incharge, workshop manager or service manager.",
+        "Network leadership: territory/area service manager, regional service manager, customer-care or parts leadership.",
+        "Senior leadership: national/country after-sales, dealer-service-network or customer-experience leadership."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://nsdcindia.org/nos-export-custom-data"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Compensation is highly variable by product segment, city, employer, dealership versus OEM payroll, territory size, technical specialisation, experience, incentives and responsibility for revenue, warranty or customer-satisfaction targets. As a dated reference point only, the NCS page for the closely related Area Service Manager role—last updated September 18, 2023—reported indicative monthly earnings of ₹15,000–₹25,000 for new entrants and ₹25,000–₹60,000 for experienced candidates, while explicitly stating that the figures are subject to change.",
+        "These figures should not be treated as a current market quote or a guaranteed salary for an After-Sales Service Manager in July 2026. Candidates should compare current, location-specific employer offers and examine fixed pay, variable incentives, travel reimbursement, shift arrangements, statutory benefits and role scope."
+      ],
+      "bullets": [
+        "Use the NCS 2023 figures only as historical context for a related automotive role, not as a current salary benchmark.",
+        "Expect material variation between workshop/dealership roles and OEM, regional-network or specialised EV/industrial-equipment after-sales roles.",
+        "Evaluate the complete offer: fixed salary, performance incentive, travel or field allowance, insurance, provident-fund coverage and working-hours expectations."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Area Service Manager (alias: Service Manager)",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3464&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career guide"
+    },
+    {
+      "label": "NSDC occupational standards catalogue",
+      "url": "https://nsdcindia.org/nos-export-custom-data",
+      "kind": "national skills catalogue"
+    },
+    {
+      "label": "Mahindra: next-generation sales and after-sales service experience",
+      "url": "https://www.mahindra.com/news-room/press-release/mahindra-transforms-customer-journey-with-the-launch-of-next-gen-sales-and-service-experience",
+      "kind": "employer context"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

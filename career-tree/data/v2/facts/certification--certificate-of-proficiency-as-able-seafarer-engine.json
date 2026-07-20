@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and issuer",
+      "value": "This is the Government of India Certificate of Proficiency (CoP) as Able Seafarer Engine, issued under Rule 47 of the Merchant Shipping (STCW) Rules, 2014 and aligned to STCW Regulation III/5.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf"
+      ]
+    },
+    {
+      "label": "Operational scope",
+      "value": "It is the required CoP for an able seafarer engine serving in a manned engine-room, or designated for duties in a periodically unmanned engine-room, on a seagoing ship with main propulsion machinery of 750 kW or more.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf"
+      ]
+    },
+    {
+      "label": "Minimum age in the Indian rule",
+      "value": "An applicant must be at least 19 years old on the date of application under Rule 47 of India’s 2014 STCW Rules.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf"
+      ]
+    },
+    {
+      "label": "Core prerequisite",
+      "value": "Before qualifying as Able Seafarer Engine, the candidate must first meet the certification requirements for a Rating Forming Part of an Engineering Watch (RFPEW), under STCW Regulation III/4.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201511180318353307295nteng_cir_03_15.pdf"
+      ]
+    },
+    {
+      "label": "Sea-service route",
+      "value": "After obtaining the engineering-watch rating CoP, the normal route is either at least 12 months of approved engine-department sea service, or at least 6 months plus approved training, while meeting the A-III/5 competence standard.",
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://dgshipping.gov.in/writereaddata/ShippingNotices/201505191224526716388TEAPAConsolidatedRev1%2CMay2015-compressed.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: an upgrade from engineering watchkeeping rating",
+      "paragraphs": [
+        "The Indian regulatory route is intended for an existing engine-room rating rather than a direct school-leaver certificate application. Rule 47 requires the applicant to be at least 19 on the application date and to meet the requirements for certification as a rating forming part of a watch in a manned or periodically unmanned engine-room.",
+        "After obtaining the Rating Forming Part of an Engineering Watch CoP, the candidate must document approved engine-department sea service: at least 12 months, or at least 6 months together with approved training. The applicant must also meet the competence standard in STCW Code section A-III/5. The historical transition provision for service before January 1, 2012 is not a normal route for new applicants.",
+        "DG Shipping’s published facilitation-centre checklist further describes the evidence expected for this pathway, including the RFPEW CoP and an employer/operator sea-service letter confirming the relevant competence and service; candidates should verify the currently applicable submission process and document list with DG Shipping or an authorized channel before applying."
+      ],
+      "bullets": [
+        "Minimum age: 19 years on the application date under the Indian rule.",
+        "Prerequisite: certification as a rating forming part of an engineering watch (STCW III/4).",
+        "Service after that CoP: 12 months approved engine-department service, or 6 months plus approved training.",
+        "Competence benchmark: STCW Code table A-III/5."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201511180318353307295nteng_cir_03_15.pdf",
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration: primarily a sea-service certification pathway, not a single fixed course",
+      "paragraphs": [
+        "The CoP itself does not have one prescribed classroom-course duration in Rule 47. Its elapsed time depends on the candidate’s route after becoming an engineering-watch rating: at least 12 months of approved engine-department sea service, or at least 6 months of such service when combined with approved training.",
+        "A six-month (25-week) DG Shipping General Purpose Rating pre-sea course is one possible early-career training route. Its published curriculum is designed to support later compliance with the watchkeeping-rating and Able Seafarer standards, but completing that pre-sea course alone does not replace the post-RFPEW sea-service and competency requirements for the Able Seafarer Engine CoP."
+      ],
+      "bullets": [
+        "Certification pathway after RFPEW: 12 months approved sea service; or 6 months approved sea service plus approved training.",
+        "Common preparatory context: DG Shipping’s GP Rating pre-sea course is six months (25 weeks), but it is not by itself the Able Seafarer Engine CoP."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201801221112395971358Trg_cir1_2018_GP_revised.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Competencies: safe support-level engine-room work",
+      "paragraphs": [
+        "The competence framework is STCW Code table A-III/5, which applies at the support level. It covers contributing to a safe engineering watch and to monitoring and controlling an engine-room watch, including understanding watchkeeping orders, watch handover and relief procedures, and basic operation of main-propulsion and auxiliary machinery.",
+        "Assessment is competency-based rather than limited to attendance. The STCW standard requires evidence against specified methods and criteria; for example, evidence may arise from in-service experience or a practical test. DG Shipping’s GP Rating curriculum also states that it includes the knowledge, understanding and proficiency in tables A-II/5 and A-III/5 to prepare ratings for later certification after the prescribed sea experience."
+      ],
+      "bullets": [
+        "Engineering-watch communication, relief, handover and safe-watch procedures.",
+        "Basic function and operation of main-propulsion and auxiliary machinery.",
+        "Practical/in-service evidence of competence against STCW A-III/5 criteria."
+      ],
+      "source_urls": [
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201801221112395971358Trg_cir1_2018_GP_revised.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Application evidence and submission readiness",
+      "paragraphs": [
+        "This credential is applied for after service and competence have been acquired, rather than through ordinary college admission. DG Shipping’s published Able Seafarer Engine checklist lists an application form, INDoS printout, Indian CDC, passport, existing engineering-watch rating CoP, sea-service verification from the employer/operator or shipowner, applicable training records, service agreement/contract evidence, medical-fitness evidence and photographs.",
+        "The same checklist ties the sea-service verification specifically to service completed after the watchkeeping-rating certificate and asks that the employer/operator confirm the A-III/5 competence standard. As procedures, portals, authorized facilitation arrangements, medical requirements and document formats can change, applicants should use the current DG Shipping instructions before paying or submitting documents."
+      ],
+      "bullets": [
+        "Prepare identity and seafarer records: INDoS, Indian CDC and passport.",
+        "Provide the pre-existing RFPEW CoP and verified post-CoP engine-department service.",
+        "Retain applicable training, medical-fitness and ship-employment/service documents."
+      ],
+      "source_urls": [
+        "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201511180318353307295nteng_cir_03_15.pdf",
+        "https://dgshipping.gov.in/DGSCirculars.aspx?branchid=56"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Career use and progression boundaries",
+      "paragraphs": [
+        "The CoP enables its holder to work in the Able Seafarer Engine capacity at the STCW support level on qualifying ships; it is not an engineer-officer Certificate of Competency. The STCW framework distinguishes A-III/5 able-seafarer-engine competence from A-III/1 engineer-officer competence.",
+        "For progression to an officer role such as Marine Engineer Officer Class IV (officer in charge of an engineering watch), India’s rules prescribe a separate route involving combined workshop-skills training, approved sea service, supervised engine-room watchkeeping, and approved education, training, examination and assessment. Therefore, this CoP can be a valuable rating-career credential, but it should not be treated as an automatic substitute for officer-certification requirements."
+      ],
+      "bullets": [
+        "Use the CoP to serve as an Able Seafarer Engine at the support level on ships of 750 kW or more.",
+        "For engineer-officer progression, plan separately for the Marine Engineer Officer Class IV requirements and its distinct training, service and assessment route."
+      ],
+      "source_urls": [
+        "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+        "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DG Shipping: Merchant Shipping (STCW) Rules, 2014 notification",
+      "url": "https://www.dgshipping.gov.in/writereaddata/userfiles/file/notification_stcw2014_310714.pdf",
+      "kind": "official regulation"
+    },
+    {
+      "label": "DG Shipping: Able Seafarer Deck/Engine application checklist circular",
+      "url": "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201511180318353307295nteng_cir_03_15.pdf",
+      "kind": "official application guidance"
+    },
+    {
+      "label": "IMO: STCW Code amendments and table A-III/5",
+      "url": "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/34.pdf",
+      "kind": "international standard"
+    },
+    {
+      "label": "DG Shipping: GP Rating pre-sea training guidelines",
+      "url": "https://www.dgshipping.gov.in/writereaddata/ShippingNotices/201801221112395971358Trg_cir1_2018_GP_revised.pdf",
+      "kind": "official training guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

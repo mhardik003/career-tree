@@ -1,20 +1,24 @@
 import type {
   V2DirectoryNode,
   V2Edge,
-  V2GraphSnapshot,
-  V2Node,
+  V2GraphCoreSnapshot,
+  V2NodeCore,
 } from "./types";
 import { nodeHref } from "./urls";
 
+// The graph holds fact-less core nodes (`V2NodeCore`): nothing in here reads
+// `facts`, and typing nodes as core forces every facts access to go through
+// lib/v2/facts.ts. A full `V2GraphSnapshot` (e.g. graph.json in tests) is
+// structurally assignable, so both snapshots construct the same graph.
 export class V2Graph {
   readonly rootId: string;
-  readonly nodes: V2Node[];
+  readonly nodes: V2NodeCore[];
   readonly edges: V2Edge[];
-  readonly nodesById: Map<string, V2Node>;
+  readonly nodesById: Map<string, V2NodeCore>;
   private readonly incomingById = new Map<string, V2Edge[]>();
   private readonly outgoingById = new Map<string, V2Edge[]>();
 
-  constructor(snapshot: V2GraphSnapshot) {
+  constructor(snapshot: V2GraphCoreSnapshot) {
     this.rootId = snapshot.root_id;
     this.nodes = snapshot.nodes;
     this.edges = snapshot.edges;
@@ -31,11 +35,11 @@ export class V2Graph {
     }
   }
 
-  getNode(id: string): V2Node | undefined {
+  getNode(id: string): V2NodeCore | undefined {
     return this.nodesById.get(id);
   }
 
-  getNodeById(id: string): V2Node | undefined {
+  getNodeById(id: string): V2NodeCore | undefined {
     return this.nodesById.get(id);
   }
 
@@ -50,7 +54,7 @@ export class V2Graph {
     });
   }
 
-  getNodeByRoute(type: string, slug: string): V2Node | undefined {
+  getNodeByRoute(type: string, slug: string): V2NodeCore | undefined {
     const node = this.nodesById.get(`${type}:${slug}`);
     return node?.type === type && node.slug === slug ? node : undefined;
   }

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Programme family",
+      "value": "This is an institution-specific post-bachelor’s science-and-research pathway. In the JAM system, related offerings are labelled “Joint M.Sc.–Ph.D.”, “M.Sc.–Ph.D. Dual Degree”, or “Integrated PhD”; applicants should verify the exact award structure and rules for each institute and discipline.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://www.iitkgp.ac.in/jam-ug",
+        "https://iisc.ac.in/wp-content/uploads/2026/02/Admission-Notice_2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Main entrance route",
+      "value": "For 2026–27, JAM is the principal route for the IIT programmes listed in the JAM admission brochure. IISc Integrated PhD uses JAM in several science streams, while IISc Physical Sciences also accepts JEST in Physics.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://iisc.ac.in/wp-content/uploads/2026/02/Admission-Notice_2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Typical length",
+      "value": "Duration is not uniform across institutions. IISc’s admissions FAQ states a seven-year Integrated PhD duration; IIT Bombay describes seven-year M.Sc.–Ph.D. dual-degree support in the programmes it identifies. Confirm the current departmental regulations before applying.",
+      "source_urls": [
+        "https://www.iisc.ac.in/admissions/faq/?lang=hi",
+        "https://jam.iitb.ac.in/about.html"
+      ]
+    },
+    {
+      "label": "2026 JAM admission status",
+      "value": "JAM 2026 admission applications ran from March 27 to April 15, 2026; the official JAM site states that the additional/final allocation round occurred on July 6–7, 2026 and that the admission process then closed. These dates apply to the 2026 cycle only.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://jam2026.iitb.ac.in/index.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility depends on the institute, subject, and entrance-paper combination",
+      "paragraphs": [
+        "A bachelor’s degree alone is not a universal eligibility rule: institutes prescribe subject prerequisites and may require first class or an equivalent qualification. For IISc 2026–27, Biological Sciences accepted specified science or qualifying BE/BTech backgrounds with JAM BT, CY, MA, or PH; Chemical Sciences required a first-class B.Sc./equivalent with Chemistry and mathematics at PUC/Plus-2 level; Mathematical Sciences required mathematics in the qualifying degree or an eligible engineering degree; and Physical Sciences required physics in B.Sc./equivalent or an engineering degree.",
+        "The JAM 2026 programme table similarly shows programme-specific minimum educational qualifications. For example, IIT Bombay’s M.Sc.–Ph.D. Dual Degree in Energy Science and Engineering required a three-year-or-longer B.Sc./equivalent with defined study of Chemistry, Mathematics and Physics. Candidates should match their transcript, JAM paper, category conditions, and the programme’s published minimum educational qualification—not infer eligibility from the degree title alone."
+      ],
+      "bullets": [
+        "For IISc Physical Sciences, the qualifying route was JAM Physics or JEST Physics for the 2026–27 notice.",
+        "For IIT Kharagpur Joint M.Sc.–Ph.D. entry, the institute states that admission to the initial two-year M.Sc. courses is made through JAM."
+      ],
+      "source_urls": [
+        "https://iisc.ac.in/wp-content/uploads/2026/02/Admission-Notice_2026-27.pdf",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://www.iitkgp.ac.in/jam-ug"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Plan for a long, research-led commitment",
+      "paragraphs": [
+        "An integrated route should be treated as a multi-year commitment rather than simply a two-year M.Sc. followed by an automatic, identical PhD at every institution. IISc’s current admissions FAQ gives seven years for its Integrated PhD programme. IIT Bombay’s GATE–JAM Office describes seven-year M.Sc.–Ph.D. dual-degree programmes in the examples it lists, subject to programme rules and satisfactory academic progress.",
+        "The academic sequencing can be explicit: IIT Bombay’s Operations Research description states that the first two years of coursework count toward the M.Sc. and are followed by about four years of PhD research, including doctoral coursework, a project, qualifying examinations, and thesis work. This is an institutional example, not a universal curriculum or duration guarantee."
+      ],
+      "bullets": [
+        "Check whether the programme has continuation, qualifying-exam, CGPA, adviser-allocation, or research-progress requirements before relying on an expected timeline.",
+        "Use the department’s current regulations for the definitive duration and degree-award conditions."
+      ],
+      "source_urls": [
+        "https://www.iisc.ac.in/admissions/faq/?lang=hi",
+        "https://jam.iitb.ac.in/about.html"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Coursework builds toward supervised doctoral research",
+      "paragraphs": [
+        "Curricula are department-specific, but the integrated structure normally combines advanced master’s-level study with doctoral preparation and research. IIT Bombay’s published Operations Research example includes compulsory programme courses, advanced electives selected in the second year, laboratory work for computational and modelling skills, a PhD-level course, a project, qualifying examinations, and then thesis research.",
+        "Applicants should examine the syllabus and regulations of the intended department rather than assume that every Joint M.Sc.–Ph.D., M.Sc.–Ph.D. Dual Degree, and Integrated PhD has the same coursework, M.Sc. exit award, laboratory load, or research milestones."
+      ],
+      "bullets": [
+        "At IIT Bombay, regular M.Sc. curricula are described as core and elective courses across four semesters, often including a research project; its dual-degree offerings are separately listed in Energy Science & Engineering and Environmental Science & Engineering for 2026–27.",
+        "IISc’s 2026–27 Integrated PhD intake is organised across Biological, Chemical, Mathematical, and Physical Sciences."
+      ],
+      "source_urls": [
+        "https://jam.iitb.ac.in/about.html",
+        "https://acad.iitb.ac.in/admissions/masters/msc",
+        "https://iisc.ac.in/wp-content/uploads/2026/02/Admission-Notice_2026-27.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission is through the relevant national test and institute process",
+      "paragraphs": [
+        "For IIT programmes in the 2026–27 JAM cycle, qualifying candidates applied through the JAM admission process, filled programme choices, and received offers through JOAPS. The official JAM process states that a final admission letter follows the admitting institute’s verification of documents, eligibility requirements, and payment details; a JAM qualification itself does not override a programme’s minimum educational qualification.",
+        "IISc’s 2026–27 Integrated PhD selection was not simply rank-based admission. Its notice states that candidates are shortlisted for interview using JAM 2026 performance, with JEST 2025/2026 also used for Physical Sciences; final selection is based on interview performance or the combined entrance-test and interview performance, according to the programme."
+      ],
+      "bullets": [
+        "For the 2026 JAM cycle, the admission application fee was ₹750 and the seat-booking fee was ₹15,000 for General/OBC-NCL/EWS candidates and ₹7,500 for SC/ST/PwD candidates; these were cycle-specific admission charges, not the programme’s total cost.",
+        "IISc listed a 2026–27 research/PG application fee of ₹800 for General/OBC/EWS and ₹400 for SC/ST/PwD applicants; applicants should check the next admission notice because fees and dates can change."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/admissionProcess.html",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://iisc.ac.in/wp-content/uploads/2026/02/Admission-Notice_2026-27.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and financial support are institute- and cohort-specific",
+      "paragraphs": [
+        "Do not use a single fee figure as a national estimate for this degree family. As dated context, IIT Bombay’s published 2025–26 new-entrant schedule for M.Sc./M.Sc.+PhD listed Autumn academic fees of ₹36,500 for General/EWS/OBC-NCL and ₹28,250 for SC/ST/PwD, plus ₹19,700 hostel fees and a ₹27,000 semester mess advance. Those figures were explicitly for JAM 2025 entrants and may not apply to later cohorts, other IITs, IISc, or all components of the programme.",
+        "Financial support can also depend on academic standing and research progress. IIT Bombay states that Teaching Assistantship support for the M.Sc.–PhD dual degree it describes is subject to academic criteria and satisfactory progress, with support specified for a maximum of seven years. Confirm the current fee circular, hostel/mess charges, assistantship rules, and any fellowship eligibility directly with the admitting institute."
+      ],
+      "bullets": [
+        "At IIT Bombay, the cited 2025–26 schedule showed a balance payable after the JAM seat-acceptance payment of ₹41,200 for General/EWS/OBC-NCL and ₹40,450 for SC/ST/PwD, before the listed mess advance.",
+        "The cited IIT Bombay support schedule listed ₹6,000 per month for semesters 1–4, ₹31,000 per month for semesters 5–8, and ₹35,000 per month for semesters 9–14; it is an institute-specific published schedule, not a guaranteed national stipend."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/msc-new-entrants-fees-2025",
+        "https://jam.iitb.ac.in/about.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "JAM 2026 official website",
+      "url": "https://jam2026.iitb.ac.in/index.html",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "JAM 2026 admission brochure and programme eligibility table",
+      "url": "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+      "kind": "official brochure"
+    },
+    {
+      "label": "IISc 2026–27 admission notice",
+      "url": "https://iisc.ac.in/wp-content/uploads/2026/02/Admission-Notice_2026-27.pdf",
+      "kind": "official admission notice"
+    },
+    {
+      "label": "IIT Bombay M.Sc. and M.Sc.+Ph.D. admissions",
+      "url": "https://acad.iitb.ac.in/admissions/masters/msc",
+      "kind": "official institute page"
+    },
+    {
+      "label": "IIT Kharagpur Joint M.Sc.–Ph.D. JAM information",
+      "url": "https://www.iitkgp.ac.in/jam-ug",
+      "kind": "official institute page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

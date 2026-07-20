@@ -10,7 +10,11 @@ sys.path.insert(0, str(PIPELINE_DIR))
 from export_frontend import (  # noqa: E402
     SnapshotError,
     build_snapshot,
+    core_snapshot,
+    facts_files,
     snapshot_matches,
+    stale_facts_reason,
+    write_facts_dir,
     write_snapshot,
 )
 
@@ -149,6 +153,65 @@ class ExportFrontendTests(unittest.TestCase):
         complete_nodes = [{**record, "facts": facts()} for record in self.nodes]
         result = build_snapshot(complete_nodes, self.edges, "digest")
         self.assertEqual(result["nodes"][0]["facts"]["schema_version"], 1)
+
+    def _complete_snapshot(self) -> dict:
+        complete_nodes = [{**record, "facts": facts()} for record in self.nodes]
+        return build_snapshot(complete_nodes, self.edges, "digest")
+
+    def test_core_snapshot_strips_facts_and_preserves_everything_else(self):
+        snapshot = self._complete_snapshot()
+        core = core_snapshot(snapshot)
+        self.assertTrue(all("facts" not in n for n in core["nodes"]))
+        # The source snapshot must stay untouched.
+        self.assertTrue(all("facts" in n for n in snapshot["nodes"]))
+        self.assertEqual(
+            [n["id"] for n in core["nodes"]],
+            [n["id"] for n in snapshot["nodes"]],
+        )
+        self.assertEqual(core["source_digest"], snapshot["source_digest"])
+        self.assertEqual(core["edges"], snapshot["edges"])
+        self.assertEqual(core["nodes"][0]["slug"], "mba")
+
+    def test_facts_files_use_type_double_hyphen_slug_names(self):
+        files = facts_files(self._complete_snapshot())
+        self.assertEqual(
+            sorted(files),
+            ["degree--mba.json", "school_stage--class-10.json"],
+        )
+        self.assertEqual(files["degree--mba.json"], facts())
+
+    def test_facts_dir_write_check_and_prune(self):
+        files = facts_files(self._complete_snapshot())
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp) / "facts"
+            self.assertTrue(write_facts_dir(directory, files))
+            self.assertIsNone(stale_facts_reason(directory, files))
+            # Second write is a no-op (deterministic export).
+            self.assertFalse(write_facts_dir(directory, files))
+            stale = directory / "degree--gone.json"
+            stale.write_text("{}\n", encoding="utf-8")
+            self.assertIn(
+                "unexpected facts file",
+                stale_facts_reason(directory, files),
+            )
+            self.assertTrue(write_facts_dir(directory, files))
+            self.assertFalse(stale.exists())
+            self.assertIsNone(stale_facts_reason(directory, files))
+
+    def test_stale_facts_reason_detects_missing_and_changed_files(self):
+        files = facts_files(self._complete_snapshot())
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp) / "facts"
+            self.assertIn(
+                "missing facts file",
+                stale_facts_reason(directory, files),
+            )
+            write_facts_dir(directory, files)
+            changed = {**files, "degree--mba.json": {"schema_version": 1}}
+            self.assertIn(
+                "does not match registry",
+                stale_facts_reason(directory, changed),
+            )
 
 
 if __name__ == "__main__":

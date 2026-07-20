@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Recruiting body and route",
+      "value": "Indian Railways recruits Junior Engineer categories through Railway Recruitment Boards (RRBs) under Centralised Employment Notices; the applicable post, railway/unit, allocation and vacancy position are notification-specific.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf",
+        "https://www.rrbcdg.gov.in/2024-03-je.php"
+      ]
+    },
+    {
+      "label": "Entry qualification",
+      "value": "For the 2024 RRB JE notice, qualifications were discipline- and post-specific, generally requiring a three-year engineering diploma or an accepted engineering degree/technology qualification in the relevant discipline; civil, electrical, mechanical and signal/telecom JE posts had different approved disciplines.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf"
+      ]
+    },
+    {
+      "label": "Selection process",
+      "value": "The 2024 RRB JE process comprised CBT-I, CBT-II, document verification and a railway medical examination. Requirements and schedules can change in a future notification.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "In CEN 03/2024, JE was listed at Level 6 of the 7th CPC Pay Matrix with initial basic pay of ₹35,400 plus admissible allowances. This is dated recruitment-notice context rather than a guarantee of current take-home pay.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf"
+      ]
+    },
+    {
+      "label": "Promotion context",
+      "value": "Senior Section Engineer (SSE) is an evidenced progression destination in some railway cadres: an official Southern Railway order records promotion from JE/Signal in Level 6 to SSE/Signal in Level 7. Cadre rules, vacancies and selection conditions vary by department and railway.",
+      "source_urls": [
+        "https://sr.indianrailways.gov.in/uploads/files/1632292770461-Promotion%20and%20Transfer%20of%20Senior%20Section%20EngineerSignal%20ST%20Department.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Junior Engineer does",
+      "paragraphs": [
+        "A Junior Engineer’s work is technical and department-specific rather than a single uniform job. In engineering-maintenance assignments, the role can combine inspection, maintenance, execution of approved works, records and safety-related reporting. For example, the Indian Railway Maintenance Manual assigns JE/Works responsibility for inspection and maintenance of service buildings, staff quarters, roads, water supply, drainage and sewerage systems, as well as execution of works.",
+        "For permanent-way assignments, the official manual describes JE/SSE responsibilities including safe track inspection and maintenance, identifying and rectifying defects, completing specified works to approved plans and specifications, and maintaining inspection information. The safety-critical nature of the assignment means that the exact duties depend strongly on the JE’s branch and posting."
+      ],
+      "bullets": [
+        "Civil/P-Way and bridge work may involve field inspection, asset maintenance, special works and safety observations.",
+        "Works assignments may cover railway buildings, staff housing, roads, water supply and drainage assets.",
+        "Electrical, mechanical, signal and telecom assignments are separately notified categories and require the corresponding technical discipline."
+      ],
+      "source_urls": [
+        "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/prd/PR/IRPWM2020.pdf",
+        "https://rdso.indianrailways.gov.in/works/uploads/File/Indian%20Railway%20Maintenance%20Manual%20%28Works%29.pdf",
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "How to enter through RRB JE",
+      "paragraphs": [
+        "The main external route is to apply when an RRB publishes a JE Centralised Employment Notice, choose only posts for which the candidate has the specified technical qualification, and complete the prescribed selection stages. In CEN 03/2024, candidates applied online to one RRB and the process consisted of CBT-I, CBT-II, document verification and medical examination; candidates also had to meet the post’s medical standard.",
+        "A three-year diploma is a common threshold, but it is not a blanket qualification for every JE post. The 2024 notice mapped particular engineering disciplines to particular JE categories and stated that B.E./B.Tech could be accepted in lieu of the relevant three-year diploma. Candidates should therefore use the detailed post-parameter table in the live notification—not coaching-site summaries—to check discipline, age, medical and reservation requirements.",
+        "There are also internal railway advancement routes into some JE cadres. Railway Board training material explicitly describes JE/Works induction after LDCE promotion from the Works category, while zonal railway material records departmental/LDCE selections for particular JE posts. Those routes are for eligible serving employees and are not a substitute for the open RRB recruitment route."
+      ],
+      "bullets": [
+        "Obtain the relevant diploma or degree in the discipline named for the intended JE category.",
+        "Monitor official RRB websites for a live notice and apply only through the official application process.",
+        "Prepare for two computer-based tests, then retain original qualification and category documents for verification.",
+        "Meet the medical standard assigned to the selected category; standards differ among posts."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf",
+        "https://indianrailways.gov.in/railwayboard/uploads/directorate/mgt_ser/MPP_Training_Circular/2019/RBE%20No_%20183%202019.pdf",
+        "https://scr.indianrailways.gov.in/view_section.jsp?backgroundColor=LIGHTSTEELBLUE&fontColor=black&id=0%2C1%2C291%2C355%2C996%2C2350&lang=0"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "A prospective JE needs sound fundamentals in the relevant engineering branch and the ability to apply procedures in a regulated railway setting. The RRB’s CBT-II syllabus for the 2024 notice included technical subjects such as basic civil engineering, electrical engineering, electronics, computers, environment and pollution prevention, and engineering drawing-related knowledge, alongside general abilities tested in CBT-I.",
+        "Operationally, inspection discipline, technical documentation, interpreting plans/specifications, quality awareness and safety-focused judgment are important. Railway induction material for P-Way trainees specifically includes inspection formats, Track Management System entries, maintenance activity, work-site protection near running lines, quality control and field exposure. Some drawing roles additionally receive computer and AutoCAD training."
+      ],
+      "bullets": [
+        "Relevant branch engineering: civil, mechanical, electrical, electronics, signal/telecom or another discipline specified in the notice.",
+        "Inspection, fault observation, measurement and maintenance planning.",
+        "Reading drawings, using technical records and producing clear reports.",
+        "Safety-rule adherence and careful coordination during field work.",
+        "Digital skills appropriate to the assignment, including Track Management System workflows or CAD exposure where applicable."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf",
+        "https://indianrailways.gov.in/railwayboard/uploads/directorate/mgt_ser/MPP_Training_Circular/2019/RBE%20No_%20183%202019.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is performed",
+      "paragraphs": [
+        "Junior Engineers can be assigned across zonal railways, production units and technical departments. The 2024 RRB post table included JE categories in Engineering, Electrical, Mechanical, Signal & Telecommunications, production units, workshops, R&D, track machines, diesel sheds, carriage and wagon, and telecom/signal functions. The eventual post and railway/unit are allocated under the recruitment notice’s preference, merit, reservation and vacancy provisions.",
+        "The environment can therefore range from offices and drawing/design work to workshops, depots, stations, railway colonies, track sections, bridges and other field locations. For field engineering roles, official induction programmes include both institute instruction and open-line/construction field exposure, including work-site protection near running lines."
+      ],
+      "bullets": [
+        "Posting location and branch are not fully interchangeable: they are tied to the category and unit notified by the RRB.",
+        "Field roles may require inspections and work around operating railway infrastructure.",
+        "Induction and refresher training are part of the structured railway technical-work environment."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf",
+        "https://indianrailways.gov.in/railwayboard/uploads/directorate/mgt_ser/MPP_Training_Circular/2019/RBE%20No_%20183%202019.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and professional development",
+      "paragraphs": [
+        "Progression is cadre- and department-dependent. An official Southern Railway promotion order documents JEs in Signal & Telecommunications being promoted from Level 6 to Senior Section Engineer/Signal in Level 7, subject to the applicable selection and service conditions. Railway Board training modules also provide promotion training for SSE/P-Way from JE and for SSE/Track Machines from JE/Track Machines, confirming that JE-to-SSE progression exists in those streams.",
+        "Career development also includes structured induction and periodic refresher training. For example, the Railway Board’s engineering training programme specifies one-year JE induction programmes in several engineering streams and refresher courses for JE/SSE categories. Departmental promotion examinations or LDCE may be relevant to eligible serving employees in particular cadres; their quotas and eligibility cannot be generalized across all JE branches."
+      ],
+      "bullets": [
+        "Build branch-specific expertise through induction, field attachment and refresher training.",
+        "Track the promotion rules and selection notices of the employing railway and department.",
+        "Senior Section Engineer is a common next supervisory technical role in several, but not necessarily all, JE cadres.",
+        "Professional credentials or further study may strengthen technical capability, but they do not replace the formal railway recruitment or promotion rules."
+      ],
+      "source_urls": [
+        "https://sr.indianrailways.gov.in/uploads/files/1632292770461-Promotion%20and%20Transfer%20of%20Senior%20Section%20EngineerSignal%20ST%20Department.pdf",
+        "https://indianrailways.gov.in/railwayboard/uploads/directorate/mgt_ser/MPP_Training_Circular/2019/RBE%20No_%20183%202019.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "The most reliable pay reference is the specific RRB notice under which appointment is made. CEN 03/2024 listed Junior Engineer in Pay Level 6 of the 7th CPC Pay Matrix with initial basic pay of ₹35,400 and stated that other allowances would be admissible at the time. This is basic-pay context from a 2024 notice, not an estimate of in-hand salary.",
+        "Actual monthly pay can vary with the applicable allowances, place of posting, deductions and subsequent government orders. Candidates should check the current recruitment notification and the applicable Railway/central-government pay and allowance orders before making financial decisions."
+      ],
+      "bullets": [
+        "CEN 03/2024 reference: Level 6, initial basic pay ₹35,400.",
+        "Allowances were described as admissible at the time and should be verified against current orders.",
+        "Do not treat advertised basic pay as take-home pay."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "RRB Chandigarh: CEN 03/2024 JE notice and updates",
+      "url": "https://www.rrbcdg.gov.in/2024-03-je.php",
+      "kind": "official recruitment page"
+    },
+    {
+      "label": "CEN 03/2024 detailed JE employment notice (PDF)",
+      "url": "https://www.rrbcdg.gov.in/uploads/2024/03-JE/CEN%2003%202024_JE.pdf",
+      "kind": "official recruitment notice"
+    },
+    {
+      "label": "Railway Board engineering-staff training modules (PDF)",
+      "url": "https://indianrailways.gov.in/railwayboard/uploads/directorate/mgt_ser/MPP_Training_Circular/2019/RBE%20No_%20183%202019.pdf",
+      "kind": "official training guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

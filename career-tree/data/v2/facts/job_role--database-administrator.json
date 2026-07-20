@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core purpose",
+      "value": "A Database Administrator (DBA) operates and maintains databases so that data remains available, secure, recoverable, and performant for an organisation’s users and applications.",
+      "source_urls": [
+        "https://docs.oracle.com/en/database/oracle/oracle-database/21/admin/getting-started-with-database-administration.html",
+        "https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-who-is-database-administrator"
+      ]
+    },
+    {
+      "label": "Typical responsibilities",
+      "value": "Typical DBA work includes installing and upgrading database software, managing storage and database objects, administering user access and security, planning and testing backup/recovery, and monitoring and tuning performance.",
+      "source_urls": [
+        "https://docs.oracle.com/en/database/oracle/oracle-database/21/admin/getting-started-with-database-administration.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/26/tdppt/common-oracle-dba-tasks.html"
+      ]
+    },
+    {
+      "label": "MCA relevance",
+      "value": "MCA study can provide a relevant foundation for DBA work: an MCA core course at NITK covers SQL, database design, indexing, transaction processing, concurrency control, recovery, security, and authorisation.",
+      "source_urls": [
+        "https://macs.nitk.ac.in/course/database-management-systemsma607"
+      ]
+    },
+    {
+      "label": "Work environments",
+      "value": "The role can cover on-premises, cloud-native, or hybrid database platforms; modern DBA work may include availability, security, performance optimisation, migration, and automation.",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/",
+        "https://www.oracle.com/database/what-is-a-dba/"
+      ]
+    },
+    {
+      "label": "Compensation context",
+      "value": "Pay is employer-, city-, experience-, technology-, and contract-dependent. As a dated public-sector illustration rather than a market benchmark, a Ministry of Defence young-professional DBA engagement advertised in December 2023 listed consolidated remuneration of ₹60,000 per month.",
+      "source_urls": [
+        "https://www.ncs.gov.in/Documents/Hiring-of-2-YPs-in-DESW_21_12_2023.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Database Administrator does",
+      "paragraphs": [
+        "A DBA is accountable for the operational lifecycle of databases. Core duties commonly span installation and upgrades; capacity and storage planning; creation and maintenance of database structures such as tables, views and indexes; user and access administration; security controls; backup and restoration planning; and continuous performance monitoring and tuning.",
+        "The exact division of work depends on the organisation. In larger environments, security, backup/recovery, application support, monitoring, and performance tuning may be handled by separate DBA specialists; in smaller teams, one DBA may cover several of these areas."
+      ],
+      "bullets": [
+        "Install, configure, patch, upgrade, and maintain database software and instances.",
+        "Manage database storage, schemas, tables, indexes, views, and user privileges.",
+        "Set up and test backup, restore, recovery, availability, and disaster-recovery arrangements.",
+        "Monitor alerts, capacity, integrity, and workload performance; diagnose incidents and tune databases.",
+        "Work with application developers, infrastructure teams, security teams, and support providers."
+      ],
+      "source_urls": [
+        "https://docs.oracle.com/en/database/oracle/oracle-database/21/admin/getting-started-with-database-administration.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/26/cncpt/concepts-for-database-administrators.html",
+        "https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-who-is-database-administrator"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route from MCA",
+      "paragraphs": [
+        "For the MCA-linked route in this node, build a demonstrable database-administration profile alongside the degree rather than treating the qualification alone as role-specific preparation. MCA database coursework can cover the concepts a DBA uses in practice, including SQL, logical and physical database design, indexing, transaction processing, concurrency, recovery, security, and authorisation.",
+        "A practical portfolio can include administering a local or cloud-hosted database; designing least-privilege user roles; writing SQL and maintenance scripts; configuring backup and restore; documenting a recovery test; and investigating a performance problem. These activities map directly to documented DBA tasks such as database installation, security administration, backup/recovery, and performance tuning."
+      ],
+      "bullets": [
+        "Use MCA database, operating-system, networking, and security coursework to establish fundamentals.",
+        "Practise on at least one enterprise database platform and its administrative tools.",
+        "Seek internships or junior roles involving production support, SQL operations, database monitoring, application support, or infrastructure operations.",
+        "Document hands-on work: configuration decisions, scripts, monitoring evidence, recovery tests, and incident-resolution notes.",
+        "Consider role-relevant vendor learning or certification only after gaining the underlying hands-on skills; employer requirements differ by platform."
+      ],
+      "source_urls": [
+        "https://macs.nitk.ac.in/course/database-management-systemsma607",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/21/admin/getting-started-with-database-administration.html",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "A DBA needs both database fundamentals and operational discipline. SQL, data modelling, indexing, transaction behaviour, recovery concepts, access control, and performance analysis are foundational. The role also requires the ability to apply those concepts through administrative tools, scripting, monitoring, change management, and clear collaboration with application and infrastructure colleagues.",
+        "Technology requirements vary. One employer may need Oracle administration, another SQL Server or Azure SQL, and another a cloud or open-source stack. It is therefore more durable to master core database administration principles and then develop depth in the platform used by the target role."
+      ],
+      "bullets": [
+        "SQL, relational design, constraints, indexing, and query-performance analysis.",
+        "Backup, restore, recovery, replication or high-availability concepts, and recovery testing.",
+        "Identity, privileges, authentication, encryption, access control, and database activity monitoring.",
+        "Operating-system, storage, networking, scripting, automation, and observability basics.",
+        "Incident analysis, documentation, communication, and coordination with developers and other IT specialists."
+      ],
+      "source_urls": [
+        "https://macs.nitk.ac.in/course/database-management-systemsma607",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/26/cncpt/topics-for-database-administrators-and-developers.html",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how DBAs work",
+      "paragraphs": [
+        "DBAs work wherever organisations operate important data systems: internal IT departments, technology-service providers, banks and other regulated enterprises, public-sector organisations, product companies, and cloud environments. The job may support databases hosted on organisation-managed infrastructure, managed cloud services, or a hybrid of both.",
+        "Work is operational and collaborative. DBAs commonly coordinate with developers on schema or application-performance issues and with security, infrastructure, and data teams on access, availability, migrations, automation, and incidents. Production support can also involve scheduled maintenance windows or on-call responsibilities, depending on the employer’s service requirements."
+      ],
+      "bullets": [
+        "On-premises, cloud, and hybrid data-platform operations.",
+        "Coordination with developers, solution architects, data engineers, security teams, and infrastructure teams.",
+        "Monitoring, planned maintenance, troubleshooting, change implementation, and recovery readiness.",
+        "Role scope may be broad in a small team or specialised in a large enterprise."
+      ],
+      "source_urls": [
+        "https://www.oracle.com/database/what-is-a-dba/",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/21/admin/getting-started-with-database-administration.html"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Possible career progression",
+      "paragraphs": [
+        "Career progression is usually shaped by increasing responsibility for production systems, scale, reliability, and a chosen platform. A DBA may broaden from general administration into application DBA work, performance analysis, security, backup/recovery, data-warehouse administration, or cloud DBA responsibilities. These are role variants rather than guaranteed promotion steps.",
+        "With substantial design and operational experience, some professionals move toward database architecture, data-platform engineering, technical leadership, or specialist reliability and security roles. The appropriate direction depends on the employer’s technology stack and the individual’s depth in database design, operations, and stakeholder support."
+      ],
+      "bullets": [
+        "Junior database or production-support work → DBA responsibilities for a defined platform or application.",
+        "General DBA → specialist tracks such as application DBA, performance analyst, security-focused DBA, backup/recovery specialist, data-warehouse DBA, or cloud DBA.",
+        "Senior operational and design experience can support moves into database architecture or wider data-platform leadership."
+      ],
+      "source_urls": [
+        "https://www.oracle.com/database/what-is-a-dba/",
+        "https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.4/emsec/database-management-roles-and-responsibilities.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/26/cncpt/concepts-for-database-administrators.html"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation: how to interpret salary information",
+      "paragraphs": [
+        "There is no single India-wide DBA salary figure that applies reliably across employers. Compensation varies materially with location, years of experience, production responsibility, shift or on-call requirements, database platform, cloud skills, industry, employer size, and whether the engagement is permanent or contractual.",
+        "Use dated job advertisements only as narrow examples of a particular role and employment arrangement, not as a salary expectation. For example, a December 2023 Ministry of Defence consultancy notice for a Young Professional (Database Administrator) specified ₹60,000 per month consolidated remuneration; it should not be treated as a current private-sector salary benchmark or as applicable to all DBA roles."
+      ],
+      "bullets": [
+        "Compare offers on fixed pay, variable pay, benefits, employment type, working hours, on-call expectations, and training support—not only headline monthly pay.",
+        "Check the advert date, city, employer, experience requirement, and platform before using any compensation figure for comparison.",
+        "Treat public-sector consultancy remuneration and private-sector CTC figures as different compensation formats."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/Documents/Hiring-of-2-YPs-in-DESW_21_12_2023.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Oracle Database Administrator’s Guide: Getting Started with Database Administration",
+      "url": "https://docs.oracle.com/en/database/oracle/oracle-database/21/admin/getting-started-with-database-administration.html",
+      "kind": "official technical documentation"
+    },
+    {
+      "label": "NITK MCA Database Management Systems course outline",
+      "url": "https://macs.nitk.ac.in/course/database-management-systemsma607",
+      "kind": "official university curriculum"
+    },
+    {
+      "label": "Microsoft Azure Database Administrator Associate",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/",
+      "kind": "official professional certification information"
+    },
+    {
+      "label": "National Career Service-hosted Ministry of Defence DBA engagement notice (dated example)",
+      "url": "https://www.ncs.gov.in/Documents/Hiring-of-2-YPs-in-DESW_21_12_2023.pdf",
+      "kind": "government-hosted vacancy notice"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

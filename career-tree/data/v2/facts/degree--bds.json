@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Award and structure",
+      "value": "BDS is the undergraduate dental qualification prescribed as four academic years plus one year of compulsory paid rotating internship; the degree is granted after internship completion.",
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf"
+      ]
+    },
+    {
+      "label": "Entrance route",
+      "value": "Admission is based on NEET-UG merit. The National Testing Agency describes NEET (UG) 2026 as the common, uniform entrance test for undergraduate medical education, and the BDS regulations prescribe NEET-based merit for BDS admission.",
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf"
+      ]
+    },
+    {
+      "label": "School preparation",
+      "value": "The standard qualifying route requires Physics, Chemistry, Biology/Biotechnology and English; BDS regulations also set a minimum age of 17 by 31 December of the admission year.",
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf"
+      ]
+    },
+    {
+      "label": "Counselling",
+      "value": "BDS seats are allotted through common counselling: DGHS/MCC handles 15% All India Quota seats and specified central/deemed-university seats, while States and Union Territories conduct counselling for their respective institutions and seats.",
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf",
+        "https://mcc.nic.in/ug-%20medical-counselling/"
+      ]
+    },
+    {
+      "label": "Clinical-practice pathway",
+      "value": "Clinical dental practice is regulated: the Dentists Act restricts practice of dentistry to registered dentists, subject to statutory exceptions. Graduates should therefore complete the applicable State Dental Council registration process before practising independently.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00002_194816_1517807317945&orderno=59",
+        "https://dciindia.gov.in/DentistDetails.aspx"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who can pursue BDS?",
+      "paragraphs": [
+        "A typical entrant comes from the Class 12 science route with Physics, Chemistry, Biology/Biotechnology and English, then qualifies NEET-UG and participates in counselling. The BDS regulations specify completion of age 17 on or before 31 December of the admission year. They prescribe 50% aggregate in Physics, Chemistry and Biology/Biotechnology for the general qualifying-examination standard, with 40% for SC/ST/OBC candidates and 45% for the disability category described in those regulations; applicants must also satisfy the NEET percentile and category rules applicable to the admission year.",
+        "The exact eligibility, disability provisions, category treatment, document requirements and cut-offs should always be checked in the current NEET-UG information bulletin and the relevant counselling authority’s notice, because these are admission-cycle-specific."
+      ],
+      "bullets": [
+        "Complete an accepted 10+2/equivalent qualification with PCB/Biology-Biotechnology and English.",
+        "Meet the age requirement and the current year’s NEET-UG eligibility and qualifying criteria.",
+        "Use the current counselling rules for the quota, domicile and college category sought."
+      ],
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf",
+        "https://neet.nta.nic.in/document/information-bulletin-english/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and internship",
+      "paragraphs": [
+        "The regulated BDS pathway is five years in total: four academic years, each with 240 teaching days, followed by a one-year paid rotating internship in a dental college. Internship is compulsory, and the BDS degree is granted only after it is completed.",
+        "The internship is designed as supervised clinical rotation rather than an optional placement. The regulations describe rotations across dental departments and community/rural-service exposure, with a stipend allowance during the internship period under the stated framework."
+      ],
+      "bullets": [
+        "Four academic years of full-time dental education.",
+        "One compulsory paid rotating internship year.",
+        "Degree award follows successful internship completion."
+      ],
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What BDS studies and trains you to do",
+      "paragraphs": [
+        "BDS progresses from biomedical foundations to oral sciences and clinical dentistry. The curriculum framework groups training into: medical and basic sciences such as anatomy, physiology, biochemistry, pharmacology, pathology, microbiology, medicine and surgery; oral and dental sciences such as oral biology and oral pathology; and the clinical and technical components required for general dental practice.",
+        "The programme includes laboratory, pre-clinical and patient-facing clinical learning. The official syllabus covers areas including human anatomy, embryology, histology and medical genetics, and the wider regulations identify clinical fields such as oral medicine and radiology, oral and maxillofacial surgery, prosthodontics, periodontics, conservative dentistry and endodontics, pedodontics, orthodontics, oral pathology and community dentistry."
+      ],
+      "bullets": [
+        "Builds diagnostic, preventive, restorative and patient-management foundations for general dentistry.",
+        "Integrates basic medical sciences with oral-health science and clinical dental practice.",
+        "Includes compulsory rotating internship exposure after final BDS examinations."
+      ],
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How admission works",
+      "paragraphs": [
+        "The practical sequence is: register for NEET-UG, meet that year’s qualifying requirements, obtain a score/rank, then register for the applicable counselling process and fill college choices. For the national counselling stream, MCC/DGHS conducts online allotment for 15% All India Quota seats of contributing States and for specified central and deemed-university BDS seats. State/UT authorities conduct counselling for their respective BDS institutions and seats.",
+        "Do not treat an exam result as an admission offer: allocation depends on the relevant merit list, choices, seat matrix, reservation and eligibility verification. Counselling calendars, rounds, security deposits and participating-institute lists vary by academic year; the MCC website currently identifies its UG services as including BDS seat allotment and publishes schedules and seat matrices."
+      ],
+      "bullets": [
+        "NEET-UG is the entrance examination route.",
+        "Apply separately to the applicable MCC and/or State/UT counselling process.",
+        "Check current seat matrices, college recognition/approval status, fee notices and round schedules before locking choices."
+      ],
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://mcc.nic.in/ug-%20medical-counselling/",
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "What comes after BDS",
+      "paragraphs": [
+        "After completing BDS and the required internship, graduates can pursue general clinical dentistry subject to registration requirements, seek dental-surgeon roles where they meet the recruiting employer’s conditions, or build toward independent practice/clinic entrepreneurship within the profession’s registration and other applicable legal requirements. The Dentists Act provides that unregistered persons may not practise dentistry, while the Indian Dentists Register is maintained from State Dental Council information.",
+        "For specialization, the principal postgraduate route is MDS. NEET-MDS is the national entrance examination for MDS admissions; NBEMS states that candidates who have passed BDS (or an eligible recognized foreign dental degree) and are completing the 12-month compulsory rotating internship by the prescribed cut-off may take NEET-MDS, subject to the information bulletin’s conditions. The BDS regulations also expressly recognize the 4+1 BDS structure for purposes including MDS admission, government jobs and State Dental Council registration.",
+        "BDS graduates may also move toward public-health education such as MPH, health administration, research, teaching after meeting institution-specific requirements, or non-clinical oral-health programme roles. These routes are not governed by one universal BDS admission rule, so applicants should verify the destination university’s current eligibility criteria."
+      ],
+      "bullets": [
+        "Clinical dentist/dental surgeon pathway: complete internship and obtain applicable registration before practising.",
+        "MDS specialization: take NEET-MDS and meet its current bulletin, internship and counselling conditions.",
+        "Government dental-surgeon recruitment: monitor the relevant Union, State, public-health-service or institutional vacancy notice; eligibility, registration and experience requirements vary.",
+        "MPH and other public-health or management study: check each university’s current admissions policy.",
+        "Clinic entrepreneurship: requires professional registration plus compliance with applicable State/local establishment, taxation, biomedical-waste, labour and other operational rules."
+      ],
+      "source_urls": [
+        "https://www.natboard.edu.in/viewnbeexam?exam=neetmds",
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00002_194816_1517807317945&orderno=59",
+        "https://dciindia.gov.in/DentistDetails.aspx"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NEET-UG official portal",
+      "url": "https://neet.nta.nic.in/",
+      "kind": "admission_exam"
+    },
+    {
+      "label": "NEET-UG 2026 information bulletin page",
+      "url": "https://neet.nta.nic.in/document/information-bulletin-english/",
+      "kind": "admission_rules"
+    },
+    {
+      "label": "MCC UG medical/dental counselling",
+      "url": "https://mcc.nic.in/ug-%20medical-counselling/",
+      "kind": "counselling"
+    },
+    {
+      "label": "BDS Course Regulations (DCI)",
+      "url": "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "NEET-MDS official examination page",
+      "url": "https://www.natboard.edu.in/viewnbeexam?exam=neetmds",
+      "kind": "postgraduate_admission"
+    },
+    {
+      "label": "Indian Dentists Register",
+      "url": "https://dciindia.gov.in/DentistDetails.aspx",
+      "kind": "professional_registration"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

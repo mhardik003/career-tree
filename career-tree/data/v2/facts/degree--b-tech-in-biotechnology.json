@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Award and level",
+      "value": "B.Tech in Biotechnology is a four-year undergraduate professional degree pathway in the Indian agricultural and allied-sciences admission system.",
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf"
+      ]
+    },
+    {
+      "label": "School-leaving entry point",
+      "value": "Entry normally follows a recognised 10+2/senior-secondary qualification in relevant science subjects. Exact subject combinations, marks, age rules, and reservations are institution- and admission-route-specific.",
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+        "https://viteee.vit.ac.in/"
+      ]
+    },
+    {
+      "label": "ICAR route in 2026–27",
+      "value": "For ICAR’s 2026–27 undergraduate All India Quota route, B.Tech Biotechnology is listed among the 13 programmes and admissions are through CUET (ICAR-UG), followed by ICAR counselling; applicants should not assume the older standalone ICAR AIEEA-UG format applies.",
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf"
+      ]
+    },
+    {
+      "label": "Research-exam progression",
+      "value": "A B.Tech/B.E. holder can meet the degree-type requirement for BET 2026 if the applicable marks, nationality/residency, age, and other conditions are met; the 2026 bulletin sets 60% aggregate for General/EWS/OBC and 55% for SC/ST/differently abled candidates.",
+      "source_urls": [
+        "https://pgt.dbt.gov.in/storage/NoticeBoard/Information%20Bulletien%20GATBET%202026.pdf"
+      ]
+    },
+    {
+      "label": "GATE option",
+      "value": "GATE 2026 includes a Biotechnology (BT) paper, and students in the third year or later of an undergraduate programme, as well as graduates, may appear subject to the published eligibility rules.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://gate2026.iitg.ac.in/download.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "The general school-level baseline for the ICAR undergraduate route is a recognised 10+2 qualification after 12 years of study. For CUET (ICAR-UG) 2026, ICAR specifies at least 50% aggregate for General/OBC-NCL/UPS/EWS candidates and 40% for SC/ST/Third Gender/PwBD candidates; the final programme-specific subject combinations and special conditions are published through the relevant counselling and admitting-university materials.",
+        "At VIT, a current example of institution-specific eligibility, B.Tech Biotechnology accepts the biology route: PCB/PCMB applicants need 60% aggregate in Biology, Physics and Chemistry and at least 50% in Biology, alongside the prescribed VITEEE subject combination. The same page gives different provisions for PCM applicants and specified categories. Applicants should therefore verify the prospectus of every target institution rather than treating one college’s threshold as national eligibility."
+      ],
+      "bullets": [
+        "Check whether the programme accepts PCM, PCB, PCMB, agriculture-linked subjects, or a particular combination; this varies by university.",
+        "Confirm required entrance test, qualifying marks, age conditions, domicile/category rules, and document requirements for the admission year."
+      ],
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+        "https://viteee.vit.ac.in/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration",
+      "paragraphs": [
+        "For the ICAR 2026–27 undergraduate admission framework, B.Tech Biotechnology is one of the bachelor programmes stated to have a duration of four years. The AICTE model curriculum for the UG Biotechnology degree is structured as an engineering curriculum with 163 credits, but a student should confirm the credit total, semester rules, internships, and exit provisions in the curriculum of the admitting university."
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+        "https://aicte-qa.aicte-india.org/sites/default/files/biotechnology.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and learning format",
+      "paragraphs": [
+        "The AICTE model curriculum frames Biotechnology as an engineering programme combining basic science and engineering foundations, discipline courses, electives including emerging areas, and embedded summer internships. It is a model rather than a substitute for a university’s own approved syllabus.",
+        "A university implementation can be laboratory-intensive. For example, VIT lists bioinformatics, biochemistry and immunology, cell and molecular biology, bioprocess and downstream-processing, stem-cell, tissue-culture, and central-instrumentation laboratories for its B.Tech Biotechnology programme. Its listed electives span areas such as pharmaceutical, food, environmental and nanobiotechnology, computational biology, biomaterials, molecular modelling and drug design, and clinical data management."
+      ],
+      "bullets": [
+        "Expect a mix of biology and life-science foundations with engineering, data/bioinformatics, process, laboratory, project, and internship components.",
+        "Compare curriculum documents for practical exposure: named laboratories, compulsory internships, capstone/design projects, elective baskets, and assessment/credit requirements."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/biotechnology.pdf",
+        "https://vit.ac.in/school/course/sbst/ug"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission routes",
+      "paragraphs": [
+        "For the ICAR-linked route, the current 2026–27 undergraduate process is CUET (ICAR-UG), not a separate standalone ICAR AIEEA-UG examination. ICAR states that CUET (ICAR-UG) is used for bachelor programmes in agriculture and allied sciences at participating agricultural universities, and that candidates eligible for registration and choice filling are considered for programme and university allocation through counselling. The 2026 bulletin also says final seats and subject eligibility are to be notified in the online counselling brochure, so they should be treated as cycle-specific.",
+        "VIT is an example of a university-specific route: selection for its 2026 B.Tech Biotechnology intake is based on VITEEE rank, followed by online counselling, programme/campus/fee-category choices, and verification of eligibility documents. Other institutions may use their own entrance processes or other accepted examinations; use the official admission notice for the exact route."
+      ],
+      "bullets": [
+        "ICAR pathway: take CUET (ICAR-UG), satisfy the eligibility rules, then follow ICAR counselling and the participating university’s conditions.",
+        "University pathway: follow the relevant university’s test/application, rank or merit process, counselling, fee payment, and document-verification requirements.",
+        "Do not rely on previous-year seats, cut-offs, examination dates, or deadlines: ICAR explicitly notes that these can change for the current counselling cycle."
+      ],
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+        "https://viteee.vit.ac.in/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After B.Tech Biotechnology",
+      "paragraphs": [
+        "For postgraduate study, GAT-B is the national entrance examination used for admission to DBT-supported postgraduate programmes in biotechnology and allied sciences at participating institutions. DBT’s 2026 notice identifies examples including M.Sc. Biotechnology and allied sciences, M.Tech Biotechnology and allied sciences, M.Sc. Agricultural Biotechnology, and M.V.Sc. Animal Biotechnology. Eligibility remains programme-specific, so a GAT-B score alone does not guarantee admission.",
+        "For doctoral-research funding, BET is the national qualifying examination for the DBT-Junior Research Fellowship programme. In the 2026 rules, B.Tech/B.E. candidates are among the eligible degree holders when they meet the stated marks threshold; final-year/result-awaited candidates may apply under the specified process. Category-I and Category-II outcomes have different fellowship implications, and qualifying BET does not itself confer admission or a fellowship without meeting all subsequent conditions.",
+        "GATE is another relevant examination route: the 2026 examination offers Biotechnology (BT), while institute-specific admissions determine which GATE papers, scores, and academic backgrounds they accept. Career entry can also be pursued through laboratory, production/process, quality, clinical-research, bioinformatics, and research-support roles, but job titles and requirements vary materially by employer, regulated activity, location, and prior laboratory/internship experience."
+      ],
+      "bullets": [
+        "M.Sc./M.Tech: check GAT-B participating-institute eligibility and each institution’s admissions notice.",
+        "PhD/JRF: assess BET eligibility and then separately meet the PhD admission requirements of the host institution.",
+        "GATE: select the paper and target programmes after checking each institute’s accepted-paper and discipline rules.",
+        "Employment: use placement cells, internships, laboratory skills, and employer job descriptions to match roles rather than assuming a single standard entry title."
+      ],
+      "source_urls": [
+        "https://dbt.gov.in/storage/media/czPQAu0frI2VWMIAyS0PrSqIpXPQwxWGIEf9doGK.pdf",
+        "https://pgt.dbt.gov.in/storage/NoticeBoard/Information%20Bulletien%20GATBET%202026.pdf",
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://gate2026.iitg.ac.in/download.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ICAR CUET (ICAR-UG) 2026 information bulletin",
+      "url": "https://icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+      "kind": "official admission bulletin"
+    },
+    {
+      "label": "VITEEE 2026 admissions and eligibility",
+      "url": "https://viteee.vit.ac.in/",
+      "kind": "official university admission portal"
+    },
+    {
+      "label": "AICTE model curriculum for UG Biotechnology",
+      "url": "https://aicte-qa.aicte-india.org/sites/default/files/biotechnology.pdf",
+      "kind": "official model curriculum"
+    },
+    {
+      "label": "GAT-B/BET 2026 information bulletin",
+      "url": "https://pgt.dbt.gov.in/storage/NoticeBoard/Information%20Bulletien%20GATBET%202026.pdf",
+      "kind": "official examination bulletin"
+    },
+    {
+      "label": "GATE 2026 eligibility criteria",
+      "url": "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+      "kind": "official examination guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

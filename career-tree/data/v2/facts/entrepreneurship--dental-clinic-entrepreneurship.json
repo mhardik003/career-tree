@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core eligibility to begin independent practice",
+      "value": "The standard BDS pathway is four academic years plus a compulsory one-year paid rotating internship; the BDS degree is granted after internship completion. A prospective clinic owner should also hold the applicable State Dental Council registration/licence before offering dental services.",
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00024_2023-21_1710130648069&orderno=31"
+      ]
+    },
+    {
+      "label": "Professional register and licence",
+      "value": "The National Dental Commission Act, 2023 provides that a person who qualifies the National Exit Test (Dental), once operational under the Act, receives a licence to practise and enrolment in the National or State Register; dentists already registered under the Dentists Act, 1948 before that transition are deemed registered under the newer Act. Verify the currently applicable registration process with the relevant State Dental Council.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00024_2023-21_1710130648069&orderno=31",
+        "https://www.indiacode.nic.in/handle/123456789/19795?col=123456789%2F1362&view_type=search"
+      ]
+    },
+    {
+      "label": "Clinic-registration coverage is location-dependent",
+      "value": "The Clinical Establishments (Registration and Regulation) Act, 2010 covers dental clinics where it has been adopted; the Union Ministry’s portal states that adoption and implementation vary by State/UT. A founder must therefore check the local clinical-establishment, municipal, planning, fire-safety and other applicable approvals for the precise clinic location.",
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/en/node",
+        "https://clinicalestablishments.mohfw.gov.in/en/faq"
+      ]
+    },
+    {
+      "label": "Biomedical-waste compliance",
+      "value": "For a non-bedded healthcare facility such as a clinic, the central biomedical-waste guidance says a one-time authorisation is required from the relevant State Pollution Control Board or Pollution Control Committee, subject to the applicable rules and local implementation.",
+      "source_urls": [
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf"
+      ]
+    },
+    {
+      "label": "Practice-management baseline",
+      "value": "The BDS curriculum identifies practice-management capabilities including evaluating location and population dynamics, supervising allied dental personnel, maintaining records, implementing infection-control and environmental-safety programmes, practising within competence, and referring patients for specialised treatment.",
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Gazette/18.%20Revised%20BDS%20Course%20Regulations%2C%202007/Revised%20BDS%20Course%20Regulations%2C%202007%20%28alongwith%20corrigendum%29.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Route from BDS graduate to clinic founder",
+      "paragraphs": [
+        "The entry route is a recognised BDS qualification followed by successful completion of the compulsory rotating internship. The revised BDS regulations describe a four-academic-year programme plus one year of paid rotating internship and state that the degree is granted after internship completion.",
+        "Before treating patients independently, obtain and maintain the registration or licence applicable in the State of practice. The regulatory system is transitioning under the National Dental Commission Act, 2023: its licence provision is expressly linked to National Exit Test (Dental) implementation, while pre-transition dentists registered under the Dentists Act, 1948 are deemed registered under the newer Act. Accordingly, applicants should use the relevant State Dental Council’s current process rather than relying only on an older checklist.",
+        "A July 14, 2026 National Dental Commission circular discontinued the requirement for provisional registration for BDS students undertaking compulsory rotating internship. This concerns internship-stage provisional registration; it should not be read as removing the need to establish the proper post-qualification registration/licensure status for independent clinical practice."
+      ],
+      "bullets": [
+        "Complete BDS and the compulsory rotating internship.",
+        "Apply for the current State Dental Council registration/licence route in the State where the clinic will operate; retain evidence of registration and renew/update it as required.",
+        "Confirm any transition-related National Exit Test (Dental) requirements directly with the State Dental Council and National Dental Commission.",
+        "Only advertise or provide services within the qualifications, registration status and competence actually held."
+      ],
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Revised_BDS_Course_Regulation_2007.pdf",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00024_2023-21_1710130648069&orderno=31",
+        "https://dciindia.gov.in/NewsSection.aspx?NewsType=Public+Notice",
+        "https://www.indiacode.nic.in/handle/123456789/1463?locale=en"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities needed to run a safe independent dental practice",
+      "paragraphs": [
+        "A dental-clinic entrepreneur needs both clinical and operational capability. The BDS regulations place graduates’ expected competence beyond treatment delivery: they include ethical practice, evidence-informed decision-making, record maintenance, supervision of allied dental personnel, infection control, environmental safety, communication, and referral for specialised treatment.",
+        "The curriculum also specifically addresses radiation hazards and protective measures, dental jurisprudence and ethical obligations, and infection and cross-infection control. These are practical operating capabilities for a clinic, not merely academic subjects.",
+        "The regulator’s ethics code applies to dentists entered in the State Dentists Register and requires a declaration to the State Dental Council after registration. Continuing professional education is also incorporated into the ethics framework, supporting an owner’s need to keep clinical and regulatory knowledge current."
+      ],
+      "bullets": [
+        "Clinical triage, diagnosis, treatment planning and timely referral.",
+        "Informed, understandable patient communication and documentation.",
+        "Sterilisation, infection prevention, radiation safety and staff safety controls.",
+        "Scheduling, patient-record workflows, staff supervision, equipment maintenance and quality review.",
+        "Professional ethics, continuing learning and scope-of-competence discipline."
+      ],
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Gazette/18.%20Revised%20BDS%20Course%20Regulations%2C%202007/Revised%20BDS%20Course%20Regulations%2C%202007%20%28alongwith%20corrigendum%29.pdf",
+        "https://dciindia.gov.in/Rule_Regulation/Gazette_Notification_reg_DCI_Revised_Dentists_Code_of_Ethics_Regulations_2014_27.06.2014.pdf",
+        "https://dciindia.gov.in/Rule_Regulation/Gazette/30.%20Revised%20Dentists%20%28Code%20of%20Ethics%29%20Regulations%2C%202014/Revised%20Dentists%20%28Code%20of%20Ethics%29%20Regulations%2C%202014%20%282nd%20amendment%29.pdf"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Designing the clinic operating model",
+      "paragraphs": [
+        "Build the clinic around the services that can be delivered safely by the registered dentist and team, with a documented referral pathway for cases requiring specialist care. The BDS competency framework specifically expects graduates to practise within competence and refer patients for consultation and specialised treatment.",
+        "The Ministry’s dental-clinic standards template is a useful planning benchmark. It identifies the dentist in charge with qualification and registration number, consultation/fee display, waiting, consultation and treatment space, trained chairside assistance and dental-technical support, sterilisation equipment, dental X-ray where provided, staff health checks and vaccination, maintenance records, outpatient records, confidentiality and infection-control processes.",
+        "Use written workflows for appointments, clinical records, consent, diagnostic imaging, sterilisation, biomedical-waste handover, equipment servicing, staff roles and patient escalation. Requirements differ by service mix and State/UT, so the final design should be checked against local registration and building rules before opening."
+      ],
+      "bullets": [
+        "Define a limited initial service menu that matches the owner’s competence, equipment and staffing.",
+        "Display the responsible dentist’s name, qualification, registration number and applicable fee information where required.",
+        "Staff and train chairside support; document qualification, role, training and health/safety processes.",
+        "Maintain clinical, personnel, equipment-maintenance and waste-management records.",
+        "Establish specialist referral relationships rather than extending treatment beyond competence."
+      ],
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Gazette/18.%20Revised%20BDS%20Course%20Regulations%2C%202007/Revised%20BDS%20Course%20Regulations%2C%202007%20%28alongwith%20corrigendum%29.pdf",
+        "https://www.clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/833_0.pdf",
+        "https://clinicalestablishments.mohfw.gov.in/en/faq"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance checklist: verify locally before opening",
+      "paragraphs": [
+        "First, confirm the clinician’s State Dental Council registration/licence and comply with the professional ethics rules. The Dentists Act, 1948 regulates the profession of dentistry, and the National Dental Commission Act, 2023 establishes the newer framework for professional registration and licensing.",
+        "Second, identify the clinic-registration regime for the exact State/UT and local body. The central Clinical Establishments Act covers clinics, including establishments run by a single doctor, only in adopting jurisdictions; other States/UTs may use their own legislation or local registration systems. The Ministry also notes that establishment details, charges and facilities may need to be displayed and that records and prescribed reporting must be maintained under the Act’s framework.",
+        "Third, put biomedical-waste systems in place before treating patients. Central guidance for non-bedded facilities such as clinics calls for authorisation from the relevant SPCB/PCC and continuing compliance with the Biomedical Waste Management Rules. Also assess location-specific premises, municipal, fire, radiation/X-ray, labour, tax and data/record obligations with the competent local authorities or qualified advisers; these obligations are not uniform across India.",
+        "This is a regulatory orientation, not legal advice. Rules, forms, fees, notification status and local enforcement can change; obtain written confirmation from the relevant State Dental Council, clinical-establishment authority, local body and pollution-control authority before launch."
+      ],
+      "bullets": [
+        "Professional: current dentist registration/licence; ethics-code compliance; registration number used as required.",
+        "Facility: determine whether the Clinical Establishments Act or a State/UT law applies; obtain facility registration where required.",
+        "Waste and infection control: SPCB/PCC biomedical-waste authorisation and a documented collection/segregation system.",
+        "Clinical governance: patient records, confidentiality, fees/facilities display where applicable, staff and equipment documentation.",
+        "Premises and services: local approvals for occupancy, signage, fire safety, dental X-ray or other equipment, and employment/tax obligations as applicable."
+      ],
+      "source_urls": [
+        "https://www.indiacode.nic.in/handle/123456789/1463?locale=en",
+        "https://www.indiacode.nic.in/handle/123456789/19795?col=123456789%2F1362&view_type=search",
+        "https://clinicalestablishments.mohfw.gov.in/en/node",
+        "https://clinicalestablishments.mohfw.gov.in/en/faq",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+        "https://dciindia.gov.in/Rule_Regulation/Gazette_Notification_reg_DCI_Revised_Dentists_Code_of_Ethics_Regulations_2014_27.06.2014.pdf"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Responsible growth paths",
+      "paragraphs": [
+        "A clinic can grow through deeper competence, better systems and carefully expanded services—not simply by adding procedures. The BDS competency framework supports continuous knowledge updating, supervision of allied personnel, use of records, infection-control monitoring and specialist referral. These capabilities support a staged move from a single-chair general practice to a stronger general clinic with formal referral networks and, where appropriate, additional trained staff and equipment.",
+        "Formal postgraduate progression is one route to specialist capability. The National Dental Commission’s official regulations index includes the Master of Dental Surgery Course Regulations, 2017 and amendments. An owner should describe specialist credentials accurately and add a specialist service only when the practitioner, registration, equipment, staffing and local facility approvals support it.",
+        "Continuing dental education is also part of the ethics framework. Use it to update clinical protocols, compliance processes, infection control and patient-safety practices as requirements and evidence evolve."
+      ],
+      "bullets": [
+        "Build a reliable general-practice base: safe records, recall systems, referrals and infection-control assurance.",
+        "Develop specialist referral networks for cases outside the clinic’s competence or facilities.",
+        "Pursue recognised postgraduate qualifications or structured continuing education before representing specialist expertise.",
+        "Scale chairs, team size, diagnostics and service range only after reassessing staffing, quality systems, biomedical waste and local approvals."
+      ],
+      "source_urls": [
+        "https://dciindia.gov.in/Rule_Regulation/Gazette/18.%20Revised%20BDS%20Course%20Regulations%2C%202007/Revised%20BDS%20Course%20Regulations%2C%202007%20%28alongwith%20corrigendum%29.pdf",
+        "https://dciindia.gov.in/GazetteList.aspx",
+        "https://dciindia.gov.in/Rule_Regulation/Gazette/30.%20Revised%20Dentists%20%28Code%20of%20Ethics%29%20Regulations%2C%202014/Revised%20Dentists%20%28Code%20of%20Ethics%29%20Regulations%2C%202014%20%282nd%20amendment%29.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Dental Commission: official notices and circulars",
+      "url": "https://dciindia.gov.in/NewsSection.aspx?NewsType=Public+Notice",
+      "kind": "regulator"
+    },
+    {
+      "label": "National Dental Commission: Acts, regulations and gazette notifications",
+      "url": "https://dciindia.gov.in/GazetteList.aspx",
+      "kind": "regulator"
+    },
+    {
+      "label": "India Code: National Dental Commission Act, 2023",
+      "url": "https://www.indiacode.nic.in/handle/123456789/19795?col=123456789%2F1362&view_type=search",
+      "kind": "legislation"
+    },
+    {
+      "label": "Clinical Establishments Act portal",
+      "url": "https://clinicalestablishments.mohfw.gov.in/",
+      "kind": "government"
+    },
+    {
+      "label": "CPCB biomedical-waste guidance for healthcare facilities",
+      "url": "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+      "kind": "government"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

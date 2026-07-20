@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "ISRO ICRB is the Indian Space Research Organisation’s Centralised Recruitment Board process for recruiting Scientist/Engineer ‘SC’ posts; ‘SC’ is a job designation, not a reference to Scheduled Caste status.",
+      "source_urls": [
+        "https://www.isro.gov.in/ICRB_Recruitment9.html",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf"
+      ]
+    },
+    {
+      "label": "Qualification baseline",
+      "value": "The 2025 discipline-specific notices required a relevant B.E./B.Tech or equivalent degree with at least 65% aggregate marks or CGPA 6.84/10. Exact eligible disciplines and equivalencies are advertisement-specific.",
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf"
+      ]
+    },
+    {
+      "label": "Selection routes vary",
+      "value": "ICRB used both written-test-plus-interview recruitment and, in a separate 2025 Scientist/Engineer ‘SC’ advertisement, GATE-score-based interview shortlisting without a written test. Applicants must follow the method stated in the particular notification.",
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_April/Advt_EMC_2025ICRB_EMCFAQs.pdf"
+      ]
+    },
+    {
+      "label": "2025 written-test pattern example",
+      "value": "For ICRB:02(EMC):2025, the written paper was objective, 120 minutes, with 80 discipline MCQs in Part A (+1, −1/3) and an aptitude/ability Part B of up to 15 MCQs worth 20 marks without negative marking.",
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf"
+      ]
+    },
+    {
+      "label": "Age example",
+      "value": "The upper-age limit in ICRB:02(EMC):2025 was 28 years as on June 16, 2025, with relaxation for specified groups under Government of India orders. This date and limit should not be treated as a standing rule for future notices.",
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "The 2025 written-test advertisement stated appointment at Pay Matrix Level 10 with minimum basic pay of ₹56,100 per month, plus applicable allowances. Pay, allowances and pension terms are dated policy context and can change.",
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and scope",
+      "paragraphs": [
+        "ISRO ICRB is a centralized employer recruitment route, rather than a university entrance examination or a credential. It is used by ISRO to fill Scientist/Engineer ‘SC’ vacancies in notified technical disciplines. For example, the 2025 ICRB notices covered Electronics, Mechanical and Computer Science, and separately Civil, Electrical, Refrigeration & Air-Conditioning and Architecture. The disciplines, number of posts, employer units and selection method are determined separately in each advertisement.",
+        "source_urls"
+      ],
+      "bullets": [
+        "A successful candidate proceeds to appointment as Scientist/Engineer ‘SC’ at ISRO or, where the notice specifies it, an associated unit such as the Physical Research Laboratory (PRL).",
+        "The designation ‘SC’ does not itself restrict the post to a caste category; reservation and eligibility conditions are stated separately in each notice."
+      ],
+      "source_urls": [
+        "https://www.isro.gov.in/ICRB_Recruitment9.html",
+        "https://www.isro.gov.in/ISRO_HINDI/ICRB_Recruitment10.html",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: read the vacancy-specific notice",
+      "paragraphs": [
+        "In the 2025 ICRB Scientist/Engineer ‘SC’ recruitment examples, the core academic requirement was a relevant B.E./B.Tech or equivalent degree with an aggregate minimum of 65% marks or CGPA 6.84/10. The qualifying discipline must match the specific post: an engineering degree alone does not make a candidate eligible for every stream. ISRO’s FAQ also states that there was no relaxation in the educational-marks requirement for reserved categories in that recruitment.",
+        "AMIE can be relevant to this node, but only subject to conditions. ISRO’s 2025 FAQ recognized AMIE as an equivalent route in the relevant discipline, while stating that AMIE eligibility was regulated by the cited MHRD order: candidates registered for AMIE after May 31, 2013 were not considered under that advertisement, and AMIE/Grad IETE applicants needed 65% marks or CGPA 6.84 in Section B alone. This is notification-specific guidance, so AMIE candidates should verify the latest ISRO notice before applying.",
+        "Age limits, relaxations, disability suitability, nationality, completion status and document requirements can change by notification. As one dated example only, ICRB:02(EMC):2025 set an upper age of 28 years on June 16, 2025 and applied Government of India relaxation rules to specified categories."
+      ],
+      "bullets": [
+        "Relevant B.Tech/B.E. and BS-MS/dual-degree holders should compare their exact branch, transcript, marks/CGPA and completion status with the advertised eligibility table.",
+        "Applicants employed by a government department, PSU or autonomous body may need prior permission and an original no-objection certificate at interview, when required by the advertisement.",
+        "Do not assume a postgraduate degree compensates for an ineligible or below-threshold qualifying engineering degree; ISRO’s 2025 FAQ required the prescribed B.E./B.Tech baseline."
+      ],
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Assessment format and selection",
+      "paragraphs": [
+        "There is no single permanent ‘ISRO ICRB exam pattern.’ In the written-test route used in ICRB:02(EMC):2025, ISRO specified a 120-minute, single objective paper. Part A had 80 discipline-specific MCQs, one mark each, with +1/−1/3 marking; Part B had up to 15 aptitude/ability MCQs totaling 20 marks, with no negative marking. ISRO stated that candidates would be shortlisted for interview from written-test performance, generally in a 1:5 ratio, and that final-panel generation would give 50% weight to the written test and 50% to the interview.",
+        "The interview rubric in that 2025 notice allocated 100 marks across technical knowledge, technical awareness related to the specialization, presentation/communication, comprehension and academic achievements. In contrast, the separate ICRB:01(EMC):2025 GATE-based recruitment had no written test and shortlisted candidates for interview using GATE scores in a 1:7 ratio. Therefore, a candidate should not prepare from an older pattern without first confirming the new advertisement’s selection route."
+      ],
+      "bullets": [
+        "For written-test notices, call letters are issued to the registered email address and ISRO may set or change centres according to the notice.",
+        "ISRO’s 2025 written-test process published answer keys and provided a time-limited online objection mechanism; this was a feature of that notice, not a guarantee for every future campaign."
+      ],
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_April/Advt_EMC_2025ICRB_EMCFAQs.pdf",
+        "https://www.isro.gov.in/ICRB_Recruitment9.html"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "How to apply",
+      "paragraphs": [
+        "Apply only through the ISRO Careers/Current Opportunities page when an ICRB advertisement is live. ISRO’s 2025 FAQs describe an online application flow and state that candidates ordinarily need not send application printouts or supporting documents to ISRO Headquarters at the application stage; originals are produced when called for. Applicants should retain their registration number, verify the submitted information before final submission, and monitor the official advertisement page and registered email.",
+        "Fees and deadlines are variable. In the ICRB:02(EMC):2025 written-test notice, all applicants initially paid ₹750 as processing fee per application; for candidates who appeared in the written test, the notice provided a full ₹750 refund to women, SC/ST, PwBD and ex-servicemen, and a ₹500 refund to other candidates after the ₹250 application fee. Payment was online through the designated BharatKosh flow. Future notices may use different charges, refund terms, or no written-test route, so candidates must use the current notice rather than this 2025 example."
+      ],
+      "bullets": [
+        "Open the applicable ICRB vacancy from ISRO Careers, then read the detailed advertisement and FAQ before submitting the form.",
+        "Use the exact qualification option and discipline specified in the application portal; ISRO’s FAQ says only qualifications listed in the drop-down menu are eligible.",
+        "Where a written test is used, check the official payment-status page after payment and save the receipt/confirmation."
+      ],
+      "source_urls": [
+        "https://www.isro.gov.in/CurrentOpportunities.html",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Start with the notified engineering discipline and the current selection route. For the 2025 CEPO written-test recruitment, ISRO stated that the syllabus consisted of topics in the B.E./B.Tech curriculum. For a written-test notice, prepare the full undergraduate core curriculum for the exact branch, then practise timed objective questions and the aptitude/ability component. For a GATE-score route, prioritize the GATE paper and score requirements specified by the notification rather than expecting an ICRB written test.",
+        "Use official materials first. ISRO has published previous recruitment question papers on relevant recruitment pages, including Electronics, Mechanical and Computer Science papers for the 2023 recruitment linked from the 2025 EMC page. Review the notification’s interview criteria as well: technical fundamentals, awareness in the specialization, communication and document verification all matter after shortlisting."
+      ],
+      "bullets": [
+        "Build a branch-by-branch revision map from the B.E./B.Tech curriculum and the vacancy’s stated specialization.",
+        "Complete official previous papers under the advertised time limit where a comparable written-test pattern applies.",
+        "Prepare concise explanations of projects, core subjects and technical developments relevant to the advertised discipline for interview."
+      ],
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf",
+        "https://www.isro.gov.in/ICRB_Recruitment9.html",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Outcome after selection",
+      "paragraphs": [
+        "The direct outcome is eligibility for appointment to the notified Scientist/Engineer ‘SC’ post, subject to final panel placement, document verification and other appointment conditions. ISRO’s 2025 FAQ described these posts as permanent, while remaining temporary until the incumbent completed the prescribed probation period. A selection panel or interview result is not by itself a substitute for satisfying appointment formalities.",
+        "As dated 2025 pay context, the written-test advertisement said selected candidates would be appointed at Pay Matrix Level 10 with minimum basic pay of ₹56,100 per month, with DA, HRA and transport allowance under extant rules, and coverage under the New Pension Scheme/Unified Pension Scheme. Actual take-home pay, allowances, posting location and applicable pension rules depend on the appointment date, place of posting and prevailing government rules."
+      ],
+      "bullets": [
+        "This node is a recruitment pathway to the child outcome: Scientist/Engineer ‘SC’ at ISRO.",
+        "Final appointment can require original proof of qualification, age, category and other claims; government/PSU/autonomous-body employees may also need an NOC when called for."
+      ],
+      "source_urls": [
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf",
+        "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ISRO Current Opportunities / Careers",
+      "url": "https://www.isro.gov.in/CurrentOpportunities.html",
+      "kind": "official careers portal"
+    },
+    {
+      "label": "ICRB:02(EMC):2025 recruitment page and official previous papers",
+      "url": "https://www.isro.gov.in/ICRB_Recruitment9.html",
+      "kind": "official recruitment page"
+    },
+    {
+      "label": "ICRB:02(EMC):2025 detailed bilingual advertisement",
+      "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_May/ICRBAdvt_BILINGUAL.pdf",
+      "kind": "official notification PDF"
+    },
+    {
+      "label": "ICRB:03(CEPO):2025 official FAQ",
+      "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2025_June/FREQUENTLYASKEDQUESTIONSANDANSWERS_CEPO_2025.pdf",
+      "kind": "official FAQ PDF"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

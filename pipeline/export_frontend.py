@@ -14,6 +14,8 @@ REPO_ROOT = PIPELINE_DIR.parent
 NODES_PATH = PIPELINE_DIR / "registry" / "nodes.jsonl"
 EDGES_PATH = PIPELINE_DIR / "registry" / "edges.jsonl"
 OUTPUT_PATH = REPO_ROOT / "career-tree" / "data" / "v2" / "graph.json"
+CORE_OUTPUT_PATH = REPO_ROOT / "career-tree" / "data" / "v2" / "graph.core.json"
+FACTS_DIR = REPO_ROOT / "career-tree" / "data" / "v2" / "facts"
 ROOT_ID = "school_stage:class-10"
 
 
@@ -97,6 +99,80 @@ def build_snapshot(
     }
 
 
+def core_snapshot(snapshot: dict[str, Any]) -> dict[str, Any]:
+    """The same snapshot with every node's heavyweight ``facts`` removed.
+
+    ``facts`` are ~96% of graph.json's bytes but are only needed for the
+    focused node of a guide/explorer page; the web app loads this core
+    snapshot at module init and reads per-node facts files on demand.
+    """
+    return {
+        **snapshot,
+        "nodes": [
+            {key: value for key, value in node.items() if key != "facts"}
+            for node in snapshot["nodes"]
+        ],
+    }
+
+
+def facts_files(snapshot: dict[str, Any]) -> dict[str, Any]:
+    """Map facts filename -> that node's facts payload.
+
+    Filenames use ``{type}--{slug}.json`` (``--`` instead of the id's ``:``,
+    which is unsafe in filenames on some filesystems).
+    """
+    return {
+        f"{node['type']}--{node['slug']}.json": node["facts"]
+        for node in snapshot["nodes"]
+        if "facts" in node
+    }
+
+
+def _render_facts(payload: Any) -> str:
+    return json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
+
+
+def write_facts_dir(directory: Path, expected: dict[str, Any]) -> bool:
+    directory.mkdir(parents=True, exist_ok=True)
+    changed = False
+    for name, payload in sorted(expected.items()):
+        path = directory / name
+        rendered = _render_facts(payload)
+        if path.exists() and path.read_text(encoding="utf-8") == rendered:
+            continue
+        atomic_write(str(path), rendered)
+        changed = True
+    for path in sorted(directory.glob("*.json")):
+        if path.name not in expected:
+            path.unlink()
+            changed = True
+    return changed
+
+
+def stale_facts_reason(directory: Path, expected: dict[str, Any]) -> str | None:
+    present = (
+        {path.name for path in directory.glob("*.json")}
+        if directory.is_dir()
+        else set()
+    )
+    missing = sorted(set(expected) - present)
+    if missing:
+        return f"missing facts file {missing[0]}"
+    extra = sorted(present - set(expected))
+    if extra:
+        return f"unexpected facts file {extra[0]}"
+    for name, payload in sorted(expected.items()):
+        try:
+            existing = json.loads(
+                (directory / name).read_text(encoding="utf-8"),
+            )
+        except json.JSONDecodeError:
+            return f"unreadable facts file {name}"
+        if existing != payload:
+            return f"facts file does not match registry: {name}"
+    return None
+
+
 def _structural(snapshot: dict[str, Any]) -> dict[str, Any]:
     return {key: value for key, value in snapshot.items() if key != "generated_at"}
 
@@ -141,18 +217,35 @@ def main() -> int:
         source_digest(),
         require_facts=not args.allow_incomplete_facts,
     )
+    expected_core = core_snapshot(expected)
+    expected_facts = facts_files(expected)
     if args.check:
-        if not OUTPUT_PATH.exists():
-            print(f"stale: missing {OUTPUT_PATH}")
-            return 1
-        existing = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
-        if not snapshot_matches(existing, expected):
-            print("stale: frontend v2 snapshot does not match registry")
+        for label, path, snapshot in (
+            ("full snapshot", OUTPUT_PATH, expected),
+            ("core snapshot", CORE_OUTPUT_PATH, expected_core),
+        ):
+            if not path.exists():
+                print(f"stale: missing {path}")
+                return 1
+            existing = json.loads(path.read_text(encoding="utf-8"))
+            if not snapshot_matches(existing, snapshot):
+                print(f"stale: frontend v2 {label} does not match registry")
+                return 1
+        reason = stale_facts_reason(FACTS_DIR, expected_facts)
+        if reason:
+            print(f"stale: {reason}")
             return 1
         print("frontend v2 snapshot is current")
         return 0
     changed = write_snapshot(OUTPUT_PATH, expected)
+    core_changed = write_snapshot(CORE_OUTPUT_PATH, expected_core)
+    facts_changed = write_facts_dir(FACTS_DIR, expected_facts)
     print(f"{'wrote' if changed else 'unchanged'} {OUTPUT_PATH}")
+    print(f"{'wrote' if core_changed else 'unchanged'} {CORE_OUTPUT_PATH}")
+    print(
+        f"{'wrote' if facts_changed else 'unchanged'} {FACTS_DIR} "
+        f"({len(expected_facts)} files)",
+    )
     return 0
 
 

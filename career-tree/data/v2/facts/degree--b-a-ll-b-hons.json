@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Award and level",
+      "value": "B.A. LL.B. (Hons.) is an integrated undergraduate law degree that combines arts/social-science study with legal education; the precise title, curriculum and honours requirements are set by the awarding university.",
+      "source_urls": [
+        "https://www.nls.ac.in/programme/ba-llb-hons/",
+        "https://nalsar.ac.in/programmes/undergraduate-study-in-law/"
+      ]
+    },
+    {
+      "label": "Typical duration",
+      "value": "Five academic years in a full-time integrated programme.",
+      "source_urls": [
+        "https://www.nls.ac.in/programme/ba-llb-hons/",
+        "https://nalsar.ac.in/programmes/undergraduate-study-in-law/"
+      ]
+    },
+    {
+      "label": "Common entry qualification",
+      "value": "For CLAT 2026 undergraduate admissions, candidates need 10+2 or an equivalent qualification with at least 45% marks (40% for SC/ST/PwD); candidates appearing in the qualifying examination may apply subject to producing passing evidence at admission.",
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html"
+      ]
+    },
+    {
+      "label": "CLAT route",
+      "value": "CLAT is a principal admission route to participating National Law Universities; for example, NLSIU states that admission to its B.A., LL.B. (Hons.) programme is based on CLAT merit.",
+      "source_urls": [
+        "https://www.nls.ac.in/programme/ba-llb-hons/",
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html"
+      ]
+    },
+    {
+      "label": "CSEET relationship",
+      "value": "CSEET is not a B.A. LL.B. (Hons.) admission test. It is ICSI's entrance test for registration in the Company Secretary Executive Programme; a law graduate may later use the degree as part of a separate CS pathway, subject to ICSI's then-current rules.",
+      "source_urls": [
+        "https://www.icsi.edu/student_rpn/cseet/",
+        "https://www.icsi.edu/media/filer_public/1a/30/1a300642-2eea-43a4-a003-300c592699c7/announcement_restructured_cseet_2.pdf"
+      ]
+    },
+    {
+      "label": "Practice pathway",
+      "value": "For the AIBE route, candidates must ensure that their law university/college is recognised or approved by the Bar Council of India; AIBE notifications set the applicable registration categories and document requirements.",
+      "source_urls": [
+        "https://www.allindiabarexamination.com/notification.html",
+        "https://www.allindiabarexamination.com/"
+      ]
+    },
+    {
+      "label": "Illustrative cost context",
+      "value": "Fees vary materially by institution and are revised over time. As a dated public-university example, NLSIU lists a total annual student cost of ₹4,51,000 for its UG programmes in AY 2026–27, plus one-time admission and refundable-security charges.",
+      "source_urls": [
+        "https://www.nls.ac.in/programme/ba-llb-hons/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and choosing a recognised law school",
+      "paragraphs": [
+        "The baseline entry point is normally Class 12 (10+2) or an equivalent qualification. CLAT 2026 specifies a minimum of 45% for General-category candidates and 40% for SC/ST/PwD candidates, while individual universities may state their own category labels, documentation rules and admission conditions.",
+        "A prospective student should verify both the university's current admission notice and the Bar Council of India recognition/approval status of the law school. This matters particularly for a future litigation route: the AIBE states that candidates from institutions not recognised/approved by the BCI are ineligible to register."
+      ],
+      "bullets": [
+        "CLAT eligibility is an examination rule, not a guarantee of admission to every law school.",
+        "CSEET should be treated as a separate Company Secretary qualification route, rather than as an entrance examination for this degree.",
+        "Applicants should read the current-year prospectus for reservation, domicile, disability, age, document-verification and seat-allocation rules."
+      ],
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+        "https://www.nls.ac.in/programme/ba-llb-hons/",
+        "https://www.allindiabarexamination.com/notification.html",
+        "https://www.icsi.edu/student_rpn/cseet/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Programme structure and duration",
+      "paragraphs": [
+        "The programme is normally delivered as a five-year integrated undergraduate course rather than as a separate three-year arts degree followed by an LL.B. NLSIU describes its B.A., LL.B. (Hons.) as a five-year programme, and NALSAR likewise describes a five-year B.A., LL.B. (Hons.) curriculum.",
+        "The “Hons.” label does not make all programmes identical. Course sequencing, credit requirements, majors, clinics, assessment methods and graduation rules are university-specific; applicants should therefore compare the published curriculum for the relevant batch rather than relying only on the degree title."
+      ],
+      "bullets": [
+        "Expect integrated study across arts/social sciences and law.",
+        "Check whether the university uses semesters, trimesters or another academic calendar.",
+        "Review mandatory internships, clinical courses, attendance rules and credit requirements before enrolling."
+      ],
+      "source_urls": [
+        "https://www.nls.ac.in/programme/ba-llb-hons/",
+        "https://nalsar.ac.in/programmes/undergraduate-study-in-law/",
+        "https://www.nls.ac.in/wp-content/uploads/2020/09/BA-LLB-Hons-Proposed-Course-Curriculum_Batch-of-2025-2030.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "A representative integrated curriculum combines foundational humanities and social sciences with core legal subjects and practical legal training. NALSAR identifies Economics, English, History, Political Science and Sociology among early foundational study, alongside Bar Council-required law subjects and institution-specific compulsory papers.",
+        "NLSIU's published 2025–30 curriculum illustrates the breadth of the law component: contracts, torts, criminal law, property, constitutional law, civil and criminal procedure, evidence, administrative law, corporate law, family law, public international law, intellectual property, labour law, taxation, environmental law, professional ethics, electives and litigation advocacy. It also includes clinical components and an internship requirement."
+      ],
+      "bullets": [
+        "The arts component develops social, political, economic and historical context for legal analysis.",
+        "The law component progresses from foundational private and public law to procedure, regulation, specialist subjects and electives.",
+        "Mooting, drafting, dispute-resolution, professional-ethics and advocacy work may be embedded through clinics; exact requirements vary by institution."
+      ],
+      "source_urls": [
+        "https://nalsar.ac.in/programmes/undergraduate-study-in-law/",
+        "https://www.nls.ac.in/programme/ba-llb-hons/",
+        "https://www.nls.ac.in/campus/recruitment-internships/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission routes",
+      "paragraphs": [
+        "CLAT is the central admission examination for many NLUs. The Consortium publishes the annual undergraduate eligibility rules, while each participating university issues its own admissions notices and implements allotment, fee payment and document verification under the applicable cycle. NLSIU, for example, states that its undergraduate B.A., LL.B. (Hons.) admissions are based on CLAT merit.",
+        "Not every B.A. LL.B. (Hons.) provider uses the identical route. Applicants should identify the target institution first, then use only that institution's official admissions page and the applicable test authority's current notice. Dates, seat matrices, category rules and counselling procedures are cycle-specific and should not be inferred from an earlier year."
+      ],
+      "bullets": [
+        "For an NLU target: confirm that the institution participates in the relevant CLAT cycle, then complete CLAT registration and the subsequent counselling/admission steps.",
+        "For other law universities: consult the institution's official entrance-test or admissions notification.",
+        "Keep qualifying-exam marksheets, category/domicile certificates where applicable, identity documents and other verification materials ready in the required format."
+      ],
+      "source_urls": [
+        "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+        "https://www.nls.ac.in/programme/ba-llb-hons/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and financial planning",
+      "paragraphs": [
+        "There is no single national fee for B.A. LL.B. (Hons.). Tuition, housing, meals, deposits, examination charges, library/technology charges and annual revisions differ by provider. As a dated reference point only, NLSIU's AY 2026–27 page lists ₹3,18,200 in tuition and facilities fees and ₹1,32,800 in housing fees, for a stated annual total of ₹4,51,000; it separately lists a one-time admission fee and refundable security deposit.",
+        "A sound comparison should use each target university's current fee notice and identify what is included in the headline amount. Students should also investigate financial-aid, scholarship and loan provisions directly with the institution before accepting an offer."
+      ],
+      "bullets": [
+        "Separate recurring annual charges from one-time and refundable charges.",
+        "Confirm whether hostel and meal costs are compulsory, optional or estimates.",
+        "Treat all published amounts as date-specific until confirmed in the admission offer or current fee notice."
+      ],
+      "source_urls": [
+        "https://www.nls.ac.in/programme/ba-llb-hons/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Progression and career options",
+      "paragraphs": [
+        "The degree supports several routes, but each has an additional eligibility or selection process. For litigation and advocacy, verify BCI recognition/approval of the law school and follow the prevailing State Bar Council enrolment and AIBE requirements. The AIBE's current public notification includes final-semester and graduate categories, subject to conditions, and stresses BCI recognition/approval.",
+        "For management education, a completed B.A. LL.B. (Hons.) is a bachelor's degree. CAT's published eligibility framework accepts bachelor's degrees meeting the applicable minimum marks threshold, while individual IIMs and programmes apply their own selection criteria.",
+        "The degree can also be used as a foundation for LL.M. study, corporate legal work, compliance and company-secretarial preparation. CSEET/CS Executive is a separate professional route administered by ICSI; candidates must follow ICSI's current eligibility, registration, examination and training rules rather than assuming that the law degree itself confers Company Secretary qualification."
+      ],
+      "bullets": [
+        "LL.M.: apply under the selected university's current postgraduate admission rules.",
+        "AIBE and litigation: pursue only through a BCI-recognised/approved legal-education route and the current State Bar Council/AIBE process.",
+        "CAT and management: meet CAT's applicable bachelor's-degree and marks requirements, then satisfy the chosen business school's selection process.",
+        "Corporate counsel and legal/compliance roles: eligibility is employer-specific; internships, drafting ability and relevant sector knowledge are commonly important differentiators.",
+        "CS pathway: CSEET and CS Executive are governed by ICSI, not by the B.A. LL.B. degree curriculum."
+      ],
+      "source_urls": [
+        "https://www.allindiabarexamination.com/notification.html",
+        "https://www.allindiabarexamination.com/about.html",
+        "https://iimcat.ac.in/",
+        "https://www.icsi.edu/student_rpn/cseet/",
+        "https://www.icsi.edu/media/filer_public/1a/30/1a300642-2eea-43a4-a003-300c592699c7/announcement_restructured_cseet_2.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CLAT 2026 UG eligibility",
+      "url": "https://consortiumofnlus.ac.in/clat-2026/ug-eligibility.html",
+      "kind": "official examination authority"
+    },
+    {
+      "label": "NLSIU B.A., LL.B. (Hons.) programme, curriculum and AY 2026–27 fees",
+      "url": "https://www.nls.ac.in/programme/ba-llb-hons/",
+      "kind": "official university programme page"
+    },
+    {
+      "label": "NALSAR undergraduate law programme overview",
+      "url": "https://nalsar.ac.in/programmes/undergraduate-study-in-law/",
+      "kind": "official university programme page"
+    },
+    {
+      "label": "AIBE eligibility notification",
+      "url": "https://www.allindiabarexamination.com/notification.html",
+      "kind": "official professional examination notice"
+    },
+    {
+      "label": "ICSI CSEET portal",
+      "url": "https://www.icsi.edu/student_rpn/cseet/",
+      "kind": "official professional-body portal"
+    },
+    {
+      "label": "CAT official website",
+      "url": "https://iimcat.ac.in/",
+      "kind": "official examination portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

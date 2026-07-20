@@ -21,6 +21,12 @@ vi.mock("@/lib/v2/data", () => ({
       type === "degree" && slug === "bca" ? mocks.node : undefined,
   },
 }));
+// facts.ts imports "server-only" and reads from disk; the page only needs
+// the composed full node here.
+vi.mock("@/lib/v2/facts", () => ({
+  getFullNode: async (nodeId: string) =>
+    nodeId === "degree:bca" ? mocks.node : null,
+}));
 vi.mock("@/lib/v2/routes", () => ({
   buildNodePageView: () => ({ node: mocks.node, parents: [] }),
 }));

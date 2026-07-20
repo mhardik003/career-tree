@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Role scope",
+      "value": "A Medical Device R&D Engineer develops and evaluates healthcare technologies such as medical instruments, devices and diagnostics. In India’s National Career Service (NCS) biomedical-engineer profile—the closest public occupational reference—examples include artificial organs, cardiac pacemakers and ultrasonic-imaging devices.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Indian regulatory context",
+      "value": "Medical devices in India are regulated under the Drugs and Cosmetics Act, 1940 and the Medical Devices Rules, 2017. The Rules’ quality-management requirements cover design and development, manufacture, packaging, labelling, testing, installation and servicing of devices and in-vitro diagnostics.",
+      "source_urls": [
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/mdr%2C%202017%20%281%29.pdf"
+      ]
+    },
+    {
+      "label": "Relevant parent-programme preparation",
+      "value": "IIT Madras’s BS in Medical Sciences & Engineering is an interdisciplinary medical-and-engineering programme with hospital internship exposure and stated specialisation areas including organ-specific device development, medical image analysis, AI in health, and translational research in medicine and regulatory processes.",
+      "source_urls": [
+        "https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/"
+      ]
+    },
+    {
+      "label": "Closest public occupation classification",
+      "value": "NCS lists Biomedical Engineer under NCO 2015 code 2143.0200. This is a useful occupational reference for this R&D-oriented role, although job titles and responsibilities vary by employer and device domain.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What the role does",
+      "paragraphs": [
+        "Medical Device R&D Engineers turn clinical or diagnostic needs into technical concepts, models, prototypes and product designs. The closest NCS biomedical-engineer description includes researching biological systems, developing mathematical models, and designing and developing devices such as artificial organs, pacemakers and ultrasonic-imaging equipment.",
+        "For products intended for the Indian market, R&D work is closely connected to evidence and documentation. The Medical Devices Rules describe design-input and design-output documentation, product and software validation where applicable, risk-management data, performance evaluation, and clinical-performance evidence for new in-vitro diagnostic devices. For investigational devices, CDSCO provides routes for test/evaluation manufacture, clinical investigation and clinical performance evaluation.",
+        "Accordingly, the job commonly combines engineering design with verification and validation planning, test execution or coordination, design-history and risk documentation, and collaboration with quality, regulatory, manufacturing and clinical stakeholders."
+      ],
+      "bullets": [
+        "Define engineering requirements from intended use, user needs and clinical context.",
+        "Design and iterate device hardware, software, mechanisms, sensors, consumables or diagnostic workflows, depending on the product.",
+        "Plan, conduct or coordinate bench testing, verification, validation and performance evaluation; document results and design decisions.",
+        "Contribute technical evidence needed for quality-management and regulatory submissions, including risk and validation documentation.",
+        "Work with multidisciplinary teams, including clinicians, scientists, manufacturing, quality and regulatory personnel."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/mdr%2C%202017%20%281%29.pdf",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from BS in Medical Sciences and Engineering",
+      "paragraphs": [
+        "The stated parent degree is a particularly relevant route because IIT Madras’s BS in Medical Sciences & Engineering explicitly combines medicine and engineering, includes a hospital internship, and identifies organ-specific device development and translational/regulatory study among its specialisation areas. Students should use internships, design projects and laboratory work to build a portfolio showing problem definition, prototyping, testing and technical documentation.",
+        "The broader NCS biomedical-engineer profile identifies a B.Tech/B.E. in Biomedical Engineering as a preferred qualification. This indicates that employers may also consider closely related engineering and science backgrounds when candidates can demonstrate relevant device-development capability; individual employer requirements remain role-specific.",
+        "For the IIT Madras BS route, the programme page states that 2026 admissions use the IISER Aptitude Test, while its FAQ describes science-stream prerequisites including Mathematics and at least two of Physics, Chemistry and Biology. Admission rules, cut-offs, fees and dates should be verified for the applicable intake because they can change."
+      ],
+      "bullets": [
+        "Build hands-on evidence through hospital immersion, research projects, internships and device-design competitions.",
+        "Select coursework and projects that connect physiology or diagnostics with electronics, mechanics, materials, computation, imaging or data analysis.",
+        "Seek placements in medical-device manufacturers, diagnostics firms, hospital innovation centres, testing laboratories or academic translational-research groups.",
+        "Create a portfolio with requirement documents, CAD or code, test protocols, analyses, prototypes and clear reports—not only final prototypes."
+      ],
+      "source_urls": [
+        "https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/",
+        "https://mst.iitm.ac.in/faq-bs-programme/",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "Core technical skills combine product and systems design with the ability to analyse biological and medical problems. NCS identifies knowledge of designing systems and products, evaluating safety, efficiency and effectiveness of biomedical equipment, and analysing and designing solutions to problems in biology and medicine.",
+        "For R&D work in regulated devices, documentation discipline is not peripheral. The Medical Devices Rules’ quality-management schedule applies to design and development and requires a manufacturer’s quality system to account for applicable processes. The Rules also identify design documentation, validation, risk-management data and clinical or performance evidence in relevant product pathways.",
+        "Effective practitioners also need communication and cross-functional working skills. NCS specifically lists analytical ability, problem-solving, quality consciousness, interpersonal skills and communication among the key or desirable competencies for biomedical engineers."
+      ],
+      "bullets": [
+        "Biomedical foundations: anatomy, physiology, pathology, diagnostics and clinical workflow awareness.",
+        "Engineering execution: systems thinking, requirements definition, modelling, prototyping, experimental design and data analysis.",
+        "Safety and evidence: risk management, verification and validation, test methods, traceable technical records and quality-system awareness.",
+        "Domain-specific depth: for example electronics and embedded software, mechanical design, biomaterials, imaging, signal processing, AI/ML, or in-vitro diagnostics.",
+        "Collaboration: communicate design trade-offs and test evidence clearly to clinical, quality, regulatory and manufacturing colleagues."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/mdr%2C%202017%20%281%29.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the work is done",
+      "paragraphs": [
+        "R&D engineers may work in medical-equipment and supplies manufacturers, scientific research and development services, hospitals, or related life-sciences organisations. The precise setting depends on whether the product is a therapeutic device, implant, capital equipment, connected software product, consumable or diagnostic.",
+        "Work is typically multidisciplinary and may extend beyond desk-based design to laboratories, prototype workshops, manufacturing environments, clinical settings and external testing facilities. CDSCO’s regulatory framework also recognises medical-device testing laboratories that perform test or evaluation on behalf of manufacturers.",
+        "Where a device requires clinical investigation or an IVD requires clinical-performance evaluation, the product-development pathway can involve formal applications and interaction among manufacturers, investigators, laboratories and the Central Licensing Authority."
+      ],
+      "bullets": [
+        "Medical-device and diagnostic manufacturers.",
+        "Research, translational-innovation and engineering-development groups.",
+        "Hospitals and clinical innovation environments.",
+        "Registered or certified device-testing and evaluation laboratories.",
+        "Quality, regulatory and manufacturing interfaces within a product-development organisation."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "A typical technical trajectory is from trainee or junior engineer into independent product-development ownership, then senior or lead roles responsible for a subsystem, test strategy, technical programme or research direction. NCS presents the indicative broader biomedical-engineering progression as Trainee → Biomedical Engineer → Senior Biomedical Engineer → Lead Researcher.",
+        "In medical-device R&D, progression is strengthened by demonstrated ownership of requirements, risk controls, verification/validation evidence, design-transfer collaboration and successful cross-functional delivery. The exact ladder varies by employer, product risk class and whether the organisation is research-led, manufacturing-led or clinically embedded."
+      ],
+      "bullets": [
+        "Early career: assist with research, prototyping, test execution, data analysis and controlled documentation.",
+        "Mid career: own a subsystem or product workstream; lead design reviews, risk analysis and verification/validation activities.",
+        "Senior career: lead technical strategy, product architecture, R&D programmes or specialised research; mentor engineers and coordinate clinical, quality, regulatory and manufacturing functions."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/mdr%2C%202017%20%281%29.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "CDSCO medical devices and diagnostics portal",
+      "url": "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+      "kind": "regulator"
+    },
+    {
+      "label": "CDSCO Medical Devices Rules, 2017",
+      "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/mdr%2C%202017%20%281%29.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "IIT Madras BS in Medical Sciences & Engineering",
+      "url": "https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/",
+      "kind": "university_programme"
+    },
+    {
+      "label": "National Career Service: Biomedical Engineer",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government_career_profile"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

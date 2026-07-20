@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Primary entry route",
+      "value": "For a B.Arch graduate, the professional route to establish an architectural practice is to obtain registration with the Council of Architecture (CoA) under the Architects Act, 1972, using a recognised qualification, and keep the Certificate of Registration renewed. CoA states that registration entitles the individual to practise architecture and use the title “Architect.”",
+      "source_urls": [
+        "https://coa.gov.in/contprintcont.php?lang=1&level=0&lid=14&linkid=13",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=313&sublinkid=359"
+      ]
+    },
+    {
+      "label": "Firm-title rule",
+      "value": "CoA states that a firm may use the title/style “architect” where all of its partners are registered with CoA. Its public guidance further says that limited companies, private/public companies, societies and other juridical persons are not entitled to use that title or practise the profession of architecture; founders should obtain current specialist legal and CoA advice before selecting an entity or branding structure.",
+      "source_urls": [
+        "https://coa.gov.in/contprintcont.php?lang=1&level=0&lid=14&linkid=13"
+      ]
+    },
+    {
+      "label": "Core commercial document",
+      "value": "The CoA Conditions of Engagement and Scale of Charges are prescribed under the Architects (Professional Conduct) Regulations, 1989. CoA describes them as defining responsibilities, scope of work and services, so a written client–architect agreement is central to a practice’s delivery and risk management.",
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=85&sublinkid=298",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=250&sublinkid=271"
+      ]
+    },
+    {
+      "label": "Professional accountability",
+      "value": "Architects are subject to the Architects (Professional Conduct) Regulations, 1989, as amended. CoA identifies violations as professional misconduct and maintains a complaint process under the Architects Act, Rules and Regulations.",
+      "source_urls": [
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=152&sublinkid=302",
+        "https://coa.gov.in/index1.php?lang=1&level=0&lid=743&linkid=171"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "From B.Arch graduate to practice founder",
+      "paragraphs": [
+        "The direct route is: complete a qualification recognised for CoA registration, apply for registration as an architect, receive the Certificate of Registration, and maintain its renewal. CoA’s registration guidance says a person who wants to carry on the profession of “Architect” must be registered; its application instructions describe the online registration process and supporting documentation.",
+        "A prudent early-career route is to work in a registered practice before opening a firm, using that period to develop project documentation, consultant coordination, site administration, client communication and business systems. This is a professional-development recommendation rather than a statutory experience threshold: the cited CoA materials establish registration and conduct requirements, not a mandatory number of salaried-practice years before founding a business."
+      ],
+      "bullets": [
+        "Verify that the B.Arch qualification and institution are recognised for registration purposes before applying.",
+        "Create and retain a current CoA registration record and Certificate of Registration; renewal status matters to the right to practise under the title.",
+        "If founding with partners under an “architects” firm identity, ensure every partner’s CoA registration status satisfies CoA’s stated firm rule."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/contprintcont.php?lang=1&level=0&lid=14&linkid=13",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=313&sublinkid=359",
+        "https://coa.gov.in/guest_user_registration1.php?lang=1"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "What the venture needs to deliver",
+      "paragraphs": [
+        "An architectural practice combines design capability with disciplined professional service delivery. CoA’s Manual of Architectural Practice characterises architecture practice as covering what architects do, the services they provide, and how a practice is set up and managed. CoA’s engagement materials also apply to comprehensive architectural services and specialist fields including urban design, landscape architecture, interior architecture and architectural conservation.",
+        "The founder should be able to define a scope, convert it into deliverables and stages, coordinate appropriate consultants, communicate decisions to the client, and administer documentation and project information. CoA frames competence as possession of the knowledge and skill needed to discharge professional duties, alongside a duty to exercise reasonable knowledge, skill and care."
+      ],
+      "bullets": [
+        "Architectural design and documentation appropriate to the agreed scope.",
+        "Client briefing, service scoping and written communication of responsibilities.",
+        "Coordination with project stakeholders and specialist consultants where required.",
+        "Quality control, records, change management and site/project administration suited to the engagement.",
+        "Business capabilities: proposal writing, fee and payment administration, staffing or consultant procurement, and practice management."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&level=0&lid=765&linkid=177",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=250&sublinkid=271",
+        "https://www.coa.gov.in/staging/index1.php?lang=1&level=2&lid=84&sublinkid=297"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "A practical consultancy operating model",
+      "paragraphs": [
+        "Start by defining a narrow, credible service offer—for example, comprehensive architectural services or a named specialist service—and align every proposal to a written scope. CoA says its Conditions of Engagement and Scale of Charges define service responsibilities and scope, and that the client and architect should reach a clear understanding where the services are not comprehensive.",
+        "For each project, use a signed engagement that identifies the parties, services, deliverables, responsibilities, fee/payment mechanism, programme assumptions, exclusions, variation/change process, ownership and use of documents, and dispute/termination provisions. CoA’s professional-negligence guidance says the conditions for a specific project are to be carried out according to the client–architect agreement, and describes professional services as those rendered pursuant to the applicable Conditions of Engagement and Scale of Charges.",
+        "Firm structure, overhead, staffing and pricing vary greatly by city, project type, procurement route and risk allocation. No universal current fee or earnings figure should be assumed; founders should price and contract for the actual scope, time, consultants, liability and cash-flow requirements of each engagement."
+      ],
+      "bullets": [
+        "Lead generation: portfolio, referrals, transparent qualifications and compliant competition participation.",
+        "Pre-contract: client brief, feasibility of the requested scope, proposal, conflict check and engagement agreement.",
+        "Delivery: staged design/documentation, consultant coordination, review checkpoints, controlled revisions and written instructions.",
+        "Commercial control: invoicing milestones, receivables follow-up, expense tracking, tax/accounting support and project profitability review.",
+        "Close-out: handover records, completion-stage services where contracted, archive of drawings/correspondence and lessons learned."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=85&sublinkid=298",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=250&sublinkid=271",
+        "https://www.coa.gov.in/staging/index1.php?lang=1&level=2&lid=84&sublinkid=297"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Professional and business compliance",
+      "paragraphs": [
+        "Professional compliance begins with valid CoA registration and adherence to the Architects (Professional Conduct) Regulations, 1989. CoA states that its conduct rules cover ethics and etiquette, conditions of engagement, charges and competition guidance, and that a breach can constitute professional misconduct subject to disciplinary action.",
+        "Use of the title “Architect” is protected. CoA’s public notice says an unregistered person using the title commits an offence, while CoA’s practice guidance sets out its position on firm use of the title. This makes registration status, firm composition and public-facing naming material matters to check before launch or expansion.",
+        "In addition to CoA requirements, the business must meet the registrations, direct/indirect-tax, employment, contract, local-government and project-approval obligations that apply to its chosen location, legal form, workforce and projects. These obligations are jurisdiction- and fact-specific; they should be validated with qualified Indian legal, company-secretarial and tax advisers rather than inferred from professional registration alone."
+      ],
+      "bullets": [
+        "Maintain current CoA registration and renewal; do not represent an expired or unregistered status as an architect.",
+        "Apply the CoA professional-conduct standards and the CoA Conditions of Engagement/Scale of Charges relevant to the service.",
+        "Keep signed agreements, drawings, approvals, communications, invoices and project records organised and retrievable.",
+        "Check professional conflicts, competence and resource capacity before accepting a commission.",
+        "Use the appropriate regulator portals and advisers for the selected business form; the Ministry of Corporate Affairs provides official incorporation guidance for LLPs, but CoA’s separate rules on architectural practice and title use remain controlling for an architectural firm’s professional positioning."
+      ],
+      "source_urls": [
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=152&sublinkid=302",
+        "https://www.coa.gov.in/staging/showfile.php?lang=1&level=2&lid=122&sublinkid=221",
+        "https://coa.gov.in/contprintcont.php?lang=1&level=0&lid=14&linkid=13",
+        "https://www.mca.gov.in/LLP/pdf/HowToIncorporateLLP.pdf"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "How an architectural practice can grow",
+      "paragraphs": [
+        "Growth can come through deeper specialisation, a broader but properly contracted service scope, stronger repeat-client relationships, or partnerships with other registered architects and suitable consultants. CoA expressly identifies specialist practice areas including structural design, urban design, city planning, landscape architecture, interior architecture and architectural conservation in its engagement materials.",
+        "Competitions can be a route to visibility and portfolio development, but CoA’s competition guidelines require participating architects to be registered and require all partners of a competing firm to be registered. The same guidance says the professional code does not permit architects to provide unpaid services in competition with one another outside the prescribed competition framework.",
+        "As the practice grows, formalise review processes, delegation, templates, consultant networks, receivables discipline and project-risk controls before increasing workload. Expansion should not exceed the founder’s or firm’s demonstrable competence and duty-of-care capacity."
+      ],
+      "bullets": [
+        "Build a focused portfolio in one or more service niches before adding new disciplines.",
+        "Move from individual commissions to repeat-client and framework-style relationships where appropriate.",
+        "Add registered partners or employed teams only with clear authority, quality-assurance and client-accountability systems.",
+        "Use compliant architectural competitions selectively; confirm eligibility and terms at the announcement date.",
+        "Consider MSME/Udyam registration where eligible and useful; the Ministry of MSME identifies the official Udyam portal, but eligibility and benefits should be checked at the time of application."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=85&sublinkid=298",
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=240&sublinkid=261",
+        "https://my.msme.gov.in/mymsme/Reg/home.aspx/Reg/home.aspx"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Council of Architecture — registration as an architect",
+      "url": "https://coa.gov.in/index1.php?lang=1&level=1&lid=313&sublinkid=359",
+      "kind": "regulator registration guidance"
+    },
+    {
+      "label": "Council of Architecture — Conditions of Engagement and Scale of Charges",
+      "url": "https://coa.gov.in/index1.php?lang=1&level=2&lid=85&sublinkid=298",
+      "kind": "professional practice guidance"
+    },
+    {
+      "label": "Council of Architecture — Architects (Professional Conduct) Regulations, 1989",
+      "url": "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=152&sublinkid=302",
+      "kind": "professional regulation"
+    },
+    {
+      "label": "Council of Architecture — Manual of Architectural Practice",
+      "url": "https://coa.gov.in/index1.php?lang=1&level=0&lid=765&linkid=177",
+      "kind": "professional practice resource"
+    },
+    {
+      "label": "Ministry of Corporate Affairs — LLP incorporation guide",
+      "url": "https://www.mca.gov.in/LLP/pdf/HowToIncorporateLLP.pdf",
+      "kind": "business-entity guidance"
+    },
+    {
+      "label": "Ministry of MSME — Udyam registration portal notice",
+      "url": "https://my.msme.gov.in/mymsme/Reg/home.aspx/Reg/home.aspx",
+      "kind": "MSME registration guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

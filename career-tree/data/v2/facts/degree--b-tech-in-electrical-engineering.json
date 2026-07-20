@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Qualification",
+      "value": "B.Tech in Electrical Engineering is a four-year undergraduate Engineering and Technology degree pathway; UGC’s degree-specification compendium identifies B.Tech/BE (Electrical Engineering) as the restructured nomenclature for BEE.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1096.html"
+      ]
+    },
+    {
+      "label": "Standard and lateral-entry duration",
+      "value": "AICTE’s 2024–2027 Approval Process Handbook lists Engineering and Technology undergraduate degrees as four years, and lateral entry to the second year as a three-year route.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "Direct-entry baseline",
+      "value": "For Engineering and Technology UG admission, the AICTE handbook specifies 10+2 with eligible listed subjects and at least 45% aggregate in those subjects (40% for reserved-category candidates), or a D.Voc qualification in the same or allied sector; the admitting institution’s published rules and entrance process still govern a particular seat.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "Lateral-entry baseline",
+      "value": "For lateral entry to second-year Engineering and Technology, AICTE specifies a minimum three-year diploma, or two-year lateral-entry diploma, in Engineering and Technology with at least 45% marks (40% for reserved-category candidates); state and institutional counselling rules determine implementation.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "National admissions context",
+      "value": "For the 2026–27 session, JoSAA centrally allocates seats at 138 participating institutes, including IITs, NITs, IIEST, IIITs and other GFTIs, using JEE (Advanced) and/or JEE (Main) qualifications as applicable.",
+      "source_urls": [
+        "https://josaa.nic.in/josaa/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: direct entry and lateral entry",
+      "paragraphs": [
+        "For the regular first-year B.Tech route, AICTE’s current Approval Process Handbook sets a national regulatory baseline of 10+2 with subjects from its specified list—covering Physics, Mathematics, Chemistry, Computer Science, Electronics, IT, Biology and certain technical/vocational subjects—and at least 45% in the relevant subjects taken together (40% for reserved-category candidates). A D.Voc in the same or allied sector is also listed as an alternative route. Applicants must check the precise subject combination, category rules and additional conditions in the prospectus of the university or counselling authority to which they apply.",
+        "For entry directly into the second year, the handbook lists a three-year programme and requires a minimum three-year diploma, or a two-year lateral-entry diploma, in Engineering and Technology with at least 45% marks (40% for reserved-category candidates). AICTE defines lateral entry as admission into the second year of an undergraduate degree course; institutions may need to provide bridge courses to address gaps in mathematics, physics or engineering drawing."
+      ],
+      "bullets": [
+        "A diploma holder seeking Electrical Engineering through lateral entry should verify whether the relevant state/university counselling authority accepts the diploma branch and whether a branch-mapping or bridge-course rule applies.",
+        "“LEET” is not one uniform all-India examination. For example, Bihar’s state authority runs DECE[LE] for diploma lateral-entry admissions and publishes its own annual notices and prospectus; other states and universities use their own processes."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://bceceboard.bihar.gov.in/DECE%5BLE%5DIndex.php"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and academic structure",
+      "paragraphs": [
+        "The normal B.Tech in Electrical Engineering route is four years. AICTE’s handbook lists the corresponding lateral-entry-to-second-year Engineering and Technology route as three years, reflecting entry after the first year has been bypassed. A four-year/eight-semester structure is also illustrated by IIT Bombay’s Electrical Engineering B.Tech programme, but semester calendars, credit totals and progression rules are set by the awarding institution."
+      ],
+      "bullets": [
+        "Regular entry: typically four academic years.",
+        "Eligible second-year lateral entry: typically three academic years remaining.",
+        "Confirm the maximum time allowed for completion, attendance rules and any bridge requirements with the awarding university."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://www.ee.iitb.ac.in/admissions/undergraduation/"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "Electrical Engineering curricula combine engineering science and mathematical foundations with electrical and electronic systems, laboratories, design work and electives. The exact syllabus is institution-specific. As a current illustrative curriculum, IIT Bombay’s B.Tech includes introductory and power engineering, analog circuits, digital systems, electronic devices, signal processing, control systems, microprocessors, communications, laboratory work, electives, seminars and a B.Tech project/research opportunity.",
+        "The emphasis can extend beyond conventional power systems into power electronics, control and computing, communications, embedded systems, integrated circuits and devices. Prospective students should compare the approved syllabus, lab facilities, project requirements and available elective baskets at each college rather than assuming all Electrical Engineering programmes offer the same depth in every area."
+      ],
+      "bullets": [
+        "Typical foundations: calculus, linear algebra, differential equations, programming, physics and circuit/electronics fundamentals.",
+        "Core electrical areas commonly represented in the IIT Bombay example: power engineering, analog and digital circuits, electronic devices, control, signals, communications and microprocessors.",
+        "Practice-based components can include laboratories, design courses, seminars, projects and undergraduate research."
+      ],
+      "source_urls": [
+        "https://www.ee.iitb.ac.in/web/course_structure/b-tech2022-onwards/",
+        "https://www.ee.iitb.ac.in/admissions/undergraduation/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission routes and counselling",
+      "paragraphs": [
+        "For participating centrally funded institutes, JoSAA is the 2026–27 single seat-allocation platform for 138 institutes. Its qualifying examinations include JEE (Advanced) 2026 and JEE (Main) 2026 B.E./B.Tech, with the applicable examination depending on the institute system and programme. This route is relevant to IITs, IISc Bengaluru, NITs, IIEST, IIITs and other GFTIs in the JoSAA pool.",
+        "Admission outside that pool is not standardised nationally: state technical-university systems, state counselling bodies and private/deemed universities can use different entrance examinations, merit criteria and counselling schedules. For lateral entry, applicants should rely on the current prospectus issued by the relevant authority. Bihar’s 2026 DECE[LE] page, for example, publishes separate notices for application, rank card and choice filling, and explicitly says the prospectus is the authoritative information."
+      ],
+      "bullets": [
+        "For a JoSAA-participating B.Tech seat: meet the relevant JEE qualification, register in the applicable JoSAA cycle and follow the published choice-filling, seat-acceptance and reporting rules.",
+        "For a lateral-entry seat: identify the state/university’s current LEET or diploma-entry notification, verify diploma eligibility and participate in its examination or merit/counselling process.",
+        "Do not treat dates, opening/closing ranks, seat matrices or fees from a past admission cycle as current; these are revised by the relevant authority."
+      ],
+      "source_urls": [
+        "https://josaa.nic.in/josaa/",
+        "https://bceceboard.bihar.gov.in/DECE%5BLE%5DIndex.php",
+        "https://jeeadv.ac.in/admission_criteria.html"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options after the degree",
+      "paragraphs": [
+        "Graduates can pursue postgraduate study, research or employment. GATE is one major examination route: for GATE 2026, candidates in the third year or higher of a government-approved undergraduate programme, or graduates, may appear; the official eligibility table specifically covers a B.E./B.Tech completed four years after 10+2 or three years after B.Sc./Diploma. Thus, a lateral-entry B.Tech student who has reached the required year is not excluded merely because they entered after a diploma.",
+        "A GATE score is not itself an admission or job offer. The GATE 2026 authority states that qualification does not guarantee admission, scholarship or employment, and each admitting institute applies its own educational and selection requirements. Candidates considering M.Tech should therefore check the target department’s current qualifying-degree list, GATE-paper requirements, marks threshold and selection process."
+      ],
+      "bullets": [
+        "Postgraduate route: apply to relevant M.Tech programmes using the current admission rules of each institute; a valid GATE score may be required or considered, depending on the programme.",
+        "Research route: some institutes offer undergraduate research and final-year project pathways that can help build preparation for research-oriented postgraduate study.",
+        "Professional route: assess employer-specific eligibility, role requirements and recruitment process directly from the employer or recruiting authority; these vary by organisation and recruitment cycle."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://www.ee.iitb.ac.in/admissions/undergraduation/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AICTE Approval Process Handbook 2024–2027",
+      "url": "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "JoSAA 2026",
+      "url": "https://josaa.nic.in/josaa/",
+      "kind": "central counselling"
+    },
+    {
+      "label": "GATE 2026 eligibility criteria",
+      "url": "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+      "kind": "examination guidance"
+    },
+    {
+      "label": "Bihar DECE[LE] 2026 notices",
+      "url": "https://bceceboard.bihar.gov.in/DECE%5BLE%5DIndex.php",
+      "kind": "state lateral-entry example"
+    },
+    {
+      "label": "IIT Bombay Electrical Engineering undergraduate curriculum",
+      "url": "https://www.ee.iitb.ac.in/web/course_structure/b-tech2022-onwards/",
+      "kind": "curriculum example"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

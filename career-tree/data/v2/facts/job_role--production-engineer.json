@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Occupational classification",
+      "value": "India’s National Career Service (NCS) maps Production Engineer to NCO 2015 code 2144.0403, within the Capital Goods and Manufacturing sector; the corresponding ISCO-08 unit group is Mechanical Engineers (2144).",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Typical baseline qualification",
+      "value": "The NCS career profile lists a Diploma or Degree in Mechanical or Production engineering as the minimum education/training route. Actual branch, marks, experience, and hiring criteria vary by employer and plant.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Work setting",
+      "value": "This is principally a shop-floor role rather than a desk-only role. The NCS profile notes team handling, possible travel, and shift work including nights; the precise schedule depends on the factory and production process.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Apprenticeship option",
+      "value": "For fresh engineering degree and diploma holders, the National Apprenticeship Training Scheme (NATS) provides paid, on-the-job training, generally from 6 months to 1 year, in participating establishments. It can be a practical entry route before or alongside a production-engineering appointment.",
+      "source_urls": [
+        "https://boatwr.education.gov.in/en/engineering/",
+        "https://boatwr.education.gov.in/en/students/"
+      ]
+    },
+    {
+      "label": "Occupational standard context",
+      "value": "The former Capital Goods Skill Council qualification pack CSC/Q1201, titled Production Engineer, was listed at NSQF Level 5. NSDC’s catalogue currently labels that occupational standard as retired, so candidates should verify whether an employer or training provider accepts it before enrolling.",
+      "source_urls": [
+        "https://nsdcindia.org/nos-export-custom-data"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Production Engineer does",
+      "paragraphs": [
+        "A Production Engineer plans and organises the workplace, resources, and processes needed to manufacture and assemble machinery or components. Core work includes preparing production plans, schedules and job cards; checking that production conditions are suitable; implementing production activity; monitoring and reviewing plans; and working in accordance with health, safety, and environmental requirements.",
+        "The role therefore connects daily output with process discipline on the shop floor: coordinating people and resources, tracking execution against plan, identifying process or material issues, and feeding improvements back into production operations."
+      ],
+      "bullets": [
+        "Plan production and assembly resources, processes, schedules, and job cards.",
+        "Monitor production execution and review plans against operational requirements.",
+        "Support safe production by following health, safety, and environmental procedures.",
+        "Coordinate with shop-floor teams rather than working solely in an office environment."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "The most direct academic route is a Diploma or an engineering degree in Mechanical or Production engineering, as identified by the NCS Production Engineer profile. Candidates should treat this as a baseline career-guide indication, not a universal eligibility rule: manufacturing employers may specify a particular discipline, institute, academic result, location, or prior shop-floor exposure.",
+        "A practical transition route for a Graduate Engineer Trainee or diploma holder is a registered apprenticeship. The Ministry of Education’s Board of Apprenticeship Training describes NATS engineering apprenticeships as paid on-the-job training for fresh engineering degree and diploma pass-outs; its student guidance describes training periods of 6 months to 1 year. Such experience can build familiarity with factory procedures, supervision, documentation, and production equipment before moving into a regular production role."
+      ],
+      "bullets": [
+        "Complete a relevant Diploma or BE/BTech route, especially Mechanical or Production engineering.",
+        "Seek factory exposure through internships, Graduate Engineer Trainee programmes, or an apprenticeship.",
+        "Use NATS opportunities where eligible; check the individual advertisement for discipline, year-of-passing, stipend, location, and selection requirements.",
+        "Build evidence of practical work: drawings, process sheets, quality records, safety compliance, maintenance coordination, and measurable improvement projects."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://boatwr.education.gov.in/en/engineering/",
+        "https://boatwr.education.gov.in/en/students/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The NCS profile emphasizes production-process knowledge, quality-assurance systems, resource and approval procedures, and the ability to use and interpret charts, tables, graphs, databases, spreadsheets, and engineering drawings. It also identifies knowledge of materials, material behaviour, and product or material defects as relevant.",
+        "In practice, a strong candidate combines these technical foundations with shop-floor communication: explaining a plan to operators and supervisors, documenting deviations, escalating safety or quality risks, and using production data to distinguish a one-off disruption from a recurring process problem."
+      ],
+      "bullets": [
+        "Production planning, scheduling, job cards, and resource coordination.",
+        "Quality systems, defect awareness, and root-cause-oriented problem solving.",
+        "Reading engineering drawings and interpreting operational data in charts, tables, databases, and spreadsheets.",
+        "Understanding manufacturing materials and the effects of processing or heat treatment on properties.",
+        "Clear team communication and consistent safety, health, and environmental practice."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.nqr.gov.in/qualifications/9864"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the role is performed",
+      "paragraphs": [
+        "Production Engineers are employed in manufacturing companies, machine-tool companies, production factories, and businesses associated with machine tools, according to NCS. The role is operationally close to manufacturing lines and assembly activity, and may require coordination across production, quality, maintenance, stores, and supervision.",
+        "Plant conditions vary substantially by industry. NCS describes the role as not being desk-based and notes that shift work, including nights, may be involved. Candidates should confirm shift rotation, safety equipment, transport, overtime rules, plant location, and travel expectations during recruitment rather than assuming a standard schedule."
+      ],
+      "bullets": [
+        "Typical settings include factories, assembly operations, machine-tool businesses, and component manufacturing.",
+        "Expect frequent shop-floor presence and cross-functional coordination.",
+        "Shift and night work may be part of continuous-production operations.",
+        "Workplace safety and environmental procedures are integral to the role, not an optional add-on."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression possibilities",
+      "paragraphs": [
+        "Progression is employer- and industry-specific rather than governed by one mandatory national ladder. A Rajasthan government career guide gives illustrative pathways from production/manufacturing engineering into project engineering and quality assurance, and from senior production engineering into production-engineering management and manufacturing leadership. These examples should be read as possible directions, not guaranteed promotions.",
+        "Advancement is commonly strengthened by demonstrated responsibility for a line, shift, process, output target, quality result, cost reduction, safety performance, or new-product introduction. Engineers may also move toward process engineering, quality, project work, industrial engineering, production planning, or plant operations depending on their employer’s structure."
+      ],
+      "bullets": [
+        "Early role: build competence in shop-floor execution, safety, quality documentation, and daily output control.",
+        "Possible lateral directions: project engineering, quality assurance, process engineering, or production planning.",
+        "Possible leadership direction: senior production engineer, production/engineering manager, and manufacturing leadership roles.",
+        "Promotion requirements and job titles should be checked in the employer’s own competency framework."
+      ],
+      "source_urls": [
+        "https://cg.rajasthan.gov.in/careerguidance/hi/career/%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A4%A8-%E0%A4%AE%E0%A5%88%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%AB%E0%A4%BC%E0%A4%95%E0%A5%8D%E0%A4%9A%E0%A4%B0%E0%A4%BF%E0%A4%82/"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "No single current salary figure should be treated as authoritative for this role because pay differs by city, sector, plant scale, shift pattern, qualifications, and experience. As historical context only, the NCS Production Engineer profile—last updated on 23 August 2016—reported indicative monthly earnings of ₹10,000–₹25,000 for candidates with up to five years’ experience and ₹25,000–₹80,000 for those with more than five years’ experience, while explicitly stating that the figures were subject to change.",
+        "These 2016 figures are not a 2026 market estimate and should not be used to set salary expectations. Candidates should compare contemporaneous job offers on total compensation: fixed pay, shift allowance, overtime treatment, bonus or variable pay, PF/ESI or other benefits, accommodation or transport, and the training or probation terms."
+      ],
+      "bullets": [
+        "Treat public career-guide salary figures as dated indicators, not current market rates.",
+        "Compare offer letters on total compensation and work conditions, not only monthly fixed pay.",
+        "Ask whether shifts, overtime, transport, food, accommodation, and performance pay are included or separate."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Production Engineer career profile",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3673&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career profile"
+    },
+    {
+      "label": "Board of Apprenticeship Training (Western Region): NATS for engineering",
+      "url": "https://boatwr.education.gov.in/en/engineering/",
+      "kind": "government apprenticeship guidance"
+    },
+    {
+      "label": "National Qualification Register: manufacturing qualification and progression context",
+      "url": "https://www.nqr.gov.in/qualifications/9874",
+      "kind": "national qualifications register"
+    },
+    {
+      "label": "NSDC occupational standards catalogue",
+      "url": "https://nsdcindia.org/nos-export-custom-data",
+      "kind": "sector-skill standards catalogue"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

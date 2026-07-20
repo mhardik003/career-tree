@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Entry route",
+      "value": "Admission is generally after Senior Secondary/10+2 or an equivalent qualification, but required subjects, minimum marks, quotas, and selection method vary by institution. For CUET-participating universities, applicants must verify each university’s programme-specific requirements and subject combination.",
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cuet.nta.nic.in/university-of-delhi/"
+      ]
+    },
+    {
+      "label": "Typical duration framework",
+      "value": "Under UGC’s current undergraduate framework, institutions may structure undergraduate study as a three-year degree (minimum 120 credits) or a four-year honours/honours-with-research degree (minimum 160 credits). A B.Com. (Hons.) applicant should therefore confirm the exact duration and exit options with the admitting university.",
+      "source_urls": [
+        "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+        "https://www.ugc.gov.in/e-book/ResearchInternship/files/basic-html/page9.html"
+      ]
+    },
+    {
+      "label": "Professional-course progression",
+      "value": "A completed commerce degree can support direct-entry routes into CA Intermediate and CMA Intermediate, subject to each institute’s rules. ICAI specifies a 55% aggregate threshold for commerce graduates entering CA Intermediate directly; ICMAI lists a recognized university degree among routes to CMA Intermediate.",
+      "source_urls": [
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: verify the institution, not just the degree title",
+      "paragraphs": [
+        "B.Com. (Hons.) is normally entered after Class 12/Senior Secondary or an equivalent qualification. However, India does not have one nationwide B.Com. (Hons.) eligibility rule: universities determine their own qualifying marks, accepted school subjects, category rules, and selection process.",
+        "For CUET-UG routes, the National Testing Agency states that CUET scores are used by Central Universities and participating State, Deemed, and Private Universities. NTA also directs candidates to check the chosen university’s programme-specific eligibility and required test-subject combination. Accordingly, a student should check the current bulletin of every target university before choosing CUET subjects or applying."
+      ],
+      "bullets": [
+        "Do not assume that having studied Commerce is universally mandatory; the accepted Class 12 subjects and minimum marks differ by institution.",
+        "Do not treat CMA Foundation as a general prerequisite for B.Com. (Hons.); university admission requirements govern entry to the degree, while CMA Foundation is a separate professional-course route.",
+        "Use only the relevant admission year’s official bulletin, because policies, seats, subject combinations, and reservation implementation can change."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cuet.nta.nic.in/university-of-delhi/",
+        "https://admission.uod.ac.in/userfiles/downloads/2026/08072026_Bulletin-of-Information_Eng_compressed.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and qualification structure",
+      "paragraphs": [
+        "The UGC Curriculum and Credit Framework for Undergraduate Programmes provides for flexible, multidisciplinary undergraduate study with multiple entry and exit options. Its associated guidance distinguishes a three-year undergraduate degree requiring at least 120 credits from a four-year undergraduate degree (Honours) or Honours with Research requiring at least 160 credits.",
+        "Consequently, “B.Com. (Hons.)” should not be assumed to have an identical duration across India. Confirm the programme’s semester count, credits, exit awards, attendance rules, and whether the institution follows a three-year or four-year structure before enrolling."
+      ],
+      "bullets": [
+        "UGC framework reference point: minimum 120 credits for a three-year UG degree.",
+        "UGC framework reference point: minimum 160 credits for a four-year UG degree (Honours) or Honours with Research.",
+        "University of Delhi’s Faculty of Commerce and Business publishes B.Com. (Hons.) UGCF material, including later-semester syllabus resources, illustrating how an institution operationalizes its own framework."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+        "https://www.ugc.gov.in/e-book/ResearchInternship/files/basic-html/page9.html",
+        "https://www.commerce.du.ac.in/programmes/ugcf-b-com-programme"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum: accounting and commerce core, with electives and skills",
+      "paragraphs": [
+        "The curriculum is university-specific, but an honours commerce programme commonly combines commerce core courses with discipline-specific electives, generic electives, skill-enhancement courses, ability-enhancement courses, and value-added or multidisciplinary components under the applicable university framework.",
+        "University of Delhi’s B.Com. (Hons.) curriculum and implementation guidance provide an official illustration of the breadth possible within the degree: Management Principles and Applications, Business Law, Company Law, Human Resource Management, Corporate Accounting, Business Economics, Principles of Marketing, Income Tax Law and Practice, Digital Marketing, Financial Reporting Analysis and Valuation, and Sustainability Marketing appear among published course and guidance materials.",
+        "This mix makes the degree relevant preparation for accounting, finance, tax, audit-support, business analysis, and management pathways, but a degree alone does not confer a regulated professional designation such as CA, CMA, CS, or CFA charterholder status."
+      ],
+      "bullets": [
+        "Core commercial literacy: accounting, business law, corporate and management topics.",
+        "Applied finance and compliance exposure: corporate accounting, taxation, financial reporting, and related electives.",
+        "Broader employability skills may be developed through skill-enhancement and interdisciplinary choices; availability differs by college and university."
+      ],
+      "source_urls": [
+        "https://commerce.du.ac.in/index.php?NEP-Guidelines-Meeting-for-UGCF%2FB.Com.-Hons.=",
+        "https://www.commerce.du.ac.in/programmes/ugcf-b-com-programme"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission: entrance-test and merit processes are institution-specific",
+      "paragraphs": [
+        "For institutions using CUET-UG, admission is not secured merely by taking the examination. Candidates must select the subjects required by the target university and then participate in that university’s counselling, allocation, or admission process under its current rules.",
+        "For example, the University of Delhi’s published 2026–27 information bulletin states that its provisions can be revised or amended and directs applicants to check its admission website for updates. This is a useful practical reminder that dates, fee schedules, seat matrices, and allocation rules are time-sensitive rather than permanent."
+      ],
+      "bullets": [
+        "Start with the target university’s latest bulletin, then map its required school subjects and entrance-test papers.",
+        "Keep school marksheets, category or reservation documents where applicable, identity documents, and other required certificates ready in the format specified by the institution.",
+        "Treat announced deadlines and fees as dated information; re-check the official admission portal immediately before submitting an application or payment."
+      ],
+      "source_urls": [
+        "https://cuet.nta.nic.in/",
+        "https://cuet.nta.nic.in/university-of-delhi/",
+        "https://admission.uod.ac.in/userfiles/downloads/2026/08072026_Bulletin-of-Information_Eng_compressed.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options after B.Com. (Hons.)",
+      "paragraphs": [
+        "M.Com.: B.Com. (Hons.) is a direct academic fit for Master of Commerce admissions. As one current example, the University of Delhi’s 2026–27 M.Com. bulletin includes three-year/four-year B.Com. (Hons.), B.Com. pass/programme, and other commerce-related bachelor’s degrees among its programme-specific eligibility routes, together with the applicable CUET-PG paper requirement.",
+        "CA Intermediate: ICAI permits commerce graduates/postgraduates with at least 55% aggregate marks to register through the Direct Entry Route. Final-year commerce students may register provisionally, but ICAI says eligibility to sit the Intermediate examination depends on completing graduation with the required marks and the prescribed eight-month study period.",
+        "CMA Intermediate: ICMAI states that graduates or Foundation-qualified candidates may register for CMA Intermediate. Its current prospectus includes a degree from a recognized university as an eligibility route, subject to its stated exclusions and documentary requirements.",
+        "CS Executive: under ICSI’s restructured CSEET guidance effective from the June 2026 session, graduates and postgraduates in any discipline are exempt from CSEET and may register directly for CS Executive. Applicants should still verify current registration, exemption, and examination rules with ICSI before paying fees.",
+        "CAT and management study: CAT is a common pathway to management programmes after a bachelor’s degree. The official CAT 2025 eligibility notice required a bachelor’s degree with at least 50% marks or equivalent CGPA for General/EWS/NC-OBC candidates and 45% for SC/ST/PwD candidates; because CAT notices are cycle-specific, applicants should confirm the eligibility criteria in the CAT 2026 bulletin when it is published.",
+        "CFA Program: a B.Com. (Hons.) graduate can meet the degree-based CFA Program entry condition for Level I. Students may also register earlier if their selected exam window is within 23 months of graduation; subsequent level and charter requirements remain separately applicable. CFA Institute lists three exam levels and additional work-experience and membership requirements for use of the CFA charter.",
+        "Employment: roles such as Accountant, Accounts Executive, Audit Assistant, and Tax Associate are possible entry-level targets, but hiring criteria are set by each employer and may require software proficiency, internships, local tax knowledge, or additional certifications. Use the degree’s accounting, law, tax, and financial-management coursework to build an evidence-based résumé and choose internships aligned with the desired role."
+      ],
+      "bullets": [
+        "Academic route: M.Com. or another eligible postgraduate programme.",
+        "Professional-accountancy route: CA Intermediate, CMA Intermediate, or CS Executive, subject to the relevant institute’s active regulations.",
+        "Management route: CAT followed by institute-specific selection processes.",
+        "Investment route: CFA Program Levels I–III, subject to CFA Institute’s eligibility, examination, work-experience, and membership rules.",
+        "Employment route: accounting, accounts operations, audit support, tax support, and finance-assistant roles, subject to employer-specific requirements."
+      ],
+      "source_urls": [
+        "https://admission.uod.ac.in/2025/userfiles/downloads/2025/23122025_Bulletin-of-Information-Two-Year_PG_compressed.pdf",
+        "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+        "https://www.icsi.edu/media/webmodules/STUDENT_SERVICE/CSEET_FAQ.pdf",
+        "https://iimcat.ac.in/per/g01/pub/756/ASM/WebPortal/15/PDF/CAT_2019_Eligibility.pdf",
+        "https://www.cfainstitute.org/programs/cfa-program/policies"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC Curriculum and Credit Framework for Undergraduate Programmes",
+      "url": "https://www.ugc.gov.in/KeyInitiative?ID=yiPY1rgAlvz9%2F1chFf86gg%3D%3D",
+      "kind": "regulator-framework"
+    },
+    {
+      "label": "CUET-UG official portal",
+      "url": "https://cuet.nta.nic.in/",
+      "kind": "admission-examination"
+    },
+    {
+      "label": "University of Delhi Faculty of Commerce and Business",
+      "url": "https://www.commerce.du.ac.in/",
+      "kind": "university-curriculum"
+    },
+    {
+      "label": "ICAI CA Course FAQ",
+      "url": "https://icai-call-sahayata.icai.org/assets/pdf/About-CA-Course-Oro-FAQ.pdf",
+      "kind": "professional-body"
+    },
+    {
+      "label": "ICSI restructured CSEET FAQ",
+      "url": "https://www.icsi.edu/media/webmodules/STUDENT_SERVICE/CSEET_FAQ.pdf",
+      "kind": "professional-body"
+    },
+    {
+      "label": "CFA Program policies",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/policies",
+      "kind": "professional-body"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

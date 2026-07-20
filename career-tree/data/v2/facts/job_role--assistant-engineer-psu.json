@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role scope",
+      "value": "Assistant Engineer is an employer-specific engineering-officer designation. In public works-style organisations, the role is accountable to an Executive Engineer for efficient execution and management of works within its jurisdiction, rather than being limited to routine field support.",
+      "source_urls": [
+        "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf"
+      ]
+    },
+    {
+      "label": "Typical qualification baseline",
+      "value": "A recognised engineering degree in the relevant discipline is a common direct-entry baseline. For example, Uttarakhand engineering-service rules specify a recognised Civil, Electrical or Mechanical Engineering degree (or the stated Institution of Engineers route) for direct recruitment to Assistant Engineer.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3e82c4b19b8151ddc25d4d93baf7b908f/uploads/2025/02/20250217190167630.pdf"
+      ]
+    },
+    {
+      "label": "Entry mechanisms vary",
+      "value": "Recruitment may be through a direct competitive/commission route or promotion from Junior Engineer cadres, depending on the employer’s rules. In central PSUs, comparable graduate-engineer officer intake can also use GATE scores followed by employer selection stages.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3e82c4b19b8151ddc25d4d93baf7b908f/uploads/2025/02/20250217190167630.pdf",
+        "https://www.nhpcindia.com/assests/pzi_public/job/details_1773306619_5633.pdf"
+      ]
+    },
+    {
+      "label": "Relationship to Junior Engineer",
+      "value": "Junior Engineer can be a feeder cadre for Assistant Engineer, but eligibility, service length and promotion quotas are organisation-specific. Official promotion orders and service rules document JE-to-AE progression.",
+      "source_urls": [
+        "https://hppwd.hp.gov.in/promotionposting-orders-of-junior-engineer-civil-to-assistant-engineer-civil",
+        "https://cdnbbsr.s3waas.gov.in/s3e82c4b19b8151ddc25d4d93baf7b908f/uploads/2025/02/20250217190167630.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Assistant Engineer does",
+      "paragraphs": [
+        "An Assistant Engineer typically translates sanctioned work into safe, specification-compliant execution. In CPWD’s published duties, the post collects engineering data for estimates, prepares drawings and site plans, supervises work against specifications and approved samples, checks or records measurements, prepares bill-related documentation, reports progress and hindrances, and maintains prescribed site and account records.",
+        "Indian Railways’ works manual similarly makes the Assistant Engineer responsible for maintenance, execution and safety of works in charge; accuracy, quality and progress of new works; and expenditure control against budget allotments. It specifically lists inspections, plans and estimates, execution and measurement, store verification, and proposals for works programmes and budgets."
+      ],
+      "bullets": [
+        "Plan and estimate work; prepare or coordinate drawings and site information.",
+        "Supervise contractors, field staff and execution quality against drawings, standards and specifications.",
+        "Inspect assets and worksites; verify measurements, materials, records and progress.",
+        "Track expenditure, prepare technical or billing documentation, and escalate site constraints.",
+        "Work under delegated powers and coordinate with Executive Engineers, contractors, accounts staff and other departments."
+      ],
+      "source_urls": [
+        "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf",
+        "https://iricen.gov.in/iricen/Works_Manuals/IRWM_%20Corrected_CS%2010.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "How to enter the role",
+      "paragraphs": [
+        "There is no single all-India Assistant Engineer (PSU) recruitment route. The exact title, discipline, eligibility, age conditions, reservations, selection process and service rules are fixed by the recruiting PSU or public organisation; applicants should treat the current official notification as controlling.",
+        "A direct-entry route commonly requires an engineering degree in the notified discipline. Uttarakhand’s Assistant Engineer service rules, for example, provide for direct recruitment through the commission and require a recognised degree in Civil, Electrical or Mechanical Engineering, while also recognising the specified Institution of Engineers qualification route.",
+        "A second route is internal advancement from Junior Engineer or related technical cadres. The same rules allocate parts of the Assistant Engineer intake to promotion from substantively appointed Junior Engineers/Additional Assistant Engineers subject to qualification and service conditions. In PSU practice, the comparable officer-entry title may instead be Trainee Engineer or Graduate Engineer: NHPC’s March 2026 recruitment used GATE 2024/2025 scores for Trainee Engineers, required a full-time relevant engineering degree, and shortlisted candidates for group discussion and personal interview."
+      ],
+      "bullets": [
+        "Complete the discipline-specific engineering qualification required by the target employer—commonly Civil, Electrical, Mechanical or another explicitly notified branch.",
+        "Monitor the careers page and detailed notification of the target PSU or public employer; do not assume one organisation’s age limit, cut-off, fee or selection design applies to another.",
+        "For GATE-linked PSU officer recruitment, obtain the required valid GATE score in the specified paper and meet the employer’s degree, marks and category requirements.",
+        "For a JE-to-AE route, build the service record, seniority and qualifying service required by the employer’s promotion rules; some cadres also require a degree or additional departmental conditions."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3e82c4b19b8151ddc25d4d93baf7b908f/uploads/2025/02/20250217190167630.pdf",
+        "https://www.nhpcindia.com/assests/pzi_public/job/details_1773306619_5633.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role calls for more than academic engineering knowledge: official duty manuals make clear that an Assistant Engineer must integrate technical design and estimation with site supervision, measurement, quality control, documentation, expenditure awareness and coordination. The relative emphasis depends on discipline and whether the employer operates construction projects, utilities, plants, networks or maintenance assets."
+      ],
+      "bullets": [
+        "Discipline fundamentals: apply the relevant civil, electrical, mechanical or other engineering standards to field decisions.",
+        "Estimation and drawings: collect site data, read and prepare drawings, and develop or check estimates and plans.",
+        "Execution and quality control: interpret specifications, inspect work, identify defects and ensure corrective action.",
+        "Measurement, records and commercial awareness: maintain measurements, bills, material and site records, and track expenditure against sanctioned work.",
+        "Communication and supervision: issue clear site instructions, report progress and risks, and coordinate with contractors, Junior Engineers and senior officers.",
+        "Rules and safety: work within applicable manuals, codes, delegated powers and safety requirements."
+      ],
+      "source_urls": [
+        "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf",
+        "https://iricen.gov.in/iricen/Works_Manuals/IRWM_%20Corrected_CS%2010.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Work setting",
+      "paragraphs": [
+        "Assistant Engineers commonly combine office-based technical and administrative work with regular field or site presence. CPWD’s duties explicitly expect the Assistant Engineer to supervise work under charge, remain at site to ensure proper execution where required, prepare progress reporting and keep site, material and account records.",
+        "For PSU engineering careers, the posting environment can be project- or asset-based rather than a conventional office-only role. NHPC’s 2026 recruitment notice describes work across hydropower, solar and wind assets as well as projects under construction, illustrating why engineering officer roles in PSUs may involve project locations, plants, field surveys, construction interfaces or maintenance responsibilities depending on the enterprise and discipline."
+      ],
+      "bullets": [
+        "Possible settings include project sites, construction packages, plants or stations, maintenance sections, substations, workshops, regional offices and corporate engineering teams.",
+        "Expect a mix of desk work—estimates, reports, drawings, tenders or records—and field work such as inspections, measurement and contractor coordination.",
+        "Transfers, remote postings, shift or emergency responsibilities and travel are employer- and assignment-dependent; candidates should check the specific appointment terms."
+      ],
+      "source_urls": [
+        "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf",
+        "https://www.nhpcindia.com/assests/pzi_public/job/details_1773306619_5633.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression from Junior Engineer and beyond",
+      "paragraphs": [
+        "The usual conceptual progression is Junior Engineer to Assistant Engineer, followed in many engineering organisations by higher supervisory roles such as Executive Engineer. This is a career pattern, not a guaranteed or uniform ladder: promotion depends on the applicable recruitment rules, vacancies, seniority, performance and any required qualifications or examinations.",
+        "Official evidence shows both sides of this ladder. Himachal Pradesh PWD published a JE (Civil) to AE (Civil) promotion/posting order in March 2025. Uttarakhand’s rules provide specified direct-recruitment and promotion shares for Assistant Engineer, including promotion routes for Junior Engineers with stated qualification and service requirements. West Bengal’s Irrigation and Waterways Department also records promotion of Assistant Engineers (Civil) to Executive Engineer (Civil)."
+      ],
+      "bullets": [
+        "Junior Engineer → Assistant Engineer: commonly a feeder-cadre progression where service eligibility and vacancy rules are met.",
+        "Assistant Engineer → Executive Engineer or equivalent: a higher management and technical-accountability step in many departmental hierarchies.",
+        "PSUs may use different grade names—such as trainee engineer, engineer, senior engineer, manager or executive grades—so compare duties, grade, reporting structure and promotion rules rather than relying on title alone."
+      ],
+      "source_urls": [
+        "https://hppwd.hp.gov.in/promotionposting-orders-of-junior-engineer-civil-to-assistant-engineer-civil",
+        "https://cdnbbsr.s3waas.gov.in/s3e82c4b19b8151ddc25d4d93baf7b908f/uploads/2025/02/20250217190167630.pdf",
+        "https://www.wbiwd.gov.in/index.php/applications/notifications/160"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NHPC careers and job listings",
+      "url": "https://www.nhpcindia.com/welcome/job/10.html",
+      "kind": "employer careers page"
+    },
+    {
+      "label": "NHPC 2026 Trainee Engineer recruitment notification",
+      "url": "https://www.nhpcindia.com/assests/pzi_public/job/details_1773306619_5633.pdf",
+      "kind": "official recruitment notice"
+    },
+    {
+      "label": "CPWD Duties Book",
+      "url": "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf",
+      "kind": "official role-duties reference"
+    },
+    {
+      "label": "Indian Railways Works Manual",
+      "url": "https://iricen.gov.in/iricen/Works_Manuals/IRWM_%20Corrected_CS%2010.pdf",
+      "kind": "official engineering manual"
+    },
+    {
+      "label": "Himachal Pradesh PWD JE-to-AE promotion order page",
+      "url": "https://hppwd.hp.gov.in/promotionposting-orders-of-junior-engineer-civil-to-assistant-engineer-civil",
+      "kind": "official progression reference"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

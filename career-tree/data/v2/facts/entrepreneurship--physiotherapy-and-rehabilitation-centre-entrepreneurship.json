@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Core clinical qualification",
+      "value": "A practical founder-clinician route is a Bachelor of Physiotherapy (BPT) from a recognised university. The national physiotherapy-centre standard lists BPT (or the historical DPT awarded up to 1991) for the minimum physiotherapist role; a Government of India rehabilitation institute describes BPT as a 4.5-year programme and requires 10+2 Physics, Chemistry, Biology and English for admission.",
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://s32056d8c1dec3d12cbce646b348d189d1.s3waas.gov.in/under-graduate-courses/"
+      ]
+    },
+    {
+      "label": "Minimum staffing benchmark",
+      "value": "The published physiotherapy-centre standard specifies at least one physiotherapist and at least one support staff member; staffing should then expand with workload and the scope of services.",
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf"
+      ]
+    },
+    {
+      "label": "Potential service configuration",
+      "value": "The central standard recognises standalone centres and hospital/polyclinic physiotherapy sections, with electrotherapy, exercise therapy, mechano-therapy, hydrotherapy and manual therapy identified as applicable service areas.",
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf"
+      ]
+    },
+    {
+      "label": "Registration is location-dependent",
+      "value": "The Clinical Establishments (Registration and Regulation) Act, 2010 applies in States and Union Territories where it has taken effect or been adopted; other States may regulate facilities under their own laws. A founder must therefore confirm the applicable State, municipal and local approvals before opening or expanding.",
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/en/about-us",
+        "https://www.clinicalestablishments.mohfw.gov.in/en/faq"
+      ]
+    },
+    {
+      "label": "Biomedical-waste responsibility",
+      "value": "Where the centre generates biomedical waste, the healthcare facility/operator is responsible for compliant segregation, handling and disposal. CPCB guidance says non-bedded healthcare facilities require one-time authorisation from the relevant State Pollution Control Board or Pollution Control Committee, and the facility must submit the prescribed annual report by 30 June for the preceding calendar year.",
+      "source_urls": [
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Clinical and entrepreneurial entry routes",
+      "paragraphs": [
+        "The strongest route into rehabilitation-centre entrepreneurship is to first establish clinical credibility: complete a recognised BPT, undertake the required clinical internship/training, and gain supervised practice in a hospital, rehabilitation institution or established clinic before assuming responsibility for a centre. As an example of the public-sector education route, the Pandit Deendayal Upadhyaya National Institute for Persons with Physical Disabilities offers BPT as a four-and-a-half-year programme, including six-month internship postings; it requires 10+2 Physics, Chemistry, Biology and English. Programme eligibility, admission tests, duration and internship rules vary by university and admission year.",
+        "For a multidisciplinary model, the entrepreneur does not need personally to deliver every service. However, each offered discipline should be led and delivered by people whose qualifications, training and applicable registrations match that service. The physiotherapy-centre standard says physiotherapy services must be consonant with practitioners’ qualifications, training and registration, and calls for State Physiotherapy and Occupational Therapy Council registration where applicable.",
+        "A non-clinician may participate as a business founder or operator, but should build formal clinical governance: appoint an appropriately qualified clinical lead, define referral and escalation arrangements with medical practitioners, and avoid representing non-clinical staff as qualified rehabilitation professionals. This is particularly important because the published physiotherapy standard bases the patient plan on a treating medical doctor’s diagnosis and calls for review/re-prescription for a continuing plan of care after three weeks."
+      ],
+      "bullets": [
+        "Build the initial team around a BPT-qualified physiotherapist, then add allied disciplines only when there is a defined patient pathway, qualified workforce and compliant space/equipment.",
+        "Use documented role descriptions, credential files and refresher-training records; the standard specifically calls for personnel records and periodic skill enhancement.",
+        "Treat university course brochures and State-council rules as year- and location-specific rather than assuming one national admissions or registration process."
+      ],
+      "source_urls": [
+        "https://s32056d8c1dec3d12cbce646b348d189d1.s3waas.gov.in/under-graduate-courses/",
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities required to run a rehabilitation centre",
+      "paragraphs": [
+        "Clinical capability should cover structured assessment, safe treatment selection, functional progression and documentation. Under the published physiotherapy-centre standard, each registered patient’s card/slip is expected to record the referring doctor’s working diagnosis, relevant history and examination findings, a care plan listing exercises and physical modalities, and the physiotherapist’s signature and date at every visit. This supports continuity when care is delivered by a team rather than one practitioner.",
+        "Operational capability matters as much as clinical skill. The centre needs appointment and patient-registration processes, billing, records, equipment upkeep, infection prevention, first-aid readiness, fall-risk controls and a documented emergency-contact pathway. The standard says equipment should be maintained and periodically inspected, cleaned and serviced; it also calls for first-aid provision, ambulance/hospital contact details and staff trained in basic life support.",
+        "For a multidisciplinary centre, translate these foundations into repeatable patient journeys—for example, intake and triage, discipline-specific assessment, shared functional goals, case review, home-programme education and discharge/follow-up. Add services only when the physical setup, trained practitioners, clinical protocols and safety arrangements can support them."
+      ],
+      "bullets": [
+        "Clinical documentation and outcome tracking.",
+        "Patient communication, consent and home-exercise education.",
+        "Team scheduling, referral coordination and caseload management.",
+        "Equipment lifecycle management and safe use of modalities.",
+        "Infection control, emergency readiness and incident review."
+      ],
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating model: design services around scope, safety and throughput",
+      "paragraphs": [
+        "Start with a clearly bounded service menu. The central physiotherapy-centre standard identifies electrotherapy, exercise therapy, mechano-therapy, hydrotherapy and manual therapy as applicable scopes. It also states that the physical environment should be safe, clean, illuminated and ventilated, with reception/waiting/consultation functions and treatment space arranged for orderly equipment placement and safe staff and patient movement.",
+        "Build capacity in stages rather than purchasing every modality at launch. The standard distinguishes essential equipment from equipment relevant to the centre’s scope and workload; its indicative inventory includes assessment equipment, electrotherapy devices, exercise equipment, gait aids and traction equipment, while several items—including hydrotherapy—are optional. Hydrotherapy, if offered, requires a separate chamber sized to the equipment; the example given for a Hubbard unit is at least 15 ft × 15 ft plus changing and wash facilities.",
+        "A scalable model separates shared back-office work from clinical delivery. The standard expressly allows registration, billing and waste-management support to be shared with a hospital, which is relevant for hospital-attached units, hub-and-spoke arrangements and co-located centres. For an independent centre, these functions still need named owners, written workflows and auditable records.",
+        "Use a quality dashboard that tracks patient volumes, attendance and drop-off, treatment-plan completion, functional outcomes selected by the clinical team, adverse events/falls, equipment downtime, referral sources and complaints. This is an operating recommendation grounded in the standard’s requirements for patient registration, record retention, safety and reporting—not a substitute for any State-specific reporting format."
+      ],
+      "bullets": [
+        "Core flow: registration → assessment → documented plan → supervised sessions and home programme → review/escalation → discharge/follow-up.",
+        "Space planning: retain adequate reception, consultation, treatment, equipment-storage and records-storage capacity as workload grows.",
+        "Safety baseline: accessible hand hygiene, daily cleaning of patient-care areas, maintained equipment, first aid and emergency contacts.",
+        "Expansion choices: add paediatric, neuro, musculoskeletal, cardiopulmonary, geriatric, sports or post-operative pathways only with appropriate clinical capability and referral arrangements."
+      ],
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance checklist for an Indian rehabilitation-centre venture",
+      "paragraphs": [
+        "First determine the legal regime for the exact location. The central Clinical Establishments Act is not automatically the sole registration route across India: the Ministry’s information states that it applies in States/UTs where it has taken effect or has been adopted, while health is a State subject. Check the relevant State clinical-establishment law or rules, local-body trade/occupancy requirements, building and fire requirements, and any conditions attached to the premises before signing a long lease or commencing services.",
+        "Where the Clinical Establishments framework applies, the owner is responsible for registration. The Ministry FAQ describes provisional registration through self-declaration and permanent registration after categorisation, classification and notification of category-wise minimum standards; it also says charges and available facilities are to be prominently displayed, and records/statistics may be required. The published physiotherapy standard additionally requires documents evidencing compliance with local laws, patient registration, record retention, and timely submission of required information during emergencies, disasters or epidemics.",
+        "Professional compliance must be embedded in recruitment. The published standard calls for physiotherapists to be registered with the applicable State Physiotherapy and Occupational Therapy Council, and for service delivery to stay within each professional’s qualifications, training and registration. Maintain copies of qualifications, registrations, job descriptions, training and renewal records.",
+        "Biomedical-waste compliance is not optional when such waste is generated. CPCB guidance assigns responsibility to the person with administrative control of the healthcare facility; it requires appropriate segregation, packaging, storage, transport and disposal. It states that non-bedded facilities need one-time authorisation from the relevant SPCB/PCC and that facilities must file the prescribed annual report by 30 June for the previous calendar year. Contracting a common biomedical-waste treatment facility does not remove the centre’s responsibility to segregate and hand over waste correctly.",
+        "This is a planning checklist, not legal advice. Obtain State-specific advice before launch because registration, municipal, fire, labour, tax, building-use and professional-registration requirements can differ materially by location and by whether the centre is standalone, hospital-attached, bedded or offers additional services."
+      ],
+      "bullets": [
+        "Confirm applicable clinical-establishment registration and the competent district/State authority.",
+        "Verify local premises permissions, building use, accessibility, fire and signage requirements.",
+        "Credential every clinical professional and retain evidence of applicable registration.",
+        "Maintain patient registration, assessment/plan records, staff records and required statistics.",
+        "Set up biomedical-waste authorisation, segregation, pickup/disposal arrangements, training and reporting where applicable."
+      ],
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/en/about-us",
+        "https://www.clinicalestablishments.mohfw.gov.in/en/faq",
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths from a physiotherapy clinic to a rehabilitation centre",
+      "paragraphs": [
+        "A sensible first growth path is depth before breadth: move from a single-practitioner clinic to a small team with stronger assessment, exercise-therapy and follow-up capacity, then add modalities and rooms as the documented workload supports them. The published standard explicitly ties additional physiotherapy equipment and workforce needs to scope of service and workload, rather than prescribing one identical build-out for every centre.",
+        "A second path is partnership-led scale. Hospital-attached sections are within the standard’s scope, and registration, billing and waste-management support may be shared with a hospital. This can make referral coordination, emergency escalation and access to shared support infrastructure more feasible than building all functions independently from day one.",
+        "A third path is service-line expansion around specific patient journeys, such as post-operative recovery, mobility and gait training, neurological rehabilitation, paediatric rehabilitation, cardiac/pulmonary rehabilitation, geriatric functional recovery or sports injury recovery. Each expansion should be gated by qualified personnel, protocolised referral/escalation, adequate room layout and equipment, and outcomes monitoring. Hydrotherapy is an example of a higher-infrastructure addition: the standard treats it as optional and requires separate appropriately sized space if installed.",
+        "For founders building an innovation-led, scalable business rather than only a local practice, Startup India notes that DPIIT-recognised eligible startups may be incorporated as a private limited company or LLP and may seek the Section 80-IAC tax benefit if they meet its dated statutory conditions. Eligibility—including incorporation period, turnover and innovation/scalability tests—must be checked at the time of application; it should not be assumed for an ordinary clinic or for every rehabilitation venture."
+      ],
+      "bullets": [
+        "Stage 1: strengthen clinical documentation, patient experience, core exercise/rehabilitation capacity and referral links.",
+        "Stage 2: recruit additional qualified professionals and create team-based care pathways.",
+        "Stage 3: co-locate or partner with hospitals, surgeons, physicians, employers, schools, sports organisations or community programmes where clinically appropriate.",
+        "Stage 4: invest in specialised infrastructure only after validating demand, staffing, safety and compliance requirements.",
+        "Consider a private limited company or LLP only after taking business, tax and legal advice suited to ownership, funding and scale plans."
+      ],
+      "source_urls": [
+        "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+        "https://www.startupindia.gov.in/content/sih/en/form80iac.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "MoHFW clinical-establishments portal",
+      "url": "https://www.clinicalestablishments.mohfw.gov.in/en/about-us",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "Published minimum standards for a physiotherapy centre",
+      "url": "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/597.pdf",
+      "kind": "standard"
+    },
+    {
+      "label": "CPCB biomedical-waste guidance for healthcare facilities",
+      "url": "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+      "kind": "environmental compliance guidance"
+    },
+    {
+      "label": "Government rehabilitation institute BPT course information",
+      "url": "https://s32056d8c1dec3d12cbce646b348d189d1.s3waas.gov.in/under-graduate-courses/",
+      "kind": "education route"
+    },
+    {
+      "label": "Startup India 80-IAC eligibility information",
+      "url": "https://www.startupindia.gov.in/content/sih/en/form80iac.html",
+      "kind": "business-support information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

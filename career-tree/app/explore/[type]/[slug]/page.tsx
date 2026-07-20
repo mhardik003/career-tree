@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import V2FocusView from "@/components/v2/V2FocusView";
 import V2NodePageClient from "@/components/v2/V2NodePageClient";
 import { v2Graph } from "@/lib/v2/data";
+import { getFullNode } from "@/lib/v2/facts";
 import { buildNodePageView } from "@/lib/v2/routes";
 import type { V2ParentContext } from "@/lib/v2/types";
 import { nodeHref } from "@/lib/v2/urls";
@@ -32,9 +33,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ExplorePage({ params }: Props) {
   const { type, slug } = await params;
-  const node = v2Graph.getNodeByRoute(type, slug);
+  const core = v2Graph.getNodeByRoute(type, slug);
+  if (!core) notFound();
+  // The graph holds fact-less core nodes. The focused node stays full
+  // (facts re-attached from data/v2/facts/) — the guide CTA and prerendered
+  // HTML keep exposing the focused node's facts exactly as before.
+  const node = await getFullNode(core.id);
   if (!node) notFound();
-  const canonicalView = buildNodePageView(v2Graph, node.id);
+  const canonicalView = { ...buildNodePageView(v2Graph, node.id), node };
   // Per-parent views differ from the canonical view only in route order,
   // selected parent, and back link — ship just those fields per parent.
   // Reusing the canonical routes array when the order is unchanged lets

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "BARC OCES/DGFS is a Department of Atomic Energy (DAE) recruitment route for Scientific Officer posts through BARC Training Schools, rather than a stand-alone academic entrance examination.",
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf",
+        "https://www.barc.gov.in/careers/officers.html"
+      ]
+    },
+    {
+      "label": "Programmes",
+      "value": "OCES is a one-year Orientation Course for engineering graduates and science postgraduates; DGFS is a two-year DAE Graduate Fellowship Scheme for eligible engineering graduates who secure applicable M.Tech. admission.",
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf",
+        "https://barcocesexam.in/index.php"
+      ]
+    },
+    {
+      "label": "2026 screening routes",
+      "value": "The 2026 cycle allowed shortlisting through the BARC computer-based online examination and/or a valid applicable GATE 2024, 2025, or 2026 score; final selection was based solely on the selection interview, subject to medical fitness.",
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf"
+      ]
+    },
+    {
+      "label": "Core academic threshold for 2026",
+      "value": "For the eight engineering screening disciplines, the 2026 brochure required an eligible B.E., B.Tech., B.Sc. (Engineering), or five-year integrated M.Tech. with at least 60% aggregate marks or 6.0/10 CGPA (or equivalent); science disciplines have separate, subject-specific M.Sc./integrated-M.Sc. requirements.",
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf"
+      ]
+    },
+    {
+      "label": "2026 application status",
+      "value": "The OCES/DGFS-2026 portal listed January 31, 2026 as the last date for online registration, with no further extension; applicants should treat each future cycle's portal notice and brochure as controlling.",
+      "source_urls": [
+        "https://barcocesexam.in/barcocsnov25/index.php?stat=0"
+      ]
+    },
+    {
+      "label": "Training support and service obligation",
+      "value": "For the 2026 cycle, the brochure stated a ₹74,000 monthly training stipend for OCES and DGFS, plus programme-specific support; selected OCES and DGFS candidates were required to execute a personal indemnity bond to serve DAE for at least three years after training.",
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and position in the DAE career pathway",
+      "paragraphs": [
+        "OCES/DGFS is BARC Training Schools’ recruitment-and-training pathway for early-career scientists and engineers in the Department of Atomic Energy. The 2026 information brochure describes recruitment to Group-A Scientific Officer positions through two linked schemes: OCES for engineering graduates and science postgraduates, and DGFS for eligible engineering graduates pursuing selected M.Tech. programmes.",
+        "Successful completion of the relevant training scheme leads to appointment as Scientific Officer “C” in DAE units or, where applicable, the Atomic Energy Regulatory Board. It is therefore best understood as a selective government scientific-officer recruitment programme whose screening examination is only the first stage—not as an admission test alone."
+      ],
+      "bullets": [
+        "OCES: one-year orientation and professional training route.",
+        "DGFS: two-year M.Tech.-linked fellowship route for selected engineering candidates who also independently obtain admission in listed institutes and specialisations.",
+        "The 2026 brochure identifies work areas spanning nuclear science and technology, reactors, accelerators, fuel-cycle technologies, and research in engineering, physics, chemistry, biosciences, geology, and geophysics."
+      ],
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf",
+        "https://www.barc.gov.in/careers/officers.html"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: match the notified discipline, degree, and personal criteria",
+      "paragraphs": [
+        "Eligibility is discipline-specific. In the 2026 cycle, engineering applicants were screened in Mechanical, Chemical, Metallurgical, Electrical, Electronics, Computer Science, Instrumentation, or Civil Engineering. The core qualifying credentials were an eligible B.E., B.Tech., B.Sc. (Engineering), or five-year integrated M.Tech. in the applicable discipline, with at least 60% aggregate marks or 6.0/10 CGPA (or equivalent).",
+        "Science applicants were not covered by a generic “science degree” rule: Physics, Chemistry, Biosciences, Geology, and Geophysics each had their own required subjects, degree combinations, and prior-study conditions. The brochure also names many related-looking qualifications that are not eligible. A candidate should therefore verify the exact degree title, subject history, and screening discipline against the current cycle’s eligibility tables before applying.",
+        "For 2026, applicants had to be Indian citizens and at least 18 on August 1, 2026. The stated maximum ages were 26 for General, 29 for OBC non-creamy-layer, and 31 for SC/ST candidates, with specified additional provisions for other categories and persons with disabilities. These are cycle-specific criteria, not assumptions for a later recruitment year."
+      ],
+      "bullets": [
+        "A valid applicable GATE 2024, 2025, or 2026 score was needed only for candidates seeking GATE-score screening in the 2026 cycle; it did not replace the underlying degree eligibility.",
+        "Candidates could apply in only one OCES screening discipline even if their qualifications could fit more than one.",
+        "Candidates awaiting 2025–26 final results could apply in 2026, subject to completing academic requirements and later submitting qualifying proof under the brochure’s conditions.",
+        "DGFS required selection for OCES plus independent admission to a listed M.Tech. programme; that admission alone did not guarantee a DGFS fellowship."
+      ],
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Selection and online-test format",
+      "paragraphs": [
+        "The 2026 selection process had two stages: screening to shortlist candidates, followed by a selection interview. Screening could be through the BARC online computer-based test, an applicable GATE score, or both; BARC specifically advised eligible applicants to use both avenues to improve their chance of being shortlisted. Final selection was based solely on selection-interview performance, subject to medical fitness.",
+        "For the 2026 CBT, the test comprised 100 single-correct-answer objective questions in 120 minutes. Each correct response earned three marks, each incorrect response carried a one-mark penalty, and unattempted questions earned zero. The brochure stated that questions and instructions were in English.",
+        "The test syllabus was tied to the selected discipline: B.E./B.Tech./B.Sc. (Engineering) level for engineering disciplines and M.Sc. level for science disciplines. BARC stated that the questions emphasize basic understanding and problem-solving rather than memory, and that General English, general knowledge, and aptitude are not assessed."
+      ],
+      "bullets": [
+        "2026 CBT screening disciplines: eight engineering and five science disciplines.",
+        "2026 interview locations: Mumbai for all disciplines except Geology and Geophysics; Hyderabad for Geology and Geophysics.",
+        "Use the notification for the relevant year to confirm whether test structure, screening routes, locations, and schedules have changed."
+      ],
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process and 2026-cycle timing",
+      "paragraphs": [
+        "The application is completed online through the BARC OCES/DGFS portal. The 2026 instructions required preliminary registration and verification of email and mobile number, followed by personal, academic, screening, and document-upload stages; candidates then reviewed and finally submitted the form. A valid email address and mobile number were mandatory, and no modifications were permitted after final submission.",
+        "Applicants choosing CBT in 2026 had to select three preferred examination cities. Applicants could select CBT and/or GATE-based screening and had to provide the relevant GATE details and scorecard as directed. The official instructions also required uploading a recent photograph and signature and entering academic marks; incomplete information could invalidate an application.",
+        "Dates and fees are annual, variable notice items. In the 2026 cycle, online registration opened on December 22, 2025 and the live portal reported January 31, 2026 as the final registration date. The 2026 brochure charged ₹500 plus bank charges to specified male General/OBC and certain other listed categories, while women, transgender applicants, SC/ST applicants, eligible defence-dependant applicants, and qualifying persons with disabilities were exempt. Future applicants must use the then-current portal and brochure rather than these historical figures."
+      ],
+      "bullets": [
+        "Retain the registration number and monitor the portal and registered email/mobile for venue, admit-card, shortlist, and interview notices.",
+        "For 2026, no paper copies of application documents were to be sent to BARC at application stage.",
+        "Government/PSU/aided-institute employees needed a no-objection certificate at interview under the 2026 rules."
+      ],
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf",
+        "https://barcocesexam.in/barcocsnov25/index.php?stat=0"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach grounded in the official test design",
+      "paragraphs": [
+        "Start by choosing the one screening discipline for which the degree title and subject record are explicitly eligible. Then map preparation to that discipline’s undergraduate engineering level or postgraduate science level, as applicable. Because the official description stresses conceptual understanding and problem-solving, preparation should prioritize derivations, numerical applications, core theory, and timed single-correct MCQ practice over general-aptitude preparation.",
+        "If eligible, consider both the CBT and GATE screening channels. The 2026 brochure expressly advised applicants to use both because GATE cut-offs for interview shortlisting were finalized only after the online examination. This does not mean a GATE score guarantees an interview; it is one screening route.",
+        "Practise the disclosed 2026 CBT conditions: 100 questions in 120 minutes, +3 for correct answers and −1 for incorrect answers. Build an attempt strategy that accounts for negative marking, and practise on-screen calculation because personal calculators and logarithmic tables were prohibited, while an on-screen calculator was enabled."
+      ],
+      "bullets": [
+        "Study only the selected discipline’s notified level: engineering at B.E./B.Tech./B.Sc. (Engineering) level; science at M.Sc. level.",
+        "Do not allocate primary preparation time to General English, general knowledge, or generic aptitude for the 2026 CBT, because the brochure said these were not assessed.",
+        "Prepare separately for the technical selection interview; it is the stage on which final selection was based in the 2026 programme."
+      ],
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Training, appointment, compensation, and obligations",
+      "paragraphs": [
+        "OCES trainees undertake one year of orientation training. In the 2026 scheme, a trainee needed at least 35% in each subject and 50% aggregate to pass; successful trainees were posted as Scientific Officer “C” according to DAE requirements and performance. OCES placement could be in BARC, IGCAR, RRCAT, VECC, HWB, NFC, BRIT, NPCIL, BHAVINI, UCIL, AMD, DCSEM, or AERB, including facilities elsewhere in India.",
+        "DGFS fellows complete a two-year M.Tech.-linked programme with a DAE-assigned, jointly supervised project, followed by a four-month orientation course after joining. For the 2026 offering, successful fellows from IIT Bombay were to be placed at BARC and those from IIT Madras at IGCAR, subject to the stated placement conditions.",
+        "Compensation figures should be read as dated 2026 context. The 2026 brochure stated a ₹74,000 monthly stipend during OCES training plus a ₹30,000 one-time book allowance. DGFS fellows were stated to receive ₹74,000 per month for two years, M.Tech. tuition reimbursement, and specified project support. After absorption, the stated base appointment was Scientific Officer “C” at Level 10, ₹56,100 in the 7th Central Pay Commission pay matrix; the brochure’s illustrative joining emoluments at the then-current Mumbai rate were approximately ₹1.34 lakh with three increments and applicable allowances. Actual pay and allowances can change with government orders, posting, and performance-based increments.",
+        "Both routes carried a service obligation in the 2026 brochure: selected candidates had to execute a personal indemnity bond to serve DAE for at least three years after training. The bond basis differed by scheme and included the specified programme support actually paid; the brochure stated that no third-party surety was required."
+      ],
+      "bullets": [
+        "OCES performance above the relevant threshold may support HBNI postgraduate diploma or M.Tech. enrolment pathways, subject to the programme’s stated conditions.",
+        "DGFS is not merely financial aid: it combines M.Tech. study, DAE-linked project work, and subsequent Scientific Officer appointment.",
+        "Posting is needs- and merit-based; candidates should not assume a preferred city or DAE unit."
+      ],
+      "source_urls": [
+        "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf",
+        "https://www.barc.gov.in/careers/officers.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "BARC OCES/DGFS online portal",
+      "url": "https://barcocesexam.in/index.php",
+      "kind": "official application portal"
+    },
+    {
+      "label": "OCES/DGFS 2026 information brochure",
+      "url": "https://www.igcar.gov.in/ocests/Information_brochure_OCES_DGFS-2026_Latest.pdf",
+      "kind": "official brochure"
+    },
+    {
+      "label": "BARC Scientific Officer career information",
+      "url": "https://www.barc.gov.in/careers/officers.html",
+      "kind": "official employer information"
+    },
+    {
+      "label": "IGCAR OCES/DGFS information page",
+      "url": "https://www.igcar.gov.in/ocests.html",
+      "kind": "official DAE-unit information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

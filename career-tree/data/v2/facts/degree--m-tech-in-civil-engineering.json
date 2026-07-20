@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Award and focus",
+      "value": "M.Tech in Civil Engineering is a postgraduate engineering degree that may be offered through focused civil-engineering specialisations rather than as a single uniform curriculum; IIT Bombay lists transportation systems, geotechnical, water resources, structural, ocean, remote sensing, and construction technology and management specialisations.",
+      "source_urls": [
+        "https://www.civil.iitb.ac.in/join-us"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "AICTE’s Approval Process Handbook lists postgraduate Engineering and Technology degrees as two-year programmes.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "Baseline academic eligibility",
+      "value": "For the AICTE postgraduate Engineering and Technology category, the baseline is a bachelor’s degree or equivalent with at least 50% marks, or 45% for candidates in reserved categories; individual institutions may impose higher or more specific requirements.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://acad.iitb.ac.in/admissions/masters/mtech"
+      ]
+    },
+    {
+      "label": "Common admission examination",
+      "value": "GATE is the entrance examination for IIT Bombay’s M.Tech programme, while final admission remains subject to each admitting institute’s own criteria.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/mtech",
+        "https://gate2026.iitg.ac.in/"
+      ]
+    },
+    {
+      "label": "GATE-score validity",
+      "value": "For GATE 2026, the official GATE site states that the score remains valid for three years from the date results are announced; applicants should still verify the score-year rules of each target institution.",
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "The national regulatory baseline for a postgraduate Engineering and Technology degree is a bachelor’s degree or equivalent with at least 50% marks (45% for reserved-category candidates). This is a baseline for approved programmes, not a guarantee of eligibility at every university.",
+        "For GATE, candidates in the third or higher year of an approved undergraduate programme, or graduates of an approved degree programme, may appear for GATE 2026. However, a GATE qualification does not itself guarantee M.Tech admission: the admitting institute determines its own qualifying discipline, minimum marks, score cut-off, category rules, and any test or interview requirements."
+      ],
+      "bullets": [
+        "For a Civil Engineering M.Tech, check whether the department accepts the GATE Civil Engineering (CE) paper only or also specified allied papers.",
+        "Check the institute’s required qualifying degree and minimum percentage/CGPA separately from the AICTE baseline.",
+        "Sponsored, part-time, institute-staff, project-staff, and assistantship categories can have different eligibility and selection rules."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://gate2026.iitg.ac.in/",
+        "https://acad.iitb.ac.in/admissions/masters/mtech"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study format",
+      "paragraphs": [
+        "The standard AICTE duration for a postgraduate Engineering and Technology degree is two years. Programme delivery and attendance arrangements vary by institution: for example, IIT Bombay states that its M.Tech admissions are available in full-time or part-time modes, subject to the categories and rules in its admission process."
+      ],
+      "bullets": [
+        "Treat two years as the normal full-time duration.",
+        "Confirm whether the target programme has a part-time or sponsored route; availability is institution-specific."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://acad.iitb.ac.in/admissions/masters/mtech"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and specialisation",
+      "paragraphs": [
+        "There is no single national M.Tech Civil Engineering syllabus. Departments organise the degree around a specialisation and combine advanced coursework with project or thesis work. IIT Bombay’s Civil Engineering department lists specialisations in transportation systems, geotechnical engineering, water resources engineering, structural engineering, ocean engineering, remote sensing, and construction technology and management.",
+        "A current IIT Delhi Construction Engineering and Management M.Tech example requires 60 graded credits and includes programme core courses, programme and open electives, a summer internship/minor project, and a multi-part major project. Its named courses include quantitative methods, construction project management, construction contracts and procurement, construction economics, sustainability assessment, lean construction, building sciences, and durability and repair of concrete structures. This illustrates the depth and project orientation of a civil-engineering specialisation; course titles and credit structures differ across institutions."
+      ],
+      "bullets": [
+        "Choose the specialisation by the technical problems you want to work on: structures, soil and foundations, water, transport, environmental/infrastructure systems, construction management, geospatial/remote sensing, or related areas offered by the institution.",
+        "Review the official curriculum and faculty research areas before applying, especially the thesis/project requirement and elective basket."
+      ],
+      "source_urls": [
+        "https://www.civil.iitb.ac.in/join-us",
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=CET",
+        "https://acad.iitb.ac.in/admissions/masters/mtech"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "A typical GATE-based application route is: identify eligible Civil Engineering specialisations and qualifying GATE papers; submit the institute application during its published cycle; register on COAP when required for relevant IIT assistantship categories; then complete any institute-specific shortlisting, written test, interview, and offer-acceptance steps. At IIT Bombay, the 2026–27 process uses GATE for M.Tech entrance and COAP registration for TA/TAP/RA/RAP applicants, while some selections are made through written tests and/or interviews.",
+        "Deadlines, GATE cut-offs, seat counts, accepted papers, and selection formulas are variable and must be treated as cycle-specific. For context only, IIT Bombay’s 2026–27 application page listed April 10, 2026 as the deadline without late fine; that date is past and must not be used for a later intake."
+      ],
+      "bullets": [
+        "Apply to the institute or department as well as completing any required COAP step; COAP does not replace an institute application where one is required.",
+        "Keep qualifying-degree records, category documents where applicable, GATE score details, and any sponsorship/employment documents ready.",
+        "Do not interpret a GATE qualification as an admission offer, scholarship award, or PSU job assurance."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/mtech",
+        "https://gate2026.iitg.ac.in/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Options after the degree",
+      "paragraphs": [
+        "An M.Tech can support advanced engineering and infrastructure work as well as further research. IIT Bombay describes M.Tech programmes as providing advanced theoretical, practical, and research-oriented knowledge for complex industry design and development challenges and for further academic research.",
+        "A research-oriented next step is a Ph.D. in Civil Engineering or a related area. IIT Bombay’s Civil Engineering department offers doctoral study in the same broad areas represented in its M.Tech portfolio, including transportation, geotechnical, water resources, structural, ocean, remote sensing, and construction technology and management. UGC’s Ph.D. Regulations, 2022 provide the national framework for doctoral standards and admission processes, while actual entry requirements are set by the relevant higher-education institution."
+      ],
+      "bullets": [
+        "Industry pathways may include specialist design, analysis, project, construction-management, infrastructure-planning, water, transport, geospatial, or sustainability roles, depending on the specialisation and experience.",
+        "Research pathways include Ph.D. applications, research-assistant roles, and institute or industry R&D projects; check supervisor fit and admission rules at the target institution."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/mtech",
+        "https://www.civil.iitb.ac.in/join-us",
+        "https://www.ugc.gov.in/KeyInitiative?ID=5a+g5HaAjyPaGaXtnVc3+Q%3D%3D"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "GATE 2026 official website",
+      "url": "https://gate2026.iitg.ac.in/",
+      "kind": "exam"
+    },
+    {
+      "label": "AICTE Approval Process Handbook 2024–2027",
+      "url": "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "IIT Bombay M.Tech admissions",
+      "url": "https://acad.iitb.ac.in/admissions/masters/mtech",
+      "kind": "admission"
+    },
+    {
+      "label": "IIT Bombay Civil Engineering M.Tech specialisations",
+      "url": "https://www.civil.iitb.ac.in/join-us",
+      "kind": "programme"
+    },
+    {
+      "label": "IIT Delhi Construction Engineering and Management curriculum example",
+      "url": "https://curriculum.iitd.ac.in/view_program.php?program_code=CET",
+      "kind": "curriculum"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Role scope",
+      "value": "“Senior Radiographer” is a senior designation rather than a single, nationally uniform job specification: public-service structures differ by employer and State. For example, Odisha uses Senior Radiographer Level-II and Level-I grades, while ISRO describes progression to Senior Radiographer-B.",
+      "source_urls": [
+        "https://govtpress.odisha.gov.in/storage/gazzette/1729506707_2799%20-%20Ex.-Gaz..pdf",
+        "https://www.isro.gov.in/ISRO_EN/Norms_recruit_career_prospects.html"
+      ]
+    },
+    {
+      "label": "Professional field",
+      "value": "Radiology and imaging work sits within the Medical Technologists and Physician Associate category in the National Commission for Allied and Healthcare Professions Act, 2021; its schedule includes professionals trained in medical technology, radiology, sonography, mammography, nuclear medical technology, MRI, dosimetry or radiotherapy under medical-professional supervision.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/handle/123456789/16824?locale=en",
+        "https://www.indiacode.nic.in/bitstream/123456789/16824/5/A2021-14.pdf"
+      ]
+    },
+    {
+      "label": "Typical public-sector advancement example",
+      "value": "In Odisha’s radiographer service rules, Senior Radiographer Level-II is filled by promotion from Radiographer after eight years of service. This is a State-specific example, not a universal India-wide requirement.",
+      "source_urls": [
+        "https://govtpress.odisha.gov.in/storage/gazzette/1729506707_2799%20-%20Ex.-Gaz..pdf"
+      ]
+    },
+    {
+      "label": "Radiation-safety context",
+      "value": "Diagnostic X-ray facilities must have appropriately trained radiology personnel; AERB states that X-ray technologists operating equipment need adequate radiation-protection knowledge. Facilities must also use protective devices, provide personnel monitoring to radiation workers, and arrange periodic equipment quality assurance.",
+      "source_urls": [
+        "https://aerb.gov.in/hindi/regulatory-requirements-and-guidelines-for-upcoming-radiology-facility",
+        "https://aerb.gov.in/hindi/faq-hi"
+      ]
+    },
+    {
+      "label": "Public-pay context",
+      "value": "Government pay is employer- and rule-specific. As dated examples, CRPF rules published for a 2022 cadre designation placed Senior Radiographer at Pay Matrix Level 6 (₹35,400–₹1,12,400), while ISRO’s published career-prospects page lists Senior Radiographer-B at Level 10 (₹56,100–₹1,77,500). These are pay-matrix ranges, not a universal salary or take-home-pay promise.",
+      "source_urls": [
+        "https://crpf.gov.in/Upload/Document/1_806_2_286062022.pdf",
+        "https://www.isro.gov.in/ISRO_EN/Norms_recruit_career_prospects.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Responsibilities and patient-safety remit",
+      "paragraphs": [
+        "A Senior Radiographer typically works in a diagnostic-imaging service as an experienced radiography practitioner: carrying out imaging workflows within local protocols, supporting safe patient positioning and image acquisition, and helping maintain dependable department operations. The exact delegation of reporting, contrast work, supervision and modality-specific procedures depends on the employer, clinical protocol and applicable credentials.",
+        "In regulated diagnostic X-ray work, the role operates within a safety system rather than independently setting radiation policy. AERB requires an appropriately qualified radiologist, related medical practitioner or X-ray technologist with radiation-protection knowledge to operate X-ray equipment. It also requires facilities to use protective barriers and personal protective equipment, monitor radiation workers, and ensure equipment quality assurance through authorised agencies at least every two years and after safety-relevant repairs. Senior staff may therefore contribute to local compliance, quality checks and coaching, while the approved Radiological Safety Officer retains the delegated regulatory responsibility for the installation."
+      ],
+      "bullets": [
+        "Apply patient identification, positioning, communication and radiation-protection practices consistently during imaging workflows.",
+        "Check image quality and support repeat-reduction practices within departmental protocols, balancing diagnostic need with the principle that radiation exposure should be kept as low as reasonably achievable.",
+        "Participate in equipment-quality, documentation and escalation processes; periodic QA is a facility obligation under AERB requirements.",
+        "Support junior radiography staff through practical guidance and protocol adherence where this is part of the employer’s senior-grade role design."
+      ],
+      "source_urls": [
+        "https://aerb.gov.in/hindi/faq-hi",
+        "https://aerb.gov.in/hindi/regulatory-requirements-and-guidelines-for-upcoming-radiology-facility"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route and route to a senior grade",
+      "paragraphs": [
+        "The usual foundation is a recognised radiography or medical-radiology/imaging qualification followed by clinical employment as a radiographer. Entry standards vary by recruiter. Odisha’s State rules, for example, specify +2 Science and a Diploma in Medical Radiation Technology (DMRT) or Bachelor in Medical Radiation Technology (BMRT) from an eligible recognised institution for Radiographer recruitment. CRPF recruitment rules for the cadre subsequently designated Senior Radiographer specify 10+2 with Science plus a B.Sc. in Radiography and Imaging Technology or equivalent from a Central- or State-recognised institute.",
+        "A senior post is commonly reached through experience and promotion, but the required service varies. Odisha’s 2024 rules prescribe eight years as a Radiographer for promotion to Senior Radiographer Level-II. At GMCH Chandigarh, published recruitment rules describe a Senior Radiographic Technician/Senior Radiographer post as 100% promotion from Junior Radiographic Technician/X-ray Technician after six years of regular cadre service. Candidates should therefore read the current recruitment notice and the relevant State registration or renewal rules, rather than assuming one national threshold."
+      ],
+      "bullets": [
+        "Complete the qualification and clinical training required by the intended employer or State recruitment rules.",
+        "Build supervised clinical experience as a Radiographer across the modalities and patient groups available in the workplace.",
+        "Maintain any registration or renewal documentation required by the recruiting State or service; Odisha’s 2024 amendment refers to valid registration or renewal certificates at application.",
+        "Compete through the employer’s promotion, departmental-selection or direct-recruitment process, as applicable."
+      ],
+      "source_urls": [
+        "https://govtpress.odisha.gov.in/storage/gazzette/1729506707_2799%20-%20Ex.-Gaz..pdf",
+        "https://crpf.gov.in/Upload/Document/1_806_2_286062022.pdf",
+        "https://gmch.gov.in/sites/default/files/documents/a1.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills that matter at senior level",
+      "paragraphs": [
+        "Core capability combines radiographic technique with patient-centred communication, safe positioning, infection-control-aware workflow, image-quality judgement and careful documentation. In diagnostic X-ray settings, radiation-protection competence is essential: AERB identifies X-ray technologists with adequate radiation-protection knowledge as eligible personnel to operate X-ray equipment, and its guidance requires use and periodic verification of protective devices plus personnel monitoring for radiation workers.",
+        "Senior practice also benefits from quality and leadership skills: recognising equipment or image-quality concerns, following escalation procedures, teaching safe workflow to junior staff, coordinating with radiologists and other clinical teams, and maintaining calm communication with patients who may be in pain, distressed or unable to cooperate fully."
+      ],
+      "bullets": [
+        "Radiographic positioning and protocol-led image acquisition.",
+        "Radiation protection, safe use of barriers/aprons/goggles/thyroid shields, and dose-awareness.",
+        "Image-quality review, equipment QA awareness and timely escalation of faults.",
+        "Clear patient communication, consent-aware preparation and multidisciplinary teamwork.",
+        "Coaching, shift coordination and accurate records within local scope of practice."
+      ],
+      "source_urls": [
+        "https://aerb.gov.in/hindi/faq-hi",
+        "https://aerb.gov.in/hindi/regulatory-requirements-and-guidelines-for-upcoming-radiology-facility"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is practised",
+      "paragraphs": [
+        "Senior Radiographers work principally in hospital radiology departments and diagnostic imaging facilities, including fixed and mobile X-ray services. The work is clinical, equipment-intensive and protocol-driven. AERB guidance notes that X-ray rooms must allow staff movement and patient positioning, require structural shielding, and require licensed operation of diagnostic X-ray equipment.",
+        "Work patterns can include routine outpatient imaging, inpatient and emergency support, and mobile imaging according to the facility’s services. Fluoroscopy, CT and special-procedure establishments require the services of a qualified radiologist or related medical practitioner with radiation-protection knowledge for interpretation and reporting; the Senior Radiographer’s practical responsibilities must remain within the facility’s defined scope and supervision arrangements."
+      ],
+      "bullets": [
+        "Public and private hospitals.",
+        "Diagnostic imaging centres.",
+        "Emergency, inpatient and mobile radiography services.",
+        "Specialised imaging environments operating under local clinical protocols and AERB facility requirements."
+      ],
+      "source_urls": [
+        "https://aerb.gov.in/hindi/regulatory-requirements-and-guidelines-for-upcoming-radiology-facility"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression pathways",
+      "paragraphs": [
+        "Progression may move through senior radiographer grades, technical supervision, quality or safety-focused functions, and departmental management, but titles and eligibility are service-specific. Odisha’s 2024 cadre structure provides an example of progression from Radiographer to Senior Radiographer Level-II, then Senior Radiographer Level-I, Radiation Safety Officer and Assistant Director. Its rules prescribe further experience conditions for each next grade.",
+        "Other employers use different ladders. ISRO’s published norms state that a Radiographer-A can progress to Senior Radiographer-B through its Merit Promotion Scheme, subject to satisfactory performance. This illustrates why a radiographer should map progression against the particular employer’s recruitment rules, vacancies and performance system rather than relying on a generic title hierarchy."
+      ],
+      "bullets": [
+        "Radiographer → Senior Radiographer or equivalent senior technical grade.",
+        "Senior radiographer grades → technical supervision, imaging-service coordination or quality-focused work, where an employer provides those posts.",
+        "Potential movement to radiation-safety roles only where the person meets the regulator’s qualification, training and approval requirements for the role."
+      ],
+      "source_urls": [
+        "https://govtpress.odisha.gov.in/storage/gazzette/1729506707_2799%20-%20Ex.-Gaz..pdf",
+        "https://www.isro.gov.in/ISRO_EN/Norms_recruit_career_prospects.html",
+        "https://aerb.gov.in/hindi/regulatory-requirements-and-guidelines-for-upcoming-radiology-facility"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Compensation varies substantially by employer, location, appointment type, seniority, allowances, shifts and whether employment is in a government, autonomous, charitable or private facility. Publicly posted pay matrices are useful only as dated reference points and should not be treated as an all-India salary benchmark.",
+        "For context, CRPF recruitment rules for its cadre designation state that personnel designated Senior Radiographer draw Pay Matrix Level 6, ₹35,400–₹1,12,400. ISRO’s career-prospects page lists Senior Radiographer-B at Level 10, ₹56,100–₹1,77,500, via merit promotion. Actual gross and net pay can differ because of allowances, deductions, applicable pay rules and later revisions; applicants should verify the live vacancy notice and current pay rules before making decisions."
+      ],
+      "bullets": [
+        "Use the recruiting employer’s current advertisement and applicable pay rules as the authoritative source.",
+        "Distinguish basic pay-matrix level from gross pay and take-home pay.",
+        "Treat historical or employer-specific salary figures as context, not a universal market rate."
+      ],
+      "source_urls": [
+        "https://crpf.gov.in/Upload/Document/1_806_2_286062022.pdf",
+        "https://www.isro.gov.in/ISRO_EN/Norms_recruit_career_prospects.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AERB: regulatory requirements for diagnostic radiology facilities",
+      "url": "https://aerb.gov.in/hindi/regulatory-requirements-and-guidelines-for-upcoming-radiology-facility",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "National Commission for Allied and Healthcare Professions Act, 2021",
+      "url": "https://www.indiacode.nic.in/handle/123456789/16824?locale=en",
+      "kind": "legislation"
+    },
+    {
+      "label": "Odisha Radiographer Service Amendment Rules, 2024",
+      "url": "https://govtpress.odisha.gov.in/storage/gazzette/1729506707_2799%20-%20Ex.-Gaz..pdf",
+      "kind": "state service rules"
+    },
+    {
+      "label": "ISRO recruitment norms and career prospects",
+      "url": "https://www.isro.gov.in/ISRO_EN/Norms_recruit_career_prospects.html",
+      "kind": "employer career framework"
+    },
+    {
+      "label": "CRPF recruitment rules containing Senior Radiographer designation and pay context",
+      "url": "https://crpf.gov.in/Upload/Document/1_806_2_286062022.pdf",
+      "kind": "employer recruitment rules"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

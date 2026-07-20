@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core purpose",
+      "value": "A Seafood Quality Control Officer helps a seafood processor maintain food-safety, hygiene, product-quality and documentation controls across handling, processing, packing and storage; FSSAI requires licensed food businesses to maintain an FSMS plan based on HACCP and prerequisite programmes.",
+      "source_urls": [
+        "https://fssai.gov.in/cms/hygiene-requirements.php",
+        "https://www.fssai.gov.in/upload/uploadfiles/files/Guidance_Document_Fish_01_06_2018.pdf"
+      ]
+    },
+    {
+      "label": "Principal Indian compliance context",
+      "value": "Fish and fish-product operations fall within FSSAI’s food-product, hygiene, contaminants/residues, packaging and labelling framework. FSSAI’s fish-product standards specify, among other matters, hygiene, contaminant/residue and microbiological compliance for covered products.",
+      "source_urls": [
+        "https://fssai.gov.in/cms/food-safety-and-standards-regulations.php",
+        "https://www.fssai.gov.in/upload/uploadfiles/files/Chapter%202_6_Fish_and_Fish_products.pdf"
+      ]
+    },
+    {
+      "label": "B.F.Sc. preparation",
+      "value": "B.F.Sc. programmes provide relevant foundations through fish-processing and fish-quality coursework. An ICAR minimum-standards document lists 10+2 PCB/PCMB/Inter (Agriculture) as the eligibility baseline, while individual university admission rules can differ.",
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+        "https://www.tnjfu.ac.in/fcritut/department-of-fish-quality-assurance-and-management.php"
+      ]
+    },
+    {
+      "label": "Degree duration example",
+      "value": "Tamil Nadu Dr. J. Jayalalithaa Fisheries University describes its B.F.Sc. as a four-year undergraduate Fisheries Science programme; applicants should confirm the current duration, intake and admission rules with the university concerned.",
+      "source_urls": [
+        "https://tnjfu.ac.in/fcritut/programmes.php"
+      ]
+    },
+    {
+      "label": "Export-sector setting",
+      "value": "For export-oriented work, seafood processing units in India may require approval through the Export Inspection Council of India, with destination-market approvals and requirements also relevant to the establishment.",
+      "source_urls": [
+        "https://mpeda.gov.in/?page_id=1100",
+        "https://mpeda.gov.in/exporters/?page_id=2159"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What the role covers",
+      "paragraphs": [
+        "In a seafood processing or export unit, the role is centred on verifying that the facility’s food-safety management controls operate in practice. This commonly means checking hygienic handling, sanitation, processing conditions, packing and storage; maintaining or reviewing records; and escalating deviations so corrective action can be taken. FSSAI describes an FSMS as hazard control across the food chain using HACCP and prerequisite programmes, while its fish-and-fish-products guidance includes operational records, inspection checklists and templates for food businesses.",
+        "For export establishments, quality work also needs to align with establishment approval conditions and the importing market’s requirements. MPEDA states that HACCP assistance includes preparation and certification of HACCP manuals and HACCP-compliance support, and identifies audits of facilities, operations, quality control, instrumentation and documentation as part of export-establishment oversight."
+      ],
+      "bullets": [
+        "Monitor Good Hygiene Practices (GHP), Good Manufacturing Practices (GMP), sanitation and HACCP/FSMS controls.",
+        "Check incoming material, processing, packaging, cold storage and associated records against the facility’s approved procedures.",
+        "Support sampling, testing coordination, traceability documentation, non-conformance investigation and corrective-action follow-up.",
+        "Help the establishment prepare for internal, customer, regulator and export-market audits."
+      ],
+      "source_urls": [
+        "https://fssai.gov.in/cms/hygiene-requirements.php",
+        "https://www.fssai.gov.in/upload/uploadfiles/files/Guidance_Document_Fish_01_06_2018.pdf",
+        "https://mpeda.gov.in/exporters/?page_id=1809",
+        "https://www.mpeda.gov.in/indianseafood/?p=971"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route from B.F.Sc.",
+      "paragraphs": [
+        "B.F.Sc. is a directly relevant starting degree because the curriculum includes fish processing, microbiology and quality-assurance content. ICAR’s minimum-standards document identifies fish-processing technology as a B.F.Sc. department area; a fisheries university’s B.F.Sc. curriculum includes Food Chemistry and Fish in Nutrition, Microbiology of Fish and Fishery Products, and Quality Assurance of Fish and Fishery Products.",
+        "For applicants seeking deeper technical specialisation, M.F.Sc. programmes may offer Fish Quality Assurance and Management. At Tamil Nadu Dr. J. Jayalalithaa Fisheries University, this specialisation includes subjects such as chemical and microbial hazards, fish sanitation and hygiene, food-safety standards and auditing, laboratory management systems, and fish-quality assessment instrumentation. Actual hiring criteria remain employer- and vacancy-specific."
+      ],
+      "bullets": [
+        "Complete a B.F.Sc. with attention to fish processing, food microbiology, quality assurance and practical laboratory work.",
+        "Seek in-plant exposure or internships in fish-processing facilities, quality-control laboratories, cold-chain operations or export-oriented seafood units.",
+        "Build working familiarity with FSSAI hygiene requirements, fish-product standards, HACCP principles, internal documentation and audit readiness.",
+        "Consider M.F.Sc. Fish Quality Assurance and Management for advanced laboratory, auditing and food-safety specialisation."
+      ],
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+        "https://www.tnjfu.ac.in/fcritut/department-of-fish-quality-assurance-and-management.php",
+        "https://www.tnjfu.ac.in/paraprofessional/pift_madhavaram/syllabus.php"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Knowledge and practical skills to build",
+      "paragraphs": [
+        "The technical skill base combines seafood quality assessment with food microbiology and hygiene. B.F.Sc. fish-quality teaching covers seafood hazards, quality indices, safety standards, hygiene and sanitation. Its microbiology content includes sampling and processing of samples, enumeration of microorganisms, water-potability testing, identification of fish-associated pathogens and rapid or molecular detection methods.",
+        "A strong compliance skill set also includes HACCP thinking, clear recordkeeping and the ability to interpret product-specific requirements. FSSAI’s fish guidance describes sample HACCP plans, facility self-audit checklists and record templates; its product standards connect fish products with hygiene, contaminants/residues, microbiological, packaging and labelling requirements."
+      ],
+      "bullets": [
+        "Seafood sensory and quality-index assessment.",
+        "Basic microbiological sampling, laboratory coordination and interpretation of test results.",
+        "Hygiene, sanitation, GMP/GHP and HACCP/FSMS implementation.",
+        "Cold-chain, process-flow, packaging and traceability record control.",
+        "Audit preparation, deviation reporting, corrective actions and clear written documentation."
+      ],
+      "source_urls": [
+        "https://www.tnjfu.ac.in/fcritut/department-of-fish-quality-assurance-and-management.php",
+        "https://www.tnjfu.ac.in/fcripon/syllabus.php",
+        "https://www.fssai.gov.in/upload/uploadfiles/files/Guidance_Document_Fish_01_06_2018.pdf",
+        "https://www.fssai.gov.in/upload/uploadfiles/files/Chapter%202_6_Fish_and_Fish_products.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the work is performed",
+      "paragraphs": [
+        "The role is most relevant in fish and fish-product handling, processing and packing operations, including freezing and cold-storage-linked facilities, quality-control laboratories and export establishments. FSSAI’s licensing guidance defines fish processing broadly to include handling, processing, manufacture of fish products, packing, storage, distribution and transportation.",
+        "Work may involve production-floor checks as well as laboratory and documentation tasks. FSSAI’s fish guidance notes product-specific pre-processing steps such as washing, sorting, grading, beheading, peeling, deveining, gutting, filleting and trimming, and requires appropriate chilling, protected storage and packing controls. Export-unit work can additionally involve destination-market and establishment-approval requirements."
+      ],
+      "bullets": [
+        "Seafood processing lines and pre-processing areas.",
+        "Freezing, packing and cold-storage operations.",
+        "In-house or external fish-quality testing laboratories.",
+        "Export-oriented plants preparing for approval, audit or buyer/regulatory review."
+      ],
+      "source_urls": [
+        "https://fctest.fssai.gov.in/search-eligibility/Reg",
+        "https://www.fssai.gov.in/upload/uploadfiles/files/Guidance_Document_Fish_01_06_2018.pdf",
+        "https://mpeda.gov.in/?page_id=1100"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Professional development and progression",
+      "paragraphs": [
+        "Progression can be built through increasing responsibility for quality systems, audit preparation, HACCP documentation, laboratory coordination and export-compliance work. The exact title ladder is set by each employer, but the technical depth expected in these areas is reflected in MPEDA’s HACCP training and support activities for seafood-industry technical personnel.",
+        "An academic progression route is M.F.Sc. Fish Quality Assurance and Management, followed by research-oriented study where appropriate. Relevant postgraduate coursework can cover food-safety standards and auditing, laboratory management systems, chemical and microbial hazards, traceability, instrumental quality assessment and seafood-borne pathogens."
+      ],
+      "bullets": [
+        "Strengthen HACCP and audit capability through supervised plant experience and recognised training.",
+        "Develop expertise in testing, traceability, corrective actions and export-market documentation.",
+        "Pursue M.F.Sc. Fish Quality Assurance and Management when advanced technical, laboratory or quality-system roles are the goal."
+      ],
+      "source_urls": [
+        "https://mpeda.gov.in/exporters/?page_id=1809",
+        "https://www.tnjfu.ac.in/fcritut/department-of-fish-quality-assurance-and-management.php",
+        "https://www.tnjfu.ac.in/fcritut/syllabus-phd.php"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "FSSAI hygiene requirements and FSMS overview",
+      "url": "https://fssai.gov.in/cms/hygiene-requirements.php",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "FSSAI guidance document: Fish and Fish Products",
+      "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Guidance_Document_Fish_01_06_2018.pdf",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "MPEDA HACCP implementation resources",
+      "url": "https://mpeda.gov.in/exporters/?page_id=1809",
+      "kind": "export_regulator_guidance"
+    },
+    {
+      "label": "ICAR minimum standards for B.F.Sc.",
+      "url": "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+      "kind": "education_standard"
+    },
+    {
+      "label": "TNJFU Department of Fish Quality Assurance and Management",
+      "url": "https://www.tnjfu.ac.in/fcritut/department-of-fish-quality-assurance-and-management.php",
+      "kind": "university_programme"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

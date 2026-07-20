@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core occupational focus",
+      "value": "Dairy technologists work across milk and milk-product processing, quality control, production, packaging, hygiene, and plant operations.",
+      "source_urls": [
+        "https://eoi.nddb.coop/jobs/TOR-SrManager-DairyPlantOperations.pdf"
+      ]
+    },
+    {
+      "label": "Common foundation",
+      "value": "B.Tech (Dairy Technology) is a four-year, semester-based undergraduate programme at ICAR–National Dairy Research Institute (NDRI), with in-plant training in dairy-plant operation and management during the seventh and eighth semesters.",
+      "source_urls": [
+        "https://www.ndri.res.in/b-tech-programme-dairy-technology-biotechnology-food-technology"
+      ]
+    },
+    {
+      "label": "Food-safety context",
+      "value": "Dairy processing employers operate within FSSAI hygiene requirements: licensed food businesses must maintain a documented Food Safety Management System (FSMS) plan, and Schedule 4 contains milk-and-milk-product-specific hygienic and sanitary practices.",
+      "source_urls": [
+        "https://fssai.gov.in/cms/hygiene-requirements.php"
+      ]
+    },
+    {
+      "label": "2026 national admission context",
+      "value": "For CUET (ICAR-UG) 2026, B.Tech Dairy Technology is listed among agriculture and allied-science bachelor programmes; the bulletin requires Class 12 with at least three core subjects drawn from Physics, Chemistry, Mathematics, Biology and Agriculture/Inter-Agriculture, subject to institution-specific conditions.",
+      "source_urls": [
+        "https://icar.org.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Dairy Technologist does",
+      "paragraphs": [
+        "A Dairy Technologist helps convert raw milk into safe, consistent products such as liquid milk, ghee, butter, fermented products, paneer, frozen products and other dairy foods. In plant-facing roles, the work includes monitoring processing and dispatch parameters, controlling losses in fat and solids-not-fat (SNF), supporting production planning, overseeing packaging and inventory, and coordinating with quality assurance and maintenance teams.",
+        "Food safety and quality are central responsibilities. Dairy establishments must manage hygiene, sanitation, equipment cleaning and disinfection, raw-material protection, contamination prevention and suitable waste-water arrangements. In practice, this makes disciplined record-keeping, adherence to specifications and corrective action when process deviations occur essential parts of the role."
+      ],
+      "bullets": [
+        "Monitor milk reception, processing conditions and finished-product quality.",
+        "Support manufacturing of dairy products and control process losses.",
+        "Apply GMP/GHP, sanitation procedures, SOPs and food-safety controls.",
+        "Coordinate production, quality control, maintenance, packaging, inventory and dispatch.",
+        "Investigate deviations or complaints and help maintain product and regulatory compliance."
+      ],
+      "source_urls": [
+        "https://eoi.nddb.coop/jobs/TOR-SrManager-DairyPlantOperations.pdf",
+        "https://fssai.gov.in/upload/uploadfiles/files/FssaiRules_Eng.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route from B.Tech in Dairy Technology",
+      "paragraphs": [
+        "The direct route is the parent qualification, B.Tech in Dairy Technology. ICAR’s minimum standards identify the degree nomenclature as B.Tech (Dairy Technology) and describe academic coverage spanning dairy processing, dairy engineering, dairy chemistry, dairy microbiology, dairy trade/business management and a pilot dairy unit. This combination aligns closely with technical production and quality roles in dairy plants.",
+        "For the 2026 ICAR undergraduate admission cycle, CUET (ICAR-UG) includes B.Tech Dairy Technology. Candidates should check the current information bulletin, counselling rules and each university’s programme-specific subject, marks, age and seat conditions before applying. At NDRI, the B.Tech programme includes structured in-plant exposure at its model dairy plant and commercial dairy plants, giving students a practical bridge into plant roles.",
+        "Further study can support specialization or research-oriented progression. NDRI lists Master’s and Ph.D. programmes in dairy disciplines, while ICAR’s dairy-technology syllabus covers advanced dairy processing, packaging, quality assurance, sanitation and related technical areas."
+      ],
+      "bullets": [
+        "Complete Class 12 science subjects that meet the chosen institution’s eligibility rules.",
+        "Seek admission to B.Tech Dairy Technology through the applicable university/ICAR route.",
+        "Use internships and in-plant training to develop operational competence before joining a dairy processor, cooperative, quality function or related supplier.",
+        "Consider postgraduate study for deeper specialization in dairy technology, engineering, chemistry, microbiology, food safety or management."
+      ],
+      "source_urls": [
+        "https://icar.org.in/sites/default/files/2026-06/SIXTH%20DEANS%20COMMITTEE%20VOL%202%20FINAL%207-3-2026.pdf",
+        "https://icar.org.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+        "https://www.ndri.res.in/b-tech-programme-dairy-technology-biotechnology-food-technology",
+        "https://www.ndri.res.in/academic-programme",
+        "https://www.icar.gov.in/sites/default/files/Circulars/Syllabus%20AIEEA%20%28PG%29.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "Technical capability combines knowledge of milk composition and quality assessment with unit operations and product manufacture: fluid milk processing; fat-rich, fermented, frozen, concentrated and dried dairy products; packaging; cleaning and sanitisation; and process control. ICAR’s dairy-technology syllabus also covers automatic process controls, HACCP concepts, sensory evaluation, dairy-equipment features and food-plant design.",
+        "Quality and regulatory capability is equally important. FSSAI requires food businesses to use an effective FSMS based on HACCP and prerequisite programmes, and provides milk-processing inspection matrices and dairy-product methods of analysis. A strong candidate therefore needs hygienic working habits, specification literacy, sampling/testing awareness, documentation discipline, root-cause thinking and the ability to work across production and QA teams."
+      ],
+      "bullets": [
+        "Milk chemistry, microbiology, raw-milk assessment and product testing.",
+        "Pasteurisation and other dairy-processing operations; product formulation and sensory evaluation.",
+        "HACCP/FSMS, GMP/GHP, sanitation, cleaning-in-place awareness and traceable documentation.",
+        "Packaging, cold-chain and storage controls; equipment and process-monitoring awareness.",
+        "Production planning, communication, teamwork and practical problem-solving in a regulated plant environment."
+      ],
+      "source_urls": [
+        "https://www.icar.gov.in/sites/default/files/Circulars/Syllabus%20AIEEA%20%28PG%29.pdf",
+        "https://fssai.gov.in/cms/hygiene-requirements.php",
+        "https://fssai.gov.in/cms/inspection-matrices.php",
+        "https://fssai.gov.in/cms/manuals-of-methods-of-analysis-for-various-food-products.php"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the work happens",
+      "paragraphs": [
+        "The principal workplace is a dairy processing establishment: milk reception and chilling areas, production lines, quality-control laboratories, packaging and cold-storage areas, warehouses, and dispatch operations. FSSAI’s milk-processing guidance addresses controls from receipt of milk and raw materials through processing, storage and testing, including internal or accredited-laboratory testing.",
+        "Work may be with dairy cooperatives, private dairy processors, commercial plants, product-manufacturing units, quality systems or technical support functions. The environment is operational and cross-functional: production, QA/QC, maintenance, procurement, packaging and logistics must coordinate to protect food safety and meet output requirements."
+      ],
+      "bullets": [
+        "Milk collection/reception, chilling and processing operations.",
+        "Manufacture and packaging of liquid milk and value-added dairy products.",
+        "Quality-control laboratories and food-safety/quality-assurance systems.",
+        "Maintenance, utilities, production planning, warehousing and dispatch interfaces."
+      ],
+      "source_urls": [
+        "https://ams.fssai.gov.in/doc/Milk_Processing.pdf",
+        "https://eoi.nddb.coop/jobs/TOR-SrManager-DairyPlantOperations.pdf",
+        "https://www.ndri.res.in/b-tech-programme-dairy-technology-biotechnology-food-technology"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "Progression is employer- and experience-dependent rather than governed by a single statutory ladder. A B.Tech graduate may begin in production, process operations, quality control/quality assurance, product manufacture or plant-support roles, then progress toward supervision of lines or shifts and broader responsibility for quality, planning, maintenance coordination and plant operations.",
+        "An NDDB-linked senior dairy-plant operations role illustrates the upper end of this pathway: it calls for substantial dairy-plant processing/manufacturing experience and assigns responsibility for plant functioning, production, quality controls, packaging, licences, product safety, regulatory compliance, SOPs, audits and coordination across departments. This supports a pathway from technical execution to plant or quality leadership as experience accumulates."
+      ],
+      "bullets": [
+        "Early career: production, process, QC/QA or product-manufacturing assignments.",
+        "Mid-career: shift, line, process-improvement, quality-system or plant-support supervision.",
+        "Senior career: plant operations, production management, quality leadership, technical services or business/operations leadership."
+      ],
+      "source_urls": [
+        "https://eoi.nddb.coop/jobs/TOR-SrManager-DairyPlantOperations.pdf",
+        "https://dairyknowledge.in/dkp/section/dairy-technology"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ICAR CUET (ICAR-UG) 2026 information bulletin",
+      "url": "https://www.icar.org.in/en/public-notice-and-information-bulletin-cuet-icar-ug-2026",
+      "kind": "admissions"
+    },
+    {
+      "label": "ICAR–NDRI B.Tech programme information",
+      "url": "https://www.ndri.res.in/b-tech-programme-dairy-technology-biotechnology-food-technology",
+      "kind": "programme"
+    },
+    {
+      "label": "FSSAI hygiene requirements for food businesses",
+      "url": "https://fssai.gov.in/cms/hygiene-requirements.php",
+      "kind": "regulation"
+    },
+    {
+      "label": "FSSAI dairy and dairy-products methods of analysis",
+      "url": "https://fssai.gov.in/cms/manuals-of-methods-of-analysis-for-various-food-products.php",
+      "kind": "technical_reference"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

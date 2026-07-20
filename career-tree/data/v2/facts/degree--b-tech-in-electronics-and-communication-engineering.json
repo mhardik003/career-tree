@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Standard duration",
+      "value": "AICTE’s 2024–2027 Approval Process Handbook lists undergraduate Engineering and Technology programmes as four years.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "Lateral-entry duration",
+      "value": "AICTE lists lateral entry to the second year of Engineering and Technology as a three-year route; eligible students join the third semester rather than the first year.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf"
+      ]
+    },
+    {
+      "label": "Direct-entry baseline",
+      "value": "For Engineering and Technology undergraduate admission, AICTE specifies 10+2 with eligible subjects and at least 45% in the listed subjects taken together (40% for reserved-category candidates); universities and entrance authorities can impose programme-specific rules.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "VITEEE route",
+      "value": "For VIT’s 2026 B.Tech admissions, Electronics and Communication Engineering is among the programmes offered. Indian nationals must take VITEEE; PCM/PCMB candidates seeking ECE need the Mathematics, Physics, Chemistry, English and Aptitude test combination and VIT’s stated qualifying-examination marks.",
+      "source_urls": [
+        "https://viteee.vit.ac.in/?gad_source=5"
+      ]
+    },
+    {
+      "label": "Curriculum reference point",
+      "value": "AICTE publishes a revised model curriculum specifically for Electronics and Communication Engineering. It includes, among other areas, semiconductor devices, circuit/device laboratories, programming and data structures, and Internet of Things; the adopted syllabus, credits and electives ultimately depend on the university or institute.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/Final_ECE.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "For the regular four-year route, AICTE’s national approval baseline for an undergraduate Engineering and Technology programme is a passed 10+2 examination with eligible subjects drawn from Physics, Mathematics, Chemistry, Computer Science, Electronics, Information Technology, Biology and other subjects specified in its handbook, plus at least 45% marks in those subjects taken together (40% for reserved-category candidates). This is a baseline rather than a promise of admission to a particular ECE programme: the affiliating university, institute and applicable entrance examination may set additional subject, score, domicile or category requirements.",
+        "For lateral entry, AICTE provides for admission to the second year. The stated routes include a three-year or two-year lateral-entry Diploma in Engineering and Technology with at least 45% marks (40% for reserved-category candidates), or a qualifying B.Sc. with Mathematics at 10+2, or a B.Voc/three-year D.Voc in the same or allied sector. Institutions may require bridge courses to address prior-study differences."
+      ],
+      "bullets": [
+        "For VITEEE 2026 specifically, candidates for ECE should use the Mathematics, Physics, Chemistry, English and Aptitude (MPCEA) combination; VIT states a minimum 60% aggregate in Mathematics, Physics and Chemistry and at least 50% in Mathematics for the general PCM/PCMB route, with stated relaxation for specified categories and regions.",
+        "Always confirm the current programme brochure before applying. Meeting minimum eligibility does not itself secure a seat."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://viteee.vit.ac.in/?gad_source=5"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study structure",
+      "paragraphs": [
+        "The standard B.Tech in Electronics and Communication Engineering is a four-year undergraduate Engineering and Technology degree. A recognised lateral-entry pathway starts in the second year (third semester) and is normally three years in duration. The degree is therefore typically completed in four academic years after 10+2, or three academic years after an eligible diploma or other accepted lateral-entry qualification."
+      ],
+      "bullets": [
+        "Regular entry: four years.",
+        "Lateral entry to second year: three years.",
+        "Academic calendars, examination rules, internships and any bridge coursework are institution-specific."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the ECE curriculum covers",
+      "paragraphs": [
+        "ECE combines electronic-hardware foundations with communications and computing. AICTE’s ECE model curriculum illustrates the expected technical breadth: electronic devices covers semiconductor physics, p–n junctions, diodes, bipolar transistors, MOS devices and integrated-circuit fabrication; it is paired with hands-on laboratory work. The same model curriculum also includes programming/data structures and Internet of Things, including signal processing, data transmission, wired/wireless channel choices and back-end data analysis.",
+        "This is a model curriculum, not a single compulsory semester plan for every college. Compare each target institute’s current scheme of study for its mathematics and science foundation, circuits and electronics sequence, signals and systems, communication-related courses, embedded/VLSI electives, laboratory requirements, project work and internship rules."
+      ],
+      "bullets": [
+        "Typical learning modes include theory courses, simulation/design work, electronics and communication laboratories, and major-project work.",
+        "Possible elective emphasis differs by institution—for example, embedded systems, VLSI, wireless communication, IoT, or related interdisciplinary areas."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/Final_ECE.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission routes: VITEEE and LEET",
+      "paragraphs": [
+        "VITEEE is an institution-group admission route, not a universal Indian entrance exam. For VIT’s 2026 B.Tech cycle, VITEEE is mandatory for Indian nationals seeking B.Tech admission; selection is based on VITEEE rank, followed by online counselling in which candidates choose campus, programme and fee category subject to rank and availability. VIT lists Electronics and Communication Engineering among its B.Tech offerings. Its published 2026 test format is a 2.5-hour computer-based test with Mathematics/Biology, Physics, Chemistry, Aptitude and English sections.",
+        "“LEET” is a lateral-entry label whose administering authority, exam and rules vary by state or institution. As a current official example, Haryana’s 2026 B.Tech lateral-entry process admits eligible candidates to the second year/third semester and uses the inter-se rank in HSTES’s OCET-2026 for admission. Its prospectus also notes that lateral-entry seats may be up to 10% of sanctioned intake, in line with AICTE guidance. Do not assume this procedure, name or timetable applies outside the relevant jurisdiction."
+      ],
+      "bullets": [
+        "VITEEE 2026 context: the VIT application page states that the exam is tentatively scheduled from April 28 to May 3, 2026; dates and application conditions are time-sensitive.",
+        "Haryana LEET/OCET 2026 context: verify the current HSTES prospectus, counselling portal, institute affiliation and branch-seat matrix before applying.",
+        "For any entrance route, final admission remains conditional on document verification and satisfaction of all published eligibility conditions."
+      ],
+      "source_urls": [
+        "https://viteee.vit.ac.in/?gad_source=5",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf",
+        "https://techadmissionshry.gov.in/default.aspx"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs: variable institutional context",
+      "paragraphs": [
+        "There is no single national tuition fee for B.Tech ECE. Fees vary substantially by institution type, campus, admission category, scholarship category, hostel choice and annual revisions. As a dated 2026–27 example rather than a market-wide estimate, VIT places B.Tech ECE in Group B at the listed campuses. Its published table shows annual tuition from INR 1,95,000 to INR 4,90,000 depending on scholarship/fee category, plus a one-time refundable INR 5,000 caution deposit; the listed Bhopal Group B annual tuition starts at INR 1,98,000. These figures should be checked against the current campus-specific fee notice and do not include all possible living, travel, examination or personal costs."
+      ],
+      "bullets": [
+        "Request the complete official fee schedule before paying: tuition, refundable deposits, hostel and mess charges, insurance, examination charges and any one-time charges may be separate.",
+        "Treat scholarships, category allocations and counselling payment deadlines as time-sensitive conditions set by the admitting institution."
+      ],
+      "source_urls": [
+        "https://vit.ac.in/admission/ug/fee-structure"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After the degree",
+      "paragraphs": [
+        "Graduates can pursue employment, postgraduate study, research, or entrepreneurship according to their skills and the employer or institution’s separate requirements. A common postgraduate examination route is GATE: the official GATE 2026 eligibility page permits students in the third year or later of an undergraduate programme, as well as graduates of government-approved Engineering and Technology degrees, to appear. It identifies the B.E./B.Tech qualification as a four-year programme after 10+2 or a three-year programme after B.Sc./Diploma. However, qualifying GATE does not guarantee admission, financial assistance or a job; the admitting institution or employer sets its own conditions.",
+        "As one institution-specific illustration of postgraduate options relevant to ECE, VIT’s 2026 M.Tech offerings include Embedded Systems and VLSI Design, and it publishes eligibility and selection criteria separately. Candidates should compare each M.Tech, M.S., MBA, research or recruitment programme’s accepted undergraduate disciplines, score requirements and dates rather than assuming that an ECE degree automatically satisfies all programme-specific rules."
+      ],
+      "bullets": [
+        "Possible technical directions include electronics design, embedded systems, communications, semiconductor/VLSI-related study, testing and systems work; exact job titles and hiring criteria are employer-specific.",
+        "For postgraduate admissions, check the destination programme’s branch eligibility in addition to GATE eligibility."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://admissions.vit.ac.in/vitmee-m-tech-2026-applications/login"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AICTE Approval Process Handbook 2024–2027",
+      "url": "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+      "kind": "regulator"
+    },
+    {
+      "label": "AICTE ECE Revised Model Curriculum",
+      "url": "https://aicte-qa.aicte-india.org/sites/default/files/Final_ECE.pdf",
+      "kind": "regulator"
+    },
+    {
+      "label": "VITEEE 2026 admissions and eligibility",
+      "url": "https://viteee.vit.ac.in/?gad_source=5",
+      "kind": "entrance_exam"
+    },
+    {
+      "label": "HSTES B.Tech Lateral Entry Prospectus 2026",
+      "url": "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf",
+      "kind": "entrance_exam"
+    },
+    {
+      "label": "GATE 2026 eligibility criteria",
+      "url": "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+      "kind": "entrance_exam"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Practice eligibility",
+      "value": "An independent Ayurvedic clinic must be led by a practitioner whose name is enrolled in the applicable State Register or National Register; the NCISM Act otherwise bars a person from practising Indian System of Medicine as a qualified practitioner.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_51_0_00003_202014_1602498622060&orderno=34"
+      ]
+    },
+    {
+      "label": "Core educational route",
+      "value": "The BAMS route includes four-and-a-half years of teaching and training followed by a compulsory one-year internship under the NCISM undergraduate Ayurveda framework.",
+      "source_urls": [
+        "https://ncismindia.org/Guidelines%20for%20promotion%20and%20maintenance%20of%20Standards%20of%20Academic%20Collaboration%20between%20India%20and%20Foreign%20Educational%20institutions%20Universities%20Imparting%20Graduate%20Programs%20in%20Indian%20System%20of%20Medicine.pdf",
+        "https://ncismindia.org/under-ncism-act-2020.php"
+      ]
+    },
+    {
+      "label": "Professional visibility and records",
+      "value": "NCISM ethics regulations require practitioners to display their registration certificate in the clinic and their registration number on prescriptions, certificates and money receipts; they also set requirements for maintaining and safeguarding patient records.",
+      "source_urls": [
+        "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf"
+      ]
+    },
+    {
+      "label": "Facility registration is location-dependent",
+      "value": "The central Clinical Establishments Act applies initially in specified States and Union territories and may apply in other States when adopted. A founder must therefore confirm the clinic-registration regime, if any, with the relevant State or UT authority before opening.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?abv=UP&actid=AC_CEN_12_13_00022_201023_1517807327396&orderno=1&orgactid=AC_UP_88_482_000010_000010_1652355428864&statehandle=123456789%2F2510",
+        "https://www.indiacode.nic.in/indiacode/handle/123456789/2048?view_type=browse"
+      ]
+    },
+    {
+      "label": "Biomedical-waste responsibility",
+      "value": "A clinic is a healthcare facility for biomedical-waste purposes irrespective of its system of medicine. CPCB guidance states that non-bedded facilities require one-time authorisation from the relevant State Pollution Control Board or Pollution Control Committee, subject to the applicable rules and local implementation.",
+      "source_urls": [
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Route from BAMS graduate to clinic founder",
+      "paragraphs": [
+        "The practical entry sequence is: complete the recognised BAMS programme and compulsory rotatory internship; obtain enrolment with the relevant State Medical Council for Indian System of Medicine or, where applicable, the National Register; then establish the practice only within the rights and conditions attached to that registration. Section 34 of the NCISM Act makes State- or National-Register enrolment the threshold for practising Indian System of Medicine as a qualified practitioner.",
+        "The founder should retain evidence of the recognised qualification, completed internship and current registration before advertising or seeing patients. The NCISM ethics regulations define a practitioner as a registered medical practitioner of Ayurveda, Unani, Siddha or Sowa-Rigpa on the State or National Register, and require the registration certificate and registration number to be displayed and used in clinic documentation."
+      ],
+      "bullets": [
+        "Complete BAMS and the compulsory internship.",
+        "Apply for practitioner registration through the relevant State Medical Council or other applicable NCISM registration route.",
+        "Confirm that the proposed location permits the intended clinical establishment and services under the applicable State or UT regime.",
+        "Set up prescriptions, receipts, patient records and signage so that registration particulars are consistently shown."
+      ],
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_51_0_00003_202014_1602498622060&orderno=34",
+        "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf",
+        "https://ncismindia.org/under-ncism-act-2020.php"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities needed to run a safe independent practice",
+      "paragraphs": [
+        "Clinical preparation is only one component of entrepreneurship. NCISM’s internship orientation material describes the internship phase as developing clinical competencies, communication skills and professional attitudes for practice. For a clinic owner, these capabilities need to be combined with appointment management, clear patient communication, documentation, referral judgment and supervision of any support staff.",
+        "Professional capability also includes recognising limits. The ethics regulations permit referral when an ailment is outside the practitioner’s training or experience, or when required facilities or infrastructure are unavailable. A clinic should therefore maintain practical referral relationships and an escalation process rather than attempting to manage every presentation in-house."
+      ],
+      "bullets": [
+        "Clinical assessment, treatment planning and patient counselling within Ayurveda practice.",
+        "Communication that explains the plan, follow-up expectations and when urgent or specialist care is needed.",
+        "Accurate prescriptions, receipts, certificates and protected patient records.",
+        "Referral and emergency-escalation judgment where the case, competence or available facility calls for it.",
+        "Basic operations: scheduling, payments, staff induction and service-quality monitoring."
+      ],
+      "source_urls": [
+        "https://ncismindia.org/assets/pdf/SHISHIKSHA%20%28INTERSHIP%20ORIENTATION%20PROGRAM%29.pdf",
+        "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "A defensible clinic operating model",
+      "paragraphs": [
+        "A lean independent clinic can be organised around consultation appointments, clinical assessment, documented advice or prescriptions, planned review visits and referral when needed. This is an operating-model recommendation rather than a nationally prescribed business format; it is grounded in the ethical duties to counsel patients, avoid neglect after undertaking a case, refer where the condition or facility is beyond the practitioner’s capability, and provide information professionally.",
+        "Build the administrative workflow around traceable clinical documentation. NCISM regulations require records for indoor and outdoor patients to be maintained for three years from treatment commencement, or handed over after outpatient consultation; they also require care to keep records private. The regulations require registration information on prescriptions, certificates and receipts, and provide that fees and charges be displayed in the chamber or hospital waiting/consulting context.",
+        "If medicines are dispensed by the practitioner, the prescription should make that fact clear. Expansion into manufacturing Ayurvedic, Siddha or Unani drugs for sale is a separate regulated activity under the Drugs and Cosmetics Act, with a narrow statutory exception for Vaidyas and Hakims manufacturing for their own patients’ use; obtain State drug-control advice before adding a compounding or manufacturing line."
+      ],
+      "bullets": [
+        "Patient intake: identity and contact details, presenting concern, history and examination record.",
+        "Consultation: diagnosis or assessment, treatment plan, counselling, warning signs and follow-up date.",
+        "Documentation: numbered prescription, itemised receipt, protected record storage and a process for responding to patient record requests.",
+        "Continuity and safety: referral directory, emergency contact protocol and a documented handover process.",
+        "Dispensing or product activity: keep clinical prescribing separate from any manufacturing or retail compliance assessment."
+      ],
+      "source_urls": [
+        "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00023_194023_1523353460112&orderno=64",
+        "https://www.indiacode.nic.in/handle/123456789/12823?locale=en"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance checklist before and during operations",
+      "paragraphs": [
+        "First, maintain valid practitioner registration and use the clinic’s public-facing materials carefully. The NCISM ethics regulations govern professional conduct and require the practitioner’s registration certificate to be displayed in the clinic, registration particulars on prescriptions, certificates and receipts, and recognised credentials only as name suffixes. They also make continuing professional development material to registration renewal: the regulations specify at least 50 CME credit points in the five years preceding each renewal, while the detailed renewal process is left to State Medical Councils.",
+        "Second, determine the establishment-level permissions for the exact address and service mix. The central Clinical Establishments Act is not uniformly applicable across every State: it applies initially to Arunachal Pradesh, Himachal Pradesh, Mizoram, Sikkim and Union territories, and may apply in other States after adoption. State and local requirements may therefore control registration, premises, staffing, local trade permissions and safety conditions for a specific clinic.",
+        "Third, establish biomedical-waste controls before generating clinical waste. CPCB guidance treats clinics as healthcare facilities irrespective of medical system; assigns responsibility to the person with administrative control; requires segregation, handling, storage and disposal arrangements; and states that a non-bedded healthcare facility requires one-time authorisation from its SPCB/PCC. Where a common biomedical-waste treatment facility is accessible, the clinic should have a valid arrangement with it.",
+        "Finally, protect clinical records and build an ethical patient-service process. The ethics regulations require records to be kept private, require records requested within three years to be provided within seven days, require clear display of fees and other charges, and support referral where the case falls outside training, experience or available infrastructure."
+      ],
+      "bullets": [
+        "Verify current State Medical Council registration and its renewal/CME rules.",
+        "Check whether the Clinical Establishments Act or a State-specific clinical-establishment law applies at the clinic location.",
+        "Obtain applicable biomedical-waste authorisation and execute a waste-collection arrangement before operations.",
+        "Display registration certificate and use registration number on prescriptions, certificates and receipts.",
+        "Maintain secure records, a record-release procedure and clear fee disclosures.",
+        "Seek jurisdiction-specific professional, drug-control and premises advice before manufacturing, branding or selling clinic-made medicines."
+      ],
+      "source_urls": [
+        "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf",
+        "https://www.indiacode.nic.in/show-data?abv=UP&actid=AC_CEN_12_13_00022_201023_1517807327396&orderno=1&orgactid=AC_UP_88_482_000010_000010_1652355428864&statehandle=123456789%2F2510",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00023_194023_1523353460112&orderno=64"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Responsible growth paths",
+      "paragraphs": [
+        "A clinic can grow through deeper capability rather than simply higher patient volume: structured CME, hands-on training, workshops, conferences, fellowships and other authentic accredited programmes are expressly recognised in the NCISM ethics framework as ways for practitioners to update knowledge and skills. The same regulations connect CME credits to registration renewal, making ongoing development both a clinical-quality and professional-maintenance priority.",
+        "Operationally, a founder can add capacity by formalising referral networks, using protected digital record systems, training staff in biomedical-waste handling and standardising follow-up processes. Growth into higher-risk or additional service lines should be preceded by a fresh assessment of practitioner competence, infrastructure, local clinical-establishment rules and any medicine-manufacturing or waste-management obligations."
+      ],
+      "bullets": [
+        "Maintain CME and skills development relevant to the clinic’s actual services.",
+        "Develop documented referral partnerships for cases needing different expertise or infrastructure.",
+        "Standardise recordkeeping, follow-up and quality review before adding practitioners or locations.",
+        "Reassess regulatory approvals when adding beds, procedures, employees, dispensing, manufacturing or additional premises."
+      ],
+      "source_urls": [
+        "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+        "https://www.indiacode.nic.in/handle/123456789/12823?locale=en"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCISM Act, 2020 — practitioner registration and right to practise",
+      "url": "https://www.indiacode.nic.in/handle/123456789/15622?locale=en",
+      "kind": "law"
+    },
+    {
+      "label": "NCISM Ethics and Registration Regulations, 2023",
+      "url": "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "NCISM undergraduate Ayurveda regulations index",
+      "url": "https://ncismindia.org/under-ncism-act-2020.php",
+      "kind": "regulator"
+    },
+    {
+      "label": "Clinical Establishments (Registration and Regulation) Act, 2010",
+      "url": "https://www.indiacode.nic.in/indiacode/handle/123456789/2048?view_type=browse",
+      "kind": "law"
+    },
+    {
+      "label": "CPCB biomedical-waste guidance for healthcare facilities",
+      "url": "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+      "kind": "guidance"
+    },
+    {
+      "label": "Drugs and Cosmetics Act, 1940",
+      "url": "https://www.indiacode.nic.in/handle/123456789/12823?locale=en",
+      "kind": "law"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

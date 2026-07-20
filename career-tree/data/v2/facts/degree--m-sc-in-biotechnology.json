@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Named IIT offerings in the 2026 JAM matrix",
+      "value": "For the 2026 admission cycle, the JAM Biotechnology (BT) matrix lists M.Sc. in Biotechnology at IIT Bombay (35 total seats) and IIT Indore (15 total seats). Seat matrices and programme availability can change by cycle.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "label": "Duration",
+      "value": "At IIT Bombay, M.Sc. programmes are two-year programmes spread over four semesters; the Biotechnology M.Sc. curriculum is structured across four semesters.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/msc",
+        "https://www.bio.iitb.ac.in/academics/msc-program/"
+      ]
+    },
+    {
+      "label": "2026 entry eligibility at IIT Bombay and IIT Indore",
+      "value": "The JAM 2026 matrix states “Any Branch/Subject” as the bachelor’s-level essential-subject requirement for the named M.Sc. in Biotechnology programmes at IIT Bombay and IIT Indore. The admitting institute performs final eligibility verification.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "label": "Primary admission route",
+      "value": "For Indian-national admissions at IIT Bombay, M.Sc. Biotechnology admission is through JAM; JAM 2026 admissions are considered using All India Rank, subject to eligibility and institute requirements.",
+      "source_urls": [
+        "https://www.bio.iitb.ac.in/academics/msc-program/",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "label": "Illustrative academic fee context",
+      "value": "For IIT Bombay’s 2026 Autumn intake, the published first-semester academic-fee total is ₹42,400 for GEN/EWS/OBC-NCL and ₹34,150 for SC/ST/PwD students. This includes one-time admission charges and refundable deposits, excludes hostel charges, and is subject to revision.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/Schedule_for_payment_of_Academic_Fees_for_MSC_and_%20MSCandPh.D._2026-27.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: programme-specific, with broad bachelor’s access at the listed IITs",
+      "paragraphs": [
+        "For the 2026 JAM cycle, the named M.Sc. in Biotechnology programmes at IIT Bombay and IIT Indore specify “Any Branch/Subject” in the bachelor’s degree as their minimum educational qualification. This means a B.Tech in Biotechnology is an eligible background, but it is not the only listed academic background for these two programmes.",
+        "Final eligibility is not determined by the JAM organising institute alone: the admitting IIT verifies the Eligibility Requirements and Minimum Educational Qualifications. Applicants should therefore re-check the current cycle’s brochure and the institute’s own admission notice before applying, because the JAM brochure explicitly says that the MEQs and seat matrix are subject to change."
+      ],
+      "bullets": [
+        "For IIT Bombay and IIT Indore in the JAM 2026 matrix: bachelor’s degree in any branch/subject.",
+        "A qualifying JAM result alone does not guarantee admission; the candidate must meet the applicable requirements and be verified by the admitting institute.",
+        "Eligibility should not be generalised to every biotechnology-, bioscience-, or life-science-titled master’s programme, because programme names and subject requirements differ by institute."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and academic structure",
+      "paragraphs": [
+        "The M.Sc. in Biotechnology is commonly structured as a two-year, four-semester postgraduate programme at IIT Bombay. IIT Bombay describes its M.Sc. programmes as core and elective coursework across four semesters, often including a research-project component.",
+        "The IIT Bombay Biosciences and Bioengineering M.Sc. page describes the Biotechnology programme as a four-semester course. Its 2026-batch curriculum assigns 30 credits in Semester I and 40 credits of intensive laboratory work in Semester II, followed by project and/or elective pathways in Semesters III and IV."
+      ],
+      "bullets": [
+        "Typical duration at IIT Bombay: 2 years / 4 semesters.",
+        "Later semesters can be organised around academic or industry projects and advanced electives.",
+        "Exact credit requirements, assessment, and project rules are institute- and cohort-specific."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/msc",
+        "https://www.bio.iitb.ac.in/academics/msc-program/",
+        "https://www.bio.iitb.ac.in/academics/msc-program/msc-course-curriculum-2026-batch-onwards/"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum: molecular biosciences, quantitative tools, laboratories, and research",
+      "paragraphs": [
+        "IIT Bombay’s 2026-batch M.Sc. Biotechnology curriculum illustrates the academic emphasis: Semester I includes Cell and Molecular Biology, Microbiology, Biochemistry and Analytical Biochemistry, Mathematics and Statistics, and Molecular Immunology. Semester II is laboratory-intensive, including Bioinformatics and Programming for Biologists and an integrated laboratory covering biochemistry, microbiology, genetic engineering, and biophysics.",
+        "In the final year, students may take a two-semester academic or industry project, combine electives with an industry project, or take electives in both semesters. Listed advanced options include molecular biology, molecular diagnostics, programming for bioinformatics, plant/animal/environmental biotechnology, bionanotechnology, proteomics, drug discovery, and drug delivery. This is an IIT Bombay example rather than a universal curriculum for every institution."
+      ],
+      "bullets": [
+        "Core foundations: cell and molecular biology, microbiology, biochemistry, immunology, and quantitative methods.",
+        "Technical preparation: bioinformatics, programming for biologists, integrated wet-lab work, and analytical/biophysical methods.",
+        "Advanced study: electives and substantial academic or industry project options in the later semesters."
+      ],
+      "source_urls": [
+        "https://www.bio.iitb.ac.in/academics/msc-program/",
+        "https://www.bio.iitb.ac.in/academics/msc-program/msc-course-curriculum-2026-batch-onwards/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission through IIT JAM, with institute-level confirmation",
+      "paragraphs": [
+        "For the 2026 cycle, IIT Bombay’s Academic Office states that its M.Sc. admissions are based on a JAM score followed by counselling. The JAM 2026 admission brochure places the named M.Sc. in Biotechnology programmes at IIT Bombay and IIT Indore under the Biotechnology (BT) paper’s programme matrix.",
+        "Candidates satisfying the relevant eligibility requirements and programme-specific qualifications are considered on the basis of JAM All India Rank. JAM 2026 states that admissions are made from the JAM merit list without additional written tests or interviews unless an admitting institute explicitly states otherwise. For 2026, the listed intake is 35 total seats at IIT Bombay and 15 at IIT Indore; these figures are cycle-specific rather than permanent capacity.",
+        "The phrase “M.Sc. in Biotechnology” should not be assumed to be a uniform offering across the NIT system. For example, NIT Rourkela says that its M.Sc. admissions use CCMN based on IIT-JAM scores and directs candidates to the CCMN brochure for programme-wise eligibility; applicants should check whether the relevant NIT actually offers the named specialisation in that year."
+      ],
+      "bullets": [
+        "Take the JAM Biotechnology (BT) paper when targeting the named IIT Bombay or IIT Indore programmes in the 2026 matrix.",
+        "Apply and participate in the applicable centralised admission/counselling process after receiving a qualifying rank.",
+        "Treat programme availability, seat count, eligibility, and admission dates as annual-cycle information."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://acad.iitb.ac.in/admissions/masters/msc",
+        "https://www.nitrkl.ac.in/Academic/PGProgramme/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs: use published institute schedules, not a single nationwide estimate",
+      "paragraphs": [
+        "Costs vary substantially by institute, category, semester, hostel arrangement, and revision year. As a dated official example, IIT Bombay’s schedule for new entrants to the 2026–27 Autumn Semester lists total academic fees of ₹42,400 for GEN/EWS/OBC-NCL students and ₹34,150 for SC/ST/PwD students. The totals include ₹16,000 in one-time admission charges and ₹10,000 in refundable security deposits.",
+        "The same IIT Bombay schedule lists per-semester charges of ₹16,400 for GEN/EWS/OBC-NCL and ₹8,150 for SC/ST/PwD in the first semester, and separately directs students to the hostel coordination unit for hostel-fee matters. It also says IIT Bombay may revise fees in subsequent semesters, so this is useful only as 2026-entry context, not as a guaranteed full-programme cost."
+      ],
+      "bullets": [
+        "IIT Bombay, Autumn 2026 first-semester academic total: ₹42,400 (GEN/EWS/OBC-NCL); ₹34,150 (SC/ST/PwD).",
+        "Published figure excludes hostel charges.",
+        "SC/ST/PwD students are exempt from tuition fees in this IIT Bombay schedule, though other listed academic charges remain."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/Schedule_for_payment_of_Academic_Fees_for_MSC_and_%20MSCandPh.D._2026-27.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options: research projects, industry exposure, and a possible doctoral pathway",
+      "paragraphs": [
+        "At IIT Bombay, later-semester pathways can include an internal academic project, an external academic project, or an industry project; students may also combine electives with an industry project. These routes can help a student build evidence of laboratory, computational, research, or applied-development work, but they do not constitute a placement guarantee.",
+        "IIT Bombay also publishes an internal progression option: students in M.Sc. Biotechnology with a CGPA of at least 8.5 after three semesters may convert to the M.Sc.-Ph.D. programme, subject to the institute’s stated rules. The M.Sc. degree is awarded after four semesters upon completion of master’s requirements, including for students who convert."
+      ],
+      "bullets": [
+        "Academic or industry project work in Semesters III–IV at IIT Bombay.",
+        "Advanced electives in areas such as bioinformatics, diagnostics, biotechnology, proteomics, and drug discovery at IIT Bombay.",
+        "Potential M.Sc.-to-Ph.D. conversion at IIT Bombay for students meeting the published CGPA threshold; policies may change."
+      ],
+      "source_urls": [
+        "https://www.bio.iitb.ac.in/academics/msc-program/msc-course-curriculum-2026-batch-onwards/",
+        "https://jam.iitb.ac.in/about.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "JAM 2026 official admission brochure",
+      "url": "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+      "kind": "admission_brochure"
+    },
+    {
+      "label": "IIT Bombay M.Sc. and M.Sc.+Ph.D. admissions, 2026–27",
+      "url": "https://acad.iitb.ac.in/admissions/masters/msc",
+      "kind": "university_admission_page"
+    },
+    {
+      "label": "IIT Bombay M.Sc. Biotechnology programme",
+      "url": "https://www.bio.iitb.ac.in/academics/msc-program/",
+      "kind": "department_programme_page"
+    },
+    {
+      "label": "IIT Bombay Biotechnology M.Sc. curriculum for 2026 batch onward",
+      "url": "https://www.bio.iitb.ac.in/academics/msc-program/msc-course-curriculum-2026-batch-onwards/",
+      "kind": "curriculum"
+    },
+    {
+      "label": "IIT Bombay 2026–27 M.Sc. fee schedule",
+      "url": "https://acad.iitb.ac.in/sites/default/files/Schedule_for_payment_of_Academic_Fees_for_MSC_and_%20MSCandPh.D._2026-27.pdf",
+      "kind": "fee_schedule"
+    },
+    {
+      "label": "NIT Rourkela postgraduate admissions information",
+      "url": "https://www.nitrkl.ac.in/Academic/PGProgramme/",
+      "kind": "nits_admission_context"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

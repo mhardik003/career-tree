@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Professional regulation",
+      "value": "Pharmacy education and the profession in India are regulated by the Pharmacy Council of India (PCI), a statutory body under the Ministry of Health & Family Welfare operating under the Pharmacy Act, 1948.",
+      "source_urls": [
+        "https://pci.gov.in/en/about-us/",
+        "https://www.pci.gov.in/en/pharmacy-act-1948/"
+      ]
+    },
+    {
+      "label": "B.Pharm route",
+      "value": "PCI’s B.Pharm regulations prescribe a four-academic-year full-time programme after eligible 10+2 study; entry requires English plus Physics, Chemistry, and Mathematics and/or Biology. The regulations also require 150 hours of practical training in pharmacy practice or pharmaceutical/allied industry after the second year.",
+      "source_urls": [
+        "https://pci.nic.in/pdf/B.Pharm%20Regulations.pdf",
+        "https://pci.nic.in/pdf/Syllabus_B_Pharm.pdf"
+      ]
+    },
+    {
+      "label": "Registration",
+      "value": "A “registered pharmacist” is a person whose name is entered in the relevant State register. State Pharmacy Councils administer registration; requirements and procedures can differ by State.",
+      "source_urls": [
+        "https://www.pci.gov.in/en/pharmacy-act-1948/",
+        "https://pharmacy.delhi.gov.in/en/pharmacy/registration"
+      ]
+    },
+    {
+      "label": "Core scope",
+      "value": "Under PCI’s clarification on the Pharmacy Practice Regulations, 2015, a registered pharmacist dispenses medicines on a Registered Medical Practitioner’s prescription and may counsel patients or caregivers to optimize drug therapy; the pharmacist is not empowered to practise medicine or operate a clinic to provide medical care.",
+      "source_urls": [
+        "https://www.pci.nic.in/pdf/38.pdf"
+      ]
+    },
+    {
+      "label": "Higher study",
+      "value": "PCI lists M.Pharm as a two-year course after B.Pharm. The M.Pharm regulations specify a PCI-approved B.Pharm qualification, at least 55% aggregate marks, and State Pharmacy Council registration obtained by admission or within one month.",
+      "source_urls": [
+        "https://pci.nic.in/FaQs.html",
+        "https://www.pci.nic.in/pdf/Syllabus_M_Pharm.pdf"
+      ]
+    },
+    {
+      "label": "Public-sector pay example",
+      "value": "Pay is employer-, State/UT-, post-, and notification-specific. As a dated central-government example, 2025 recruitment rules for one Pharmacist post specified Pay Level 5 (₹29,200–₹92,300), alongside approved pharmacy qualification and State Pharmacy Council registration requirements; this is not a nationwide salary benchmark.",
+      "source_urls": [
+        "https://egazette.gov.in/WriteReadData/2025/265888.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a pharmacist does",
+      "paragraphs": [
+        "The central patient-facing responsibility is safe dispensing against a prescription issued by a Registered Medical Practitioner, accompanied where appropriate by medicine counselling. PCI identifies counselling topics such as the medicine’s name and description, dosage form, route and timing, storage, refill information, what to do after a missed dose, and rational use of medicines.",
+        "In hospital and community practice, the role also draws on drug-information, drug-distribution, therapeutic-monitoring, adverse-drug-reaction, and pharmaceutical-care skills. The precise duties depend on the employer and setting. For example, a government ART-centre pharmacist role includes dispensing specified medicines, adherence counselling, pill counts, and reporting significant toxicities or adverse effects under medical supervision."
+      ],
+      "bullets": [
+        "Dispense prescribed medicines accurately and explain their use within the pharmacist’s lawful scope.",
+        "Counsel patients and caregivers on safe, rational medicine use and adherence.",
+        "Identify or document medicine-related issues and adverse effects according to workplace procedures; escalate clinically significant concerns to the responsible clinician.",
+        "Maintain dispensing, inventory, and drug-information processes required by the setting.",
+        "Do not diagnose, prescribe independently, or provide medical care through a clinic merely by virtue of pharmacist registration."
+      ],
+      "source_urls": [
+        "https://www.pci.nic.in/pdf/38.pdf",
+        "https://pci.nic.in/pdf/Syllabus_B_Pharm.pdf",
+        "https://goasacs.goa.gov.in/wp-content/uploads/2025/02/TOR-NACP-V-21-02-2023.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Route from B.Pharm to pharmacist practice",
+      "paragraphs": [
+        "For the B.Pharm-led route represented by this node, complete B.Pharm from a PCI-approved institution. PCI’s 2014 regulations describe B.Pharm as a four-year full-time programme; the revised syllabus regulations describe eight semesters. Admission normally follows eligible 10+2 study with English and Physics, Chemistry, and Mathematics and/or Biology.",
+        "After completing the approved qualification, apply for registration with the applicable State Pharmacy Council. The Pharmacy Act defines a registered pharmacist by entry in the State register, and the Delhi Pharmacy Council’s current registration guidance illustrates the usual evidence requested: pharmacy degree/diploma records, academic records, identity/address documents, and original-document verification where required.",
+        "B.Pharm is not the only qualification route recognized in specific recruitment rules: some employers also accept D.Pharm or Pharm.D with State Pharmacy Council registration. Candidates should read the exact recruitment notification and the relevant State Council process rather than assume a qualification is automatically sufficient for every post."
+      ],
+      "bullets": [
+        "Choose a PCI-approved B.Pharm institution and verify its current approval status before enrolling.",
+        "Meet the institution’s and applicable admission authority’s current admission requirements.",
+        "Complete the degree and its required practical training.",
+        "Register with the State Pharmacy Council for the State in which you reside or practise, following that Council’s current rules.",
+        "Check each employer’s notification for its qualification, registration, experience, language, age, and document requirements."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/pdf/B.Pharm%20Regulations.pdf",
+        "https://www.pci.gov.in/en/pharmacy-act-1948/",
+        "https://pharmacy.delhi.gov.in/en/pharmacy/registration",
+        "https://egazette.gov.in/WriteReadData/2025/265888.pdf",
+        "https://pci.nic.in/approved_degree_institutes_us__12.html"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build during B.Pharm",
+      "paragraphs": [
+        "The PCI B.Pharm syllabus supports a blend of pharmaceutical knowledge, patient-safety judgement, and communication. Its Pharmacy Practice curriculum covers dispensing, drug information, therapeutic drug monitoring, identification of drug-related problems, adverse-drug-reaction assessment, selected laboratory-result interpretation, pharmaceutical care, patient counselling, and rational drug therapy.",
+        "Communication is an explicit part of the curriculum: the syllabus expects pharmacy students to communicate effectively with doctors, nurses, dentists, physiotherapists, and other health workers, and includes verbal/non-verbal communication, teamwork, and leadership foundations. Familiarity with digital pharmacy workflows is also relevant: the syllabus references electronic prescribing/discharge systems, barcode medicine identification, automated dispensing, and medicine-information systems."
+      ],
+      "bullets": [
+        "Accurate dispensing, medicine-information retrieval, and careful documentation.",
+        "Patient counselling, active listening, and clear communication in locally appropriate language(s).",
+        "Knowledge of pharmacology, pharmaceutics, dosage forms, storage, and rational medicine use.",
+        "Adverse-effect awareness and escalation through the employer’s clinical and pharmacovigilance processes.",
+        "Teamwork with prescribers, nurses, and other health professionals.",
+        "Comfort with pharmacy information systems and electronic dispensing/prescribing workflows."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/pdf/Syllabus_B_Pharm.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where pharmacists work",
+      "paragraphs": [
+        "B.Pharm practical training may be completed in pharmacy practice in hospital or community pharmacy, or in pharmaceutical and allied industries. This reflects the breadth of settings connected to pharmacy education, although a specific employer may impose additional requirements.",
+        "Patient-facing pharmacist roles commonly operate in community pharmacies and hospital pharmacies. Government health programmes also employ pharmacists in facility-based services; for example, the cited ART-centre role combines dispensing, adherence counselling, pill counts, and adverse-effect reporting under the guidance and supervision of a medical officer."
+      ],
+      "bullets": [
+        "Community/retail pharmacy dispensing settings.",
+        "Hospital pharmacy and clinical-support settings.",
+        "Government and public-health programme facilities, subject to the specific post’s eligibility rules.",
+        "Pharmaceutical and allied-industry settings, particularly for non-dispensing career moves after B.Pharm."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/pdf/B.Pharm%20Regulations.pdf",
+        "https://pci.nic.in/pdf/Syllabus_B_Pharm.pdf",
+        "https://goasacs.goa.gov.in/wp-content/uploads/2025/02/TOR-NACP-V-21-02-2023.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression after pharmacist practice",
+      "paragraphs": [
+        "A pharmacist with B.Pharm can progress through advanced study, specialised practice, quality/regulatory work, clinical research, pharmacovigilance, product-facing roles, management, or entrepreneurship. These are career directions rather than automatic promotions; employers determine their own hiring criteria, and PCI expressly notes that recruitment is handled by the relevant central/state government or private organisation.",
+        "M.Pharm is the principal PCI-regulated postgraduate progression. PCI’s regulations set it as a two-year programme and require an approved B.Pharm qualification, minimum aggregate marks, and State Pharmacy Council registration. GPAT is presented by NTA as a national-level entrance examination for M.Pharm admissions, but candidates should verify the active year’s bulletin and administering authority before applying: PCI’s FAQ states that PCI was working on conducting it from a subsequent year."
+      ],
+      "bullets": [
+        "M.Pharm specialisation for postgraduate study and technical/research-oriented opportunities.",
+        "GPAT preparation where required or accepted by the institution and the current examination authority.",
+        "Industry and regulatory pathways such as quality control, regulatory affairs, pharmacovigilance, clinical research, and pharmaceutical product management.",
+        "Business pathway through pharmacy entrepreneurship, subject to applicable drug-licensing, business, and State-level requirements.",
+        "Public-sector progression through post-specific recruitment and service rules, not through a single national pharmacist promotion ladder."
+      ],
+      "source_urls": [
+        "https://www.pci.nic.in/pdf/Syllabus_M_Pharm.pdf",
+        "https://nta.ac.in/Pharmacyexam",
+        "https://www.pci.gov.in/en/faqs/"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "There is no single India-wide pharmacist salary. Compensation varies materially by employer type, location, seniority, shift/clinical responsibilities, contract versus regular appointment, and the recruitment rules or collective/service framework applicable to the post. PCI notes that recruitment for pharmacist positions is conducted by the concerned central/state government or private organisation.",
+        "For a dated public-sector reference point only, 2025 central-government rules for a specified Pharmacist post listed Pay Level 5, ₹29,200–₹92,300. This figure should not be treated as an offer, a take-home amount, or a standard for State government, hospital, retail, or private-sector roles; candidates should use the live vacancy notification for the exact pay level, allowances, probation, and eligibility terms."
+      ],
+      "bullets": [
+        "Compare compensation only using the specific employer’s current notification or written offer.",
+        "Separate basic pay from allowances, deductions, contractual terms, and shift-related payments.",
+        "Treat online salary averages as non-authoritative context unless corroborated by the employer’s current posting."
+      ],
+      "source_urls": [
+        "https://www.pci.gov.in/en/faqs/",
+        "https://egazette.gov.in/WriteReadData/2025/265888.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Pharmacy Council of India — Pharmacy Act, 1948",
+      "url": "https://www.pci.gov.in/en/pharmacy-act-1948/",
+      "kind": "regulator"
+    },
+    {
+      "label": "PCI — B.Pharm Rules and Syllabus",
+      "url": "https://pci.nic.in/pdf/Syllabus_B_Pharm.pdf",
+      "kind": "regulation_and_curriculum"
+    },
+    {
+      "label": "PCI — approved degree institutions under section 12",
+      "url": "https://pci.nic.in/approved_degree_institutes_us__12.html",
+      "kind": "institution_approval"
+    },
+    {
+      "label": "Delhi Pharmacy Council — registration guidance",
+      "url": "https://pharmacy.delhi.gov.in/en/pharmacy/registration",
+      "kind": "state_registration"
+    },
+    {
+      "label": "National Testing Agency — GPAT information",
+      "url": "https://nta.ac.in/Pharmacyexam",
+      "kind": "examination"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

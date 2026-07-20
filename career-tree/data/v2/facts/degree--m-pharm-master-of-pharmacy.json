@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "M.Pharm is a Pharmacy Council of India (PCI)-approved postgraduate pharmacy qualification undertaken after B.Pharm; PCI describes it as a two-year course after B.Pharm.",
+      "source_urls": [
+        "https://pci.nic.in/FaQs.html",
+        "https://pci.nic.in/pdf/M.Pharm%20Regulations.pdf"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "The PCI credit-based syllabus specifies four semesters (two academic years).",
+      "source_urls": [
+        "https://pci.nic.in/pdf/Syllabus_M_Pharm.pdf"
+      ]
+    },
+    {
+      "label": "Baseline eligibility",
+      "value": "The statutory baseline is a PCI-approved B.Pharm with at least 55% aggregate marks; the 2020 amendment provides 50% for SC/ST candidates and for candidates with at least five years of professional experience after B.Pharm.",
+      "source_urls": [
+        "https://pci.nic.in/pdf/MPharm_Amend_Regu_2020.pdf"
+      ]
+    },
+    {
+      "label": "Specialisations",
+      "value": "PCI's published M.Pharm syllabus lists Pharmaceutics, Industrial Pharmacy, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmaceutical Quality Assurance, Pharmaceutical Regulatory Affairs, Pharmaceutical Biotechnology, Pharmacy Practice, Pharmacology and Pharmacognosy.",
+      "source_urls": [
+        "https://pci.nic.in/pdf/Syllabus_M_Pharm.pdf"
+      ]
+    },
+    {
+      "label": "Admission-test context",
+      "value": "GPAT is a national-level entrance examination used for entry to M.Pharm programmes; its score helps institutions select pharmacy graduates, but applicants must follow each institution's current admission rules.",
+      "source_urls": [
+        "https://nta.ac.in/Pharmacyexam"
+      ]
+    },
+    {
+      "label": "Fee governance",
+      "value": "PCI states that it does not regulate pharmacy-institution admission fees; fee setting is handled by the relevant Central or State Governments. Published fees therefore vary by institution, state, category and academic year.",
+      "source_urls": [
+        "https://pci.nic.in/FaQs.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and registration requirement",
+      "paragraphs": [
+        "For admission to M.Pharm, PCI's 2014 regulations require a B.Pharm degree from an institution approved by PCI and normally at least 55% aggregate marks across the four-year B.Pharm programme. The 2020 amendment lowers the prescribed minimum to 50% for SC/ST candidates and also permits 50% for candidates who have at least five years of professional experience after passing B.Pharm.",
+        "Students selected for postgraduate pharmacy admission must already hold State Pharmacy Council registration or obtain it within one month of admission; otherwise, the regulations provide for cancellation of admission. Institutions may add their own entrance-score, counselling, document and category requirements, so applicants should treat the current prospectus as controlling for a particular seat."
+      ],
+      "bullets": [
+        "Confirm that both the B.Pharm qualification and the intended M.Pharm institution are PCI-approved.",
+        "Check the applicable aggregate-mark rule, reservation policy and any experience-based relaxation.",
+        "Arrange State Pharmacy Council registration within the required timeframe if it is not already held.",
+        "Verify the institution's current admissions notice for its test, merit, counselling and document rules."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/pdf/MPharm_Amend_Regu_2020.pdf",
+        "https://pci.nic.in/pdf/Syllabus_M_Pharm.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study format",
+      "paragraphs": [
+        "Under PCI's revised credit-based semester syllabus, M.Pharm runs for four semesters over two academic years. The syllabus sets a minimum requirement of 95 credit points, with up to 100 credits when co-curricular credits are included.",
+        "The programme combines taught theory and laboratory work in the first two semesters with substantial supervised research in semesters III and IV. PCI's syllabus requires every student to undertake a supervised project during semesters III–IV and submit a project report."
+      ],
+      "bullets": [
+        "Four semesters / two academic years.",
+        "Minimum 95 credits under the published credit-based scheme.",
+        "Semester III includes research methodology and biostatistics, journal club, proposal presentation and research work.",
+        "Semester IV includes research work, colloquium and final presentation."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/pdf/Syllabus_M_Pharm.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and specialisation",
+      "paragraphs": [
+        "M.Pharm is a specialisation-led programme rather than a single uniform subject list. PCI's curriculum names ten specialisations: Pharmaceutics; Industrial Pharmacy; Pharmaceutical Chemistry; Pharmaceutical Analysis; Pharmaceutical Quality Assurance; Pharmaceutical Regulatory Affairs; Pharmaceutical Biotechnology; Pharmacy Practice; Pharmacology; and Pharmacognosy.",
+        "The first year includes discipline-specific theory, practicals, seminars and assignments. For example, the Pharmaceutics pathway includes drug-delivery systems, modern pharmaceutics, regulatory affairs, molecular pharmaceutics, biopharmaceutics and pharmacokinetics, while Industrial Pharmacy includes formulation development, scale-up and technology transfer, production technology, intellectual-property rights and entrepreneurship management.",
+        "The common research component includes Research Methodology and Biostatistics, journal club, proposal presentation, research work and a final research presentation. The project is evaluated through a dissertation/report and presentation under the published scheme."
+      ],
+      "bullets": [
+        "Choose the specialisation based on the work you want to do: formulation and manufacturing, quality and analysis, chemistry and discovery, regulation, biotechnology, practice, pharmacology or natural products.",
+        "Expect laboratory practicals alongside classroom work.",
+        "Expect a supervised research project and dissertation-style report in the later semesters."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/pdf/Syllabus_M_Pharm.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How admission commonly works",
+      "paragraphs": [
+        "There is no single universal M.Pharm admissions route stated by PCI for every institution. Applicants must first meet PCI's qualification and registration requirements, then comply with the chosen university's or state counselling authority's current process.",
+        "GPAT is the national-level Graduate Pharmacy Aptitude Test for entry into M.Pharm programmes. NTA states that the test facilitates selection of pharmacy graduates for M.Pharm admission and that GPAT scores are accepted by AICTE-approved institutions and relevant university departments/colleges. Whether a particular institution requires GPAT, uses it in merit ranking, or admits through a separate state or university process must be checked in that institution's current notice.",
+        "NIPER JEE is related but should not be treated as a generic M.Pharm entrance examination: NIPER Hyderabad describes its postgraduate offerings as M.S. (Pharm), M.Tech. (Pharm) and MBA (Pharm), with admissions through NIPER JEE. Applicants should verify the exact degree title and eligibility before applying."
+      ],
+      "bullets": [
+        "Shortlist PCI-approved institutions and read each current prospectus.",
+        "Take GPAT where required or strategically useful for the target institutions.",
+        "Track the relevant university/state counselling process, application window, merit list and document-verification rules.",
+        "Do not assume that NIPER JEE leads to an M.Pharm award; verify the programme title, such as M.S. (Pharm), at the relevant NIPER."
+      ],
+      "source_urls": [
+        "https://nta.ac.in/Pharmacyexam",
+        "https://www.niperhyd.ac.in/faqs_NH.html",
+        "https://pci.nic.in/FaQs.html"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and financial planning",
+      "paragraphs": [
+        "There is no single authoritative nationwide M.Pharm fee figure. PCI explicitly says it does not regulate pharmacy admission fees and that the relevant Central or State Governments handle them. Tuition, hostel, examination, caution-deposit and other charges must therefore be checked in the current fee notice of each institution and state category.",
+        "As a dated example of institution-specific financial support rather than a universal entitlement, NIPER Hyderabad states on its FAQ page that eligible admitted students in its listed postgraduate programmes may receive financial assistance of ₹12,400 per month subject to stated conditions; this relates to NIPER's programmes and should not be assumed for M.Pharm colleges generally."
+      ],
+      "bullets": [
+        "Use the current institutional prospectus—not an old fee blog—for tuition and hostel estimates.",
+        "Separate refundable deposits from recurring academic and living costs.",
+        "Check current scholarship, stipend and assistantship terms directly with the institution; eligibility and amounts can change."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/FaQs.html",
+        "https://www.niperhyd.ac.in/faqs_NH.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Pharmacy Council of India: M.Pharm regulations and syllabus",
+      "url": "https://pci.nic.in/FaQs.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "PCI M.Pharm Course Regulations, 2014",
+      "url": "https://pci.nic.in/pdf/M.Pharm%20Regulations.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "PCI M.Pharm Course (Amendment) Regulations, 2020",
+      "url": "https://pci.nic.in/pdf/MPharm_Amend_Regu_2020.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "PCI final M.Pharm scheme and syllabus",
+      "url": "https://pci.nic.in/pdf/Syllabus_M_Pharm.pdf",
+      "kind": "curriculum"
+    },
+    {
+      "label": "National Testing Agency: GPAT",
+      "url": "https://nta.ac.in/Pharmacyexam",
+      "kind": "exam"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

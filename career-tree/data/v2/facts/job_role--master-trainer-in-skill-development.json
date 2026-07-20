@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Recognised route",
+      "value": "NCVET describes Training of Trainers (ToT) and Master Trainer programmes offered through NCVET-recognised Awarding Bodies; the ToT framework separates domain skills from platform/pedagogical skills.",
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/02/ToT-Guidelines.pdf"
+      ]
+    },
+    {
+      "label": "Experience-based progression",
+      "value": "Under NCVET’s ToT Guidelines, a certified trainer becomes eligible to progress to Master Trainer/Chief Instructor in the same domain after five years of training experience following ToT certification, subject to upskilling and assessment.",
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/02/ToT-Guidelines.pdf"
+      ]
+    },
+    {
+      "label": "Related instructor-training route",
+      "value": "DGT’s Craft Instructor Training Scheme (CITS) trains instructor candidates in both trade skills and training methodology. DGT states that eligible applicants hold relevant NTC, NAC, diploma or degree qualifications, with trade-specific requirements applying.",
+      "source_urls": [
+        "https://dgt.gov.in/en/CITS"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Master Trainer does",
+      "paragraphs": [
+        "This is a trainer-of-trainers role rather than only a direct teaching role. In practice, the Master Trainer prepares vocational instructors and trainers to deliver occupation-specific learning effectively, including both technical/domain content and the generic pedagogical skills needed in vocational education and training.",
+        "NCVET assigns Master Trainers responsibility for identifying learners’ existing skills and knowledge; tailoring specialised modules; supporting the preparation of training resources such as session plans; and guiding appropriate training and assessment modes. The role also extends to industry connection, job-market readiness, communication, human interface, group dynamics and inclusive practice.",
+        "NSDC’s Master Trainer programme similarly frames the work as advanced facilitation: creating and managing a learner-centred environment, improving training practice through reflection and evaluation, and using appropriate methods, learning-enabling techniques and ICT."
+      ],
+      "bullets": [
+        "Train and mentor new or existing trainers in a defined sector or job-role domain.",
+        "Diagnose trainer capability gaps and adapt learning modules, session plans and materials.",
+        "Demonstrate facilitation, assessment and blended/digital delivery methods.",
+        "Connect training delivery to industry practice, employability requirements and learner inclusion.",
+        "Evaluate learning and support continuous improvement in training delivery."
+      ],
+      "source_urls": [
+        "https://nsdcindia.org/training-master-trainer"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India’s skill-development system",
+      "paragraphs": [
+        "A common progression route is to first work as a certified trainer in a relevant occupational domain. NCVET’s current ToT Guidelines state that a certified trainer with five years of post-ToT training experience is eligible to become a Master Trainer/Chief Instructor in the same domain, subject to upskilling and assessment. This makes demonstrated training experience and sector expertise central to the role.",
+        "For people building an instructor foundation in the ITI/DGT ecosystem, CITS is a significant formal route. DGT describes CITS as training instructor candidates in both skills and training methodology; eligibility is trade-specific but generally includes a relevant National Trade Certificate (NTC), National Apprenticeship Certificate (NAC), diploma or degree. CITS is not, by itself, a universal substitute for the Master Trainer progression requirement: employers, Awarding Bodies and programmes can apply their own role-specific conditions.",
+        "For short-term skilling programmes, NCVET says individuals can pursue ToT or Master Trainer programmes through NCVET-recognised Awarding Bodies and their training centres. Candidates should therefore verify the particular sector, qualification, Awarding Body and current assessment/certification requirements before enrolling."
+      ],
+      "bullets": [
+        "Build credible industry or occupational expertise in the target trade or sector.",
+        "Qualify and work as a trainer, commonly through an NCVET-aligned ToT route.",
+        "Accumulate substantial trainer experience; NCVET’s guideline specifies five years after ToT certification for Master Trainer eligibility.",
+        "Complete required upskilling and assessment for Master Trainer/Chief Instructor progression.",
+        "Where relevant to ITIs and long-term craft training, pursue CITS at an NSTI or Institute for Training of Trainers (IToT)."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/02/ToT-Guidelines.pdf",
+        "https://dgt.gov.in/en/CITS",
+        "https://dgt.gov.in/en/list-of-itot"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "The role requires a dual capability: credible, current expertise in a specific vocational domain and the ability to teach other adults how to teach that domain. NCVET characterises ToT preparation through domain skills and platform skills, with platform skills covering generic training and vocational pedagogy across sectors.",
+        "Strong Master Trainers also need curriculum and session-design capability, learner-needs analysis, facilitation, communication, assessment literacy and the ability to use blended learning. NSDC specifically identifies learning facilitation, evaluation and improvement of practice, appropriate methods, ICT and learner-enabling techniques as outcomes of Master Trainer development."
+      ],
+      "bullets": [
+        "Sector-specific technical or occupational competence.",
+        "Adult learning, vocational pedagogy and facilitation.",
+        "Training-needs analysis and differentiated module design.",
+        "Session planning, training-resource development and teaching practice.",
+        "Assessment strategy and appropriate training/assessment modes.",
+        "Communication, group facilitation, inclusion and learner support.",
+        "Digital and blended-learning delivery."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/02/ToT-Guidelines.pdf",
+        "https://nsdcindia.org/training-master-trainer"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is found",
+      "paragraphs": [
+        "Master Trainers can work across India’s public and private vocational-training ecosystem: ITIs and instructor-training institutions, short-term skill-training providers, Sector Skill Council or Awarding Body-linked programmes, and government-supported skilling centres. The work may involve classroom instruction, workshop/lab demonstration, trainer mentoring, assessment preparation and quality-support visits.",
+        "DGT maintains Institutes for Training of Trainers (IToTs), while the Ministry of Skill Development and Entrepreneurship describes Pradhan Mantri Kaushal Kendras (PMKKs) as district-level model training centres designed to run industry-driven courses. These are examples of the institutional environment in which trainer capacity and training quality are relevant.",
+        "Work is usually domain-bound. A Master Trainer in electrical, automotive, healthcare, IT, construction or another sector needs to keep training examples, equipment practices, safety expectations and job-market context aligned with that domain."
+      ],
+      "bullets": [
+        "Government and private ITIs, NSTIs and IToTs.",
+        "Training providers and centres operating short-term skill programmes.",
+        "Awarding Body, Sector Skill Council and training-partner ecosystems.",
+        "Industry-linked training centres and employer workforce-development programmes.",
+        "Government-supported model centres such as PMKKs."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/list-of-itot",
+        "https://www.msde.gov.in/offerings/schemes-and-services/details/pradhan-mantri-kaushal-kendra-pmkk-MTM4ATMtQWa"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "A typical pathway is occupational practitioner or vocational instructor, then certified trainer, followed by Master Trainer/Chief Instructor after sustained training practice, upskilling and assessment. NCVET explicitly provides for progression from certified trainer to Master Trainer after five years of post-ToT training experience in the same domain.",
+        "From a Master Trainer position, progression can broaden into lead trainer, trainer-capability lead, academic or curriculum specialist, training-quality manager, assessor-development work, or leadership of a sectoral training function. The exact title and authority vary by Awarding Body, training provider, ITI/NSTI, Sector Skill Council and employer.",
+        "The role benefits from continued sector updating. National policy initiatives continue to emphasise advanced training of trainers: for example, MSDE’s PM-SETU programme includes capacity augmentation at selected NSTIs and sector-specific National Centres of Excellence intended to strengthen advanced trainer development."
+      ],
+      "bullets": [
+        "Vocational practitioner or instructor → certified trainer.",
+        "Certified trainer with relevant experience → Master Trainer/Chief Instructor.",
+        "Master Trainer → lead trainer, trainer-development lead, curriculum/quality specialist or training-management roles.",
+        "Maintain domain currency and renew or complete programme-specific upskilling where required."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/02/ToT-Guidelines.pdf",
+        "https://nsdcindia.org/training-master-trainer",
+        "https://www.msde.gov.in/offerings/schemes-and-services/details/pradhan-mantri-skilling-and-employability-transformation-through-upgraded-itis-pm%E2%80%91setu-ADM1kTMtQWa"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCVET: Guidelines for Training of Trainers",
+      "url": "https://ncvet.gov.in/wp-content/uploads/2024/02/ToT-Guidelines.pdf",
+      "kind": "regulator guideline"
+    },
+    {
+      "label": "DGT: Craft Instructor Training Scheme (CITS)",
+      "url": "https://dgt.gov.in/en/CITS",
+      "kind": "government programme"
+    },
+    {
+      "label": "DGT: List of Institutes for Training of Trainers (IToTs)",
+      "url": "https://dgt.gov.in/en/list-of-itot",
+      "kind": "government directory"
+    },
+    {
+      "label": "NSDC: Training of Master Trainer",
+      "url": "https://nsdcindia.org/training-master-trainer",
+      "kind": "professional development"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

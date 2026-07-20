@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Regulator and purpose",
+      "value": "PLAB (Professional and Linguistic Assessments Board) is the GMC assessment route used to help establish that doctors who qualified abroad have the knowledge and skills to practise medicine in the UK.",
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/a-guide-to-the-plab-test"
+      ]
+    },
+    {
+      "label": "Relationship to UKMLA",
+      "value": "PLAB remains its current name, but is compliant with the UK Medical Licensing Assessment (MLA) requirements: PLAB 1 meets the MLA Applied Knowledge Test requirements and PLAB 2 meets the Clinical and Professional Skills Assessment requirements.",
+      "source_urls": [
+        "https://www.gmc-uk.org/education/medical-licensing-assessment/plab-and-the-mla"
+      ]
+    },
+    {
+      "label": "Parts and format",
+      "value": "PLAB has two parts: PLAB 1 is a 180-question, single-best-answer written exam completed in three hours; PLAB 2 is a practical OSCE comprising 16 eight-minute scenarios.",
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/a-guide-to-the-plab-test",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-1-guide/what-is-the-plab-1-exam"
+      ]
+    },
+    {
+      "label": "Core entry checks",
+      "value": "Before booking PLAB 1, applicants must create a GMC Online account and have an acceptable overseas primary medical qualification and acceptable English-language evidence verified by the GMC.",
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/a-guide-to-the-plab-test",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/before-you-apply/evidence-of-your-knowledge-of-english",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/before-you-apply-guide-for-doctors/acceptable-overseas-qualifications-for-doctors"
+      ]
+    },
+    {
+      "label": "2026 GMC exam fees",
+      "value": "From 1 April 2026, GMC lists the PLAB 1 fee as £283 and the PLAB 2 fee as £1,036. These are exam fees only; registration, travel, visa, accommodation and preparation costs may also apply, and fees can change.",
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/managing-your-registration/fees-and-funding/fees-for-doctors"
+      ]
+    },
+    {
+      "label": "Post-exam pathway",
+      "value": "Passing PLAB alone is not GMC registration or a job offer. A candidate who has passed both parts may apply for registration with a licence to practise; the GMC’s IMG full-registration route also requires an internship and specifies that both PLAB parts must have been passed within the previous two years.",
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/registration-applications/application-guides/full-registration-for-international-medical-graduates",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-2-guide/what-do-you-do-after-you-get-your-results"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What PLAB (UKMLA-compliant) is for",
+      "paragraphs": [
+        "PLAB is the GMC’s assessment route for many international medical graduates (IMGs), including doctors with an Indian MBBS, who seek to join the UK medical register. It assesses the knowledge, clinical skills and professional behaviours expected of a doctor beginning UK Foundation Programme Year 2 (F2) practice.",
+        "PLAB is not currently renamed “UKMLA.” Rather, the GMC states that PLAB is compliant with MLA requirements and continues to be the assessment taken by international doctors who need this route to UK registration. The common MLA content map underpins the assessments."
+      ],
+      "bullets": [
+        "For applicants with a medical degree outside the UK, EEA or Switzerland, the GMC says PLAB will probably be required, subject to the applicant’s individual route and qualification.",
+        "Other GMC registration routes can exist, such as routes based on sponsorship or certain postgraduate qualifications; applicants should use the GMC registration guidance rather than assume PLAB is mandatory in every case."
+      ],
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/a-guide-to-the-plab-test",
+        "https://www.gmc-uk.org/education/medical-licensing-assessment/plab-and-the-mla",
+        "https://www.gmc-uk.org/education/medical-licensing-assessment"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility for an Indian MBBS graduate",
+      "paragraphs": [
+        "An Indian MBBS is an overseas primary medical qualification for GMC purposes. Before PLAB 1, the GMC must find the applicant’s primary medical qualification acceptable and must accept the applicant’s evidence of English-language knowledge. The GMC evaluates overseas qualifications individually against its published criteria and lists institutions or qualifications it does not accept or may accept only in some circumstances.",
+        "For PLAB 2, the GMC requires an acceptable overseas primary medical qualification and a valid PLAB 1 pass. PLAB 2 must be passed within two years of the PLAB 1 pass date; the pass date is the examination date, not the results-release date."
+      ],
+      "bullets": [
+        "English evidence requirements for PLAB can differ from the evidence required later for registration. The GMC publishes routes using IELTS, OET, a primary medical qualification, employer reference, a UK job offer, or other evidence, depending on the applicant’s circumstances.",
+        "Candidates normally have up to four attempts at each examination. After a fourth failed attempt, an additional attempt must be requested; a fifth failed attempt is final.",
+        "Passing both PLAB parts does not by itself meet every requirement for full registration. For the GMC IMG full-registration route, the applicant must also have completed an internship and satisfy documentary, identity, fitness-to-practise and other registration requirements."
+      ],
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/before-you-apply-guide-for-doctors/acceptable-overseas-qualifications-for-doctors",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/before-you-apply/evidence-of-your-knowledge-of-english",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-2-guide/information-on-booking-a-plab-2-place",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/registration-applications/application-guides/full-registration-for-international-medical-graduates"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam structure, delivery and scope",
+      "paragraphs": [
+        "PLAB 1 is the applied knowledge test. It is a written examination of 180 single-best-answer multiple-choice questions in three hours. Its scenarios concern current UK best practice and routinely available UK hospital resources; it tests application of knowledge for patient care rather than recall alone.",
+        "PLAB 2 is the clinical and professional skills assessment, delivered as an OSCE. It has 16 scenarios of eight minutes each, designed to resemble settings such as consultations and acute wards. The GMC holds PLAB 2 at its clinical assessment centres in Manchester, UK.",
+        "Both parts are based on the MLA content map. This framework includes the core knowledge, skills and behaviours expected for safe UK practice, including professional values and behaviours."
+      ],
+      "bullets": [
+        "PLAB 1 is offered in the UK and selected international locations; availability, dates and locations must be checked in GMC Online.",
+        "The GMC announced on 20 May 2026 that some international PLAB 1 locations and the number of non-UK/EEA sittings will change from February 2027. Candidates should therefore rely on the live GMC booking service, not historic location lists.",
+        "PLAB 2 dates run through the year, but availability can be constrained by demand; booking is available after PLAB 1 results are available."
+      ],
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-1-guide/what-is-the-plab-1-exam",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/a-guide-to-the-plab-test",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-2-guide/when-and-where-can-you-take-plab-2",
+        "https://www.gmc-uk.org/news/news-archive/changes-to-international-exam-locations",
+        "https://www.gmc-uk.org/education/medical-licensing-assessment/plab-and-the-mla"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and booking sequence",
+      "paragraphs": [
+        "Start by opening a personal GMC Online account, then submit the evidence requested for the overseas primary medical qualification and English-language knowledge. Once the GMC has verified that the information meets its requirements, the candidate can book PLAB 1 through GMC Online.",
+        "After passing PLAB 1, book PLAB 2 only through the candidate’s own GMC Online account. The GMC explicitly warns that third parties cannot book on a candidate’s behalf and that sharing account access can constitute misconduct.",
+        "After passing both parts, apply separately for GMC registration with a licence to practise. The GMC says the registration application should be approved within two years of passing PLAB 2. For the IMG full-registration route, evidence includes the primary medical qualification, internship, English knowledge, identity and other required declarations or documents."
+      ],
+      "bullets": [
+        "As of 1 April 2026, the GMC lists PLAB 1 at £283 and PLAB 2 at £1,036; cancellation charges can apply. Confirm fees, booking dates and cancellation terms directly with the GMC before payment.",
+        "For PLAB 2, applicants should plan independently for UK entry permission, travel, accommodation and lead time. The GMC notes that the number of PLAB places is not linked to the number of NHS or other employer vacancies.",
+        "The GMC recommends reviewing its guidance on working as a doctor in the UK before booking, because job opportunities differ by specialty and location and change over time."
+      ],
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/a-guide-to-the-plab-test",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-2-guide/information-on-booking-a-plab-2-place",
+        "https://www.gmc-uk.org/registration-and-licensing/managing-your-registration/fees-and-funding/fees-for-doctors",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/registration-applications/application-guides/full-registration-for-international-medical-graduates"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Use the GMC’s MLA content map as the primary syllabus framework: the GMC states that it sets out the knowledge, skills and behaviours required in PLAB and beyond. For PLAB 1, focus on applying evidence-based UK practice to common, important and acute F2-level presentations, alongside longer-term conditions encountered in primary care.",
+        "Prepare professional judgement and communication as well as clinical knowledge. The GMC identifies Good medical practice and its interactive professional-standards resources as relevant preparation, because candidates are expected to demonstrate those professional values both in the examination and in UK practice.",
+        "The GMC provides official PLAB 1 sample questions and PLAB 2 preparation material. It does not provide, endorse or quality-assure commercial coaching courses. Candidates should avoid any provider that claims access to GMC examination content or asks them to share recalled live-exam content, because this may breach the GMC misconduct policy."
+      ],
+      "bullets": [
+        "For PLAB 1: practise timed single-best-answer questions and apply answers to UK guidance and UK care settings rather than local protocols.",
+        "For PLAB 2: rehearse structured consultations, clinical examination, explanation, consent, prioritisation, safety-netting and professional communication within the eight-minute station format.",
+        "Use only legitimate materials and preserve exam confidentiality."
+      ],
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-1-guide/what-resources-should-you-use-to-prepare",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-1-guide/sample-questions",
+        "https://www.gmc-uk.org/education/medical-licensing-assessment"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What passing PLAB enables—and what it does not",
+      "paragraphs": [
+        "Passing PLAB 1 and PLAB 2 allows an eligible IMG to apply for GMC registration with a licence to practise. It does not automatically grant registration, a UK visa, an NHS training place, or employment; those outcomes require separate processes and decisions.",
+        "For the GMC’s full-registration route for IMGs, both PLAB parts must have been passed within the past two years and the applicant must have completed an internship. The GMC also states that the application for registration should be approved within two years of passing PLAB 2; applicants outside that period may need to provide additional evidence of knowledge and skills.",
+        "Candidates should treat employment prospects as variable rather than guaranteed. The GMC says PLAB-place numbers are not directly linked to the number of vacancies offered by employers, and that vacancies vary by specialty, geography and time."
+      ],
+      "bullets": [
+        "Successful registration permits a doctor to work only within the scope of their GMC registration and licence, subject to the role’s employer checks, immigration status where applicable, and any other legal or contractual requirements.",
+        "PLAB is one route into UK practice, not a postgraduate specialty qualification or a guarantee of specialty training."
+      ],
+      "source_urls": [
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-2-guide/what-do-you-do-after-you-get-your-results",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/registration-applications/application-guides/full-registration-for-international-medical-graduates",
+        "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-2-guide/information-on-booking-a-plab-2-place"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "GMC: Guide to the PLAB test",
+      "url": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/a-guide-to-the-plab-test",
+      "kind": "official overview"
+    },
+    {
+      "label": "GMC: PLAB and the MLA",
+      "url": "https://www.gmc-uk.org/education/medical-licensing-assessment/plab-and-the-mla",
+      "kind": "official UKMLA information"
+    },
+    {
+      "label": "GMC: Acceptable overseas qualifications",
+      "url": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/before-you-apply-guide-for-doctors/acceptable-overseas-qualifications-for-doctors",
+      "kind": "official eligibility guidance"
+    },
+    {
+      "label": "GMC: English-language evidence",
+      "url": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/before-you-apply/evidence-of-your-knowledge-of-english",
+      "kind": "official eligibility guidance"
+    },
+    {
+      "label": "GMC: Fees for doctors",
+      "url": "https://www.gmc-uk.org/registration-and-licensing/managing-your-registration/fees-and-funding/fees-for-doctors",
+      "kind": "official fees"
+    },
+    {
+      "label": "GMC: Full registration for IMGs",
+      "url": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/registration-applications/application-guides/full-registration-for-international-medical-graduates",
+      "kind": "official registration guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

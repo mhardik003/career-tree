@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Core role",
+      "value": "A Dairy Production Engineer applies dairy-process and engineering knowledge to operate and improve milk-processing operations, including production controls, equipment, sanitation and plant efficiency.",
+      "source_urls": [
+        "https://www.ndri.res.in/academic-rules-regulations",
+        "https://fssai.gov.in/cms/hygiene-requirements.php"
+      ]
+    },
+    {
+      "label": "Typical qualifying degree",
+      "value": "B.Tech. (Dairy Technology) is the immediate education route for this node; ICAR-NDRI describes it as a four-year programme covering milk processing, quality control and engineering aspects of dairy-processing equipment.",
+      "source_urls": [
+        "https://ndri.res.in/admission",
+        "https://www.ndri.res.in/academic-rules-regulations"
+      ]
+    },
+    {
+      "label": "Food-safety context",
+      "value": "Dairy plants operating as licensed food businesses must maintain a documented Food Safety Management System and comply with Schedule 4 requirements for milk and milk products.",
+      "source_urls": [
+        "https://fssai.gov.in/cms/hygiene-requirements.php"
+      ]
+    },
+    {
+      "label": "Plant-supervision relevance",
+      "value": "FSSAI licensing information lists Dairy Technology and Dairy Engineering among the relevant qualifications for a person supervising a food-production process.",
+      "source_urls": [
+        "https://foscos.fssai.gov.in/?initialSessionID=259-3185128-4675661&ld=SDINAGSDirect&pageName=IN%3ASD%3AAGS%3ABlogs%3Afssai-license-for-export"
+      ]
+    },
+    {
+      "label": "Industry exposure",
+      "value": "At NDRI, B.Tech. Dairy Technology students undertake in-plant training on dairy-plant operation and management, with a compulsory six-month internship stated in the 2025–26 information bulletin.",
+      "source_urls": [
+        "https://ndri.res.in/sites/default/files/Information%20Bulletin%20Academic%20session%202025-26.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Dairy Production Engineer does",
+      "paragraphs": [
+        "In a dairy-processing plant, the role centres on translating dairy-process and engineering knowledge into reliable production. This commonly includes monitoring and improving processing operations; coordinating use, cleaning and upkeep of processing equipment; maintaining production records; and helping ensure that processing conditions support safe, compliant milk and milk products.",
+        "For licensed dairy food businesses, the operating environment is strongly shaped by food-safety controls. FSSAI states that operators must maintain an FSMS plan and comply with Schedule 4; the milk-and-milk-products requirements include sanitary and hygienic standards, daily records of production and raw-material use, Clean-in-Place systems where necessary, relevant contaminant testing, and temperature control through the supply chain. A production engineer therefore works closely with production, quality assurance, maintenance and sanitation teams rather than treating output volume as the sole objective."
+      ],
+      "bullets": [
+        "Monitor process parameters, throughput and production losses; investigate deviations and support corrective actions.",
+        "Support equipment operation, preventive maintenance coordination, cleaning systems and utility/process-efficiency work.",
+        "Maintain or contribute to production, raw-material-utilisation and traceability records required in plant operations.",
+        "Work within GMP/GHP, HACCP-oriented FSMS and milk-processing hygiene requirements."
+      ],
+      "source_urls": [
+        "https://fssai.gov.in/cms/hygiene-requirements.php",
+        "https://jaivikbharat.fssai.gov.in/pdf/Compendium_Licensing_Regulations.pdf",
+        "https://www.ndri.res.in/dairy-engineering"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route from B.Tech. in Dairy Technology",
+      "paragraphs": [
+        "The direct route is a B.Tech. (Dairy Technology). NDRI describes the degree as intensive training in milk processing, milk-product quality control and engineering aspects of dairy-processing equipment. Its current admission information describes a four-year semester programme and in-plant training on dairy-plant operation and management during the final year.",
+        "Admission requirements vary by institution and year. For example, NDRI lists 10+2/equivalent with Physics, Chemistry, Mathematics and English and an aggregate-mark threshold, while its 2025–26 bulletin also describes eligibility routes that include Physics, Chemistry, Biology and English. Applicants should therefore use the admission bulletin of the specific institution and year rather than relying on a single national cutoff.",
+        "Practical exposure is particularly valuable for entry-level plant roles. NDRI’s 2025–26 bulletin states that a six-month internship is compulsory for its undergraduate programmes, and its placement page identifies dairy processors, cooperatives and equipment/packaging firms among past recruiters."
+      ],
+      "bullets": [
+        "Complete B.Tech. (Dairy Technology) and prioritise coursework and practical work in dairy processing, quality control and dairy engineering.",
+        "Seek in-plant training or internships in milk reception, processing, packaging, utilities, maintenance, production planning or quality systems.",
+        "Apply to private processors, dairy cooperatives/unions, dairy-equipment and packaging organisations, and relevant public-sector or government technical roles.",
+        "For some government technical posts, a degree alone may not be enough: the 2024 Senior Technical Assistant (Dairy) rules specify B.Tech. (Dairy Technology) plus two years of relevant practical experience."
+      ],
+      "source_urls": [
+        "https://ndri.res.in/admission",
+        "https://ndri.res.in/sites/default/files/Information%20Bulletin%20Academic%20session%202025-26.pdf",
+        "https://www.ndri.res.in/placement-cell",
+        "https://egazette.gov.in/WriteReadData/2024/251948.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "The technical foundation combines dairy processing with core process-engineering skills. NDRI’s Dairy Engineering curriculum includes fluid mechanics, thermodynamics, heat and mass transfer, refrigeration and air conditioning, boilers and steam generation, instrumentation and process control, dairy process engineering, energy conservation, food engineering, machine design, and dairy-plant design and layout.",
+        "Food-safety and quality-system capability is equally important. FSSAI links licensed food-business compliance to FSMS, GMP/GHP and HACCP-oriented hazard control. NDRI’s dairy microbiology teaching materials also identify HACCP, quality and safety management systems, plant hygiene and sanitation, 5S, Kaizen and Six Sigma among dairy-industry-relevant topics."
+      ],
+      "bullets": [
+        "Dairy unit operations, pasteurisation/thermal processing, refrigeration, utilities and process-flow understanding.",
+        "Instrumentation, process control, troubleshooting and interpretation of production data.",
+        "Equipment, CIP and sanitation awareness; ability to work effectively with maintenance and quality teams.",
+        "GMP/GHP, HACCP/FSMS documentation, hygiene, traceability and temperature-control discipline.",
+        "Continuous-improvement methods such as 5S, Kaizen and basic Six Sigma/TQM tools."
+      ],
+      "source_urls": [
+        "https://www.ndri.res.in/dairy-engineering",
+        "https://fssai.gov.in/cms/hygiene-requirements.php",
+        "https://www.ndri.res.in/dairy-microbiology"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the work happens",
+      "paragraphs": [
+        "The role is principally plant-based: at milk-processing facilities and associated production areas, utilities and quality/sanitation interfaces. NDRI describes its commercial Model Dairy Plant as having processing capacity above 60,000 litres of milk per day and using it for hands-on student training and scale-up of products and processes, illustrating the production setting in which these skills are used.",
+        "Employment can span private dairy and food companies, milk cooperatives/federations, equipment and packaging suppliers, and public-sector or government dairy-development functions. NDRI lists past recruiters including GCMMF, Mother Dairy, Nestlé India, Punjab Milk Federation, Tetra Pak India and other food/dairy employers; this is evidence of recruiter mix at one institute, not a complete list of employers or a guarantee of placement."
+      ],
+      "bullets": [
+        "Processing areas such as milk reception, pasteurisation, product manufacture, filling/packing and cold-chain interfaces.",
+        "Cross-functional coordination with quality assurance, microbiology/laboratory, maintenance, utilities, warehouse and dispatch teams.",
+        "Work may involve shift-based production schedules, hygiene controls, PPE and documentation-intensive operating procedures, depending on the plant."
+      ],
+      "source_urls": [
+        "https://ndri.res.in/icar-national-dairy-research-institute",
+        "https://www.ndri.res.in/placement-cell",
+        "https://fssai.gov.in/cms/hygiene-requirements.php"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression possibilities",
+      "paragraphs": [
+        "Progression is employer-specific, but experience in production and plant operations can lead toward technical-officer, assistant-production-manager, production-manager, dairy-technologist, dairy-union/federation management, quality/FSMS, maintenance/process-improvement or product/process-development responsibilities. A 2025 Department of Animal Husbandry and Dairying vacancy circular for Assistant Commissioner (Dairy Development) explicitly recognises experience as a Technical Officer, Dairy Technologist, Assistant Production Manager or Production Manager in a dairy plant, and as Deputy Manager or Manager in a milk federation or union.",
+        "For specialists seeking deeper engineering or research responsibility, NDRI offers postgraduate Dairy Engineering coursework covering areas such as process equipment design, refrigeration engineering, transport phenomena, industrial automation and robotics. A postgraduate degree may be useful for particular R&D, specialist engineering, academic or public-sector pathways, but is not inherently required for every production-engineering job."
+      ],
+      "bullets": [
+        "Early career: trainee, shift/production engineer, process or technical officer roles.",
+        "Mid career: production/operations supervision, process improvement, utilities or maintenance coordination, quality-system leadership.",
+        "Senior pathways: production management, plant operations, dairy federation/union management, technical/regulatory roles, or specialist engineering/R&D."
+      ],
+      "source_urls": [
+        "https://www.dahd.gov.in/sites/default/files/2025-02/VacancyCircularFor-AC.pdf",
+        "https://www.ndri.res.in/dairy-engineering"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Pay varies substantially by employer type, location, shift pattern, experience, plant scale and whether the role is in private industry, a cooperative/federation or government service. As a dated campus-placement reference only, NDRI reports that its undergraduate placements in 2019–20 had an average salary of about ₹5.04 lakh and a maximum of about ₹7.18 lakh; those figures cover NDRI undergraduate placements generally, not this job title specifically, and should not be treated as a current market salary benchmark.",
+        "For a separate public-sector reference, the 2024 Gazette recruitment rules for Senior Technical Assistant (Dairy) list Pay Level 7, ₹44,900–₹1,42,400, and require B.Tech. (Dairy Technology) plus two years of relevant practical experience. This is a government pay-matrix example for that named post, not a private-sector Dairy Production Engineer salary or an assurance of vacancies."
+      ],
+      "bullets": [
+        "Compare offers using fixed pay, variable pay, shift allowance, accommodation/transport, benefits, location and growth opportunity—not annual CTC alone.",
+        "Check the vacancy notice or employer offer for the applicable pay structure and eligibility; public recruitment rules and private job offers are not interchangeable."
+      ],
+      "source_urls": [
+        "https://www.ndri.res.in/placement-cell",
+        "https://egazette.gov.in/WriteReadData/2024/251948.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ICAR-NDRI B.Tech. Dairy Technology admission information",
+      "url": "https://ndri.res.in/admission",
+      "kind": "official_admission"
+    },
+    {
+      "label": "ICAR-NDRI Dairy Engineering courses",
+      "url": "https://www.ndri.res.in/dairy-engineering",
+      "kind": "official_curriculum"
+    },
+    {
+      "label": "FSSAI hygiene requirements and Schedule 4 context",
+      "url": "https://fssai.gov.in/cms/hygiene-requirements.php",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "FSSAI milk and milk products FSMS guidance",
+      "url": "https://www.fssai.gov.in/cms/guidance-document.php",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "NDRI placement cell",
+      "url": "https://www.ndri.res.in/placement-cell",
+      "kind": "official_careers"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

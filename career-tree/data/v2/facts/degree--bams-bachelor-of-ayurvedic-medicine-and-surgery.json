@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Degree and award",
+      "value": "BAMS is the Bachelor of Ayurvedic Medicine and Surgery programme; an official Delhi government institute describes the award as “Ayurvedacharya (Bachelor of Ayurvedic Medicine and Surgery).”",
+      "source_urls": [
+        "https://cbpacs.delhi.gov.in/cbpacs/courses"
+      ]
+    },
+    {
+      "label": "Admission route",
+      "value": "Admission is based on NEET-UG qualification followed by the applicable AYUSH counselling process. AACCC conducts counselling for specified All India Quota, central/national-institute and deemed-university seats.",
+      "source_urls": [
+        "https://aaccc.gov.in/ug-counselling/",
+        "https://intraaaccc.gov.in/aaccc/"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "The programme is 5.5 years, including a one-year compulsory internship after the academic/professional phases.",
+      "source_urls": [
+        "https://cbpacs.delhi.gov.in/cbpacs/courses",
+        "https://health.odisha.gov.in/en/healthmedicaleducation/ayurvedic-colleges"
+      ]
+    },
+    {
+      "label": "Academic regulator",
+      "value": "Undergraduate Ayurveda education is regulated by the National Commission for Indian System of Medicine (NCISM), whose official Ayurveda pages publish the BAMS curriculum and list the 2022 undergraduate Ayurveda education regulations.",
+      "source_urls": [
+        "https://www.ncismindia.org/ayurveda-syllabus.php",
+        "https://www.ncismindia.org/under-ncism-act-2020.php"
+      ]
+    },
+    {
+      "label": "Fees: variable context",
+      "value": "There is no single national BAMS fee. As one current public-college example, Government Ayurveda College, Kannur lists ₹17,440 in BAMS course charges plus a ₹7,000 PTA fund; applicants should verify the latest institution, quota, hostel and state-counselling charges before applying.",
+      "source_urls": [
+        "https://gack.kerala.gov.in/courses/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "A typical entry profile is Class 12 (10+2) science with Physics, Chemistry and Biology, together with NEET-UG qualification. For example, Government Ayurveda College, Kannur states 50% in Plus Two Biology, Chemistry and Physics and NEET-based admission; an official Delhi government BAMS institute likewise states 50% aggregate in Physics, Chemistry and Biology and selection through NEET.",
+        "For a particular admission cycle, candidates should treat the current NTA NEET-UG bulletin, the relevant counselling authority and the individual college/university prospectus as controlling. Category, domicile, disability, document and counselling rules can differ by quota and jurisdiction."
+      ],
+      "bullets": [
+        "Complete 10+2/equivalent with the required science subjects.",
+        "Take and qualify in NEET-UG for the applicable admission year.",
+        "Meet the applicable central, state/UT, university and counselling-specific conditions."
+      ],
+      "source_urls": [
+        "https://gack.kerala.gov.in/courses/",
+        "https://cbpacs.delhi.gov.in/cbpacs/courses",
+        "https://nta.ac.in/Download/Notice/Notice_20260311164514.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and internship",
+      "paragraphs": [
+        "BAMS is normally structured as a 5.5-year programme. A Delhi government institute breaks this into first, second and third professional years of one year each, a final professional period of 1.5 years, and a one-year compulsory internship. The Odisha Health Department also lists BAMS as a 5.5-year course.",
+        "The internship is clinical training: the Delhi institute describes duties across outpatient and inpatient departments including Kayachikitsa, Shalya, Shalakya, Prasuti evam Striroga, Kaumarbhritya, Panchakarma and casualty services."
+      ],
+      "bullets": [
+        "Academic/professional instruction: 4.5 years.",
+        "Compulsory internship: 1 year.",
+        "Total nominal duration: 5.5 years."
+      ],
+      "source_urls": [
+        "https://cbpacs.delhi.gov.in/cbpacs/courses",
+        "https://health.odisha.gov.in/en/healthmedicaleducation/ayurvedic-colleges"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum",
+      "paragraphs": [
+        "The programme combines Ayurveda-centred disciplines with biomedical and clinical learning. NCISM publishes a BAMS curriculum organised across four professional stages. An official government institute’s outline illustrates the progression from anatomy, physiology, Sanskrit and Ayurvedic foundations to pharmacology, pharmaceutical science, toxicology, pathology/microbiology, preventive medicine and yoga, obstetrics and gynaecology, paediatrics, medicine, surgery, eye/ENT care, Panchakarma, research methodology and statistics.",
+        "Exact teaching plans, assessment formats, implementation schedules and language of instruction should be checked against the NCISM curriculum and the admitting university’s current regulations."
+      ],
+      "bullets": [
+        "Foundations: Rachana Sharir, Kriya Sharir, Sanskrit, Ayurvedic philosophy and texts.",
+        "Applied sciences: Dravyaguna, Rasashastra and Bhaishajya Kalpana, Agada Tantra, pathology and microbiology.",
+        "Clinical and public-health components: Kayachikitsa, Shalya, Shalakya, Panchakarma, women’s health, paediatrics, Swasthavritta/yoga, research methods and statistics.",
+        "Required supervised internship duties in teaching-hospital services."
+      ],
+      "source_urls": [
+        "https://www.ncismindia.org/ayurveda-syllabus.php",
+        "https://cbpacs.delhi.gov.in/cbpacs/courses"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission and counselling",
+      "paragraphs": [
+        "The usual sequence is NEET-UG, publication of the relevant counselling rules and seat matrix, online registration and choice filling, seat allotment, and reporting/document verification at the allotted institution. The exact dates, eligibility cut-offs, fees and documents are session-specific and must be read from that year’s official notices.",
+        "AACCC handles 15% All India Quota BAMS seats in government/government-aided AYUSH institutions, 100% of specified central university/national institute seats, and 100% of deemed-university BAMS seats. This means applicants should not assume that AACCC covers every BAMS seat: the remaining applicable state/UT and institutional processes must be tracked through the relevant authorities."
+      ],
+      "bullets": [
+        "Use official NTA notices for NEET-UG exam and application information.",
+        "Use AACCC for the AIQ/central-national institute/deemed-university categories within its remit.",
+        "Also monitor the relevant state/UT counselling authority for state-quota processes.",
+        "Before locking choices, verify that each college has current NCISM permission/recognition and confirm its seat matrix."
+      ],
+      "source_urls": [
+        "https://aaccc.gov.in/ug-counselling/",
+        "https://intraaaccc.gov.in/aaccc/",
+        "https://www.ncismindia.org/ayurveda-ug-regulation.php",
+        "https://nta.ac.in/Download/Notice/Notice_20260311164514.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and financial planning",
+      "paragraphs": [
+        "BAMS costs vary materially by institution type, state, quota, university, hostel use and recurring charges. Do not use a fee from one college as a nationwide estimate. As a dated public-institution example available in 2026, Government Ayurveda College, Kannur lists BAMS annual/course charges totalling ₹17,440 and a separate ₹7,000 PTA fund at admission; these figures do not establish fees at other government, aided, private or deemed institutions.",
+        "Budget beyond tuition/course charges for counselling registration and security deposits where applicable, university and examination charges, books, instruments, accommodation, transport and living expenses. AACCC states that its counselling process involves non-refundable registration fees and refundable security deposits, subject to its current scheme."
+      ],
+      "bullets": [
+        "Ask each shortlisted institution for its current fee notice in writing.",
+        "Separate recurring academic charges from one-time admission, caution, hostel and counselling deposits.",
+        "Confirm the applicable refund and resignation rules before joining an allotted seat."
+      ],
+      "source_urls": [
+        "https://gack.kerala.gov.in/courses/",
+        "https://aaccc.gov.in/about-ug-counselling/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After BAMS: regulated progression and career directions",
+      "paragraphs": [
+        "A principal academic route is postgraduate Ayurveda study. NTA describes AIAPGET as the entrance examination for postgraduate AYUSH MD/MS courses in Ayurveda, Unani, Siddha and Homoeopathy, and AACCC administers counselling for specified PG AYUSH seats. Candidates should use the examination-year bulletin and counselling rules because eligibility and seat rules can change.",
+        "For clinical practice and roles titled as a medical officer or consultant, professional registration and the scope allowed by the recognised qualification, syllabus, training and applicable registration rules matter. NCISM’s Ethics and Registration Regulations state that registered practitioners may use titles including consultant, researcher or medical officer and may practise to the extent of their recognised qualification, syllabus and training. Actual government recruitment eligibility is vacancy-specific.",
+        "BAMS graduates may also explore non-clinical further study such as public health or management, as well as research and entrepreneurship, but eligibility for MPH, MBA, clinical-research or employer roles is set by the individual university or employer; BAMS does not create a universal automatic entitlement to those positions."
+      ],
+      "bullets": [
+        "AIAPGET → eligible postgraduate MD/MS Ayurveda pathways, subject to the current rules.",
+        "State/national registration and applicable law → Ayurvedic clinical practice within authorised scope.",
+        "Institution-specific postgraduate study → MPH, MBA and other interdisciplinary qualifications.",
+        "Employer- or recruitment-specific opportunities → research, health-programme, medical-officer and entrepreneurship roles."
+      ],
+      "source_urls": [
+        "https://exams.nta.ac.in/AIAPGET/images/faqs-for-aiapget-2025.pdf",
+        "https://intraaaccc.gov.in/aaccc/",
+        "https://ncismindia.org/The%20National%20Commission%20for%20Indian%20System%20of%20Medicine%20%28Ethics%20and%20Registration%29%20Regulations%2C2023.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCISM BAMS curriculum and syllabus",
+      "url": "https://www.ncismindia.org/ayurveda-syllabus.php",
+      "kind": "regulator"
+    },
+    {
+      "label": "AACCC UG counselling portal",
+      "url": "https://aaccc.gov.in/ug-counselling/",
+      "kind": "government counselling"
+    },
+    {
+      "label": "AACCC counselling scope and seat categories",
+      "url": "https://intraaaccc.gov.in/aaccc/",
+      "kind": "government counselling"
+    },
+    {
+      "label": "NTA NEET-UG notices",
+      "url": "https://nta.ac.in/",
+      "kind": "examination authority"
+    },
+    {
+      "label": "NTA AIAPGET portal",
+      "url": "https://exams.nta.ac.in/AIAPGET/",
+      "kind": "postgraduate entrance examination"
+    },
+    {
+      "label": "NCISM undergraduate Ayurveda regulations and permissions portal",
+      "url": "https://www.ncismindia.org/ayurveda-ug-regulation.php",
+      "kind": "regulator"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

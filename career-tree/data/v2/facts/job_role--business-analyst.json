@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Role focus",
+      "value": "Business Analysts elicit, analyse and document business needs, then translate them into requirements and specifications that business and technology teams can use.",
+      "source_urls": [
+        "https://careers.wipro.com/job/Bengaluru-BUSINESS-ANALYST-CREW-IND-560035/189691-en_US/",
+        "https://careers.wipro.com/job/BUSINESS-ANALYST-L5/183599-en_US/"
+      ]
+    },
+    {
+      "label": "Typical outputs",
+      "value": "Common outputs include business/functional requirements documents, user stories, acceptance criteria, process flows, traceability material and UAT support.",
+      "source_urls": [
+        "https://careers.wipro.com/job/Bengaluru-BUSINESS-ANALYST-CREW-IND-560035/189691-en_US/",
+        "https://careers.wipro.com/job/ServiceNow-Business-Analyst/167264-en_US/"
+      ]
+    },
+    {
+      "label": "Relevant BBE preparation",
+      "value": "Delhi University’s B.A. (Hons.) Business Economics curriculum includes accounting, mathematics, statistics, corporate finance, marketing and econometrics—subjects that can provide a quantitative and business foundation for analyst work.",
+      "source_urls": [
+        "https://academicaffairs.du.ac.in/syllabi/department-of-finance-and-business-economics/",
+        "https://shivaji.du.ac.in/academics/departments/business_economics/learningoutcomeandsyllabus.php"
+      ]
+    },
+    {
+      "label": "Core capability mix",
+      "value": "Current India-based employer postings commonly seek requirements analysis, stakeholder communication, process improvement, analytical problem-solving and, depending on the role, SQL, data analysis, dashboards and agile-delivery practices.",
+      "source_urls": [
+        "https://careers.wipro.com/job/Bengaluru-Business-Analyst-IND-560035/133524-en_US/",
+        "https://careers.wipro.com/job/BUSINESS-ANALYST/168492-en_US/"
+      ]
+    },
+    {
+      "label": "Optional professional credentialing",
+      "value": "IIBA positions ECBA as an entry-level business-analysis credential; its current FAQ states that there are no specific eligibility requirements to sit the ECBA exam, while CBAP is intended for experienced practitioners with five or more years of work experience.",
+      "source_urls": [
+        "https://www.iiba.org/business-analysis-certifications/certification-faq/",
+        "https://www.iiba.org/business-analysis-certifications/ecba/",
+        "https://www.iiba.org/business-analysis-certifications/cbap/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Business Analyst does",
+      "paragraphs": [
+        "A Business Analyst clarifies a business problem or opportunity with stakeholders and converts it into usable requirements for delivery teams. In technology and transformation settings, this typically includes interviews or workshops, process mapping, requirements documentation, impact analysis, and communication between business users, product owners and technical teams.",
+        "The role also helps validate whether a delivered solution meets the agreed need. Depending on the employer and domain, this can involve defining user stories and acceptance criteria, maintaining requirement traceability, preparing test scenarios, supporting user-acceptance testing (UAT), analysing operational or customer data, and identifying process-improvement opportunities."
+      ],
+      "bullets": [
+        "Elicit and prioritise functional and non-functional requirements.",
+        "Model current and target processes; document business rules, workflows and dependencies.",
+        "Translate requirements into BRDs, functional specifications, user stories or acceptance criteria.",
+        "Coordinate with stakeholders, product, engineering, quality-assurance and delivery teams.",
+        "Support data validation, reporting, testing, UAT and business sign-off."
+      ],
+      "source_urls": [
+        "https://careers.wipro.com/job/Bengaluru-BUSINESS-ANALYST-CREW-IND-560035/189691-en_US/",
+        "https://careers.wipro.com/job/Bengaluru-Business-Analyst-IND-560035/133524-en_US/",
+        "https://careers.wipro.com/job/ServiceNow-Business-Analyst/167264-en_US/"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from BBE or management training",
+      "paragraphs": [
+        "A BBE route is relevant because the programme combines economics and business with quantitative and applied subjects. Delhi University’s published structure includes mathematics, statistics, accounting, finance, marketing and econometrics, while its learning-outcome material emphasises research methods, data analysis and managerial decision-making. These capabilities can be developed further through internships, projects and entry-level roles involving process, reporting, operations or product support.",
+        "A management-trainee route can also be practical where rotations expose a graduate to operations, finance, customer processes, reporting or project delivery. The transition is strongest when the trainee builds evidence of analysing an “as-is” process, proposing an improvement, working with stakeholders and documenting requirements or performance measures. Employers’ requirements vary: one current Hyderabad posting sought an MBA or equivalent master’s degree and 2–5 years of relevant experience, whereas IIBA’s ECBA is designed as an entry credential for people beginning business-analysis careers."
+      ],
+      "bullets": [
+        "Build a portfolio from coursework, internships or trainee rotations: process maps, requirement notes, KPI analyses, dashboard briefs or UAT test cases.",
+        "Target junior analyst, operations analyst, business-operations, reporting, implementation, product-support or consulting roles where requirements and process work are visible.",
+        "Choose domain exposure deliberately—such as banking, retail, healthcare, aviation, public services or enterprise software—because many experienced BA roles combine core analysis with domain knowledge.",
+        "Treat certifications as supplementary evidence, not a substitute for demonstrable analysis, communication and delivery experience."
+      ],
+      "source_urls": [
+        "https://academicaffairs.du.ac.in/syllabi/department-of-finance-and-business-economics/",
+        "https://shivaji.du.ac.in/academics/departments/business_economics/learningoutcomeandsyllabus.php",
+        "https://careers.wipro.com/job/BUSINESS-ANALYST/168492-en_US/",
+        "https://www.iiba.org/business-analysis-certifications/ecba/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The durable core is structured problem-solving: understanding an ambiguous business need, asking precise questions, separating assumptions from requirements, modelling a process, and communicating an agreed scope clearly to varied audiences. Employer postings repeatedly pair these capabilities with documentation, stakeholder engagement, gap analysis and process modelling.",
+        "Technical depth should match the target domain. Data-oriented roles may require SQL, data mapping, validation, dashboards and KPI reporting; digital-delivery roles may use Jira, Confluence, Visio or equivalent tools and agile artefacts such as epics, user stories and acceptance criteria. These are role-specific requirements rather than universal entry requirements."
+      ],
+      "bullets": [
+        "Requirements elicitation, workshop facilitation and stakeholder management.",
+        "Business-process analysis, gap analysis, workflow/process mapping and change-impact analysis.",
+        "Clear writing: BRDs, functional specifications, user stories, acceptance criteria and UAT documentation.",
+        "Data literacy: spreadsheets, SQL fundamentals, data quality checks, KPI interpretation and visual reporting where relevant.",
+        "Delivery awareness: agile ways of working, backlog refinement, traceability, testing and UAT.",
+        "Domain knowledge relevant to the employer’s products, regulations, operations and customers."
+      ],
+      "source_urls": [
+        "https://careers.wipro.com/job/Bengaluru-BUSINESS-ANALYST-CREW-IND-560035/189691-en_US/",
+        "https://careers.wipro.com/job/BUSINESS-ANALYST-L5/183599-en_US/",
+        "https://careers.wipro.com/job/Bengaluru-Business-Analyst-IND-560035/133524-en_US/"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is done",
+      "paragraphs": [
+        "Business Analysts work across business functions and sectors rather than in a single industry. Current employer descriptions show roles in data products, financial and regulatory reporting, enterprise-service transformation and aviation systems; the common feature is coordination across business stakeholders and delivery or technology teams.",
+        "The day-to-day mix can include stakeholder meetings, workshops, documentation, analysis, backlog or change discussions, and testing or UAT coordination. Work arrangements, travel, shifts and office-location requirements are employer- and project-specific; for example, a current Hyderabad posting explicitly lists work from office and client-based shifts."
+      ],
+      "bullets": [
+        "Typical collaborators: business users, operations leaders, product managers, developers, architects, data teams, QA teams and external clients.",
+        "Typical settings: consulting and IT services, in-house product teams, operations transformation, analytics/reporting teams and regulated-industry change programmes.",
+        "A domain-specialist BA role may require understanding of sector processes, data definitions, standards or compliance obligations in addition to general BA methods."
+      ],
+      "source_urls": [
+        "https://careers.wipro.com/job/Bengaluru-Business-Analyst-IND-560035/133524-en_US/",
+        "https://careers.wipro.com/job/BUSINESS-ANALYST-CREW-IND-560035/189691-en_US/",
+        "https://careers.wipro.com/job/BUSINESS-ANALYST/168492-en_US/"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and professional development",
+      "paragraphs": [
+        "Progression commonly moves from building foundational analysis capability to independently managing more complex requirements, stakeholders, domains and delivery outcomes. IIBA describes a tiered certification pathway: ECBA for people entering the field, CCBA for practitioners with roughly two to three years of practical experience, and CBAP for seasoned professionals with more than five years’ experience.",
+        "For experienced practitioners, progression can mean leading requirements for a product, platform or transformation workstream; becoming a domain, data or systems specialist; mentoring junior analysts; or moving toward product, project, consulting, operations-improvement or business-architecture responsibilities. Exact titles and promotion criteria differ by employer, so evidence of outcomes—such as improved process performance, clearer requirements, successful UAT or reduced rework—is more useful than title alone."
+      ],
+      "bullets": [
+        "Early stage: develop sound elicitation, documentation, analysis and UAT skills under supervision.",
+        "Developing practitioner: own defined workstreams, handle stakeholders directly and deepen a business or technology domain.",
+        "Senior stage: lead complex cross-functional analysis, manage ambiguity and change impacts, set standards and mentor others.",
+        "IIBA’s current CBAP eligibility includes at least 7,500 hours of qualifying business-analysis work in the previous 10 years, 35 professional-development hours in the previous four years and two references; these are certification requirements, not employment requirements."
+      ],
+      "source_urls": [
+        "https://www.iiba.org/professional-development/career-centre/what-is-business-analysis/",
+        "https://www.iiba.org/business-analysis-certifications/certification-faq/",
+        "https://www.iiba.org/business-analysis-certifications/cbap/",
+        "https://careers.wipro.com/job/Bengaluru-BUSINESS-ANALYST-CREW-IND-560035/189691-en_US/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Delhi University: B.A. (Hons.) Business Economics programme structure",
+      "url": "https://academicaffairs.du.ac.in/syllabi/department-of-finance-and-business-economics/",
+      "kind": "university curriculum"
+    },
+    {
+      "label": "Wipro India: Business Analyst role example, Bengaluru",
+      "url": "https://careers.wipro.com/job/Bengaluru-Business-Analyst-IND-560035/133524-en_US/",
+      "kind": "employer role description"
+    },
+    {
+      "label": "Wipro India: Business Analyst role example, Hyderabad",
+      "url": "https://careers.wipro.com/job/BUSINESS-ANALYST/168492-en_US/",
+      "kind": "employer role description"
+    },
+    {
+      "label": "IIBA: Entry Certificate in Business Analysis (ECBA)",
+      "url": "https://www.iiba.org/business-analysis-certifications/ecba/",
+      "kind": "professional-body credential"
+    },
+    {
+      "label": "IIBA: Core certification eligibility FAQ",
+      "url": "https://www.iiba.org/business-analysis-certifications/certification-faq/",
+      "kind": "professional-body guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

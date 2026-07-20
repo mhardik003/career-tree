@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Relevant entry-level technical route",
+      "value": "DGT’s Craftsmen Training Scheme lists the Industrial Robotics & Digital Manufacturing Technician trade as a one-year (1,200-hour), engineering trade with Class 10 pass eligibility and NSQF level 3.5. It is a practical starting route for a founder or early hire, rather than a requirement to become an entrepreneur.",
+      "source_urls": [
+        "https://dgt.gov.in/en/node/1165"
+      ]
+    },
+    {
+      "label": "Current MSME classification context",
+      "value": "From 1 April 2025, the Udyam portal lists the micro-enterprise ceiling as investment up to ₹2.5 crore and turnover up to ₹10 crore; the small-enterprise ceiling as ₹25 crore and ₹100 crore respectively. Classification uses both measures.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/Important.aspx"
+      ]
+    },
+    {
+      "label": "Udyam registration",
+      "value": "The Government of India describes Udyam registration as online, paperless, self-declaration based, free of charge, and not requiring renewal. PAN and GST-linked data are used, with GSTIN required where applicable under the CGST Act.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/Important.aspx"
+      ]
+    },
+    {
+      "label": "GST registration context",
+      "value": "For a typical taxable automation-integration business, CBIC states that GST registration liability generally begins when aggregate turnover in a financial year exceeds ₹20 lakh, subject to special-category-state thresholds and statutory exceptions. The applicable position should be checked for the business’s supply mix and states of operation.",
+      "source_urls": [
+        "https://cbic-gst.gov.in/sectoral-faq.html"
+      ]
+    },
+    {
+      "label": "Optional startup-recognition route",
+      "value": "DPIIT Startup Recognition is optional, not a general business licence. Startup India lists eligible entity forms, innovation/scalability conditions, a turnover ceiling of ₹200 crore in prior financial years, and a normal recognition window of up to 10 years; an automation venture must independently meet those conditions.",
+      "source_urls": [
+        "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes: combine factory experience with controls and commissioning capability",
+      "paragraphs": [
+        "A credible founder route is to build hands-on experience in maintenance, electrical controls, instrumentation, machine building, or production engineering, then move into solution delivery for a defined factory problem such as conveyor control, retrofit monitoring, panel integration, robotic cells, or machine-data capture. The business is more viable when its technical lead can translate a production need into a safe, supportable controls scope rather than merely resell hardware.",
+        "The formal-skilling route can begin early: DGT lists a Class-10-entry, one-year Industrial Robotics & Digital Manufacturing Technician trade. For working technicians and supervisors, NSTI Bengaluru’s 2026–27 calendar illustrates short technical training covering industrial robotics, mechatronics, PLC programming, sensors, actuators, I/O interfacing, communications protocols, motors, hydraulics and pneumatics. Course availability, admission rules and dates are provider-specific and change over time."
+      ],
+      "bullets": [
+        "Start with a technical base in electrical/electronics, instrumentation, mechatronics, maintenance, or industrial production, then accumulate supervised commissioning experience.",
+        "Build a demonstrable portfolio: control-panel drawings, PLC/HMI programs, commissioning records, fault reports, bills of materials, and customer-approved acceptance results.",
+        "Use vendor-neutral fundamentals first—safety circuits, sensors, motors/drives, PLC I/O, industrial communications and documentation—then deepen capability in the platforms used by the target customer segment."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/node/1165",
+        "https://nstibengaluru.dgt.gov.in/sites/default/files/2026-04/NSTI_Bengaluru_Training%20Calender%2026-27.pdf"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities that an industrial-automation venture must assemble",
+      "paragraphs": [
+        "The technical core is interdisciplinary. NSTI’s industrial-automation training outline explicitly spans fixed, programmable and flexible automation; sensors, controllers and PLCs; actuators and feedback systems; PLC architecture and I/O modules; ladder-logic programming; motors; pneumatic and hydraulic systems; and applications such as motor-conveyor systems. A solutions entrepreneur should be able to lead or procure capability across this stack.",
+        "Technical competence alone is insufficient. The company also needs requirements discovery on the shop floor, electrical and mechanical interface control, bill-of-material discipline, panel and wiring documentation, testing, commissioning, operator handover, troubleshooting and after-sales response. These delivery practices reduce scope ambiguity and make a retrofit maintainable after installation."
+      ],
+      "bullets": [
+        "Controls engineering: I/O list, PLC/HMI/SCADA logic, alarms, interlocks, communications and version-controlled backups.",
+        "Integration: sensors, actuators, drives, robots, panels, pneumatic/hydraulic interfaces and machine or line interfaces.",
+        "Delivery assurance: risk assessment, test procedures, site commissioning plan, as-built documentation, operator training and service escalation.",
+        "Commercial capability: quotation assumptions, change-control, procurement lead-time management, warranties and service-level commitments."
+      ],
+      "source_urls": [
+        "https://nstibengaluru.dgt.gov.in/sites/default/files/2026-04/NSTI_Bengaluru_Training%20Calender%2026-27.pdf",
+        "https://dgt.gov.in/en/node/1165"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating model: sell an outcome, deliver a documented system, support the installed base",
+      "paragraphs": [
+        "A practical model is project-led integration followed by recurring support. Begin with a paid or tightly scoped assessment of the production problem; define interfaces, safety boundaries, acceptance criteria, exclusions and customer responsibilities; then engineer, procure, assemble or coordinate panels and equipment, commission on site, and hand over backups, drawings and operating instructions. This sequence is an operational inference from the breadth of industrial-automation work reflected in official NSTI training, which covers components, PLC programming, interfacing and application systems.",
+        "Early-stage firms can reduce capital exposure by focusing on one or two repeatable use cases—such as machine retrofits, conveyor controls, production monitoring, packaging-line integration, or maintenance spares and support—rather than promising every form of robotics and digitisation. The objective is reusable engineering templates and a referenceable installed base, while keeping site-specific scope under change control."
+      ],
+      "bullets": [
+        "Revenue mix: assessment/design fees, equipment and panel supply, implementation/commissioning, training, spares, annual maintenance and remote/on-call support.",
+        "Delivery controls: approved design, frozen I/O and interface list, factory/site test records, customer acceptance sign-off, as-built files and software-backup custody terms.",
+        "Working-capital controls: align customer milestones with long-lead procurement; do not treat an unapproved variation as included work."
+      ],
+      "source_urls": [
+        "https://nstibengaluru.dgt.gov.in/sites/default/files/2026-04/NSTI_Bengaluru_Training%20Calender%2026-27.pdf"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance: treat electrical safety, tax registration and site permissions as design constraints",
+      "paragraphs": [
+        "Automation projects that alter or connect electrical installations must be planned around the Central Electricity Authority’s 2023 safety regulations and applicable standards. The regulations state that material and apparatus must conform to relevant standards; address safe-condition requirements, switchgear, earthing, conductor identification and danger notices for installations above specified voltages. The exact obligations, inspection route and authorised-person requirements can depend on the voltage, installation, customer category and state or local rules, so obtain project-specific advice before energisation.",
+        "Business compliance should be built into the quotation and operating process. Udyam registration is available through the official government portal for eligible enterprises, while GST registration and invoicing obligations depend on turnover, supply type and statutory exceptions. A company should use its accountant or tax professional to verify registration, invoicing, input-tax-credit and interstate-supply treatment before contracting across states."
+      ],
+      "bullets": [
+        "Include electrical drawings, earthing/switchgear provisions, warning-sign requirements where applicable, inspection responsibility and energisation prerequisites in the project plan.",
+        "Confirm who owns each interface: customer electrical system, machine OEM, panel builder, integrator, civil contractor and commissioning authority.",
+        "Use only the official Udyam portal or government single-window systems for MSME registration; the portal warns that private agencies are not authorised to perform Udyam registration.",
+        "Review GST obligations before issuing tax invoices or accepting interstate work; CBIC identifies threshold rules and exceptions rather than a one-rule-fits-all outcome."
+      ],
+      "source_urls": [
+        "https://cea.nic.in/wp-content/uploads/notification/2023/06/pdf_100_183_English.pdf",
+        "https://udyamregistration.gov.in/Important.aspx",
+        "https://cbic-gst.gov.in/sectoral-faq.html"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths: deepen delivery quality, then scale from projects to repeatable solutions",
+      "paragraphs": [
+        "A sensible progression is from technician-led retrofit and controls work to a specialised systems integrator, then to a firm with reusable panels, software libraries, service contracts and sector-specific solutions. Growth should follow evidence of safe commissioning, repeat customers, documented support capability and reliable supply-chain execution—not only larger equipment orders.",
+        "Eligible MSMEs can examine the Ministry of MSME’s Sustainable (ZED) Certification programme. The ministry describes it as a quality and productivity improvement programme and lists graded certification, subsidies and support for testing, certification, handholding and technology upgradation; the actual availability and financial assistance are scheme-specific and should be verified at application time. An innovative and scalable venture may separately assess DPIIT Startup Recognition, but this is conditional on the formal eligibility criteria and is not automatic for an automation reseller or integrator."
+      ],
+      "bullets": [
+        "Specialist integrator: own a narrow set of customer problems and become the trusted commissioning and support partner.",
+        "Solution provider: productise repeatable control-panel, software, data-acquisition or retrofit modules while retaining engineering review for each site.",
+        "Managed-services provider: add preventive support, spares planning, remote diagnostics and performance-improvement engagements once installed-base reliability is established.",
+        "Quality-led MSME: consider ZED-related support where the venture is eligible and the certification effort fits customer and operational goals."
+      ],
+      "source_urls": [
+        "https://www.msme.gov.in/offerings/schemes-and-services/details/technology-upgradation-and-quality-certification-kjNzETMtQWa",
+        "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DGT — Industrial Robotics & Digital Manufacturing Technician",
+      "url": "https://dgt.gov.in/en/node/1165",
+      "kind": "training"
+    },
+    {
+      "label": "NSTI Bengaluru — 2026–27 training calendar",
+      "url": "https://nstibengaluru.dgt.gov.in/sites/default/files/2026-04/NSTI_Bengaluru_Training%20Calender%2026-27.pdf",
+      "kind": "training"
+    },
+    {
+      "label": "Udyam Registration Portal — important information",
+      "url": "https://udyamregistration.gov.in/Important.aspx",
+      "kind": "government-registration"
+    },
+    {
+      "label": "CEA — Measures Relating to Safety and Electric Supply Regulations, 2023",
+      "url": "https://cea.nic.in/wp-content/uploads/notification/2023/06/pdf_100_183_English.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "Startup India — DPIIT Startup Recognition",
+      "url": "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html",
+      "kind": "government-programme"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

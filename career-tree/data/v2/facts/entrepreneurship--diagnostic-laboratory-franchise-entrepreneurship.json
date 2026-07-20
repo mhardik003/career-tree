@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What the franchise model is",
+      "value": "A diagnostic collection-centre franchise is ordinarily a site that collects patient specimens for an established medical laboratory under a commercial agreement; NABL’s collection-centre guidance expressly describes a franchisee arrangement in which the laboratory or parent company does not own the site but arranges for sample collection.",
+      "source_urls": [
+        "https://nabl-india.org/nabl/file_download1.php?filename=201905031045-NABL-112-effective-from-01.06.2019-doc.pdf",
+        "https://nabl-india.org/nabl/file_download1.php?filename=202401250549-NABL-111-doc.pdf"
+      ]
+    },
+    {
+      "label": "Indicative franchisor entry requirements",
+      "value": "Requirements are brand- and city-specific. As a dated July 2026 example, Dr Lal PathLabs advertises an exclusive collection-centre opportunity with approximately 200–250 sq. ft. of ground-floor space, a toilet facility, and an indicative minimum investment of about ₹3–4 lakh; this is marketing information, not a universal fee or profitability benchmark.",
+      "source_urls": [
+        "https://www.lalpathlabs.com/business-partnership/become-a-franchise"
+      ]
+    },
+    {
+      "label": "Regulatory character",
+      "value": "A laboratory or diagnostic centre falls within the definition of a clinical establishment under the Clinical Establishments (Registration and Regulation) Act framework. Implementation and registration are handled through the applicable State/UT framework and district-level authority where that Act applies; other states may have their own requirements.",
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/en/faq",
+        "https://clinicalestablishments.mohfw.gov.in/en"
+      ]
+    },
+    {
+      "label": "Quality and sample integrity",
+      "value": "For collection centres, the integrity of specimens through collection, handling, transport and processing is central to reliable results. NABL maintains a specific procedure for recognition of sample collection centres/facilities declared by medical laboratories.",
+      "source_urls": [
+        "https://nabl-india.org/nabl/file_download1.php?filename=201905031045-NABL-112-effective-from-01.06.2019-doc.pdf",
+        "https://nabl-india.org/nabl/index.php?+m=index&c=publicaccredationdoc&docType=both"
+      ]
+    },
+    {
+      "label": "Biomedical-waste responsibility",
+      "value": "Pathological laboratories and clinical establishments are covered by the Biomedical Waste Management Rules framework. CPCB guidance states that the occupier is responsible for proper segregation, handling, storage, transport and disposal, and describes authorization through the relevant State Pollution Control Board or Pollution Control Committee.",
+      "source_urls": [
+        "https://cpcb.nic.in/uploads/projects/bio-medical-waste/guidelines_healthcare_june_2018.pdf",
+        "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvOTIyXzE1NjQwMzg5OTFfbWVkaWFwaG90bzE0Mjg2LnBkZg%3D%3D"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entry route: become a collection-centre franchise operator",
+      "paragraphs": [
+        "The most accessible route is generally to apply directly to a diagnostics brand for a collection-centre franchise, rather than attempting to establish a full independent testing laboratory. The prospective operator typically proposes a location, completes the brand’s due diligence and commercial agreement, readies the premises, recruits or arranges trained collection personnel, and completes the registrations and local permissions applicable to that site before opening.",
+        "A collection-centre franchise should not be treated as a licence to independently perform every laboratory function. NABL distinguishes a franchise collection centre from a laboratory-owned or laboratory-managed centre: in the franchise model, the collection site is not owned by the laboratory or parent company but collects samples under an agreement. The agreement should therefore be examined closely for scope of testing, logistics, training, reporting, supplies, branding, pricing, service levels, revenue share, exclusivity, renewal and exit terms.",
+        "There is no single India-wide franchise fee, space norm or return-on-investment figure. Franchisor advertisements are useful only as dated examples: Dr Lal PathLabs’ July 2026 webpage states an indicative ₹3–4 lakh minimum investment and approximately 200–250 sq. ft. ground-floor space with a toilet facility. A candidate should obtain the current written commercial proposal and independently model rent, staff, consumables, local transport, waste handling and working capital."
+      ],
+      "bullets": [
+        "Start with brands that disclose the collection-centre model and assess the proposed pin code/location.",
+        "Verify whether the offer is only for specimen collection, a broader diagnostic centre, or includes imaging; compliance and capital needs differ materially.",
+        "Before signing, obtain a written list of mandatory site, staffing, equipment, training, sample-pickup, IT, quality and local-registration requirements.",
+        "Use the applicable State/UT clinical-establishment authority and pollution-control authority—not only the franchisor’s sales material—to confirm local permissions."
+      ],
+      "source_urls": [
+        "https://nabl-india.org/nabl/file_download1.php?filename=201905031045-NABL-112-effective-from-01.06.2019-doc.pdf",
+        "https://www.lalpathlabs.com/business-partnership/become-a-franchise",
+        "https://www.clinicalestablishments.mohfw.gov.in/en/faq"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities needed to operate safely and credibly",
+      "paragraphs": [
+        "The entrepreneur role is primarily an operations, patient-service and quality-control role. Useful capabilities include site management, appointment and walk-in workflow, patient identification and consent processes, cold-chain and dispatch discipline, stock control, service recovery, local outreach and careful reconciliation of orders, payments and reports.",
+        "Technical work must be performed within the parent laboratory’s documented procedures and staffing model. NABL guidance emphasizes that specimen integrity at collection, handling, transport and processing is vital to reliable results; this makes training, traceability and escalation of rejected or delayed samples operationally important rather than optional.",
+        "The operator should not present themselves as providing medical interpretation merely because they run the collection point. The National Medical Commission’s published Board of Governors minutes distinguish technical test-result reporting from medical diagnosis or clinical opinion, and state that reports containing medical diagnosis and/or medical opinion are to be signed by medically qualified professionals. The exact reporting arrangement should be set by the parent laboratory and applicable law."
+      ],
+      "bullets": [
+        "Patient-facing communication and complaint handling without giving unqualified medical advice.",
+        "Strict specimen labelling, chain-of-custody, packaging, temperature-control and dispatch habits.",
+        "Ability to train and supervise staff against the laboratory’s collection manual and infection-control procedures.",
+        "Basic commercial discipline: locality demand assessment, referral-channel ethics, cashless/insurer workflow where offered, and privacy-conscious record handling."
+      ],
+      "source_urls": [
+        "https://nabl-india.org/nabl/file_download1.php?filename=201905031045-NABL-112-effective-from-01.06.2019-doc.pdf",
+        "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FMeetings%2FBoard+of+Governors%2F2020%2F01%2F06%2F25th+Meeting+Minutes+of+BoG-06.01.2020.pdf"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "How the collection-centre operating model works",
+      "paragraphs": [
+        "In a typical collection-centre model, the franchise site acts as the local patient-access point: it receives bookings and walk-ins, verifies the test order and patient details, collects and labels specimens, manages pre-analytical handling, and dispatches specimens to the parent or reference laboratory. The parent laboratory performs the testing and releases reports through its controlled reporting system. NABL’s guidance recognizes franchisee collection centres as an arrangement for sample collection under an agreement with the laboratory or its parent company.",
+        "The business is therefore sensitive to pre-analytical quality and logistics. The operator should define cut-off times, pickup frequency, packaging, temperature conditions where relevant, rejection criteria, incident logging and escalation contacts with the parent laboratory. These procedures affect turnaround time, repeat collections, patient experience and the reliability of the result.",
+        "Commercial terms vary substantially. Instead of relying on headline ROI claims, evaluate unit economics using the actual test menu and net realization offered for the location, expected daily samples, rent, employee cost, phlebotomy/home-collection cost, consumables, local marketing, IT and payment-cycle assumptions. Brand-stated investment figures and profitability claims should be treated as non-guaranteed, dated commercial context."
+      ],
+      "bullets": [
+        "Collection-only model: lower technical infrastructure than a full testing laboratory, but high dependence on parent-lab logistics and quality systems.",
+        "Home collection may be an additional service only if the franchise agreement, staffing, packaging, transport and local compliance support it.",
+        "A written service-level arrangement should clarify pickup windows, report turnaround, sample rejection/recollection responsibility, IT access, use of brand marks and complaint escalation."
+      ],
+      "source_urls": [
+        "https://nabl-india.org/nabl/file_download1.php?filename=201905031045-NABL-112-effective-from-01.06.2019-doc.pdf",
+        "https://nabl-india.org/nabl/file_download1.php?filename=202401250549-NABL-111-doc.pdf",
+        "https://www.lalpathlabs.com/business-partnership/become-a-franchise"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance checklist: confirm locally before launch",
+      "paragraphs": [
+        "Clinical-establishment registration is a core checkpoint. The Ministry of Health and Family Welfare states that laboratories and diagnostic centres are clinical establishments under the central framework, that the owner is responsible for registration, and that implementation is through the relevant State council and District Registering Authority. Because the central Act is implemented only in adopting States/UTs and health-business requirements are also state- and local-body-specific, the operator must check the rules in the exact site jurisdiction.",
+        "Biomedical-waste controls apply even to a small specimen-collection operation. CPCB guidance identifies pathological laboratories and clinical establishments within the Biomedical Waste Management Rules framework and assigns responsibility to the occupier for safe segregation, handling, storage, transport and disposal. It also says healthcare facilities must segregate waste at the point of generation and describes authorization by the relevant State Pollution Control Board/Pollution Control Committee.",
+        "Quality compliance should be contractually tied to the parent laboratory’s approved collection-centre procedures. NABL publishes NABL 111 specifically for recognition of collection centres/facilities declared by medical laboratories and lists medical-laboratory accreditation under ISO 15189. A candidate should verify the parent laboratory’s current accreditation status and the scope relevant to the offered services, rather than assuming that brand affiliation alone establishes accreditation for every site or test.",
+        "If the proposed model adds radiology, ultrasound, point-of-care testing, a processing laboratory, or any service beyond routine sample collection, seek specialist regulatory advice before investing. Those additions can change staffing, equipment, registration, quality-system and sectoral legal obligations."
+      ],
+      "bullets": [
+        "Confirm clinical-establishment registration or equivalent state/local registration requirements for the exact address.",
+        "Confirm biomedical-waste authorization/arrangements, colour-coded segregation, labelled containers, storage and handover to an authorized treatment facility as applicable.",
+        "Maintain documented staff training, sample collection and transport procedures, equipment maintenance and incident/rejection records required by the parent laboratory.",
+        "Do not issue, alter or clinically interpret reports outside the parent laboratory’s authorized reporting and signatory process.",
+        "Check municipal trade, fire, building-use, labour, tax and local health permissions with the relevant authorities; requirements vary by jurisdiction."
+      ],
+      "source_urls": [
+        "https://www.clinicalestablishments.mohfw.gov.in/en/faq",
+        "https://cpcb.nic.in/uploads/projects/bio-medical-waste/guidelines_healthcare_june_2018.pdf",
+        "https://nabl-india.org/nabl/index.php?+m=index&c=publicaccredationdoc&docType=both",
+        "https://nabl-india.org/nabl/file_download1.php?filename=202401250549-NABL-111-doc.pdf"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths from a collection-centre franchise",
+      "paragraphs": [
+        "A well-run collection centre can grow through denser local coverage, repeat preventive-health customers, employer or institutional collection arrangements where permitted, improved home-collection operations, and additional collection points—subject to the franchisor agreement and local approvals. The first expansion priority should be consistent specimen quality and dependable parent-laboratory logistics, because NABL identifies sample integrity across collection, handling, transport and processing as fundamental to reliable results.",
+        "A later move into a larger processing or medical laboratory is a materially different undertaking, not merely a larger franchise outlet. The Clinical Establishments framework has notified minimum standards for medical diagnostic/pathological laboratories, while NABL’s medical-laboratory accreditation programme operates to ISO 15189. Expansion should therefore be planned as a new compliance, staffing, equipment, quality-management and capital decision.",
+        "An alternative progression is to remain in the network model while becoming an area operator or adding approved collection capacity. The right path depends on the franchise agreement, local demand, turnaround-time feasibility and the parent laboratory’s willingness to extend territory or services."
+      ],
+      "bullets": [
+        "Near term: improve collection quality, local awareness, patient convenience and dispatch reliability.",
+        "Network scale: add approved collection points or home-collection capacity only under documented parent-lab controls.",
+        "Laboratory scale: assess full laboratory standards, accredited quality systems, qualified personnel and local permissions before committing capital."
+      ],
+      "source_urls": [
+        "https://nabl-india.org/nabl/file_download1.php?filename=201905031045-NABL-112-effective-from-01.06.2019-doc.pdf",
+        "https://clinicalestablishments.mohfw.gov.in/notification"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "MoHFW Clinical Establishments Act FAQ",
+      "url": "https://www.clinicalestablishments.mohfw.gov.in/en/faq",
+      "kind": "government guidance"
+    },
+    {
+      "label": "MoHFW notifications for medical diagnostic laboratory minimum standards",
+      "url": "https://clinicalestablishments.mohfw.gov.in/notification",
+      "kind": "government regulation"
+    },
+    {
+      "label": "NABL 111: recognition procedure for sample collection centres/facilities",
+      "url": "https://nabl-india.org/nabl/file_download1.php?filename=202401250549-NABL-111-doc.pdf",
+      "kind": "quality standard"
+    },
+    {
+      "label": "NABL accreditation documents index",
+      "url": "https://nabl-india.org/nabl/index.php?+m=index&c=publicaccredationdoc&docType=both",
+      "kind": "professional-body guidance"
+    },
+    {
+      "label": "CPCB healthcare-waste management guidance",
+      "url": "https://cpcb.nic.in/uploads/projects/bio-medical-waste/guidelines_healthcare_june_2018.pdf",
+      "kind": "environmental compliance guidance"
+    },
+    {
+      "label": "Example collection-centre franchise page: Dr Lal PathLabs",
+      "url": "https://www.lalpathlabs.com/business-partnership/become-a-franchise",
+      "kind": "employer/franchisor information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

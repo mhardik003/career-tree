@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "SET/SLET denotes a State Eligibility Test or State Level Eligibility Test: an accredited, state-level eligibility examination used in the higher-education faculty-recruitment framework.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page875.html"
+      ]
+    },
+    {
+      "label": "Primary purpose",
+      "value": "It establishes eligibility for Assistant Professor appointments; it is not itself a recruitment examination or a job offer.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page946.html"
+      ]
+    },
+    {
+      "label": "Geographic scope",
+      "value": "A SLET/SET qualification is valid as the minimum eligibility for direct recruitment in the respective state; candidates should check the recruiting institution’s notification and applicable regulations.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page875.html"
+      ]
+    },
+    {
+      "label": "Conducting bodies",
+      "value": "The examination is administered by state-designated agencies rather than through one single national SET authority. For example, Savitribai Phule Pune University conducts M-SET for Maharashtra and Goa, while the West Bengal College Service Commission conducts WB SET.",
+      "source_urls": [
+        "https://www.wbcsc.org.in/wbcsc/SETNotice.aspx"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and position in the higher-education system",
+      "paragraphs": [
+        "SET/SLET is a state-level route within India’s Assistant Professor eligibility framework. UGC’s 2023 amendment states that NET/SET/SLET is the minimum criterion for direct recruitment to Assistant Professor posts in higher-education institutions. A state SET is therefore an eligibility credential, not a selection process: the relevant university, college, state government, or other employer still advertises vacancies and applies its own recruitment rules.",
+        "A critical practical distinction is territorial scope. UGC’s regulations state that SLET/SET is valid as minimum eligibility for direct recruitment in universities, colleges, and institutions in the respective state only. Applicants considering jobs outside the state for which they hold SET/SLET should read the specific recruitment notification and consider whether UGC-NET or another accepted qualification is required."
+      ],
+      "bullets": [
+        "SET/SLET qualification does not create a right to appointment or guarantee a teaching post.",
+        "The examination is state-administered; the conducting agency, subjects, schedule, language, reservation implementation, and procedures can differ by state.",
+        "Faculty recruitment additionally depends on the vacancy advertisement and applicable institutional, state, and UGC rules."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page946.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page875.html"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: check the current state bulletin and the eventual job advertisement",
+      "paragraphs": [
+        "Eligibility is not perfectly uniform across all SET/SLET agencies, so the current prospectus for the chosen state and subject is authoritative. In the M-SET 2025 official prospectus, applicants needed a UGC-recognised Master’s degree in a SET subject; candidates awaiting their final qualifying result could apply provisionally but needed to complete the Master’s degree within the prescribed period and achieve the required marks. That bulletin specified 55% for the general benchmark and 50% for listed eligible categories.",
+        "The same M-SET bulletin required candidates normally to take the subject corresponding to their postgraduate study; where a postgraduate subject was absent from the SET subject list, it allowed a related/equivalent subject in accordance with its stated guidance. It also stated that there was no upper age limit for applying. These are useful examples, not a substitute for another state agency’s current rules.",
+        "For an actual Assistant Professor application, qualifying SET/SLET is only one element. UGC’s regulatory framework and the recruiting employer’s notification determine the full qualification requirements, including the relevant subject, degree, category documentation, and any applicable exemptions or additional criteria."
+      ],
+      "bullets": [
+        "Before applying, verify: eligible postgraduate subject, minimum marks, category and domicile rules, provisional-result conditions, accepted documents, and whether the state permits the selected subject.",
+        "Use the category and reservation rules in the notification of the state conducting the examination; they can be state-specific.",
+        "Read the eventual employer’s faculty-vacancy notice separately from the SET/SLET bulletin."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page875.html"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Examination format",
+      "paragraphs": [
+        "There is no single nationwide SET/SLET paper pattern. The applicable state notification sets the mode, papers, timing, subjects, syllabus, question-paper medium, marking, and result methodology. As a concrete recent official illustration, M-SET 2025 used an OMR-based two-paper format: a general Paper I on teaching and research aptitude, followed by subject-specific Paper II. Both papers consisted of compulsory objective questions, and the bulletin stated that no negative marking applied.",
+        "Candidates should not assume that an older pattern or another state’s format will apply. West Bengal’s official SET page, for example, separately publishes state SET notices, syllabus material, and prior question papers, illustrating that state agencies maintain their own examination resources and cycles."
+      ],
+      "bullets": [
+        "Paper I commonly tests general teaching/research aptitude; confirm the actual syllabus and structure in the selected state’s bulletin.",
+        "Paper II is normally tied to the candidate’s selected academic subject; verify the available subject list.",
+        "Download and retain the official information bulletin, syllabus, and admit-card instructions for the particular examination cycle."
+      ],
+      "source_urls": [
+        "https://www.wbcsc.org.in/wbcsc/SETNotice.aspx"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process",
+      "paragraphs": [
+        "The process is cycle-specific and usually begins with the state agency’s online notification. An official M-SET example instructs candidates to read the information bulletin before submitting the online application, select their correct category and subject, and ensure that they satisfy eligibility themselves; candidature remains provisional and may be cancelled if ineligibility is found later.",
+        "A sound workflow is to use only the relevant official state SET/SLET portal: read the live notification; confirm eligibility and the correct subject; submit the online form and fee through the methods specified for that cycle; keep the confirmation and payment records; obtain the admit card when released; and monitor the official portal for answer-key, result, scorecard, or certificate notices. Do not treat dates, fees, centres, or correction windows from a past bulletin as current."
+      ],
+      "bullets": [
+        "Use the official portal rather than coaching or aggregator sites for the application link and deadlines.",
+        "Enter category, domicile, and subject carefully; state bulletins may limit later corrections.",
+        "Keep copies of the submitted form, payment receipt, admit card, results, and certificate/scorecard for future recruitment applications."
+      ],
+      "source_urls": [
+        "https://www.wbcsc.org.in/wbcsc/SETNotice.aspx"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation strategy",
+      "paragraphs": [
+        "Start with the official syllabus for the exact state SET/SLET cycle and subject, then map study time separately for the general aptitude paper and the subject paper. M-SET’s official bulletin describes Paper I as assessing teaching/research aptitude, reasoning, comprehension, divergent thinking, and general awareness, while Paper II covers the candidate’s chosen subject. The bulletin also directs candidates to the official SET and UGC syllabus resources.",
+        "Practice with authentic material wherever the state agency makes it available. The West Bengal College Service Commission’s SET portal links to SET syllabus and question papers, and its notices include answer-key and result-related publications. Use such agency material to understand the expected subject coverage and examination administration rather than relying solely on unofficial mock tests."
+      ],
+      "bullets": [
+        "Download the official syllabus first and turn it into a topic checklist.",
+        "Prepare Paper I and Paper II in parallel; do not treat the general paper as an afterthought.",
+        "Use official previous question papers, answer-key notices, and the current bulletin to practise timing and identify weak topics.",
+        "Recheck the live bulletin shortly before the exam for any changes to reporting, materials, or examination instructions."
+      ],
+      "source_urls": [
+        "https://www.wbcsc.org.in/wbcsc/SETNotice.aspx"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What qualifying SET/SLET does—and does not—do",
+      "paragraphs": [
+        "A qualifying SET/SLET result can meet the examination-eligibility component for direct Assistant Professor recruitment within the relevant state, subject to the applicable UGC rules and the individual employer’s requirements. It does not itself appoint the candidate. The M-SET agency explicitly states that its test determines eligibility and that the state/nodal agency is not liable to provide jobs to qualified candidates.",
+        "Qualification is also not a replacement for reading each faculty recruitment notice. The M-SET prospectus states that candidates who qualify are governed by the recruitment rules of the concerned universities, colleges, or state governments. Candidates should preserve the issued certificate or scorecard and use it when an eligible vacancy is advertised, while confirming that the post, subject, state scope, and all other qualifications match."
+      ],
+      "bullets": [
+        "Outcome: eligibility credential for the relevant state’s Assistant Professor recruitment framework.",
+        "Not an outcome: automatic placement, salary entitlement, or a guaranteed vacancy.",
+        "Next step: apply separately to eligible faculty vacancies and satisfy the recruitment advertisement in full."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page875.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC regulations compendium — SET/SLET state-scope provision",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page875.html",
+      "kind": "official_regulation"
+    },
+    {
+      "label": "UGC 2023 amendment — NET/SET/SLET criterion for Assistant Professor recruitment",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page946.html",
+      "kind": "official_regulation"
+    },
+    {
+      "label": "M-SET official portal — Savitribai Phule Pune University",
+      "url": "https://setexam.unipune.ac.in/",
+      "kind": "official_exam_portal"
+    },
+    {
+      "label": "West Bengal College Service Commission — SET notices, syllabus, and question-paper links",
+      "url": "https://www.wbcsc.org.in/wbcsc/SETNotice.aspx",
+      "kind": "official_exam_portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

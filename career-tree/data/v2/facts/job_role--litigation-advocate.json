@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Professional status",
+      "value": "In India, advocates are the recognised class entitled to practise the profession of law, subject to the Advocates Act, 1961 and rules made under it.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=36&sectionId=14666&sectionno=29"
+      ]
+    },
+    {
+      "label": "Core authorisation",
+      "value": "An advocate enrolled on a State roll has a statutory right to practise throughout India, including before courts, tribunals and authorities in which the advocate is entitled to practise.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/bitstream/123456789/15341/1/advocate_1961.pdf"
+      ]
+    },
+    {
+      "label": "Entry regulation",
+      "value": "Admission to a State roll is governed by section 24 of the Advocates Act, including the law-degree qualification and other statutory conditions; the Bar Council of India recognises law degrees for enrolment purposes.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?abv=MH&actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=29&orgactid=AC_MH_166_855_00017_00017_1618481714194&sectionId=14659&sectionno=24&statehandle=123456789%2F2517",
+        "https://www.barcouncilofindia.org/info/about-bci"
+      ]
+    },
+    {
+      "label": "Practice certificate",
+      "value": "The All India Bar Examination (AIBE) is a post-enrolment qualifying examination administered by the Bar Council of India; on clearing it, the candidate is awarded a certificate of practice.",
+      "source_urls": [
+        "https://www.barcouncilofindia.org/info/aibe"
+      ]
+    },
+    {
+      "label": "Ethical framework",
+      "value": "Litigation practice is regulated by Bar Council of India rules on professional conduct, including duties towards courts and clients.",
+      "source_urls": [
+        "https://www.barcouncilofindia.org/info/bci-rules",
+        "https://www.barcouncilofindia.org/info/rules-on-an-advocates-duty-towards-the-client"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a litigation advocate does",
+      "paragraphs": [
+        "A litigation advocate represents a party in contested legal proceedings. The work commonly combines taking and assessing instructions, researching law and facts, preparing pleadings and applications, filing and procedural follow-up, presenting submissions at hearings, and advising the client on the matter’s progress and available procedural options. Supreme Court materials illustrate the litigation workflow through forms for appearance and filings, and through applications for interim relief, stay, bail, amendment, delay condonation, withdrawal and other procedural relief.",
+        "Representation is bounded by professional duties. Bar Council of India rules require dignified conduct and respect towards the court, prohibit improper attempts to influence a court, and set client-facing obligations such as not ordinarily withdrawing after accepting a brief without sufficient cause and notice."
+      ],
+      "bullets": [
+        "Act for clients before appropriate courts, tribunals or authorities within the advocate’s entitlement to practise.",
+        "Draft, file and argue pleadings, affidavits, appeals, applications and related procedural documents.",
+        "Prepare for hearings by analysing evidence, legal authorities, court rules and the procedural posture of the case.",
+        "Maintain professional conduct, client loyalty and the advocate’s duties to the court."
+      ],
+      "source_urls": [
+        "https://www.barcouncilofindia.org/info/bci-rules",
+        "https://www.barcouncilofindia.org/info/rules-on-an-advocates-duty-towards-the-client",
+        "https://www.sci.gov.in/forms/",
+        "https://www.sci.gov.in/interlocutary-application/"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "How to enter litigation practice",
+      "paragraphs": [
+        "The usual route from the listed B.A. LL.B. (Hons.) or B.Sc. LL.B. (Hons.) parent nodes is to complete a law degree that is recognised for enrolment purposes, apply for enrolment on the relevant State Bar Council roll, and meet the conditions in section 24 of the Advocates Act, 1961. The Bar Council of India is the statutory body that sets legal-education standards and recognises universities whose law degrees qualify for enrolment.",
+        "For a graduate intending to practise as an advocate, the Bar Council of India describes AIBE as a post-enrolment qualifying examination. Its official information states that successful candidates receive a certificate of practice. AIBE schedules, eligibility processes and transitional rules can change, so candidates should verify the current State Bar Council and AIBE notices before acting.",
+        "A Legal Officer in a PSU can provide relevant exposure to disputes, contracts and regulatory work, but it does not by itself replace State Bar Council enrolment and the applicable practice requirements for someone moving into independent litigation advocacy."
+      ],
+      "bullets": [
+        "Choose a BCI-recognised law-degree route; the listed five-year integrated degrees are examples of undergraduate routes.",
+        "Check the current enrolment rules, documents, fees and eligibility requirements with the State Bar Council where enrolment is sought.",
+        "Enrol as an advocate on the State roll under the Advocates Act framework.",
+        "Complete AIBE and obtain the certificate of practice where applicable before relying on ongoing practice eligibility."
+      ],
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?abv=MH&actid=AC_CEN_3_46_00001_196125_1517807320172&orderno=29&orgactid=AC_MH_166_855_00017_00017_1618481714194&sectionId=14659&sectionno=24&statehandle=123456789%2F2517",
+        "https://www.barcouncilofindia.org/info/about-bci",
+        "https://www.barcouncilofindia.org/info/aibe",
+        "https://www.barcouncilofindia.org/info/bci-d-375--9wab17"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "Litigation calls for legal research, statutory and case-law analysis, clear drafting, fact organisation, oral submissions and procedural discipline. The BCI’s AIBE syllabus spans core subjects that regularly arise in litigation, including constitutional law, civil and criminal procedure, evidence, contract, property, family law, taxation, labour law and professional ethics.",
+        "Professional judgment is as important as technical knowledge. The BCI rules emphasise duties to the court, fair conduct, client service and avoiding conflicts such as appearing in a matter in which the advocate is likely to be a witness."
+      ],
+      "bullets": [
+        "Legal research and application of authorities to facts.",
+        "Drafting pleadings, affidavits, written submissions and procedural applications.",
+        "Oral advocacy, concise case presentation and hearing preparation.",
+        "Evidence and procedure literacy, especially civil and criminal procedure.",
+        "Professional ethics, client communication, confidentiality and conflict awareness."
+      ],
+      "source_urls": [
+        "https://www.barcouncilofindia.org/info/aibe",
+        "https://www.barcouncilofindia.org/info/bci-rules",
+        "https://www.barcouncilofindia.org/info/rules-on-an-advocates-duty-towards-the-client"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where litigation advocates work",
+      "paragraphs": [
+        "Litigation advocates may practise before courts, tribunals and other authorities. Their work is centred on case preparation and hearings, but also includes filing, service, record management and coordination with clients, clerks and other advocates. The precise forum depends on the matter and applicable procedural rules.",
+        "Some advocates also provide publicly funded legal representation through legal-services institutions. NALSA states that panel lawyers are empanelled for a fixed tenure and provide representation for those institutions while being permitted to take private cases; Legal Aid Defence Counsels provide criminal legal-aid representation within a district and are dedicated to that service."
+      ],
+      "bullets": [
+        "Independent chambers or shared advocate offices.",
+        "Litigation teams in law firms or solicitor practices.",
+        "Court-, tribunal- and authority-facing legal work for private clients, companies or public bodies.",
+        "Legal-aid panels and other legal-services institutions, subject to their engagement terms."
+      ],
+      "source_urls": [
+        "https://www.indiacode.nic.in/bitstream/123456789/15341/1/advocate_1961.pdf",
+        "https://nalsa.gov.in/faqs/"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and specialisation",
+      "paragraphs": [
+        "Progression in litigation is not a single employer-led ladder: advocates can deepen experience in a chosen forum or subject area, take on more complex matters, build a practice, work with or lead a chamber or litigation team, and pursue court-specific qualifications where relevant. The Advocates Act distinguishes senior advocates from other advocates, while the applicable designation process is governed by the Act and court rules.",
+        "At the Supreme Court, an Advocate-on-Record (AOR) is a distinct role connected to acting and filing pleadings under the Supreme Court Rules. The Supreme Court has stated that enrolment alone does not automatically confer this right; the AOR route involves prescribed training and an examination."
+      ],
+      "bullets": [
+        "Develop a focused practice in areas such as civil, criminal, constitutional, commercial, labour, tax, arbitration-related or public-law litigation.",
+        "Gain increasing responsibility for strategy, drafting, hearings and client management.",
+        "Consider the Supreme Court AOR pathway if Supreme Court filing and acting practice is a career objective.",
+        "Senior-advocate designation is a separate professional status, not an automatic promotion; eligibility and process should be checked against current rules."
+      ],
+      "source_urls": [
+        "https://www.indiacode.nic.in/bitstream/123456789/15341/1/advocate_1961.pdf",
+        "https://api.sci.gov.in/supremecourt/2017/11210/11210_2017_Judgement_17-Aug-2017.pdf",
+        "https://www.sci.gov.in/aor-examination/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Advocates Act, 1961 — India Code",
+      "url": "https://www.indiacode.nic.in/handle/123456789/12656?sam_handle=123456789%2F2490",
+      "kind": "law"
+    },
+    {
+      "label": "Bar Council of India — AIBE information",
+      "url": "https://www.barcouncilofindia.org/info/aibe",
+      "kind": "regulator_exam"
+    },
+    {
+      "label": "Bar Council of India — professional conduct rules",
+      "url": "https://www.barcouncilofindia.org/info/bci-rules",
+      "kind": "professional_rules"
+    },
+    {
+      "label": "Supreme Court of India — Advocate-on-Record information",
+      "url": "https://www.sci.gov.in/advocate-on-record/",
+      "kind": "court_professional_pathway"
+    },
+    {
+      "label": "National Legal Services Authority — FAQs on legal-aid providers",
+      "url": "https://nalsa.gov.in/faqs/",
+      "kind": "professional_context"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

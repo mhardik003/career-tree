@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Indian occupational reference",
+      "value": "The National Career Service (NCS), under the Ministry of Labour & Employment, lists “Data Scientist” as an alias under its Junior Data Associate career profile in the IT-ITeS sector. That profile was last updated on 2016-08-09, so it is useful as an occupational reference rather than a current hiring standard.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Typical academic foundation",
+      "value": "NCS identifies B.Sc. in statistics, mathematics, physics, chemistry or geology, or BE/BTech, as preferred preparation for the associated Junior Data Associate profile; it also identifies an IT-ITeS Sector Skills Council-aligned Junior Data Associate programme (SSC/Q0401).",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Core work focus",
+      "value": "The NCS profile describes work on large-scale datasets for modelling, data mining and research, together with statistical data-quality procedures for new data sources.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Illustrative progression",
+      "value": "NCS presents an indicative path from Junior Data Associate through Assistant Data Scientist, Senior Data Scientist, Lead Data Scientist and Domain/Offering Lead; progression titles and timing vary by employer.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Salary context, not a benchmark",
+      "value": "A private salary-aggregation page updated on 2025-08-07 reported an India-wide annual range of ₹4 lakh–₹29.5 lakh for Data Scientists with roughly 1–8 years’ experience. This is historical, self-reported market context—not an official pay scale or a 2026 offer expectation.",
+      "source_urls": [
+        "https://www.ambitionbox.com/profile/data-scientist-salary/company-industry"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Data Scientist does",
+      "paragraphs": [
+        "In the Indian NCS occupational reference that includes “Data Scientist” as an alias, the work centres on designing and implementing processes and layouts for complex, large-scale datasets used in modelling, data mining and research. It also includes establishing statistical data-quality procedures for new data sources.",
+        "A practitioner therefore needs to turn a business, scientific or operational question into a defensible data workflow: obtain and prepare relevant data, analyse it, validate the analysis, draw inferences, and communicate the conclusions in a structured form. The latter activities are explicitly identified in the NCS competency list.",
+        "Titles differ across employers. “Data Scientist” may emphasise statistical modelling and experimentation, machine learning, analytics, or domain decision support; applicants should read the particular job description rather than infer duties from the title alone."
+      ],
+      "bullets": [
+        "Design data processes and data layouts for modelling, data mining and research.",
+        "Assess and improve data quality when bringing in new sources.",
+        "Clean, integrate and analyse data from organisational databases, online sources, research reports and other secondary sources.",
+        "Validate analyses, derive inferences and present results clearly to stakeholders."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from the listed parent nodes",
+      "paragraphs": [
+        "There is no single nationally mandated degree or licence for this job title. A sound entry strategy is to combine quantitative education, programming capability and evidence of applied work such as projects, internships, research, or production data work. NCS lists science degrees in quantitative disciplines and BE/BTech as preferred preparation for the related Junior Data Associate profile, while IIT Bombay’s current Data Science and AI research admissions demonstrate that four-year BS, MSc in science/statistics/mathematics and engineering qualifications can form relevant advanced-study foundations.",
+        "Bachelor of Science (Research) and Integrated M.Sc. (BITS) routes can be particularly suitable when coursework and projects build probability, statistics, linear algebra, computing and empirical research skills. For candidates seeking later research-oriented specialisation, IIT Bombay’s 2026–27 MS by Research in Data Science and AI lists BE/BTech, four-year BS, and MSc in science, statistics or mathematics among its eligible backgrounds, subject to its stated admissions conditions.",
+        "An MCA route can support data-science entry when it is paired with quantitative preparation and demonstrable analytics or machine-learning work. IIT Bombay material for its Data Science and AI MS-by-Research pathway lists MCA—with physics and mathematics at B.Sc. level—as an eligible background under its published criteria; applicants must always check the programme’s current brochure because eligibility and entrance requirements can change.",
+        "Software Developers and Web Developers can pivot by using their existing programming, data-system and deployment experience to build a portfolio showing data acquisition, cleaning, analysis, validation and communication. The NCS profile specifically highlights data sources, data-warehouse software, big-data tools, data cleaning, analysis validation and structured presentation as relevant competences."
+      ],
+      "bullets": [
+        "B.Sc. (Research): prioritise statistics/mathematics, programming, reproducible research and data-focused projects.",
+        "Integrated M.Sc. (BITS): use advanced quantitative coursework and thesis/project work to demonstrate modelling and analytical depth.",
+        "MCA: supplement application-development skills with statistics, SQL, data analysis and machine-learning projects; verify each postgraduate programme’s precise eligibility rules.",
+        "Software Developer or Web Developer: translate production programming experience into data pipelines, experimentation, analytics and model-related portfolio evidence.",
+        "For any route, use current employer job descriptions and the current admissions notice for the relevant institution; credentials alone do not establish job readiness."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.minds.iitb.ac.in/admissions/cminds-idddp-2026-27",
+        "https://www.iitb.ac.in/newacadhome/MSResearchBrochure2022.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The clearest foundation is quantitative reasoning plus practical data work. NCS calls out knowledge of data sources; data-warehouse software for integrating disparate sources; big-data tools, platforms and architectures; data-collation and cleaning tools; different forms of analysis; validation methods; inference; and structured presentation.",
+        "For tools, NCS lists SQL, SPSS, SAS, STATA and/or Excel as desirable statistical-tool exposure. These should be treated as examples, not a fixed or complete technology list. The higher-value outcome is the ability to select and use appropriate tools to obtain, prepare, analyse and validate data for a specific problem.",
+        "Communication, scope control and professional judgement matter alongside technical work. The NCS profile stresses understanding the analysis objective and boundaries, delivering accurately within an appropriate timescale, independent work and decision-making."
+      ],
+      "bullets": [
+        "Statistics and analytical inference.",
+        "Data sourcing, integration, cleaning and quality procedures.",
+        "SQL and spreadsheet/statistical-tool fluency; learn additional tools required by the target employer or domain.",
+        "Large-scale data tooling and data-platform awareness.",
+        "Analysis validation, reproducibility and clear communication of findings.",
+        "Problem framing, independent work and decision-making."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Work setting in India",
+      "paragraphs": [
+        "The NCS reference describes the associated role as primarily desk-based. It notes that travel is not ordinarily part of the role, while part-time, contractual and work-from-home arrangements may be available; these conditions vary by organisation.",
+        "The same NCS profile states that multinational organisations commonly work five days per week and eight to nine hours per day, and that shifts may be available. Because the profile was updated in 2016, these are illustrative conditions rather than a current industry-wide rule; candidates should confirm location, remote/hybrid policy, working hours, data-access constraints and on-call expectations in each offer."
+      ],
+      "bullets": [
+        "Predominantly desk-based analytical work.",
+        "Possible employment models include permanent, contractual, part-time and remote arrangements, depending on employer.",
+        "Work schedules, shift requirements and remote-work access are employer-specific."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "NCS provides an indicative—not mandatory—career map: Junior Data Associate → Assistant Data Scientist → Senior Data Scientist → Lead Data Scientist → Domain Lead/Offering Lead → Head of Company/CEO. Actual progression depends on employer structure, technical depth, domain expertise, leadership scope and business impact.",
+        "NCS also notes movement into statistics, MIS and analytics-focused roles in sectors such as banking, financial institutions, retail and business-process management. This makes domain knowledge a useful differentiator: a data professional who understands the data-generating process and operational decisions in a sector can expand into specialised analytical roles.",
+        "At the advanced-study end, IIT Bombay’s Centre for Machine Intelligence and Data Science offers research-oriented MS and PhD pathways in Data Science and AI, illustrating one route for professionals who want deeper research training. Admission requirements and dates are programme-specific and must be checked in the current cycle."
+      ],
+      "bullets": [
+        "Early stage: data preparation, analysis support and scoped modelling work.",
+        "Mid stage: independent end-to-end problem ownership, stronger validation practices and stakeholder communication.",
+        "Senior/lead stage: technical leadership, domain strategy, review standards and cross-functional delivery.",
+        "Alternative growth: specialise in an industry domain or move toward analytics, statistics, data-platform, research or management tracks."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.minds.iitb.ac.in/admissions/cminds-idddp-2026-27"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Compensation is highly variable by experience, city, industry, employer, level of modelling or engineering responsibility, and the mix of fixed pay, bonus and equity. Do not use a single online figure as an offer benchmark.",
+        "For dated market context only, AmbitionBox reported on 2025-08-07 that Data Scientist salaries in India ranged from ₹4 lakh to ₹29.5 lakh annually for people with approximately one to eight years of experience, based on its submitted-salary dataset. This is not a government statistic, does not establish an entry-level salary, and may not represent compensation in July 2026.",
+        "The older NCS profile listed ₹20,000–₹25,000 per month for new entrants and ₹25,000–₹35,000 per month for experienced candidates, but it was last updated on 2016-08-09 and explicitly says its figures are indicative and subject to change. It should not be used to price a current offer."
+      ],
+      "bullets": [
+        "Compare offers on fixed compensation, variable pay, equity where applicable, benefits, location costs, notice terms and role scope.",
+        "Use recently dated salary data only as a starting point, then validate against current employer, city and seniority-specific information.",
+        "Treat legacy government career-page earnings figures as historical reference only."
+      ],
+      "source_urls": [
+        "https://www.ambitionbox.com/profile/data-scientist-salary/company-industry",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Junior Data Associate profile (includes Data Scientist alias)",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3958&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career profile"
+    },
+    {
+      "label": "IIT Bombay C-MInDS: 2026–27 MS by Research and PhD admissions in Data Science and AI",
+      "url": "https://www.minds.iitb.ac.in/admissions/cminds-idddp-2026-27",
+      "kind": "university admissions"
+    },
+    {
+      "label": "Ministry of Skill Development and Entrepreneurship",
+      "url": "https://www.msde.gov.in/",
+      "kind": "government skills portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

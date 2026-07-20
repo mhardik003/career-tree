@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role focus",
+      "value": "Leads planned preventive and breakdown maintenance, maintenance quality assurance, spares/consumables availability, procedure upkeep, coordination across maintenance units, and plant-condition monitoring.",
+      "source_urls": [
+        "https://hwb.gov.in/hi/node/1730"
+      ]
+    },
+    {
+      "label": "Typical setting",
+      "value": "A plant- or facility-based leadership role that combines technical maintenance work with team handling, scheduling, documentation, and coordination with operations and other stakeholders.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://hwb.gov.in/hi/node/1730"
+      ]
+    },
+    {
+      "label": "Indicative feeder pathway",
+      "value": "Relevant maintenance-executive experience can progress through senior maintenance roles to Maintenance Manager; plant-and-machinery supervision is also an adjacent stepping stone.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3768&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Maintenance Manager does",
+      "paragraphs": [
+        "In Indian plant and utility contexts, the Maintenance Manager leads the maintenance function rather than merely responding to faults. Official Heavy Water Board role documentation assigns the manager planned preventive and breakdown maintenance, quality assurance for maintenance activity, maintenance-procedure availability and approval, coordination between maintenance units, adequate spares and consumables, approved system modifications, and monitoring of plant material condition.",
+        "For planned shutdown work, public infrastructure specifications illustrate the managerial controls expected: coordinating weekly, monthly and annual preventive-maintenance and shutdown programmes; preparing standard job instructions from OEM operation-and-maintenance manuals; issuing job cards and permits to work; maintaining asset-level records of time, materials and cost; and planning spares and consumables procurement. The exact asset mix differs among manufacturing plants, utilities and facilities, but reliability, safety, documentation and cost control are recurring responsibilities."
+      ],
+      "bullets": [
+        "Set maintenance strategy and schedules for preventive, condition-based, corrective and shutdown work.",
+        "Coordinate maintenance teams and interfaces with operations, planning, stores, contractors and technical stakeholders.",
+        "Maintain procedures, job records, maintenance reports, quality-assurance controls and improvement actions.",
+        "Control availability of critical spares and consumables, and contribute to procurement or works-contract quality controls.",
+        "Ensure work is performed through approved safety and permit-to-work arrangements where applicable."
+      ],
+      "source_urls": [
+        "https://hwb.gov.in/hi/node/1730",
+        "https://www.sipcot.tn.gov.in/webroot/img/Volume-II-60-MLD.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "There is no single nationally prescribed qualification for every Maintenance Manager post; employers vary by sector and asset type. A common route is to build technical maintenance experience first—such as maintenance executive, technician, engineer or plant-and-machinery supervisor—and move into supervisory and managerial responsibility. The National Career Service (NCS) presents an indicative progression from Maintenance Executive through Senior Maintenance Executive to Maintenance Manager.",
+        "For the adjacent NCS Supervisor (Plant & Machinery) role, relevant mechanical/automobile diploma or degree education is listed alongside supervisory experience; the page also notes a longer equipment-operations experience pathway for candidates without a degree or diploma. This supports a practical route of relevant engineering education or trade/diploma training, followed by substantial maintenance and leadership experience. Requirements remain employer-specific."
+      ],
+      "bullets": [
+        "Build a foundation in mechanical, electrical, electronics, instrumentation, mechatronics or the discipline aligned to the assets being maintained.",
+        "Gain hands-on exposure to scheduled, preventive and breakdown maintenance before taking responsibility for people, work planning and budgets.",
+        "Use supervisory roles—such as Maintenance Supervisor or Plant & Machinery Supervisor—to demonstrate work allocation, documentation, coordination and team leadership.",
+        "Consider industry-validated Qualification Packs and National Occupational Standards where available; NSDC explains that Qualification Packs are industry-validated qualifications aligned to NSQF levels."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3768&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://skillsip.nsdcindia.org/sites/default/files/kps-document/An%20Introduction%20to%20Occupational%20Standards.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role requires both maintenance engineering judgement and management capability. NCS identifies communication, problem-solving, ability to work under pressure, quality-systems training, project-management exposure and OEM machine-maintenance training as desirable for a related plant-supervision role. Official plant-maintenance descriptions add practical competence in preventive, condition-based and corrective maintenance, calibration or inspection where relevant, spares management, shutdown coordination, maintenance procedures and quality assurance.",
+        "To move from supervisor to manager, translate those technical skills into system-level control: prioritising work against production risk, interpreting maintenance history, deciding spares priorities, reviewing recurring failures, supervising contractors and communicating shutdown impacts and cost to plant leadership."
+      ],
+      "bullets": [
+        "Reliability practices: preventive, condition-based and corrective maintenance; failure and deficiency follow-up.",
+        "Planning and control: work scheduling, job cards, standard job instructions, shutdown coordination and maintenance records.",
+        "Technical breadth appropriate to the site: mechanical, electrical, instrumentation, utilities, civil or facility systems.",
+        "Safety and quality: permit-to-work discipline, approved procedures, inspections, quality assurance and corrective/preventive actions.",
+        "Leadership: workforce allocation, stakeholder communication, problem-solving, decision-making and performance review.",
+        "Materials and cost control: critical spares, consumables, procurement inputs and maintenance-cost reporting."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://hwb.gov.in/hi/node/1730",
+        "https://www.sipcot.tn.gov.in/webroot/img/Volume-II-60-MLD.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and working pattern",
+      "paragraphs": [
+        "Maintenance Managers commonly work at manufacturing plants, utility installations, infrastructure sites or large facilities where equipment uptime matters. The work is not purely desk-based: the related NCS plant-supervisor profile describes physical activity and team handling, while official plant-maintenance specifications require field controls such as shutdown coordination, job cards, work permits and equipment-level maintenance records.",
+        "The working pattern can include planned shutdowns and urgent response to breakdowns. In continuous-process or utility environments, maintenance leaders may need to coordinate work around production availability, safety controls and outage windows. The precise shift, call-out, travel and contractor-management expectations depend on the employer, sector and site."
+      ],
+      "bullets": [
+        "Plant-floor and field presence alongside planning, reporting and review work.",
+        "Regular interaction with operations, planning, stores/procurement, contractors and technical specialists.",
+        "Work may intensify during planned turnarounds, shutdowns, safety incidents or equipment failures.",
+        "Safety procedures and permits are central where maintenance work involves operational plant systems."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.sipcot.tn.gov.in/webroot/img/Volume-II-60-MLD.pdf",
+        "https://hwb.gov.in/hi/node/1730"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression",
+      "paragraphs": [
+        "For this canonical node, Maintenance Supervisor is the immediate feeder role. Beyond it, progression usually depends on taking ownership of broader asset groups, larger teams, shutdowns, budgets, reliability performance and cross-functional planning. NCS explicitly shows Maintenance Executive progressing through Senior Maintenance Executive to Maintenance Manager, and separately shows Plant & Machinery Supervisor progressing to Plant Manager; these are indicative pathways rather than universal job ladders.",
+        "Potential next moves therefore include plant or engineering-management responsibility, reliability leadership, utilities or facilities management, or a specialised maintenance-manager role in mechanical, electrical, instrumentation or civil maintenance. Titles and hierarchy vary substantially by industry."
+      ],
+      "bullets": [
+        "Maintenance Supervisor → Maintenance Manager.",
+        "Maintenance Executive → Senior Maintenance Executive → Maintenance Manager (indicative NCS pathway).",
+        "Plant & Machinery Supervisor → Plant Manager (indicative adjacent NCS pathway).",
+        "Possible specialisation: mechanical, electrical, instrumentation, utilities, civil or facilities maintenance leadership."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3768&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Maintenance Executive career information",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3768&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career information"
+    },
+    {
+      "label": "National Career Service: Supervisor (Plant & Machinery) career information",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=6488&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career information"
+    },
+    {
+      "label": "Heavy Water Board: responsibilities of Maintenance Manager",
+      "url": "https://hwb.gov.in/hi/node/1730",
+      "kind": "government employer role reference"
+    },
+    {
+      "label": "NSDC: introduction to occupational standards and Qualification Packs",
+      "url": "https://skillsip.nsdcindia.org/sites/default/files/kps-document/An%20Introduction%20to%20Occupational%20Standards.pdf",
+      "kind": "professional standards guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

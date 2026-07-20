@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Standard entry qualification",
+      "value": "ICAR’s published minimum requirements list Intermediate/10+2 with Physics, Chemistry and Mathematics (PCM) from a recognised board/university for B.Tech. (Agricultural Engineering). Individual universities and admission routes can add their own conditions.",
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf"
+      ]
+    },
+    {
+      "label": "Typical duration",
+      "value": "It is a four-year undergraduate programme, commonly organised across eight semesters. ICAR’s CUET (ICAR-UG) 2025 bulletin included B.Tech. Agricultural Engineering among four-year bachelor’s programmes.",
+      "source_urls": [
+        "https://www.icar.org.in/sites/default/files/Circulars/Information%20Bulletin_CUET%20%28ICAR-UG%29_2025.pdf",
+        "https://agritech.tnau.ac.in/about_us/abt_us_undergraduate%20program%20of%20TNAU.html"
+      ]
+    },
+    {
+      "label": "Core academic areas",
+      "value": "ICAR’s institutional standards identify farm machinery and power, processing and food engineering, soil and water conservation, irrigation and drainage, renewable energy, and basic/applied engineering sciences as the principal departmental areas for an Agricultural Engineering college.",
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf"
+      ]
+    },
+    {
+      "label": "ICAR all-India admission context",
+      "value": "For the 2025-26 cycle, ICAR used CUET (ICAR-UG) merit ranks for all-India admission/counselling to participating agricultural universities; the bulletin listed B.Tech. Agricultural Engineering as programme code 10. Applicants should treat the examination name, participating institutions, seat matrix, subject requirements and dates as annual-cycle items to verify from ICAR/NTA.",
+      "source_urls": [
+        "https://www.icar.org.in/sites/default/files/Circulars/Information%20Bulletin_CUET%20%28ICAR-UG%29_2025.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: PCM is the standard baseline, but confirm the admitting university’s rules",
+      "paragraphs": [
+        "ICAR’s published minimum requirements specify 10+2/Intermediate with Physics, Chemistry and Mathematics (PCM) from a recognised board or university for B.Tech. (Agricultural Engineering). This is a useful national baseline rather than a substitute for an individual institution’s prospectus.",
+        "For ICAR’s 2025-26 all-India undergraduate route, candidates needed a recognised 10+2-equivalent examination and had to meet programme- and university-specific requirements. The ICAR bulletin expressly cautioned that universities may have additional conditions, including subject eligibility and minimum marks/grades; merely taking or qualifying CUET did not itself guarantee admission."
+      ],
+      "bullets": [
+        "Prepare for a mathematics-intensive engineering programme: PCM is the relevant school-subject combination in ICAR’s minimum requirements.",
+        "Before applying, verify the target university’s current minimum marks, category/reservation rules, domicile policy, accepted CUET subjects, age rules if any, and counselling documents.",
+        "Applicants awaiting their qualifying-exam result may be allowed to apply in a given cycle, but must meet the stated conditions by the university’s counselling/admission deadline."
+      ],
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+        "https://www.icar.org.in/sites/default/files/Circulars/Information%20Bulletin_CUET%20%28ICAR-UG%29_2025.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and format",
+      "paragraphs": [
+        "The degree is normally a four-year, eight-semester undergraduate engineering programme. The ICAR CUET (ICAR-UG) 2025 bulletin described the listed agricultural-science bachelor’s degrees, including B.Tech. Agricultural Engineering, as four-year programmes; Tamil Nadu Agricultural University likewise lists its undergraduate programmes as four years/eight semesters.",
+        "Actual academic calendars, credit totals, internship or experiential-learning requirements, and rules for completing the degree can differ by university. Confirm these in the current regulations of the college offering admission."
+      ],
+      "bullets": [
+        "Level: undergraduate professional degree.",
+        "Normal length: four years.",
+        "Usual structure: eight semesters."
+      ],
+      "source_urls": [
+        "https://www.icar.org.in/sites/default/files/Circulars/Information%20Bulletin_CUET%20%28ICAR-UG%29_2025.pdf",
+        "https://agritech.tnau.ac.in/about_us/abt_us_undergraduate%20program%20of%20TNAU.html"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the programme covers",
+      "paragraphs": [
+        "B.Tech. Agricultural Engineering applies engineering analysis and design to farm production, natural-resource management, agricultural operations and post-harvest systems. ICAR’s minimum-requirements document identifies six principal academic areas expected in a College of Agricultural Engineering: Farm Machinery and Power Engineering; Processing and Food Engineering; Soil and Water Conservation Engineering; Irrigation and Drainage Engineering; Renewable Energy Engineering; and Basic Engineering and Applied Science.",
+        "That structure means students should expect a mix of mathematics and engineering fundamentals with agriculture-specific applications—for example, machinery and farm power, irrigation and water management, soil and water conservation, processing systems, and energy applications. The exact subject titles, laboratories, electives and field components are set by the university rather than being identical nationwide."
+      ],
+      "bullets": [
+        "Farm machinery and power engineering.",
+        "Soil and water conservation; irrigation and drainage.",
+        "Processing and food engineering.",
+        "Renewable energy engineering.",
+        "Basic engineering and applied sciences."
+      ],
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+        "https://tnau.ac.in/site/aecri-cbe/department-of-it-ug-courses/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission: distinguish the legacy ICAR AIEEA label from the current undergraduate route",
+      "paragraphs": [
+        "The node’s parent label, “ICAR AIEEA,” reflects ICAR’s all-India entrance-admission framework. For the 2025-26 undergraduate admission cycle, however, ICAR’s official bulletin called the route CUET (ICAR-UG), with merit ranks used for admission and online counselling for participating agricultural universities. The same bulletin listed B.Tech. Agricultural Engineering as an available degree programme.",
+        "For that 2025-26 cycle, ICAR stated that CUET (ICAR-UG) covered 20% of university seats at agricultural universities, with specified institutions having 100% coverage, and that candidates eligible for registration and choice filling would be considered for programme/university allocation. It also stated that universities could use NTA scores for their own undergraduate admissions if they chose. These arrangements, seats and schedules are cycle-specific, so applicants must use the latest ICAR and NTA notices rather than relying on prior-year dates or seat counts.",
+        "A practical application sequence is: identify eligible colleges; check their current subject and marks requirements; register for the applicable NTA/ICAR examination route when notified; preserve score and category documents; then complete ICAR or university counselling and choice filling as applicable."
+      ],
+      "bullets": [
+        "Use the current year’s ICAR and NTA information bulletin as the authority for application dates, subjects, fee and counselling rules.",
+        "Check whether a target institution fills seats through ICAR counselling, its own process using CUET scores, a state-level process, or another notified route.",
+        "Do not assume that qualifying an entrance test guarantees a seat: programme eligibility, merit, choices, available seats and document verification still apply."
+      ],
+      "source_urls": [
+        "https://www.icar.org.in/sites/default/files/Circulars/Information%20Bulletin_CUET%20%28ICAR-UG%29_2025.pdf",
+        "https://icar.org.in/en/information-bulletin-cuet-icar-ug-2025",
+        "https://nta.ac.in/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After graduation: higher study and recruitment pathways",
+      "paragraphs": [
+        "GATE is one route to postgraduate study and, in some cases, recruitment opportunities. For GATE 2026, the official eligibility page states that students in the third year or higher of an undergraduate programme, or graduates of a government-approved programme, may appear; the GATE site also notes that scores can be used for Master’s/doctoral admissions and recruitment by some public-sector undertakings. Candidates must separately check the paper choices and admission rules of each receiving institution or employer.",
+        "Agricultural Engineering is explicitly included among the four-year graduation qualifications listed for Agricultural Field Officer (Scale I) in the cited IBPS Specialist Officer notification. NABARD also publishes a dedicated Grade A Agriculture Engineering syllabus covering areas such as soil and water resources, post-harvest engineering and related agricultural-engineering topics. Recruitment notifications, vacancy counts, age limits, test patterns and final eligibility can change each cycle.",
+        "UPSC Engineering Services should not be treated as an automatic Agricultural Engineering-specific pathway. UPSC’s Engineering Services examination uses its own eligibility rules and service/paper structure; applicants should read the notification for the year they intend to apply, including the branches/papers actually offered, before planning around ESE/IES."
+      ],
+      "bullets": [
+        "Higher study: GATE-based M.Tech./research admissions, subject to each institution’s requirements.",
+        "Banking agriculture specialist route: IBPS Specialist Officer—Agricultural Field Officer, when the current notification retains the qualification.",
+        "Development-finance route: NABARD Grade A Agriculture Engineering, when notified.",
+        "Employment: agricultural-engineering, farm-machinery, irrigation, water-resource, processing, renewable-energy and project/graduate-engineer roles depend on the employer’s stated criteria.",
+        "Management or entrepreneurship: a graduate may also consider CAT/other management admissions or build an agribusiness venture; eligibility, selection and financing requirements are set by the relevant institute, examination body or programme."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://gate2026.iitg.ac.in/opportunities.html",
+        "https://www.ibps.in/wp-content/uploads/2024/01/DetailedAdvtCRPSPLXI.pdf",
+        "https://www.nabard.org/auth/writereaddata/CareerNotices/2607213450AGRICULTURE%20ENGINEERING.pdf",
+        "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ICAR CUET (ICAR-UG) 2025 information bulletin",
+      "url": "https://www.icar.org.in/sites/default/files/Circulars/Information%20Bulletin_CUET%20%28ICAR-UG%29_2025.pdf",
+      "kind": "official admission bulletin"
+    },
+    {
+      "label": "ICAR minimum requirements for Agricultural Engineering colleges",
+      "url": "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+      "kind": "official academic standards"
+    },
+    {
+      "label": "National Testing Agency",
+      "url": "https://nta.ac.in/",
+      "kind": "official examination portal"
+    },
+    {
+      "label": "GATE 2026 eligibility criteria",
+      "url": "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+      "kind": "official examination guidance"
+    },
+    {
+      "label": "IBPS Specialist Officer notification archive document",
+      "url": "https://www.ibps.in/wp-content/uploads/2024/01/DetailedAdvtCRPSPLXI.pdf",
+      "kind": "official recruitment notification"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

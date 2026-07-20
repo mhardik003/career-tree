@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "IELTS is an English-language proficiency test used for study, work, professional registration and migration pathways abroad.",
+      "source_urls": [
+        "https://ielts.org/take-a-test/why-choose-ielts/what-can-ielts-do-for-you"
+      ]
+    },
+    {
+      "label": "Test types",
+      "value": "The principal options are IELTS Academic, generally for undergraduate/postgraduate study and some professional registration, and IELTS General Training, generally for migration, work, training or study below degree level.",
+      "source_urls": [
+        "https://ielts.org/take-a-test/test-types"
+      ]
+    },
+    {
+      "label": "Skills tested",
+      "value": "Both Academic and General Training assess Listening, Reading, Writing and Speaking; Listening and Speaking are the same across the two tests, while Reading and Writing differ.",
+      "source_urls": [
+        "https://ielts.org/take-a-test/test-types"
+      ]
+    },
+    {
+      "label": "Scoring",
+      "value": "Candidates receive four component scores and an overall band score. The overall band is the average of the four component scores, rounded to the nearest whole or half band.",
+      "source_urls": [
+        "https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail?authuser=0"
+      ]
+    },
+    {
+      "label": "India booking context",
+      "value": "For candidates booking through IDP IELTS India, the official registration guidance requires a passport for registration and the original passport on test day; available test dates and seats vary by city and format.",
+      "source_urls": [
+        "https://ieltsidpindia.com/information/how-to-register-for-ielts"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and choosing the right IELTS test",
+      "paragraphs": [
+        "IELTS is relevant to this node because it can provide the English-language evidence requested for overseas undergraduate or postgraduate admissions after programmes such as B.Sc. Nursing or BPT, including the foreign-university degree pathways listed as children of this node. IELTS Academic is the normal option for degree-level study and may also be used for professional registration; IELTS General Training is aimed at migration, work, training and study below degree level.",
+        "Applicants should not select a test solely from a general rule: the intended university, professional regulator, employer, or immigration authority determines the accepted test type and the required overall and component bands. For UK visa routes, candidates may specifically need an IELTS for UKVI product, so the relevant UKVI and visa requirement should be checked before booking."
+      ],
+      "bullets": [
+        "For bachelor's, master's and other higher-education applications abroad, first check whether the institution specifies IELTS Academic and whether it imposes minimum scores in each skill.",
+        "For nursing and other regulated healthcare careers abroad, verify the requirement directly with the destination-country professional registration body; required bands and accepted test types vary by profession and jurisdiction.",
+        "For immigration or employment-led pathways, confirm whether General Training, Academic, or a UKVI-specific test is required before paying the test fee."
+      ],
+      "source_urls": [
+        "https://ielts.org/take-a-test/test-types",
+        "https://ielts.org/take-a-test/why-choose-ielts/what-can-ielts-do-for-you"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Test format and scoring",
+      "paragraphs": [
+        "IELTS Academic and General Training contain Listening, Reading, Writing and Speaking. In the Academic format, the stated total test time is 2 hours 45 minutes: Listening is about 30 minutes, Reading 60 minutes, Writing 60 minutes and Speaking 11–14 minutes. The Reading and Writing content changes by test type, whereas Listening and Speaking do not.",
+        "Scores are reported for each skill and as an overall result. IELTS calculates the overall band by averaging the four component bands and rounding to the nearest whole or half band. There is no universal passing band: the receiving institution, regulator or immigration authority sets the score it will accept."
+      ],
+      "bullets": [
+        "Academic Writing has two tasks; Task 2 counts twice as much as Task 1 in the Writing score.",
+        "The Speaking test is a three-part interview with an examiner and is recorded.",
+        "Academic Listening has 40 questions in four parts; recordings are heard once."
+      ],
+      "source_urls": [
+        "https://ielts.org/take-a-test/test-types/ielts-academic-test",
+        "https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail?authuser=0",
+        "https://ielts.org/organisations/ielts-for-organisations/test-types/ielts-academic-test"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Booking from India",
+      "paragraphs": [
+        "A practical booking sequence is: identify the receiving organisation's required IELTS product and score; choose Academic, General Training or, where applicable, a UKVI option; select a delivery format, city and date; complete registration using passport details; pay the displayed fee; and retain the confirmation. IDP IELTS India's official guidance says candidates need their passport for registration and must carry the original passport on test day.",
+        "Test dates, city availability, delivery formats and fees are variable rather than national fixed deadlines. The official India booking guidance lists online, in-person and courier registration routes, but candidates should use the live booking flow to confirm current availability and charges before committing."
+      ],
+      "bullets": [
+        "Match your booking name and passport details exactly.",
+        "Book only after checking the target university's programme-level language requirement, including any minimum band in Listening, Reading, Writing or Speaking.",
+        "Keep the booking confirmation and follow the test-centre instructions for identity documents and arrival."
+      ],
+      "source_urls": [
+        "https://ieltsidpindia.com/information/how-to-register-for-ielts",
+        "https://ielts.org/take-a-test/booking-your-test"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Preparation should begin with the official format and sample tasks for the exact module booked. Official IELTS Academic materials provide sample Listening, Reading, Writing and Speaking tasks, while the General Training materials provide module-specific Reading and Writing practice. These materials can be used to become familiar with task types, practise under timed conditions and compare responses with available model answers.",
+        "For Academic applicants, build preparation around the tasks actually assessed: academic reading passages, visual-information description and argumentative writing, together with the interactive three-part Speaking test. Use full timed practice, then diagnose weaknesses by skill because receiving organisations may set component-band minima as well as an overall requirement."
+      ],
+      "bullets": [
+        "Use official samples rather than assuming Academic and General Training Reading/Writing are interchangeable.",
+        "Practise Writing Task 1 and Task 2 to their required minimum lengths; Academic Task 1 is at least 150 words and Task 2 at least 250 words.",
+        "Practise Speaking aloud in the three-part format, not only vocabulary memorisation."
+      ],
+      "source_urls": [
+        "https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test",
+        "https://www.ielts.org/take-a-test/preparation-resources/sample-test-questions/general-training-test",
+        "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Using results for overseas study and professional pathways",
+      "paragraphs": [
+        "An IELTS Test Report Form is the official confirmation of the result and can be shared with organisations that need evidence of English proficiency. IELTS states that results for IELTS on Computer are available in 1–5 days and IELTS on Paper results in up to 13 days; timelines can vary by test product and operational circumstances.",
+        "IELTS recommends treating a result as valid for two years after the test date, although a university, employer, regulator or immigration authority can set its own acceptance policy. Applicants should therefore work backwards from application and visa deadlines, obtain the exact score target from the recipient, and avoid relying on a result that may be outside the recipient's permitted validity period."
+      ],
+      "bullets": [
+        "A score itself does not guarantee university admission, professional registration, a job offer or a visa; it is one requirement assessed by the receiving organisation.",
+        "IELTS reports that Academic scores are recognised by more than 12,500 colleges, universities and professional bodies, but applicants must still verify acceptance for their exact programme and intake.",
+        "For overseas nursing and allied-health routes, confirm both the admissions requirement and any later professional-registration English requirement."
+      ],
+      "source_urls": [
+        "https://ielts.org/take-a-test/your-results/getting-and-sharing-your-results",
+        "https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail?authuser=0",
+        "https://ielts.org/take-a-test/why-choose-ielts/what-can-ielts-do-for-you"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "IELTS official test types",
+      "url": "https://ielts.org/take-a-test/test-types",
+      "kind": "official test information"
+    },
+    {
+      "label": "IELTS Academic sample questions",
+      "url": "https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test",
+      "kind": "official preparation"
+    },
+    {
+      "label": "IELTS General Training sample questions",
+      "url": "https://www.ielts.org/take-a-test/preparation-resources/sample-test-questions/general-training-test",
+      "kind": "official preparation"
+    },
+    {
+      "label": "IDP IELTS India registration guidance",
+      "url": "https://ieltsidpindia.com/information/how-to-register-for-ielts",
+      "kind": "official India booking information"
+    },
+    {
+      "label": "IELTS scores and validity guidance",
+      "url": "https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail?authuser=0",
+      "kind": "official results information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

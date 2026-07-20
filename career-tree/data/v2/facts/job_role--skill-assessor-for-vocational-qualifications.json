@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Regulatory context",
+      "value": "NCVET is India’s overarching regulator for vocational education and training and regulates Assessment Agencies through standardised norms, procedures and quality governance.",
+      "source_urls": [
+        "https://ncvet.gov.in/"
+      ]
+    },
+    {
+      "label": "Core purpose",
+      "value": "A vocational skill assessor conducts and scores competency-based assessments against the learning outcomes and performance criteria of an NSQF-aligned qualification.",
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf"
+      ]
+    },
+    {
+      "label": "Where assessment happens",
+      "value": "Assessors may support and assess learners in schools, colleges, training centres or workplaces; RPL may additionally be delivered at workshops, industrial clusters and employment sites.",
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf",
+        "https://ncvet.gov.in/wp-content/uploads/2023/08/Final-RPL-guidelines.pdf"
+      ]
+    },
+    {
+      "label": "Entry standard",
+      "value": "For most qualifications from NSQF Levels 1 through 6, NCVET’s ToA guidance sets a baseline of being at least one level above the assessed qualification, relevant experience, and understanding of digital and pedagogical skills; the precise requirement depends on the qualification level.",
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf"
+      ]
+    },
+    {
+      "label": "RPL role",
+      "value": "In Recognition of Prior Learning, the assessor evaluates applicants against defined learning outcomes, verifies evidence integrity, and scores and grades evidence using the qualification’s approved mechanisms.",
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2023/08/Final-RPL-guidelines.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What the role involves",
+      "paragraphs": [
+        "A Skill Assessor for Vocational Qualifications is an experienced domain professional who evaluates learners against the learning outcomes and performance criteria for an occupational qualification. Under NCVET’s Training of Assessors (ToA) guidance, assessors conduct and score theory tests, viva voce, practical competency tests and, where applicable, project evaluation in accordance with the Assessor Guide. They orient candidates, verify that the necessary tools, equipment and consumables are available, preserve assessment integrity and validate candidate identity.",
+        "Recognition of Prior Learning (RPL) adds an evidence-centred responsibility: assessors evaluate an individual’s skills acquired through formal, non-formal or informal learning; check that evidence is authentic, credible, reliable and has integrity; and score it against the relevant qualification’s learning and competency outcomes. For direct RPL assessment, the guidelines assign the assessor responsibility for ensuring the applicant has achieved more than 70% of declared learning outcomes.",
+        "The role is normally performed as part of an assessment ecosystem rather than as an independent certifier. NCVET-recognised Assessment Agencies allocate certified assessors to batches, while Awarding Bodies are responsible for approved qualifications and certification."
+      ],
+      "bullets": [
+        "Conduct fair, competency-based assessments and score results against defined criteria.",
+        "Assess practical work, oral responses and theory knowledge as appropriate to the qualification.",
+        "Orient candidates; confirm identity; check assessment readiness and required trade infrastructure.",
+        "Prevent malpractice and follow prescribed evidence, reporting and governance procedures.",
+        "For RPL, evaluate prior experience and demonstrated competence rather than relying only on formal education."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf",
+        "https://ncvet.gov.in/wp-content/uploads/2023/08/Final-RPL-guidelines.pdf",
+        "https://ncvet.gov.in/wp-content/uploads/2025/07/Guidelines-for-Recognition-and-Regulation-of-AAs-2025.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes and assessor preparation",
+      "paragraphs": [
+        "The principal route is to build credible trade or occupational expertise, meet the relevant qualification-and-experience threshold, and complete Training of Assessors (ToA) through the vocational-skills ecosystem. NCVET describes ToA as specialised training for professionals, academicians and industry experts who will conduct competency-based assessments for NSQF-aligned job roles.",
+        "Eligibility is tied to the level being assessed. For Levels 1, 2 and 2.5, the guidance specifies at least one NCrF/NSQF level above the target qualification, at least two years of relevant experience, and digital and pedagogical understanding. For Levels 3 through 6, it specifies at least one—and preferably two—levels above, at least three years of relevant experience, plus digital and pedagogical understanding. Assessing Levels 6.5 through 8 normally requires NSQF Level 8 with five years of relevant experience, or a relevant certified Master Assessor.",
+        "NCVET identifies practising or retired industry professionals, retired defence or police personnel (other than instructors), and practising or retired professors and teachers as prospective ToA candidates. Assessment Agencies identify and select candidates for ToA, while Awarding Bodies conduct ToA and issue certificates to candidates who pass. Actual empanelment and job-role-specific requirements can therefore vary by Awarding Body, Assessment Agency and sector."
+      ],
+      "bullets": [
+        "Develop substantial, directly relevant trade, technical or occupational experience.",
+        "Check the NSQF/NCrF level of the qualification you seek to assess and meet the corresponding level-plus-experience criteria.",
+        "Complete both domain-skills and platform/pedagogical assessment preparation required by the relevant ToA route.",
+        "Seek certification and empanelment through an Awarding Body or NCVET-recognised Assessment Agency operating in the intended sector."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf",
+        "https://nsdcindia.org/training-trainers-assessors"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills needed",
+      "paragraphs": [
+        "The role combines deep occupational competence with assessment capability. NCVET expects assessors to understand the qualification, assess hands-on skills and viva voce, apply assessment tools, and use the principles of fairness, flexibility, validity and reliability. The ToA curriculum includes planning the assessment process, assessing competence, using or developing assessment tools, employability skills, and reviewing and validating assessment.",
+        "Digital readiness is increasingly material: assessment governance can require proctoring, geo-tagging and digital/video evidence, while NCVET requires ToA provision to cover the digital skills needed for online or blended assessment. Assessors also need candidate-facing communication skills, including the ability to orient individuals or groups and apply local-language capability where needed for lower-level qualifications."
+      ],
+      "bullets": [
+        "Trade/domain expertise matched to the qualification being assessed.",
+        "Observation, questioning, practical-demonstration and evidence-scoring skills.",
+        "Working knowledge of assessment criteria, checklists, question banks and assessment platforms.",
+        "Impartiality, integrity and anti-malpractice vigilance.",
+        "Clear communication, candidate orientation, local-language awareness where relevant, and inclusive handling of learner groups.",
+        "Digital evidence, online/blended assessment and documentation capability."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Employers, settings and working pattern",
+      "paragraphs": [
+        "Assessment work is delivered through Awarding Bodies and Assessment Agencies in the NCVET vocational-qualification ecosystem. An assessor can work across a college, school, training centre or workplace, rather than only in a conventional classroom. Assessment Agencies are expected to maintain certified assessor capacity and assign certified assessors to assessment batches.",
+        "RPL assessment can be particularly field-based. NCVET’s RPL guidance includes centres affiliated to Awarding Bodies, workplaces or workshops, colleges and universities with vocational labs, industrial clusters, Centres of Excellence, employment sites, online/offline on-demand channels and Skill Hubs. This makes travel to assessment sites and checking the availability of trade-specific equipment a realistic feature of many assignments.",
+        "The work is quality- and compliance-sensitive: recognised Assessment Agencies are required to conduct quality-assured assessment, maintain results and evidence, and cooperate with NCVET inspection or audit processes."
+      ],
+      "bullets": [
+        "Awarding Bodies and NCVET-recognised Assessment Agencies.",
+        "Schools, ITI/VET-oriented institutions, colleges and private training centres.",
+        "Workplaces, workshops, industrial clusters and on-site RPL venues.",
+        "Online or blended assessments where the qualification and assessment rules permit."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf",
+        "https://ncvet.gov.in/wp-content/uploads/2023/08/Final-RPL-guidelines.pdf",
+        "https://ncvet.gov.in/wp-content/uploads/2025/07/Guidelines-for-Recognition-and-Regulation-of-AAs-2025.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression options",
+      "paragraphs": [
+        "A practical progression path is from sector-qualified assessor to broader or higher-level assessment responsibility, and then to Master Assessor work. NCVET states that ToA qualifications should contain a progression path for assessor career enhancement. Master Assessors assess higher-level skills and train assessors to observe and evaluate expected candidate outcomes.",
+        "The stated Master Assessor benchmark is a minimum NCrF/NSQF Level 5.5 (graduate and above) and 10 years of relevant industry, academic or assessor experience. Beyond individual assessment, experienced professionals may contribute to assessor training, assessment-tool development, question banks, quality review, or operational roles within an Assessment Agency or Awarding Body."
+      ],
+      "bullets": [
+        "Assess increasingly complex or higher-level qualifications after obtaining relevant capability and certification.",
+        "Move into Master Assessor responsibilities: higher-level assessment and assessor development.",
+        "Progress into assessment quality, assessment design, SME, question-bank or Assessment Agency operations roles."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf",
+        "https://ncvet.gov.in/wp-content/uploads/2025/07/Guidelines-for-Recognition-and-Regulation-of-AAs-2025.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "No single government salary scale is established for this role in the NCVET guidance because engagement can occur through different Awarding Bodies, Assessment Agencies and assessment arrangements. In the RPL framework, industry experts may be directly empanelled by Awarding Bodies or Assessment Agencies and may be remunerated hourly or batch-wise, at the organisation’s discretion and by mutual agreement. This is a fee-arrangement example rather than a universal pay rate for all assessors.",
+        "Before accepting an engagement, candidates should obtain the current written terms for remuneration, travel or site expenses, number of candidates or batches, required evidence collection, reporting deadlines, certification/empanelment status and responsibility for assessment equipment. These commercial terms are variable by sector, geography, scheme and contracting organisation."
+      ],
+      "bullets": [
+        "Treat compensation as assignment-specific rather than as a nationally fixed salary.",
+        "RPL engagements may use hourly or batch-wise remuneration by mutual agreement.",
+        "Confirm current terms directly with the Awarding Body, Assessment Agency or employer before committing."
+      ],
+      "source_urls": [
+        "https://ncvet.gov.in/wp-content/uploads/2023/08/Final-RPL-guidelines.pdf",
+        "https://ncvet.gov.in/wp-content/uploads/2025/07/Guidelines-for-Recognition-and-Regulation-of-AAs-2025.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCVET Guidelines for Training of Assessors (ToA)",
+      "url": "https://ncvet.gov.in/wp-content/uploads/2024/03/ToA-Guidelines_final.pdf",
+      "kind": "official guideline"
+    },
+    {
+      "label": "NCVET Guidelines for Recognition of Prior Learning (RPL)",
+      "url": "https://ncvet.gov.in/wp-content/uploads/2023/08/Final-RPL-guidelines.pdf",
+      "kind": "official guideline"
+    },
+    {
+      "label": "NCVET Guidelines for Recognition and Regulation of Assessment Agencies (2025)",
+      "url": "https://ncvet.gov.in/wp-content/uploads/2025/07/Guidelines-for-Recognition-and-Regulation-of-AAs-2025.pdf",
+      "kind": "official guideline"
+    },
+    {
+      "label": "NSDC Training of Trainers and Assessors",
+      "url": "https://nsdcindia.org/training-trainers-assessors",
+      "kind": "official programme information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

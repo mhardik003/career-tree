@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Primary preparation route",
+      "value": "The Council of Architecture (CoA) Diploma Guidelines describe the Diploma in Architecture/Architectural Assistantship as a minimum three-academic-year (six-semester) programme.",
+      "source_urls": [
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179"
+      ]
+    },
+    {
+      "label": "Diploma admission baseline",
+      "value": "For CoA-approved diploma programmes, admission requires passing Class 10 (or an equivalent examination); the CoA also states that direct lateral entry into the second year is not permitted under its Diploma Guidelines.",
+      "source_urls": [
+        "https://www.coa.gov.in/app/myauth/notification/20230818031056.pdf"
+      ]
+    },
+    {
+      "label": "Professional-title boundary",
+      "value": "A Diploma in Architectural Assistantship is not itself a recognised qualification for registration with the Council of Architecture. Under the Architects Act, “architect” is a person whose name is entered in the register, so an architectural assistant should not present themself as a registered architect merely on the basis of this diploma.",
+      "source_urls": [
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+        "https://www.indiacode.nic.in/handle/123456789/1690"
+      ]
+    },
+    {
+      "label": "Current course availability context",
+      "value": "The CoA’s 2026–27 approved-diploma material lists multiple three-year full-time Diploma in Architectural Assistantship programmes; applicants should verify the specific institution and intake in the current CoA list before applying.",
+      "source_urls": [
+        "https://coa.gov.in/images/list_of_approved_diploma_institution_2026_27.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Architectural Assistant does",
+      "paragraphs": [
+        "An Architectural Assistant supports the production and communication of building-design information. The work commonly centres on converting design intent into readable, coordinated drawings: site plans, foundation and floor plans, sections, elevations, service layouts, schedules and component details. Haryana’s official diploma curriculum identifies working drawings and detailing as a core activity for Architectural Assistantship diploma holders, including dimensioning, specifications and drawings that can be executed on site.",
+        "The role can also contribute to models and visual communication. The Uttar Pradesh diploma curriculum identifies 3-D perspectives, model making, CAD/Revit drawing work and site supervision among the employment and self-employment activities associated with Architectural Assistantship training. In practice, the exact division of work, checking authority and client-facing responsibility depends on the employing architect, firm, contractor or public organisation."
+      ],
+      "bullets": [
+        "Prepare, revise and organise drawing sets and construction details.",
+        "Apply drawing conventions, scales, dimensions, symbols and specifications so that documents are usable on site.",
+        "Support 2-D/3-D CAD or BIM-style production, physical or digital models, and presentation material.",
+        "Coordinate project information with the supervising design and construction team; any statutory submission or professional sign-off must follow the applicable local authority and professional requirements."
+      ],
+      "source_urls": [
+        "https://urise.up.gov.in/resources/profile_image/syllabus/2025-26/318_2025_26.pdf",
+        "https://www.indiacode.nic.in/handle/123456789/1690"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route from the diploma parent node",
+      "paragraphs": [
+        "The canonical entry route is completion of a CoA-approved three-year Diploma in Architectural Assistantship. CoA’s 2022 Diploma Guidelines set the programme at a minimum of three academic years or six semesters, and state that a candidate must have passed Class 10 or an equivalent examination for admission. Requirements imposed by state counselling bodies and individual institutions can add operational details, so candidates should always check the current admissions notice of the relevant state and institution.",
+        "Choose an institution from the CoA’s current approved-diploma list rather than relying only on course advertising. The 2026–27 CoA list includes programmes explicitly titled “3-year full-time Diploma in Architectural Assistantship.” The CoA has also instructed institutions and admission authorities that its diploma guidelines do not provide for direct entry to the second year of the three-year diploma."
+      ],
+      "bullets": [
+        "Pass Class 10 or an equivalent examination.",
+        "Apply to a currently CoA-approved diploma institution and follow its state/institutional admission process.",
+        "Complete the full three-year diploma route; do not assume a lateral-entry option exists.",
+        "Build a portfolio of drafting, detailing, model-making and digital drawing work during the course."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+        "https://www.coa.gov.in/app/myauth/notification/20230818031056.pdf",
+        "https://coa.gov.in/images/list_of_approved_diploma_institution_2026_27.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "Technical drawing and detailing are foundational. The Haryana State Board of Technical Education curriculum expects learners to use technical-drawing symbols, apply measurement and dimensioning rules, write specifications, prepare readable construction details, and produce working drawings for a simple residential building. These competencies translate directly to the assistant’s document-production role.",
+        "Digital production, construction awareness and communication are also important. Uttar Pradesh’s curriculum names drafting on AutoCAD/Revit, construction-site supervision, 3-D building perspectives and model making as relevant work areas. A strong assistant therefore combines precise visual communication with an understanding of building components, materials, services and the practical needs of site execution."
+      ],
+      "bullets": [
+        "Architectural drafting: plans, sections, elevations, site plans and construction details.",
+        "Accuracy in scale, dimensioning, annotation, symbols, schedules and file/document control.",
+        "CAD and 3-D visualisation capability, including AutoCAD/Revit where required by the employer.",
+        "Basic construction, material and building-services literacy to make details buildable and legible.",
+        "Clear collaboration with architects, engineers, contractors and site teams."
+      ],
+      "source_urls": [
+        "https://urise.up.gov.in/resources/profile_image/syllabus/2025-26/318_2025_26.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role can be found",
+      "paragraphs": [
+        "Architectural Assistants may work in private architectural offices and construction companies, as well as in public-sector and institutional settings where building projects, estate maintenance or town-planning documentation are handled. The Uttar Pradesh curriculum specifically identifies state architecture and town-and-country-planning departments, CPWD, housing boards, urban-development agencies, railways, local bodies, public/private construction companies, architectural firms, estate offices and technical institutions as potential employment contexts.",
+        "The work setting often mixes desk-based drawing/documentation with coordination and site exposure. The balance varies: a drafting-focused outsourcing role may be predominantly digital, whereas a construction or public-works assignment may involve more site visits, measurements and coordination."
+      ],
+      "bullets": [
+        "Architectural and multidisciplinary design firms.",
+        "Construction companies, contractors and drawing/outsourcing service providers.",
+        "Government architecture, planning, housing, public-works and local-body organisations.",
+        "Institutional estate, facilities, repair and maintenance teams."
+      ],
+      "source_urls": [
+        "https://urise.up.gov.in/resources/profile_image/syllabus/2025-26/318_2025_26.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and professional limits",
+      "paragraphs": [
+        "With experience, an Architectural Assistant can take on more complex drawing packages, coordination, detailing, visualisation, site-support, documentation or specialised drafting work. The Uttar Pradesh curriculum describes related opportunities in CAD/Revit services, construction supervision, model making, landscaping and preparation of 3-D perspectives, which are plausible areas for skill-based progression.",
+        "There is an important distinction between career progression and statutory professional status. CoA’s Diploma Guidelines expressly state that the diploma is not a recognised qualification for CoA registration under section 25 of the Architects Act. The Act defines an architect as someone entered in the register and contains a prohibition on use of the title. Accordingly, progression into independent practice using the protected title “architect” requires meeting the applicable registration requirements, rather than relying on the Architectural Assistantship diploma alone."
+      ],
+      "bullets": [
+        "Possible specialisations: working drawings, BIM/CAD production, visualisation, detailing, tender/document support or site coordination.",
+        "Build progression through a documented portfolio, software proficiency and exposure to construction documentation.",
+        "Do not treat the diploma alone as entitlement to CoA registration or to use the protected title “architect.”"
+      ],
+      "source_urls": [
+        "https://urise.up.gov.in/resources/profile_image/syllabus/2025-26/318_2025_26.pdf",
+        "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+        "https://www.indiacode.nic.in/handle/123456789/1690"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Pay is highly variable by employer, city, software capability, portfolio, experience and whether the role is private-sector or government employment. A dated public-sector reference—not a national salary benchmark—is Arunachal Pradesh’s 2021 recruitment rule for Architectural Assistant, which specified Pay Matrix Level 6, ₹35,400–₹1,12,400 per month, for that particular state-government post. Private firms and other public employers may use entirely different pay structures.",
+        "Use current vacancy notices to assess compensation for a specific opportunity. Compare the stated pay with the role’s expected software, site, documentation and coordination responsibilities, and confirm whether the advertised title is Architectural Assistant, Junior Architectural Assistant, CAD technician/drafter or another related designation."
+      ],
+      "bullets": [
+        "Dated government-post example: Arunachal Pradesh Pay Matrix Level 6, ₹35,400–₹1,12,400 per month under its 2021 Architectural Assistant recruitment rule.",
+        "This figure is role- and employer-specific, not an estimate of typical India-wide private-sector earnings."
+      ],
+      "source_urls": [
+        "https://printing.arunachal.gov.in/uploads/686f84ca94be7.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Council of Architecture: approved architectural institutions and diploma list",
+      "url": "https://coa.gov.in/architectural_institutions.php?lang=1&level=1&lid=793&sublinkid=924",
+      "kind": "regulator_directory"
+    },
+    {
+      "label": "CoA Diploma Guidelines 2022",
+      "url": "https://coa.gov.in/staging/showfile.php?lang=1&level=1&lid=1051&sublinkid=1179",
+      "kind": "regulator_guideline"
+    },
+    {
+      "label": "Architects Act, 1972 (India Code)",
+      "url": "https://www.indiacode.nic.in/handle/123456789/1690",
+      "kind": "legislation"
+    },
+    {
+      "label": "Uttar Pradesh Diploma in Architectural Assistantship curriculum",
+      "url": "https://urise.up.gov.in/resources/profile_image/syllabus/2025-26/318_2025_26.pdf",
+      "kind": "curriculum"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

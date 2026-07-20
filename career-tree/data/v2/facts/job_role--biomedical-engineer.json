@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Occupational classification",
+      "value": "India’s National Career Service lists Biomedical Engineer (also “Clinical Engineer”) in the Life Sciences sector, with NCO 2015 code 2143.0200.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Core remit",
+      "value": "The role spans designing biomedical instruments and life-support apparatus as well as installing, maintaining, repairing, evaluating, and supporting biomedical equipment.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Healthcare-device context",
+      "value": "In India, medical devices are regulated under the Drugs and Cosmetics Act, 1940 and the Medical Devices Rules, 2017; therefore safety, performance, testing, documentation, and compliance awareness are relevant to device-facing work.",
+      "source_urls": [
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+        "https://cdsco.gov.in/opencms/opencms/en/Acts-and-rules/Medical-Devices-Rules/"
+      ]
+    },
+    {
+      "label": "Illustrative parent-programme route",
+      "value": "IIT Madras’s four-year BS in Medical Sciences & Engineering combines medicine and engineering, includes a hospital internship, and covers areas such as biomechanics, medical imaging, biomedical signal processing, circuits, statistics, and AI in medicine.",
+      "source_urls": [
+        "https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/"
+      ]
+    },
+    {
+      "label": "Typical employers",
+      "value": "Relevant settings include hospitals, clinics, laboratories, medical-device companies, manufacturers, and research-and-development services.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.nqr.gov.in/sites/default/files/Annexure%20-%20V%20Occupations%20Mapping%20%26%20Skill%20Gap%20Study.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a biomedical engineer does",
+      "paragraphs": [
+        "Biomedical engineers apply engineering methods to healthcare problems. India’s National Career Service describes responsibilities that include research on biological systems; modelling human bio-behavioural systems; and designing or developing devices such as artificial organs, cardiac pacemakers, ultrasonic imaging equipment, and life-support apparatus.",
+        "In hospital and field-service-oriented work, the remit can be operational as well as developmental: install and acceptance-test equipment, undertake preventive maintenance and repairs, inspect/test/calibrate devices, support safety and standards compliance, advise on procurement, and train operators. These activities directly support equipment availability and safe clinical use."
+      ],
+      "bullets": [
+        "Design, test, evaluate, or improve medical devices and biomedical systems.",
+        "Install, commission, inspect, calibrate, maintain, and repair clinical equipment.",
+        "Work with clinicians, nursing staff, procurement/material teams, facilities staff, and manufacturers.",
+        "Support user training, equipment selection, safety checks, and documentation."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.nqr.gov.in/sites/default/files/Annexure%20-%20V%20Occupations%20Mapping%20%26%20Skill%20Gap%20Study.pdf",
+        "https://nhm.gov.in/nhm_live/index1.php?lang=1&level=3&lid=586&sublinkid=1224"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route from BS in Medical Sciences and Engineering",
+      "paragraphs": [
+        "A BS in Medical Sciences & Engineering is an appropriate interdisciplinary foundation for biomedical-engineering-adjacent roles because it integrates medical and engineering learning rather than qualifying a graduate to practise medicine. IIT Madras states explicitly that its BS does not permit medical practice as a doctor.",
+        "For the 2026 IIT Madras intake, the programme page states that admission is through the IISER Aptitude Test (IAT). Its FAQ describes the expected school preparation as Class XII science with Mathematics plus at least two of Biology, Chemistry, and Physics. Admissions rules and eligibility can change by intake, so applicants should use the current institute and examination notices rather than older brochures.",
+        "To become employable, pair the academic route with demonstrable practical work: a hospital, laboratory, device-company, or research internship; supervised equipment or design projects; and a portfolio showing testing, analysis, documentation, software, electronics, modelling, or clinical-workflow exposure. The hospital internship built into the cited BS programme is one formal example of this theory-to-practice bridge."
+      ],
+      "bullets": [
+        "Build fundamentals in anatomy/physiology, mathematics, mechanics, electronics, computing, and statistics.",
+        "Seek supervised exposure to clinical equipment, maintenance workflows, device design, imaging, signals, or healthcare data.",
+        "Use internships and projects to show that you can work safely with users, requirements, documentation, and verification—not only classroom concepts.",
+        "For clinical/maintenance roles, understand that employers may specify their own degree, experience, and service-training requirements."
+      ],
+      "source_urls": [
+        "https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/",
+        "https://mst.iitm.ac.in/faq-bs-programme/",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role requires a combination of engineering analysis, biomedical understanding, equipment-service capability, and communication. NCS highlights system/product design; installing, adjusting, maintaining, repairing, or technically supporting biomedical equipment; evaluating equipment safety, efficiency, and effectiveness; and analysing biology-and-medicine problems.",
+        "For product, testing, quality, or regulatory-facing work, add working familiarity with India’s medical-device regulatory framework. CDSCO identifies the Medical Devices Rules, 2017 as part of the governing framework and publishes device-specific classifications, testing-laboratory information, adverse-event materials, and guidance."
+      ],
+      "bullets": [
+        "Biomedical foundations: anatomy, physiology, pathology, clinical terminology, and the intended use of equipment.",
+        "Engineering foundations: circuits, mechanics, sensors, instrumentation, software, signal processing, imaging, modelling, and statistics.",
+        "Assurance foundations: inspection, calibration, preventive maintenance, safety/performance evaluation, troubleshooting, and clear records.",
+        "Professional foundations: analytical problem-solving, quality consciousness, communication, and collaboration with clinical and technical stakeholders.",
+        "Regulatory literacy: device classification, safety/performance expectations, and post-market safety concepts relevant to the assignment."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+        "https://cdsco.gov.in/opencms/opencms/en/Acts-and-rules/Medical-Devices-Rules/"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the work happens",
+      "paragraphs": [
+        "Biomedical engineers can work in hospitals and public-health facilities, clinics, laboratories, medical-device firms, manufacturers, and research services. In service models, the employer may be a device company holding a maintenance contract, while the engineer performs inspections, calibration, repair, and maintenance at customer healthcare sites.",
+        "The work is commonly hands-on rather than exclusively desk-based. National Health Mission’s Biomedical Equipment Management & Maintenance Programme identifies preventive maintenance, corrective maintenance, calibration, user training, and breakdown reporting as central equipment-management activities. The exact mix of on-site work, travel, shifts, and emergency response depends on the employer, device portfolio, and service arrangement."
+      ],
+      "bullets": [
+        "Hospital clinical engineering or equipment-management departments.",
+        "Manufacturer or distributor field service, applications support, quality, testing, or product teams.",
+        "Device-testing laboratories and regulatory/compliance-support work.",
+        "Academic, translational, or industrial R&D environments."
+      ],
+      "source_urls": [
+        "https://www.nqr.gov.in/sites/default/files/Annexure%20-%20V%20Occupations%20Mapping%20%26%20Skill%20Gap%20Study.pdf",
+        "https://nhm.gov.in/nhm_live/index1.php?lang=1&level=3&lid=586&sublinkid=1224",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "How careers can progress",
+      "paragraphs": [
+        "NCS presents an indicative progression of Trainee → Biomedical Engineer → Senior Biomedical Engineer → Lead Researcher. In practice, progression can also branch according to demonstrated expertise—for example into hospital equipment management, applications/field service, quality and testing, product development, clinical engineering, or research. The title, seniority requirements, and responsibility scope vary by employer.",
+        "Progression is strengthened by accumulating documented experience with particular device categories, safe troubleshooting and maintenance, equipment acceptance/testing, stakeholder training, and compliance-oriented processes. This is especially relevant because India’s public equipment-management programme emphasizes preventive and corrective maintenance, calibration, and user training."
+      ],
+      "bullets": [
+        "Early stage: trainee, junior engineer, service or applications support.",
+        "Developing stage: biomedical engineer with ownership of equipment categories, service territory, testing, or hospital systems.",
+        "Senior/lead stage: senior engineer, clinical-engineering lead, product/test/quality specialist, or research leadership, depending on pathway."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://nhm.gov.in/nhm_live/index1.php?lang=1&level=3&lid=586&sublinkid=1224"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Compensation is highly variable by city, employer, device specialization, work pattern, qualifications, and experience. The National Career Service career page—last updated December 30, 2023—gave an indicative range of ₹25,000–₹29,000 per month for candidates with three to five years’ experience, while expressly stating that the figure was subject to change. It should not be treated as a current market rate, starting-salary guarantee, or national benchmark.",
+        "When evaluating an offer, compare the total role context rather than a single salary number: employer type, on-call or shift expectations, field travel, paid service training, safety responsibility, access to clinical or product-development experience, and progression opportunity."
+      ],
+      "bullets": [
+        "Use current job postings and formal offer letters for live pay information.",
+        "Treat historic salary figures only as dated context.",
+        "Compare responsibilities and learning exposure alongside cash compensation."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Biomedical Engineer profile",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4730&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career profile"
+    },
+    {
+      "label": "IIT Madras: BS in Medical Sciences & Engineering",
+      "url": "https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/",
+      "kind": "university programme page"
+    },
+    {
+      "label": "IIT Madras: BS programme FAQ",
+      "url": "https://mst.iitm.ac.in/faq-bs-programme/",
+      "kind": "university admissions information"
+    },
+    {
+      "label": "CDSCO: Medical Device & Diagnostics",
+      "url": "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+      "kind": "medical-device regulator"
+    },
+    {
+      "label": "National Health Mission: Biomedical Equipment Management & Maintenance Program",
+      "url": "https://nhm.gov.in/nhm_live/index1.php?lang=1&level=3&lid=586&sublinkid=1224",
+      "kind": "government programme"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

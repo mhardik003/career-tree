@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Primary entry examination",
+      "value": "For central-government DEO and DEO Grade ‘A’ vacancies covered by SSC, the usual open-recruitment route is the Combined Higher Secondary (10+2) Level Examination (CHSL).",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+        "https://cag.gov.in/uploads/media/Manual-of-Establishment-2020-062a040404a4a85-83824842.pdf"
+      ]
+    },
+    {
+      "label": "Minimum education for most CHSL DEO posts",
+      "value": "The SSC CHSL 2025 notice required a pass in Class 12 (or equivalent) from a recognised board or university for DEO/DEO Grade ‘A’ posts, except for specified departments that require Science with Mathematics in Class 12.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf"
+      ]
+    },
+    {
+      "label": "Skill-test benchmark",
+      "value": "In the SSC CHSL 2025 scheme, the mandatory DEO skill test used a 15-minute computer data-entry test: 8,000 key depressions per hour for most DEO posts and 15,000 key depressions per hour for the specified higher-speed posts.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf"
+      ]
+    },
+    {
+      "label": "C&AG cadre levels",
+      "value": "C&AG office disclosures list DEO Grade ‘A’ as Group C, non-gazetted, Pay Level 4, and DEO Grade ‘B’ as Group C, non-gazetted, Pay Level 5.",
+      "source_urls": [
+        "https://cag.gov.in/cen/kolkata/hi/page-cen-kolkata-administration-rti-act",
+        "https://cag.gov.in/ag2/tamil-nadu/en/page-ag2-tamil-nadu-page-ersa-tamil-nadu-disclosure-reqr"
+      ]
+    },
+    {
+      "label": "C&AG Grade A to Grade B progression",
+      "value": "Under the C&AG DEO recruitment rules, DEO Grade ‘A’ staff can be considered for Grade ‘B’ promotion after five years’ regular service in Grade A and completion of prescribed two-week relevant training.",
+      "source_urls": [
+        "https://cag.gov.in/uploads/recruitment_rules/RRs_DEO_Grade_A_and_B.pdf",
+        "https://cag.gov.in/uploads/media/Manual-of-Establishment-Sections-20200714134906.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Responsibilities: accurate electronic records and department-specific data work",
+      "paragraphs": [
+        "A government DEO’s work is primarily computer-based record handling. The exact dataset and software differ by office, but an official Fisheries Survey of India DEO duty list illustrates the scope: compiling incoming data, entering and validating records, preserving source sheets, preparing periodic reports, monitoring email-based reporting, and entering operational or expenditure details for reports.",
+        "In practice, this makes accuracy, validation, record traceability and timely reporting central to the role—not merely fast typing. Some government offices also assign DEOs e-service workflows and reconciliations; for example, an Odisha RTI disclosure describes online entry, reconciliation of fees and charges, and generation of books and certificates in an e-registration system."
+      ],
+      "bullets": [
+        "Enter, compile and update departmental data in the assigned computer system.",
+        "Check and validate entries against source documents and retain required records.",
+        "Produce recurring reports, registers, statements or system-generated outputs.",
+        "Undertake related data-processing duties assigned by the employing office; the mix is department-specific."
+      ],
+      "source_urls": [
+        "https://fsi.gov.in/hi/duties-responsibilities",
+        "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A5827/lang%3A"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route: SSC CHSL, Class 12 eligibility and a qualifying data-entry test",
+      "paragraphs": [
+        "For the central-government DEO posts represented by this node, SSC CHSL is the principal direct-recruitment pathway. The C&AG’s establishment material states that direct recruitment to DEO Grade ‘A’ is made from candidates sponsored by the Staff Selection Commission, while the SSC CHSL notice explicitly includes DEO and DEO Grade ‘A’ posts.",
+        "For the 2025 CHSL notice, most DEO/DEO Grade ‘A’ candidates needed Class 12 or equivalent. DEO/DEO Grade ‘A’ posts in the Ministry of Consumer Affairs, Food and Public Distribution, Ministry of Culture and SSC required Class 12 Science with Mathematics. The same notice accepted qualifications from recognised institutions, including specified Open and Distance Learning qualifications under its recognition conditions.",
+        "The SSC’s 2025 selection scheme placed DEO candidates in Tier II, which included Mathematics, Reasoning and General Intelligence, English, General Awareness, a Computer Knowledge Test, and the mandatory Skill Test. The relevant notification should always be checked for the particular CHSL cycle because age dates, vacancies, departments, standards and eligibility wording can change."
+      ],
+      "bullets": [
+        "Complete Class 12 or an accepted equivalent qualification; verify whether a selected DEO preference has the Science-with-Mathematics requirement.",
+        "Apply through the SSC CHSL notification for the applicable recruitment cycle and express post preferences as instructed.",
+        "Prepare for the Tier II academic modules, Computer Knowledge Test and compulsory DEO Skill Test.",
+        "A Certificate in Computer Applications, undergraduate degree or recognised distance-learning degree can strengthen computer or subject knowledge, but SSC’s cited baseline eligibility for most DEO posts is Class 12—not a bachelor’s degree."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+        "https://cag.gov.in/uploads/media/Manual-of-Establishment-2020-062a040404a4a85-83824842.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build: speed with accuracy, computer fluency and data control",
+      "paragraphs": [
+        "The SSC DEO Skill Test directly measures accurate computer entry at a prescribed key-depression rate, so keyboard fluency and sustained accuracy are essential. SSC’s Tier II scheme also includes a Computer Knowledge Test, while official DEO duty descriptions show the need to compile, validate, preserve and report on data.",
+        "Useful preparation therefore combines timed data-entry practice with practical competence in the office software and data systems used by the recruiting department. Candidates should treat the speed target as an examination standard rather than as a complete description of on-the-job competence: routine work also calls for careful checking, organised digital records and confidentiality-conscious handling of official information."
+      ],
+      "bullets": [
+        "Fast, accurate keyboard data entry and error checking.",
+        "Computer knowledge tested through SSC CHSL, plus comfort with office data systems.",
+        "Data validation, document organisation and preservation of source records.",
+        "Ability to compile periodic reports and follow office procedures precisely."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+        "https://fsi.gov.in/hi/duties-responsibilities"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace: office-based central-government service, with department-specific assignments",
+      "paragraphs": [
+        "DEO work is generally desk- and system-based, but the employer determines the records, applications and operational context. Within the Indian Audit and Accounts Department, C&AG materials identify DEO Grade ‘A’, Grade ‘B’ and Grade ‘D’ cadres in Audit and Accounts & Entitlement offices, and C&AG office disclosures show Grade A and Grade B as Group C, non-gazetted EDP posts.",
+        "Candidates should not assume a local posting. The SSC CHSL 2025 notice stated that its posts carry All India Service Liability, meaning a selected candidate may be required to serve anywhere in India. Actual posting, transfer and day-to-day responsibilities depend on the user ministry, department or office receiving the vacancy."
+      ],
+      "bullets": [
+        "Predominantly computer-based office work handling the employer’s records and reporting systems.",
+        "Potential placement in different central-government ministries, departments or C&AG/IA&AD offices.",
+        "Location and exact workflow depend on the allotted user department; SSC notified All India Service Liability for the covered CHSL posts."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+        "https://cag.gov.in/en/exam-faqs",
+        "https://cag.gov.in/cen/kolkata/hi/page-cen-kolkata-administration-rti-act"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression: DEO Grade A to Grade B, plus departmental examination eligibility",
+      "paragraphs": [
+        "In the C&AG/IA&AD EDP cadre, a defined progression exists from DEO Grade ‘A’ to DEO Grade ‘B’. The recruitment rules and C&AG establishment manual state that Grade A staff with five years of regular service and completion of prescribed two-week relevant training are eligible for promotion to Grade B. C&AG training material also refers to departmental examination and training arrangements for Grade A officials progressing to Grade B.",
+        "A separate longer-term opportunity may arise through departmental examinations where service rules permit. C&AG’s examination FAQ says that DEO Grade A, B and D staff in Audit/A&E offices who have completed probation and at least three years’ continuous service in specified capacities may be eligible to appear for the relevant departmental examination. This is eligibility to sit an examination, not an automatic promotion or a guarantee of a particular post."
+      ],
+      "bullets": [
+        "Join as DEO/DEO Grade A through the notified recruitment route.",
+        "Complete probation, departmental training and required service milestones.",
+        "For the C&AG cadre, seek consideration for DEO Grade B after the prescribed five years in Grade A and relevant training.",
+        "Review the current departmental examination and promotion rules of the employing office before planning a move."
+      ],
+      "source_urls": [
+        "https://cag.gov.in/uploads/recruitment_rules/RRs_DEO_Grade_A_and_B.pdf",
+        "https://cag.gov.in/uploads/media/Manual-of-Establishment-Sections-20200714134906.pdf",
+        "https://cag.gov.in/en/exam-faqs"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context: central pay levels rather than a single fixed take-home salary",
+      "paragraphs": [
+        "Compensation varies by post, location, allowances and prevailing government orders. As dated context, SSC’s CHSL 2025 notice listed DEO posts at Pay Level 4 (₹25,500–₹81,100) and Pay Level 5 (₹29,200–₹92,300), while DEO Grade ‘A’ was listed at Pay Level 4 (₹25,500–₹81,100). C&AG office RTI disclosures likewise identify DEO Grade A with Level 4 and Grade B with Level 5.",
+        "These are pay-matrix basic-pay ranges, not promised in-hand salary figures. The eventual pay depends on the offered post, pay fixation and applicable allowances and deductions; applicants should use the notice for their own recruitment cycle and the appointing department’s current rules."
+      ],
+      "bullets": [
+        "DEO Grade A: commonly shown in official SSC/C&AG material at Pay Level 4.",
+        "DEO Grade B in the C&AG EDP cadre: commonly shown at Pay Level 5.",
+        "Treat 2025 SSC amounts as historical recruitment-notice context; confirm pay and allowances in the current appointment documentation."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+        "https://cag.gov.in/cen/kolkata/hi/page-cen-kolkata-administration-rti-act"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "SSC CHSL 2025 official notice (DEO eligibility, selection scheme and pay levels)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+      "kind": "official_exam_notice"
+    },
+    {
+      "label": "C&AG recruitment rules for DEO Grade A and Grade B",
+      "url": "https://cag.gov.in/uploads/recruitment_rules/RRs_DEO_Grade_A_and_B.pdf",
+      "kind": "official_recruitment_rules"
+    },
+    {
+      "label": "C&AG examination FAQs",
+      "url": "https://cag.gov.in/en/exam-faqs",
+      "kind": "official_employer_guidance"
+    },
+    {
+      "label": "C&AG Kolkata RTI disclosure showing DEO EDP pay levels",
+      "url": "https://cag.gov.in/cen/kolkata/hi/page-cen-kolkata-administration-rti-act",
+      "kind": "official_pay_context"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

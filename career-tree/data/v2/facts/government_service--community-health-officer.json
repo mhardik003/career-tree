@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Role in the public-health system",
+      "value": "A Community Health Officer (CHO) is the mid-level provider who leads the primary-health-care team at a Health and Wellness Centre–Sub Health Centre (HWC-SHC), working with multipurpose workers and ASHAs to deliver comprehensive primary health care.",
+      "source_urls": [
+        "https://aam.mohfw.gov.in/home/aboutus",
+        "https://www.nhm.gov.in/images/pdf/guidelines/iphs/iphs-revised-guidlines-2022/04-SHC_HWC_UHWC_IPHS_Guidelines-2022.pdf"
+      ]
+    },
+    {
+      "label": "Core qualification pattern",
+      "value": "Eligibility is set through state/UT NHM recruitment notices. Recent official examples use GNM, B.Sc. Nursing or Post Basic B.Sc. Nursing plus valid state nursing/midwifery registration; states may recruit candidates into a Certificate in Community Health / Community Health Nursing training route before posting.",
+      "source_urls": [
+        "https://upnrhm.gov.in/Uploads/Opportunities/2722992705398954.pdf",
+        "https://nhm.assam.gov.in/sites/default/files/swf_utility_folder/departments/nhm_lipl_in_oid_6/latest/job_2217_2518_advertisement.pdf"
+      ]
+    },
+    {
+      "label": "Clinical scope",
+      "value": "CHOs provide care according to approved care pathways and standard treatment guidelines, coordinate chronic-disease case management initiated by medical officers or specialists, and may dispense medicines within the applicable Schedule K provision and standing orders.",
+      "source_urls": [
+        "https://www.nhm.gov.in/images/pdf/guidelines/iphs/iphs-revised-guidlines-2022/04-SHC_HWC_UHWC_IPHS_Guidelines-2022.pdf"
+      ]
+    },
+    {
+      "label": "Employment model",
+      "value": "CHO/MLHP engagement is commonly implemented through state NHM arrangements rather than one uniform national cadre. Terms such as contract status, age limits, training bonds, assessment method and incentives are determined by the recruiting state or district notice.",
+      "source_urls": [
+        "https://upnrhm.gov.in/Uploads/Opportunities/2722992705398954.pdf",
+        "https://arogyakeralam.gov.in/wp-content/uploads/2020/04/DPMSU-KKD-1861-CLERK_CUM_DEO-2019-DPMSU-6.pdf"
+      ]
+    },
+    {
+      "label": "Work setting",
+      "value": "The usual base is an Ayushman Arogya Mandir / Health and Wellness Centre at sub-health-centre level, linked to a PHC that acts as a first referral point for conditions requiring escalation.",
+      "source_urls": [
+        "https://aam.mohfw.gov.in/home/aboutus"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Responsibilities and service remit",
+      "paragraphs": [
+        "At an HWC-SHC, the CHO combines clinical and public-health leadership. The Indian Public Health Standards assign CHOs functions including household listing and empanelment, clinical care under defined pathways, coordination of chronic-care case management, timely data use and reporting, local planning based on morbidity and mortality patterns, and engagement with community platforms and local government bodies.",
+        "The role is not limited to clinic consultations. The HWC model is intended to provide preventive, promotive, curative, rehabilitative and palliative care, including early identification, counselling, adherence support, follow-up, referral and health promotion. A CHO must therefore work within referral and treatment protocols and coordinate with the PHC medical officer and the frontline team rather than practise as an independent physician."
+      ],
+      "bullets": [
+        "Maintain an empanelled household/population record and use service data for planning and reporting.",
+        "Provide the specified primary-care services and coordinate referrals, follow-up and chronic-disease care.",
+        "Lead and support the HWC team of frontline workers, including ASHAs and multipurpose workers.",
+        "Mobilise community action with VHSNCs, Mahila Arogya Samitis, self-help groups and PRI/ULB stakeholders.",
+        "Address health promotion and social/environmental determinants such as sanitation, water and behavioural risks through intersectoral coordination."
+      ],
+      "source_urls": [
+        "https://www.nhm.gov.in/images/pdf/guidelines/iphs/iphs-revised-guidlines-2022/04-SHC_HWC_UHWC_IPHS_Guidelines-2022.pdf",
+        "https://aam.mohfw.gov.in/home/aboutus"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "How entry typically works",
+      "paragraphs": [
+        "There is no single India-wide CHO application form or permanently fixed eligibility rule. Recruitment is run by state or district NHM bodies, so applicants should treat the current official notification for the relevant state as controlling. Official NHM examples show a nursing route based on GNM, B.Sc. Nursing or Post Basic B.Sc. Nursing, valid state nursing/midwifery registration, selection assessment and community-health training before HWC posting.",
+        "For example, a Uttar Pradesh NHM CHO-CCHN recruitment notice specified GNM-RNRM, B.Sc. Nursing or Post Basic B.Sc. Nursing and registration with the UP Nurses & Midwives Council; it also described training followed by posting at an SC-HWC. Assam’s NHM CCH notice similarly described a six-month full-time theory-and-practical programme and listed B.Sc. Nursing/Post Basic B.Sc. Nursing or GNM with relevant registration among eligibility routes. These are examples, not universal rules."
+      ],
+      "bullets": [
+        "Complete a recognised nursing qualification that meets the particular state notice, commonly GNM, B.Sc. Nursing or Post Basic B.Sc. Nursing.",
+        "Keep registration with the required State Nurses and Midwives/Nursing Council valid.",
+        "Apply through the relevant state or district NHM recruitment portal and complete the stated examination, document verification and other selection steps.",
+        "Where specified, complete the Certificate in Community Health / Community Health Nursing training and meet any posting, service-bond or local-placement conditions."
+      ],
+      "source_urls": [
+        "https://upnrhm.gov.in/Uploads/Opportunities/2722992705398954.pdf",
+        "https://nhm.assam.gov.in/sites/default/files/swf_utility_folder/departments/nhm_lipl_in_oid_6/latest/job_2217_2518_advertisement.pdf",
+        "https://nhm.assam.gov.in/latest/notice-and-list-of-short-listed-candidates-for-written-examination-for-the-certificate-in"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills that the role calls for",
+      "paragraphs": [
+        "The official service model makes community-health nursing knowledge central: the CHO needs to assess common health needs, follow clinical pathways and standard treatment guidelines, recognise cases requiring referral, support long-term treatment adherence and use telehealth or referral coordination where available.",
+        "The role also requires operational public-health skills: maintaining population and service records, interpreting local health patterns, reporting accurately, planning with measurable targets, communicating with households and community institutions, and leading a mixed frontline team. Recruitment syllabi reinforce this breadth by covering community health, epidemiology, maternal and child health, immunisation, communicable and non-communicable diseases, emergencies, pharmacology, communication and computer-based skills."
+      ],
+      "bullets": [
+        "Community assessment, screening, counselling, follow-up and safe referral.",
+        "Clinical-protocol adherence and awareness of the limits of delegated medicine dispensing.",
+        "Maternal, child, adolescent, communicable-disease and NCD programme knowledge.",
+        "Data recording, digital reporting, basic analysis and use of local population data.",
+        "Team leadership, respectful communication and community mobilisation."
+      ],
+      "source_urls": [
+        "https://www.nhm.gov.in/images/pdf/guidelines/iphs/iphs-revised-guidlines-2022/04-SHC_HWC_UHWC_IPHS_Guidelines-2022.pdf",
+        "https://upnrhm.gov.in/uploads/6170622051778443.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and with whom CHOs work",
+      "paragraphs": [
+        "CHOs are principally posted in primary-care facilities transformed as Health and Wellness Centres, now presented by the Ministry of Health and Family Welfare as Ayushman Arogya Mandirs. At the sub-health-centre level, the CHO leads a team that includes male and female multipurpose workers and ASHAs.",
+        "The role is community-facing and facility-based. Services extend across households and community platforms, the HWC itself, and referral facilities. PHCs linked to a cluster of HWCs serve as the first referral point for many conditions; the PHC medical officer is responsible for ensuring delivery of comprehensive primary-health-care services across the linked HWCs."
+      ],
+      "bullets": [
+        "Base facility: HWC-SHC / Ayushman Arogya Mandir, with rural or urban deployment depending on the state programme.",
+        "Frontline collaborators: ASHAs and multipurpose health workers.",
+        "Clinical and referral collaborators: PHC medical officers, staff nurses, pharmacists, laboratory personnel and higher referral facilities.",
+        "Community collaborators: local self-help groups, VHSNC/MAS platforms and Panchayati Raj or urban local-body institutions."
+      ],
+      "source_urls": [
+        "https://aam.mohfw.gov.in/home/aboutus",
+        "https://www.nhm.gov.in/images/pdf/guidelines/iphs/iphs-revised-guidlines-2022/04-SHC_HWC_UHWC_IPHS_Guidelines-2022.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and adjacent pathways",
+      "paragraphs": [
+        "CHO is a service role, not a nationally standardised automatic promotion ladder. Progression depends on state NHM staffing rules, recruitment processes, experience and further qualifications. For nurses seeking deeper clinical, teaching, management or public-health preparation, an M.Sc. Nursing is one formal higher-education option: Indian Nursing Council eligibility information requires RN/RM (or equivalent) registration, a qualifying B.Sc./Post Basic B.Sc. Nursing degree with the stipulated marks, and the stated work-experience condition.",
+        "Other adjacent options include applying for Nursing Officer recruitment through AIIMS NORCET when the applicable notice’s requirements are met, pursuing recognised public-health-nursing qualifications, or moving into supervisory/public-health posts when a specific employer’s vacancy criteria permit it. The INC lists a Post Basic Diploma in Public Health Nursing and maintains information on recognised higher nursing qualifications; AIIMS NORCET notices set their own eligibility and selection conditions."
+      ],
+      "bullets": [
+        "M.Sc. Nursing: a higher nursing qualification route subject to INC eligibility and institution admission rules.",
+        "AIIMS NORCET / Nursing Officer: a separate competitive recruitment route, not a CHO promotion.",
+        "Public-health nursing: recognised post-basic public-health nursing study may strengthen fit for public-health roles.",
+        "Nursing supervision or programme management: possible only where the recruiting employer’s experience, registration and qualification criteria are met."
+      ],
+      "source_urls": [
+        "https://indiannursingcouncil.org/eligibility-criteria",
+        "https://www.indiannursingcouncil.org/gazette-notification",
+        "https://www.indiannursingcouncil.org/universities-offering-recognized-nursing-qualification",
+        "https://docs.aiimsexams.ac.in/sites/1_Advertisement_NORCET_-8.Ver_2.0%5B1%5D.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "There is no reliable national CHO salary figure because NHM engagement and pay are administered through state and district notices, and may combine a fixed monthly amount with a performance-linked component. Applicants should rely on the pay clause in the live advertisement for their state, not on national averages or coaching-site estimates.",
+        "As dated illustrations only: a UP NHM CHO-CCHN notice stated a training stipend of ₹10,000 per month and, on posting, up to ₹35,500 per month consisting of ₹20,500 salary plus up to ₹15,000 performance-based incentive. A Kozhikode NHM notice dated December 30, 2025 listed a Mid Level Service Provider rate of ₹20,500 per month during training and ₹20,500 plus ₹1,000 fixed travelling allowance after successful training. Neither example establishes current pay elsewhere in India."
+      ],
+      "bullets": [
+        "Check whether the post is contractual, its duration and renewal terms.",
+        "Separate fixed remuneration from performance incentives, travel allowance, training stipend and deductions.",
+        "Review any service bond, minimum-service obligation, posting-location condition and training-cost support before accepting an offer.",
+        "Confirm the current figure only from the recruiting NHM/state/district notice."
+      ],
+      "source_urls": [
+        "https://upnrhm.gov.in/Uploads/Opportunities/2722992705398954.pdf",
+        "https://arogyakeralam.gov.in/wp-content/uploads/2020/04/DPMSU-KKD-1861-CLERK_CUM_DEO-2019-DPMSU-6.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Health Mission: Community Health Officer resources",
+      "url": "https://nhm.gov.in/index1.php?lang=1&level=2&lid=701&sublinkid=1323",
+      "kind": "official programme resources"
+    },
+    {
+      "label": "Indian Public Health Standards 2022: HWC–Sub Health Centre",
+      "url": "https://www.nhm.gov.in/images/pdf/guidelines/iphs/iphs-revised-guidlines-2022/04-SHC_HWC_UHWC_IPHS_Guidelines-2022.pdf",
+      "kind": "official service standard"
+    },
+    {
+      "label": "Ayushman Arogya Mandir: programme overview",
+      "url": "https://aam.mohfw.gov.in/home/aboutus",
+      "kind": "official programme overview"
+    },
+    {
+      "label": "Indian Nursing Council: eligibility criteria",
+      "url": "https://indiannursingcouncil.org/eligibility-criteria",
+      "kind": "professional regulator"
+    },
+    {
+      "label": "NHM Uttar Pradesh opportunities portal",
+      "url": "https://upnrhm.gov.in/Home/Opportunities",
+      "kind": "official employer recruitment portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

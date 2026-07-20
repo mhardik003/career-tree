@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Recruiting examination",
+      "value": "The Staff Selection Commission (SSC) conducts the Junior Engineer (Civil, Mechanical & Electrical) Examination to recruit junior engineers for various Government of India departments and organisations.",
+      "source_urls": [
+        "https://ssc.gov.in/",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2017006&lang=2&reg=48"
+      ]
+    },
+    {
+      "label": "Post classification and pay level",
+      "value": "For the SSC JE 2024 recruitment, the advertised posts were Group ‘B’ (Non-Gazetted), Non-Ministerial posts at 7th CPC Pay Level 6, with the published pay-matrix range of ₹35,400–₹1,12,400. Classification, vacancies and terms should be verified against the notice for the relevant examination year and organisation.",
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2017006&lang=2&reg=48",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2025.pdf"
+      ]
+    },
+    {
+      "label": "Disciplines",
+      "value": "The SSC JE examination covers Civil, Mechanical and Electrical engineering streams; the actual posts and organisations available depend on the recruitment notice and candidate preference/allocation process.",
+      "source_urls": [
+        "https://ssc.gov.in/",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_JE_10062026.pdf"
+      ]
+    },
+    {
+      "label": "Selection structure",
+      "value": "In SSC JE 2025, candidates were shortlisted from Paper I to Paper II, and the first-round allocation used performance in both papers together with the online post/organisation preferences submitted by candidates.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_je_09072026.pdf",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_JE_10062026.pdf"
+      ]
+    },
+    {
+      "label": "A documented departmental pathway",
+      "value": "CPWD’s published manual describes a departmental examination route to Junior Engineer (Civil/Electrical) for eligible regular or work-charged staff with a relevant diploma or higher qualification; this is distinct from open SSC JE recruitment and is department-specific.",
+      "source_urls": [
+        "https://cpwd.gov.in/Publication/RegularManual.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Central Government Junior Engineer does",
+      "paragraphs": [
+        "Responsibilities vary by allotted organisation and engineering stream. In CPWD—a major central engineering employer—Junior Engineers are field officers responsible for maintenance and construction work at section level and report to the sub-divisional officer.",
+        "CPWD describes work that includes collecting and compiling engineering data, preparing estimates and drawings, supervising works, checking quality and conformity with designs/specifications, recording measurements, and maintaining official records and registers. These duties are a useful concrete example of the technical, documentation and site-supervision character of many public-works JE roles, rather than a universal job description for every SSC JE allocation."
+      ],
+      "bullets": [
+        "Oversee assigned construction, maintenance or engineering-service work.",
+        "Prepare or support estimates, drawings, measurements and work records.",
+        "Monitor quality, specifications and execution at site.",
+        "Coordinate within the engineering reporting structure, typically under an Assistant Engineer or Sub-Divisional Officer in the CPWD example."
+      ],
+      "source_urls": [
+        "https://cpwd.gov.in/newsitem/latestnewspdf/memorandumsixth.pdf",
+        "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Primary entry route: SSC JE",
+      "paragraphs": [
+        "The normal open-recruitment route for this node is the SSC Junior Engineer (Civil, Mechanical & Electrical) Examination. SSC describes it as a competitive examination for recruiting junior engineers in government departments and organisations.",
+        "Applicants should use the SSC notice issued for the specific examination cycle—not coaching summaries—to confirm eligible engineering discipline, qualification, age limits, vacancies, medical or physical conditions where applicable, application dates and organisation-wise posts. SSC’s 2025 process also required candidates who reached the relevant stage to submit an online option-cum-preference for posts and organisations.",
+        "A separate, internal route may exist in individual organisations. For example, CPWD publishes departmental examinations for eligible staff for appointment to Junior Engineer; that is not a substitute for SSC JE open recruitment and its eligibility is governed by CPWD rules."
+      ],
+      "bullets": [
+        "Complete SSC One-Time Registration and apply through the SSC portal when the relevant JE notice is live.",
+        "Hold the exact diploma, degree or other technical qualification specified for the chosen post/organisation in that year’s SSC notice.",
+        "Prepare for both examination papers; in the 2025 cycle, performance in Paper I and Paper II informed allocation.",
+        "Submit post/organisation preferences when SSC opens the option-cum-preference window."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2025.pdf",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_je_09072026.pdf",
+        "https://cpwd.gov.in/Publication/RegularManual.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills developed and used",
+      "paragraphs": [
+        "The CPWD description of JE work indicates that the role requires applied engineering judgement as well as disciplined public-works documentation. Core capabilities include interpreting drawings and specifications, estimating, measurement recording, quality oversight, maintaining registers and compiling engineering data.",
+        "Because the role combines technical execution with documented accountability, candidates benefit from clear written communication, accuracy in calculations and records, familiarity with the applicable engineering discipline, and the ability to work between office documentation and field supervision."
+      ],
+      "bullets": [
+        "Discipline-specific civil, mechanical or electrical engineering fundamentals.",
+        "Estimation, drawings, measurements and technical record-keeping.",
+        "Quality control and checking conformance with approved designs and specifications.",
+        "Field supervision, data collection and coordination with the engineering chain of command."
+      ],
+      "source_urls": [
+        "https://cpwd.gov.in/newsitem/latestnewspdf/memorandumsixth.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and posting context",
+      "paragraphs": [
+        "SSC JE is not one single employer-specific job: SSC recruits for junior-engineer posts across government departments and organisations. The eventual workplace, technical portfolio and conditions therefore depend on the organisation and post for which the candidate is allocated.",
+        "The CPWD example shows a mixed office-and-field role: JEs are deployed in maintenance and construction, manage work at section level and directly oversee works. CPWD’s published office listings also show JE posts distributed across regional and sub-divisional structures, illustrating the potential for geographically dispersed postings."
+      ],
+      "bullets": [
+        "Expect the organisation and location to be determined through the vacancy and allocation process.",
+        "Construction and maintenance assignments may require regular site oversight in addition to office-based estimating, records and coordination.",
+        "Some organisations or posts can have additional medical or physical standards; SSC specifically flags separate standards for Border Roads Organisation JE posts."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_JE_10062026.pdf",
+        "https://cpwd.gov.in/newsitem/latestnewspdf/memorandumsixth.pdf",
+        "https://cpwd.gov.in/officeDetails.aspx?State=GUJARAT",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2025.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression after appointment",
+      "paragraphs": [
+        "Career progression is organisation-specific. In CPWD, Junior Engineer is described as a direct-entry post and feeder grade for Assistant Engineer. CPWD also publishes limited departmental competitive examinations and results for promotion from JE (Civil/Electrical) to Assistant Engineer (Civil/Electrical).",
+        "Accordingly, an appointed JE should treat promotion rules, qualifying service, departmental examinations, seniority and vacancy position as employer-specific matters. Higher qualifications or external examinations may support longer-term career choices, but they do not by themselves guarantee promotion within a central-government cadre."
+      ],
+      "bullets": [
+        "Build verified technical, site-supervision and record-management experience in the allotted organisation.",
+        "Track the employer’s recruitment rules, seniority instructions and departmental-examination notices.",
+        "Where available, pursue the JE-to-AE promotional channel under the applicable departmental rules."
+      ],
+      "source_urls": [
+        "https://cpwd.gov.in/newsitem/latestnewspdf/memorandumsixth.pdf",
+        "https://cpwd.gov.in/AllCirculars.aspx?Type=116",
+        "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "As dated context rather than a current guaranteed offer: the Government’s SSC JE 2024 announcement placed the advertised JE posts at 7th CPC Pay Level 6, ₹35,400–₹1,12,400 in the pay matrix. This is the basic pay-matrix level, not a universal in-hand monthly salary.",
+        "Actual monthly remuneration can vary with applicable allowances, place of posting, deductions and the recruitment notice or service conditions of the allotted organisation. Candidates should therefore use the current SSC notice and appointment terms for a specific-cycle estimate rather than relying on an older salary figure."
+      ],
+      "bullets": [
+        "Published 2024 pay-matrix context: Pay Level 6, ₹35,400–₹1,12,400.",
+        "Do not equate the pay-matrix range with take-home pay.",
+        "Verify current pay, allowances and conditions in the relevant SSC notification and employer appointment documents."
+      ],
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2017006&lang=2&reg=48",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2025.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Staff Selection Commission official portal and SSC JE examination page",
+      "url": "https://ssc.gov.in/",
+      "kind": "official_exam_portal"
+    },
+    {
+      "label": "SSC JE 2025 examination notice",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2025.pdf",
+      "kind": "official_notification"
+    },
+    {
+      "label": "SSC JE 2025 first-round tentative allocation write-up",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_je_09072026.pdf",
+      "kind": "official_result_notice"
+    },
+    {
+      "label": "CPWD regular manual, including departmental examination information",
+      "url": "https://cpwd.gov.in/Publication/RegularManual.pdf",
+      "kind": "official_department_manual"
+    },
+    {
+      "label": "CPWD duties book",
+      "url": "https://cpwd.gov.in/Publication/Duties_Book_text_Final_2022.pdf",
+      "kind": "official_employer_reference"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

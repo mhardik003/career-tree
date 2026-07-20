@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core role",
+      "value": "A Government ITI vocational/craft instructor delivers trade training that combines practical skill transfer with trade theory for trainees in the Craftsmen Training Scheme (CTS) ecosystem.",
+      "source_urls": [
+        "https://dgt.gov.in/en/CTS",
+        "https://dgt.gov.in/en/CITS"
+      ]
+    },
+    {
+      "label": "Institutional setting",
+      "value": "ITIs operate across States and Union Territories; DGT sets national policies, standards, instructor training and trade-testing arrangements, while day-to-day ITI administration rests with the relevant State/UT administration.",
+      "source_urls": [
+        "https://dgt.gov.in/en/about-us",
+        "https://dgt.gov.in/en/CTS"
+      ]
+    },
+    {
+      "label": "Instructor-training route",
+      "value": "CITS is DGT’s instructor-training scheme. It provides training in trade skills and training methodology, and DGT states that eligible entrants hold an NTC, NAC, diploma or degree, subject to the relevant trade’s requirements.",
+      "source_urls": [
+        "https://dgt.gov.in/en/CITS",
+        "https://dgt.gov.in/en/cits-courses"
+      ]
+    },
+    {
+      "label": "Course structure",
+      "value": "CITS is generally a one-year programme. NSTI course information describes components such as Trade Technology, Engineering Technology or vocational calculation/science and soft skills, and Training Methodology including teaching practice and principles of teaching.",
+      "source_urls": [
+        "https://www.nstimumbai.dgt.gov.in/en/cits",
+        "https://www.nsticalicut.dgt.gov.in/en/cits"
+      ]
+    },
+    {
+      "label": "Government appointment",
+      "value": "Appointment is not made through one uniform national instructor examination: State/UT or central-employer recruitment rules set the trade-specific qualification, experience, age, selection method and service conditions for a vacancy.",
+      "source_urls": [
+        "https://egazette.ladakh.gov.in/WriteReadData/2022/76.pdf",
+        "https://tte.delhi.gov.in/sites/default/files/TTE/generic_multiple_files/c.i.stenographer_and_sceretarial_assistant_enghindi_latest_1.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Government ITI Vocational Instructor does",
+      "paragraphs": [
+        "The central function is to train learners in a designated vocational trade: explaining trade knowledge, demonstrating hands-on work, supervising practical learning, and helping trainees build the skills needed for industry. DGT describes CITS as preparing instructors to transfer hands-on skills, while a Union Public Service Commission vocational-instructor vacancy describes the duty simply as imparting training to trainees.",
+        "CITS training materials show the teaching practices expected of an instructor: lesson planning, demonstration planning, assignment sheets, tests, record books and viva-based assessment. The precise timetable, trade equipment, trainee records, assessment duties and institutional administrative work depend on the CTS trade curriculum and the employing State/UT or central institute."
+      ],
+      "bullets": [
+        "Teach both trade practical and trade theory in the allotted trade.",
+        "Plan lessons and demonstrations, then supervise trainees’ workshop or laboratory practice.",
+        "Use assignments, tests, practical observation and records to monitor learning and prepare trainees for the applicable trade assessments.",
+        "Maintain current technical competence and safe, effective teaching practice as trade technology and DGT curricula are revised."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/CITS",
+        "https://www.nstimumbai.dgt.gov.in/en/node/355",
+        "https://upsconline.gov.in/ora/Detail.php?case=MjUzNg9DP7SHLQ5L2DN3KXMNZAAXOQIJXWCXCSGFKICVCAA6AIA1KCIY&id=MQXCKAXICAUMKCID3S17QN9ZJXILAH5NAOXDLCIGAPASQ6C2VKYF&post=MjMzNQAGIA2AHQO7X39KCVXU6IKXWPYZNKCLACDFQSIALCDASNIMXC51"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes: trade qualification, CITS, then employer recruitment",
+      "paragraphs": [
+        "The usual professional preparation route starts with a qualification in the relevant trade or engineering field. DGT lists NTC, NAC, diploma and degree holders as eligible categories for CITS, but its current CITS course list sets distinct entry qualifications trade by trade. Candidates should therefore match their exact qualification to the advertised instructor trade rather than assume that one credential applies across all trades.",
+        "CITS is a principal instructor-preparation route. NSTI information describes it as a one-year programme and states that admission is made through DGT’s All India Common Entrance Test (AICET). Entry arrangements, seats, dates, fee notices and admission rules are cycle-specific and must be checked in the current DGT notice.",
+        "CITS completion does not by itself constitute appointment to a Government ITI. A candidate must also meet the recruitment notification issued by the relevant government employer. For example, Ladakh’s notified vocational-instructor rules prescribe trade-relevant degree, diploma or NTC/NAC pathways with differing experience requirements and a specified direct-recruitment/promotion mix; other jurisdictions publish their own rules."
+      ],
+      "bullets": [
+        "Build a relevant base credential: NTC/NAC or a relevant diploma, degree or B.Voc where the particular CITS trade and vacancy accept it.",
+        "Apply to the current CITS admission cycle and complete the instructor-training programme in the appropriate trade.",
+        "Track State/UT technical-education, skill-development, PSC/selection-board, or central-employer notices for regular, contractual or guest-faculty vacancies.",
+        "Read every notification for the exact trade match, experience, CITS preference or requirement, language, domicile/reservation, age and selection conditions."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/CITS",
+        "https://dgt.gov.in/en/cits-courses",
+        "https://www.nstimumbai.dgt.gov.in/en/cits",
+        "https://egazette.ladakh.gov.in/WriteReadData/2022/76.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role requires both occupational mastery and instructional capability. CITS combines Trade Technology with Training Methodology; NSTI descriptions explicitly include teaching practice and principles of teaching. This makes the role different from a purely industrial trade role: the instructor must be able to break a procedure into teachable steps, demonstrate it clearly, observe learner performance and give corrective feedback.",
+        "Evidence of instructional competence in a CITS course can include a lesson plan, demonstration plan, assignment sheets, tests, record books and viva. These are useful practical indicators of the planning, communication, documentation and assessment skills that government vocational instructors need alongside trade-specific competence."
+      ],
+      "bullets": [
+        "Current, trade-specific practical and theoretical knowledge.",
+        "Demonstration, lesson planning and step-by-step explanation of hands-on tasks.",
+        "Observation, practical assessment, feedback and learner record-keeping.",
+        "Workshop/laboratory discipline, safe use of tools and equipment, and adaptation to updated curricula and technologies."
+      ],
+      "source_urls": [
+        "https://www.nstimumbai.dgt.gov.in/en/cits",
+        "https://www.nstimumbai.dgt.gov.in/en/node/355",
+        "https://dgt.gov.in/en/cits-courses"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and public-service context",
+      "paragraphs": [
+        "Most government ITI posts sit within a State or Union Territory vocational-training administration. DGT is the national apex body for policy, common standards, instructor training and trade testing, but says that ITIs are under State/UT administrative and financial control and that day-to-day administration rests there. Consequently, an instructor may work in a government ITI, or in a government vocational-training institution administered directly through a central field institute, depending on the appointment.",
+        "The working environment is trade-dependent: it can include workshops, laboratories, classrooms and institutional training facilities. CTS itself offers NSQF-compliant courses across engineering and non-engineering trades, so equipment, safety routines and the balance of practical and theory instruction differ substantially by assigned trade."
+      ],
+      "bullets": [
+        "Employer and service rules: normally a State/UT department; some posts exist in central vocational-training institutes.",
+        "Teaching spaces: workshops, labs and classrooms, according to the trade.",
+        "Training framework: CTS courses and national standards developed by DGT, implemented locally by the institution."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/about-us",
+        "https://dgt.gov.in/en/CTS"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and mobility",
+      "paragraphs": [
+        "Career progression is cadre- and employer-specific rather than nationally uniform. Government departments maintain seniority lists, regularisation orders and higher instructor/group-instructor cadres under their own service rules. For example, Himachal Pradesh publishes ITI Group Instructor seniority material at pay-matrix level 12, while DGT has issued promotion orders to Training Officer posts. These examples demonstrate possible instructional-management progression, not a guaranteed sequence for every State/UT instructor.",
+        "An instructor can also deepen trade expertise or move into training design, assessment, curriculum implementation, instructor training or private vocational education. The availability of such moves depends on vacancy rules, qualifications, experience, departmental examinations and the employer’s cadre structure."
+      ],
+      "bullets": [
+        "Progression may include senior/group-instructor or supervisory responsibilities where the relevant cadre rules provide for them.",
+        "Central vocational-training organisations may offer separate Training Officer and related instructional posts.",
+        "Promotion, transfer, seniority and departmental qualifying requirements must be checked in the applicable employer’s current rules and orders."
+      ],
+      "source_urls": [
+        "https://techedu.hp.gov.in/?q=archive_office_orders",
+        "https://dgt.gov.in/en/order-circular?page=4"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "There is no single India-wide pay figure for a Government ITI vocational instructor. Pay depends on whether the employer is a State, Union Territory or central institution, the specific cadre and trade, appointment type, and the applicable pay-revision rules. As dated official examples, Ladakh’s ITI-sector cadre document lists Vocational Instructor at Level 4 (₹25,500–81,100) and Level 6E (₹35,900–113,500) under its specified conditions, whereas an NSTI Ludhiana staff profile identifies a Vocational Instructor at Pay Level 6. These examples should not be treated as a current nationwide salary promise.",
+        "Candidates should use the pay level and allowances stated in the exact recruitment advertisement and verify whether the vacancy is regular, contractual, guest-faculty or deputation-based. State/UT service rules, dearness allowance, location, pension/retirement arrangements and probation terms can materially change total compensation and benefits."
+      ],
+      "bullets": [
+        "Treat salary information as employer-, cadre- and date-specific.",
+        "Use the vacancy notice and governing service rules—not aggregate salary websites—as the authoritative source for a particular opening.",
+        "Check appointment type and applicable allowances before comparing offers."
+      ],
+      "source_urls": [
+        "https://egazette.ladakh.gov.in/WriteReadData/2022/76.pdf",
+        "https://nstiludhiana.dgt.gov.in/en/node/12880"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DGT — Craft Instructor Training Scheme (CITS)",
+      "url": "https://dgt.gov.in/en/CITS",
+      "kind": "official_scheme_page"
+    },
+    {
+      "label": "DGT — CITS courses, trade-wise entry qualifications and syllabi",
+      "url": "https://dgt.gov.in/en/cits-courses",
+      "kind": "official_course_directory"
+    },
+    {
+      "label": "DGT — Craftsmen Training Scheme (CTS)",
+      "url": "https://dgt.gov.in/en/CTS",
+      "kind": "official_scheme_page"
+    },
+    {
+      "label": "DGT — CITS guidelines and current admission documents",
+      "url": "https://dgt.gov.in/en/download-guidelines-cits",
+      "kind": "official_guidance"
+    },
+    {
+      "label": "DGT — About vocational-training governance",
+      "url": "https://dgt.gov.in/en/about-us",
+      "kind": "official_governance_page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential issuer",
+      "value": "The Certified Strength & Conditioning Specialist (CSCS) is an NSCA professional certification for practitioners who apply scientific processes to evaluate, train and coach athletes for improved athletic performance.",
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/",
+        "https://www.nsca.com/globalassets/certification/certification-pdfs/nsca-certification-handbook.pdf"
+      ]
+    },
+    {
+      "label": "Eligibility for India-based applicants",
+      "value": "Applicants outside the United States and Canada may submit a photocopy of their final transcript, degree diploma, or certificate showing at least a bachelor’s degree as defined by the U.S. education system; current CPR/AED certification is also required for certification.",
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/cscs-exam-prerequisites/"
+      ]
+    },
+    {
+      "label": "Assessment format",
+      "value": "The computer-based examination has Scientific Foundations and Practical/Applied sections. Candidates must pass both sections and meet eligibility requirements within one year of the initial exam date.",
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/certified-strength-and-conditioning-specialist-exam-description/"
+      ]
+    },
+    {
+      "label": "Published exam fee context",
+      "value": "NSCA lists CSCS registration at US$340 for members and US$475 for non-members; preparation materials are excluded. These USD prices are variable and should be checked at registration, with INR cost depending on exchange rate and payment charges.",
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/",
+        "https://www.nsca.com/certification/how-to-register-for-an-nsca-exam/"
+      ]
+    },
+    {
+      "label": "Maintenance",
+      "value": "The credential is maintained on a three-year recertification cycle through continuing education plus current CPR/AED, or by retaking and passing the examination plus maintaining CPR/AED.",
+      "source_urls": [
+        "https://www.nsca.com/certification/recertification/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility for physiotherapy and sports-performance professionals",
+      "paragraphs": [
+        "For this international professional certification, an applicant needs a bachelor’s degree or higher, or must be a college senior at an accredited institution, together with current CPR/AED certification. A candidate may register and sit the examination before obtaining CPR/AED proof, but the NSCA will not award certification until all requirements are fulfilled.",
+        "For applicants based in India and other countries outside the United States and Canada, the NSCA accepts a photocopy of the final transcript, degree diploma, or certificate demonstrating a degree equivalent to at least a U.S. bachelor’s degree. Eligibility documents must be supplied within one year of the examination date; otherwise, results become invalid.",
+        "For an Indian sports physiotherapist or government physiotherapist, CSCS is best understood as an additional athlete-performance credential: its published scope covers athlete testing, strength-and-conditioning programming, exercise technique, nutrition/recovery guidance, injury prevention, and collaboration or referral to allied health professionals. It does not itself confer a physiotherapy degree or replace the professional requirements applicable to physiotherapy practice."
+      ],
+      "bullets": [
+        "Bachelor’s degree or higher, or qualifying final-year college status.",
+        "Current CPR/AED certification is required before the credential can be issued.",
+        "India-based applicants should retain final degree evidence and CPR/AED documentation for NSCA submission."
+      ],
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/cscs-exam-prerequisites/",
+        "https://www.nsca.com/globalassets/certification/certification-pdfs/nsca-certification-handbook.pdf",
+        "https://www.nsca.com/certification/cscs/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and examination timeline",
+      "paragraphs": [
+        "CSCS is an examination-based certification rather than a fixed-duration academic course. The Scientific Foundations section is scheduled for 1.5 hours and the Practical/Applied section for 2.5 hours; the CSCS also has a 15-minute scheduled break between the two sections. Candidates must pass both sections and complete all eligibility requirements within one year from the initial examination date.",
+        "After registration, NSCA requires the candidate to sit the exam within a 120-day authorization window. Testing is delivered through Pearson VUE test centres; prospective candidates should check centre availability before registering, because specific appointments are shown after registration."
+      ],
+      "bullets": [
+        "Scientific Foundations: 1.5 hours.",
+        "Practical/Applied: 2.5 hours.",
+        "Registration-to-test window: 120 days.",
+        "Both sections and all documentary requirements: within one year of the first exam date."
+      ],
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/certified-strength-and-conditioning-specialist-exam-description/",
+        "https://www.nsca.com/certification/how-to-register-for-an-nsca-exam/"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the CSCS examination covers",
+      "paragraphs": [
+        "The Scientific Foundations section assesses exercise sciences, sport psychology and nutrition. The Practical/Applied section assesses programme design, exercise techniques, programme implementation, and organisation and administration. The exam blueprint is derived from the knowledge, skills and abilities identified for safe and effective strength-and-conditioning practice.",
+        "The practical content is relevant to rehabilitation-to-performance collaboration because it includes sport-specific needs analysis, training variables and periodisation, movement preparation, resistance/Olympic lifting/plyometric/speed/agility techniques, performance testing and monitoring, recovery, facility safety, recognising unsafe training practices, and knowing when to refer or collaborate with allied health professionals.",
+        "Questions are multiple-choice, may use images, video, or case descriptions, and use recall, application and analysis levels. Candidates should use the current NSCA Detailed Content Outline rather than relying on the title of a textbook or a third-party coaching course."
+      ],
+      "bullets": [
+        "Scientific Foundations: exercise science, sport psychology and nutrition.",
+        "Practical/Applied: programme design, exercise technique, implementation, testing/evaluation, and administration.",
+        "NSCA lists its preparation resources as optional; purchasing them neither is required nor guarantees a pass."
+      ],
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/certified-strength-and-conditioning-specialist-exam-description/",
+        "https://www.nsca.com/globalassets/certification/certification-pdfs/nsca-certification-handbook.pdf",
+        "https://www.nsca.com/cscs-exam-preparation/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Registration and certification process",
+      "paragraphs": [
+        "A practical sequence is to confirm degree and CPR/AED eligibility, study against the current Detailed Content Outline, create an NSCA account whose name exactly matches government-issued ID, register through NSCA, then schedule through Pearson VUE after receiving the authorisation-to-test email. NSCA states that membership is not required, although members receive a registration discount.",
+        "The passing standard for an NSCA examination is a scaled score of 70 or higher. If only one CSCS section is passed, the candidate has one year from that examination date to retake the failed section; a retake requires the applicable fee. Official certification follows only after both the exam and documentary conditions have been satisfied."
+      ],
+      "bullets": [
+        "Check a nearby Pearson VUE centre before paying, but expect test dates/times to become visible only after registration.",
+        "Bring a valid, unexpired government photo ID matching the NSCA account name.",
+        "Submit degree and CPR/AED eligibility evidence after registration and within the permitted one-year period."
+      ],
+      "source_urls": [
+        "https://www.nsca.com/certification/how-to-register-for-an-nsca-exam/",
+        "https://www.nsca.com/certification/cscs/certified-strength-and-conditioning-specialist-exam-description/",
+        "https://www.nsca.com/certification/cscs/cscs-exam-prerequisites/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and ongoing cost considerations",
+      "paragraphs": [
+        "As published by the NSCA in July 2026, the initial CSCS exam fee is US$340 for an NSCA member and US$475 for a non-member. A one-section retake is listed at US$250 for members and US$385 for non-members; a retake of both sections is listed at US$340 and US$475 respectively. These are issuer-published USD fees, exclude exam-preparation materials, and may change; an India-based candidate should separately budget for currency conversion, card/bank charges, CPR/AED training, and any optional study resources.",
+        "Recertification also has a variable cost. For the 2024–2026 reporting cycle, NSCA lists a per-credential member/non-member recertification fee of US$65/US$90 for certifications earned before 2024, with lower prorated amounts for credentials earned later in the cycle. The required CEUs likewise depend on the original certification date."
+      ],
+      "bullets": [
+        "Initial exam: US$340 member; US$475 non-member, as published in July 2026.",
+        "Preparation products are not included and are optional.",
+        "Review the NSCA fee page immediately before payment, rather than converting a historical USD figure into INR."
+      ],
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/",
+        "https://www.nsca.com/certification/how-to-register-for-an-nsca-exam/",
+        "https://www.nsca.com/certification/recertification/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Career use and progression",
+      "paragraphs": [
+        "NSCA identifies CSCS-aligned roles including strength and conditioning coach/coordinator, performance or sports-performance coach, high-performance director, physical-education instructor, and athletic administration roles. It also identifies rehabilitation specialists, including physical and occupational therapists, among professionals who may benefit from the credential. For physiotherapists, this supports a progression toward athlete testing, return-to-performance programming and interdisciplinary sports-performance work while remaining within the practitioner’s applicable professional scope.",
+        "After achieving CSCS, holders can maintain the credential through the three-year recertification process. NSCA also states that, after two years of full-time strength-and-conditioning experience, a CSCS holder may pursue its Registered Strength and Conditioning Coach (RSCC) designations; candidates should verify the current experience criteria before planning this progression."
+      ],
+      "bullets": [
+        "Use CSCS as a performance-training complement to physiotherapy education and professional registration.",
+        "Maintain current CPR/AED and complete the applicable recertification pathway every cycle.",
+        "Consider the NSCA RSCC pathway after gaining the required full-time experience."
+      ],
+      "source_urls": [
+        "https://www.nsca.com/certification/cscs/",
+        "https://www.nsca.com/certification/recertification/",
+        "https://www.nsca.com/rscc/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official CSCS overview, requirements and current fees",
+      "url": "https://www.nsca.com/certification/cscs/",
+      "kind": "official certification page"
+    },
+    {
+      "label": "Official CSCS prerequisites, including requirements for candidates outside the U.S. and Canada",
+      "url": "https://www.nsca.com/certification/cscs/cscs-exam-prerequisites/",
+      "kind": "official eligibility page"
+    },
+    {
+      "label": "Official CSCS examination description and content summary",
+      "url": "https://www.nsca.com/certification/cscs/certified-strength-and-conditioning-specialist-exam-description/",
+      "kind": "official examination page"
+    },
+    {
+      "label": "NSCA Certification Handbook and Detailed Content Outline",
+      "url": "https://www.nsca.com/globalassets/certification/certification-pdfs/nsca-certification-handbook.pdf",
+      "kind": "official handbook"
+    },
+    {
+      "label": "Official NSCA exam registration and Pearson VUE scheduling guidance",
+      "url": "https://www.nsca.com/certification/how-to-register-for-an-nsca-exam/",
+      "kind": "official registration page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and provider",
+      "value": "FRM is the Financial Risk Manager certification program administered by the Global Association of Risk Professionals (GARP).",
+      "source_urls": [
+        "https://www.garp.org/frm"
+      ]
+    },
+    {
+      "label": "Entry prerequisites",
+      "value": "There are no educational or professional prerequisites to register for the FRM Program or an exam part; this makes the exam accessible to eligible BBE and BFIA students or graduates, although the syllabus is quantitatively and finance intensive.",
+      "source_urls": [
+        "https://www.garp.org/frm/frequently-asked-questions"
+      ]
+    },
+    {
+      "label": "Exam structure",
+      "value": "The program has two computer-based, multiple-choice exams: Part I has 100 equally weighted questions and Part II has 80; candidates receive four hours for each part.",
+      "source_urls": [
+        "https://www.garp.org/frm/program-exams"
+      ]
+    },
+    {
+      "label": "Certification requirements",
+      "value": "To use the FRM designation, a candidate must pass Part I, pass Part II by December 31 of the fourth year after passing Part I, and submit two years of relevant full-time professional risk-management experience.",
+      "source_urls": [
+        "https://www.garp.org/frm/exam-policies"
+      ]
+    },
+    {
+      "label": "Current fee context",
+      "value": "For the November 2026 window, GARP lists USD 600 early-registration or USD 800 standard-registration exam fees per part, plus a one-time USD 400 enrollment fee for new Part I candidates; applicable taxes are additional and fees can change.",
+      "source_urls": [
+        "https://www.garp.org/frm/fees-payments"
+      ]
+    },
+    {
+      "label": "Upcoming schedule context",
+      "value": "For November 2026, GARP lists Part I from November 14–20 and Part II from November 21–25. Early registration is listed as May 1–July 31, 2026, with standard registration August 1–September 30, 2026; all listed deadlines are 11:59 pm Eastern Time.",
+      "source_urls": [
+        "https://www.garp.org/frm/exam-logistics"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What the FRM is for",
+      "paragraphs": [
+        "FRM is a professional risk-management credential rather than a university degree. GARP describes it as evidence that a professional can assess, measure, and monitor financial risk in real-world settings. For learners coming from BBE or BFIA, it can provide a structured route to deepen risk, markets, quantitative-analysis, and valuation knowledge beyond an undergraduate curriculum.",
+        "Certification should be distinguished from merely taking an exam part. Passing Part I or Part II is an examination achievement; the FRM designation is available only after both examinations are passed and GARP approves the required relevant work experience."
+      ],
+      "bullets": [
+        "Part I concentrates on the foundational tools of financial risk management.",
+        "Part II emphasizes applying those tools across market, credit, operational, liquidity, treasury, investment, and current financial-market risk topics."
+      ],
+      "source_urls": [
+        "https://www.garp.org/frm",
+        "https://www.garp.org/frm/frequently-asked-questions",
+        "https://www.garp.org/frm/exam-policies"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and path to certification",
+      "paragraphs": [
+        "GARP states that no educational or professional prerequisite is required to enroll. Accordingly, a BBE or BFIA background may be relevant preparation but is not a formal entry condition, and candidates may register before they have accumulated the work experience needed for certification.",
+        "The professional-experience requirement is two years of full-time relevant financial-risk-management work. GARP looks for roles in which identifying, measuring, monitoring, or managing risk is a meaningful responsibility; examples it gives include risk analysis, model validation, trading, portfolio management, treasury, audit, and consulting. Experience completed during school, including internships and part-time work, is not counted under the stated policy."
+      ],
+      "bullets": [
+        "Pass Part I first.",
+        "Pass Part II no later than December 31 of the fourth year after passing Part I.",
+        "Submit evidence of two years of qualifying full-time experience within 10 years after sitting for and passing Part II; experience obtained before or after the exams may be eligible, subject to GARP's policy."
+      ],
+      "source_urls": [
+        "https://www.garp.org/frm/frequently-asked-questions",
+        "https://www.garp.org/frm/exam-policies",
+        "https://www.garp.org/frm/program-exams"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and coverage",
+      "paragraphs": [
+        "Both FRM parts are administered by computer-based testing (CBT). Part I comprises 100 equally weighted multiple-choice questions and Part II comprises 80 equally weighted multiple-choice questions; GARP allocates four hours to each exam. GARP offers FRM examination windows in May, August, and November, though a candidate should rely on the live logistics page for the window, location availability, and deadlines applicable when registering.",
+        "Part I tests core tools: Foundations of Risk Management, Quantitative Analysis, Financial Markets and Products, and Valuation and Risk Models. Part II is application-focused and covers market risk; credit risk; operational risk and resilience; liquidity and treasury risk; risk management and investment management; and current issues in financial markets."
+      ],
+      "bullets": [
+        "Registering is not the same as scheduling: after registration and payment, the candidate must select an available appointment location, date, and time.",
+        "For candidates outside China Mainland, Hong Kong SAR China, and Thailand, GARP states that scheduling is through PSI; the named locations use ATA. Availability is first come, first served."
+      ],
+      "source_urls": [
+        "https://www.garp.org/frm/program-exams",
+        "https://www.garp.org/frm/frequently-asked-questions",
+        "https://www.garp.org/frm/exam-logistics"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "How to register and sit for the FRM exams",
+      "paragraphs": [
+        "The practical sequence is to create a GARP account, register and pay for the desired exam part and window, then schedule a specific test appointment after registration. A candidate who passes Part I must separately register, schedule, prepare for, and take Part II. Since schedules and seats are window-specific, candidates in India should confirm the available testing locations and appointment inventory before finalizing plans.",
+        "Fees and dates are variable rather than permanent. As of the stated July 2026 context, GARP lists the November 2026 early-registration price at USD 600 per part and standard registration at USD 800 per part, excluding applicable tax, with a USD 400 one-time enrollment fee for new Part I candidates. GARP's published payment deadline is 11:59 pm EST on the registration closing date."
+      ],
+      "bullets": [
+        "Select an exam window and register through the GARP account portal.",
+        "Pay the applicable registration fee; a new Part I candidate also pays the one-time enrollment fee.",
+        "Schedule the exact testing appointment after registration.",
+        "Bring the required original, valid, unexpired government-issued passport or driver's license and the printed appointment confirmation; GARP states that failure to do so prevents sitting or rescheduling and forfeits the exam fee."
+      ],
+      "source_urls": [
+        "https://www.garp.org/frm/program-exams",
+        "https://www.garp.org/frm/fees-payments",
+        "https://www.garp.org/frm/exam-logistics",
+        "https://www.garp.org/frm/exam-policies"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "GARP provides official FRM Exam Books, official practice exams, and annual learning objectives. Its 2026 Learning Objectives document is the appropriate starting point for aligning a study plan to the assessed curriculum, because topic emphases and readings can be revised between exam years.",
+        "GARP says candidates typically invest around 240 study hours over several months, while noting that actual preparation needs vary by prior background. For BBE or BFIA learners, a sensible plan is to diagnose quantitative foundations early, use the learning objectives to map each topic area, work timed question sets, and schedule Part II only after building durable command of Part I tools."
+      ],
+      "bullets": [
+        "Use the current-year Learning Objectives as the study-plan checklist.",
+        "Prioritize quantitative analysis, financial markets and products, and valuation/risk models before or alongside Part I practice.",
+        "Use official practice exams under timed conditions to rehearse the four-hour computer-based format.",
+        "Treat third-party preparation providers as optional: GARP makes clear that it does not endorse or warrant their products, claims, or pass-rate statements."
+      ],
+      "source_urls": [
+        "https://www.garp.org/frm/program-exams",
+        "https://www.garp.org/landing/frm-learning-objectives",
+        "https://www.garp.org/frm/frequently-asked-questions"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What completing FRM can signal",
+      "paragraphs": [
+        "After meeting the examination and experience requirements, the holder may use the FRM designation and identify themselves as an FRM Certified Professional under GARP's usage guidance. The credential is oriented toward roles where risk identification, measurement, monitoring, or management is material, rather than guaranteeing a specific job, salary, or promotion.",
+        "GARP identifies applicable work settings and roles including risk analysis, model validation, trading, portfolio management, treasury, audit, and consulting. Its student guidance also notes that FRM knowledge can complement study in finance, economics, accounting, computer science, data analytics, engineering, and statistics. These are examples of relevance, not promises of hiring outcomes.",
+        "After certification, GARP strongly encourages continuing professional development. Its CPD program is described as encouraged rather than mandatory; completing its stated 40 credits in a two-year cycle results in a CPD completion acknowledgement and updated digital-badge/directory status."
+      ],
+      "bullets": [
+        "FRM certification requires approved experience in addition to passing both exam parts.",
+        "Career outcomes depend on experience, employer requirements, location, skills, and the broader labour market; neither GARP nor this guide treats the credential as a salary guarantee.",
+        "Candidates should not use the FRM designation after their names until GARP certifies them."
+      ],
+      "source_urls": [
+        "https://www.garp.org/frm/frequently-asked-questions",
+        "https://www.garp.org/frm/exam-policies",
+        "https://www.garp.org/students/certifications"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "GARP FRM certification overview",
+      "url": "https://www.garp.org/frm",
+      "kind": "official program page"
+    },
+    {
+      "label": "FRM program, exams, study materials, and certification steps",
+      "url": "https://www.garp.org/frm/program-exams",
+      "kind": "official exam guide"
+    },
+    {
+      "label": "FRM exam logistics, dates, locations, and deadlines",
+      "url": "https://www.garp.org/frm/exam-logistics",
+      "kind": "official scheduling page"
+    },
+    {
+      "label": "FRM fees and payment information",
+      "url": "https://www.garp.org/frm/fees-payments",
+      "kind": "official fees page"
+    },
+    {
+      "label": "2026 FRM Learning Objectives",
+      "url": "https://www.garp.org/landing/frm-learning-objectives",
+      "kind": "official syllabus page"
+    },
+    {
+      "label": "FRM FAQs",
+      "url": "https://www.garp.org/frm/frequently-asked-questions",
+      "kind": "official FAQ"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

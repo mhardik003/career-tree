@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Direct-entry route",
+      "value": "A master's degree is not universally required: Princeton states that applicants need a bachelor's degree or international equivalent and that a master's is not required for Ph.D. admission; Oxford's DPhil in Engineering Science likewise says a prior master's is not required.",
+      "source_urls": [
+        "https://gradschool.princeton.edu/admission-onboarding/prepare",
+        "https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science"
+      ]
+    },
+    {
+      "label": "Typical full-time duration",
+      "value": "Duration varies materially by country and programme. Oxford describes a full-time DPhil as typically 3–4 years, while Princeton lists its Computer Science Ph.D. as 5 years.",
+      "source_urls": [
+        "https://www.ox.ac.uk/admissions/graduate/courses/getting-started?lang=en",
+        "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+      ]
+    },
+    {
+      "label": "GRE status",
+      "value": "The GRE is programme-specific rather than a universal Ph.D. requirement: Oxford Engineering Science seeks no GRE/GMAT scores, and Princeton Computer Science lists the GRE General Test as not accepted. Applicants must verify the policy for each department and entry cycle.",
+      "source_urls": [
+        "https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science",
+        "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+      ]
+    },
+    {
+      "label": "Funding model",
+      "value": "Many research Ph.D. offers include funding, but this is not guaranteed across all universities or countries. Cornell reports that its Ph.D. packages can include tuition, fees, health coverage and a living stipend, with funding terms provided in the admission offer.",
+      "source_urls": [
+        "https://gradschool.cornell.edu/policies/funding/"
+      ]
+    },
+    {
+      "label": "Research-doctorate structure",
+      "value": "A STEM Ph.D. normally combines programme-specific training with independent original research culminating in a dissertation and final examination; exact course and examination requirements are set by the university and department.",
+      "source_urls": [
+        "https://gradschool.duke.edu/sites/default/files/dgs_manual_ch09.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and academic preparation",
+      "paragraphs": [
+        "For Indian applicants, eligibility is assessed by the destination university and department, not by a single overseas standard. A bachelor's degree or recognised international equivalent can be sufficient for direct entry to many U.S.-style Ph.D. programmes: Princeton explicitly says a master's is not required, and UC Berkeley requires a bachelor's degree or recognised equivalent plus adequate undergraduate training or professional experience for the proposed field.",
+        "Oxford's Engineering Science DPhil illustrates how selective programmes assess subject fit as well as degree level: it expects a strong undergraduate degree in engineering or a relevant discipline such as physics, materials science, computer science, applied mathematics or chemistry; it does not require a prior master's degree.",
+        "English-language evidence may be required when prior education was not conducted in English under the university's exemption rules. Requirements and accepted tests differ by institution and sometimes by department, so applicants should use the exact policy for their intended intake rather than assume that a test score accepted elsewhere will qualify."
+      ],
+      "bullets": [
+        "Build evidence of preparation for the proposed research area: relevant coursework, research projects, thesis work, internships or employment, and—where available—research outputs.",
+        "Check how the university evaluates Indian academic records and whether it requires degree certificates, mark sheets/transcripts, translations, or a credential evaluation.",
+        "Treat a master's degree as programme-dependent: it can strengthen research preparation, but direct entry after a bachelor's is possible at some destinations while other systems or departments may require master's-level preparation."
+      ],
+      "source_urls": [
+        "https://gradschool.princeton.edu/admission-onboarding/prepare",
+        "https://grad.berkeley.edu/admissions/application-process/requirements/",
+        "https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science",
+        "https://gradschool.princeton.edu/admission-onboarding/prepare/english-proficiency"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study pattern",
+      "paragraphs": [
+        "There is no single standard duration abroad. As current programme examples, Oxford says a full-time DPhil typically takes 3–4 years, whereas Princeton lists a 5-year Ph.D. duration for Computer Science. The difference reflects national systems, the amount of initial coursework and examinations, research scope, funding arrangements, and individual progress.",
+        "Australian Government Research Training Program (RTP) scholarship support for a full-time research doctorate is available for a minimum of 3 and up to 4 years at the provider's discretion. That is a funding-support period, not a guarantee that every Ph.D. will be completed within that time."
+      ],
+      "bullets": [
+        "Confirm the published normal duration, maximum candidature period, and funding-guarantee period separately.",
+        "Ask whether a master's degree may be awarded en route, whether summer enrolment is required, and what milestones must be passed to continue.",
+        "Allow contingency time for research setbacks, ethics approvals, data collection, publications, and thesis examination; these are programme- and project-specific."
+      ],
+      "source_urls": [
+        "https://www.ox.ac.uk/admissions/graduate/courses/getting-started?lang=en",
+        "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science",
+        "https://www.education.gov.au/research-block-grants/research-training-program"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the Ph.D. involves",
+      "paragraphs": [
+        "STEM Ph.D. study is research-centred, but the balance of taught courses and research depends on the programme. Duke's doctoral requirements provide a representative U.S. model: departments set course requirements, students complete responsible-conduct-of-research training, pass a preliminary examination, submit a dissertation based on original and independent research, and complete a final examination.",
+        "Early-stage training may therefore include advanced disciplinary courses, research methods, laboratory or computational work, seminars, supervisor meetings, proposal development and qualifying/preliminary examinations. Later stages focus primarily on the supervised research project, papers or other outputs where appropriate, thesis writing and the defence/examination process."
+      ],
+      "bullets": [
+        "Before applying, compare faculty research groups, available facilities/data, supervision model, and recent student projects—not only the broad department title.",
+        "Read the doctoral handbook for milestone rules, committee formation, teaching or research-assistant duties, publication expectations, and thesis examination format.",
+        "If considering an industry-linked doctorate, check whether the project includes confidentiality, intellectual-property, publication, placement, or residency conditions."
+      ],
+      "source_urls": [
+        "https://gradschool.duke.edu/sites/default/files/dgs_manual_ch09.pdf",
+        "https://www.education.gov.au/national-industry-phd-program/national-industry-phd-program/frequently-asked-questions"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admissions strategy and application materials",
+      "paragraphs": [
+        "Admissions are normally department-led and competitive. Princeton's graduate application requirements illustrate a common package: academic transcripts, CV/résumé, statement of academic purpose, three recommendation letters, and test scores where the department requires them. Departments can impose additional requirements, so the departmental page is the controlling source for prerequisites, research-fit expectations, deadlines and test policy.",
+        "Do not infer that the immediate parent node, GRE, makes the GRE compulsory. Current official examples differ: Oxford Engineering Science says no GRE or GMAT scores are sought, while Princeton Computer Science does not accept the GRE General Test. Conversely, Princeton's general policy says to submit test scores if required by the degree programme.",
+        "A strong application should make a specific research-fit case: identify the research questions and methods that interest you, connect your prior preparation to them, and show why the named department or potential supervisors are suitable. Contacting faculty can be useful where a department invites it, but applicants should follow that department's stated process rather than mass-email researchers."
+      ],
+      "bullets": [
+        "Create a university-by-university tracker for programme requirements, faculty fit, transcript format, English-test policy, recommendation deadlines, application fee/waiver rules and funding forms.",
+        "Request recommendation letters from people able to assess research ability, technical independence, academic performance and persistence—not merely course attendance.",
+        "Submit only authentic records and claims. Princeton states that it may verify transcripts, recommendations, publications and test scores with their sources."
+      ],
+      "source_urls": [
+        "https://gradschool.princeton.edu/policies/application-admission",
+        "https://gradschool.princeton.edu/admission-onboarding/prepare",
+        "https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science",
+        "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs, funding and financial due diligence",
+      "paragraphs": [
+        "A funded Ph.D. offer can look very different from a self-funded offer. Cornell states that its doctoral funding packages include tuition, fees, student health coverage and a stipend, but also notes that the total cost of attendance includes living costs, books, supplies, travel and personal expenses. Applicants should obtain the written offer terms and calculate the remaining out-of-pocket cost for the specific city and household situation.",
+        "For Australia, the government-funded RTP may support domestic and overseas higher-degree-research students through a tuition-fee offset, stipend and/or allowances, administered by the university. As dated 2026 context, the published full-time RTP base stipend is A$34,315, with universities determining awards and conditions; it should not be treated as a universal entitlement or as a salary benchmark.",
+        "Fees, stipends, health insurance, taxation, dependent costs, exchange rates and visa charges are variable and can change. Compare the guaranteed duration of funding with the normal completion time, and ask whether support covers tuition, mandatory fees, health cover, relocation, conference travel and research expenses."
+      ],
+      "bullets": [
+        "Prefer offers that state the annual stipend, tuition/fee coverage, health-insurance coverage, teaching or research duties, start/end dates, satisfactory-progress conditions and any funding after the guaranteed period.",
+        "Do not use university ranking alone as a financial decision tool; compare supervisor fit, research resources, completion expectations and the net budget after local living costs.",
+        "For Australian RTP awards, apply through the selected university rather than directly to the Australian Government."
+      ],
+      "source_urls": [
+        "https://gradschool.cornell.edu/policies/funding/",
+        "https://www.education.gov.au/research-block-grants/research-training-program",
+        "https://www.education.gov.au/research-block-grants/research-training-program/research-training-program-frequently-asked-questions-students"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After the doctorate",
+      "paragraphs": [
+        "A STEM Ph.D. can support research-intensive careers in universities, public research organisations, R&D teams, advanced engineering and technology roles, and research-linked entrepreneurship. The practical next step should be planned around the candidate's research portfolio, skills, publications or other outputs, teaching/mentoring experience, professional network and work-authorisation options in the country of study.",
+        "Post-study work rules are country-specific and should be checked near graduation. In the United States, an eligible F-1 graduate may pursue post-completion OPT; a qualifying STEM degree can support an application for a 24-month STEM OPT extension, subject to requirements including a qualifying degree, school and employer/training-plan conditions. This is an immigration benefit requiring approval, not an automatic right.",
+        "In the United Kingdom, the official Graduate visa guidance states that a Ph.D. or other doctoral-qualification holder can receive a 3-year Graduate visa after successful completion of an eligible UK course, subject to the route's conditions. The same guidance notes that the route cannot be extended, although a person may be able to switch to another visa category if eligible."
+      ],
+      "bullets": [
+        "For academic careers, consider postdoctoral fellowships, research fellowships and teaching/research positions aligned with the thesis area.",
+        "For industry, translate doctoral work into evidence of problem-solving, tools, datasets, prototypes, patents, publications, collaboration and project delivery.",
+        "Before accepting any overseas offer, examine the current immigration rules for that destination and retain time for applications, as rules and eligibility can change."
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/node/92821",
+        "https://www.gov.uk/graduate-visa?form=MG0AV3",
+        "https://www.gov.uk/graduate-visa/course-you-studied"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Princeton Graduate School: preparing a Ph.D. application",
+      "url": "https://gradschool.princeton.edu/admission-onboarding/prepare",
+      "kind": "official university admissions guidance"
+    },
+    {
+      "label": "UC Berkeley Graduate Division: application requirements",
+      "url": "https://grad.berkeley.edu/admissions/application-process/requirements/",
+      "kind": "official university admissions guidance"
+    },
+    {
+      "label": "Oxford DPhil in Engineering Science",
+      "url": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science",
+      "kind": "official university programme page"
+    },
+    {
+      "label": "Australian Government Research Training Program",
+      "url": "https://www.education.gov.au/research-block-grants/research-training-program",
+      "kind": "official government funding guidance"
+    },
+    {
+      "label": "USCIS practical training guidance",
+      "url": "https://www.uscis.gov/node/92821",
+      "kind": "official U.S. immigration guidance"
+    },
+    {
+      "label": "UK Graduate visa overview",
+      "url": "https://www.gov.uk/graduate-visa?form=MG0AV3",
+      "kind": "official UK immigration guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

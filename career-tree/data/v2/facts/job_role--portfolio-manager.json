@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role in brief",
+      "value": "A portfolio manager is an investment decision-maker who sets and implements an investment strategy, constructs and manages portfolios, and decides what and when to buy or sell in pursuit of client objectives and constraints.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager"
+      ]
+    },
+    {
+      "label": "Indian PMS service models",
+      "value": "In India, Portfolio Management Services (PMS) may be discretionary, non-discretionary, or advisory: discretion and execution responsibility vary by model and client mandate.",
+      "source_urls": [
+        "https://investor.sebi.gov.in/pms_final.html",
+        "https://www.sebi.gov.in/legal/regulations/sep-2025/securities-and-exchange-board-of-india-portfolio-managers-regulations-2020-last-amended-on-september-03-2025-_96560.html"
+      ]
+    },
+    {
+      "label": "Regulatory certification scope",
+      "value": "For SEBI-registered portfolio managers, the principal officer and employees with decision-making authority related to fund management must obtain the NISM-Series-XXI-B: Portfolio Managers Certification Examination credential. This requirement is specific to the regulated PMS context, not a statement that every investment-management role in India requires this examination.",
+      "source_urls": [
+        "https://www.nism.ac.in/nism-series-xxi-b-portfolio-managers-certification-examination-2/?PageSpeed=noscript"
+      ]
+    },
+    {
+      "label": "Relationship to the CFA Program",
+      "value": "The CFA Program is a relevant career-building route rather than, by itself, the Indian PMS regulatory certification: CFA Institute identifies portfolio management as a core curriculum area and a common role for CFA charterholders.",
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager",
+        "https://www.cfainstitute.org/programs/cfa-program/career-prospects"
+      ]
+    },
+    {
+      "label": "Regulated-employer landscape",
+      "value": "SEBI’s register showed 526 registered portfolio-manager intermediaries as of July 9, 2026. This is a dated register count and may change as registrations are granted, lapse, or are updated.",
+      "source_urls": [
+        "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=33"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Portfolio Manager does",
+      "paragraphs": [
+        "Portfolio managers translate a client or mandate’s objectives and constraints into an investment process: they devise and implement strategy, construct portfolios, make purchase and sale decisions, and manage the resulting portfolio. In an Indian PMS setting, the degree of authority depends on the service model: a discretionary manager makes investment decisions for the investor, whereas non-discretionary and advisory arrangements retain more client control.",
+        "The work is not solely about selecting securities. The NISM curriculum for portfolio-management professionals also covers the portfolio-management process, performance measurement and evaluation, portfolio rebalancing, risk, equity and fixed-income strategies, taxation, and regulatory, governance, and ethical matters. This indicates the breadth of analytical, control, and client-accountability responsibilities expected in the regulated PMS environment."
+      ],
+      "bullets": [
+        "Define investment approach, asset allocation, portfolio construction, and trading decisions within the mandate.",
+        "Monitor risk, performance, portfolio exposures, and the need for rebalancing.",
+        "For PMS work, operate within the client agreement, disclosures, and the applicable SEBI framework; service type determines whether decisions are discretionary, client-directed, or advisory.",
+        "Communicate and work with research, dealing/trading, operations, compliance, custody, and client or wealth-advisory teams."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager",
+        "https://investor.sebi.gov.in/pms_final.html",
+        "https://www.nism.ac.in/certifications/nism-series-xxi-b-portfolio-managers-certification-examination/",
+        "https://www.nism.ac.in/wp-content/uploads/2021/06/Annexure-I-Portfolio-Managers-PM-Certification-updated.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "Portfolio manager is generally a progression role rather than a first job. CFA Institute describes a common route in which practitioners first spend several years in analyst roles; associate-level portfolio-management roles may contribute analysis and research before taking broader investment decision responsibility.",
+        "A practical route for the node’s immediate parent is to build investment-analysis capability through the CFA Program Levels I–III and relevant work experience in equity or credit research, investment analysis, trading, risk, performance analysis, or private wealth. CFA Institute notes that portfolio management is a core CFA curriculum topic and that employers often give priority to candidates with the CFA designation; this is employer preference and professional preparation, not a substitute for Indian regulatory obligations.",
+        "For positions at a SEBI-registered PMS firm that carry fund-management decision authority, candidates should separately plan for the NISM-Series-XXI-B certification requirement. NISM states that this applies to the PMS principal officer and employees having such decision-making authority; its certification is revalidated through the specified continuing-professional-education route."
+      ],
+      "bullets": [
+        "Build a foundation through a bachelor’s degree in finance or a related discipline, followed by investment-relevant internships or analyst roles.",
+        "Progress from research and recommendation work toward portfolio construction, execution, risk ownership, and accountability for outcomes.",
+        "Pursue the CFA Program for broad investment-management knowledge; Level III includes a Portfolio Management specialized pathway.",
+        "Where the role falls within SEBI-registered PMS and involves relevant decision authority, obtain and maintain the required NISM certification."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager",
+        "https://www.cfainstitute.org/programs/cfa-program/career-prospects",
+        "https://www.nism.ac.in/nism-series-xxi-b-portfolio-managers-certification-examination-2/?PageSpeed=noscript"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The central professional skill set combines investment strategy and process, portfolio construction and execution, and performance measurement and risk management. It also requires judgment under uncertainty: managers must generate and evaluate investment ideas, act within a defined process, manage downside risk, and remain decisive through periods of underperformance or difficult markets.",
+        "For Indian PMS roles, technical breadth should include equity, fixed income, derivatives, mutual funds, indices, modern portfolio theory, behavioural finance, risk, rebalancing, performance evaluation, taxation, and ethics/regulation. These are explicitly represented in NISM’s portfolio-manager examination objectives and syllabus, making them a useful regulator-aligned competency checklist."
+      ],
+      "bullets": [
+        "Fundamental and macroeconomic analysis; valuation and investment-idea generation.",
+        "Asset allocation, diversification, portfolio construction, implementation, and rebalancing.",
+        "Risk measurement, performance attribution/evaluation, and awareness of liquidity and concentration risks.",
+        "Clear written and verbal communication of investment rationale, risk, and mandate fit to internal stakeholders and clients.",
+        "Professional ethics, governance, regulatory awareness, and disciplined recordkeeping."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager",
+        "https://www.nism.ac.in/test-objectives-nism-series-xxi-b-portfolio-managers-certification-examination/",
+        "https://www.nism.ac.in/wp-content/uploads/2021/06/Annexure-I-Portfolio-Managers-PM-Certification-updated.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is performed",
+      "paragraphs": [
+        "In the Indian regulated PMS segment, portfolio managers work for SEBI-registered portfolio-manager intermediaries that provide customized portfolio services. SEBI’s investor education material describes PMS as professional management aligned to an investor’s goals, risk tolerance, preferences, and objectives, with discretionary, non-discretionary, and advisory variants.",
+        "The role also exists outside PMS—in asset management and private wealth settings, among others. CFA Institute notes that private wealth firms employ portfolio managers who either work directly with individual clients or support client-facing advisers. Day-to-day work is therefore typically team-based, integrating investment research and decision-making with trading, risk, operations, compliance, and client service."
+      ],
+      "bullets": [
+        "SEBI-registered PMS firms serving eligible clients under discretionary, non-discretionary, or advisory arrangements.",
+        "Asset and wealth-management organizations, especially private-wealth businesses.",
+        "Investment teams in which portfolio managers coordinate with analysts and other investment professionals; senior roles may direct a team or larger asset pool."
+      ],
+      "source_urls": [
+        "https://investor.sebi.gov.in/pms_final.html",
+        "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=33",
+        "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "A typical progression is investment or research analyst to associate portfolio-management responsibility, then portfolio manager with increasing mandate and asset or client responsibility. At mid-to-senior levels, the role can involve leading investment professionals or managing a larger pool of assets.",
+        "Possible later paths include Head of Portfolio Management, Managing Director, Chief Investment Officer, or related senior investment-leadership positions. The pace depends on sustained investment judgment, risk discipline, client or mandate responsibility, leadership capacity, and the employer’s structure; job titles and promotion thresholds are not standardized across Indian firms."
+      ],
+      "bullets": [
+        "Analyst / research / trading / risk roles → associate or assistant portfolio-management responsibilities.",
+        "Portfolio Manager → senior portfolio manager or strategy/asset-class lead.",
+        "Head of Portfolio Management or Managing Director → CIO or comparable investment-leadership role."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "India-specific portfolio-manager compensation is highly variable by employer type, assets or mandates managed, experience, investment performance, location, and the mix of fixed and variable pay. A precise national salary figure for this job role should therefore not be inferred from credential-level data.",
+        "As dated credential context rather than a portfolio-manager salary benchmark, CFA Institute’s 2026 India impact study reports average annual compensation of ₹22.1 lakh among its combined respondent group of CFA charterholders and candidates, and reports that more than 70% of charterholders with over eight years’ experience typically earn above ₹40 lakh annually. The study is based on 2,770 respondents and covers finance careers broadly, so these figures should not be treated as pay estimates for all Indian portfolio managers.",
+        "For evaluating an offer, compare fixed pay, performance-linked compensation, deferred compensation, role scope, regulatory responsibility, asset class, assets under management or client-mandate complexity, and benefits. Verify the employer’s current compensation terms directly because market conditions and firm policies change."
+      ],
+      "bullets": [
+        "Dated context: CFA Institute’s India study is labelled 2026 and is not role-specific.",
+        "Do not treat credential-holder/candidate averages as a guaranteed salary outcome from completing the CFA Program.",
+        "Variable compensation can be material in investment roles; candidates should clarify its calculation, deferral, clawback, and compliance conditions with the employer."
+      ],
+      "source_urls": [
+        "https://www.cfainstitute.org/programs/cfa-program/impact-assessment-india"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "SEBI Portfolio Managers Regulations, 2020 — last amended September 3, 2025",
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2025/securities-and-exchange-board-of-india-portfolio-managers-regulations-2020-last-amended-on-september-03-2025-_96560.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "SEBI investor guide to Portfolio Management Services",
+      "url": "https://investor.sebi.gov.in/pms_final.html",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "SEBI registered portfolio managers directory",
+      "url": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=33",
+      "kind": "regulator_directory"
+    },
+    {
+      "label": "NISM-Series-XXI-B: Portfolio Managers Certification Examination",
+      "url": "https://www.nism.ac.in/certifications/nism-series-xxi-b-portfolio-managers-certification-examination/",
+      "kind": "professional_certification"
+    },
+    {
+      "label": "CFA Institute career guide: Portfolio Manager",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/careers/portfolio-manager",
+      "kind": "professional_body"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

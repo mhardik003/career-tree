@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Professional eligibility",
+      "value": "Independent veterinary practice is reserved for registered veterinary practitioners; a recognised veterinary qualification is the core educational prerequisite, and the Act restricts practice by unregistered persons.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/bitstream/123456789/17047/1/a1984-52.pdf",
+        "https://www.indiacode.nic.in/bitstream/123456789/6825/1/the_indian_veterinary_council_act%2C_1984.pdf"
+      ]
+    },
+    {
+      "label": "Primary regulator",
+      "value": "The Veterinary Council of India (VCI) is the statutory body responsible for regulating veterinary practice, veterinary-education standards, and the Indian Veterinary Practitioners’ Register; State Veterinary Councils are also central to registration and discipline.",
+      "source_urls": [
+        "https://www.vci.dahd.gov.in/introduction",
+        "https://www.indiacode.nic.in/handle/123456789/1812?locale=en"
+      ]
+    },
+    {
+      "label": "Registration evidence",
+      "value": "VCI’s direct-registration information calls for a degree from a VCI-recognised university and a State Veterinary Council certificate, among other original documents.",
+      "source_urls": [
+        "https://vci.dahd.gov.in/registration-vci"
+      ]
+    },
+    {
+      "label": "Biomedical-waste responsibility",
+      "value": "A veterinary clinic is covered as a healthcare/veterinary institution under the Bio-Medical Waste Management Rules framework; the clinic operator is responsible for compliant handling and required authorisation through the relevant State Pollution Control Board or Pollution Control Committee.",
+      "source_urls": [
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Bio-medical_Waste_Management_Rules_2016.pdf",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf"
+      ]
+    },
+    {
+      "label": "Professional conduct baseline",
+      "value": "VCI’s professional-conduct regulations require ethical practice, transparent communication of professional remuneration, compliance with applicable drug and public-health laws, and restrict self-aggrandising advertising and referral commissions.",
+      "source_urls": [
+        "https://www.vci.dahd.gov.in/sites/default/files/IVPR/VCI-Code-of-Ethics-Regulations-1992%20%281%29.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Route from B.V.Sc. & A.H. to clinic ownership",
+      "paragraphs": [
+        "The usual route begins with B.V.Sc. & A.H. from an institution whose qualification is recognised under the Indian Veterinary Council Act framework. The Act recognises qualifications listed in its First Schedule, while VCI publishes recognised-college information and administers the national professional-register system.",
+        "Before independently diagnosing, treating, prescribing, or issuing veterinary certificates through a clinic, the graduate should obtain and maintain the applicable veterinary registration. The Act reserves veterinary practice and veterinary certification to registered veterinary practitioners, while VCI’s registration guidance specifically relies on evidence including a VCI-recognised degree and State Veterinary Council registration.",
+        "Clinic ownership is a business decision made after professional eligibility, not a substitute for it. Before signing a lease, buying equipment, or advertising services, the prospective owner should confirm the registration position with the relevant State Veterinary Council and identify state and local approvals applicable to the intended premises and services."
+      ],
+      "bullets": [
+        "Complete B.V.Sc. & A.H. from a qualification/institution recognised under the VCI statutory framework.",
+        "Secure registration through the relevant State Veterinary Council and, where applicable, ensure entry/registration documentation is aligned with VCI requirements.",
+        "Define the initial clinical scope—such as companion-animal, livestock, poultry, equine, or mixed practice—around the veterinarian’s competence, equipment, referral arrangements, and local demand.",
+        "Validate local premises, municipal, labour, tax, pharmacy/drug-control, and pollution-control requirements with the authorities in the state and city where the clinic will operate; these operational approvals are location- and service-dependent."
+      ],
+      "source_urls": [
+        "https://www.indiacode.nic.in/bitstream/123456789/17047/1/a1984-52.pdf",
+        "https://www.indiacode.nic.in/handle/123456789/1812?locale=en",
+        "https://vci.dahd.gov.in/registration-vci",
+        "https://www.vci.dahd.gov.in/"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Clinical and entrepreneurial capabilities",
+      "paragraphs": [
+        "A clinic entrepreneur combines regulated clinical work with service operations. VCI’s ethics framework describes veterinary practice as encompassing animal health, animal production and technology, and related professional fields; it also frames the veterinarian’s obligations around animal health, relief of suffering, livestock-resource protection, public health, and continuing professional competence.",
+        "In practice, this means building reliable systems for clinical assessment, preventive care, treatment planning, client communication, emergency response, referral, stock control, records, staff supervision, infection prevention, and financial administration. A veterinarian should only offer services that can be delivered safely with appropriate competence, facilities, equipment, and support.",
+        "Veterinary work also carries public-health responsibilities. The VCI code directs practitioners to cooperate with sanitary and drug-related laws, educate the public about zoonotic and food-borne disease prevention where relevant, and notify competent authorities of communicable disease cases as required by applicable law."
+      ],
+      "bullets": [
+        "Clinical judgement and humane patient care across the clinic’s chosen animal segment.",
+        "Clear informed-client communication, including disclosure of fees for professional services.",
+        "Document control for certificates, reports, prescriptions, and patient histories.",
+        "Team leadership and supervised delegation: minor veterinary services by permitted personnel are legally framed as occurring under the supervision and direction of a registered veterinary practitioner.",
+        "Biosecurity, waste segregation, and escalation/referral processes that protect animals, clients, staff, and the public."
+      ],
+      "source_urls": [
+        "https://www.vci.dahd.gov.in/sites/default/files/IVPR/VCI-Code-of-Ethics-Regulations-1992%20%281%29.pdf",
+        "https://www.indiacode.nic.in/bitstream/123456789/17047/1/a1984-52.pdf"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Designing the veterinary-clinic operating model",
+      "paragraphs": [
+        "A viable model should begin with a clearly defined service scope and responsible veterinarian rather than with a generic retail setup. The practice can organise appointments, outpatient consultation, preventive medicine, diagnostics, procedures, farm or home visits where feasible, and referral relationships according to its patient population and the facilities it can safely support.",
+        "The professional-service model should separate clinical decision-making from inappropriate inducements. Under the VCI code, professional remuneration is to be communicated to the client when the service is rendered; rebates, commissions, and gifts for procuring or referring clients are prohibited. The code also prohibits operating an open shop to dispense prescriptions written by other doctors.",
+        "For clinics issuing veterinary health, vaccination, transport, diagnostic, insurance, or other professional certificates, records need particular discipline. The VCI code treats false or misleading certification as misconduct and requires a register of veterinary medical certificates, with patient and owner details and retained copies."
+      ],
+      "bullets": [
+        "Set a written scope of services, hours, emergency protocol, referral criteria, and responsible registered veterinarian.",
+        "Use itemised, clearly communicated professional fees; treat prices as local commercial decisions rather than regulated national benchmarks.",
+        "Maintain patient records, consent documentation, inventory controls, and a certificate register where certificates are issued.",
+        "Where medicines are stocked, dispensed, or sold, design the process around applicable Drugs and Cosmetics law and the state drug-control authority’s requirements rather than treating the clinic as an unrestricted pharmacy."
+      ],
+      "source_urls": [
+        "https://www.vci.dahd.gov.in/sites/default/files/IVPR/VCI-Code-of-Ethics-Regulations-1992%20%281%29.pdf",
+        "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/drug_rules/Drugs%20Rules%201945_2024%2009.pdf",
+        "https://cdsco.gov.in/opencms/opencms/en/Acts-and-rules/Drugs-Rules/"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Core compliance checklist",
+      "paragraphs": [
+        "First, protect the right to practise: the clinic’s clinical work must be led by a registered veterinary practitioner. The Indian Veterinary Council Act provides that persons other than registered veterinary practitioners may not practise veterinary medicine in a state, subject only to the statutory limited pathway for specified minor veterinary services under a registered practitioner’s supervision and direction.",
+        "Second, build professional-conduct controls into daily operations. VCI’s code addresses advertising, fee communication, emergency responsibility, negligence, referral commissions, written consent before euthanasia or an operation, compliance with drug and public-health laws, and the accuracy and retention of veterinary certificates. Professional misconduct can lead to disciplinary action, including removal from the register.",
+        "Third, implement biomedical-waste compliance from opening day. The Bio-Medical Waste Management Rules expressly cover clinics and veterinary institutions, including waste generated in animal diagnosis, treatment, and immunisation. The operator should obtain the required authorisation from the relevant SPCB/PCC, segregate and hand over waste through authorised arrangements, and maintain the records and reports required for the facility type.",
+        "Finally, conduct a state-and-city-specific opening review. Veterinary practice and animal-health administration involve state-level implementation, while premises, local trade permissions, fire safety, employment, tax registration, and drug-control processes can vary by location and by whether the clinic performs surgery, boarding, diagnostics, medicine sales, imaging, or mobile services."
+      ],
+      "bullets": [
+        "Keep current veterinarian registration and display/record the registration number in professional materials as permitted by the ethics rules.",
+        "Obtain written client consent before surgery or euthanasia; retain patient and certification records.",
+        "Do not use misleading superiority claims, touts, referral commissions, or advertising that breaches the VCI professional-conduct code.",
+        "Confirm medicine procurement, storage, dispensing, sale, and controlled-drug procedures with the state drug-control authority.",
+        "Obtain and maintain biomedical-waste authorisation and a compliant collection/treatment arrangement with the appropriate authorised facility or approved mechanism.",
+        "Recheck local approvals whenever the premises, ownership, services, waste stream, or clinical equipment materially changes."
+      ],
+      "source_urls": [
+        "https://www.indiacode.nic.in/bitstream/123456789/17047/1/a1984-52.pdf",
+        "https://www.vci.dahd.gov.in/sites/default/files/IVPR/VCI-Code-of-Ethics-Regulations-1992%20%281%29.pdf",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Bio-medical_Waste_Management_Rules_2016.pdf",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+        "https://dahd.gov.in/en/about-us/allocation-business-rules"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Responsible growth paths",
+      "paragraphs": [
+        "Growth should follow demonstrated clinical competence and compliance capacity. VCI’s ethical framework makes continuing improvement of professional knowledge and competence a lifelong obligation and recognises veterinary work across animal health, production, technology, public health, laboratory animal medicine, animal experimentation, and vaccine production. This supports deliberate expansion into a defined clinical or advisory niche rather than indiscriminate service addition.",
+        "For a clinic entrepreneur, practical growth can include building a stronger referral network, adding services only after acquiring the necessary competence and compliance systems, developing preventive-health and husbandry advisory work, or expanding to a multi-veterinarian practice. Any expansion involving medicines, waste generation, certification, staff delegation, or new premises should trigger a fresh compliance review."
+      ],
+      "bullets": [
+        "Deepen a chosen segment such as companion-animal medicine, production-animal practice, herd-health advisory work, or preventive care.",
+        "Develop referral and consultation relationships while avoiding prohibited fee-sharing, commissions, or client-procurement inducements.",
+        "Add diagnostics, surgery, mobile services, boarding, or additional locations only when staffing, documentation, biomedical-waste arrangements, drug controls, and local approvals support them.",
+        "Maintain continuing professional development and reassess protocols as disease-control, drug, public-health, and local regulatory requirements change."
+      ],
+      "source_urls": [
+        "https://www.vci.dahd.gov.in/sites/default/files/IVPR/VCI-Code-of-Ethics-Regulations-1992%20%281%29.pdf",
+        "https://www.dahd.gov.in/en/schemes-programmes/lh-dc",
+        "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Veterinary Council of India — registration information",
+      "url": "https://vci.dahd.gov.in/registration-vci",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "Indian Veterinary Council Act, 1984",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/17047/1/a1984-52.pdf",
+      "kind": "legislation"
+    },
+    {
+      "label": "VCI Acts and Rules archive",
+      "url": "https://vci.dahd.gov.in/archive-acts-rules",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "VCI professional conduct and ethics regulations",
+      "url": "https://www.vci.dahd.gov.in/sites/default/files/IVPR/VCI-Code-of-Ethics-Regulations-1992%20%281%29.pdf",
+      "kind": "professional regulation"
+    },
+    {
+      "label": "Bio-Medical Waste Management Rules, 2016",
+      "url": "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Bio-medical_Waste_Management_Rules_2016.pdf",
+      "kind": "environmental regulation"
+    },
+    {
+      "label": "CPCB healthcare-waste management guidelines",
+      "url": "https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/Guidelines_healthcare_June_2018.pdf",
+      "kind": "implementation guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

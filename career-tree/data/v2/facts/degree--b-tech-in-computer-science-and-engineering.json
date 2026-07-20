@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and field",
+      "value": "B.Tech in Computer Science and Engineering (CSE) is an undergraduate engineering degree pathway focused on computer science and engineering foundations; AICTE publishes a dedicated model curriculum for the branch.",
+      "source_urls": [
+        "https://aicte.gov.in/sites/default/files/ug-vol1.pdf"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "The standard AICTE undergraduate Engineering and Technology programme duration is 4 years for entry after Class 12.",
+      "source_urls": [
+        "https://aicte.gov.in/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "General entry baseline",
+      "value": "Under AICTE’s 2024–2027 Approval Process Handbook, entry to a four-year Engineering and Technology degree is based on a 10+2 qualification with prescribed subject combinations and at least 45% in the relevant subjects taken together (40% for reserved-category candidates); universities, states, and entrance examinations can impose additional conditions.",
+      "source_urls": [
+        "https://aicte.gov.in/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "Lateral-entry route",
+      "value": "AICTE’s framework provides for lateral entry into undergraduate Engineering and Technology after an appropriate diploma. The applicable state authority, university, or LEET-style examination determines branch mapping, merit rules, seats, and counselling procedure.",
+      "source_urls": [
+        "https://aicte.gov.in/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "VITEEE route",
+      "value": "For VIT’s 2026 B.Tech admissions, VIT states that Indian-national applicants must take VITEEE; selection is based on VITEEE rank and online counselling. Its PCM/PCMB route requires at least 60% aggregate in Mathematics, Physics, and Chemistry and at least 50% in Mathematics, subject to the published category provisions.",
+      "source_urls": [
+        "https://viteee.vit.ac.in/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: Class 12 entry and diploma lateral entry",
+      "paragraphs": [
+        "For the regular four-year route, AICTE’s 2024–2027 handbook sets a national approval-framework baseline for Engineering and Technology: pass 10+2 with the prescribed combination drawn from subjects including Physics, Mathematics, Chemistry, Computer Science, Electronics, Information Technology, Biology, Informatics Practices, Biotechnology, technical-vocational subjects, and others specified by AICTE, with at least 45% in the relevant subjects together (40% for reserved-category candidates). The exact subject requirement for CSE admissions is ultimately set by the admitting university, state counselling authority, and examination brochure; many competitive CSE routes specifically require Mathematics.",
+        "A diploma holder may instead pursue lateral entry, ordinarily entering the second year where permitted. AICTE recognizes lateral entry for an appropriate engineering diploma, but applicants should treat the state’s LEET or diploma-entry brochure as controlling for eligible diploma branches, minimum marks, seat availability, domicile/reservation rules, and counselling dates.",
+        "VIT is an example of a university-specific rule set rather than a universal CSE rule: for the 2026 cycle, VIT requires Indian nationals seeking B.Tech admission through its general route to take VITEEE. For access to all B.Tech programmes through the PCM/PCMB pattern, it specifies a 60% aggregate in Mathematics, Physics, and Chemistry and at least 50% in Mathematics in the qualifying examination."
+      ],
+      "bullets": [
+        "Confirm the institution’s current prospectus before applying; AICTE approval norms do not replace institution-level admission rules.",
+        "For diploma-to-degree admission, verify that the diploma discipline is accepted for CSE lateral entry before registering for a LEET or state diploma-entry process.",
+        "Keep Class 10 and 12 records, category/domicile documents where applicable, entrance-score records, and diploma marksheets ready for counselling verification."
+      ],
+      "source_urls": [
+        "https://aicte.gov.in/sites/default/files/APH%20Final.pdf",
+        "https://viteee.vit.ac.in/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study structure",
+      "paragraphs": [
+        "The normal B.Tech Engineering and Technology duration is four years following Class 12. AICTE’s CSE model curriculum presents an eight-semester, four-year structure with 159 total credits as a model; an individual university’s credit total, semester scheme, and academic regulations may differ.",
+        "A lateral-entry student’s remaining duration is commonly shorter because entry is into a later year, but the precise duration and any bridge-course requirements are determined by the admitting authority and institution."
+      ],
+      "bullets": [
+        "Regular entry: typically 4 academic years / 8 semesters.",
+        "Lateral entry: confirm the year of entry and bridge-course requirements in the applicable admission brochure.",
+        "Expect a mixture of lectures, tutorials, laboratories, electives, projects, and practical or industry-oriented components."
+      ],
+      "source_urls": [
+        "https://aicte.gov.in/sites/default/files/APH%20Final.pdf",
+        "https://aicte.gov.in/sites/default/files/ug-vol1.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "CSE curricula differ by university, but AICTE’s model curriculum shows the usual foundation: mathematics and science, engineering science, humanities and social-science components, professional core subjects, laboratories, open electives, projects, and a summer industry internship. Its model includes a three-week student-induction programme and identifies 159 credits for the four-year CSE structure.",
+        "Core computing study commonly covers programming, data structures and algorithms, discrete mathematics, computer organization and architecture, operating systems, databases, computer networks, software engineering, and practical design work. For example, IIT Delhi’s current B.Tech CSE curriculum includes data structures, computer architecture, programming languages, analysis and design of algorithms, operating systems, computer networks, digital electronics, project/design practice, and practical training.",
+        "Electives allow specialization. AICTE’s model lists choices across theory and algorithms, systems, data science and machine intelligence, applications, and open electives, including artificial intelligence, machine learning, data analytics, cloud computing, cybersecurity, cryptography, Internet of Things, and software engineering. Availability depends on the institution and faculty expertise."
+      ],
+      "bullets": [
+        "Foundations: programming, mathematics, data structures, algorithms, and discrete structures.",
+        "Systems: digital logic/electronics, architecture, operating systems, databases, and networking.",
+        "Applied learning: programming labs, design projects, internships/practical training, and a final-year project.",
+        "Electives: options may include AI/ML, data science, cybersecurity, cloud/distributed systems, and software engineering."
+      ],
+      "source_urls": [
+        "https://aicte.gov.in/sites/default/files/ug-vol1.pdf",
+        "https://cse.iitd.ac.in/academics/btech_links/curriculum.shtml"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission routes and counselling",
+      "paragraphs": [
+        "Admission is institution-specific. National seat allocation for participating IITs, NITs, IIITs, and other Government-funded technical institutes is administered through JoSAA; its 2026 portal identifies JEE (Advanced) 2026 and JEE (Main) 2026 B.E./B.Tech as qualifying examinations in that counselling ecosystem. State counselling bodies and universities may use their own entrance examinations, merit rules, reservations, and document-verification processes.",
+        "The VITEEE parent route applies specifically to VIT. VIT’s 2026 admissions page states that VITEEE is mandatory for Indian nationals applying for its B.Tech programme through the general route, that selection is based on the VITEEE computer-based-test rank, and that candidates participate in online counselling based on rank and available programme/campus/fee-category choices.",
+        "LEET is not one national examination: the label is used by state or institutional processes for diploma-holder lateral entry. Applicants should use only the official brochure and counselling site of the relevant state or technical university for the current cycle."
+      ],
+      "bullets": [
+        "National participating institutes: check the current JoSAA rules and the relevant JEE examination information bulletin.",
+        "Private-university route: check whether that university requires its own examination, such as VITEEE, or has another published selection route.",
+        "Lateral entry: apply through the relevant state/university diploma-entry or LEET process; do not assume an examination or diploma branch is transferable across states.",
+        "Treat dates, seat matrices, category rules, and cutoff ranks as annual and variable."
+      ],
+      "source_urls": [
+        "https://josaa.nic.in/josaa/",
+        "https://viteee.vit.ac.in/",
+        "https://aicte.gov.in/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs: institution-, campus-, and category-specific",
+      "paragraphs": [
+        "There is no single all-India B.Tech CSE fee. Tuition, refundable deposits, hostel and mess charges, examination fees, transport, and scholarships vary substantially by public or private institution, state, campus, admission category, and academic year. Applicants should use the current fee notice of the exact programme and campus, rather than inferring cost from rankings, entrance scores, or another CSE specialization.",
+        "As dated 2026–27 context only, VIT lists B.Tech Computer Science and Engineering in its Group B fee schedule at INR 1,95,000 annual tuition and a one-time refundable INR 3,000 caution deposit, for INR 1,98,000 payable in the first year under that listed schedule. This is one university’s published schedule, not an India-wide benchmark, and excludes costs such as accommodation where separately charged."
+      ],
+      "bullets": [
+        "Verify whether the published figure is annual tuition, first-year payable amount, or total programme cost.",
+        "Check hostel, mess, insurance, examination, and one-time charges separately.",
+        "Review scholarship/fee-waiver terms and refund policies before accepting an allotment or paying fees."
+      ],
+      "source_urls": [
+        "https://vit.ac.in/admission/ug/fee-structure"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After the degree",
+      "paragraphs": [
+        "A completed B.Tech CSE can be used for entry to postgraduate study, subject to the admission requirements of the receiving institution. UGC’s regulations page lists the 2025 minimum standards for undergraduate and postgraduate degrees, while individual universities prescribe programme-specific eligibility, entrance tests, academic-score thresholds, and selection procedures for M.Tech, M.S., MBA, and other postgraduate options.",
+        "Students can also use the degree as a foundation for employment-oriented pathways in software development, computing systems, data, cybersecurity, cloud, and related technical roles. The strongest preparation is usually evidenced through coursework, demonstrable projects, internships or practical training, communication skills, and the institution’s own placement and career-support processes; outcomes vary by student, employer, location, hiring cycle, and prior experience."
+      ],
+      "bullets": [
+        "Postgraduate study: review the specific university’s M.Tech/M.S./MBA or research-programme eligibility and entrance requirements.",
+        "Employment preparation: build a portfolio of code, projects, documentation, and practical work alongside the degree.",
+        "Research pathway: seek faculty projects, internships, and advanced coursework; later doctoral admissions have institution-specific requirements."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/regulations/",
+        "https://cse.iitd.ac.in/academics/btech_links/curriculum.shtml",
+        "https://curriculum.iitd.ac.in/coursesbyau.php?au=CO"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AICTE Approval Process Handbook 2024–2027",
+      "url": "https://aicte.gov.in/sites/default/files/APH%20Final.pdf",
+      "kind": "regulator handbook"
+    },
+    {
+      "label": "AICTE Model Curriculum: Undergraduate CSE",
+      "url": "https://aicte.gov.in/sites/default/files/ug-vol1.pdf",
+      "kind": "regulator curriculum"
+    },
+    {
+      "label": "JoSAA 2026 admission and counselling portal",
+      "url": "https://josaa.nic.in/josaa/",
+      "kind": "national counselling"
+    },
+    {
+      "label": "VITEEE 2026 B.Tech admissions",
+      "url": "https://viteee.vit.ac.in/",
+      "kind": "university entrance examination"
+    },
+    {
+      "label": "VIT 2026–27 undergraduate fee structure",
+      "url": "https://vit.ac.in/admission/ug/fee-structure",
+      "kind": "university fees"
+    },
+    {
+      "label": "UGC regulations portal",
+      "url": "https://www.ugc.gov.in/regulations/",
+      "kind": "higher-education regulator"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

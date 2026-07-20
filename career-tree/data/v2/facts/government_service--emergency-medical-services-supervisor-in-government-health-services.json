@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role status",
+      "value": "This is best understood as a state- or programme-specific supervisory EMS role rather than a single, nationally standardised government cadre. For example, Kerala’s government ambulance tender requires a district supervisor for ambulance operations, while Maharashtra describes its public EMS as being operated through a service provider.",
+      "source_urls": [
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf",
+        "https://nhm.maharashtra.gov.in/en/scheme/maharashtra-emergency-medical-services-mems/"
+      ]
+    },
+    {
+      "label": "Service context",
+      "value": "The role commonly sits in 108/National Ambulance Service-style pre-hospital emergency systems using Basic Life Support (BLS) and Advanced Life Support (ALS) ambulances, control rooms and location-tracking systems.",
+      "source_urls": [
+        "https://nhm.maharashtra.gov.in/en/scheme/maharashtra-emergency-medical-services-mems/",
+        "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf"
+      ]
+    },
+    {
+      "label": "Core operational remit",
+      "value": "A district EMS supervisor may be accountable for ambulance operations across a district; government tender documentation also assigns supervisors a role in equipment-breakdown and preventive-maintenance records.",
+      "source_urls": [
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf"
+      ]
+    },
+    {
+      "label": "Typical feeder background",
+      "value": "The usual feeder workforce is EMT/paramedic practice. A Kerala government ambulance tender accepts B.Sc. Nursing, GNM, life-science graduates with BLS/ALS certification, or an EMT certification course for EMT posts; exact qualifications for supervisory posts must be checked in the applicable state recruitment notice or service-provider advertisement.",
+      "source_urls": [
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What the supervisor does",
+      "paragraphs": [
+        "An Emergency Medical Services Supervisor in government health services coordinates field ambulance operations rather than serving solely as a treating clinician. In a current Kerala government ambulance-service tender, one district supervisor is required for each district and is stated to be responsible for operation of the ambulances in that district. The same tender requires supervisory sign-off in equipment-breakdown and vehicle preventive-maintenance logs, supporting a practical remit that includes fleet availability, equipment readiness, repair follow-up and operational documentation.",
+        "At incident level, the role may also involve senior clinical-operational leadership where local protocols assign it. Panvel Municipal Corporation’s ambulance emergency SOP identifies an EMT-Supervisor, along with a paramedic or doctor, as a possible senior-most qualified Medical Incident Commander at an incident, with ambulance control coordinating dispatch. The exact clinical authority and title depend on the state, municipal authority and service protocol."
+      ],
+      "bullets": [
+        "Coordinate ambulance crews, vehicle deployment and continuity of district EMS operations.",
+        "Monitor readiness of critical equipment and follow up on breakdowns, preventive maintenance and replacement records.",
+        "Review operational data such as trips, response times, calls and vehicle downtime where required by the programme contract.",
+        "Liaise with the emergency response/control room, hospitals, district health authorities and, during major incidents, police and fire services."
+      ],
+      "source_urls": [
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf",
+        "https://www.panvelcorporation.maharashtra.gov.in/map/x.pdf",
+        "https://nhm.maharashtra.gov.in/en/scheme/maharashtra-emergency-medical-services-mems/"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes and recruitment reality",
+      "paragraphs": [
+        "There is no single India-wide examination or universally prescribed qualification labelled “Emergency Medical Services Supervisor.” Entry is normally through the relevant State Health Department, National Health Mission programme, municipal health service, government hospital/transport unit, or the agency contracted to operate a government ambulance network. Applicants should therefore treat the specific recruitment notification, tender staffing schedule and service rules as controlling documents.",
+        "A realistic route is to build experience first as an EMT, paramedic, nurse or comparable emergency-care worker and then compete for team-lead, district-supervisor, control-room-supervisor or operations roles. The National Qualification Register’s occupational mapping places Emergency Medical Technician–Advanced ahead of supervisory progression, while noting that advancement is governed by individual experience and ability and should not be generalised as an automatic pathway.",
+        "For field-EMT recruitment, one recent government procurement example—the Kerala KANIV-108 tender—lists B.Sc. Nursing, GNM, life-science graduation with BLS/ALS certification, or EMT-course completion as eligible backgrounds. That is an example of one programme’s rule, not a national eligibility rule for every supervisor vacancy."
+      ],
+      "bullets": [
+        "Monitor official State NHM, Directorate/Department of Health, state medical-services corporation, municipal corporation and government e-procurement portals.",
+        "Keep documentary evidence of clinical qualification, BLS/ALS or other required training, emergency-field experience, identity and police-clearance requirements where the advertisement asks for them.",
+        "Read whether the vacancy is a direct government engagement, NHM contractual post, outsourced service-provider post or deputation/departmental promotion; conditions and benefits can differ materially."
+      ],
+      "source_urls": [
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf",
+        "https://nqr.gov.in/sites/default/files/Annexure%202-%20Occupational%20Mapping%20Report%20v280313.pdf",
+        "https://nhm.maharashtra.gov.in/en/scheme/maharashtra-emergency-medical-services-mems/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role requires a blend of emergency-care literacy and operations management. Government EMS programmes use BLS and ALS ambulances and may carry equipment such as oxygen cylinders, suction devices, pulse oximeters, defibrillator-cardiac monitors and transport ventilators. A supervisor needs sufficient familiarity with these systems to verify readiness, identify escalation needs and maintain accurate maintenance records; this does not by itself expand the individual’s clinical scope of practice.",
+        "Dispatch and data literacy are also important. Maharashtra’s EMS programme describes a central emergency-response centre with real-time GPS/GPRS ambulance monitoring, trained call-takers and dispatchers. Kerala’s tender includes daily trip, response-time and vehicle-down reporting formats. Clear communication, roster/crew coordination, documentation discipline, calm escalation and coordination with hospitals and public-safety agencies are therefore central operational skills."
+      ],
+      "bullets": [
+        "Pre-hospital emergency-care and ambulance-equipment awareness appropriate to the employer-approved scope of practice.",
+        "Fleet-readiness checks, consumable/equipment tracking, maintenance escalation and audit-ready record keeping.",
+        "GPS-enabled dispatch, response-time monitoring and interpretation of operational reports.",
+        "Crew leadership, incident communication, hospital handover coordination and disaster or mass-casualty coordination under local SOPs."
+      ],
+      "source_urls": [
+        "https://nhm.maharashtra.gov.in/en/scheme/maharashtra-emergency-medical-services-mems/",
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf",
+        "https://www.panvelcorporation.maharashtra.gov.in/map/x.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is performed",
+      "paragraphs": [
+        "Work is distributed between ambulance bases and field sites, district offices, hospitals and a central emergency-response/control room. Maharashtra’s public EMS model describes 24×7 emergency response through 108, ALS and BLS ambulances, GPS-based vehicle monitoring and a central control room. Government ambulance services can cover road trauma, critical illness, obstetric and neonatal emergencies, disasters and other medical emergencies, so work may involve unpredictable, high-pressure and round-the-clock operations.",
+        "The employment arrangement may be public-programme based without making every worker a regular civil servant. Kerala’s KANIV-108 tender, for example, makes the selected bidder responsible for staffing and specifies district supervisors and a control-centre programme manager; Maharashtra similarly states that its service provider operates ambulances. Candidates should verify employer, contract period, duty pattern, transfer area and service conditions before applying."
+      ],
+      "bullets": [
+        "Possible duty locations include control rooms, district EMS offices, ambulance bases, hospitals and emergency scenes.",
+        "Expect coordination across drivers, EMTs/paramedics, dispatch staff, biomedical or vehicle-maintenance vendors, hospital staff and district health officials.",
+        "Service coverage can span rural and urban areas and may include disaster-response responsibilities."
+      ],
+      "source_urls": [
+        "https://nhm.maharashtra.gov.in/en/scheme/maharashtra-emergency-medical-services-mems/",
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf",
+        "https://health.kerala.gov.in/department-details/Kerala_Medical_Services_Corporation_Limited_KMSCL/eyJpdiI6Im03ZU1nUUFTNmhMcHZmOTU2bG9xSVE9PSIsInZhbHVlIjoiU3pTSWgwUXU0WU9CbWFUd1pzUVFiZz09IiwibWFjIjoiN2VhYTdlZjEzOTIxZmIwNmNhNjUwYTVlOGE5MmRiN2YwZDY4OWFmN2E2ZmQ5MzBjODA5ZmYyMGVlMzI3ZWU0ZiIsInRhZyI6IiJ9"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression options",
+      "paragraphs": [
+        "Progression can move from EMT/paramedic field practice to senior EMT or supervisory responsibility, and then toward ambulance operations, control-room/programme management, training, quality improvement or emergency-services administration. The National Qualification Register’s occupational mapping presents EMT–Basic and EMT–Advanced as steps before supervisor-level progression, but explicitly cautions that career growth at higher levels depends on the individual’s experience and ability.",
+        "Within a contracted government ambulance system, the management ladder may include district supervisor, full-time control-centre programme manager and programme director. These titles are illustrative rather than universal: the Kerala tender assigns the programme manager day-to-day operational management and service-delivery oversight, while the programme director provides strategic oversight and state-level liaison."
+      ],
+      "bullets": [
+        "Strengthen eligibility through documented emergency-field experience and current employer-required life-support training.",
+        "Seek exposure to dispatch, fleet and equipment management, incident reporting, crew mentoring and quality-review work.",
+        "For senior roles, develop programme-management, procurement/contract-monitoring, data-reporting and inter-agency coordination capability."
+      ],
+      "source_urls": [
+        "https://nqr.gov.in/sites/default/files/Annexure%202-%20Occupational%20Mapping%20Report%20v280313.pdf",
+        "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Health Mission — National Ambulance Service guidelines (June 2026)",
+      "url": "https://nhm.gov.in/New-Update-2025-26/NAS-Guidline/NAS-guidline-June-2026.pdf",
+      "kind": "official_guideline"
+    },
+    {
+      "label": "NHM Maharashtra — Maharashtra Emergency Medical Services",
+      "url": "https://nhm.maharashtra.gov.in/en/scheme/maharashtra-emergency-medical-services-mems/",
+      "kind": "official_programme_page"
+    },
+    {
+      "label": "Kerala Medical Services Corporation — KANIV-108 ambulance-operation tender",
+      "url": "https://kmscl.kerala.gov.in/KMSCL/uploads/announcements/211b4633-Tender_for_KANIV-108_final.pdf",
+      "kind": "official_procurement_document"
+    },
+    {
+      "label": "National Qualification Register — Allied Health and Paramedic Sector occupational mapping",
+      "url": "https://nqr.gov.in/sites/default/files/Annexure%202-%20Occupational%20Mapping%20Report%20v280313.pdf",
+      "kind": "official_career_reference"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

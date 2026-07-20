@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "National minimum eligibility",
+      "value": "Under the UGC Ph.D. Regulations, 2022, a typical route is a qualifying Master’s degree with at least 55% aggregate marks (or equivalent grade); the regulations also permit specified four-year bachelor’s-degree entrants with at least 75%, subject to institutional admissions rules and applicable relaxations.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    },
+    {
+      "label": "Minimum and maximum duration",
+      "value": "The UGC-regulated minimum is 3 years including coursework, and the standard maximum is 6 years from admission; an institution may allow up to 2 further years through re-registration, subject to its rules.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    },
+    {
+      "label": "Core academic components",
+      "value": "National regulations require at least 12 coursework credits, including research methodology and Research and Publication Ethics, followed by original research, thesis submission, external evaluation and a viva voce.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html"
+      ]
+    },
+    {
+      "label": "Common entry routes",
+      "value": "Institutions may admit candidates holding fellowships/scholarships from UGC-NET, Joint CSIR-UGC NET, GATE, CEED or similar national tests through interview, or via an institution-level entrance test and interview.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html"
+      ]
+    },
+    {
+      "label": "JRF funding context",
+      "value": "CSIR’s JRF-NET guidelines list a JRF stipend of ₹31,000 per month for the first two years plus an annual ₹20,000 institutional contingency grant; after two years, registered Ph.D. fellows may be assessed for upgrade to SRF. Funding terms and availability should be checked against the current award letter and host-institution rules.",
+      "source_urls": [
+        "https://csirhrdg.res.in/Home/Index/1/Default/2666",
+        "https://csirhrdg.res.in/Home/Index/1/Default/3462/12"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: Master’s route is common, but not the only route",
+      "paragraphs": [
+        "For a Ph.D. in a science discipline, the usual academic route is a relevant Master’s degree. The UGC’s 2022 regulations set a national baseline of at least 55% aggregate marks, or an equivalent grade, for candidates completing either a 1-year Master’s after a 4-year bachelor’s degree or a 2-year Master’s after a 3-year bachelor’s degree. A 5% relaxation may apply to the categories specified by UGC and the institution.",
+        "The degree is not restricted nationally to post-Master’s entrants. UGC also permits admission after a 4-year/8-semester bachelor’s programme where the candidate has at least 75% aggregate marks or equivalent, with the stated category relaxation. Actual subject prerequisites, test requirements, cut-offs and supervisor availability are institution- and department-specific.",
+        "For example, IISc’s research-programme admissions list Master’s degrees in Science and 4-year Bachelor of Science degrees among eligible qualifications, while requiring a valid GATE score or NET JRF for those routes in its published admissions criteria. This illustrates why applicants should read the department-specific notice rather than assume one qualification rule applies everywhere."
+      ],
+      "bullets": [
+        "A BS–MS dual degree can commonly satisfy the Master’s-level academic route where the target department accepts that discipline and degree structure.",
+        "A relevant national fellowship or test qualification can strengthen or be required for an application, but it does not replace the host institution’s academic, subject and selection requirements.",
+        "Check whether the proposed department specifies prior coursework—for example, in physics, chemistry, mathematics, biology, earth science or a related field."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.iisc.ac.in/admissions/m-tech-research-and-ph-d-programmes-2025-26/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and completion timeline",
+      "paragraphs": [
+        "The UGC framework sets a minimum Ph.D. duration of three years, inclusive of coursework, and a normal maximum of six years from the date of admission. Institutions can permit up to two additional years through re-registration under their own statutes, making eight years the general outer limit. The regulations provide additional timing protections for women scholars and persons with disabilities, as specified in the regulation.",
+        "The regulatory minimum should not be treated as the expected completion time for every science project. At IISc’s Centre for Nano Science and Engineering, for example, the stated completion range is four to six years, with an average of about 4.5 years for students entering after a Master’s degree. Research scope, experimental timelines, fieldwork, publication and thesis-review processes can all affect completion."
+      ],
+      "bullets": [
+        "National minimum: 3 years, including coursework.",
+        "General standard maximum: 6 years from admission.",
+        "Potential re-registration extension: up to 2 additional years, subject to institutional rules."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.cense.iisc.ac.in/for-students/phd/"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the Ph.D. programme involves",
+      "paragraphs": [
+        "A science Ph.D. combines structured doctoral training with supervised original research. UGC requires at least 12 coursework credits, including research methodology and Research and Publication Ethics. Scholars must also receive training related to teaching, education, pedagogy or writing in their subject; institutions may assign four to six hours a week of teaching or research-assistant work.",
+        "After coursework, the Research Advisory Committee reviews and finalises the research topic, advises on study design and methodology, and reviews progress. The scholar presents progress and submits a brief report each semester. To continue and submit the thesis, the scholar must obtain at least 55% or the equivalent grade in coursework.",
+        "Completion involves research leading to a dissertation or thesis, a pre-submission presentation, plagiarism checks, evaluation by the supervisor and at least two external subject experts, and the institution’s prescribed viva voce process. At IISc, science Ph.D. offerings span areas such as astronomy and astrophysics, biochemistry, ecology, mathematics, microbiology, chemistry and physics; the precise courses and research areas vary by department."
+      ],
+      "bullets": [
+        "Mandatory national elements: doctoral coursework, research methodology and publication-ethics training.",
+        "Ongoing elements: supervisor guidance, advisory-committee reviews and progress reporting.",
+        "Final elements: original thesis, originality/plagiarism declarations, external examination and viva voce."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html",
+        "https://www.iisc.ac.in/admissions/m-tech-research-and-ph-d-programmes-2025-26/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process and the role of CSIR-UGC NET/JRF",
+      "paragraphs": [
+        "UGC permits two principal admission mechanisms. First, a higher-education institution may admit candidates who have qualified for a fellowship or scholarship through UGC-NET, Joint CSIR-UGC NET, GATE, CEED or similar national-level tests, on the basis of an interview. Second, an institution may run its own entrance test: its syllabus must be 50% research methodology and 50% subject-specific, candidates need 50% to be eligible for interview, and selection uses 70% entrance-test weight and 30% interview/viva weight. The specified category relaxation applies to the entrance-test threshold.",
+        "Applicants should identify suitable departments, research groups and potential supervisors; read the current prospectus for seats, discipline-wise eligibility and funding; submit the institutional application; and prepare for a written test and/or interview where required. UGC requires institutions to publish the seat count, criteria and procedure in advance and to maintain public information on supervisors and registered scholars.",
+        "A Joint CSIR-UGC NET result may be useful in more than one way: institutions can use it as a qualifying fellowship route, while CSIR’s JRF-NET scheme supports research training under approved supervision. However, qualifying NET/JRF is not itself admission to a particular Ph.D. programme; the university or institute makes the admission decision."
+      ],
+      "bullets": [
+        "Read the current departmental advertisement because application windows, tests and interviews are cycle-specific.",
+        "Verify that the test score or fellowship certificate remains valid on the institute’s stated reference date.",
+        "Treat funding, admission and supervisor consent as related but separate practical requirements."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+        "https://csirhrdg.res.in/Home/Index/1/Default/2666",
+        "https://www.iisc.ac.in/admissions/m-tech-research-and-ph-d-programmes-2025-26/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and funding: institution-specific, often partly offset by fellowships",
+      "paragraphs": [
+        "There is no single India-wide Ph.D. fee. Tuition, registration, hostel, medical and other charges depend on the institution, category and admission year. As a dated institutional illustration, IIT Bombay’s published prospectus lists doctoral-programme fees of ₹52,700 per semester, including ₹25,000 tuition, and states that tuition is waived for SC/ST/PD categories. Applicants should verify the fee notice for the exact semester in which they will enrol, because charges can change.",
+        "Many full-time science scholars seek fellowship support. CSIR’s published JRF-NET materials list ₹31,000 per month for the first two years plus a ₹20,000 annual contingency grant paid to the host institution; the fellowship may be upgraded to SRF after two years when the fellow is registered for a Ph.D. and meets the scheme’s conditions. This is funding support, not a universal entitlement for every admitted scholar."
+      ],
+      "bullets": [
+        "Budget separately for academic charges and living costs, especially hostel or rental housing.",
+        "Confirm whether an offer is institute-funded, fellowship-funded, project-funded or self-funded before accepting admission.",
+        "Check current fellowship conditions, tenure, registration deadlines and host-institution acceptance rules."
+      ],
+      "source_urls": [
+        "https://www.iitb.ac.in/newacadhome/IITBProspectus.pdf",
+        "https://csirhrdg.res.in/Home/Index/1/Default/2666",
+        "https://csirhrdg.res.in/Home/Index/1/Default/3462/12"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — eligibility",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+      "kind": "regulation"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — admission methods",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+      "kind": "regulation"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — coursework and assessment",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+      "kind": "regulation"
+    },
+    {
+      "label": "CSIR-HRDG JRF through CSIR-UGC NET guidelines",
+      "url": "https://csirhrdg.res.in/Home/Index/1/Default/2666",
+      "kind": "fellowship"
+    },
+    {
+      "label": "IISc research-programme admissions information",
+      "url": "https://www.iisc.ac.in/admissions/m-tech-research-and-ph-d-programmes-2025-26/",
+      "kind": "admission"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

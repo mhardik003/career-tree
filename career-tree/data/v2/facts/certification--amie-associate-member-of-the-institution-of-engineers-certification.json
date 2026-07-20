@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What AMIE refers to",
+      "value": "In the academic pathway, AMIE commonly refers to completing IEI’s Section A and Section B examinations. This is distinct from direct election as an IEI Associate Member (AMIE), which the current membership portal lists separately for engineers aged 21+ with a B.E./B.Tech. or equivalent qualification.",
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Rules_Syllabi.pdf?v20190913.1=",
+        "https://ipanel.ieindia.org/WebUI/IEI-RegistrationForMembApp.aspx"
+      ]
+    },
+    {
+      "label": "Entry routes",
+      "value": "IEI’s published application materials describe a Technician route for applicants with 10+2 including English, Physics, Chemistry and Mathematics (or equivalent), and a Senior Technician route for holders of an accredited engineering diploma or equivalent.",
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Membership/Application_Form_T_NEW_2018.pdf",
+        "https://www.ieindia.org/WebUI/ajax/Downloads/WebUI_PDF/Membership/Application_Form_ST_T_NEW.pdf"
+      ]
+    },
+    {
+      "label": "Assessment structure",
+      "value": "IEI conducts Section A in non-diploma and diploma streams, followed by Section B in an engineering branch. Its rules list ten established Section B branches: Chemical, Civil, Computer Science, Electrical, Electronics and Communication, Materials and Metallurgical, Mechanical, Mining, Production and Textile Engineering.",
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Rules_Syllabi.pdf?v20190913.1="
+      ]
+    },
+    {
+      "label": "Schedule and completion window",
+      "value": "The rules state that examinations are generally held twice yearly, in June and December. Candidates have six years for Section A from election as Technician/Senior Technician and six years for Section B from the term after passing Section A; IEI states that no extension is permitted beyond those periods.",
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Rules_Syllabi.pdf?v20190913.1="
+      ]
+    },
+    {
+      "label": "Recognition caution",
+      "value": "Do not assume that AMIE is automatically interchangeable with a university B.E./B.Tech. for every purpose. IEI describes successful Section A and B completion as recognised as equivalent to an appropriate engineering degree, but UGC states that equivalence for higher education is decided by the university concerned and for employment by the employing organisation.",
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Publication/Compendium_Vol5.pdf",
+        "https://www.ugc.gov.in/Home/faq"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility and entry route",
+      "paragraphs": [
+        "Admission to the examination pathway is tied to IEI non-corporate membership. IEI’s examination rules say that only IEI members may sit its examinations. The published materials identify Technician members as the non-diploma-stream entrants and Senior Technician members as the diploma-stream entrants.",
+        "For the Technician route, IEI’s application form specifies Higher Secondary/10+2 with English, Physics, Chemistry and Mathematics, a science degree containing Physics, Chemistry and Mathematics, or an equivalent qualification. For the Senior Technician route, the published form specifies an accredited engineering diploma or equivalent. The Senior Technician form also says that a candidate must demonstrate at least one year of engagement in the engineering profession under a qualified engineer before appearing in Section B."
+      ],
+      "bullets": [
+        "Technician route: normally 10+2 with English, Physics, Chemistry and Mathematics, or the stated science-degree/equivalent route.",
+        "Senior Technician route: accredited engineering diploma or equivalent; this is the route most relevant to polytechnic-diploma holders.",
+        "Before planning a career move or entrance examination on the basis of AMIE, obtain the exact eligibility wording from the target university, recruiting organisation or exam notification; acceptance is not universal."
+      ],
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Rules_Syllabi.pdf?v20190913.1=",
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Membership/Application_Form_T_NEW_2018.pdf",
+        "https://www.ieindia.org/WebUI/ajax/Downloads/WebUI_PDF/Membership/Application_Form_ST_T_NEW.pdf",
+        "https://www.ugc.gov.in/Home/faq"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration, examination cycles and time limits",
+      "paragraphs": [
+        "AMIE is examination-progress based rather than a fixed-semester university degree. IEI states that its Section A and Section B examinations are generally conducted twice each year, termed the Summer and Winter examinations, usually in June and December. Actual schedules, centres and application dates are notified by IEI and can change.",
+        "IEI’s rules provide a maximum six-year window for Section A from the date of election as Technician or Senior Technician member. They provide a separate six-year window for Section B beginning with the term after passing Section A. The rules say that an extension beyond the stipulated period is not permitted; an expired candidate must seek re-registration under IEI’s rules."
+      ],
+      "bullets": [
+        "Plan against two examination opportunities per year, not an assumed annual academic calendar.",
+        "Treat six years as a maximum completion window for each stage, rather than a predicted completion time.",
+        "Check the currently issued IEI notice before relying on any exam-session date."
+      ],
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Rules_Syllabi.pdf?v20190913.1=",
+        "https://www.ieindia.org/WebUI/ajax/Downloads/WebUI_PDF/Membership/Application_Form_ST_T_NEW.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and assessment model",
+      "paragraphs": [
+        "The IEI rules describe two Section A streams—Non-Diploma and Diploma—followed by Section B in a selected engineering discipline. The currently listed Section B disciplines are Chemical Engineering, Civil Engineering, Computer Science & Engineering, Electrical Engineering, Electronics and Communication Engineering, Materials and Metallurgical Engineering, Mechanical Engineering, Mining Engineering, Production Engineering and Textile Engineering.",
+        "Section B is not only written-subject assessment. IEI’s rules provide for laboratory experiments and project work. A candidate becomes eligible for laboratory experiments after receiving at least grade C in five subjects of a Section B engineering branch; the laboratory component is evaluated by the allotted university/college/institute, and the rules specify a minimum grade B for passing it.",
+        "For a complete pass in either Section A or Section B, IEI’s rules specify a minimum GPA of 6. The detailed subject syllabi, optional choices, laboratory list and branch rules should be taken from the current IEI publications because IEI reserves the right to amend its examination rules and offerings."
+      ],
+      "bullets": [
+        "Stage 1: Section A, through the diploma or non-diploma stream.",
+        "Stage 2: Section B, in a chosen engineering branch.",
+        "Completion elements: subject examinations, laboratory experiments and project work, subject to the applicable IEI rules."
+      ],
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Rules_Syllabi.pdf?v20190913.1=",
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Instructions_for_Lab_and_Project_Work.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How to apply and progress",
+      "paragraphs": [
+        "Start by applying for the appropriate IEI membership grade—Technician for the non-diploma route or Senior Technician for the diploma route—and then use the IEI examination process. IEI’s registration portal says that applicants for membership should apply through its online portal, and that Technician and Senior Technician members must use their membership number to access examination-related online services.",
+        "IEI’s Senior Technician instructions explain that the first eligible examination term depends on enrolment timing: enrolment from March 1 through August 31 is normally first eligible for the same year’s Winter examination, while enrolment from September 1 through the following February 28/29 is normally first eligible for the following Summer examination. This should be treated as process guidance from the published form, not as a substitute for the current examination notice."
+      ],
+      "bullets": [
+        "Apply for the relevant Technician or Senior Technician membership with supporting academic documents.",
+        "Create and use the IEI online account and select examination services.",
+        "Apply separately for an announced Section A or Section B session by IEI’s deadline.",
+        "After qualifying in Section B subjects, follow IEI’s separate process for project work and laboratory experiments."
+      ],
+      "source_urls": [
+        "https://ipanel.ieindia.org/WebUI/IEI-RegistrationForMembApp.aspx",
+        "https://www.ieindia.org/WebUI/ajax/Downloads/WebUI_PDF/Membership/Application_Form_ST_T_NEW.pdf",
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Instructions_for_Lab_and_Project_Work.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and cost planning",
+      "paragraphs": [
+        "Fees are variable and should be confirmed in IEI’s live portal or the current fee notice before payment. As a dated reference point, the IEI Senior Technician application form currently hosted on the IEI site lists ₹8,280 for applicants from India and Nepal, while the Technician form lists ₹4,250. Those forms also identify overseas fee categories.",
+        "The Senior Technician instructions state an examination-application fee of ₹3,000 for candidates appearing in India, but the form itself is revision-dated July 18, 2019. It should therefore be used only as historical planning context, not as a current price quote. Costs may also arise for re-registration, laboratory work, project work, travel to a centre and study support."
+      ],
+      "bullets": [
+        "Budget separately for membership/enrolment and for each examination session.",
+        "Do not confuse the current corporate Associate Member (AMIE) membership fee with the Technician/Senior Technician entry cost for the examination route.",
+        "Confirm current project, laboratory, re-registration and examination fees directly with IEI before committing."
+      ],
+      "source_urls": [
+        "https://www.ieindia.org/WebUI/ajax/Downloads/WebUI_PDF/Membership/Application_Form_ST_T_NEW.pdf",
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Membership/Application_Form_T_NEW_2018.pdf",
+        "https://ipanel.ieindia.org/WebUI/IEI-RegistrationForMembApp.aspx"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "What AMIE can support next—and what to verify",
+      "paragraphs": [
+        "After successful completion of the Section A and Section B pathway, a candidate may pursue engineering employment, professional development, or further study where the specific employer, university or examination authority accepts the qualification. IEI’s own published compendium describes the completed Sections A and B examinations as recognised as equivalent to an appropriate engineering degree; additionally, the central Apprenticeship Rules define an engineering graduate to include a person who has passed a professional body’s graduateship examination recognised by the Central Government as equivalent to a degree.",
+        "However, the practical outcome is notification-specific. UGC explicitly states that it does not determine degree equivalence: for higher education, the receiving university decides, and for employment, the employing organisation decides. This is particularly important for paths such as GATE, CAT, PSU recruitment, public-service examinations, regulated roles and university admissions—read the exact current eligibility clause and obtain written clarification when AMIE is not named."
+      ],
+      "bullets": [
+        "Employment: apply where the recruitment rules accept the completed Sections A and B qualification or an accepted equivalent; the employer makes the employment-equivalence decision.",
+        "Further education: ask the target university whether it accepts the completed qualification for the particular programme and admission cycle.",
+        "Competitive exams: use only the current official information bulletin; do not infer eligibility merely from the term “degree equivalent.”",
+        "Professional standing: direct IEI Associate Member corporate membership is a separate membership application for already qualified engineers and should not be confused with the examination pathway."
+      ],
+      "source_urls": [
+        "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Publication/Compendium_Vol5.pdf",
+        "https://boatwr.education.gov.in/wp-content/uploads/2023/08/Apprenticeship-rules-1992-1.pdf",
+        "https://www.ugc.gov.in/Home/faq",
+        "https://ipanel.ieindia.org/WebUI/IEI-RegistrationForMembApp.aspx"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "IEI Sections A and B examination rules and syllabi",
+      "url": "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Academics_Pdf/Rules_Syllabi.pdf?v20190913.1=",
+      "kind": "official rules and syllabus"
+    },
+    {
+      "label": "IEI Senior Technician application instructions",
+      "url": "https://www.ieindia.org/WebUI/ajax/Downloads/WebUI_PDF/Membership/Application_Form_ST_T_NEW.pdf",
+      "kind": "official eligibility and process document"
+    },
+    {
+      "label": "IEI Technician application instructions",
+      "url": "https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Membership/Application_Form_T_NEW_2018.pdf",
+      "kind": "official eligibility and process document"
+    },
+    {
+      "label": "IEI membership and registration portal",
+      "url": "https://ipanel.ieindia.org/WebUI/IEI-RegistrationForMembApp.aspx",
+      "kind": "official application portal"
+    },
+    {
+      "label": "UGC FAQ on degree equivalence",
+      "url": "https://www.ugc.gov.in/Home/faq",
+      "kind": "official regulator guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

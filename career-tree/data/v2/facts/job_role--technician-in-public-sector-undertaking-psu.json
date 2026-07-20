@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role scope",
+      "value": "A PSU technician is generally a non-executive, trade-skilled worker who operates, inspects, maintains and repairs industrial equipment. Actual designations vary by employer and may include technician, operator, mechanic, artisan trainee or attendant/technician.",
+      "source_urls": [
+        "https://www.bhel.com/sites/default/files/etp-pb-1415685618.pdf",
+        "https://www.ntpc.co.in/sites/default/files/policy-documents/Recruitment_Policy%202020.pdf"
+      ]
+    },
+    {
+      "label": "Typical entry credential",
+      "value": "Relevant ITI/NTC training is a common entry basis for technical trades. For example, NTPC’s Artisan Trainee notice required Class 10 plus a full-time regular ITI in the relevant Fitter, Electrician or Instrument Mechanic/Electronics trade.",
+      "source_urls": [
+        "https://careers.ntpc.co.in/recruitment/advertisements/NTPC%20Kudgi%20-%20AT%20Detailed%20advt..pdf.pdf"
+      ]
+    },
+    {
+      "label": "Apprenticeship value",
+      "value": "After successful completion of apprenticeship training and the All India Trade Test for Apprentices, candidates receive the National Apprenticeship Certificate (NAC), which DGT identifies as a recognized qualification for seeking employment.",
+      "source_urls": [
+        "https://www.dgt.gov.in/en/faqs-0"
+      ]
+    },
+    {
+      "label": "Selection pattern",
+      "value": "Requirements are employer- and notification-specific. One NTPC Artisan Trainee recruitment used an objective written test covering subject knowledge and aptitude, followed by a skill test for shortlisted candidates.",
+      "source_urls": [
+        "https://careers.ntpc.co.in/recruitment/advertisements/NTPC%20Kudgi%20-%20AT%20Detailed%20advt..pdf.pdf"
+      ]
+    },
+    {
+      "label": "Work schedule",
+      "value": "Plant and operations roles can involve rotating shifts. A BHEL manpower schedule specified general, morning, afternoon and night shifts for ITI-qualified technician/operator/mechanic and electrician posts.",
+      "source_urls": [
+        "https://www.bhel.com/sites/default/files/etp-pb-1415685618.pdf"
+      ]
+    },
+    {
+      "label": "Illustrative pay context",
+      "value": "Pay is not uniform across PSUs, grades, locations or recruitment cycles. In the cited NTPC Artisan Trainee notice, the training stipend and the starting basic pay after successful training were each ₹21,500 per month; this is a dated example, not a current sector-wide salary benchmark.",
+      "source_urls": [
+        "https://careers.ntpc.co.in/recruitment/advertisements/NTPC%20Kudgi%20-%20AT%20Detailed%20advt..pdf.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Responsibilities in a PSU technical role",
+      "paragraphs": [
+        "The core work is hands-on operation and upkeep of industrial assets. Depending on the plant and trade, a technician may monitor equipment and process parameters, conduct routine and breakdown maintenance, troubleshoot faults, restore equipment after failures, and keep operating logs or maintenance records.",
+        "In power- and electrical-equipment settings, work can include recording current, voltage, power, energy and transformer-temperature readings; responding to trips, cable faults or grid outages; working with SCADA/HMI monitoring; and reporting abnormalities. The precise allocation of duties is set by the employing PSU, unit, trade and safety procedures."
+      ],
+      "bullets": [
+        "Mechanical trades commonly align with fitting, assembly, repair and breakdown-maintenance work.",
+        "Electrical, electronics and instrumentation trades commonly align with equipment operation, testing, fault isolation and control-system support.",
+        "Technicians must follow plant-specific safety, permit-to-work, isolation and reporting practices; some electrical work may require the licence or certification specified for that assignment."
+      ],
+      "source_urls": [
+        "https://tenders.bhel.com/sites/default/files/NITUPLDR03-2026-04-25-01%3A19%3A58.pdf",
+        "https://www.bhel.com/sites/default/files/Tender%20Document_25.pdf",
+        "https://tenders.bhel.com/sites/default/files/9251300056_tot.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes and recruitment",
+      "paragraphs": [
+        "The usual foundation is a relevant ITI trade qualification, commonly followed by apprenticeship or direct application when a PSU issues a recruitment notification. Relevant trades depend on the vacancy—for example, Fitter, Electrician, Instrument Mechanic or Electronics-related trades have appeared in NTPC Artisan Trainee eligibility requirements.",
+        "An apprenticeship can add structured workplace exposure. Under DGT’s framework, trade apprentices who complete training and pass the All India Trade Test for Apprentices receive an NAC. BHEL Haridwar was accepting applications for its 2026 trade-apprenticeship batch, illustrating that individual PSUs and units may run their own apprenticeship engagement processes.",
+        "Candidates should treat every notification as controlling: it defines the permitted trade, educational board recognition, age calculation date, reservation rules, medical standards, examination stages, trade test and document-verification requirements."
+      ],
+      "bullets": [
+        "Complete the relevant ITI/NTC pathway for the target trade.",
+        "Apply for trade apprenticeships where available; NAC is a recognized employment qualification after the applicable test.",
+        "Monitor the official careers or recruitment pages of target PSUs rather than relying on a generic eligibility rule.",
+        "Prepare for technical subject knowledge, aptitude and practical/skill testing where the recruitment notice provides for them."
+      ],
+      "source_urls": [
+        "https://careers.ntpc.co.in/recruitment/advertisements/NTPC%20Kudgi%20-%20AT%20Detailed%20advt..pdf.pdf",
+        "https://www.dgt.gov.in/en/faqs-0",
+        "https://hwr.bhel.com/recruitment/TradeAppr/iti_data_entry.jsp",
+        "https://www.bhel.com/human-resource"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills that transfer across PSU technician posts",
+      "paragraphs": [
+        "The strongest technical fit comes from trade-specific practical capability: interpreting job instructions and equipment conditions, using tools safely, conducting checks, diagnosing faults and completing repair or maintenance tasks. Employers’ technical requirements can distinguish between ITI trades and electrical authorisations for particular high-voltage or operational assignments.",
+        "Digital monitoring and disciplined documentation are increasingly relevant in operations environments. BHEL tender material describes monitoring through SCADA/HMI systems, logging operating parameters and events, maintaining registers, and preparing periodic reports. These examples are assignment-specific but show why technicians benefit from basic digital, recording and communication skills alongside their trade craft."
+      ],
+      "bullets": [
+        "Trade theory and practical competence in the vacancy’s specified discipline.",
+        "Safe use of tools, PPE, isolation procedures and escalation of abnormal conditions.",
+        "Reading gauges, logs, drawings or equipment instructions relevant to the trade.",
+        "Troubleshooting, recordkeeping and clear handover/reporting across shifts."
+      ],
+      "source_urls": [
+        "https://tenders.bhel.com/sites/default/files/NITUPLDR03-2026-04-25-01%3A19%3A58.pdf",
+        "https://tenders.bhel.com/sites/default/files/9251300056_tot.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace conditions",
+      "paragraphs": [
+        "Technicians may work in generation stations, manufacturing plants, substations, workshops, mines, steel plants, laboratories or field-maintenance locations, depending on the PSU. The environment is asset- and safety-critical: the work may be near machinery, electrical systems, heat, noise, heights or other industrial hazards, so the employer’s safety rules and medical standards matter.",
+        "Shift work is possible where equipment runs continuously. In the cited BHEL schedule, technician/operator/mechanic and electrician staffing was specified for A, B and C shifts, including a night shift. A separate BHEL operations-and-maintenance specification also called for technician deployment and night-shift operation in a solar-plant context."
+      ],
+      "bullets": [
+        "Expect assignment to depend on the PSU’s plant, project or field unit rather than on one uniform office location.",
+        "Some duties are rostered or round-the-clock; shift, emergency-callout and site conditions vary by unit.",
+        "Medical fitness or trade-specific electrical licensing may be required by the applicable recruitment notice or work assignment."
+      ],
+      "source_urls": [
+        "https://www.bhel.com/sites/default/files/etp-pb-1415685618.pdf",
+        "https://tenders.bhel.com/sites/default/files/NITUPLDR03-2026-04-25-01%3A19%3A58.pdf",
+        "https://careers.ntpc.co.in/recruitment/advertisements/NTPC%20Kudgi%20-%20AT%20Detailed%20advt..pdf.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and further education",
+      "paragraphs": [
+        "Progression is employer-specific, but technicians can build toward higher-skilled technical, supervisory or junior-engineering pathways through experience, internal selection or promotion rules, and additional qualifications. NTPC’s recruitment policy distinguishes non-executive Artisan Trainees at W3 from Diploma/Supervisory Trainees at W7, showing that PSUs may operate separate induction levels for trade-skilled and diploma/supervisory streams.",
+        "A relevant polytechnic diploma can support movement into engineering-diploma pathways where the relevant board, employer and recruitment rules permit it. DGT’s Electrician–Power Distribution progression guidance identifies technician-to-senior-technician/supervisor progression and states that trainees may seek diploma admission through lateral entry in notified engineering branches. NAC/NTC holders may also be eligible for relevant CITS courses, subject to each course’s listed entry conditions."
+      ],
+      "bullets": [
+        "Build documented trade experience and maintain required licences or safety credentials.",
+        "Use departmental promotion or selection opportunities only as provided in the employer’s applicable rules and vacancy notices.",
+        "Consider a relevant engineering diploma for supervisory or junior-engineering recruitment routes.",
+        "Consider CITS where the goal is instructional training and the advertised entry requirements are met."
+      ],
+      "source_urls": [
+        "https://www.ntpc.co.in/sites/default/files/policy-documents/Recruitment_Policy%202020.pdf",
+        "https://nsticalicut.dgt.gov.in/en/node/2429",
+        "https://www.dgt.gov.in/en/cits-courses"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "There is no single PSU-technician salary. Compensation depends on the employer, whether the person is an apprentice, trainee, contract worker or regular employee, the non-executive grade, location, allowances, shift pattern, and the recruitment notification in force.",
+        "As a concrete dated example, NTPC’s cited Artisan Trainee notice provided a consolidated training stipend of ₹21,500 per month for two years and stated that, after successful training, placement would be in W3 with a starting basic pay of ₹21,500. NTPC’s recruitment policy separately lists Artisan Trainees at W3, while noting that induction levels may vary according to manpower requirements. Applicants should therefore use the pay clause of the exact current notification, not this historical example, for decisions."
+      ],
+      "bullets": [
+        "Distinguish stipend during apprenticeship or trainee periods from regular basic pay and total monthly earnings.",
+        "Check whether a notice specifies grade, basic pay, allowances, training duration, service conditions and posting terms.",
+        "Do not compare contractor rates with direct-PSU employment pay without confirming employment status and benefits."
+      ],
+      "source_urls": [
+        "https://careers.ntpc.co.in/recruitment/advertisements/NTPC%20Kudgi%20-%20AT%20Detailed%20advt..pdf.pdf",
+        "https://www.ntpc.co.in/sites/default/files/policy-documents/Recruitment_Policy%202020.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "BHEL human resources, recruitment and current-job resources",
+      "url": "https://www.bhel.com/human-resource",
+      "kind": "employer_careers"
+    },
+    {
+      "label": "NTPC recruitment policy and procedures",
+      "url": "https://www.ntpc.co.in/sites/default/files/policy-documents/Recruitment_Policy%202020.pdf",
+      "kind": "employer_policy"
+    },
+    {
+      "label": "DGT apprenticeship FAQs and NAC information",
+      "url": "https://www.dgt.gov.in/en/faqs-0",
+      "kind": "government_guidance"
+    },
+    {
+      "label": "MSDE National Apprenticeship Promotion Scheme information",
+      "url": "https://www.msde.gov.in/offerings/schemes-and-services/details/national-apprenticeship-promotion-scheme-naps-YjM4ATMtQWa",
+      "kind": "government_scheme"
+    },
+    {
+      "label": "DGT CITS course catalogue and entry qualifications",
+      "url": "https://www.dgt.gov.in/en/cits-courses",
+      "kind": "government_training"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

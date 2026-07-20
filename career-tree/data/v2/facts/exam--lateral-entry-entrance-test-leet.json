@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What this node refers to",
+      "value": "LEET is the label used in Haryana’s 2026 B.E./B.Tech. lateral-entry prospectus for the route into the second year (third semester) of B.E./B.Tech. This is a state-administered admission route, not a single all-India examination.",
+      "source_urls": [
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf",
+        "https://hstes.org.in/EligibilityBTechLEET"
+      ]
+    },
+    {
+      "label": "Current 2026 admission basis",
+      "value": "HSTES’s current B.Tech lateral-entry instructions state that 2026–27 admissions are to use inter-se merit based on the percentage in the qualifying examination through centralized online counselling. Applicants should not assume that an entrance test is required without checking the latest HSTES notice.",
+      "source_urls": [
+        "https://hstes.org.in/BtechLEETImpInstructions",
+        "https://techadmissionshry.gov.in/default.aspx"
+      ]
+    },
+    {
+      "label": "Core eligibility",
+      "value": "For Haryana 2026–27, the listed routes include a 3-year or 2-year lateral-entry engineering/technology diploma with at least 45% marks (40% for reserved-category candidates), or a recognized B.Sc. with the same marks threshold plus Mathematics at 10+2; B.Voc/3-year D.Voc in the same or allied sector and an NCVT-approved diploma are also listed.",
+      "source_urls": [
+        "https://hstes.org.in/EligibilityBTechLEET",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf"
+      ]
+    },
+    {
+      "label": "Study duration and entry point",
+      "value": "Successful lateral-entry applicants enter the second year/third semester, making the B.Tech lateral-entry course a three-year route rather than the standard four-year first-year entry route.",
+      "source_urls": [
+        "https://hstes.org.in/EligibilityBTechLEET"
+      ]
+    },
+    {
+      "label": "Seat availability",
+      "value": "The prospectus states that lateral-entry seats may be taken up to a maximum of 10% of sanctioned intake, but institute-wise and branch-wise availability is tentative and can change before or during counselling.",
+      "source_urls": [
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and scope",
+      "paragraphs": [
+        "This node should be understood principally as Haryana’s B.E./B.Tech. lateral-entry pathway, because the Haryana State Technical Education Society (HSTES) explicitly uses the term “LEET” in its 2026 prospectus. Its purpose is to allow eligible diploma holders and certain B.Sc./vocational candidates to join B.E./B.Tech. directly in the second year (third semester), rather than begin again in first year.",
+        "“LEET” is not a uniform national exam brand. States and institutions use their own lateral-entry admission arrangements—for example, West Bengal uses JELET—so applicants outside Haryana should identify the relevant state authority, examination, admission brochure, and counselling rules rather than rely on Haryana LEET information."
+      ],
+      "bullets": [
+        "The route is for progression into an undergraduate engineering degree after an eligible prior technical or science qualification.",
+        "Admission, branch allotment, domicile/reservation rules, and the selection method are controlled by the applicable state authority and can change by admission year."
+      ],
+      "source_urls": [
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf",
+        "https://hstes.org.in/EligibilityBTechLEET",
+        "https://admissions.nic.in/wbjeeb/Applicant/Root/CheckCandIdentity.aspx?enc=yVQCIiq12npg+pcvNJRdc75tOlS8wvDL6OpCk1YJCY374Y%2Bt2eNGSybJ3Lc4W45c"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "For Haryana’s 2026–27 B.Tech lateral-entry admission, HSTES lists an engineering/technology diploma of at least three years—or a two-year lateral-entry diploma—with at least 45% marks; the threshold is 40% for candidates in listed reserved categories. The diploma can be in any engineering and technology branch under the stated HSTES rule.",
+        "HSTES also lists a recognized B.Sc. degree with at least 45% marks (40% for listed reserved categories), provided the candidate passed 10+2 with Mathematics. It further lists B.Voc/three-year D.Voc in the same or allied sector and NCVT-approved diplomas. Universities may provide bridge courses such as Mathematics, Physics, and Engineering Drawing for entrants from varied backgrounds.",
+        "An applicant should verify that the exact awarding body, qualification, marks, category documentation, domicile status, and branch/institute choices meet the current prospectus. Holding a related credential alone does not guarantee eligibility or a seat."
+      ],
+      "bullets": [
+        "Entry is to second year/third semester, not to first year.",
+        "For the 2026–27 Haryana cycle, HSTES says qualifying-examination eligibility must be established during online application/document verification.",
+        "The current HSTES eligibility page notes that its criteria remain subject to AICTE and State Government directions."
+      ],
+      "source_urls": [
+        "https://hstes.org.in/EligibilityBTechLEET",
+        "https://hstes.org.in/BtechLEETImpInstructions",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Selection format: verify the current notice",
+      "paragraphs": [
+        "The 2026 HSTES materials contain an important inconsistency. The current HSTES lateral-entry instructions, updated in July 2026, say admissions will be made using inter-se merit of qualifying-examination percentage through online centralized counselling. That is the operational basis applicants should treat as current unless HSTES issues a later change.",
+        "However, the 2026 prospectus also contains a full Online Common Entrance Test (OCET)/LEET scheme: 90 objective questions for 90 marks in 90 minutes, in English, with no negative marking. Its listed coverage includes basic sciences, electronics, mechanical, civil and other engineering-stream topics. This material may be relevant if HSTES activates or restores the test process, but it should not be treated as confirmation that a test remains required for the 2026–27 intake.",
+        "Because the selection basis, dates, and testing arrangements can be amended, check the HSTES B.Tech lateral-entry instructions and the Haryana technical admissions portal before registering, booking travel, or paying for preparation."
+      ],
+      "bullets": [
+        "Current instruction page: merit from qualifying-examination percentage plus online counselling.",
+        "Prospectus test model: 90 single-correct-answer MCQs; 90 minutes; no negative marking.",
+        "Do not infer an OCET date, admit-card release, or test centre from the prospectus alone when the later instruction page specifies merit-based admission."
+      ],
+      "source_urls": [
+        "https://hstes.org.in/BtechLEETImpInstructions",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf",
+        "https://techadmissionshry.gov.in/default.aspx"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and counselling process",
+      "paragraphs": [
+        "For the 2026–27 Haryana cycle, applicants apply online through the Haryana technical-admissions portal. HSTES instructs candidates to choose B.E./B.Tech. (Lateral Entry), enter information exactly as in the qualifying examination, upload a photograph and signature, and upload the Class 10 detailed marks certificate, qualifying-examination marks certificate, and applicable category documents for verification.",
+        "After fee payment and verification by a designated centre, HSTES says it prepares and displays the inter-se merit. Candidates then log in to fill institute and branch choices for centralized online counselling. After an allotment, the allotted institute verifies credentials and issues a provisional admission slip; failure to report by the notified schedule or submission of incorrect documents can result in cancellation of the seat.",
+        "Fees and dates are admission-cycle-specific. As a dated example only, HSTES’s 2026–27 instruction page lists a non-refundable registration-cum-application fee of ₹1,000 for the General Category and ₹700 for listed reserved categories, payable online. Applicants should confirm the fee and deadline shown in the live portal and current prospectus before payment."
+      ],
+      "bullets": [
+        "Create and retain the unique application number and password.",
+        "Upload legible, correct documents and ensure names, date of birth, marks, and category details match official records.",
+        "Fill and, where available, lock choices carefully; allotment depends on merit, choices, seat availability, and applicable rules.",
+        "Report to the allotted institute as instructed and retain the provisional admission slip."
+      ],
+      "source_urls": [
+        "https://hstes.org.in/BtechLEETImpInstructions",
+        "https://techadmissionshry.gov.in/onlinetest/instruction",
+        "https://techadmissionshry.gov.in/default.aspx"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation strategy",
+      "paragraphs": [
+        "For the currently stated 2026–27 merit-based Haryana process, the highest-priority preparation is administrative: obtain final, accurate marks documents; calculate and verify qualifying-examination marks; scan required certificates; confirm category/domicile evidence where applicable; and prepare a realistic ranked list of branches and institutes before choice filling.",
+        "If HSTES later confirms that OCET/LEET will be conducted, use only the official syllabus and mock-test information. The 2026 prospectus’s test scheme emphasizes Mathematics, Physics, Chemistry, communication skills, general awareness, and foundational topics across electronics, mechanical, civil, and other engineering streams; it also says the syllabus aligns with the AICTE/HSBTE diploma curriculum and advises broad study of important topics."
+      ],
+      "bullets": [
+        "Monitor HSTES and the Haryana admissions portal for superseding notices.",
+        "Review the official branch- and institute-wise intake when it is published; availability is not fixed until counselling.",
+        "If an entrance test is officially activated, practise timed computer-based MCQs and use the official mock test rather than relying solely on third-party material."
+      ],
+      "source_urls": [
+        "https://hstes.org.in/BtechLEETImpInstructions",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf",
+        "https://techadmissionshry.gov.in/default.aspx"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Outcome after selection",
+      "paragraphs": [
+        "A successful applicant receives admission to the second year (third semester) of an allotted B.E./B.Tech. programme and follows the three-year lateral-entry degree route. The eventual branch depends on the preferences submitted, merit position, and seats available during counselling; HSTES’s prospectus notes that eligible diploma holders may seek branches beyond their original diploma discipline, subject to rank, choice, and availability.",
+        "A seat is not final merely because it appears in allotment results. HSTES requires institute-level verification of uploaded credentials and reporting under the notified schedule; incorrect documentation or non-reporting can lead to forfeiture or cancellation. Intake and vacancies are variable by institute and branch, so applicants should use the live counselling information rather than assume a particular engineering branch will be available."
+      ],
+      "bullets": [
+        "Direct entry point: second year/third semester.",
+        "Programme duration: three years under the Haryana lateral-entry route.",
+        "Final admission requires verification and reporting to the allotted institute."
+      ],
+      "source_urls": [
+        "https://hstes.org.in/EligibilityBTechLEET",
+        "https://hstes.org.in/BtechLEETImpInstructions",
+        "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "HSTES B.Tech lateral-entry eligibility",
+      "url": "https://hstes.org.in/EligibilityBTechLEET",
+      "kind": "official eligibility page"
+    },
+    {
+      "label": "HSTES B.Tech lateral-entry instructions",
+      "url": "https://hstes.org.in/BtechLEETImpInstructions",
+      "kind": "official admissions instructions"
+    },
+    {
+      "label": "HSTES 2026 B.Tech lateral-entry/LEET prospectus",
+      "url": "https://www.hstes.org.in/Documents/2026/Prospectus/BTechLE-Prospectus-2026.pdf",
+      "kind": "official prospectus"
+    },
+    {
+      "label": "Haryana technical admissions portal",
+      "url": "https://techadmissionshry.gov.in/default.aspx",
+      "kind": "official application and counselling portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

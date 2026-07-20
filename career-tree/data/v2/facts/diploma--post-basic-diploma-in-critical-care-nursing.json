@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Regulatory title",
+      "value": "The Indian Nursing Council (INC) regulates the programme as the “Post Basic Diploma in Critical Care Specialty Nursing – Residency Program” under its 2022 regulations.",
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf"
+      ]
+    },
+    {
+      "label": "Duration and credential status",
+      "value": "It is a one-year programme. INC lists Post Basic Diploma in Critical Care Nursing as an additional qualification, examined/awarded through a State Nursing Council or university route.",
+      "source_urls": [
+        "https://indiannursingcouncil.org/nursingprograms",
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf"
+      ]
+    },
+    {
+      "label": "Who it is for",
+      "value": "The regulatory residency route is for Registered Nurses and Registered Midwives (RN & RM), or equivalent, registered with a State Nurses and Midwives Registration Council (SNRC) and holding a NUID; it requires at least one year of staff-nurse clinical experience, preferably in a critical-care unit.",
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf"
+      ]
+    },
+    {
+      "label": "Practice intensity",
+      "value": "The INC curriculum specifies 1,970 total hours: 200 theory hours, 40 skill-lab hours, and 1,730 clinical hours. This is described as 10% theory and 90% skill-lab plus clinical practicum.",
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf"
+      ]
+    },
+    {
+      "label": "Outcome",
+      "value": "After certification and registration as an additional qualification with the relevant SNRC, the regulations envisage employment in a critical-care unit of a multi-specialty hospital, with institution-specific privileging for specialised procedural competencies.",
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: registered nurses with clinical experience",
+      "paragraphs": [
+        "Under the INC’s 2022 residency regulations, an applicant must be an RN & RM (or equivalent) registered with an SNRC, have a Nurses Unique Identification Number (NUID), be physically fit, and have at least one year of clinical experience as a staff nurse—preferably in critical care—before enrolment. Nurses qualified outside India must first obtain an INC equivalence certificate.",
+        "Admission notices can add academic and documentary conditions. For example, Kerala’s 2026 centralised notification for specialty-nursing diplomas requires +2/equivalent with Physics, Chemistry and Biology, plus a recognised GNM, regular B.Sc. Nursing, or regular Post Basic B.Sc. Nursing qualification with at least 50% aggregate marks. Applicants should therefore treat the INC requirements as the baseline and check the current prospectus of the relevant state, SNRC, university, or institution."
+      ],
+      "bullets": [
+        "Confirm active RN & RM/SNRC registration and NUID before applying.",
+        "Document at least one year of staff-nurse clinical experience; critical-care experience is preferred under the INC regulations.",
+        "Check whether the current local admission notice imposes academic thresholds, service-quota rules, domicile conditions, or other requirements beyond the national baseline."
+      ],
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf",
+        "https://lbscentre.in/pbdiploma2026/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and residency structure",
+      "paragraphs": [
+        "The regulated programme is a one-year residency. The curriculum allocates 1,970 hours across 44 teaching-and-practice weeks: 200 hours of theory, 40 hours in the skill laboratory, and 1,730 hours in clinical practice. INC characterises this as a competency-based programme with 10% theory and 90% practicum.",
+        "Clinical residency is structured around approximately 42 weeks of postings. The prescribed areas include emergency care, coronary/cardiothoracic ICU, medical ICU, neurological ICU, surgical ICU, paediatric ICU, and burns/plastic-surgery ICU. The regulations prescribe a minimum of 45 hours per week, with shift and on-call arrangements aligned to staff-nurse duty schedules."
+      ],
+      "bullets": [
+        "One-year residency programme.",
+        "1,970 prescribed hours in total.",
+        "42 weeks of clinical residency postings across multiple intensive-care settings.",
+        "Minimum 45 hours per week during clinical residency, subject to the programme’s duty roster."
+      ],
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum: critical-care competence, safety, and supervised clinical practice",
+      "paragraphs": [
+        "The curriculum combines foundational specialty-practice learning with Critical Care Specialty Nursing I and II. Foundation subjects cover professionalism; communication, patient education and counselling; clinical leadership and resource management; and evidence-based, applied research. Specialty content covers the context of critical-care nursing, applied basic sciences, nursing management of clinical conditions, specialised interventions, patient safety and quality, and supportive, palliative, rehabilitation, family, and community considerations.",
+        "Assessment combines theory with a substantial practicum. The practical assessment includes an Objective Structured Clinical Examination (OSCE), viva, and direct observation of clinical performance. To receive the diploma, candidates must complete 80% theory attendance and 100% clinical requirements, complete prescribed course and log-book requirements, and pass the examination."
+      ],
+      "bullets": [
+        "Applied anatomy and physiology, microbiology, pharmacology, and pathophysiology for critical illness.",
+        "Assessment, nursing management, treatment support, and specialised interventions for critically ill patients.",
+        "Basic and advanced life-support skills, infection prevention, medication safety, quality assurance, clinical audit, and end-of-life care.",
+        "OSCE, viva, observed practical/clinical assessment, and clinical log-book completion."
+      ],
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission and choosing an approved provider",
+      "paragraphs": [
+        "INC requires selection on merit obtained through an entrance examination and interview conducted by the competent authority. The examining and diploma-awarding authority is an INC-approved Examination Board, SNRC, or university. Providers must obtain recognition from the relevant SNRC for the particular academic year, so applicants should verify current, programme-specific recognition rather than relying only on a college’s general nursing approval.",
+        "The required clinical environment is deliberately intensive: the regulations require an eligible parent specialty/tertiary hospital or critical-care training hospital with at least 200 beds and at least 20 CCU/ICU beds, advanced diagnostic and life-support facilities, and relevant nursing-care infrastructure. This makes the attached hospital and its ICU case mix as important as the classroom provider when comparing programmes."
+      ],
+      "bullets": [
+        "Use the current state/SNRC/university or institution notification for application dates, documents, entrance format, reservation, and service-quota rules.",
+        "Verify that the exact Critical Care Specialty Nursing programme is recognised by the relevant SNRC for the academic year of admission.",
+        "Ask the provider about ICU rotations, nursing and medical preceptors, skill-lab facilities, roster expectations, and how clinical log-book competencies are supervised."
+      ],
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf",
+        "https://lbscentre.in/pbdiploma2026/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After the diploma: registration, critical-care roles, and further study",
+      "paragraphs": [
+        "The immediate next step is to complete the prescribed examination and have the diploma registered as an additional qualification with the relevant SNRC. INC states that, after certification and this registration, critical-care specialist nurses should be employed in critical-care units of multi-specialty hospitals and may be institutionally privileged for the specialist procedural competencies covered by their training and local protocols.",
+        "For further education, INC separately lists Post Basic B.Sc. Nursing (two years regular or three years distance), M.Sc. Nursing (two years), and Nurse Practitioner in Critical Care (NPCC, two years) as nursing qualifications. These are distinct programmes rather than automatic consequences of this diploma; eligibility, selection, recognition, and clinical-experience requirements must be checked against the current regulations and admissions notice for the chosen programme."
+      ],
+      "bullets": [
+        "Register the qualification with the relevant SNRC as an additional qualification.",
+        "Seek critical-care nursing roles within the scope of the programme, employer credentialing, and hospital protocols.",
+        "Consider Post Basic B.Sc. Nursing, M.Sc. Nursing, or the separate two-year NPCC programme where the applicant meets that programme’s current entry requirements."
+      ],
+      "source_urls": [
+        "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf",
+        "https://indiannursingcouncil.org/nursingprograms"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "INC 2022 Post Basic Diploma in Critical Care Specialty Nursing Residency Regulations",
+      "url": "https://indiannursingcouncil.org/uploads/pdf/1656327020158331696862b98b6cb2796.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "Indian Nursing Council nursing-programme duration and registration table",
+      "url": "https://indiannursingcouncil.org/nursingprograms",
+      "kind": "regulator"
+    },
+    {
+      "label": "Kerala 2026 Post Basic Diploma Specialty Nursing admission portal",
+      "url": "https://lbscentre.in/pbdiploma2026/",
+      "kind": "admission"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

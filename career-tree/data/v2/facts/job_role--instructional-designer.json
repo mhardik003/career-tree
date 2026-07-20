@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core purpose",
+      "value": "Instructional designers turn subject-matter expertise into structured learning experiences, using instructional-design principles and learner-focused course delivery.",
+      "source_urls": [
+        "https://iimbx.iimb.ac.in/instructional-designer/",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page481.html"
+      ]
+    },
+    {
+      "label": "Typical digital outputs",
+      "value": "Online-learning work can combine videos, reading e-content, interactive audio-visual material or simulations, and self-assessment quizzes/tests.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page502.html",
+        "https://iimbx.iimb.ac.in/instructional-designer/"
+      ]
+    },
+    {
+      "label": "Key collaborators",
+      "value": "The role commonly works with faculty or subject experts, pedagogical colleagues, and production/technology teams.",
+      "source_urls": [
+        "https://iimbx.iimb.ac.in/instructional-designer/",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page509.html"
+      ]
+    },
+    {
+      "label": "Entry-qualification context",
+      "value": "Requirements are employer-specific: an IIM Bangalore digital-learning vacancy sought a bachelor’s or master’s degree in instructional design, educational technology, educational psychology, or a related field, while a 2023 campus posting for an instructional-design/EdTech UX role accepted B.Tech (CE/IT) or MCA candidates.",
+      "source_urls": [
+        "https://iimbx.iimb.ac.in/instructional-designer/",
+        "https://rku.ac.in/placementpanel/companyprofile/SOE065.pdf"
+      ]
+    },
+    {
+      "label": "Compensation context",
+      "value": "A historical campus-drive notice, dated August 2023, listed ₹6.85 lakh per annum CTC for an Instructional Designer role in Mumbai. This is an employer- and date-specific example, not a current India-wide salary benchmark.",
+      "source_urls": [
+        "https://rku.ac.in/placementpanel/companyprofile/SOE065.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Instructional Designer does",
+      "paragraphs": [
+        "In the Indian higher-education and online-learning context, instructional design spans curriculum and syllabus planning, programme duration, staffing and delivery choices, and selection of media such as print, audio, video, online and computer-mediated formats. UGC’s ODL framework also emphasises defining target learners, their needs, learning outcomes, and the skills and competencies a programme is intended to develop.",
+        "At course level, the work involves eliciting knowledge and pedagogical intent from faculty or subject experts; converting complex material into organised digital learning; selecting suitable learning activities and media; and using learner feedback, engagement data and outcomes to improve the design. An IIM Bangalore digital-learning role illustrates deliverables such as videos, interactive quizzes, simulations and gamified activities."
+      ],
+      "bullets": [
+        "Define or align learning outcomes, target-learner needs, content sequence, instructional methods and assessment approaches.",
+        "Create course-design documentation, scripts and storyboards, then coordinate with academic, visual, production and technology stakeholders.",
+        "Develop or specify multimedia learning assets and assessment activities, including quizzes, scenario-based tasks and peer-learning elements where appropriate.",
+        "Review learner feedback and performance or engagement evidence to refine learning materials and delivery."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page481.html",
+        "https://iimbx.iimb.ac.in/instructional-designer/"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "There is no single degree route shown by the employer evidence. A direct route is a bachelor’s or master’s education in instructional design, educational technology, educational psychology or a related discipline; this was the education preference in an IIMBx Instructional Designer vacancy. That same senior vacancy also sought substantial instructional-design experience, especially in higher education, online learning, faculty collaboration or MOOC development.",
+        "Adjacent routes are also plausible where candidates build demonstrable learning-design capability. A dated 2023 university campus notice for an instructional-design/EdTech UX role accepted CE/IT B.Tech and MCA candidates, and its role description focused on educational-product features, storyboards, interaction flows and prototyping. This indicates that technology and UX-oriented backgrounds can lead into some instructional-design roles, subject to each employer’s requirements."
+      ],
+      "bullets": [
+        "Study education, educational technology, learning sciences, psychology, communication/design, or a relevant subject area; then build evidence of applying pedagogy to learning content.",
+        "Develop practical competence through course-development, e-learning, MOOC, educational-content, UX or learning-technology work.",
+        "For academic online-learning roles, seek experience collaborating with faculty and converting classroom teaching into online or blended delivery.",
+        "Treat certifications, degree requirements and years of experience as vacancy-specific rather than universal requirements."
+      ],
+      "source_urls": [
+        "https://iimbx.iimb.ac.in/instructional-designer/",
+        "https://rku.ac.in/placementpanel/companyprofile/SOE065.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role combines learning science, clear communication and digital-production judgment. A current IIMBx role identifies instructional frameworks such as ADDIE, Backward Design and Bloom’s Taxonomy; online pedagogy, adult learning and experiential learning; and assessment design as core capabilities. UGC’s ODL material likewise connects instructional design with learner-centred blended learning, varied delivery media and ICT-enabled learning.",
+        "Digital skills are applied in service of learning goals rather than as an end in themselves. Employer examples include authoring interactive content, preparing storyboards and scripts, designing assessments in an LMS, and working with presentation, video and collaboration tools. Product-oriented roles may additionally expect design documentation, wireframes, prototypes and an understanding of interaction flows."
+      ],
+      "bullets": [
+        "Learning design: learning outcomes, alignment of instruction and assessment, learner analysis, inclusive and learner-centred design.",
+        "Assessment: objective, scenario/case-based, formative and peer-learning or peer-assessment approaches as relevant to the course.",
+        "Content communication: structured writing, storyboards, scripts, visual explanation and documentation.",
+        "Learning technology: LMS and quiz tools, interactive-content authoring, presentation tools and basic awareness of video-production workflows.",
+        "Collaboration: eliciting requirements from faculty or subject experts, communicating with production and technology teams, and incorporating feedback."
+      ],
+      "source_urls": [
+        "https://iimbx.iimb.ac.in/instructional-designer/",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page486.html",
+        "https://rku.ac.in/placementpanel/companyprofile/SOE065.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is used",
+      "paragraphs": [
+        "Instructional designers can work in higher-education digital-learning units, universities offering online or open-and-distance programmes, MOOC initiatives, education publishers and learning-technology organisations. UGC’s online-programme framework describes dedicated online-course centres or cells that coordinate academic departments, admissions/registration, examinations and technology support; it assigns responsibility for LMS support and overall instructional design within that operating environment.",
+        "The work is cross-functional. In a university digital-learning setting, an instructional designer may partner directly with professors and pedagogical research colleagues. In learning-technology product settings, the role can sit alongside software and design teams, translating educational requirements into storyboards, interfaces and prototypes."
+      ],
+      "bullets": [
+        "Higher-education e-learning centres, online-programme cells and open/distance-learning operations.",
+        "MOOC and digital-course production teams.",
+        "EdTech, learning-experience design, educational publishing and assessment-product organisations.",
+        "Cross-functional teams involving faculty, subject experts, learning researchers, media producers, UX/design professionals and LMS/technology support staff."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page509.html",
+        "https://iimbx.iimb.ac.in/instructional-designer/",
+        "https://rku.ac.in/placementpanel/companyprofile/SOE065.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Publicly visible compensation evidence for this occupation is sparse and should not be treated as a market average. One RK University campus-drive notice for a Zeus Learning Instructional Designer position in Mumbai listed ₹6.85 lakh per annum CTC; the notice is explicitly tied to the 2024 graduating batch, with registration in August 2023. It therefore provides only a dated entry-level/graduate-recruitment reference point.",
+        "Actual pay can vary materially by experience, employer type, location, contractual status, domain expertise, portfolio strength, responsibility for learning strategy or production, and whether the role is in higher education, corporate learning, publishing or product-led EdTech. Candidates should verify current compensation directly in the specific vacancy and offer terms."
+      ],
+      "bullets": [
+        "Use dated job notices only as illustrative context, not as a current salary promise.",
+        "Compare the complete offer: fixed pay, variable pay, benefits, contract duration, work location and any bond or service conditions."
+      ],
+      "source_urls": [
+        "https://rku.ac.in/placementpanel/companyprofile/SOE065.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "IIMBx (IIM Bangalore) Instructional Designer job description",
+      "url": "https://iimbx.iimb.ac.in/instructional-designer/",
+      "kind": "employer_role_profile"
+    },
+    {
+      "label": "UGC Regulations compendium: instructional-design components in ODL programme planning",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page481.html",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "UGC Regulations compendium: online-programme staff and LMS/instructional-design context",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page509.html",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "RK University 2023 campus-drive notice: instructional-design/EdTech UX role and dated CTC example",
+      "url": "https://rku.ac.in/placementpanel/companyprofile/SOE065.pdf",
+      "kind": "historical_employer_notice"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

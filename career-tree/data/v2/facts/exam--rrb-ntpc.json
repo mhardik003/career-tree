@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "RRB NTPC is the Railway Recruitment Boards’ (RRBs) recruitment stream for Non-Technical Popular Categories in Indian Railways. Recruitment is issued through Centralised Employment Notices (CENs), with separate Graduate and Undergraduate notices when vacancies are notified.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/employment-notices.php",
+        "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php"
+      ]
+    },
+    {
+      "label": "Current recruitment references",
+      "value": "The latest NTPC notices listed by RRB Chandigarh are CEN 06/2025 for Graduate posts and CEN 07/2025 for Undergraduate posts. The application windows stated on those official notice pages were 21 October–20 November 2025 and 28 October–27 November 2025, respectively; those dates are past as of 19 July 2026.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php"
+      ]
+    },
+    {
+      "label": "Qualification route",
+      "value": "In the 2025 NTPC cycle, the Graduate notice is for Graduate NTPC posts and the Undergraduate notice is for Undergraduate NTPC posts. The exact educational, age, medical and typing requirements are post-specific and must be checked in the applicable CEN.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php",
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf"
+      ]
+    },
+    {
+      "label": "Selection stages",
+      "value": "The NTPC recruitment model uses computer-based testing and, where the notified post requires it, a computer-based aptitude test or typing skill test, followed by document verification and medical examination. The applicable stages vary by post.",
+      "source_urls": [
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf",
+        "https://www.rrbajmer.gov.in/Upload_PDF/CEN_05_2024_NTPC_G_Result_CBT-2_15122025-639014094503563386.pdf"
+      ]
+    },
+    {
+      "label": "Official information",
+      "value": "Candidates should rely on official RRB websites and the relevant CEN rather than social-media notices or third-party application links.",
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php",
+        "https://www.rrbthiruvananthapuram.gov.in/notifications?head_id=MTQ1&subnot%5B%5D=962&subnot%5B%5D=964&subnot%5B%5D=966"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and jobs covered",
+      "paragraphs": [
+        "RRB NTPC is a large, centralised hiring route for non-technical operational, commercial, clerical and accounts roles in Indian Railways. It is not one permanently open examination: RRBs publish a CEN for a particular recruitment cycle, identify the posts and railway units, and run selection for those notified vacancies.",
+        "The node’s child roles align with the usual NTPC split. Undergraduate notices cover roles such as Commercial cum Ticket Clerk, Accounts Clerk cum Typist, Junior Clerk cum Typist and Trains Clerk. Graduate notices cover roles such as Chief Commercial cum Ticket Supervisor, Goods Train Manager, Junior Account Assistant cum Typist, Senior Clerk cum Typist and Station Master. A candidate should treat the specific CEN—not an old syllabus page or salary article—as the controlling document for the posts actually available in a cycle."
+      ],
+      "bullets": [
+        "The official RRB recruitment-notice index lists CEN 06/2025 as “NTPC-Graduate Posts” and CEN 07/2025 as “NTPC-Undergraduate Posts.”",
+        "Vacancies, railway/zone allocation, category reservation, medical standards and post parameters are recruitment-cycle-specific and may be amended through corrigenda."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/employment-notices.php",
+        "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php",
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: choose the correct NTPC level and post",
+      "paragraphs": [
+        "The primary academic distinction is between the Undergraduate and Graduate NTPC notices. The detailed CEN must be read post by post because it specifies the required qualification, age cut-off date, permitted age relaxations, nationality/citizenship conditions, medical standard, and whether computer typing proficiency is required.",
+        "For example, the official CEN 06/2024 Undergraduate notice required candidates to use the post-parameter and vacancy tables to determine eligibility; it listed the undergraduate NTPC posts as Commercial cum Ticket Clerk, Accounts Clerk cum Typist, Trains Clerk and Junior Clerk cum Typist. Its structure illustrates why applicants should not assume that a qualification alone makes them eligible for every NTPC post."
+      ],
+      "bullets": [
+        "Use the Graduate CEN only for the Graduate posts stated in that notice; use the Undergraduate CEN only for the Undergraduate posts stated in that notice.",
+        "For typist-designated posts, confirm the notified computer typing requirement and the applicable typing-skill-test rules.",
+        "Check the medical standard for the exact post before ranking preferences; medical suitability is assessed for the post offered.",
+        "Do not apply while awaiting a required result where the relevant CEN says the qualification must already be held by its closing date."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php",
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Selection format",
+      "paragraphs": [
+        "The standard NTPC pathway is staged. Candidates first sit Computer Based Test (CBT) stages. After CBT-2, candidates for some posts are shortlisted for a post-specific qualifying stage: Station Master-type selections can require a Computer Based Aptitude Test (CBAT), while typist posts can require a Computer Based Typing Skill Test (CBTST). Shortlisted candidates then proceed to document verification and the required medical examination.",
+        "Stages are not interchangeable and not every applicant takes every test. The official result notice for CEN 05/2024 states that CBT-2 shortlisting was for CBAT and TST, demonstrating that the next stage depends on the post and CBT-2 merit. The exact question counts, durations, qualifying thresholds, normalisation and shortlisting ratios must be taken from the CEN for the candidate’s own cycle."
+      ],
+      "bullets": [
+        "CBT-1: screening/shortlisting stage under the relevant CEN.",
+        "CBT-2: further merit-based stage for shortlisted candidates.",
+        "CBAT: applicable only to notified aptitude-test posts.",
+        "CBTST: applicable to notified typing posts.",
+        "Document verification and medical examination: later selection stages; candidature remains provisional until requirements are met."
+      ],
+      "source_urls": [
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf",
+        "https://www.rrbajmer.gov.in/Upload_PDF/CEN_05_2024_NTPC_G_Result_CBT-2_15122025-639014094503563386.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process and status checking",
+      "paragraphs": [
+        "Apply only when an NTPC CEN is open, using the application route named on official RRB pages. The 2025 Graduate and Undergraduate application windows are already past as of 19 July 2026, so a new applicant should monitor the official RRB employment-notice index for a future NTPC CEN rather than attempt to use an expired link.",
+        "When applications are open, the usual process is to create or use the required RRB application account, select one RRB as instructed, complete personal and educational details exactly as supported by records, upload the prescribed materials, pay any applicable fee, submit, and retain the acknowledgement. The CEN controls correction windows, permitted edits, fee/refund terms and deadlines.",
+        "For candidates already in CEN 07/2025, the official RRB Chandigarh page reported a revised CBT-1 schedule in June 2026 and stated that exam-city/date information and e-call letters are released through official RRB channels. This is a reminder to check the board’s notice page, registered email and SMS rather than relying on forwarded messages."
+      ],
+      "bullets": [
+        "Before applying: download the detailed CEN and verify post parameters, eligibility, medical standard and preferred RRB/railway options.",
+        "During the application: use a personal active mobile number and email address and preserve the submitted application/acknowledgement.",
+        "After submission: track application status, exam-city information, e-call letter, answer-key/result notices and document-verification instructions on the official RRB website.",
+        "Fees, correction charges, dates and refund conditions are variable and should always be read from the active CEN."
+      ],
+      "source_urls": [
+        "https://www.rrbcdg.gov.in/employment-notices.php",
+        "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php",
+        "https://www.rrbcdg.gov.in/uploads/2025/07-NTPCUG/072025NTPCUG-CBT1_RevisedSchedule.pdf",
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Prepare against the syllabus and test instructions in the CEN for the specific recruitment cycle, because the notification defines the actual subjects, scoring rules, negative-marking provisions, qualifying requirements and post-specific tests. Build CBT familiarity by practising timed computer-based multiple-choice questions, then add targeted preparation for CBAT or computer typing only if the selected post requires it.",
+        "Use official notices to plan logistics as well as study. RRBs issue the exam-city/date information and e-call letter close to the examination, and may reschedule individual centres or shifts. Candidates should keep identification and eligibility documents consistent with their application data and review official updates before travelling."
+      ],
+      "bullets": [
+        "Read the CEN first; make it the master checklist for syllabus, test stages and eligibility evidence.",
+        "Practise in CBT conditions: timed sections, on-screen navigation and accuracy under negative-marking rules where notified.",
+        "For typist posts, practise computer typing in the language and format prescribed by the applicable CEN.",
+        "For aptitude-test posts, use only the official instructions and the CEN to determine whether CBAT applies and how it is evaluated."
+      ],
+      "source_urls": [
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf",
+        "https://www.rrbcdg.gov.in/uploads/2025/07-NTPCUG/072025NTPCUG-CBT1_RevisedSchedule.pdf",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Outcomes after selection",
+      "paragraphs": [
+        "A successful NTPC candidate is considered for appointment to the post and railway/production unit for which they are selected under the applicable CEN, subject to merit, vacancy, document verification and medical fitness. Selection is therefore not simply a CBT score: post preferences, eligibility, the required qualifying test where applicable, documents and medical suitability can affect the final outcome.",
+        "Pay level and initial pay should be treated as dated notification context, not a guarantee of take-home salary. The 2025 notices and their detailed post tables are the proper sources for the pay level, basic pay and vacancy count for a particular post; allowances, deductions, location and later pay-policy changes affect actual earnings."
+      ],
+      "bullets": [
+        "Possible outcomes include appointment to a commercial/ticketing, clerical/accounts, train-operations or station-management role, depending on the notified post and final selection.",
+        "Appointment remains conditional on the CEN’s document-verification and medical requirements.",
+        "Do not infer a post, railway allocation, pay or joining date from an exam qualification alone; wait for the RRB’s official result/panel and appointment process."
+      ],
+      "source_urls": [
+        "https://www.rrbajmer.gov.in/Upload_PDF/CEN_05_2024_NTPC_G_Result_CBT-2_15122025-639014094503563386.pdf",
+        "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf",
+        "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+        "https://www.rrbcdg.gov.in/2025-07-ntpcug.php"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "RRB Chandigarh employment-notice index",
+      "url": "https://www.rrbcdg.gov.in/employment-notices.php",
+      "kind": "official recruitment index"
+    },
+    {
+      "label": "CEN 06/2025 NTPC Graduate notices",
+      "url": "https://www.rrbcdg.gov.in/2025-06-ntpcg.php",
+      "kind": "official notice page"
+    },
+    {
+      "label": "CEN 07/2025 NTPC Undergraduate notices",
+      "url": "https://www.rrbcdg.gov.in/2025-07-ntpcug.php",
+      "kind": "official notice page"
+    },
+    {
+      "label": "Detailed CEN 06/2024 NTPC Undergraduate notification",
+      "url": "https://rrbcdg.gov.in/uploads/202406/Detailed%20CEN%2006-2024%20NTPC.pdf",
+      "kind": "official notification PDF"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Rank and status",
+      "value": "In the Indo-Tibetan Border Police (ITBP) General Duty cadre, Assistant Sub-Inspector (General Duty) is classified as a General Central Service Group ‘C’, non-gazetted, non-ministerial post. This is a concrete force-and-cadre example; ASI posts also exist in specialised and ministerial cadres, so the exact rule set depends on the force and cadre.",
+      "source_urls": [
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73",
+        "https://www.mha.gov.in/en/notifications/vacancies?page=1"
+      ]
+    },
+    {
+      "label": "Usual feeder rank in the ITBP GD example",
+      "value": "ITBP’s 2022 General Duty recruitment rules provide for promotion to ASI (GD) from Head Constable (GD) with five years’ regular service in Pay Level 4 and successful completion of the prescribed pre-promotional training course; the rule provides deputation only if promotion fails.",
+      "source_urls": [
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73"
+      ]
+    },
+    {
+      "label": "Medical standard in the ITBP GD example",
+      "value": "The same ITBP rules require medical category SHAPE-I for appointment and promotion under those rules, including promotion to ASI (GD).",
+      "source_urls": [
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73"
+      ]
+    },
+    {
+      "label": "Pay-matrix context",
+      "value": "The ITBP 2022 rules place ASI (GD) at Pay Level 5, with the then-stated matrix range of ₹29,200–₹92,300. This is a dated basic-pay-matrix reference, not a current take-home-pay estimate; applicable allowances and deductions depend on current government orders, posting, and individual circumstances.",
+      "source_urls": [
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division"
+      ]
+    },
+    {
+      "label": "CAPF context",
+      "value": "The Ministry of Home Affairs lists Assam Rifles, BSF, CISF, CRPF, ITBP, NSG and SSB on its Central Armed Police Forces page. A rank title alone does not identify one uniform employer, posting pattern, or ASI specialty across those organisations.",
+      "source_urls": [
+        "https://www.mha.gov.in/en/about-us/central-armed-police-forces"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "How the Head Constable-to-ASI route works",
+      "paragraphs": [
+        "For the General Duty path documented in ITBP’s 2022 recruitment rules, ASI is not an open direct-recruit entry point: the rule records direct-recruit age and education fields as “not applicable” and specifies promotion, failing which deputation. The feeder cadre is Head Constable (General Duty).",
+        "The ITBP example should be treated as a force-specific benchmark rather than a universal CAPF rule. ASI is used in multiple functional cadres—such as General Duty, ministerial/stenographic, engineering and medical/technical roles—and each cadre’s notified recruitment rules or recruitment notice controls eligibility, selection, training and vacancy filling."
+      ],
+      "bullets": [
+        "ITBP GD benchmark: five years’ regular service as Head Constable (GD) in Pay Level 4.",
+        "Completion of the prescribed pre-promotional training course is required in that ITBP rule.",
+        "Promotion is considered by a Group ‘C’ Departmental Promotion Committee comprising a Deputy Inspector-General, Commandant, and Deputy/Assistant Commandant in the ITBP rule.",
+        "Candidates should check the current recruitment rules, force orders and departmental notices for their own force and cadre before treating any service-length or course requirement as applicable."
+      ],
+      "source_urls": [
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73",
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/1",
+        "https://www.itbpolice.nic.in/Org_recttrules/ASI%20STENO%20HC%20CM%20Noptification.pdf",
+        "https://www.mha.gov.in/en/notifications/vacancies?page=1"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Documented readiness requirements",
+      "paragraphs": [
+        "The clearest formally documented requirements for the ITBP General Duty promotion route are continued medical fitness at SHAPE-I and successful completion of prescribed pre-promotional training. The published rule does not provide a generic, cross-CAPF competency checklist for every ASI specialty, so applicants should rely on the course requirements and cadre-specific rules issued by their force rather than assuming one common syllabus."
+      ],
+      "bullets": [
+        "Maintain the medical category required by the applicable recruitment rules; ITBP’s GD rule specifies SHAPE-I.",
+        "Complete the notified pre-promotional course for the relevant cadre.",
+        "Keep service, training and eligibility records current for departmental promotion consideration."
+      ],
+      "source_urls": [
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Employer and posting context",
+      "paragraphs": [
+        "ASI is a rank used within a multi-force central security system rather than a single workplace. MHA’s Police II Division handles policy, personnel, operational deployment and financial matters for CAPFs, while MHA separately identifies the constituent forces. Therefore, day-to-day work and location depend on the appointing force, cadre, unit and deployment—not on the ASI title alone.",
+        "For example, an ITBP ASI (GD) is governed by the ITBP General Duty cadre rules, whereas technical or medical ASI vacancies are notified against their own specialised designations. Candidates should read the force-specific notification to establish whether the role is General Duty, ministerial, engineering, medical or another specialist stream."
+      ],
+      "bullets": [
+        "Potential employer context includes BSF, CISF, CRPF, ITBP and SSB, with MHA also listing Assam Rifles and NSG on its CAPF page.",
+        "Operational deployment is centrally administered at the MHA level but individual posting details are force and unit specific.",
+        "A vacancy title should be read together with its cadre label and recruitment rules before drawing conclusions about work setting or duties."
+      ],
+      "source_urls": [
+        "https://www.mha.gov.in/en/about-us/central-armed-police-forces",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73",
+        "https://www.mha.gov.in/en/notifications/vacancies?page=1"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Rank progression context",
+      "paragraphs": [
+        "The MHA’s May 29, 2025 honorary-rank scheme presents the rank sequence Head Constable → Assistant Sub-Inspector → Sub-Inspector for CAPFs. It is useful confirmation of the rank relationship represented by this node.",
+        "That scheme is not a regular-promotion rule: it grants an honorary higher rank on the day of retirement, subject to stated conditions, and expressly provides no financial or pension benefit. Regular advancement must instead be assessed under the applicable force and cadre recruitment rules, including service, training, medical and departmental-selection requirements."
+      ],
+      "bullets": [
+        "Immediate feeder relationship represented here: Head Constable to Assistant Sub-Inspector.",
+        "Next rank in the MHA honorary-rank sequence: Sub-Inspector.",
+        "Do not treat honorary rank at retirement as substantive promotion, pay progression, pension enhancement or a substitute for departmental promotion."
+      ],
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2132429&lang=2&reg=48",
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "For a dated, official benchmark, ITBP’s General Duty recruitment rules notified in 2022 specify Pay Level 5 (₹29,200–₹92,300) for ASI (GD), compared with Pay Level 4 for Head Constable (GD). This establishes the published basic-pay-matrix placement for that cadre at that time.",
+        "It should not be converted into a universal or current monthly-salary claim. MHA maintains CAPF policy material covering matters such as risk and hardship allowance and other welfare or service measures; actual pay received can vary by the force, cadre, posting, current allowance orders, leave status, tax and other deductions. Verify the current pay and allowance orders through the employing force."
+      ],
+      "bullets": [
+        "Use ₹29,200–₹92,300 only as the basic matrix range stated in the 2022 ITBP ASI (GD) rule.",
+        "The rule’s stated Head Constable (GD) feeder level is Pay Level 4, ₹25,500–₹81,100.",
+        "Check current force orders for any posting-linked or risk/hardship allowances before estimating compensation."
+      ],
+      "source_urls": [
+        "https://www.itbpolice.nic.in/Home/DownloadRectRules/73",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ITBP General Duty Cadre Recruitment Rules, 2022",
+      "url": "https://www.itbpolice.nic.in/Home/DownloadRectRules/73",
+      "kind": "official recruitment rules"
+    },
+    {
+      "label": "MHA Police II Division — CAPF rules, policy and welfare material",
+      "url": "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+      "kind": "official government portal"
+    },
+    {
+      "label": "MHA Central Armed Police Forces directory",
+      "url": "https://www.mha.gov.in/en/about-us/central-armed-police-forces",
+      "kind": "official government directory"
+    },
+    {
+      "label": "MHA vacancies and recruitment notices",
+      "url": "https://www.mha.gov.in/en/notifications/vacancies?page=1",
+      "kind": "official recruitment notices"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Role focus",
+      "value": "A Pharmacovigilance Associate collects, assesses, documents and processes suspected adverse-event/adverse-drug-reaction information as individual case safety reports (ICSRs), supporting medicine-safety monitoring and reporting.",
+      "source_urls": [
+        "https://www.ipc.gov.in/PvPI/toolkit.html",
+        "https://careers.iconplc.com/job/pharmacovigilance-associate-in-india-chennai-jid-46820"
+      ]
+    },
+    {
+      "label": "Indian public-health context",
+      "value": "India’s Pharmacovigilance Programme of India (PvPI), coordinated through the Indian Pharmacopoeia Commission, collects, collates and analyses drug-related adverse events and supports regulatory action by CDSCO.",
+      "source_urls": [
+        "https://www.ipc.gov.in/mandates/pvpi/pharmacovigilance-skill-development-programme/8-category-en/1215-introduction-to-pvpi-1.html",
+        "https://www.ipc.gov.in/PvPI/about.html"
+      ]
+    },
+    {
+      "label": "Relevant regulated education routes",
+      "value": "PCI identifies B.Pharm as a four-year course after 10+2 and Pharm.D as a six-year course after 10+2; B.Pharm’s prescribed electives include Pharmacovigilance theory.",
+      "source_urls": [
+        "https://pci.nic.in/FaQs.html",
+        "https://www.pci.nic.in/pdf/14-260_circular_30092020.pdf"
+      ]
+    },
+    {
+      "label": "Illustrative employer eligibility",
+      "value": "A Chennai-based ICON Pharmacovigilance Associate vacancy listed B.Pharm, M.Pharm, Pharm.D and several clinical/health-science degrees, alongside prior safety case-processing experience. Requirements vary by employer and seniority.",
+      "source_urls": [
+        "https://careers.iconplc.com/job/pharmacovigilance-associate-in-india-chennai-jid-46820"
+      ]
+    },
+    {
+      "label": "Training availability",
+      "value": "The Indian Pharmacopoeia Commission’s NCC-PvPI runs pharmacovigilance training and skill-development programmes; programme dates, format, fees and eligibility are variable and should be checked on the official IPC pages when applying.",
+      "source_urls": [
+        "https://www.ipc.gov.in/mandates/pvpi/training-and-education.html",
+        "https://ipc.gov.in/mandates/pvpi/pharmacovigilance-skill-development-programme/8-category-en/1277-pvpi-training-calendar.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Pharmacovigilance Associate does",
+      "paragraphs": [
+        "The role centres on turning incoming medicine-safety information into high-quality case records. In practical case-processing work, this can include receiving and triaging reports, entering clinical and product details in a safety database, writing case narratives, coding events and medicines, checking product labelling, seeking follow-up information, performing quality checks, and completing cases within required reporting timelines.",
+        "In India, this work aligns with the wider purpose of PvPI: patient-safety reporting, analysis of reported adverse drug reactions, benefit–risk assessment of marketed medicines, safety-signal identification, and communication of safety information to stakeholders. Pharmacovigilance Associates may support these activities within a pharmaceutical company, marketing authorisation holder or service provider rather than make regulatory decisions themselves."
+      ],
+      "bullets": [
+        "Process suspected adverse events, adverse drug reactions and other medically relevant safety information.",
+        "Maintain accurate, complete and traceable ICSR documentation and support timely reporting.",
+        "Use controlled medical and drug terminologies when coding case information.",
+        "Escalate gaps or inconsistencies through follow-up queries and work to applicable sponsor, company and regulatory procedures."
+      ],
+      "source_urls": [
+        "https://careers.iconplc.com/job/pharmacovigilance-associate-in-india-chennai-jid-46820",
+        "https://www.ipc.gov.in/PvPI/toolkit.html",
+        "https://database.ich.org/sites/default/files/ICH_E2D%28R1%29_Step4_FinalGuideline_2025_0819.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "A pharmacy-focused route is B.Pharm or Pharm.D from a Pharmacy Council of India-approved education pathway. The PCI lists B.Pharm as a four-year programme after 10+2 and Pharm.D as a six-year programme after 10+2; its B.Pharm curriculum includes Pharmacovigilance theory as an elective. These qualifications are relevant preparation, not a universal legal prerequisite for every private-sector Pharmacovigilance Associate vacancy.",
+        "Employers may also recruit candidates with other health or life-science backgrounds. For example, an ICON vacancy in Chennai accepted pharmacy, nursing and other health-science qualifications, but required prior safety-background experience and post-marketing surveillance case-processing experience. Candidates should therefore compare each vacancy’s stated educational and experience requirements.",
+        "For structured upskilling, the Indian Pharmacopoeia Commission/NCC-PvPI publishes pharmacovigilance training and skill-development opportunities. A short course can build familiarity with the field, but it does not by itself replace the education, experience or employer-specific training required for a role."
+      ],
+      "bullets": [
+        "Complete a relevant pharmacy, clinical or life-science degree route.",
+        "Build familiarity with ADR/AE reporting, ICSR case processing and safety databases through supervised experience, internships or entry-level safety work where available.",
+        "Review the current employer job description carefully: degree acceptance, experience thresholds and project-specific tools differ.",
+        "Use official PvPI training information as a supplementary learning option; check current dates, fees and eligibility before enrolling."
+      ],
+      "source_urls": [
+        "https://pci.nic.in/FaQs.html",
+        "https://www.pci.nic.in/pdf/14-260_circular_30092020.pdf",
+        "https://careers.iconplc.com/job/pharmacovigilance-associate-in-india-chennai-jid-46820",
+        "https://www.ipc.gov.in/mandates/pvpi/training-and-education.html"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "Core technical skills are careful safety-case processing, clinical and medical-terminology literacy, structured documentation, and the ability to apply coded vocabularies. The cited employer vacancy specifically names MedDRA and WHO Drug Dictionary (WHO-DD) coding, case narratives, labelling review, quality control and follow-up queries.",
+        "Accuracy, written English, communication and disciplined time management matter because safety information must be complete and processed to defined timelines. The current role requirements should be learned alongside the governing company procedures and applicable safety-reporting standards; ICH E2D(R1), for example, addresses post-approval ICSR definitions, standards and good case-management practices."
+      ],
+      "bullets": [
+        "Medical terminology and interpretation of clinical case information.",
+        "Adverse-event case intake, triage, data entry, narrative writing and follow-up.",
+        "MedDRA and drug-dictionary coding where required by the employer or project.",
+        "Quality checking, detail orientation, written communication and secure handling of sensitive patient information.",
+        "Working knowledge of safety-reporting processes, documentation standards and reporting timelines."
+      ],
+      "source_urls": [
+        "https://careers.iconplc.com/job/pharmacovigilance-associate-in-india-chennai-jid-46820",
+        "https://database.ich.org/sites/default/files/ICH_E2D%28R1%29_Step4_FinalGuideline_2025_0819.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the work is carried out",
+      "paragraphs": [
+        "Pharmacovigilance Associate work is found in pharmaceutical companies and their marketing-authorisation-holder safety functions, as well as contract research organisations and specialist drug-safety service teams. India’s ADR Monitoring System includes a direct user gateway for pharmaceutical industries and marketing authorisation holders to report adverse events, while CRO job descriptions show associates delivering case-processing and reporting work for sponsor projects.",
+        "Work is typically procedure-driven and documentation-intensive. It may involve collaborating with medical reviewers, quality staff, project managers, clinical-study personnel, investigators, reporters and sponsors to resolve safety information and meet project or regulatory timelines."
+      ],
+      "bullets": [
+        "Pharmaceutical company or marketing-authorisation-holder drug-safety teams.",
+        "Contract research organisations providing pharmacovigilance and safety services to sponsors.",
+        "Safety operations supporting clinical-trial, post-marketing and other medicine-safety reporting activities."
+      ],
+      "source_urls": [
+        "https://www.ipc.gov.in/news-highlights/1315-launch-of-the-adverse-drug-monitoring-system-adrms-online-portal.html",
+        "https://careers.iconplc.com/job/drug-safety-associate-in-various-jid-19765",
+        "https://careers.iconplc.com/job/pharmacovigilance-associate-in-india-chennai-jid-46820"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Indian Pharmacopoeia Commission — PvPI overview",
+      "url": "https://www.ipc.gov.in/PvPI/about.html",
+      "kind": "official_regulator_programme"
+    },
+    {
+      "label": "PvPI ADR reporting and monitoring centres",
+      "url": "https://www.ipc.gov.in/PvPI/adr.html",
+      "kind": "official_reporting_resource"
+    },
+    {
+      "label": "IPC PvPI training and education",
+      "url": "https://www.ipc.gov.in/mandates/pvpi/training-and-education.html",
+      "kind": "official_training_resource"
+    },
+    {
+      "label": "Pharmacy Council of India FAQs on approved pharmacy courses",
+      "url": "https://pci.nic.in/FaQs.html",
+      "kind": "official_professional_body"
+    },
+    {
+      "label": "ICH E2D(R1) post-approval ICSR guideline",
+      "url": "https://database.ich.org/sites/default/files/ICH_E2D%28R1%29_Step4_FinalGuideline_2025_0819.pdf",
+      "kind": "international_standard"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

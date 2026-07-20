@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What IIT JAM is",
+      "value": "The Joint Admission Test for Masters (JAM) is an IIT-administered entrance examination for postgraduate study in science, mathematics, technology and related fields. In the 2026 cycle, IIT Bombay was the organising institute.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/About.html",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "label": "2026 test papers",
+      "value": "JAM 2026 had seven papers: Biotechnology (BT), Chemistry (CY), Economics (EN), Geology (GG), Mathematics (MA), Mathematical Statistics (MS), and Physics (PH).",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/About.html",
+        "https://jam2026.iitb.ac.in/Syllabus.html"
+      ]
+    },
+    {
+      "label": "Exam mode and length",
+      "value": "For the 2026 cycle, every paper was an English-language, three-hour computer-based test with 60 compulsory questions for 100 marks.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/Syllabus.html"
+      ]
+    },
+    {
+      "label": "Who could sit the exam",
+      "value": "For JAM 2026, candidates of any nationality who had completed an undergraduate degree or were taking their qualifying degree's final examination in 2026 could appear; there was no age limit.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/ExamFaqs.html",
+        "https://jam2026.iitb.ac.in/eligibilityReq.html"
+      ]
+    },
+    {
+      "label": "Admission is programme-specific",
+      "value": "A JAM score alone did not guarantee admission. Candidates needed to meet the relevant institute's Eligibility Requirements and Minimum Educational Qualifications, and admissions were based on AIR, applicable reservation policy and seat availability.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://jam2026.iitb.ac.in/eligibilityReq.html"
+      ]
+    },
+    {
+      "label": "2026 IIT admission scale",
+      "value": "For academic year 2026–27, the JAM admission brochure stated that IIT Bombay would coordinate admissions to more than 3,000 seats in 105 postgraduate programmes across 23 IITs. These figures are cycle-specific and can change in later years.",
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and the academic routes it opens",
+      "paragraphs": [
+        "IIT JAM is primarily a gateway from an undergraduate science or quantitative degree into postgraduate study. The official 2026 materials list routes including M.Sc., M.Sc. (Tech.), MS (Research), M.Sc.–M.Tech. dual degree, Joint M.Sc.–Ph.D., M.Sc.–Ph.D. dual degree and Integrated Ph.D. programmes. The exact programmes available through a particular paper and the academic background required vary by institute and programme.",
+        "For the 2026–27 cycle, IIT admissions were centrally coordinated by IIT Bombay. JAM results could also be used by result-sharing institutions; for example, the official admission brochure identifies CCMN-linked institutions and other institutes where candidates had to follow the respective institution's own admission process rather than assume an IIT-JAM allotment process applied automatically."
+      ],
+      "bullets": [
+        "Treat JAM as an entrance score and rank, not as an admission offer or a scholarship guarantee.",
+        "Match three things before choosing a test paper: the programme you want, that programme's accepted JAM paper(s), and its institute-specific Minimum Educational Qualifications (MEQs)."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/About.html",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://jam2026.iitb.ac.in/eligibilityReq.html"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: separate the examination from admission",
+      "paragraphs": [
+        "For taking JAM 2026, the baseline was broad: an applicant could have completed an undergraduate degree or be appearing in the final examination of the qualifying degree in 2026. The official FAQ also states that the examination had no age limit and was open to foreign nationals. This exam-appearance eligibility did not impose a minimum percentage requirement for appearing in the test.",
+        "Admission had additional conditions. A qualifying candidate had to complete the undergraduate programme before the admitting institute's admission date and submit proof of passing with the required programme-specific eligibility within that institute's timeline. Each admitting institute verifies its own MEQs, so a B.Sc. or B.Sc. (Research) holder should check the precise subject/course requirements for every programme preference rather than infer eligibility from the programme title alone."
+      ],
+      "bullets": [
+        "You may be eligible to write JAM but ineligible for a particular M.Sc., integrated Ph.D. or other programme if its MEQ is not met.",
+        "Qualifying the paper and appearing in the merit list do not create an automatic entitlement to a seat."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/ExamFaqs.html",
+        "https://jam2026.iitb.ac.in/eligibilityReq.html",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and paper choice",
+      "paragraphs": [
+        "In JAM 2026, each paper was a three-hour CBT in English. It contained 60 questions worth 100 marks, split into three compulsory sections: 30 MCQs in Section A, 10 multiple-select questions (MSQs) in Section B, and 20 numerical-answer-type questions (NATs) in Section C. Negative marking applied only to incorrect Section A MCQs: one-third mark for a wrong one-mark MCQ and two-thirds mark for a wrong two-mark MCQ. MSQ and NAT questions had no negative marking under the 2026 pattern.",
+        "Candidates could take one or two papers, provided the two papers were not scheduled in the same session. The 2026 subjects were BT, CY, EN, GG, MA, MS and PH. The organising institute also provided an on-screen virtual calculator, while personal calculators and electronic devices were prohibited in the examination hall."
+      ],
+      "bullets": [
+        "Practise MCQ accuracy because only MCQs carried negative marking in the 2026 pattern.",
+        "Practise MSQs as all-or-nothing questions: full credit required selecting every correct option and no incorrect option.",
+        "Practise entering signed numerical answers with the virtual keypad used for NAT questions."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/Syllabus.html",
+        "https://jam2026.iitb.ac.in/TestSchedule.html"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application and admission workflow",
+      "paragraphs": [
+        "The process has two distinct stages: first, registration and application for the examination through the JAM Online Application Processing System (JOAPS); second, after qualifying and subject to that year's rules, a separate admission application and programme-preference process. In the 2026 examination application, JOAPS was used to register with an email address and mobile number, upload the photograph, signature, proof of date of birth and applicable category/PwD documents, pay online, and track scrutiny status.",
+        "For the 2026 admission stage, candidates could apply to programmes linked to the paper(s) they had qualified, provided they met each programme's MEQ and ER. Applicants listed programmes in preference order, and the admission brochure states that no changes, additions or rearrangement of those choices were permitted after form submission. The 2026 admission dates and fees were specific to that completed cycle; future candidates should rely on the next organising IIT's official brochure and JOAPS notices rather than reuse them."
+      ],
+      "bullets": [
+        "Create and retain one JOAPS account; the 2026 instructions warned that multiple applications from the same candidate could be rejected.",
+        "Keep academic marksheets/degree or provisional certificate, valid category or EWS certificate where applicable, PwD certificate where applicable, photo ID, photograph and signature ready for the applicable stage.",
+        "Before submitting preferences, verify the programme's eligible JAM paper and MEQ in the current admission brochure and on the admitting institute's website."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/AppProced.html",
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://joaps.iitb.ac.in/"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach using official materials",
+      "paragraphs": [
+        "Start from the official syllabus for the selected paper, then map each topic into a revision plan that includes concept study, worked problems and timed retrieval practice. Because the 2026 structure mixed MCQs, MSQs and NATs, preparation should include the different response behaviours—not merely solving conventional single-answer questions.",
+        "Use the official JAM mock test to rehearse the computer interface and the virtual-calculator workflow. Then use official previous-year papers to identify recurring topic areas, calibrate timing and make an error log. When analysing a paper, distinguish conceptual gaps from calculation mistakes and negative-marking errors; that lets later practice target the decision to attempt, skip or revisit a question."
+      ],
+      "bullets": [
+        "Complete at least some full-length practice under the three-hour limit.",
+        "Use the official paper-specific syllabus rather than a generic B.Sc. syllabus as the scope boundary.",
+        "After every timed paper, review unattempted and incorrect questions as carefully as correct ones."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/Syllabus.html",
+        "https://jam2026.iitb.ac.in/mockTest.html",
+        "https://jam2026.iitb.ac.in/oldQP.html"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a qualifying JAM result can lead to",
+      "paragraphs": [
+        "A qualifying JAM result can support applications to advanced postgraduate programmes such as M.Sc., Joint M.Sc.–Ph.D., M.Sc.–Ph.D. dual degree and Integrated Ph.D. options at IITs, with the particular options determined by the qualifying paper, AIR and programme-specific requirements. It can therefore be a relevant next step after a B.Sc. or Bachelor of Science (Research) for students aiming for disciplinary specialisation, research training or later doctoral study.",
+        "The outcome is competitive and conditional: the official admission materials specify AIR-based consideration, institute MEQs and seat availability, and state that qualifying does not guarantee admission, scholarship or employment. In the 2026 cycle, JAM results were additionally accepted by various result-sharing institutions, but candidates needed to approach those institutes or their admission body directly."
+      ],
+      "bullets": [
+        "Use opening/closing-rank data only as historical context, not as a future admission guarantee.",
+        "Compare curriculum, MEQ, research areas, location, fees and financial-support rules directly on each admitting institute's official site before finalising preferences."
+      ],
+      "source_urls": [
+        "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+        "https://jam2026.iitb.ac.in/About.html",
+        "https://jam2026.iitb.ac.in/InfoBrochure.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "JAM 2026 official website",
+      "url": "https://jam2026.iitb.ac.in/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "Official JAM 2026 information brochure",
+      "url": "https://jam2026.iitb.ac.in/files/JAM2026_Brochure-2.pdf",
+      "kind": "official brochure"
+    },
+    {
+      "label": "Official JAM 2026 admission brochure",
+      "url": "https://jam2026.iitb.ac.in/files/JAM2026_Admission_Brochure.pdf",
+      "kind": "official admission brochure"
+    },
+    {
+      "label": "JOAPS portal",
+      "url": "https://joaps.iitb.ac.in/",
+      "kind": "official application portal"
+    },
+    {
+      "label": "Official syllabus and test pattern",
+      "url": "https://jam2026.iitb.ac.in/Syllabus.html",
+      "kind": "official preparation resource"
+    },
+    {
+      "label": "Official previous-year question papers",
+      "url": "https://jam2026.iitb.ac.in/oldQP.html",
+      "kind": "official preparation resource"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

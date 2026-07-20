@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role focus",
+      "value": "An Associate Product Manager (APM) supports the product lifecycle by translating user and business needs into requirements, working with design, engineering and business stakeholders, and using product data to improve outcomes.",
+      "source_urls": [
+        "https://jobs.lever.co/paytm/255aa024-39ae-4f74-a62b-b062ec12db97",
+        "https://jobs.lever.co/paytm/f70a8c33-a50e-4d63-95ee-71f746aebd15"
+      ]
+    },
+    {
+      "label": "Entry requirements vary",
+      "value": "There is no single listed qualification pattern: a current Paytm travel APM posting prefers computer science or a related technical foundation and treats an MBA as a plus, while another Paytm APM listing seeks approximately two years of relevant experience.",
+      "source_urls": [
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43",
+        "https://jobs.lever.co/paytm/f70a8c33-a50e-4d63-95ee-71f746aebd15"
+      ]
+    },
+    {
+      "label": "Typical work setting",
+      "value": "Work is commonly cross-functional and may be full-time and on-site. As a dated example, Paytm listed APM openings in Noida, Gurugram and Bengaluru on its careers site in July 2026.",
+      "source_urls": [
+        "https://jobs.lever.co/paytm/",
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43",
+        "https://jobs.lever.co/paytm/255aa024-39ae-4f74-a62b-b062ec12db97"
+      ]
+    },
+    {
+      "label": "Analytical emphasis",
+      "value": "Current employer listings explicitly call for product-funnel and KPI analysis, experimentation, and the ability to use SQL or comparable querying tools and spreadsheets for independent analysis.",
+      "source_urls": [
+        "https://jobs.lever.co/paytm/255aa024-39ae-4f74-a62b-b062ec12db97",
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Associate Product Manager does",
+      "paragraphs": [
+        "An APM helps turn product problems into deliverable work. In current Indian employer examples, this includes gathering requirements with stakeholders and end users; documenting detailed user stories, epics and use cases; supporting roadmaps; and partnering with design, engineering, business and growth teams.",
+        "The role is also evidence-led: an APM may define and optimise customer funnels, identify bottlenecks from data, formulate hypotheses, support A/B experiments, test features and journeys before release, and monitor KPIs or other measures of feature impact. The precise scope depends on the employer, product domain and the individual’s experience."
+      ],
+      "bullets": [
+        "Support discovery of user journeys, use cases and business impact.",
+        "Convert requirements into clear product requirements, user stories, epics and acceptance-ready delivery work.",
+        "Coordinate with engineering, design, business, growth and other stakeholders through delivery.",
+        "Analyse funnels, customer feedback and product metrics; use findings to recommend or test improvements.",
+        "Validate releases and edge cases, and ensure reporting exists for product success measures."
+      ],
+      "source_urls": [
+        "https://jobs.lever.co/paytm/255aa024-39ae-4f74-a62b-b062ec12db97",
+        "https://jobs.lever.co/paytm/f70a8c33-a50e-4d63-95ee-71f746aebd15",
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "Entry is employer-specific rather than governed by a single APM eligibility rule. A technical undergraduate foundation can be useful: one current APM posting lists computer science or a related technical field as preferred, and treats a top-tier MBA as an additional advantage rather than a universal prerequisite. Other postings seek prior product or adjacent experience, so applicants should read each role’s requirements closely.",
+        "For the canonical pathway, a Management Trainee role can provide transferable exposure to business operations, stakeholder coordination and structured problem-solving before moving into product work. Direct routes may also include product-management internships, analyst roles, engineering, design or business roles that build demonstrable customer, delivery and analytical experience. Paytm’s current product careers listings include product-management internships alongside APM vacancies, illustrating one employer-level early-career route."
+      ],
+      "bullets": [
+        "Build a portfolio of problem framing, user research, requirements writing, analytics or shipped-feature work; evidence is more useful than a generic claim of interest in product.",
+        "Seek internships or adjacent roles that expose you to customers, product data, software delivery and cross-functional collaboration.",
+        "Tailor applications to the domain—such as fintech lending, travel, telecom or B2B SaaS—because domain knowledge may be requested.",
+        "Do not assume an MBA is mandatory: treat degree and experience requirements as vacancy-specific and time-sensitive."
+      ],
+      "source_urls": [
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43",
+        "https://jobs.lever.co/paytm/f70a8c33-a50e-4d63-95ee-71f746aebd15",
+        "https://jobs.lever.co/paytm/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The core skill set combines product judgement with execution. Employers seek customer and user-experience orientation, clear written and verbal communication, the ability to collaborate with technical teams, and enough familiarity with web, app, SaaS or API concepts to discuss trade-offs and write implementable requirements.",
+        "Data literacy is especially important. Relevant capabilities include interpreting product metrics and funnels, using experimentation appropriately, and independently working with SQL or comparable query tools and spreadsheets. Tool requirements vary, but familiarity with analytics products such as Google Analytics, Mixpanel or Amplitude may be advantageous in some vacancies."
+      ],
+      "bullets": [
+        "Product discovery: user journeys, user problems, use cases and customer feedback.",
+        "Delivery: product requirements documents, user stories, epics, prioritisation and roadmap support.",
+        "Technical fluency: web/mobile product concepts, SaaS platforms, APIs and productive collaboration with engineering.",
+        "Analytics: KPIs, funnels, hypotheses, A/B testing, SQL or comparable queries, and spreadsheet analysis.",
+        "Communication: concise documentation, stakeholder alignment and presenting evidence-based recommendations."
+      ],
+      "source_urls": [
+        "https://jobs.lever.co/paytm/255aa024-39ae-4f74-a62b-b062ec12db97",
+        "https://jobs.lever.co/paytm/f70a8c33-a50e-4d63-95ee-71f746aebd15",
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and domains",
+      "paragraphs": [
+        "APMs work at the intersection of business, customer experience and technology. The work can be embedded in consumer products, B2B digital products, financial services, travel, telecom or other product areas; responsibilities and regulatory exposure change substantially with the domain. For example, a lending-product APM posting includes product journeys from onboarding through repayment and asks the role holder to stay current with RBI regulations and compliance norms relevant to that product area.",
+        "Current vacancy examples show full-time, on-site APM roles in Noida, Gurugram and Bengaluru. This is a snapshot of one employer’s listings as reviewed in July 2026, not a rule that all Indian APM work is on-site or limited to these cities."
+      ],
+      "bullets": [
+        "Expect routine collaboration with design, engineering, business, growth, analytics and domain stakeholders.",
+        "In regulated domains such as lending, learn the applicable compliance context in addition to product practice.",
+        "Expect the balance of discovery, delivery and analysis to vary by product maturity, company size and domain."
+      ],
+      "source_urls": [
+        "https://jobs.lever.co/paytm/255aa024-39ae-4f74-a62b-b062ec12db97",
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43",
+        "https://jobs.lever.co/paytm/"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression",
+      "paragraphs": [
+        "Progression is employer-specific, but broader product ownership is a common direction: moving from support for defined features and flows toward independently managing a product area, roadmap decisions and larger cross-functional outcomes. A current APM posting explicitly describes an opportunity to grow into broader product responsibilities.",
+        "Title structures are not standardised. As a July 2026 snapshot, Paytm’s product careers listings include Associate Product Manager, Product Manager, Senior Product Manager, Manager and Director-level product titles. This should be read as an example of a possible title landscape, not as a guaranteed promotion sequence or timetable."
+      ],
+      "bullets": [
+        "Early stage: own well-scoped features, analysis and delivery coordination.",
+        "Developing stage: take responsibility for a larger journey, product area or business metric.",
+        "Later progression: title and scope may expand into Product Manager, Senior Product Manager or leadership roles, subject to employer structure and demonstrated outcomes."
+      ],
+      "source_urls": [
+        "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43",
+        "https://jobs.lever.co/paytm/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Paytm careers — current product and APM vacancies",
+      "url": "https://jobs.lever.co/paytm/",
+      "kind": "employer_careers"
+    },
+    {
+      "label": "Paytm APM — Lending role description",
+      "url": "https://jobs.lever.co/paytm/255aa024-39ae-4f74-a62b-b062ec12db97",
+      "kind": "employer_job_description"
+    },
+    {
+      "label": "Paytm APM — Travel role description",
+      "url": "https://jobs.lever.co/paytm/3e7b09f3-70d3-4fa5-8d13-b72be239fe43",
+      "kind": "employer_job_description"
+    },
+    {
+      "label": "NASSCOM Product Management 101",
+      "url": "https://nasscom.in/deeptech/skills/img/PM101.pdf",
+      "kind": "professional_body_resource"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

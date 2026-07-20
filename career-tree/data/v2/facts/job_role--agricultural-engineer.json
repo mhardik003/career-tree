@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core remit",
+      "value": "Agricultural engineers apply engineering to farm mechanisation, irrigation and drainage, post-harvest operations, energy use, and value addition in agricultural production systems.",
+      "source_urls": [
+        "https://www.icar.gov.in/index.php/en/agricultural-engineering/agricultural-engineering",
+        "https://icar.gov.in/en/overview-4"
+      ]
+    },
+    {
+      "label": "Typical technical domains",
+      "value": "The ICAR agricultural-engineering education framework includes soil and water engineering, farm machinery and power, processing and food engineering, and applied sciences and engineering; older minimum standards also separately identify irrigation and drainage and renewable-energy engineering.",
+      "source_urls": [
+        "https://icar.org.in/sites/default/files/inline-files/MSHAE_Agri_Engineering.pdf",
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf"
+      ]
+    },
+    {
+      "label": "Primary entry qualification",
+      "value": "The usual immediate route is a B.Tech in Agricultural Engineering (or a closely named agricultural/biosystems engineering programme), following Class 12 eligibility and the admissions rules of the chosen institution.",
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+        "https://icar.org.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf"
+      ]
+    },
+    {
+      "label": "ICAR all-India-quota admission context",
+      "value": "For the 2026–27 ICAR All India Quota cycle, B.Tech Agricultural Engineering is included among the UG programmes routed through CUET (ICAR-UG). The bulletin requires Class 12 with at least three core subjects from Physics, Chemistry, Mathematics, Biology and Agriculture/Inter-Agriculture, while individual universities can impose additional programme-specific conditions.",
+      "source_urls": [
+        "https://icar.org.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+        "https://icar.org.in/sites/default/files/Circulars/Public%20Notice%20ICAR%20Counseling%202026.pdf"
+      ]
+    },
+    {
+      "label": "Public research and academic pathway",
+      "value": "At postgraduate level, agricultural engineering and technology spans soil and water conservation, irrigation and drainage, processing and food engineering, farm machinery and power, and renewable-energy engineering. ASRB conducts ARS recruitment examinations and NET, with NET serving as eligibility for Lecturer/Assistant Professor vacancies in agricultural universities.",
+      "source_urls": [
+        "https://www.icar.gov.in/sites/default/files/Circulars/Syllabus%20AIEEA%20%28PG%29.pdf",
+        "https://asrb.gov.in/citizenscharter"
+      ]
+    },
+    {
+      "label": "Nature of work",
+      "value": "The occupation combines design and testing work with laboratory, workshop and field activity. ICAR’s agricultural-engineering functions include designing, developing and testing region- and crop-specific equipment, alongside machinery testing, technology commercialisation, training and outreach.",
+      "source_urls": [
+        "https://icar.gov.in/en/key-functions-4",
+        "https://www.icar.gov.in/index.php/en/agricultural-engineering/salient-technologies"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Agricultural Engineer does",
+      "paragraphs": [
+        "In the Indian agricultural context, the role centres on engineering interventions across the production-to-post-production chain. Work can include designing, evaluating or adapting farm machinery; improving irrigation and drainage systems; supporting soil- and water-conservation measures; and developing processing, energy-management or value-addition solutions suited to particular crops and regions.",
+        "The work is not limited to designing equipment on paper. ICAR describes agricultural-engineering activity as technology development, validation and demonstration, including the design, development and testing of crop- and region-specific machinery and processing technologies. Its published technology portfolio illustrates work on planters, seed drills, weeders, spraying systems, irrigation automation, sensing and smart-farming systems, and harvesting and post-harvest machinery.",
+        "For resource-management assignments, an engineer may contribute to watershed planning, rainwater harvesting, erosion-control measures, hydrological assessment, drainage or irrigation design, and field implementation. These assignments require solutions that account for local soil, water availability, farm scale and cropping systems."
+      ],
+      "bullets": [
+        "Translate farm or processing needs into technically feasible equipment, systems or layouts.",
+        "Test performance, safety, usability and field suitability of machines and irrigation, sensing or processing systems.",
+        "Use engineering data and field observations to improve water, energy and input use.",
+        "Work with farmers, technicians, researchers, manufacturers and extension organisations during trials, demonstrations and adoption."
+      ],
+      "source_urls": [
+        "https://icar.gov.in/en/overview-4",
+        "https://icar.gov.in/en/key-functions-4",
+        "https://www.icar.gov.in/index.php/en/agricultural-engineering/salient-technologies",
+        "https://icar.gov.in/en/icar-iiswc-dehradun-inaugurates-four-week-skill-development-training-programme-soil-and-water"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route after school",
+      "paragraphs": [
+        "The direct educational route is a B.Tech in Agricultural Engineering. ICAR’s minimum-requirements document specifies this degree nomenclature and identifies Class 12/Intermediate with Physics, Chemistry and Mathematics from a recognised board or university as the baseline eligibility in that framework; actual requirements should always be checked against the target university’s current prospectus.",
+        "For the 2026–27 ICAR All India Quota admission route, B.Tech Agricultural Engineering is among the listed programmes available through CUET (ICAR-UG). The 2026 ICAR bulletin states that candidates must have passed Class 12 with at least three core subjects selected from Physics, Chemistry, Mathematics, Biology and Agriculture/Inter-Agriculture. It also makes clear that universities may have additional subject combinations, age limits or other conditions, so eligibility is institution-specific.",
+        "A prospective student should prefer a programme with practical exposure to farm machinery, soil and water engineering, irrigation/drainage, processing or food engineering, and engineering workshops and laboratories. These fields align with ICAR’s published minimum educational structure for agricultural engineering."
+      ],
+      "bullets": [
+        "Complete Class 12 with the subject combination required by the intended university.",
+        "Apply through the applicable university process; for ICAR All India Quota seats in 2026–27, follow CUET (ICAR-UG) and ICAR counselling instructions.",
+        "Verify programme-specific conditions directly with every university before applying; they can differ even within the ICAR counselling framework.",
+        "Build field, workshop, laboratory and design-project experience during the B.Tech rather than relying only on theory."
+      ],
+      "source_urls": [
+        "https://icar.gov.in/sites/default/files/inline-files/MinimumRequirements_Final.pdf",
+        "https://icar.org.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+        "https://icar.org.in/sites/default/files/Circulars/Public%20Notice%20ICAR%20Counseling%202026.pdf",
+        "https://icar.org.in/sites/default/files/inline-files/MSHAE_Agri_Engineering.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "The discipline requires a foundation in engineering mathematics and analysis alongside agricultural applications. ICAR’s postgraduate agricultural-engineering syllabus includes calculus, linear algebra, differential equations, vector calculus and numerical analysis, and then applies engineering concepts to soil and water, irrigation and drainage, machinery and power, food processing, and renewable energy.",
+        "Practical competence matters equally. The role benefits from the ability to interpret field constraints, plan and conduct tests, use instruments and workshop tools safely, analyse results, prepare technical documentation, and communicate with non-engineering users such as farmers and field staff.",
+        "Digital and data skills are increasingly relevant because ICAR identifies precision, sensing, smart farming and data-driven policy support as agricultural-engineering functions. Useful capabilities therefore include CAD/design tools, spreadsheets or programming for analysis, GIS or geospatial methods where relevant, and sensor/automation fundamentals."
+      ],
+      "bullets": [
+        "Engineering design, mechanics, hydraulics and machine/system evaluation.",
+        "Soil-water, irrigation, drainage and watershed-management fundamentals.",
+        "Farm machinery, power systems, processing and post-harvest technology.",
+        "Experimental design, data analysis, technical reporting and field troubleshooting.",
+        "Clear communication and participatory work with farmers, technicians, researchers and industry partners."
+      ],
+      "source_urls": [
+        "https://www.icar.gov.in/sites/default/files/Circulars/Syllabus%20AIEEA%20%28PG%29.pdf",
+        "https://icar.gov.in/en/key-functions-4",
+        "https://icar.gov.in/en/icar-iiswc-dehradun-inaugurates-four-week-skill-development-training-programme-soil-and-water",
+        "https://icar.gov.in/en/iot-enabled-soil-monitoring-system-established-icar-rcer-patna"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the work happens",
+      "paragraphs": [
+        "Agricultural engineers can work across research, agricultural universities, public-sector technology and resource-management programmes, machinery and agri-processing businesses, and advisory or implementation settings. Within ICAR’s system, agricultural engineering is organised around research, development and demonstration related to mechanisation, energy, irrigation and drainage, and post-harvest/value-addition technologies.",
+        "Workplaces are commonly mixed environments: offices for design, documentation and analysis; workshops and laboratories for fabrication or testing; and farms, watersheds, demonstration sites and processing facilities for field validation and deployment. ICAR’s soil- and water-conservation training model, for example, uses lectures, laboratory demonstrations, field visits and hands-on practical work.",
+        "Geographic and travel demands depend on the specialisation. Irrigation, watershed and conservation work may require substantial field engagement, while machinery, processing and smart-farming roles may divide time among test facilities, manufacturing or research sites, and farms."
+      ],
+      "bullets": [
+        "ICAR institutes, coordinated research projects and field stations.",
+        "State agricultural universities and agricultural-engineering colleges.",
+        "Government resource-management, irrigation, watershed or agricultural-engineering programmes.",
+        "Farm-machinery, irrigation, sensor/automation, renewable-energy and agri-processing organisations.",
+        "Entrepreneurial or consulting work involving equipment, services, testing or farm-system implementation."
+      ],
+      "source_urls": [
+        "https://www.icar.gov.in/index.php/en/agricultural-engineering/agricultural-engineering",
+        "https://icar.gov.in/en/key-functions-4",
+        "https://icar.gov.in/en/icar-iiswc-dehradun-inaugurates-four-week-skill-development-training-programme-soil-and-water",
+        "https://icar.gov.in/en/natural-resource-management-division-1"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and specialisation",
+      "paragraphs": [
+        "After the B.Tech, engineers can deepen expertise through postgraduate study in specialisations such as soil and water conservation engineering, irrigation and drainage engineering, farm machinery and power engineering, processing and food engineering, or renewable-energy engineering. These are the sub-subject areas identified by ICAR for Agricultural Engineering and Technology at the postgraduate level.",
+        "Research and teaching are structured pathways for candidates who obtain the relevant advanced qualifications and meet recruitment requirements. ASRB states that it conducts competitive examinations for Agricultural Research Service recruitment and that its NET is a qualifying examination for Lecturer/Assistant Professor eligibility in State Agricultural Universities and other agricultural universities; applicants must meet the qualifications in the relevant notification.",
+        "In professional practice, progression can also come through increasing responsibility for product development, testing and certification, project implementation, technical sales/application support, operations, or technology commercialisation. ICAR identifies technology development and validation, testing and certification, commercialisation, capacity building and entrepreneurship as formal functions within its agricultural-engineering ecosystem."
+      ],
+      "bullets": [
+        "B.Tech graduate or trainee engineer: build broad design, field and testing capability.",
+        "Specialist engineer: focus on machinery and power, water systems, conservation, processing, energy or precision agriculture.",
+        "Postgraduate/research route: pursue M.Tech and, where required, doctoral work for research-intensive and academic roles.",
+        "Research/teaching recruitment route: monitor current ASRB and university notifications, whose qualifications and vacancies vary by discipline and employer.",
+        "Leadership or enterprise route: manage R&D, testing, implementation, product lines, technical services or an agri-engineering venture."
+      ],
+      "source_urls": [
+        "https://www.icar.gov.in/sites/default/files/Circulars/Syllabus%20AIEEA%20%28PG%29.pdf",
+        "https://asrb.gov.in/citizenscharter",
+        "https://asrb.gov.in/arsexamination",
+        "https://icar.gov.in/en/key-functions-4"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "ICAR Agricultural Engineering Division overview",
+      "url": "https://icar.gov.in/en/overview-4",
+      "kind": "official information"
+    },
+    {
+      "label": "ICAR 2026 CUET (ICAR-UG) information bulletin",
+      "url": "https://icar.org.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+      "kind": "official admissions bulletin"
+    },
+    {
+      "label": "ICAR minimum standards for Agricultural Engineering",
+      "url": "https://icar.org.in/sites/default/files/inline-files/MSHAE_Agri_Engineering.pdf",
+      "kind": "official education standards"
+    },
+    {
+      "label": "ASRB examinations and notices",
+      "url": "https://asrb.gov.in/arsexamination",
+      "kind": "official recruitment information"
+    },
+    {
+      "label": "ICAR Agricultural Engineering technology portfolio",
+      "url": "https://www.icar.gov.in/index.php/en/agricultural-engineering/salient-technologies",
+      "kind": "official technical reference"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

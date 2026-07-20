@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "National occupational classification",
+      "value": "India’s National Career Service classifies Interior Designer under NCO 2015 code 3432.0100 (ISCO 2008: 3432).",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Core role",
+      "value": "The role covers planning, designing and furnishing interiors for residential, commercial and industrial buildings so that spaces are practical, aesthetic and suited to their intended use.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Typical minimum training indicated by NCS",
+      "value": "The National Career Service career page lists a Diploma in Interior Design as the minimum educational qualification; employers and projects may require additional qualifications, portfolios or experience.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Architect title distinction",
+      "value": "A B.Arch route can support interior-design work, but using the title “architect” in India is regulated: a person wishing to practise as an architect must be registered with the Council of Architecture.",
+      "source_urls": [
+        "https://coa.gov.in/contprintcont.php?lang=1&level=0&lid=4&linkid=3",
+        "https://coa.gov.in/index1.php?lang=1&level=2&lid=134&sublinkid=120"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Interior Designer does",
+      "paragraphs": [
+        "Interior Designers translate a client’s functional, aesthetic and budget requirements into interior-space proposals. National Career Service describes work that includes client consultations; space planning; layouts; colour coordination; selection or design of furnishings, finishes and accessories; material and cost estimation; presentation drawings; and coordination of fabrication, installation and related site work.",
+        "For architecture-led interior assignments, the Council of Architecture’s published scope also identifies interior space planning, fixed and loose furniture, interior civil work, illumination, acoustics, signage, material and equipment selection, engineering-services integration, working drawings/specifications, and periodic site inspection as relevant services. The precise scope depends on the appointment, project and professional credentials of the person or firm engaged."
+      ],
+      "bullets": [
+        "Develop concepts, layouts, drawings and visual presentations for interior spaces.",
+        "Select materials, furniture, lighting, finishes and related interior elements within the brief and budget.",
+        "Prepare or contribute to estimates, drawings, specifications and project documentation.",
+        "Coordinate with clients, vendors, contractors and other project stakeholders through execution and handover."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://coa.gov.in/staging/index1.php?lang=1&level=2&lid=82&sublinkid=295"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from the parent qualifications",
+      "paragraphs": [
+        "B.Arch is one parent route. The Council of Architecture describes B.Arch as a five-year undergraduate architecture degree and regulates the standards of recognised architectural education. This route provides a broad architectural foundation and may lead to interior-focused work; it does not by itself replace the registration requirement for anyone who uses or practises under the regulated title “architect.”",
+        "B.Sc. in Interior Design is the other parent route. Indian universities offer B.Sc. Interior Design curricula that cover areas such as design fundamentals, drawing, space planning, materials, interior construction, lighting, computer-aided design, estimation/costing, project management and professional practice. Programme duration, admission eligibility and curriculum are institution-specific, so applicants should verify the current prospectus and awarding university.",
+        "A diploma route is also relevant: NCS lists a Diploma in Interior Design as the minimum qualification for this occupation. In all routes, a portfolio of drawings, models, renderings, materials work and completed projects is a practical way to demonstrate capability to employers or clients."
+      ],
+      "bullets": [
+        "B.Arch: a five-year architecture route, particularly relevant where interior work is integrated with wider architectural practice.",
+        "B.Sc. in Interior Design: a specialised undergraduate route focused on interior-space design and execution skills.",
+        "Diploma in Interior Design: an NCS-listed minimum entry qualification; outcomes depend on the course quality, portfolio and work exposure.",
+        "Build supervised project, internship or site-coordination experience alongside formal study."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/index1.php?amp=&lang=1&level=0&lid=11&linkid=7",
+        "https://coa.gov.in/contprintcont.php?lang=1&level=0&lid=4&linkid=3",
+        "https://b-u.ac.in/node/1132",
+        "https://jdbikolkata.ac.in/courses/science/interior-designing",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The role combines design judgement with technical communication and delivery discipline. NCS identifies technical drawing, client management, innovative and sustainable design concepts, 2D/3D presentations, material and colour selection, and coordination with project-management consultants, vendors and contractors as key competencies.",
+        "University interior-design curricula reinforce the need for spatial planning, construction and building services awareness, furniture and lighting knowledge, ergonomics, costing, project management, codes/standards and computer-aided design. These should be developed as applied skills, not only as software familiarity."
+      ],
+      "bullets": [
+        "Spatial planning, design fundamentals, visualisation and technical drawing.",
+        "2D/3D design communication and CAD or rendering workflows.",
+        "Materials, finishes, furniture, lighting, colour and ergonomics knowledge.",
+        "Cost awareness, documentation, scheduling and project coordination.",
+        "Client communication, presentation, vendor management and on-site problem solving.",
+        "Sustainable-design judgement and awareness of applicable project standards."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://jdbikolkata.ac.in/courses/science/interior-designing"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is done",
+      "paragraphs": [
+        "Interior design is typically a mix of studio or office work, client meetings and site activity. NCS explicitly characterises it as not solely a desk job, notes the need to handle a team and local travel, and lists interior-design companies, private firms and self-employment among probable employment settings.",
+        "The balance between desk-based design work and site supervision changes by employer and project stage. Concept development and documentation may be office-based, while measurement, coordination, quality checks and execution support require interaction with contractors, vendors and clients at project sites."
+      ],
+      "bullets": [
+        "Interior design studios and private firms.",
+        "Architecture, construction, fit-out or furniture-related teams.",
+        "Residential, commercial and industrial project sites.",
+        "Independent consulting or self-employment."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://coa.gov.in/staging/index1.php?lang=1&level=2&lid=82&sublinkid=295"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "NCS presents a progression that begins with trainee experience, develops into Interior Designer work and can lead to entrepreneurship. In practice, progression is often evidenced through an increasingly strong portfolio, responsibility for client communication and drawings, coordination of vendors and sites, and the ability to deliver projects within agreed quality, cost and time expectations.",
+        "For designers working within architecture practices, interior architecture can be a specialisation within broader architectural services. The Council of Architecture’s published professional documents expressly refer to architects specialising in interior architecture, alongside other specialisations."
+      ],
+      "bullets": [
+        "Trainee or junior designer: supports drawings, presentations, material research and site coordination.",
+        "Interior Designer: takes responsibility for defined spaces or projects and client-facing design deliverables.",
+        "Senior, project-lead or specialist roles: manages larger scopes, teams, consultants and execution interfaces.",
+        "Independent practice or entrepreneurship: develops a client base and manages design, delivery and business operations."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://coa.gov.in/staging/index1.php?lang=1&level=2&lid=85&sublinkid=298"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Compensation varies materially by city, portfolio, employer, project segment, employment versus self-employment, and site or client-management responsibility. NCS publishes indicative monthly earnings of ₹29,000–₹30,000 for up to six years’ experience, ₹43,000–₹45,000 for six to ten years, and ₹59,000–₹60,000 for over ten years; its page expressly says these figures are indicative and subject to change.",
+        "These portal figures should be treated as a dated reference point rather than a current salary guarantee, pay scale or fee recommendation. Independent practitioners may charge differently from salaried employees, and project fees should be agreed through a clear written scope, deliverables and commercial terms."
+      ],
+      "bullets": [
+        "Use published salary data only as indicative context, not as a guaranteed offer.",
+        "Compare roles by city, project type, portfolio expectations, site responsibilities and benefits as well as fixed pay.",
+        "For independent work, define scope, drawings, site visits, procurement support, revisions and reimbursable expenses before agreeing fees."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://coa.gov.in/staging/index1.php?lang=1&level=2&lid=85&sublinkid=298"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service — Interior Designer occupational profile",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=4459&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career profile"
+    },
+    {
+      "label": "Council of Architecture — architectural education and B.Arch standards",
+      "url": "https://coa.gov.in/index1.php?amp=&lang=1&level=0&lid=11&linkid=7",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "Council of Architecture — interior design scope of work",
+      "url": "https://coa.gov.in/staging/index1.php?lang=1&level=2&lid=82&sublinkid=295",
+      "kind": "professional practice guidance"
+    },
+    {
+      "label": "Bharathiar University — B.Sc. Interior Design syllabus listing",
+      "url": "https://b-u.ac.in/node/1132",
+      "kind": "university curriculum"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

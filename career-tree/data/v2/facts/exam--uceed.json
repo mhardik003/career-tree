@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "What it is",
+      "value": "UCEED (Undergraduate Common Entrance Examination for Design) is the entrance examination used for B.Des admission at the 2026 participating institutes; IIT Bombay is the organizing institute for UCEED 2026.",
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/UCEED2026_Information_Brochure.pdf",
+        "https://www.uceed.iitb.ac.in/2026/index.html"
+      ]
+    },
+    {
+      "label": "2026 participating B.Des institutes",
+      "value": "The joint UCEED 2026 B.Des process covers IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, IIT Indore, IIT Roorkee and IIITDM Jabalpur.",
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/bdes-application.html",
+        "https://www.uceed.iitb.ac.in/2026/institutes.html"
+      ]
+    },
+    {
+      "label": "Exam eligibility versus admission eligibility",
+      "value": "For UCEED 2026, students from Science, Commerce and Arts & Humanities could appear for the exam if they met the age, attempt and qualifying-exam rules. B.Des eligibility then differed by institute: PCM students could apply to all seven participating institutes, while candidates from other streams were limited to IIT Bombay, IIT Delhi, IIT Hyderabad and IIT Indore; IIITDM Jabalpur also accepted PCM/Biology for its stated requirement.",
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/eligibility-exam.html",
+        "https://www.uceed.iitb.ac.in/2026/eligibility-admission.html"
+      ]
+    },
+    {
+      "label": "2026 paper format",
+      "value": "UCEED 2026 was a single English-language, three-hour, 300-mark paper. Part A was a two-hour computer-based test with NAT, MSQ and MCQ sections (200 marks); Part B was one hour and had subjective sketching and design-aptitude questions (100 marks).",
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/question-paper.html"
+      ]
+    },
+    {
+      "label": "Score and admission",
+      "value": "A UCEED 2026 score was valid only for admissions in academic year 2026–27. Obtaining a rank did not guarantee admission: qualified candidates needed to submit the separate common B.Des application and participate in joint seat allocation.",
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/results.html",
+        "https://www.uceed.iitb.ac.in/2026/bdes-application.html"
+      ]
+    },
+    {
+      "label": "2026 cycle status",
+      "value": "The UCEED 2026 examination was held on January 18, 2026; results were declared on March 6, 2026. The official schedule states that score-card downloads remain available through July 31, 2026. These dates are specific to the 2026 cycle and should not be treated as future-cycle deadlines.",
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/important-dates.html",
+        "https://www.uceed.iitb.ac.in/2026/results.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What UCEED is for",
+      "paragraphs": [
+        "UCEED is the national undergraduate design entrance examination organized by IIT Bombay for the 2026 cycle. Its central role is admission to B.Des programmes at the seven participating institutes through a common application and joint seat-allocation process administered by the UCEED Office, IIT Bombay.",
+        "A UCEED rank is an examination outcome, not an automatic seat offer. Candidates who qualify must separately apply for B.Des admission, state their institute preferences, provide supporting documents and then take part in seat allocation. The official UCEED site also lists result-sharing institutes, but those institutions set their own programme, application and admission rules rather than joining the IIT Bombay joint allocation process."
+      ],
+      "bullets": [
+        "For the 2026–27 joint B.Des process, the participating institutes were IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, IIT Indore, IIT Roorkee and IIITDM Jabalpur.",
+        "Treat the score as valid for the corresponding admission year only; the 2026 score applied to academic year 2026–27."
+      ],
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/UCEED2026_Information_Brochure.pdf",
+        "https://www.uceed.iitb.ac.in/2026/bdes-application.html",
+        "https://www.uceed.iitb.ac.in/2026/institutes.html"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: examine the institute-specific rules, not only the exam rule",
+      "paragraphs": [
+        "In the 2026 cycle, an applicant had to satisfy all three exam conditions: the applicable date-of-birth limit, no more than two attempts in consecutive years, and the stated Class XII/equivalent timing requirement. Students from every school stream—Science, Commerce and Arts & Humanities—could appear for UCEED 2026 if they met those conditions.",
+        "That broad examination eligibility did not mean eligibility for every B.Des seat. For 2026 B.Des admission, a candidate needed a UCEED rank and passage of all five qualifying-examination subjects in 2025 or 2026. PCM at Class XII enabled applications to all seven participating institutes; candidates from other streams could apply to IIT Bombay, IIT Delhi, IIT Hyderabad and IIT Indore. IIT Guwahati and IIT Roorkee required PCM, while IIITDM Jabalpur listed Physics, Chemistry and Mathematics/Biology."
+      ],
+      "bullets": [
+        "The node’s PCM parent is especially relevant for access to IIT Guwahati, IIT Roorkee and, with the stated subject combination, IIITDM Jabalpur.",
+        "A three-year diploma could be acceptable for appearing in UCEED 2026, but the official brochure cautioned that participating-institute admission rules might not consider diploma holders; verify the admission rule for the target institute and year.",
+        "Age limits, qualifying-year windows and accepted credentials are cycle-specific; use the next official information brochure before applying."
+      ],
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/eligibility-exam.html",
+        "https://www.uceed.iitb.ac.in/2026/eligibility-admission.html",
+        "https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/UCEED2026_Information_Brochure.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and the abilities assessed",
+      "paragraphs": [
+        "The 2026 UCEED paper had two compulsory parts within a total of three hours. Part A was a two-hour computer-based component worth 200 marks: 14 numerical-answer questions, 15 multiple-select questions and 28 multiple-choice questions. Part B was a one-hour, 100-mark subjective component: one sketching question and one design-aptitude question, answered in the supplied booklet while the prompts were displayed on screen.",
+        "The published syllabus indicates that Part A assesses visualization and spatial reasoning, practical and scientific knowledge, observation and design sensitivity, environment and society, analytical and logical reasoning, English comprehension and creativity. Part B assesses drawing—such as proportion, perspective and shading—and the ability to respond to design problems with ingenuity and empathy."
+      ],
+      "bullets": [
+        "For 2026, Part A included negative marking for incorrect MSQs and MCQs; numerical-answer questions had no negative marking.",
+        "Part B is mandatory and subjectively evaluated, so preparation should cover both timed computer-based reasoning and hand-drawn visual communication."
+      ],
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/question-paper.html",
+        "https://www.uceed.iitb.ac.in/2026/syllabus.html"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Two-stage process: UCEED registration, then B.Des admission application",
+      "paragraphs": [
+        "The examination registration and B.Des admission application are separate activities. For the 2026 examination, registration was online through the UCEED portal; candidates were responsible for accurate category and qualifying-exam information and for uploading valid documents. The registration fee was non-refundable and non-transferable.",
+        "After qualifying in UCEED 2026, applicants for the seven participating B.Des programmes used a common application through the IIT Bombay Admissions Portal. They entered personal details and ordered institute preferences, then submitted the form after paying the processing fee and uploading the required documents, including the score card and Class XII/equivalent records. The 2026 B.Des application window ran from March 14 to April 10, 2026, and is now closed; do not infer future deadlines from it."
+      ],
+      "bullets": [
+        "Documents stated for the 2026 B.Des application included a photograph, signature, UCEED score card, qualifying-examination mark sheet, and—where applicable—category, PwD and OCI/PIO documentation.",
+        "For a future cycle, monitor the official UCEED site for its registration dates, current brochure, portal instructions and any revised schedule."
+      ],
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/registration.html",
+        "https://www.uceed.iitb.ac.in/2026/bdes-application.html",
+        "https://www.uceed.iitb.ac.in/2026/important-dates.html"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach grounded in the official syllabus",
+      "paragraphs": [
+        "Build preparation around the official topic list rather than assuming UCEED is solely a drawing test. Practice spatial transformations, observation of everyday products and settings, analytical reasoning, scientific principles in daily objects, design-aware reading of social and environmental contexts, English comprehension, and creative interpretation of symbols and analogies. Separately develop sketching fundamentals and concise, practical design responses for Part B.",
+        "Use official past papers and answer keys to learn the question styles and timing. IIT Bombay provides past UCEED papers and keys from 2015 through 2025, and the official FAQ says that it does not recommend particular textbooks; it directs candidates to the syllabus and previous papers."
+      ],
+      "bullets": [
+        "Simulate the 2026-style time split: two hours for Part A and one hour for Part B.",
+        "For Part B, practise proportion, composition, perspective, line quality and shading, then review whether your solution responds empathetically and practically to the given situation.",
+        "Use the official sample interface to become comfortable with the computer-test workflow; it is designed for a desktop browser."
+      ],
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/syllabus.html",
+        "https://www.uceed.iitb.ac.in/2026/downloads.html",
+        "https://www.uceed.iitb.ac.in/2026/faq.html",
+        "https://www.uceed.iitb.ac.in/2026/question-paper.html"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "What a UCEED result can lead to",
+      "paragraphs": [
+        "For the 2026 cycle, a qualified UCEED candidate could seek B.Des admission through the common process at the seven participating institutes, subject to institute-specific academic-stream eligibility, rank, stated preferences, document verification and the seat-allocation rules. The participating-institute route is specifically a B.Des route; UCEED itself does not convert a rank into a guaranteed offer.",
+        "UCEED may also be useful when applying to institutes identified by IIT Bombay as result-sharing institutes, but these are not part of the joint IIT Bombay B.Des allocation. Applicants should check the target institution’s own programme title, eligibility, fee, portfolio or interview requirements, application dates and decision process. This matters particularly for outcomes such as B.F.A., because the official UCEED joint process described here is for B.Des programmes, while other degree routes depend on the individual institution."
+      ],
+      "bullets": [
+        "In the 2026 process, eligible B.Des applicants could preference IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, IIT Indore, IIT Roorkee and IIITDM Jabalpur in the common application.",
+        "Fees are variable and institute-specific: the UCEED 2026 brochure states that 2026–27 programme fee structures would be published by the respective institutes closer to admission."
+      ],
+      "source_urls": [
+        "https://www.uceed.iitb.ac.in/2026/bdes-application.html",
+        "https://www.uceed.iitb.ac.in/2026/institutes.html",
+        "https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/UCEED2026_Information_Brochure.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official UCEED 2026 home and announcements",
+      "url": "https://www.uceed.iitb.ac.in/2026/index.html",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "UCEED 2026 information brochure",
+      "url": "https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/UCEED2026_Information_Brochure.pdf",
+      "kind": "official brochure"
+    },
+    {
+      "label": "Official eligibility for B.Des admission",
+      "url": "https://www.uceed.iitb.ac.in/2026/eligibility-admission.html",
+      "kind": "official eligibility"
+    },
+    {
+      "label": "Official question-paper structure",
+      "url": "https://www.uceed.iitb.ac.in/2026/question-paper.html",
+      "kind": "official exam format"
+    },
+    {
+      "label": "Official syllabus",
+      "url": "https://www.uceed.iitb.ac.in/2026/syllabus.html",
+      "kind": "official syllabus"
+    },
+    {
+      "label": "Official past papers and answer keys",
+      "url": "https://www.uceed.iitb.ac.in/2026/downloads.html",
+      "kind": "official preparation resource"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

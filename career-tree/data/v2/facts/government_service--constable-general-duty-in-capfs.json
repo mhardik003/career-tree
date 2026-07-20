@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Primary recruitment route",
+      "value": "The usual entry route is SSC’s Constable (GD) examination, which recruits for Constable (GD) posts in CAPFs; the SSC GD 2026 notice also included SSF and Rifleman (GD) in Assam Rifles.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"
+      ]
+    },
+    {
+      "label": "Education requirement",
+      "value": "For the SSC GD 2026 cycle, applicants had to have passed Matriculation/10th Class from a recognized board or university by January 1, 2026. Eligibility dates and conditions can change in later notices.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"
+      ]
+    },
+    {
+      "label": "Age context",
+      "value": "For SSC GD 2026, the prescribed age was 18–23 years as of January 1, 2026, with category-based upper-age relaxations set out in the notice. Candidates should use the age date in the cycle they apply for.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"
+      ]
+    },
+    {
+      "label": "Selection stages",
+      "value": "The SSC GD 2026 process comprised a computer-based examination, Physical Efficiency Test, Physical Standard Test, medical examination, and document verification.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"
+      ]
+    },
+    {
+      "label": "Force allocation",
+      "value": "In the SSC GD 2026 notice, candidates had to state preferences across BSF, CISF, CRPF, SSB, ITBP, Assam Rifles, and SSF; final allocation was based on merit, preferences, vacancies, and qualifying the physical and medical stages.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "The SSC GD 2026 notice specified Pay Level 3, ₹21,700–₹69,100, for the advertised posts. This is a pay-level range rather than a take-home-pay guarantee; allowances and deductions depend on applicable rules and posting circumstances.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Responsibilities and operational purpose",
+      "paragraphs": [
+        "Constable (GD) work varies substantially by force and posting. CRPF describes duties that include crowd and riot control, counter-insurgency and left-wing-extremism operations, election-security arrangements, protection of vital installations and VIPs, disaster rescue and relief, and support during wartime. A constable may contribute to such duties as part of a disciplined unit under the force’s command structure.",
+        "CISF illustrates a different deployment profile: its published duty charter includes access control, perimeter security, protection of designated critical installations, crime prevention and control, escort of important consignments, personnel security, and counter-terror quick-response duties. Therefore, candidates should not assume that all CAPF postings resemble either a conventional local-police beat or a single static-security role."
+      ],
+      "bullets": [
+        "Expect force-specific assignments, collective operational work, strict adherence to lawful orders, and readiness for relocation.",
+        "The actual nature of duty depends on the force allotted, unit, location, security environment, and operational requirement."
+      ],
+      "source_urls": [
+        "https://crpf.gov.in/About-Us/Role-of-CRPF",
+        "https://www.cisf.gov.in/"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry through SSC GD",
+      "paragraphs": [
+        "For this node, the principal entry route is the Staff Selection Commission’s Constable (GD) recruitment. In the SSC GD 2026 notice, applications were online and the recruitment sequence was CBE, PET/PST, medical examination, and document verification. The CAPFs conduct the physical, medical, and document-verification stages under the recruitment arrangement described in the notice.",
+        "The 2026 CBE was an objective paper of 80 questions and 160 marks, covering General Intelligence and Reasoning, General Knowledge and General Awareness, Elementary Mathematics, and English/Hindi. The notice stated that final selection and force allocation used normalized CBE merit, NCC bonus marks where applicable, force preference, and satisfaction of physical, medical, and other stated conditions.",
+        "Entry requirements are cycle-specific. For example, SSC GD 2026 required a recognized Matriculation/10th pass by January 1, 2026 and set the standard age band at 18–23 years on that date. Always read the current SSC notice rather than relying on an earlier cycle’s dates, vacancies, standards, or relaxations."
+      ],
+      "bullets": [
+        "Monitor SSC notices for the live application window, vacancy distribution, domicile provisions, physical standards, medical standards, and category relaxations.",
+        "Enter force preferences carefully: the 2026 notice stated that all listed force preferences were essential and that preferences could not be changed after application completion.",
+        "PET/PST readiness is essential. In the 2026 notice, the standard race benchmark outside Ladakh was 5 km in 24 minutes for male candidates and 1.6 km in 8½ minutes for female candidates; prescribed standards may change in future notices."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf",
+        "https://ssc.gov.in/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build for selection and service",
+      "paragraphs": [
+        "For SSC GD selection preparation, build foundational reasoning, general awareness, elementary mathematics, and basic English or Hindi comprehension, because these were the four CBE components in the SSC GD 2026 scheme. The same notice described questions as being at Matriculation level and applied negative marking for wrong answers.",
+        "Physical conditioning is equally important. The SSC GD 2026 PET required candidates to complete a timed race, while PST included measurement of height, weight, and chest where applicable. A sustainable running programme, mobility work, injury prevention, recovery habits, and familiarity with the current official standards are more useful than last-minute training.",
+        "For service, the official roles described by CRPF and CISF point to the value of discipline, situational awareness, teamwork, clear communication, alertness at security posts, ability to follow procedures, and composure during public-order, emergency, or high-security duties."
+      ],
+      "bullets": [
+        "Prepare from SSC’s official notice and mock-test resources, not solely from coaching material.",
+        "Train progressively for the notified PET benchmark and obtain appropriate medical advice before intense physical training.",
+        "Develop Hindi/English comprehension and numeracy alongside physical fitness; the written test remains decisive for merit under the cited scheme."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf",
+        "https://crpf.gov.in/About-Us/Role-of-CRPF",
+        "https://www.cisf.gov.in/"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and deployment reality",
+      "paragraphs": [
+        "This is an all-India public-security career rather than a job tied to one city. CRPF describes itself as having a nationwide presence and lists duties across public-order, election, internal-security, protection, and disaster-response contexts. CISF reports deployments at critical infrastructure and public-facing sites such as airports, ports, power facilities, government buildings, metro systems, and other strategic establishments.",
+        "Work settings can therefore range from field units and camps to transport hubs and guarded installations. Posting, schedules, accommodation arrangements, risk exposure, and the balance between static and mobile duty are determined by the allotted force and operational need, not by the SSC exam alone."
+      ],
+      "bullets": [
+        "Be prepared for transfers and service away from one’s home district or state.",
+        "Compare force missions before expressing SSC preferences; CISF’s infrastructure-security emphasis and CRPF’s broad internal-security/public-order role illustrate why the day-to-day environment can differ."
+      ],
+      "source_urls": [
+        "https://crpf.gov.in/About-Us/Role-of-CRPF",
+        "https://www.cisf.gov.in/"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression after appointment",
+      "paragraphs": [
+        "Promotion structures are force- and cadre-specific. CRPF’s published career-prospects page describes a General Duty progression from Constable to Head Constable, then Head Constable to Sub-Inspector, and Sub-Inspector to Inspector. For the CRPF Constable-to-Head-Constable route shown there, the published conditions include a minimum of eight years of service from enlistment, completion of prescribed Junior Cadre and Section Commander courses, a satisfactory service record, and no specified recent adverse reports or major punishments.",
+        "CRPF also publishes a Head Constable Promotional Course designed to prepare senior constables awaiting promotion to perform as effective section second-in-command operationally and administratively. This supports Head Constable as a meaningful next career node, but promotion is not automatic: vacancies, qualifying courses, service record, medical fitness, and force rules matter."
+      ],
+      "bullets": [
+        "Treat Head Constable as a common immediate progression target, not an assured time-bound outcome.",
+        "Maintain fitness, conduct, course readiness, and a strong service record throughout the constable stage.",
+        "For officer-level progression, assess both internal promotional rules and separate competitive routes such as UPSC CAPF (AC), which have distinct eligibility and selection requirements."
+      ],
+      "source_urls": [
+        "https://crpf.gov.in/Career-Prospects",
+        "https://crpf.gov.in/Coimbatore/Joining-Instructions-of-various-Courses"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "As dated recruitment context, SSC’s Constable (GD) 2026 notice listed Pay Level 3 at ₹21,700–₹69,100 for all posts covered by that notice. This figure should be read as the notified pay-level range, not as a universal monthly in-hand amount.",
+        "A candidate’s actual monthly pay can differ from the pay-level figure because government compensation is administered through applicable pay, allowance, posting, tax, pension/NPS, and other deduction rules. Applicants should use the appointment offer and the current force and central-government rules for a posting-specific estimate rather than treating an old SSC notification as a permanent salary quote."
+      ],
+      "bullets": [
+        "Use the current SSC notification to verify the pay level for the recruitment cycle.",
+        "Do not compare postings solely on the basic pay range: force allocation and place of posting can affect the applicable compensation context."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "SSC official portal",
+      "url": "https://ssc.gov.in/",
+      "kind": "official_exam_portal"
+    },
+    {
+      "label": "SSC GD 2026 examination notice (PDF)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf",
+      "kind": "official_exam_notice"
+    },
+    {
+      "label": "CRPF: Introduction and role",
+      "url": "https://crpf.gov.in/About-Us/Role-of-CRPF",
+      "kind": "official_employer_information"
+    },
+    {
+      "label": "CRPF: Career prospects",
+      "url": "https://crpf.gov.in/Career-Prospects",
+      "kind": "official_progression_information"
+    },
+    {
+      "label": "CISF official portal and duty charter",
+      "url": "https://www.cisf.gov.in/",
+      "kind": "official_employer_information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

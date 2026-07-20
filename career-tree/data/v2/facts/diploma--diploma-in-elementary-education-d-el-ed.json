@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Award and purpose",
+      "value": "D.El.Ed. is a professional teacher-education diploma intended to prepare teachers for the elementary stage, Classes I–VIII.",
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "The NCTE norm sets D.El.Ed. at two academic years; students may be allowed up to three years from admission to complete it.",
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf"
+      ]
+    },
+    {
+      "label": "Entry baseline",
+      "value": "The NCTE norm specifies at least 50% in Higher Secondary (+2) or an equivalent examination; reservation and relaxation are governed by the applicable Central or State Government rules.",
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf"
+      ]
+    },
+    {
+      "label": "Admissions vary by state",
+      "value": "The detailed admission route is set by the relevant State/UT: it may use qualifying-exam merit, an entrance examination, or another state-prescribed selection process.",
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf",
+        "https://www.hpbose.org/onlineservices/cet/deled/Pros_DELED_%20CET_2026.pdf"
+      ]
+    },
+    {
+      "label": "Teacher-eligibility route",
+      "value": "D.El.Ed. can be relevant for elementary-teacher pathways, but passing CTET does not itself create a right to appointment; eligibility is finally checked against applicable recruitment rules by the recruiting authority.",
+      "source_urls": [
+        "https://ctet.nic.in/eligibility-criteria/",
+        "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "Under the NCTE’s D.El.Ed. norms, the baseline academic qualification is Higher Secondary (+2) or equivalent with at least 50% marks. Reservations and mark relaxations are not uniform nationwide: they follow the rules of the applicable Central or State Government. For example, the Himachal Pradesh Board’s 2026–27 D.El.Ed. CET prospectus uses the 50% +2/equivalent threshold and permits candidates awaiting their qualifying result to apply provisionally, subject to document verification at counselling. Applicants should therefore treat the current prospectus of their target state as controlling for age, domicile, language, category, and document requirements.",
+        "source_urls(["
+      ],
+      "bullets": [
+        "Usually required: a recognized Class 12 / Higher Secondary qualification meeting the applicable mark threshold.",
+        "Check the current state prospectus for category relaxation, age limits, domicile rules, subject or language requirements, and whether appearing Class 12 candidates may apply provisionally.",
+        "Before applying, verify that the chosen provider and the D.El.Ed. programme appear in NCTE’s recognised-institution records and have the required state affiliation."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf",
+        "https://www.hpbose.org/onlineservices/cet/deled/Pros_DELED_%20CET_2026.pdf",
+        "https://ncte.gov.in/Website/RecognizedInstitution.aspx"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study format",
+      "paragraphs": [
+        "D.El.Ed. is normally a two-academic-year professional programme. The NCTE norm permits completion within a maximum of three years from the date of admission. The programme is designed as teacher preparation rather than a general academic diploma, so prospective students should expect structured coursework and school-based practical learning; a published SCERT Delhi prospectus, for example, describes its D.El.Ed. as a full-time course combining theory, practical work, and a School Experience Programme.",
+        "source_urls(["
+      ],
+      "bullets": [
+        "Normal programme length: two academic years.",
+        "Maximum completion window under the NCTE norm: three years from admission.",
+        "Attendance, practicum, examination, and progression rules are set by the state/affiliating body and institution; confirm them in the current prospectus."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf",
+        "https://scert.delhi.gov.in/sites/default/files/SCERT/generic_multiple_files/prospectus_2021-23_d.el.ed._govt.diets_pvt_institut_1.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and practical preparation",
+      "paragraphs": [
+        "The course is aimed at preparing teachers for elementary schooling, Classes I–VIII. Detailed syllabi are administered by the relevant state SCERT, examining body, or affiliating authority rather than through one course outline that applicants can assume is identical everywhere. As an example of the practical and subject-pedagogy emphasis, SCERT Delhi’s published D.El.Ed. materials include language education, English-language education, mathematics education, environmental-studies education, art, work education, health and physical education, and supervised school experience. Candidates should obtain the current state syllabus before enrolling.",
+        "source_urls(["
+      ],
+      "bullets": [
+        "Core focus: child learning, elementary-stage pedagogy, classroom practice, and school experience.",
+        "Expect both theory and supervised/practical components; exact papers, teaching subjects, medium of instruction, and assessment rules vary by state.",
+        "Compare the current curriculum with the classes and subjects in which you intend to teach."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf",
+        "https://scert.delhi.gov.in/sites/default/files/SCERT/generic_multiple_files/prospectus_2021-23_d.el.ed._govt.diets_pvt_institut_1.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "There is no single national D.El.Ed. admission portal or universal selection method. NCTE permits admission on qualifying-examination merit, an entrance examination, or another selection process under the policy of the relevant State Government or UT Administration. A current 2026 example is Himachal Pradesh, whose Board prospectus provides for D.El.Ed. CET and later counselling/screening. Deadlines, examination fees, counselling schedules, seat matrices, and reservation procedures are cycle-specific and should be checked only through the official state admission authority.",
+        "source_urls(["
+      ],
+      "bullets": [
+        "Identify the state authority responsible for D.El.Ed. admissions, commonly a SCERT, school examination board, or designated examination body.",
+        "Read the current notification for application dates, entrance-test requirements if any, counselling, document verification, and institute-choice procedures.",
+        "Apply only to a provider whose recognition and affiliation can be verified through official records."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf",
+        "https://www.hpbose.org/onlineservices/cet/deled/Pros_DELED_%20CET_2026.pdf",
+        "https://ncte.gov.in/Website/RecognizedInstitution.aspx"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and cost checks",
+      "paragraphs": [
+        "There is no reliable all-India D.El.Ed. fee figure. Under the NCTE regulations, an institution is to charge fees prescribed by its affiliating body or State Government under the applicable fee-regulation framework, and it must not charge donations or capitation fees. Fees can therefore differ substantially by state, provider type, admission cycle, hostel use, and other services. Treat any quoted figure as dated until confirmed in the official prospectus and fee notice for the specific institute.",
+        "source_urls(["
+      ],
+      "bullets": [
+        "Confirm separately: application or entrance-test fee, tuition and institutional fees, examination fees, refundable deposits, hostel/transport charges, and any scholarship or fee-reimbursement eligibility.",
+        "Do not rely on an agent’s verbal fee quote; retain the official prospectus, fee schedule, and payment receipts.",
+        "Ask the affiliating body or state admission authority to clarify any fee that is absent from the published schedule."
+      ],
+      "source_urls": [
+        "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After D.El.Ed.: teacher-eligibility and career planning",
+      "paragraphs": [
+        "For candidates targeting elementary-school teaching, CTET is one possible next step where it is accepted or required. CTET Paper I is for intended teachers of Classes I–V and Paper II is for intended teachers of Classes VI–VIII; a candidate seeking both levels must take both papers. However, CTET is an eligibility test rather than an employment offer: CBSE states that qualifying it does not confer a right to recruitment, and final eligibility remains subject to the recruiting authority’s rules. State TET requirements and government/private-school hiring criteria must be checked in the relevant recruitment notice.",
+        "source_urls(["
+      ],
+      "bullets": [
+        "For central or CTET-accepting elementary-teacher opportunities, review the current CTET information bulletin and the applicable employer recruitment rules.",
+        "For state-government school roles, track the relevant State TET and teacher-recruitment notifications; requirements can differ by state and vacancy.",
+        "For private-school, tutoring, early-years, and educational-content roles, assess the employer’s stated qualifications, experience expectations, and any local regulatory requirements rather than assuming D.El.Ed. alone guarantees eligibility."
+      ],
+      "source_urls": [
+        "https://ctet.nic.in/eligibility-criteria/",
+        "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCTE Recognition Norms and Procedure Regulations, 2014",
+      "url": "https://ncte.gov.in/WebAdminFiles/RCDownloadMaterial/NormsE-2014.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "NCTE recognised teacher-education institutions",
+      "url": "https://ncte.gov.in/Website/RecognizedInstitution.aspx",
+      "kind": "institution_lookup"
+    },
+    {
+      "label": "CTET eligibility criteria",
+      "url": "https://ctet.nic.in/eligibility-criteria/",
+      "kind": "exam_guidance"
+    },
+    {
+      "label": "CTET September 2026 information bulletin",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+      "kind": "exam_bulletin"
+    },
+    {
+      "label": "Himachal Pradesh D.El.Ed. CET 2026 prospectus",
+      "url": "https://www.hpbose.org/onlineservices/cet/deled/Pros_DELED_%20CET_2026.pdf",
+      "kind": "state_admission_example"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

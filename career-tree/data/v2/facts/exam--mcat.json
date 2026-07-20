@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Administrator",
+      "value": "The Medical College Admission Test (MCAT) is administered by the Association of American Medical Colleges (AAMC).",
+      "source_urls": [
+        "https://students-residents.aamc.org/taking-mcat-exam/take-mcat-exam"
+      ]
+    },
+    {
+      "label": "Purpose",
+      "value": "It assesses natural- and social-science knowledge, critical thinking, and scientific problem-solving for entry to the study of medicine.",
+      "source_urls": [
+        "https://students-residents.aamc.org/taking-mcat-exam/take-mcat-exam"
+      ]
+    },
+    {
+      "label": "Eligibility",
+      "value": "An examinee may register when intending to apply to an eligible health-professions school; international examinees have no additional eligibility requirements, and current or degree-holding MBBS/equivalent students may register without special permission.",
+      "source_urls": [
+        "https://students-residents.aamc.org/mcat-faq/mcat-faqs"
+      ]
+    },
+    {
+      "label": "Score scale",
+      "value": "The four section scores are each scaled from 118 to 132; their sum is a total MCAT score from 472 to 528. There is no penalty for guessing.",
+      "source_urls": [
+        "https://students-residents.aamc.org/register-mcat-exam/publication-chapters/mcat-exam-scoring"
+      ]
+    },
+    {
+      "label": "2026 testing and India context",
+      "value": "The AAMC’s published 2026 international calendar lists test locations by country but does not list India. Applicants based in India should verify currently available international locations, dates, and seats in the MCAT Registration System before making travel plans.",
+      "source_urls": [
+        "https://students-residents.aamc.org/register-mcat-exam/us-territories-and-international-mcat-testing-calendar",
+        "https://students-residents.aamc.org/register-mcat-exam/register-mcat-exam"
+      ]
+    },
+    {
+      "label": "2026 fee context",
+      "value": "For 2026, the standard registration fee is US$355; testing outside the United States, Canada, and U.S. territories adds a non-refundable US$130 international fee. Fees and policies can change by testing year.",
+      "source_urls": [
+        "https://students-residents.aamc.org/register-mcat-exam/mcat-scheduling-fees"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What the MCAT is for",
+      "paragraphs": [
+        "The MCAT is an admissions examination used by health-professions schools that accept MCAT results. AAMC identifies eligible intended destinations as MD, DO, podiatric medicine, veterinary medicine, and other health-related programs that use the MCAT to meet an admissions-test requirement.",
+        "For an Indian applicant, the practical role of the MCAT is therefore determined by the admission policy of each overseas program—not merely by taking the examination. Before registering, confirm that each target university accepts the MCAT, its required score-reporting route, and its own academic, English-language, visa, and application requirements."
+      ],
+      "bullets": [
+        "The exam tests the use of science concepts to think critically and solve problems, rather than functioning as a standalone medical-school admission decision.",
+        "The AAMC advises applicants to choose a test date based on intended medical-school entry, readiness with tested content, and whether they may need time for a retake."
+      ],
+      "source_urls": [
+        "https://students-residents.aamc.org/mcat-faq/mcat-faqs",
+        "https://students-residents.aamc.org/apply-medical-school",
+        "https://students-residents.aamc.org/mcat-faq/mcat-faqs?topic=scores"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Who can take it",
+      "paragraphs": [
+        "Registration is tied to a genuine intention to apply to a health-professions school. During registration, the candidate must attest to that intention. There are no extra eligibility conditions solely because an examinee is international.",
+        "There are no mandatory courses required merely to register. However, AAMC says the tested material is generally covered in introductory biology, general and organic chemistry, physics, psychology, sociology, and first-semester biochemistry; research methods and statistics also appear in introductory science, psychology, and sociology coursework.",
+        "A currently enrolled medical student normally needs special permission to register, except for a student in an MBBS or equivalent program. AAMC sets testing limits of three attempts in one testing year, four over two consecutive testing years, and seven in a lifetime; voids and no-shows count toward the lifetime limit."
+      ],
+      "bullets": [
+        "Apply for testing accommodations early if a disability or medical condition requires an adjustment to standard testing conditions; AAMC requires an electronic application and supporting documentation.",
+        "Use the target medical school’s published eligibility rules as the final authority for admission, because MCAT eligibility does not itself establish eligibility for a degree program."
+      ],
+      "source_urls": [
+        "https://students-residents.aamc.org/mcat-faq/mcat-faqs",
+        "https://students-residents.aamc.org/mcat-exam-accommodations/application-guidelines-and-requirements"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam structure and scoring",
+      "paragraphs": [
+        "The MCAT has four multiple-choice sections: Chemical and Physical Foundations of Biological Systems; Critical Analysis and Reasoning Skills (CARS); Biological and Biochemical Foundations of Living Systems; and Psychological, Social, and Biological Foundations of Behavior. Its content framework covers scientific knowledge alongside reasoning, research, data-analysis, and critical-analysis skills.",
+        "AAMC reports one scaled score for each section and a combined total. Each section is scaled 118–132 and the total is 472–528. Scores are equated across test forms so that small form-difficulty differences are accounted for; wrong and unanswered answers are treated the same, so there is no guessing penalty."
+      ],
+      "bullets": [
+        "AAMC’s 2026 testing-year materials govern test-day procedures, identification, scheduling, conduct, and score policies; candidates should read them before registration and again before travel.",
+        "The official content outline is the best starting point for identifying the foundational concepts, content categories, and skills assessed."
+      ],
+      "source_urls": [
+        "https://students-residents.aamc.org/production/media/filer_public/3e/40/3e40d52e-db53-4b2d-a126-340a9a26fd2a/2020_whats_on_the_mcat_content_outline.pdf",
+        "https://students-residents.aamc.org/register-mcat-exam/publication-chapters/mcat-exam-scoring",
+        "https://students-residents.aamc.org/media/11711/download"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Registration, location, and fees",
+      "paragraphs": [
+        "Create or use an existing AAMC account, complete the registration questions, agree to the Examinee Agreement and associated policies, then select an available test date and location in the MCAT Registration System. Seats have limited capacity and are reserved first-come, first-served.",
+        "As dated 2026 context, the AAMC calendar covers January through September testing. The published international-location schedule does not include India, so an India-based candidate should use the live registration system to identify an available country, confirm the test-centre address, and allow for travel and visa planning.",
+        "The 2026 standard registration fee is US$355, plus a US$130 international fee for locations outside the United States, Canada, and U.S. territories. The final scheduling deadline is 10 days before test day, and all scheduling deadlines are at 11:59 p.m. local test-centre time. These costs, deadlines, locations, and availability are variable and should be rechecked when booking."
+      ],
+      "bullets": [
+        "Register using an MCAT-accepted ID and make sure the registration name exactly matches that ID.",
+        "After scheduling, retain the confirmation email and check the current address of the assigned test centre; AAMC notes that locations can occasionally change.",
+        "Applicants who qualify for the AAMC Fee Assistance Program may receive reduced MCAT fees and free AAMC Official Prep products; assess eligibility before registering because benefits are not retroactive."
+      ],
+      "source_urls": [
+        "https://students-residents.aamc.org/register-mcat-exam/register-mcat-exam",
+        "https://students-residents.aamc.org/register-mcat-exam/publication-chapters/scheduling-mcat-exam",
+        "https://students-residents.aamc.org/register-mcat-exam/mcat-scheduling-fees",
+        "https://students-residents.aamc.org/register-mcat-exam/us-territories-and-international-mcat-testing-calendar",
+        "https://students-residents.aamc.org/premed-navigator/mcat-registration-101"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Start by mapping preparation to the official MCAT content outline and the four sections, then select a test date only after the required content and reasoning skills are sufficiently developed. AAMC notes that students may self-study, take a commercial course, or use an institution-provided course; a commercial course is not required.",
+        "The AAMC MCAT Official Prep Hub provides free planning materials. As of the 2026 testing year, official free resources include a full-length Practice Exam 1, a free sample test, the content-outline course with 120 free practice questions, a study-plan resource, sample questions, and a tool for practicing exam features. AAMC also points candidates to the Khan Academy MCAT collection."
+      ],
+      "bullets": [
+        "Use official full-length practice material to rehearse the computer-based format and to identify section-specific weaknesses.",
+        "Build practice around content review, passage-based scientific reasoning, CARS reading and analysis, and review of mistakes—not only around memorisation.",
+        "Where available, seek advice from a pre-health adviser or faculty member on sequencing preparation with prerequisite coursework and target-school plans."
+      ],
+      "source_urls": [
+        "https://students-residents.aamc.org/mcat-faq/mcat-faqs?topic=test-preparation",
+        "https://students-residents.aamc.org/prepare-mcat-exam/free-planning-and-study-resources",
+        "https://students-residents.aamc.org/prepare-mcat-exam/aamc-mcat-official-prep-updates"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Using MCAT results in applications",
+      "paragraphs": [
+        "An MCAT score is one element of a medical-school application, and acceptance rules are set by individual schools. AAMC notes that schools commonly accept scores from tests taken two to three years earlier, but this varies by institution; applicants should verify each target school’s current deadline and score-validity policy.",
+        "For AMCAS-participating medical schools, AAMC sends MCAT scores to the schools designated in the AMCAS application. For a non-AMCAS institution or application service, an applicant can use the MCAT score-reporting system when scores are released, or provide a printed score report where the receiving school is not listed.",
+        "AAMC’s full-disclosure policy means MCAT tests taken from April 2003 onward are included in MCAT score reports and made available through AMCAS. Plan retakes carefully and confirm how each target institution reviews multiple scores."
+      ],
+      "bullets": [
+        "Do not use a total score alone to judge admission prospects; target programs set their own academic and non-academic selection criteria.",
+        "For US and Canadian MD programs, the AAMC MSAR service is a source for school-specific admissions information, including reported MCAT data and policies; always compare it with each school’s own current admissions page."
+      ],
+      "source_urls": [
+        "https://students-residents.aamc.org/mcat-faq/mcat-faqs?topic=scores",
+        "https://students-residents.aamc.org/applying-medical-school/faq/amcas-faq?topic=mcat-scores-and-amcas-application",
+        "https://students-residents.aamc.org/medical-school-admission-requirements/buying-and-using-medical-school-admission-requirements-faq?topic=using-the-msar-website"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AAMC: Take the MCAT Exam",
+      "url": "https://students-residents.aamc.org/taking-mcat-exam/take-mcat-exam",
+      "kind": "official exam overview"
+    },
+    {
+      "label": "AAMC: Register for the MCAT Exam",
+      "url": "https://students-residents.aamc.org/register-mcat-exam/register-mcat-exam",
+      "kind": "official registration guide"
+    },
+    {
+      "label": "AAMC: 2026 international testing calendar",
+      "url": "https://students-residents.aamc.org/register-mcat-exam/us-territories-and-international-mcat-testing-calendar",
+      "kind": "official calendar"
+    },
+    {
+      "label": "AAMC: MCAT scheduling fees",
+      "url": "https://students-residents.aamc.org/register-mcat-exam/mcat-scheduling-fees",
+      "kind": "official fee information"
+    },
+    {
+      "label": "AAMC: Free planning and study resources",
+      "url": "https://students-residents.aamc.org/prepare-mcat-exam/free-planning-and-study-resources",
+      "kind": "official preparation resources"
+    },
+    {
+      "label": "AAMC: MCAT Essentials for Testing Year 2026",
+      "url": "https://students-residents.aamc.org/media/11711/download",
+      "kind": "official policy guide"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

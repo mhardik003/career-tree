@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Indian professional classification",
+      "value": "MRI work sits within the National Commission for Allied and Healthcare Professions (NCAHP) category of “Radiology and Imaging Technologist,” which explicitly includes Magnetic Resonance Imaging (MRI) alongside diagnostic radiography, CT, mammography and sonography.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf"
+      ]
+    },
+    {
+      "label": "Common education route",
+      "value": "The Ministry of Health and Family Welfare (MoHFW) model curriculum identifies two entry pathways in Medical Radiology and Imaging Technology (MRIT): a 2.5-year diploma including six months of clinical training, and a four-year bachelor’s programme including one year of clinical training/internship.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf"
+      ]
+    },
+    {
+      "label": "Bachelor’s entry background",
+      "value": "For its model B.Sc. MRIT route, MoHFW specifies 10+2/equivalent with Physics, Chemistry and Biology, while noting that institutional selection and admission rules apply.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf"
+      ]
+    },
+    {
+      "label": "Scope and supervision",
+      "value": "Under the NCAHP Act’s listed description, medical imaging and therapeutic equipment professionals operate imaging equipment to produce images for diagnosis and treatment and work under the supervision of a radiologist or other medical professional.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf"
+      ]
+    },
+    {
+      "label": "MRI-specific preparation",
+      "value": "The MoHFW MRIT curriculum includes MRI instrumentation, pulse sequences, whole-body protocols, artefact management, MRI safety and MRI quality assurance.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an MRI Technologist does",
+      "paragraphs": [
+        "An MRI Technologist is a radiography/imaging professional focused on safely acquiring diagnostic MRI examinations. In the broader statutory classification, MRI is named as a radiology and imaging technologist specialism; the role operates imaging equipment to create body-structure images that support diagnosis and treatment, within a radiologist-led or other appropriate medical-professional supervision structure.",
+        "The MoHFW model curriculum describes graduate-level MRIT capability as independently undertaking MRI procedures, operating imaging equipment, processing and technically evaluating images, providing empathetic patient care, documenting orders, maintaining equipment, and identifying and managing emergencies. In practice, this means screening and preparing patients, selecting and executing approved scan protocols, monitoring the patient during the examination, checking image quality, and escalating clinical or safety concerns rather than independently interpreting the diagnostic findings."
+      ],
+      "bullets": [
+        "Perform MRI examinations and obtain technically adequate images using approved protocols.",
+        "Apply MRI safety screening, safe access control, equipment checks and quality-assurance processes.",
+        "Prepare, position and communicate with patients; maintain dignity, comfort and observation during the scan.",
+        "Document workflow and orders, manage images in digital systems, and coordinate with radiologists, nurses and other imaging-team members.",
+        "Recognise emergencies or unsafe conditions and follow local escalation procedures."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf",
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Education and entry routes in India",
+      "paragraphs": [
+        "The most directly relevant formal preparation is Medical Radiology and Imaging Technology, which may be titled B.Sc. MRIT, BMRIT, Medical Imaging Technology, Radiography, or a closely related institutional title. MoHFW’s model pathway distinguishes a diploma-level Junior MRIT route from a bachelor’s-level MRIT route; it recommends 2.5 years including clinical training for the diploma and four years including a one-year clinical internship for the bachelor’s programme.",
+        "For the model B.Sc. MRIT route, MoHFW lists 10+2/equivalent with Physics, Chemistry and Biology as the standard academic background, and also describes admission criteria and selection as institution-specific. Applicants should therefore verify the current prospectus of each university or teaching hospital—particularly its recognised qualification, clinical placement arrangements, entrance/merit process, age rules, fee and reservation policies—before applying.",
+        "MRI is normally a modality specialism built on radiography/imaging education and supervised clinical exposure, rather than a separate statutory profession in the NCAHP list. Candidates should seek programmes and placements that demonstrably cover MRI physics, protocols, safety, image quality and patient care."
+      ],
+      "bullets": [
+        "After Class 12 science: pursue a recognised bachelor’s programme in MRIT, medical imaging technology or radiography with substantial clinical training.",
+        "Alternative entry: a diploma in MRIT/radiography may lead to junior/assistant-level imaging work; progression requirements vary by employer and state.",
+        "Build MRI competence through supervised rotations or posts in an MRI service; do not assume that a general radiography qualification alone proves MRI readiness.",
+        "Check the awarding university/institution, hospital affiliation and the current employer requirements rather than relying only on a course title."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf",
+        "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Core skills for MRI practice",
+      "paragraphs": [
+        "MRI practice requires a combination of cross-sectional anatomy, MRI physics and scanner operation with careful patient-facing work. The MoHFW curriculum specifically covers magnets and coils, RF shielding, pulse sequences, flow phenomena, whole-body protocols, artefacts, MRI safety and MRI quality assurance; its graduate outcomes also include image-quality evaluation, emergency management, digital/computer skills and professional communication.",
+        "Safety is central because MRI uses a powerful magnetic environment. A capable technologist follows local MRI-zone/access controls and screening processes, identifies contraindication or implant concerns for escalation, and ensures that people and equipment entering the scanner area are appropriate for the environment. These operational safeguards complement—not replace—the facility’s radiologist, MRI safety and manufacturer protocols."
+      ],
+      "bullets": [
+        "MRI physics, sequence selection and scanner-console workflow.",
+        "Cross-sectional anatomy, positioning and protocol-based image acquisition.",
+        "MRI safety screening, access control, incident recognition and escalation.",
+        "Image-quality assessment, artefact recognition and quality assurance.",
+        "Calm, clear patient communication, including support for anxious, unwell or mobility-limited patients.",
+        "Clinical documentation, digital image-management/PACS workflow, teamwork and emergency response."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is performed",
+      "paragraphs": [
+        "MRI Technologists work in hospital radiology/imaging departments and dedicated diagnostic imaging centres. MoHFW’s diploma curriculum describes medical-imaging work across hospital departments, patient bedside settings, operating rooms, emergency settings and private imaging clinics/centres; MRI roles are primarily based in controlled MRI suites but coordinate with those wider clinical services.",
+        "The work is team-based. MRI services may include plain and contrast-enhanced MRI, MR angiography and MR spectroscopy, as illustrated by the radiodiagnosis service at VMMC & Safdarjung Hospital. Staffing and shift arrangements differ by institution; emergency and inpatient imaging can require scheduled, extended-hour or on-call coverage."
+      ],
+      "bullets": [
+        "Government and private hospitals with radiology departments.",
+        "Diagnostic imaging centres and multi-specialty clinics.",
+        "Teaching hospitals and academic imaging services.",
+        "Equipment-industry clinical applications, technical-support or training roles after relevant experience."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf",
+        "https://vmmc-sjh.mohfw.gov.in/radiodiagnosis-and-interventional-radiology"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression and specialisation",
+      "paragraphs": [
+        "MoHFW presents a proposed—not universally implemented—MRIT progression map. It places diploma holders at Junior MRIT level and B.Sc. MRIT graduates at MRIT level, with later senior technologist and technical-officer levels linked to experience and, at higher levels, postgraduate qualifications. The handbook explicitly cautions that implementation may vary with the existing system and regulations, so employer grade structures should be checked case by case.",
+        "Progression can remain clinical—developing deeper MRI, CT, interventional, quality or safety expertise—or move toward education, research, departmental management, PACS/informatics, equipment applications or industry roles. The model curriculum lists applications specialist, radiological safety officer, quality-control technologist, PACS manager, diagnostic manager, teaching/research and industry posts as possible directions. The same handbook states that diagnostic interpretation and final clinical decision-making remain with the radiologist/physician."
+      ],
+      "bullets": [
+        "Junior MRIT/radiographer or imaging technologist to MRI-focused MRIT roles.",
+        "Senior MRI/MRIT technologist, technical officer or modality lead, subject to employer requirements and experience.",
+        "M.Sc. MRIT or related postgraduate study for advanced practice, academic and leadership pathways.",
+        "Applications specialist, PACS/informatics, quality, safety, education, research or imaging-industry roles."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "MoHFW Model Curriculum Handbook: Medical Radiology and Imaging Technology",
+      "url": "https://www.mohfw.gov.in/sites/default/files/865321458963256_0.pdf",
+      "kind": "official curriculum"
+    },
+    {
+      "label": "National Commission for Allied and Healthcare Professions Act, 2021",
+      "url": "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf",
+      "kind": "official legislation"
+    },
+    {
+      "label": "VMMC & Safdarjung Hospital — Radiodiagnosis and Interventional Radiology",
+      "url": "https://vmmc-sjh.mohfw.gov.in/radiodiagnosis-and-interventional-radiology",
+      "kind": "public employer and training context"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

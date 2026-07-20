@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What ITI training is",
+      "value": "Industrial Training Institutes (ITIs) deliver Craftsmen Training Scheme (CTS) vocational courses through government and private institutes; DGT sets national standards and certification arrangements, while States/UTs administer institutes and admissions.",
+      "source_urls": [
+        "https://dgt.gov.in/en/CTS"
+      ]
+    },
+    {
+      "label": "Entry requirement",
+      "value": "Eligibility is trade-specific. Many engineering trades, including Fitter, require Class 10 with Science and Mathematics (or an equivalent/vocational subject in the sector), while some CTS trades accept Class 8 or Class 10 without that subject combination.",
+      "source_urls": [
+        "https://dgt.gov.in/en/cts-details"
+      ]
+    },
+    {
+      "label": "Course length",
+      "value": "CTS trade durations currently include 6 months (600 hours), one year (1,200 hours), and two years (2,400 hours); the exact duration depends on the selected trade.",
+      "source_urls": [
+        "https://dgt.gov.in/en/cts-details",
+        "https://dgt.gov.in/sites/default/files/2024-01/DGT%20D.O%20Letter%20Harmonization%20of%20annual%20learning%20hours%2005_04_22_0.pdf"
+      ]
+    },
+    {
+      "label": "Certification",
+      "value": "After completing a CTS trade and passing the All India Trade Test (AITT), a trainee receives a National Trade Certificate (NTC). A National Apprenticeship Certificate (NAC) is a later, separate outcome after completing trade apprenticeship training and passing the apprenticeship AITT.",
+      "source_urls": [
+        "https://dgt.gov.in/en/examination/examination-information",
+        "https://www.dgt.gov.in/en/faqs-0"
+      ]
+    },
+    {
+      "label": "Trade choice",
+      "value": "DGT’s CTS catalogue lists 169 NSQF-compliant trades across engineering, non-engineering and Divyang categories. Examples include Electrician, Fitter, Welder and Computer Operator & Programming Assistant (COPA), but availability varies by institute and State/UT.",
+      "source_urls": [
+        "https://dgt.gov.in/en/CTS",
+        "https://dgt.gov.in/en/cts-details"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who can enter an ITI course?",
+      "paragraphs": [
+        "ITI is not a single course with one national entry rule: CTS eligibility is set trade by trade. For many technical trades, Class 10 with Science and Mathematics is required; for example, DGT lists this requirement for Fitter. Other trades have Class 8 or general Class 10 entry requirements. Applicants should therefore check the exact DGT trade entry requirement and their State/UT admission notice rather than relying only on the broad label “ITI after Class 10.”",
+        "Admission is administered by the relevant State Government or Union Territory administration. State/UT notices can additionally specify age, domicile, reservation, document-verification and counselling conditions."
+      ],
+      "bullets": [
+        "For a Class 10 student seeking an engineering trade, confirm whether Science and Mathematics are compulsory for that trade.",
+        "Choose an NCVT-affiliated CTS unit and verify that the institute is offering the trade in the intended admission session.",
+        "Treat trade-specific eligibility and the State/UT prospectus as controlling documents for admission."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/cts-details",
+        "https://dgt.gov.in/en/CTS"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "How long does ITI take?",
+      "paragraphs": [
+        "The familiar one- or two-year ITI route is the main pathway for many trades, but CTS also includes six-month courses. DGT’s current course catalogue identifies courses as 600-hour, 1,200-hour or 2,400-hour programmes, corresponding to six months, one year and two years respectively.",
+        "For restructured one-year CTS courses, DGT specifies 1,200 learning hours plus 150 hours of mandatory on-the-job training or group project work. Two-year courses are listed at 2,400 hours; practical structure can vary by trade and institute."
+      ],
+      "bullets": [
+        "Six months: 600 hours.",
+        "One year: 1,200 hours, plus mandatory OJT/group-project provision in the restructured curriculum.",
+        "Two years: 2,400 hours."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/cts-details",
+        "https://dgt.gov.in/sites/default/files/2024-01/DGT%20D.O%20Letter%20Harmonization%20of%20annual%20learning%20hours%2005_04_22_0.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students learn",
+      "paragraphs": [
+        "CTS training is trade-led and combines hands-on trade practical work with trade theory and employability skills. The detailed learning outcomes, tools, safety content and assessment components are published in DGT’s individual trade curricula; these should be reviewed before selecting a trade because an Electrician, Fitter, Welder and COPA programme lead to materially different work skills.",
+        "The CTS framework has been aligned to NSQF levels. DGT also provides for on-the-job training/project work within the restructured curriculum. Some affiliated ITIs may offer the Dual System of Training, in which industry exposure is integrated into the CTS course; this is not automatically available at every ITI or in every trade."
+      ],
+      "bullets": [
+        "Trade practical and trade theory are the core of the programme.",
+        "Employability skills form a common curriculum component.",
+        "Course content, NSQF level, duration and minimum qualification can be checked in DGT’s CTS course catalogue.",
+        "Dual System of Training can provide structured industry exposure where the ITI and an industry partner offer it."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/cts-details",
+        "https://dgt.gov.in/en/Dual_System",
+        "https://dgt.gov.in/sites/default/files/2024-01/Empl-SkillCTS.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How admission works",
+      "paragraphs": [
+        "There is no single all-India ITI admission process for all institutes. DGT states that national policy, training standards, examinations and certification are central responsibilities, while day-to-day ITI administration—including admissions—rests with the respective State/UT. Applicants should use the relevant State/UT vocational-training or skill-development admission portal and the institute’s official notice for the current session.",
+        "Before applying, verify the specific institute and unit, the selected trade’s entry qualification and duration, seat availability, whether the unit is affiliated, and the current State/UT counselling or merit procedure. Session dates, application fees, reservation rules and document requirements are variable and should not be assumed from another State."
+      ],
+      "bullets": [
+        "Start with the State/UT ITI admission authority, not an unofficial aggregator.",
+        "Cross-check the trade in DGT’s CTS catalogue.",
+        "Use NCVT MIS/DGT-linked resources to verify the course and institute information where available."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/CTS",
+        "https://dgt.gov.in/en/cts-details",
+        "https://dgt.gov.in/en"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "What comes after ITI?",
+      "paragraphs": [
+        "The immediate formal outcome of CTS is the National Trade Certificate, not the NAC: trainees who pass the CTS All India Trade Test receive an NTC. The NTC is recognized for recruitment to relevant posts and services in Central/State government and private establishments, but every employer or recruitment examination sets its own trade, age, physical, category and other eligibility conditions.",
+        "A common progression is trade apprenticeship. Under the National Apprenticeship Promotion Scheme information published by MSDE, apprenticeship for ITI pass-outs in designated trades ordinarily lasts one year. On completion of apprenticeship training, candidates may take the apprenticeship AITT; passing it leads to the National Apprenticeship Certificate (NAC).",
+        "An ITI/NTC can also support progression toward instructor training. DGT’s Craft Instructor Training Scheme (CITS) lists NTC or NAC as eligible qualifications for relevant CITS trades, alongside diploma/degree routes where applicable. CITS is therefore a trade-specific pathway toward becoming a vocational instructor, not an automatic next step for every ITI graduate.",
+        "Employment and self-employment are also intended CTS outcomes. For progression to Polytechnic Diploma, Armed Forces recruitment, RRB ALP, DRDO CEPTAM or other technical recruitment, candidates must check the live official notification: an ITI/NTC alone does not establish eligibility across all posts, and accepted trades and requirements vary by recruiting body and year."
+      ],
+      "bullets": [
+        "Pass CTS AITT → National Trade Certificate (NTC).",
+        "Undertake a registered trade apprenticeship → pass apprenticeship AITT → National Apprenticeship Certificate (NAC).",
+        "Apply for trade-relevant technician, production, maintenance, service or self-employment opportunities.",
+        "Consider CITS where the candidate holds the required trade-relevant NTC/NAC and meets that course’s conditions.",
+        "Check separate, current official notifications for diploma admission and government recruitment pathways."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/examination/examination-information",
+        "https://www.msde.gov.in/offerings/schemes-and-services/details/national-apprenticeship-promotion-scheme-naps-YjM4ATMtQWa",
+        "https://www.dgt.gov.in/en/faqs-0",
+        "https://www.dgt.gov.in/en/cits-courses",
+        "https://dgt.gov.in/sites/default/files/2025-12/Circular-for-Affiliation-Norms-for-ITIs-2025.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DGT Craftsmen Training Scheme overview",
+      "url": "https://dgt.gov.in/en/CTS",
+      "kind": "official programme overview"
+    },
+    {
+      "label": "DGT CTS trade catalogue, eligibility, duration and syllabus links",
+      "url": "https://dgt.gov.in/en/cts-details",
+      "kind": "official course catalogue"
+    },
+    {
+      "label": "DGT examination information and NTC details",
+      "url": "https://dgt.gov.in/en/examination/examination-information",
+      "kind": "official examination information"
+    },
+    {
+      "label": "DGT apprenticeship FAQ and NAC information",
+      "url": "https://www.dgt.gov.in/en/faqs-0",
+      "kind": "official apprenticeship information"
+    },
+    {
+      "label": "DGT CITS course and eligibility catalogue",
+      "url": "https://www.dgt.gov.in/en/cits-courses",
+      "kind": "official progression information"
+    },
+    {
+      "label": "NCVT MIS portal",
+      "url": "https://ncvtmis.gov.in/",
+      "kind": "official portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

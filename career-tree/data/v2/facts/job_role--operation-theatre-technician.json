@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Professional classification",
+      "value": "Operation Theatre (OT) Technologists are listed by the Ministry of Health and Family Welfare’s Allied and Healthcare Professionals Registry FAQ among the categories under the National Commission for Allied and Healthcare Professions Act, 2021.",
+      "source_urls": [
+        "https://ahpr.abdm.gov.in/faq",
+        "https://www.indiacode.nic.in/handle/123456789/16824?locale=en"
+      ]
+    },
+    {
+      "label": "Core occupational scope",
+      "value": "The Healthcare Sector Skill Council describes Operating Theatre Technicians as personnel who prepare and maintain operating theatres and equipment and assist surgical and anaesthetic teams during operations.",
+      "source_urls": [
+        "https://www.healthcare-ssc.in/archive-files-page-254",
+        "https://www.healthcare-ssc.in/pdf/QP/Operating%20Theatre%20Technician.pdf"
+      ]
+    },
+    {
+      "label": "Skill-qualification route",
+      "value": "The Healthcare Sector Skill Council’s Operating Theatre Technician qualification pack, HSS/Q2601, is mapped at proposed NSQF Level 4 and specifies 1,200 notional training hours, including 400 hours of OJT/clinical/lab training.",
+      "source_urls": [
+        "https://www.healthcare-ssc.in/archive-files-page-254"
+      ]
+    },
+    {
+      "label": "Typical public-sector eligibility context",
+      "value": "Eligibility is employer-specific. For example, 2025 Safdarjung Hospital recruitment rules specified Class 12 science plus an OT diploma or one-year OT certificate and relevant experience for its Operation Theatre Technician post; other central-government rules accept a diploma or bachelor’s degree in Operation Theatre Technology.",
+      "source_urls": [
+        "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Recruitment%20Rules%20for%20the%20post%20of%20Operation%20Theatre%20Technician.pdf",
+        "https://styandptg.py.gov.in/2025/June/SUPPLEMENTARY-I/1/Supplementary%20RR%20No.25%2C%20Dated%2024-06-2025.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Operation Theatre Technician does",
+      "paragraphs": [
+        "An Operation Theatre Technician is a surgical and anaesthesia-support professional working as part of a multidisciplinary peri-operative team. The role centres on preparing the operating room and table; setting up, checking and maintaining theatre and anaesthesia-related equipment; arranging instruments, supplies and equipment; supporting surgeons and anaesthetists; positioning patients as instructed; and cleaning and restocking the theatre after procedures.",
+        "The role is not limited to the time of incision. The statutory description of a Surgical and Anaesthesia-related Technology Professional includes support during the peri-operative period, recovery-room support, central sterile services functions, and assistance in emergencies and disaster preparedness. Duties must be performed within the employing hospital’s protocols, assigned scope, and clinical supervision arrangements."
+      ],
+      "bullets": [
+        "Prepare the operating theatre, instruments, consumables and equipment before a case.",
+        "Check, connect, adjust and help maintain surgical and anaesthesia equipment.",
+        "Provide technical assistance to the surgical and anaesthetic teams during procedures.",
+        "Maintain turnover readiness through cleaning, restocking, instrument handling and infection-control processes.",
+        "Support patient transfer, positioning and recovery-area workflows as assigned."
+      ],
+      "source_urls": [
+        "https://www.healthcare-ssc.in/archive-files-page-254",
+        "https://www.healthcare-ssc.in/pdf/QP/Operating%20Theatre%20Technician.pdf",
+        "https://www.advocatekhoj.com/library/bareacts/nationalcommissionforallied/71.php?STitle=See+Section+2%28R%29&Title=National+Commission+for+Allied+and+Healthcare+Professions+Act%2C+2021"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "A diploma-led route is available through the Healthcare Sector Skill Council qualification pack for Operating Theatre Technician (HSS/Q2601), which is shown at proposed NSQF Level 4 with classroom/skill-lab and clinical or on-the-job training components. Admission rules, recognition status and clinical-placement arrangements should be verified directly with the awarding institution and relevant state or university authority.",
+        "A degree-led route is commonly titled B.Sc. Operation Theatre Technology, B.Sc. Anaesthesia and Operation Theatre Technology, or a closely related name. Published university requirements commonly require 10+2 science study, especially Physics, Chemistry and Biology; programme duration and minimum marks vary by university. Some institutions also publish lateral-entry arrangements for candidates with an appropriate diploma.",
+        "Recruitment requirements are not uniform. A 2025 Union Territory recruitment-rule notification allowed either a Diploma in Operation Theatre Technology or a bachelor’s degree in the subject after higher secondary science, while Safdarjung Hospital’s 2025 rules used a different combination of science schooling, OT training/certification and experience. Candidates should therefore read the exact recruitment notification rather than assume that one credential qualifies for every employer."
+      ],
+      "bullets": [
+        "Diploma or skill-qualification route: evaluate institutional recognition, curriculum, clinical exposure and local eligibility before enrolling.",
+        "Bachelor’s route: B.Sc. OTT or Anaesthesia and OT Technology can broaden eligibility for degree-designated technologist posts.",
+        "Recruitment route: monitor individual hospital, state public-service, AIIMS, railway and other government notifications for post-specific criteria."
+      ],
+      "source_urls": [
+        "https://www.healthcare-ssc.in/archive-files-page-254",
+        "https://niu.edu.in/syllabus/SOAHS/B.Sc.%20%28Operation%20Theatre%20Technology%29.pdf",
+        "https://athenahealthsciences.edu.in/Allied-Operation-Theatre-Technology.php",
+        "https://styandptg.py.gov.in/2025/June/SUPPLEMENTARY-I/1/Supplementary%20RR%20No.25%2C%20Dated%2024-06-2025.pdf",
+        "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Recruitment%20Rules%20for%20the%20post%20of%20Operation%20Theatre%20Technician.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills and practice capabilities",
+      "paragraphs": [
+        "The occupational standards emphasise practical theatre-readiness skills: equipment setup and checks, instrument and supply arrangement, patient transport and positioning, technical support during surgery, and post-case cleaning and replenishment. The work also requires careful adherence to infection-prevention, sterile-processing and patient-safety procedures.",
+        "Because the technician works alongside multiple clinical professionals in time-sensitive settings, communication, team coordination, accurate following of instructions, documentation discipline and calm response to emergencies are important. Degree curriculum guidance for Anaesthesia and Operation Theatre Technology also identifies surgical instruments, sterilisation practices, anaesthetic equipment, emergency drugs and clinical practice as core learning areas."
+      ],
+      "bullets": [
+        "Aseptic practice, sterilisation awareness and safe handling of instruments and supplies.",
+        "Operating-room, surgical and anaesthesia equipment setup and basic checks.",
+        "Patient safety, positioning, transfer and peri-operative support.",
+        "Clear communication with surgeons, anaesthetists, nurses and sterile-services personnel.",
+        "Clinical judgement within scope, escalation of equipment or patient-safety concerns, and emergency preparedness."
+      ],
+      "source_urls": [
+        "https://www.healthcare-ssc.in/pdf/QP/Operating%20Theatre%20Technician.pdf",
+        "https://www.healthcare-ssc.in/archive-files-page-254"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is performed",
+      "paragraphs": [
+        "The principal workplace is the operating-theatre complex in hospitals and medical colleges, where the technician supports surgical and anaesthesia teams before, during and after procedures. The role can also connect with recovery-room workflows and central sterile supply department functions.",
+        "Depending on training, assignment and local protocols, anaesthesia and OT technology personnel may support related clinical locations beyond a main operating theatre, such as CT/MRI suites, cardiac catheterisation laboratories and pain-relief procedure areas. Actual deployment and permissible duties remain employer- and supervision-dependent."
+      ],
+      "bullets": [
+        "Hospital operating theatres and surgical suites.",
+        "Pre-operative and post-anaesthesia/recovery workflows.",
+        "Central sterile supply and instrument-processing functions.",
+        "Selected procedure and diagnostic areas requiring anaesthesia support, where assigned."
+      ],
+      "source_urls": [
+        "https://www.advocatekhoj.com/library/bareacts/nationalcommissionforallied/71.php?STitle=See+Section+2%28R%29&Title=National+Commission+for+Allied+and+Healthcare+Professions+Act%2C+2021"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and adjacent roles",
+      "paragraphs": [
+        "Progression can move from entry-level theatre-support work toward technologist, anaesthesia-support, sterile-services, supervisory, academic or industry-facing roles, depending on qualifications, experience and the employer’s cadre structure. The NCAHP curriculum document describes a proposed progression framework with diploma holders beginning at NSQF Level 4 and baccalaureate holders at Level 5; it expressly notes that implementation may vary with the prevailing system and regulations.",
+        "Practical next steps may include completing a B.Sc. in Operation Theatre Technology or a related degree, gaining experience in anaesthesia or CSSD workflows, and applying for employer-specific grades such as Technician (OT), Technologist (OT), senior technician or supervisory posts. For example, an AIIMS common recruitment advertisement used different OT post titles and qualifications, including degree-based requirements for certain Technologist (OT) posts."
+      ],
+      "bullets": [
+        "B.Sc. in Operation Theatre Technology or Anaesthesia and OT Technology.",
+        "Anaesthesia Technician or Anaesthesia-support specialisation.",
+        "Central Sterile Supply Department Technician roles.",
+        "Senior Operation Theatre Technician or Operation Theatre Supervisor roles, where employer cadres provide them.",
+        "Government and public-institution recruitment streams such as RRB/other hospital recruitment when notifications list relevant OT posts."
+      ],
+      "source_urls": [
+        "https://www.rmrcbbsr.gov.in/wp-content/uploads/2025/11/AIIMS-CRE_Advt.11.11.2025_PA-post-for-RMRC-BB.pdf"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Pay varies substantially by employer, state, contract type, seniority, qualification, location and allowances; no single national salary figure should be treated as authoritative for this role. Public-sector recruitment rules can provide a dated reference point but do not represent private-sector pay or take-home pay.",
+        "For example, Safdarjung Hospital’s 2025 recruitment rules placed its Operation Theatre Technician post at Central Pay Matrix Level 4, with the published range of Rs. 25,500–81,100. In contrast, a 2024 CRPF recruitment-rule document placed Assistant Sub-Inspector (Operation Theatre Technician) at Level 5, Rs. 29,200–92,300. These are post-specific basic-pay frameworks from the cited rules, not current universal salary offers; candidates should use the live vacancy notice and applicable allowance rules for a current estimate."
+      ],
+      "bullets": [
+        "Check whether a vacancy is permanent, contractual, outsourced or trainee-based.",
+        "Compare the exact post title, pay level, required experience and allowance eligibility.",
+        "Treat historical recruitment rules as context only; verify compensation in the active notification or employer offer."
+      ],
+      "source_urls": [
+        "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Recruitment%20Rules%20for%20the%20post%20of%20Operation%20Theatre%20Technician.pdf",
+        "https://crpf.gov.in/Upload/Document/1094102024-259.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Healthcare Sector Skill Council — Operating Theatre Technician qualification pack listing",
+      "url": "https://www.healthcare-ssc.in/archive-files-page-254",
+      "kind": "professional_body"
+    },
+    {
+      "label": "Healthcare Sector Skill Council — Operating Theatre Technician qualification pack PDF",
+      "url": "https://www.healthcare-ssc.in/pdf/QP/Operating%20Theatre%20Technician.pdf",
+      "kind": "professional_body"
+    },
+    {
+      "label": "Ministry of Health and Family Welfare — Allied and Healthcare Professionals Registry FAQ",
+      "url": "https://ahpr.abdm.gov.in/faq",
+      "kind": "government"
+    },
+    {
+      "label": "India Code — National Commission for Allied and Healthcare Professions Act, 2021",
+      "url": "https://www.indiacode.nic.in/handle/123456789/16824?locale=en",
+      "kind": "government"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Award and field",
+      "value": "B.Tech in Civil Engineering is an undergraduate Engineering and Technology programme focused on the civil-engineering body of knowledge; AICTE publishes a dedicated undergraduate Civil Engineering model curriculum.",
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/AICTE%20Model%20Curriculum%20_UG_Civil_2024.pdf"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "The AICTE Approval Process Handbook lists Engineering and Technology at four years for entry after Class 12.",
+      "source_urls": [
+        "https://www.aicte.gov.in/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "Lateral-entry duration",
+      "value": "AICTE lists lateral entry to the second year of Engineering and Technology as a three-year route. IKGPTU’s 2026 admissions listings specifically show B.Tech (Civil Engineering)–Lateral Entry/LEET as three years.",
+      "source_urls": [
+        "https://www.aicte.gov.in/sites/default/files/APH%20Final.pdf",
+        "https://admissions.ptu.ac.in/Courses-Offered-University-Campuses.aspx"
+      ]
+    },
+    {
+      "label": "Typical lateral-entry baseline",
+      "value": "Under AICTE’s 2024–27 handbook, lateral entry to second-year Engineering and Technology is open to eligible diploma, B.Sc. with Class-12 Mathematics, or specified B.Voc./D.Voc. applicants; the handbook sets a 45% qualifying-mark baseline, or 40% for reserved-category candidates, subject to applicable admission rules.",
+      "source_urls": [
+        "https://www.aicte.gov.in/sites/default/files/APH%20Final.pdf"
+      ]
+    },
+    {
+      "label": "National entrance context",
+      "value": "JEE (Main) Paper 1 is the national B.E./B.Tech entrance examination administered by the National Testing Agency; the applicable institute, state counselling authority, or university determines how scores are used for admission.",
+      "source_urls": [
+        "https://jeemain.nta.nic.in/",
+        "https://jeemain.nta.nic.in/information-bulletin/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility routes",
+      "paragraphs": [
+        "For regular first-year entry, AICTE’s Engineering and Technology eligibility framework uses Class 12/equivalent with Physics and Mathematics as compulsory subjects, together with one listed subject such as Chemistry, Biotechnology, Biology, Computer Science, Informatics Practices, Agriculture, Engineering Graphics, or Business Studies; it specifies at least 45% marks in the qualifying examination, or 40% for reserved-category candidates. Institutions and state admission authorities can apply additional conditions within their applicable rules.",
+        "For second-year lateral entry, the AICTE handbook provides routes for a minimum three-year/two-year lateral-entry engineering or technology diploma with at least 45% marks (40% for reserved categories), a recognized B.Sc. with at least 45% plus Class-12 Mathematics, or a B.Voc./three-year D.Voc. in the same or allied sector. The handbook says universities should provide suitable bridge courses—including Mathematics, Physics, and Engineering Drawing—for entrants from diverse backgrounds.",
+        "“LEET” is a commonly used label in some state and university admission systems rather than one India-wide examination. For example, IKGPTU’s 2026–27 material separately notifies admission to B.Tech second year (lateral entry), and its course catalogue uses “B.Tech. LEET” for Civil Engineering lateral entry. Applicants should therefore check the current prospectus of the relevant state counselling authority or university for branch mapping, merit/exam method, domicile, reservation, and document rules."
+      ],
+      "bullets": [
+        "Regular route: Class 12/equivalent meeting the institution’s and applicable authority’s subject, marks, and entrance requirements.",
+        "Lateral route: eligible diploma, B.Sc.-with-Mathematics, or specified vocational qualification; admission is directly to second year where the relevant authority offers the route.",
+        "Always verify the current college approval, programme availability, and admission notification before applying."
+      ],
+      "source_urls": [
+        "https://www.aicte.gov.in/sites/default/files/APH%20Final.pdf",
+        "https://ptu.ac.in/admission-2026-27/important-notifications/",
+        "https://admissions.ptu.ac.in/Courses-Offered-University-Campuses.aspx"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Programme length and study pattern",
+      "paragraphs": [
+        "The standard B.Tech/BE Engineering and Technology route is four years after Class 12. AICTE describes lateral entry to the second year as a three-year route; this aligns with IKGPTU’s published 2026 listing for B.Tech Civil Engineering–Lateral Entry. Actual semester calendars, examinations, bridge courses, and credit-transfer arrangements are set by the affiliating university and institution."
+      ],
+      "bullets": [
+        "Regular entry: typically 4 years / 8 semesters.",
+        "Eligible lateral entry to second year: typically 3 years / 6 semesters.",
+        "Confirm the specific university’s academic regulations, since its curriculum and sequencing govern the award."
+      ],
+      "source_urls": [
+        "https://www.aicte.gov.in/sites/default/files/APH%20Final.pdf",
+        "https://admissions.ptu.ac.in/Courses-Offered-University-Campuses.aspx"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "AICTE’s 2024 undergraduate Civil Engineering model curriculum provides a useful national reference, but it is a model rather than a guarantee that every university will use the identical syllabus. It covers core civil-engineering areas such as geotechnical engineering, structural design, transportation engineering, construction management and safety, water-resource management, environmental topics, quantity surveying and estimation, and laboratories/projects.",
+        "The model curriculum also reflects contemporary practice through subjects and activities such as digital construction, Building Information Modeling (BIM), sustainable and green construction, environmental-impact assessment, and applications of AI, machine learning, and IoT in civil engineering. Students should compare a college’s current semester-wise syllabus, laboratory facilities, fieldwork, and project requirements with this reference before enrolling."
+      ],
+      "bullets": [
+        "Structures and construction: structural design, concrete/steel, formwork, construction methods, and management.",
+        "Ground, water, and environment: geotechnical engineering, water resources, pollution control, and environmental assessment.",
+        "Infrastructure delivery: surveying, transportation, estimation, digital construction, BIM, safety, and sustainability."
+      ],
+      "source_urls": [
+        "https://aicte-qa.aicte-india.org/sites/default/files/AICTE%20Model%20Curriculum%20_UG_Civil_2024.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How admission works",
+      "paragraphs": [
+        "Admission is decentralised: a candidate may apply through national, state, university, or institutional processes depending on the college. JEE (Main) is NTA’s national examination for B.E./B.Tech Paper 1, but a JEE score alone does not establish admission to every Civil Engineering programme; candidates must follow the relevant counselling and institutional rules.",
+        "For lateral entry, look specifically for a current “B.Tech second year (lateral entry)” or LEET notification. As a current example of how processes are published, IKGPTU’s 2026–27 admissions page lists a Punjab-government notification for B.Tech second-year lateral entry dated May 5, 2026, alongside centralised online counselling and eligibility links. Dates, seats, fees, and required documents are cycle-specific and can change."
+      ],
+      "bullets": [
+        "Identify the approving/admitting authority for the target college and state.",
+        "Use the current admission bulletin to confirm entrance route, counselling registration, document verification, and category rules.",
+        "For lateral entry, confirm that Civil Engineering is offered in the relevant year and that the applicant’s diploma or other qualification is accepted for that branch."
+      ],
+      "source_urls": [
+        "https://jeemain.nta.nic.in/information-bulletin/",
+        "https://ptu.ac.in/admission-2026-27/important-notifications/",
+        "https://admissions.ptu.ac.in/Courses-Offered-University-Campuses.aspx"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Options after or during the degree",
+      "paragraphs": [
+        "Graduates can pursue postgraduate engineering study, subject to each admitting institute’s programme-specific rules. GATE 2026 states that B.E./B.Tech candidates in the third year or higher, or graduates, are eligible to appear; its eligibility table explicitly includes a three-year B.Tech completed after a diploma in Engineering/Technology. A GATE qualification does not itself guarantee admission, scholarship, or employment.",
+        "Civil Engineering graduates may also use the degree for engineering roles and for recruitment examinations where the relevant employer or government authority accepts the qualification. Eligibility for public-sector and state-government posts is vacancy-specific: candidates should rely on the exact recruitment notification for discipline, registration, age, category, and experience conditions."
+      ],
+      "bullets": [
+        "Postgraduate study: evaluate M.Tech/MS programmes and their individual eligibility, entrance, and branch requirements.",
+        "GATE: an available national examination pathway during the third year or after completion; institutional admission remains separate.",
+        "Employment and public recruitment: use only the specific employer or recruiting authority’s current notification to determine eligibility."
+      ],
+      "source_urls": [
+        "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+        "https://www.upsc.gov.in/examinations/active-exams"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AICTE Approval Process Handbook 2024–2027",
+      "url": "https://www.aicte.gov.in/sites/default/files/APH%20Final.pdf",
+      "kind": "regulator_guidance"
+    },
+    {
+      "label": "AICTE Model Curriculum: Undergraduate Civil Engineering (2024)",
+      "url": "https://aicte-qa.aicte-india.org/sites/default/files/AICTE%20Model%20Curriculum%20_UG_Civil_2024.pdf",
+      "kind": "curriculum_reference"
+    },
+    {
+      "label": "NTA JEE (Main) Information Bulletin",
+      "url": "https://jeemain.nta.nic.in/information-bulletin/",
+      "kind": "entrance_exam"
+    },
+    {
+      "label": "IKGPTU 2026–27 admission notifications",
+      "url": "https://ptu.ac.in/admission-2026-27/important-notifications/",
+      "kind": "university_admission"
+    },
+    {
+      "label": "GATE 2026 eligibility criteria",
+      "url": "https://gate2026.iitg.ac.in/eligibility-criteria.html",
+      "kind": "postgraduate_exam"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Protected professional title",
+      "value": "Under the Architects Act, 1972, an “architect” is a person whose name is entered in the register maintained by the Council of Architecture (CoA). The Supreme Court has clarified that the Act protects use of the title “Architect”; it does not itself create an exclusive statutory right for registered persons to carry out every activity associated with architectural practice.",
+      "source_urls": [
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=792&sublinkid=1344",
+        "https://api.sci.gov.in/supremecourt/2014/21001/21001_2014_3_1501_21539_Judgement_17-Mar-2020.pdf"
+      ]
+    },
+    {
+      "label": "Main qualifying route",
+      "value": "The standard undergraduate route is a five-year B.Arch. programme at an institution whose qualification is recognised under the Architects Act and regulated through CoA minimum-standards requirements.",
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&level=0&lid=11&linkid=7",
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=42&sublinkid=29"
+      ]
+    },
+    {
+      "label": "B.Arch entry eligibility",
+      "value": "For 2026 admissions, CoA states that first-year B.Arch applicants need either 10+2 with Physics and Mathematics plus one specified third subject, or a 10+3 diploma with Mathematics, with at least 45% aggregate; the applicable aptitude-test and institutional admission requirements must also be met.",
+      "source_urls": [
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+        "https://coa.gov.in/index1.php?lang=1&level=0&lid=218&linkid=42"
+      ]
+    },
+    {
+      "label": "Registration",
+      "value": "A person seeking registration under section 25(a) applies to CoA using a recognised architectural qualification; CoA’s registration documentation identifies a recognised five-year B.Arch degree among the relevant qualifications.",
+      "source_urls": [
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=42&sublinkid=29",
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=792&sublinkid=1344"
+      ]
+    },
+    {
+      "label": "Professional accountability",
+      "value": "Registered architects must follow the Architects (Professional Conduct) Regulations, 1989. Breaches of the prescribed conduct standards can constitute professional misconduct and lead to CoA disciplinary action.",
+      "source_urls": [
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=152&sublinkid=302",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=250&sublinkid=271"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Architect does",
+      "paragraphs": [
+        "An architect’s agreed scope is set through the client engagement and the Council of Architecture’s Conditions of Engagement and Scale of Charges. CoA describes these documents as defining responsibilities, scope of work and services, while recognising that a particular client engagement may not require the full range of services.",
+        "In professional practice, architects are expected to exercise appropriate knowledge, skill and reasonable care. The professional-conduct rules specifically require fairness and impartiality when administering a building contract, and the CoA’s professional-liability guidance treats failure to provide services necessary to discharge the agreed project duties as deficient service."
+      ],
+      "bullets": [
+        "Define and document the project engagement, scope and professional services with the client.",
+        "Provide architectural services within the agreed terms while exercising professional competence and duty of care.",
+        "Administer building-contract functions fairly and impartially when those functions form part of the engagement.",
+        "Comply with CoA professional-conduct, ethical and engagement requirements."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/staging/index1.php?lang=1&level=2&lid=85&sublinkid=298",
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=152&sublinkid=302",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=250&sublinkid=271"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Route from B.Arch to the registered title",
+      "paragraphs": [
+        "For the usual school-to-profession route, first meet the current B.Arch academic eligibility criteria, qualify through the applicable architecture aptitude-admission route, and gain admission to a five-year B.Arch programme. In the 2026 NATA brochure, CoA states that passing NATA is a qualifier for B.Arch admission rather than a guaranteed seat; admission remains subject to CoA eligibility criteria and the competent admission authority’s requirements.",
+        "After completing a recognised architectural qualification, apply for entry in CoA’s register. Applicants should verify the recognition status of the specific institution and qualification before enrolling, since recognition—not merely the course name—is material to registration under the Architects Act."
+      ],
+      "bullets": [
+        "Complete 10+2 or a 10+3 diploma route that satisfies the then-current CoA B.Arch eligibility conditions.",
+        "Meet the applicable aptitude-test and counselling/admission requirements; NATA and NTA-conducted architecture aptitude routes are identified by CoA for B.Arch admission.",
+        "Finish a five-year B.Arch qualification recognised under the Architects Act.",
+        "Apply to CoA for registration under section 25(a), submitting the prescribed application and qualification documents.",
+        "Keep registration details current and observe the professional-conduct rules when using the title “Architect.”"
+      ],
+      "source_urls": [
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+        "https://coa.gov.in/index1.php?lang=1&level=0&lid=218&linkid=42",
+        "https://coa.gov.in/index1.php?lang=1&level=0&lid=11&linkid=7",
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=42&sublinkid=29",
+        "https://coa.gov.in/showfile.php?lang=1&level=1&lid=792&sublinkid=1344"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Capabilities to build",
+      "paragraphs": [
+        "CoA does not publish a single statutory job-skills checklist for architects. Its current B.Arch aptitude-test material is nevertheless a useful indicator of foundational capabilities assessed for entry: cognitive skills, visual perception, aesthetic sensitivity, logical reasoning and critical thinking.",
+        "For professional work, the conduct framework places equal weight on competence, reasonable care, client engagement and ethical contract administration. These requirements make communication, judgement, documentation and professional integrity as important as design aptitude."
+      ],
+      "bullets": [
+        "Visual perception, composition and aesthetic sensitivity.",
+        "Logical reasoning and critical thinking.",
+        "Ability to develop and apply professional knowledge with reasonable skill and care.",
+        "Clear client and engagement documentation.",
+        "Fair, impartial and ethical conduct in contract-related responsibilities."
+      ],
+      "source_urls": [
+        "https://coa.gov.in/index1.php?lang=1&level=0&lid=218&linkid=42",
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=152&sublinkid=302",
+        "https://coa.gov.in/index1.php?lang=1&level=1&lid=250&sublinkid=271"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how architects work",
+      "paragraphs": [
+        "The CoA conduct regulations apply to architects both in practice and in employment. In private practice, the regulations require the architect to inform the client about conditions of engagement and charges; where an architect administers a building contract, the regulations require fairness and impartiality.",
+        "The CoA’s engagement framework also covers specialist service contexts including structural design, urban design, city planning, landscape architecture, interior architecture and architectural conservation. These are professional-service areas rather than mandatory specialisations, and the actual role depends on the employer or client engagement."
+      ],
+      "bullets": [
+        "Private architectural practice serving clients under defined engagement terms.",
+        "Employment-based roles, subject to the same professional-conduct framework.",
+        "Project work involving client coordination and, where engaged, building-contract administration.",
+        "Possible work in related specialist service areas such as urban design, landscape architecture, interiors or conservation."
+      ],
+      "source_urls": [
+        "https://www.coa.gov.in/showfile.php?lang=1&level=1&lid=152&sublinkid=302",
+        "https://coa.gov.in/staging/index1.php?lang=1&level=2&lid=85&sublinkid=298"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Council of Architecture — registration application instructions",
+      "url": "https://coa.gov.in/index1.php?lang=1&level=0&lid=313&linkid=175",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "Council of Architecture — NATA 2026 information brochure",
+      "url": "https://coa.gov.in/showfile.php?lang=1&level=1&lid=1506&sublinkid=1628",
+      "kind": "admissions guidance"
+    },
+    {
+      "label": "Council of Architecture — Act, Rules and Regulations",
+      "url": "https://coa.gov.in/index1.php?lang=1&level=0&lid=10&linkid=6",
+      "kind": "regulatory reference"
+    },
+    {
+      "label": "Supreme Court of India — Council of Architecture v. Mukesh Goyal, judgment dated 17 March 2020",
+      "url": "https://api.sci.gov.in/supremecourt/2014/21001/21001_2014_3_1501_21539_Judgement_17-Mar-2020.pdf",
+      "kind": "case law"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

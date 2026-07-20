@@ -48,6 +48,13 @@ vi.mock("@/lib/v2/routes", () => ({
   buildNodePageView: () => ({ node: mocks.node, parents: [], routes: [], children: [] }),
 }));
 
+// facts.ts imports "server-only" and reads from disk; the fixture node above
+// already carries its facts, so the composed full node is the node itself.
+vi.mock("@/lib/v2/facts", () => ({
+  getFullNode: async (nodeId: string) =>
+    nodeId === "degree:bca" ? mocks.node : null,
+}));
+
 vi.mock("@/lib/v2/route-map", () => ({ findRouteThroughParent: vi.fn() }));
 vi.mock("@/components/v2/V2BlogView", () => ({ default: () => <div>Guide body</div> }));
 

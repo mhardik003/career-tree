@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Core purpose",
+      "value": "A GIS Analyst works with geographically referenced information: GIS supports the capture, storage, editing, analysis, sharing and display of spatial data and its associated attributes.",
+      "source_urls": [
+        "https://www.manage.gov.in/studymaterial/gis.pdf"
+      ]
+    },
+    {
+      "label": "Typical deliverables",
+      "value": "Common work includes maintaining GIS databases and presenting spatial-analysis results through maps, graphs and tabular outputs.",
+      "source_urls": [
+        "https://employmentnews.gov.in/newemp/MoreContentNew.aspx?k=60210&n=InDepthJobs"
+      ]
+    },
+    {
+      "label": "Relevant degree backgrounds",
+      "value": "Planning and forestry are relevant domain backgrounds: IIRS lists Remote Sensing and GIS applications for Urban & Regional Studies and for Forest & Ecosystem Studies, while its RS & GIS diploma covers urban studies and forestry/ecology applications.",
+      "source_urls": [
+        "https://admissions.iirs.gov.in/index.php/coursecalender",
+        "https://www.iirs.gov.in/pgdiploma"
+      ]
+    },
+    {
+      "label": "Employment settings",
+      "value": "GIS and surveying applications occur in public and private organisations, especially in surveying, mapping and infrastructure-related work.",
+      "source_urls": [
+        "https://surveyofindia.gov.in/pages/career-prospects"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a GIS Analyst does",
+      "paragraphs": [
+        "The role turns location-linked data into usable evidence for planning, management and operational decisions. Core GIS functions include data input, manipulation, management, querying/analysis and visualisation; data may include digitised maps, imagery, spatial layers and associated tabular information.",
+        "In practice, a GIS Analyst may create or update spatial datasets, digitise maps or imagery, link spatial and non-spatial attributes, conduct raster/vector and overlay analysis, maintain databases, and communicate findings through cartographic maps, graphs or tables. The exact task mix varies by employer and project domain."
+      ],
+      "bullets": [
+        "Prepare, clean, edit and organise geospatial data and attributes.",
+        "Perform spatial analysis and produce thematic or decision-support maps.",
+        "Maintain spatial databases, metadata, data quality and topology.",
+        "Combine GIS outputs with domain information—for example, planning, forestry, infrastructure, agriculture or environmental management."
+      ],
+      "source_urls": [
+        "https://www.manage.gov.in/studymaterial/GIS.pdf",
+        "https://bharatskills.gov.in/pdf/Curriculum/CTS/English/Geo%20-%20Informatics%20Assistant.pdf",
+        "https://employmentnews.gov.in/newemp/MoreContentNew.aspx?k=60210&n=InDepthJobs",
+        "https://negd.gov.in/wp-content/uploads/2025/06/Adv-NHAI-GIS-EXPERT.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from planning and forestry",
+      "paragraphs": [
+        "There is no single nationally prescribed degree route shown in the sources for the job title “GIS Analyst.” A practical route is to pair a domain degree with demonstrable GIS, remote-sensing and data-management capability. For this node’s immediate parents, B.Plan can support urban and regional applications, while B.Sc. (Hons.) Forestry can support forest-resource and ecosystem applications.",
+        "After an undergraduate degree, candidates can deepen technical capability through geo-information or Remote Sensing & GIS study. IIRS’s PG Diploma in Remote Sensing & GIS covers GIS, satellite-image analysis and GNSS, including forestry/ecology and urban/regional applications; its geoinformatics diploma is specifically aimed at generating, integrating, analysing, visualising and disseminating spatial data.",
+        "A portfolio is especially useful for entry-level hiring: include documented map products, data-cleaning or digitisation work, spatial-analysis notebooks/workflows, and a clear statement of data sources, methods, limitations and results."
+      ],
+      "bullets": [
+        "B.Plan route: focus projects on land use, transport, infrastructure, master planning, urban services or spatial decision support.",
+        "B.Sc. (Hons.) Forestry route: focus projects on forest cover, biodiversity, watershed, habitat, fire-risk, plantation or ecosystem analysis.",
+        "Build foundational competence in GIS and remote sensing, then apply it to the parent discipline.",
+        "Use internships, project work or traineeships to show applied GIS work; IIRS publishes an external-student internship route, subject to its stated eligibility and project availability."
+      ],
+      "source_urls": [
+        "https://www.iirs.gov.in/pgdiploma",
+        "https://www.iirs.gov.in/pg-diploma-geoinformatics",
+        "https://admissions.iirs.gov.in/index.php/coursecalender",
+        "https://hindi.iirs.gov.in/content/%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A4%B0%E0%A5%80-%E0%A4%9B%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A4%B0%E0%A5%8D%E0%A4%A8%E0%A4%B6%E0%A4%BF%E0%A4%AA"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "Technical proficiency should cover the full data lifecycle: data capture and conversion, attribute creation and editing, spatial-database work, topology, vector and raster analysis, proximity/thematic/overlay analysis, digitisation, and map presentation. These are reflected in the Government of India Geo-Informatics Assistant curriculum.",
+        "For roles that need repeatable or custom workflows, programming and data skills add value. Employment News identifies programming for automation, customised tools and workflows, and also highlights analytical, critical-thinking, communication and database knowledge. Employers may specify particular GIS platforms, programming languages or domain datasets, so candidates should read each vacancy carefully."
+      ],
+      "bullets": [
+        "Spatial-data concepts: coordinate systems, vector/raster data, attributes, topology and metadata.",
+        "Analysis and cartography: queries, overlays, proximity analysis, thematic maps and clear visual communication.",
+        "Data management: GIS database maintenance, data quality, integrity and accuracy checks.",
+        "Automation and collaboration: scripting/programming where required, documentation, stakeholder communication and domain understanding."
+      ],
+      "source_urls": [
+        "https://bharatskills.gov.in/pdf/Curriculum/CTS/English/Geo%20-%20Informatics%20Assistant.pdf",
+        "https://employmentnews.gov.in/newemp/MoreContentNew.aspx?k=60210&n=InDepthJobs",
+        "https://negd.gov.in/wp-content/uploads/2025/06/Adv-NHAI-GIS-EXPERT.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is done",
+      "paragraphs": [
+        "GIS Analysts can work in government, public-sector, consulting, technology, research and domain organisations. Indian government sources identify applications in land records, infrastructure planning, disaster management, resource management and service delivery; Survey of India notes public- and private-sector surveying and mapping projects, including infrastructure-development surveys.",
+        "The work is commonly interdisciplinary. GIS teams may include analysts and technicians who prepare and manage geospatial data, planners who use outputs for decisions, surveyors and field officers who collect data, and developers who automate or build GIS tools. Some roles are primarily desk-based, while others coordinate with field data collection or domain specialists."
+      ],
+      "bullets": [
+        "Urban and regional planning, land and infrastructure projects.",
+        "Forestry, ecology, natural-resource and environmental analysis.",
+        "Surveying, mapping, photogrammetry and spatial-database projects.",
+        "Governance, disaster management and public-service delivery."
+      ],
+      "source_urls": [
+        "https://rcentre.lbsnaa.gov.in/ebhuadhyan/CoursesContent/Basics_GIS_Module.html",
+        "https://surveyofindia.gov.in/pages/career-prospects",
+        "https://bisag-n.gov.in/about_us",
+        "https://www.iirs.gov.in/pgdiploma"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Possible progression",
+      "paragraphs": [
+        "Progression is employer-specific, but an evidence-based pattern is to begin with data preparation, digitisation, mapping and support work; move into independent GIS analysis and database/workflow ownership; and later take on specialist, solution-design, quality, coordination or project-lead responsibilities. This is an inference from government training outcomes and a public-sector GIS Expert job description, rather than a nationally mandated career ladder.",
+        "Candidates who combine strong GIS fundamentals with a planning or forestry specialism can progress toward domain-led geospatial roles—for example, urban and regional GIS, forest-resource and ecosystem analysis, spatial data management, remote-sensing analysis or geospatial solution delivery."
+      ],
+      "bullets": [
+        "Early career: GIS/data technician, mapping assistant, geospatial trainee or junior analyst responsibilities.",
+        "Developing career: GIS Analyst or domain GIS analyst with responsibility for analysis, database maintenance and map/report outputs.",
+        "Experienced career: GIS specialist, geospatial database/quality lead, remote-sensing analyst, GIS solution designer or project lead, depending on employer structure."
+      ],
+      "source_urls": [
+        "https://bharatskills.gov.in/pdf/Curriculum/CTS/English/Geo%20-%20Informatics%20Assistant.pdf",
+        "https://negd.gov.in/wp-content/uploads/2025/06/Adv-NHAI-GIS-EXPERT.pdf",
+        "https://www.iirs.gov.in/pgdiploma"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Indian Institute of Remote Sensing (IIRS): PG Diploma in Remote Sensing & GIS",
+      "url": "https://www.iirs.gov.in/pgdiploma",
+      "kind": "official_training"
+    },
+    {
+      "label": "IIRS: PG Diploma in Geo-information Science and Earth Observation (Geoinformatics)",
+      "url": "https://www.iirs.gov.in/pg-diploma-geoinformatics",
+      "kind": "official_training"
+    },
+    {
+      "label": "Survey of India: Career Prospects",
+      "url": "https://surveyofindia.gov.in/pages/career-prospects",
+      "kind": "government_career_information"
+    },
+    {
+      "label": "Bharat Skills: Geo-Informatics Assistant curriculum",
+      "url": "https://bharatskills.gov.in/pdf/Curriculum/CTS/English/Geo%20-%20Informatics%20Assistant.pdf",
+      "kind": "government_skills_standard"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

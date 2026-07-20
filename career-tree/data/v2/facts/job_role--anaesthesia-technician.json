@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Recognised professional grouping",
+      "value": "India’s National Commission for Allied and Healthcare Professions Act, 2021 lists “Anaesthesia Assistants and Technologists” and “Operation Theatre (OT) Technologists” within the Surgical and Anaesthesia-related Technology Professional category.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf"
+      ]
+    },
+    {
+      "label": "Core role",
+      "value": "An anaesthesia/OT technology professional prepares and maintains the operating theatre, assists the anaesthetist and surgical team during the peri-operative period, and supports patients in recovery-room care as part of a multidisciplinary team.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf",
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf"
+      ]
+    },
+    {
+      "label": "Typical entry education",
+      "value": "The Ministry of Health and Family Welfare’s model curriculum recommends 10+2 or equivalent with science for Operation Theatre Technology entry routes; it proposes a 2.5-year diploma including a six-month internship or a four-year bachelor’s programme including one year of clinical training/internship.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf"
+      ]
+    },
+    {
+      "label": "Example specialist degree route",
+      "value": "JIPMER’s B.Sc. Allied Health Sciences Anaesthesia Technology curriculum describes a four-year programme comprising three years of classes and one year of compulsory internship, with 10+2 Physics, Chemistry, Biology/Botany and Zoology, and English among its stated eligibility requirements.",
+      "source_urls": [
+        "https://jipmer.edu.in/sites/default/files/BSc%20%28AHS%29%20Anaesthesia%20Technology%20Curriculum.pdf"
+      ]
+    },
+    {
+      "label": "Practice setting",
+      "value": "Relevant work spans operation theatres and may extend to intensive-care, emergency, sterile-services, and non-operating-room anaesthesia locations such as CT/MRI suites, cardiac catheterisation laboratories and pain-relief procedures.",
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf",
+        "https://vmmc-sjh.mohfw.gov.in/anaesthesia-and-intensive-care"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Anaesthesia Technician does",
+      "paragraphs": [
+        "An Anaesthesia Technician is an allied-health member of the peri-operative team. In the Indian statutory schedule, the surgical and anaesthesia-related technology professional prepares and maintains the operating theatre, assists the anaesthetist and surgical team during the peri-operative period, supports recovery-room patients, and supports related clinical areas. The role is supportive and team-based; the Ministry’s model curriculum notes that final clinical decisions rest with the doctor.",
+        "The Ministry of Health and Family Welfare model curriculum for Operation Theatre Technology describes work that closely overlaps this node: setting up, checking and maintaining anaesthesia machines, patient monitors, airway equipment, ventilators, emergency equipment and defibrillators; maintaining equipment and drug records; helping the anaesthetist with set-up of monitoring, invasive-line and airway-management procedures; and assisting during basic/advanced life-support emergencies. Exact delegated duties must follow the employing hospital’s policies and the supervising clinician’s directions."
+      ],
+      "bullets": [
+        "Prepare the anaesthesia workstation and check essential monitoring, airway, ventilation and emergency equipment before procedures.",
+        "Assist the anaesthetist and surgical team with peri-operative preparation, monitoring set-up and emergency response.",
+        "Maintain equipment, stock and records, and follow sterilisation, infection-prevention, biomedical-waste and patient-safety processes.",
+        "Support care in operating theatres, recovery areas and, where assigned, anaesthesia delivered outside the operating theatre."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf",
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "Course titles vary across institutions: candidates may encounter Anaesthesia Technology, Anaesthesia and Operation Theatre Technology, or Operation Theatre Technology. The national model curriculum is a guidance document rather than a single, universal admission rule, so applicants should verify the current recognition status, syllabus, clinical-internship arrangement, admission process and eligibility directly with each institution and the relevant state authority.",
+        "A common school-leaver route is science-stream 10+2 followed by a diploma or bachelor’s programme with structured clinical training. The Ministry’s model curriculum recommends 10+2 science entry, with minimum pathways of 2.5 years for a diploma including a six-month internship and four years for a bachelor’s degree including a one-year clinical internship. As an institution-specific example, JIPMER’s published B.Sc. Anaesthesia Technology curriculum specifies 10+2 science subjects and a four-year programme including compulsory internship.",
+        "The NCAHP Act defines an allied health professional to include a technician or technologist trained to support diagnosis and treatment who holds a diploma or degree under the Act lasting at least 2,000 hours over two to four years. The Commission and State Councils have statutory roles relating to standards, registers, course recognition and potential entry/exit examinations; requirements can therefore evolve."
+      ],
+      "bullets": [
+        "Complete 10+2 or equivalent with the science subjects required by the selected institution.",
+        "Choose a hospital-linked diploma or bachelor’s programme in anaesthesia/OT technology with substantial supervised clinical training.",
+        "Before enrolling, confirm the current admission notice, university affiliation, hospital internship access and any applicable state registration or recruitment requirements.",
+        "For public-sector vacancies, read the specific recruitment rules: qualification titles and experience requirements can differ by employer and post."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf",
+        "https://jipmer.edu.in/sites/default/files/BSc%20%28AHS%29%20Anaesthesia%20Technology%20Curriculum.pdf",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00023_202114_1622792373723&orderno=2",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_12_13_00023_202114_1622792373723&orderno=30"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills developed for the role",
+      "paragraphs": [
+        "Training is both technical and safety-focused. The Ministry model curriculum includes anaesthetic machines and monitors, basic and regional anaesthetic techniques, anatomy and physiology, clinical pharmacology, patient positioning, intravenous lines and fluids, transfusion, CPR, sterilisation/CSSD procedures, waste disposal, inventory and record keeping. It also includes communication, ethics, law, professionalism, quality, infection prevention and biomedical-waste management.",
+        "In practice, this translates into careful equipment-checking habits, ability to work calmly during urgent events, accurate documentation, infection-control discipline, situational awareness and clear communication with anaesthetists, surgeons, nurses and other theatre staff. These are capability areas to develop through supervised training; they do not authorise independent medical decision-making."
+      ],
+      "bullets": [
+        "Anaesthesia workstation, monitor, ventilator, airway and emergency-equipment preparation and checking.",
+        "Patient safety, infection prevention, sterilisation/CSSD and biomedical-waste procedures.",
+        "Basic life support and support during critical events under the clinical team’s direction.",
+        "Clinical documentation, inventory control, teamwork, communication, professional conduct and attention to detail."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where Anaesthesia Technicians work",
+      "paragraphs": [
+        "Hospitals are the principal setting. The Ministry’s curriculum identifies public and private hospitals, nursing homes, trauma/emergency centres, intensive-care units and central sterile services departments as relevant employment environments. Work may occur across scheduled and emergency surgical services, so shifts and on-call patterns depend on the employer.",
+        "Anaesthesia services also operate outside conventional theatres. For example, Safdarjung Hospital’s Anaesthesia and Intensive Care department lists non-operating-room anaesthesia services in interventional radiology, cardiac and neurointerventional catheterisation laboratories, CT/MRI, DSA and ECT settings. This illustrates why technicians need to be comfortable with mobile or remote procedural environments as well as theatre workflows."
+      ],
+      "bullets": [
+        "Operation theatres and post-anaesthesia/recovery areas.",
+        "Emergency, trauma and intensive-care support environments.",
+        "Central sterile services and equipment-management functions.",
+        "Non-operating-room anaesthesia locations, where the hospital provides such services."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf",
+        "https://vmmc-sjh.mohfw.gov.in/anaesthesia-and-intensive-care"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "Progression can move from entry-level technician or theatre-assistant work into junior and senior OT technologist posts, technical-officer or chief-OT roles, clinical instruction, and equipment-industry roles. The Ministry’s Operation Theatre Technology handbook presents this as a proposed career map, not a guaranteed or nationally uniform promotion ladder; implementation varies by employer, qualifications, experience and applicable regulations.",
+        "The model pathway distinguishes diploma and bachelor’s entry levels and envisages postgraduate study for more advanced clinical, academic and research development. It also identifies potential work with medical-equipment manufacturers and development specialists after further experience. Applicants should treat job titles, seniority requirements and promotion rules as employer-specific."
+      ],
+      "bullets": [
+        "Build supervised peri-operative experience after a diploma or bachelor’s qualification.",
+        "Progress toward senior technologist, technical-officer, OT-management, training or clinical-instruction roles where the employer’s criteria are met.",
+        "Consider postgraduate study or focused professional development for academic, research, management or technology-specialist pathways.",
+        "Maintain current competence in equipment, safety systems and evolving hospital protocols."
+      ],
+      "source_urls": [
+        "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Ministry of Health and Family Welfare: Model Curriculum Handbook of Operation Theatre Technology",
+      "url": "https://www.mohfw.gov.in/sites/default/files/Model_Curriculum_Handbook_Operat.pdf",
+      "kind": "government curriculum guidance"
+    },
+    {
+      "label": "National Commission for Allied and Healthcare Professions Act, 2021",
+      "url": "https://www.mohfw.gov.in/sites/default/files/NCAHP%20Act_1.pdf",
+      "kind": "legislation and professional classification"
+    },
+    {
+      "label": "JIPMER: B.Sc. Allied Health Sciences Anaesthesia Technology curriculum",
+      "url": "https://jipmer.edu.in/sites/default/files/BSc%20%28AHS%29%20Anaesthesia%20Technology%20Curriculum.pdf",
+      "kind": "institutional course example"
+    },
+    {
+      "label": "Safdarjung Hospital: Anaesthesia and Intensive Care",
+      "url": "https://vmmc-sjh.mohfw.gov.in/anaesthesia-and-intensive-care",
+      "kind": "government employer and workplace context"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

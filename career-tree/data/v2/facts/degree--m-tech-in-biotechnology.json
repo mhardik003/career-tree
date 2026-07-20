@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Award and focus",
+      "value": "M.Tech in Biotechnology is a postgraduate engineering programme. At IIT Guwahati, its published structure combines advanced biotechnology techniques, genetic engineering, quantitative biology, biomolecular/cellular process engineering, laboratory work, electives, seminar and a two-part M.Tech project.",
+      "source_urls": [
+        "https://www.iitg.ac.in/biotech/index_post.php?name=M.Tech-Syllabus&page=def48072012afada35058b0f3f6714bf2fd56193"
+      ]
+    },
+    {
+      "label": "Typical duration",
+      "value": "A standard full-time route is two academic years/four semesters: IIT Guwahati’s published M.Tech Biotechnology curriculum is organised across Semesters I–IV and totals 110 credits.",
+      "source_urls": [
+        "https://www.iitg.ac.in/biotech/index_post.php?name=M.Tech-Syllabus&page=def48072012afada35058b0f3f6714bf2fd56193"
+      ]
+    },
+    {
+      "label": "Main admission routes",
+      "value": "Admission is institute- and programme-specific. GATE is the principal entrance examination for many IIT M.Tech admissions; DBT-supported biotechnology postgraduate programmes also use the national GAT-B examination for participating programmes.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/mtech",
+        "https://dbtindia.gov.in/dbt-postgraduate-teaching-pg-programmes-msc-mtech-mvsc"
+      ]
+    },
+    {
+      "label": "Entry background",
+      "value": "A B.Tech in Biotechnology is a directly relevant feeder qualification, but accepted backgrounds can be broader. For example, IIT Guwahati requires a relevant bachelor’s or master’s degree and specifies admissible GATE papers by specialisation; the DBT’s 2026 participating-institute list shows that some M.Tech Biotechnology programmes also accept specified science, pharmacy, agriculture or veterinary qualifications.",
+      "source_urls": [
+        "https://iitg.ac.in/acad/admission/master/eligibility.php",
+        "https://www.pgt.dbtindia.gov.in/storage/NoticeBoard/Eligibility%20criteria%20and%20list%20of%20participating%20institutes%20in%20GAT-B%202026.pdf"
+      ]
+    },
+    {
+      "label": "Publicly posted cost example",
+      "value": "Fees are highly institution-, category-, hostel- and assistantship-dependent. As a dated example, IIT Guwahati’s posted regular-category M.Tech admission total is ₹80,250 for GEN/GEN-EWS/OBC-NCL and ₹65,250 for SC/ST/PwD/MEB students; its listed M.Tech tuition for non-SC/ST/PwD students is ₹15,000 per semester, with hostel and other charges separately itemised.",
+      "source_urls": [
+        "https://www.iitg.ac.in/acad/admission/imp_info/fee.php"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who can apply",
+      "paragraphs": [
+        "M.Tech Biotechnology eligibility is not uniform across India, so applicants should treat the target institute’s current brochure as controlling. IIT Guwahati states that M.Tech applicants need a relevant bachelor’s or master’s degree, at least 60% marks or CPI 6.0/10 (with a stated relaxation for SC/ST/PwD candidates), and—under its Regular studentship category—a qualifying GATE paper accepted for the chosen specialisation.",
+        "For DBT-supported programmes admitting through GAT-B, the eligible prior degree can be wider than B.Tech Biotechnology. The 2026 DBT participating-institute document, for example, lists M.Tech Biotechnology at Jamia Hamdard for candidates with B.Tech, B.Pharm, M.Sc. Biotechnology/Biological Sciences, M.Sc. Agriculture or M.V.Sc., subject to the institution’s stated marks and other conditions. This is an example, not a universal rule."
+      ],
+      "bullets": [
+        "Best fit for the node’s immediate-parent path: a B.Tech in Biotechnology followed by a valid GATE score where the institute requires it.",
+        "Also check whether the programme accepts the relevant GATE paper and whether it uses GATE, GAT-B, a written test/interview, or a combination.",
+        "Verify category rules, minimum marks/CPI, qualifying-degree discipline and any additional institute conditions in the admission year."
+      ],
+      "source_urls": [
+        "https://iitg.ac.in/acad/admission/master/eligibility.php",
+        "https://www.pgt.dbtindia.gov.in/storage/NoticeBoard/Eligibility%20criteria%20and%20list%20of%20participating%20institutes%20in%20GAT-B%202026.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and academic structure",
+      "paragraphs": [
+        "The usual full-time M.Tech format is two years. IIT Guwahati’s M.Tech Biotechnology course structure explicitly runs from Semester I through Semester IV, with coursework and laboratory training in the first year and seminar/project work in the later semesters; the published total is 110 credits.",
+        "The exact credit total, semester pattern, project weight and whether an internship is required vary by university. Applicants should use the curriculum applicable to their entry batch rather than assuming another institute’s structure will match."
+      ],
+      "bullets": [
+        "Semester I: core techniques, advanced genetic engineering, electives and analytical biotechnology laboratory.",
+        "Semester II: quantitative biology, biomolecular and cellular process engineering, electives and applied biology/bioengineering laboratory.",
+        "Semesters III–IV: seminar plus M.Tech Project I and II."
+      ],
+      "source_urls": [
+        "https://www.iitg.ac.in/biotech/index_post.php?name=M.Tech-Syllabus&page=def48072012afada35058b0f3f6714bf2fd56193"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What students study",
+      "paragraphs": [
+        "The degree is research- and engineering-oriented rather than only a life-sciences survey. A representative official curriculum at IIT Guwahati includes biotechniques, advanced genetic engineering, quantitative biology, biomolecular and cellular process engineering, analytical and applied laboratory courses, technical electives and a substantial thesis/project sequence.",
+        "At IIT Delhi, the related M.Tech programme titled Biomolecular and Bioprocess Engineering similarly publishes core coverage in bioreaction engineering, bioseparation engineering, microbial biochemistry and molecular biology, biotechnology data analytics/informatics, applied mathematics, electives and a teaching/research practicum. Degree titles and course names differ, but this illustrates the overlap between biotechnology, bioprocess engineering, computation and research training in this education pathway."
+      ],
+      "bullets": [
+        "Molecular and genetic engineering methods.",
+        "Bioprocess, bioreaction and separation engineering.",
+        "Quantitative/data-oriented biotechnology and bioinformatics-adjacent skills.",
+        "Laboratory methods, scientific communication and an extended research project."
+      ],
+      "source_urls": [
+        "https://www.iitg.ac.in/biotech/index_post.php?name=M.Tech-Syllabus&page=def48072012afada35058b0f3f6714bf2fd56193",
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=BEM",
+        "https://curriculum.iitd.ac.in/coursesbyau.php?au=BB"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How admission works",
+      "paragraphs": [
+        "For many IIT M.Tech programmes, GATE is the entry examination: IIT Bombay’s Academic Office identifies GATE as the M.Tech entrance test, and its current M.Tech admissions page is organised around application, shortlisting and offer processes. IIT Guwahati’s 2026 admissions notices show Biotechnology M.Tech admissions being handled through COAP for relevant regular candidates, while also publishing separate non-regular/non-COAP processes.",
+        "A separate national route exists for DBT-supported biotechnology postgraduate programmes: the Department of Biotechnology says selection is through GAT-B, a computer-based national entrance examination conducted annually through NTA and coordinated by DBT and the Regional Centre for Biotechnology. GAT-B applies only to participating DBT-supported programmes; it is not a substitute for checking each university’s own route."
+      ],
+      "bullets": [
+        "Identify the exact programme and its accepted GATE paper(s).",
+        "Register for and qualify GATE when the target programme requires it; follow the institute’s application and COAP instructions where applicable.",
+        "For a DBT-supported participating programme, check the current GAT-B bulletin, participating-institute list and programme-specific eligibility.",
+        "Expect possible shortlisting, written test and/or interview requirements where stated by the institute."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/mtech",
+        "https://iitg.ac.in/acad/admission/spotround26.php",
+        "https://www.iitg.ac.in/acad/admission/?mibextid=kdkkhi",
+        "https://dbtindia.gov.in/dbt-postgraduate-teaching-pg-programmes-msc-mtech-mvsc",
+        "https://www.pgt.dbtindia.gov.in/"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees and funding context",
+      "paragraphs": [
+        "There is no single India-wide fee for M.Tech Biotechnology. Charges depend on the institution, studentship category, reservation category, accommodation, mess advance, insurance and whether the student is sponsored. At IIT Guwahati, the currently posted first-admission total for regular M.Tech/M.Des/MS(R) students is ₹80,250 for GEN/GEN-EWS/OBC-NCL and ₹65,250 for SC/ST/PwD/MEB; the page says the total includes components beyond tuition and notes that actual fee is reflected in the offer letter.",
+        "The same IIT Guwahati fee page lists ₹15,000 tuition per semester for most non-SC/ST/PwD M.Tech students, ₹30,000 per semester for certain sponsored/non-regular categories and ₹500,000 per semester for industry-sponsored students. These are a dated institutional example, not a national benchmark; applicants should budget from their own offer letter and current fee circular."
+      ],
+      "bullets": [
+        "Check the admission-time amount separately from recurring semester tuition.",
+        "Include hostel, mess, insurance and one-time charges where applicable.",
+        "Ask the target institute about assistantship/fellowship eligibility; it is not guaranteed merely by holding this degree."
+      ],
+      "source_urls": [
+        "https://www.iitg.ac.in/acad/admission/imp_info/fee.php"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Further study and career directions",
+      "paragraphs": [
+        "A common academic next step is doctoral research in biotechnology, bioengineering, bioprocessing or allied areas. IIT Guwahati’s Biosciences and Bioengineering department lists postgraduate and doctoral academic programmes, while its M.Tech curriculum requires an extended project sequence that can help students build research experience and identify a Ph.D. topic.",
+        "The degree can also support work in industrial and translational biotechnology areas, including bioprocess technology, medical biotechnology, computational biology, food and pharmaceutical biotechnology. DBT identifies these as areas represented in its supported postgraduate biotechnology programmes. For eligible women researchers, DBT’s BioCARe guidelines explicitly include completed M.Tech Biotechnology or allied-area qualifications in one eligibility category for independent research support; that scheme has additional conditions and should not be treated as a general employment pathway."
+      ],
+      "bullets": [
+        "Ph.D. or research positions in biotechnology, bioengineering and related disciplines.",
+        "Bioprocessing, biomanufacturing, molecular/medical biotechnology and biotech data-oriented roles, subject to employer requirements.",
+        "Further specialised fellowships, entrepreneurship or translational research opportunities, depending on experience and eligibility."
+      ],
+      "source_urls": [
+        "https://www.iitg.ac.in/biotech/index.php",
+        "https://www.iitg.ac.in/biotech/index_post.php?name=M.Tech-Syllabus&page=def48072012afada35058b0f3f6714bf2fd56193",
+        "https://dbtindia.gov.in/dbt-postgraduate-teaching-pg-programmes-msc-mtech-mvsc",
+        "https://dbtindia.gov.in/sites/default/files/BioCARe%20Guidelines%202024.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DBT postgraduate biotechnology programmes and GAT-B overview",
+      "url": "https://www.pgt.dbtindia.gov.in/",
+      "kind": "official programme portal"
+    },
+    {
+      "label": "DBT 2026 GAT-B participating institutes and eligibility document",
+      "url": "https://www.pgt.dbtindia.gov.in/storage/NoticeBoard/Eligibility%20criteria%20and%20list%20of%20participating%20institutes%20in%20GAT-B%202026.pdf",
+      "kind": "official eligibility document"
+    },
+    {
+      "label": "IIT Guwahati M.Tech Biotechnology syllabus",
+      "url": "https://www.iitg.ac.in/biotech/index_post.php?name=M.Tech-Syllabus&page=def48072012afada35058b0f3f6714bf2fd56193",
+      "kind": "official curriculum"
+    },
+    {
+      "label": "IIT Guwahati postgraduate admission eligibility",
+      "url": "https://iitg.ac.in/acad/admission/master/eligibility.php",
+      "kind": "official admissions page"
+    },
+    {
+      "label": "IIT Guwahati fee structure",
+      "url": "https://www.iitg.ac.in/acad/admission/imp_info/fee.php",
+      "kind": "official fee page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

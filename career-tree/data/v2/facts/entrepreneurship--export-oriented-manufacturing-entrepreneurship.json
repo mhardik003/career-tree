@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Core export identifier",
+      "value": "An Indian business intending to export normally needs an Importer Exporter Code (IEC); DGFT’s IEC guidance states that persons intending to import or export require an IEC, subject to specified exemptions.",
+      "source_urls": [
+        "https://content.dgft.gov.in/Website/pn7613.pdf"
+      ]
+    },
+    {
+      "label": "Customs export documentation",
+      "value": "DGFT’s general-provisions guidance identifies the commercial invoice-cum-packing list and shipping bill/bill of export/postal bill of export among the mandatory documents for export of goods, subject to the applicable procedure.",
+      "source_urls": [
+        "https://content.dgft.gov.in/Website/dgftprod/c5ccbcbf-d61e-4279-abe7-ce2c6c99d62d/FTP%20Chapter%202%20updated%20as%20on%2031032021.pdf",
+        "https://www.icegate.gov.in/guidelines/communicating-icegate"
+      ]
+    },
+    {
+      "label": "GST treatment",
+      "value": "Exports of goods and services are zero-rated supplies under the IGST framework. A registered exporter may export under bond/Letter of Undertaking without payment of integrated tax and seek input-tax-credit refund, or export on payment of integrated tax and claim refund, subject to the law and procedure.",
+      "source_urls": [
+        "https://cbic-gst.gov.in/hindi/IGST-bill-e.html"
+      ]
+    },
+    {
+      "label": "Export-realisation discipline",
+      "value": "RBI’s published master direction says exporters must realise and repatriate the full export value to India; its stated general period is nine months from the export date until further notice. This is a regulatory requirement that should be reconfirmed with the authorised dealer bank for each transaction.",
+      "source_urls": [
+        "https://systemhealth.rbi.org.in/Scripts/BS_ViewMasDirections.aspx_id%3D10200.html"
+      ]
+    },
+    {
+      "label": "Medium-enterprise context",
+      "value": "For MSME classification applicable from April 1, 2025, the official Udyam portal lists a medium enterprise as one with investment in plant and machinery/equipment up to ₹125 crore and annual turnover up to ₹500 crore. Classification is relevant to scheme eligibility but is not a prerequisite for exporting.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/Important.aspx"
+      ]
+    },
+    {
+      "label": "MSME registration",
+      "value": "Udyam registration is described by the official portal as free, paperless and self-declaration based; it issues a permanent Udyam Registration Number and online certificate. It can be useful for MSME-focused support, but an IEC is the export-specific identifier addressed by DGFT.",
+      "source_urls": [
+        "https://udyamregistration.gov.in/Important.aspx",
+        "https://content.dgft.gov.in/Website/pn7613.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "A practical route into export-oriented manufacturing",
+      "paragraphs": [
+        "A common entry route is to establish or acquire a manufacturing operation, select a product line with repeatable specifications, and build export readiness alongside domestic production. Before shipping directly overseas, the business normally obtains an IEC through DGFT, establishes customs-filing capability directly or through a customs broker, and prepares the baseline transaction documents used for goods exports.",
+        "For an MSME-scale venture, Udyam registration can be considered alongside the business’s other registrations. The Ministry of MSME states that eligible manufacturing/service MSEs with a valid Udyam certificate can access certain market-development and international-cooperation support; its first-time-exporter component includes reimbursement categories for Export Promotion Council membership, export insurance premium, and testing/quality certification, subject to scheme rules and availability.",
+        "Where the product sector has an Export Promotion Council or commodity board, the entrepreneur can evaluate obtaining a Registration-Cum-Membership Certificate (RCMC). DGFT’s e-RCMC guide describes RCMC as validating an exporter, while the application form expressly accommodates manufacturer exporters and merchant-cum-manufacturer exporters."
+      ],
+      "bullets": [
+        "Start with a product specification, target-market requirements, costing model and reliable production process—not simply an overseas sales lead.",
+        "Set up IEC and a customs-document workflow before accepting delivery commitments.",
+        "Use Udyam/RCMC and sector bodies as support mechanisms where applicable; they do not replace product-, customs-, tax-, banking- or destination-market compliance."
+      ],
+      "source_urls": [
+        "https://content.dgft.gov.in/Website/pn7613.pdf",
+        "https://www.icegate.gov.in/guidelines/communicating-icegate",
+        "https://udyamregistration.gov.in/Important.aspx",
+        "https://www.msme.gov.in/offerings/schemes-and-services/details/marketing-promotion-schemes-2-YjNzETMtQWa",
+        "https://content.dgft.gov.in/Website/e-RCMC%20User%20Guide%20for%20Exporters.pdf",
+        "https://content.dgft.gov.in/Website/ANF-2C_0.pdf"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities that make a manufacturer export-ready",
+      "paragraphs": [
+        "The business must be able to translate buyer requirements into controlled production: approved materials, process controls, inspection points, traceable records, calibrated or suitable testing arrangements, and disciplined corrective action for defects. BIS states that manufacturers seeking product certification need appropriate manufacturing infrastructure, process controls, quality-control and testing capabilities aligned with the relevant Indian Standard; this is a useful operating benchmark even when a BIS licence is not the applicable export requirement.",
+        "Export execution also requires commercial and logistics capability: product classification and documentation, quotation and Incoterms literacy, export packaging, freight coordination, shipment tracking, and management of shipping-bill records. ICEGATE provides the electronic customs gateway through which shipping bills are submitted to the Indian Customs EDI System.",
+        "Financial capability is equally important. The operator needs a documented process for buyer credit assessment, contract/payment terms, foreign-exchange collection through an authorised dealer bank, and reconciliation of export proceeds. RBI requires realisation and repatriation of export proceeds and requires AD Category-I banks to generate eBRC data from the Export Data Processing and Monitoring System on an as-realised basis."
+      ],
+      "bullets": [
+        "Manufacturing quality: specifications, incoming-material control, in-process checks, final inspection and test evidence.",
+        "International trade execution: export documents, customs filing, packing, freight and shipment handover.",
+        "Commercial risk control: buyer due diligence, payment terms, insurance decisions, foreign-exchange and receivables tracking.",
+        "Market compliance: verify the buyer-country’s technical, labelling, safety, sanitary, environmental and product-conformity requirements for the specific product."
+      ],
+      "source_urls": [
+        "https://www.bis.gov.in/product-certification/product-certification-faq/?lang=en",
+        "https://www.bis.gov.in/laboratorys/testing-overview/?lang=en",
+        "https://www.icegate.gov.in/guidelines/communicating-icegate",
+        "https://systemhealth.rbi.org.in/Scripts/BS_ViewMasDirections.aspx_id%3D10395%283%29.html",
+        "https://systemhealth.rbi.org.in/Scripts/BS_ViewMasDirections.aspx_id%3D10200.html"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating model: from purchase order to export realisation",
+      "paragraphs": [
+        "A robust export-oriented manufacturing model begins with a buyer-approved specification and commercial agreement, then converts that requirement into production planning, sourcing, quality checks, packing, customs documentation and shipment. DGFT’s prescribed document set includes a commercial invoice-cum-packing list and shipping bill/bill of export; ICEGATE describes electronic submission of shipping bills into the Customs EDI System.",
+        "The business should retain a linked record trail from purchase order through batch or lot records, inspection/test records, invoice and packing list, shipping bill, transport/freight evidence, and bank realisation. This connects manufacturing evidence to the customs shipment and the eventual collection of export proceeds, which RBI monitors through the export-data framework.",
+        "An export manufacturer can sell directly to overseas buyers, manufacture for a merchant exporter, or combine its own exports with domestic sales. Direct exporting gives greater control over buyer relationships and pricing but also places document, logistics, collections and market-compliance responsibility on the manufacturer; a merchant-exporter arrangement can change the commercial and GST treatment of the domestic supply, so transaction design should be reviewed with qualified tax and trade professionals."
+      ],
+      "bullets": [
+        "1. Qualify buyer and confirm product, standards, labelling, packaging, price, delivery and payment terms.",
+        "2. Plan materials and production; preserve lot-level quality and test records.",
+        "3. Prepare invoice/packing list and file the shipping bill through the applicable customs workflow.",
+        "4. Dispatch through the chosen port, airport, courier or postal channel; reconcile shipment data and freight documents.",
+        "5. Track collection, bank reporting/eBRC evidence where applicable, tax/refund records and buyer claims or corrective actions."
+      ],
+      "source_urls": [
+        "https://content.dgft.gov.in/Website/dgftprod/c5ccbcbf-d61e-4279-abe7-ce2c6c99d62d/FTP%20Chapter%202%20updated%20as%20on%2031032021.pdf",
+        "https://www.icegate.gov.in/guidelines/communicating-icegate",
+        "https://systemhealth.rbi.org.in/Scripts/BS_ViewMasDirections.aspx_id%3D10395%283%29.html",
+        "https://cbic-gst.gov.in/hindi/sectoral-faq.html"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance map for an Indian export manufacturer",
+      "paragraphs": [
+        "Export compliance begins with the IEC and the applicable DGFT export policy for the product. For each shipment, the manufacturer must use the prescribed customs documentation and complete the customs process; the shipping bill is the central export declaration in the electronic customs workflow. Product-specific restrictions, authorisations, quality controls and destination-country import rules must be checked before contracting because requirements vary by product and market.",
+        "GST compliance must be designed into the transaction rather than addressed after shipment. Under the IGST Act, exports are zero-rated, with statutory routes for supply under bond/Letter of Undertaking without payment of integrated tax and input-tax-credit refund, or supply on payment of integrated tax followed by refund. Eligibility, documentation, filing and refund procedure are fact-specific and can change.",
+        "Quality compliance has two layers. First, the factory needs a reliable quality-management and testing system. Second, it must meet the standards and certifications demanded by the product, the importing market and the buyer. BIS notes that its compulsory product certification applies when a product is brought under compulsory certification by the Central Government, and that licence assessment evaluates manufacturing infrastructure, process controls, quality control and testing capability. For food and other regulated categories, additional sectoral rules may apply.",
+        "Foreign-exchange compliance continues after shipment: export proceeds must be realised and repatriated through the banking system within the RBI-prescribed time frame, subject to applicable extensions or special cases. The exporter should maintain a calendar for unpaid bills, discrepancy resolution, amendments and bank follow-up rather than treating collection as a sales-only issue."
+      ],
+      "bullets": [
+        "Confirm IEC status and product export-policy conditions before shipment.",
+        "Match invoice, packing list, shipping bill, product description, quantity, value and transport records.",
+        "Choose and document the GST zero-rating route appropriate to the transaction.",
+        "Maintain quality evidence and obtain the specific certifications, test reports or registrations required by the product and destination market.",
+        "Monitor export receivables with the authorised dealer bank and preserve realisation evidence."
+      ],
+      "source_urls": [
+        "https://content.dgft.gov.in/Website/pn7613.pdf",
+        "https://content.dgft.gov.in/Website/dgftprod/c5ccbcbf-d61e-4279-abe7-ce2c6c99d62d/FTP%20Chapter%202%20updated%20as%20on%2031032021.pdf",
+        "https://www.icegate.gov.in/guidelines/communicating-icegate",
+        "https://cbic-gst.gov.in/hindi/IGST-bill-e.html",
+        "https://www.bis.gov.in/product-certification/product-certification-faq/?lang=en",
+        "https://systemhealth.rbi.org.in/Scripts/BS_ViewMasDirections.aspx_id%3D10200.html"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Ways to scale responsibly",
+      "paragraphs": [
+        "Growth usually comes from deepening capability rather than merely adding countries: improve repeatability and yield, reduce defects and lead-time variability, create buyer-ready technical documentation, and develop a portfolio of customers and markets. The Ministry of MSME’s ZED programme is explicitly intended to help MSMEs improve quality, productivity and environmental performance while enhancing competitiveness and enabling exports; its Lean component is designed to improve MSME competitiveness through lean tools and techniques.",
+        "An MSME can also use structured export-market development channels. The Ministry’s International Cooperation Scheme describes support for international exhibitions, trade fairs and buyer-seller meets, and its Capacity Building of First Time Exporters component covers reimbursement categories related to EPC membership, export insurance and testing/quality certification, on the scheme’s stated terms. Support availability, eligibility and reimbursement limits are variable and should be checked at the time of application.",
+        "As the company matures, viable paths include becoming a direct exporter to a defined set of markets, becoming an approved OEM/private-label supplier, adding design or product engineering, building an overseas distributor network, or moving into higher-value certified products. The appropriate path depends on whether the business can finance working capital, sustain consistent quality, manage post-shipment service and collect overseas receivables reliably."
+      ],
+      "bullets": [
+        "Operational upgrade: ZED/lean practices, process capability, test systems and waste reduction.",
+        "Market upgrade: trade fairs, buyer-seller meetings, EPC engagement and buyer audits.",
+        "Commercial upgrade: diversify buyers and geographies; strengthen contracts, credit control and export insurance decisions.",
+        "Value upgrade: shift from commodity supply toward engineered, branded, certified or private-label products."
+      ],
+      "source_urls": [
+        "https://www.msme.gov.in/offerings/schemes-and-services/details/technology-upgradation-and-quality-certification-kjNzETMtQWa",
+        "https://www.msme.gov.in/offerings/schemes-and-services/details/marketing-promotion-schemes-2-YjNzETMtQWa",
+        "https://content.dgft.gov.in/Website/e-RCMC%20User%20Guide%20for%20Exporters.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DGFT IEC guidance",
+      "url": "https://content.dgft.gov.in/Website/pn7613.pdf",
+      "kind": "official guidance"
+    },
+    {
+      "label": "ICEGATE customs filing guidance",
+      "url": "https://www.icegate.gov.in/guidelines/communicating-icegate",
+      "kind": "official portal"
+    },
+    {
+      "label": "Udyam Registration Portal",
+      "url": "https://udyamregistration.gov.in/",
+      "kind": "official registration portal"
+    },
+    {
+      "label": "CBIC IGST Act: zero-rated supplies",
+      "url": "https://cbic-gst.gov.in/hindi/IGST-bill-e.html",
+      "kind": "official law and tax guidance"
+    },
+    {
+      "label": "RBI export of goods and services master direction",
+      "url": "https://systemhealth.rbi.org.in/Scripts/BS_ViewMasDirections.aspx_id%3D10200.html",
+      "kind": "official banking and foreign-exchange guidance"
+    },
+    {
+      "label": "Ministry of MSME International Cooperation Scheme",
+      "url": "https://www.msme.gov.in/offerings/schemes-and-services/details/marketing-promotion-schemes-2-YjNzETMtQWa",
+      "kind": "official scheme information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

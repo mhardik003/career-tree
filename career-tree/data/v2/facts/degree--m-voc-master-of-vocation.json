@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Award level",
+      "value": "M.Voc (Master of Vocation) is a UGC-specified master's degree.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html"
+      ]
+    },
+    {
+      "label": "Standard regulated duration",
+      "value": "UGC’s 21 July 2015 degree-specification notification lists M.Voc with a minimum duration of 2 years.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html"
+      ]
+    },
+    {
+      "label": "Named entry qualification",
+      "value": "The same UGC notification specifies B.Voc as the entry qualification for M.Voc.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html"
+      ]
+    },
+    {
+      "label": "National credit-framework context",
+      "value": "The National Credit Framework places a two-year M.Voc/master’s route after a three-year bachelor’s degree at NCrF level 6.5, with a minimum of 80 credits across the two years; programme-specific admission rules still apply.",
+      "source_urls": [
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: B.Voc is the formal named route, but subject requirements vary",
+      "paragraphs": [
+        "UGC’s specification of degrees identifies B.Voc as the entry qualification for the two-year M.Voc. This makes M.Voc the direct postgraduate continuation of the B.Voc pathway.",
+        "Universities may also admit candidates with closely related undergraduate qualifications, sometimes with bridge-course requirements. For example, Babasaheb Ambedkar Marathwada University lists relevant B.Voc, B.Sc., B.E. and B.Tech qualifications for its Industrial Automation and Automobile M.Voc specializations, while Gauhati University’s 2026 Animation and Graphic Design M.Voc requires an undergraduate degree in a related animation, graphics, design or multimedia field. Applicants should therefore check the eligibility rule for the specific specialization rather than assume that every M.Voc accepts every bachelor’s degree."
+      ],
+      "bullets": [
+        "Direct pathway: B.Voc in the relevant vocational discipline.",
+        "Possible alternative pathway: a related bachelor’s degree where the offering university expressly permits it.",
+        "Bridging: some programmes prescribe additional coursework for entrants whose prior study does not fully match the vocational specialization."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html",
+        "https://www.bamu.ac.in/en/academicspage/deen-dayal-upadhyay-kaushal-kendra/",
+        "https://admissions.gauhati.ac.in/programmes/mvoc-animation-graphic-design/"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and academic structure",
+      "paragraphs": [
+        "The UGC degree notification specifies a minimum two-year duration for M.Voc with B.Voc entry. In the National Credit Framework’s multiple-entry and multiple-exit illustration, a two-year M.Voc/master’s programme after a three-year bachelor’s degree carries at least 80 credits—at least 40 credits in each year—at NCrF level 6.5.",
+        "Current university offerings commonly present this as four semesters. For example, Gauhati University lists its M.Voc in Animation and Graphic Design as a two-year postgraduate programme, and Devi Ahilya Vishwavidyalaya describes its M.Voc admissions as four semesters/two years."
+      ],
+      "bullets": [
+        "Baseline regulated duration: 2 years.",
+        "Typical delivery pattern: 4 semesters.",
+        "Credit-framework illustration: 80 or more credits across the two-year master’s route."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html",
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf",
+        "https://admissions.gauhati.ac.in/programmes/mvoc-animation-graphic-design/",
+        "https://ddukk.dauniv.ac.in/admission.php"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum: advanced, specialization-led vocational study",
+      "paragraphs": [
+        "There is no single nationwide subject list for M.Voc: the curriculum is defined by the specialization and university. The programme can cover fields such as industrial automation, automobile technology, interior design, nutrition and dietetics, landscape design, software development, animation and graphic design.",
+        "The vocational emphasis is reflected in published university regulations and syllabi. Mahatma Gandhi University’s M.Voc regulations show semesters combining general components with skill courses delivered through theory, practical/on-the-job training and internship. Gauhati University describes its Animation and Graphic Design M.Voc as developing 2D/3D animation, visual-effects, UI/UX and multimedia capabilities. Students should obtain the latest scheme and syllabus from the university before applying, because course titles, work-integrated components, credits and assessment arrangements are specialization-specific."
+      ],
+      "bullets": [
+        "General and discipline/skill components may be combined.",
+        "Practical, OJT and internship components may form part of the programme design.",
+        "Specializations determine the technical tools, occupational skills and project work studied."
+      ],
+      "source_urls": [
+        "https://www.mgu.ac.in/uploads/2023/11/01_M_Voc_New_Reg_2022_11_07_2023.pdf?x66268=",
+        "https://admissions.gauhati.ac.in/programmes/mvoc-animation-graphic-design/",
+        "https://www.bamu.ac.in/en/academicspage/deen-dayal-upadhyay-kaushal-kendra/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process: university- and specialization-specific",
+      "paragraphs": [
+        "Admission procedures are set by the offering university. They may use an entrance test, qualifying-degree merit, or a combination of university rules and counselling/document verification. As a dated example, Gauhati University’s 2026 M.Voc in Animation and Graphic Design lists admission through its PGET entrance test; Devi Ahilya Vishwavidyalaya’s M.Voc examples state admission on graduation merit.",
+        "Applicants should verify the current admission notice for the intended academic session, including the relevant degree/subject requirements, minimum marks, entrance-test requirement, seat count, reservation rules, document list and application timeline. These details are not uniform across M.Voc providers and can change from one admissions cycle to the next."
+      ],
+      "bullets": [
+        "Check whether admission is entrance-based, merit-based, or both.",
+        "Confirm that the prior qualification matches the specialization.",
+        "Use the institution’s current admissions portal and notification rather than an undated course listing."
+      ],
+      "source_urls": [
+        "https://admissions.gauhati.ac.in/programmes/mvoc-animation-graphic-design/",
+        "https://ddukk.dauniv.ac.in/admission.php"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After M.Voc: professional progression and doctoral study",
+      "paragraphs": [
+        "An M.Voc is a master’s-level qualification intended to deepen a vocational specialization, so the immediate next step may be work in the corresponding sector, with the job role depending on the specialization and employer requirements. It can also support progression to research study where the receiving institution’s subject-specific conditions are met.",
+        "The National Credit Framework’s higher-education illustration places the M.Voc/master’s level at NCrF level 6.5 and includes a master’s degree among routes toward doctoral study. However, a Ph.D. application is not automatic: UGC Ph.D. regulations and the admitting institution’s rules govern eligibility, marks, entrance procedures and discipline fit."
+      ],
+      "bullets": [
+        "Enter or advance in roles aligned with the M.Voc specialization.",
+        "Consider doctoral study where the proposed field and institutional eligibility requirements match.",
+        "Review professional-regulator requirements separately for regulated occupations; an M.Voc title alone does not replace any mandatory licence or registration."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page565.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC notification specifying M.Voc as a two-year master's degree with B.Voc entry",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1105.html",
+      "kind": "regulator"
+    },
+    {
+      "label": "UGC National Credit Framework",
+      "url": "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf",
+      "kind": "regulator"
+    },
+    {
+      "label": "Gauhati University M.Voc admissions example",
+      "url": "https://admissions.gauhati.ac.in/programmes/mvoc-animation-graphic-design/",
+      "kind": "university_admissions"
+    },
+    {
+      "label": "Babasaheb Ambedkar Marathwada University vocational-programme eligibility example",
+      "url": "https://www.bamu.ac.in/en/academicspage/deen-dayal-upadhyay-kaushal-kendra/",
+      "kind": "university"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

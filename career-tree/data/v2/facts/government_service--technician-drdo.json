@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Current official post title",
+      "value": "The current CEPTAM recruitment designation is Technician-A (Tech-A), not “Technician B.” It is part of the Defence Research & Development Organisation Technical Cadre (DRTC).",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf"
+      ]
+    },
+    {
+      "label": "Service classification",
+      "value": "Technician-A is a Group ‘C’, Non-Gazetted, Non-Ministerial post.",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf"
+      ]
+    },
+    {
+      "label": "Core entry qualification",
+      "value": "In CEPTAM-11, applicants needed Class 10/equivalent plus a certificate from a recognised ITI in the applicable trade. Where an ITI does not award that trade certificate, a recognised minimum one-year certificate, National Trade Certificate (NTC), or National Apprenticeship Certificate (NAC) may qualify, subject to the notification’s terms.",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf"
+      ]
+    },
+    {
+      "label": "Recruitment route",
+      "value": "CEPTAM conducts recruitment for DRDO’s technical cadre. For Technician-A in CEPTAM-11, selection comprised Tier-I CBT screening, Tier-II subject-specific CBT, and a mandatory qualifying trade test, except where the advertisement provides a trade-test exemption for eligible recent DRDO apprentices.",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf",
+        "https://drdo.gov.in/drdo/en/how-can-i-join-drdo"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "For the CEPTAM-11 cycle, Technician-A carried 7th CPC Pay Matrix Level 2: ₹19,900–₹63,200 basic pay, with allowances and benefits governed by then-extant Government of India rules. This is dated recruitment context, not a guaranteed take-home salary.",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf"
+      ]
+    },
+    {
+      "label": "Posting and mobility",
+      "value": "CEPTAM-11 identified postings across DRDO locations and stated all-India service liability. Selected candidates could be posted anywhere in India, including field or remote locations, and the notification stated a minimum five-year tenure at the first posting station, subject to its terms and public-interest transfers.",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a DRDO Technician-A does",
+      "paragraphs": [
+        "Technician-A is a trade-based technical-cadre role rather than one uniform job assignment. The CEPTAM-11 recruitment listed trade streams including electrician, electronics, fitter, machinist, CNC operator, draughtsman (mechanical), COPA, carpenter, welder, surveyor, optical worker and others. In practice, the technical work is therefore tied to the trade for which a candidate is recruited and the needs of the nominated DRDO laboratory, establishment or unit.",
+        "DRDO describes its work as research and development of defence systems, technologies, infrastructure and related activities for the armed services. A Technician-A should therefore expect practical, trade-specific technical support in that research-and-development environment, rather than a general clerical role."
+      ],
+      "bullets": [
+        "Apply only for a trade whose stated qualification exactly matches the notification.",
+        "Treat the post code and named trade as central to the work profile and examination preparation.",
+        "Read the specific recruitment advertisement for the applicable cycle because listed trades, vacancies and posting stations can change."
+      ],
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf",
+        "https://drdo.gov.in/drdo/en/how-can-i-join-drdo"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route through CEPTAM",
+      "paragraphs": [
+        "The principal entry route is an open CEPTAM direct-recruitment notification for Technician-A. In the CEPTAM-11 cycle, the normal age band was 18–28 years as of January 1, 2026, with category-specific relaxations under Government of India rules. Eligibility, age cut-off, trade list, fee and documentation must be checked afresh for each notification.",
+        "For CEPTAM-11, candidates took Tier-I in computer-based-test format for screening; it covered general science, English, quantitative aptitude/general mathematics, and general intelligence and reasoning. Tier-II included a subject-specific test for the post code, followed by an ITI-level practical trade test that was qualifying in nature. Tier-II and trade-test scheduling and selection mechanics are notification-specific.",
+        "Applicants should not assume a polytechnic diploma is the standard prerequisite for this post. Technician-A is primarily an ITI/trade-certificate route; the CEPTAM-11 advertisement did state that diploma or bachelor’s-degree holders could be eligible only if they also fulfilled the prescribed Technician-A educational requirement, while certain higher qualifications were excluded for that cycle."
+      ],
+      "bullets": [
+        "Complete Class 10 or its recognised equivalent.",
+        "Obtain the required ITI certificate in the advertised trade; use the NTC/NAC or one-year-certificate alternative only where the notification permits it.",
+        "Monitor DRDO’s official CEPTAM vacancy page and submit applications only through the official process.",
+        "Prepare both CBT fundamentals and hands-on ITI-level trade competence."
+      ],
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf",
+        "https://drdo.gov.in/drdo/en/offerings/vacancies/ceptam-11-advertisement-post-sta-b-and-technician"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to build",
+      "paragraphs": [
+        "The official examination pattern gives a practical skills map for aspirants: foundational general science, English, quantitative aptitude/general mathematics, reasoning, and strong command of the particular ITI trade. Tier-II is subject-specific, and the trade test is designed to assess practical skills in the related trade at ITI level under the syllabus specified by the Directorate General of Training (DGT).",
+        "Beyond test preparation, candidates benefit from disciplined trade practice: interpreting task requirements, using the trade’s tools and methods safely, and working accurately enough to meet a qualifying practical assessment. This is an inference from the notification’s ITI-level trade-test requirement, rather than a substitute for a laboratory-specific job description."
+      ],
+      "bullets": [
+        "Trade theory and hands-on ITI practical work.",
+        "General science, basic mathematics, English and reasoning for Tier-I.",
+        "Accuracy and timed CBT practice; CEPTAM-11 used negative marking in Tier-I and the subject-specific part of Tier-II.",
+        "Document readiness: educational certificates, identity/age proof and applicable reservation or relaxation records."
+      ],
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf",
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM_11_T2_Syllabus.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace, posting and service conditions",
+      "paragraphs": [
+        "Technician-A recruits are nominated to DRDO laboratories, establishments or units. CEPTAM-11 listed stations such as Ahilyanagar, Ambernath, Balasore, Bengaluru, Chandigarh, Chennai, Dehradun, Delhi, Haldwani, Hyderabad, Jodhpur, Kanpur, Kochi, Mysuru, Nashik, Pune and Visakhapatnam; the actual station depends on the notified trade, vacancies and organisational requirement.",
+        "The CEPTAM-11 service conditions stated that recruits would initially serve a two-year probation and could be required to serve anywhere in India, including field or remote locations. It also stated that DRDO could post candidates anywhere in India and that first-posting transfer requests would ordinarily not be entertained for five years, while transfers in public interest remained possible."
+      ],
+      "bullets": [
+        "Expect a laboratory, establishment or unit assignment—not necessarily a posting in the applicant’s home state.",
+        "Treat location preferences as preferences, not a guarantee of allotment.",
+        "Review the current notice carefully because stations, vacancy counts and service terms can be revised by recruitment cycle."
+      ],
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Career progression",
+      "paragraphs": [
+        "CEPTAM-11 states that DRTC posts are covered by the merit-based Limited Flexible Complementing Scheme (LFCS) for promotion to the next higher grade. That establishes an internal promotion framework, but the advertisement does not provide a universal time-to-promotion or assure promotion for every individual.",
+        "A Technician-A who wants to move into a different entry-grade technical post should distinguish internal progression from fresh direct recruitment. For example, Senior Technical Assistant-B (STA-B) is separately advertised as a Group ‘B’, Non-Gazetted, Non-Ministerial role with different degree/diploma-based qualification requirements and selection rules."
+      ],
+      "bullets": [
+        "Use the applicable DRTC/LFCS rules and departmental guidance for promotion details.",
+        "Do not treat a diploma alone as an automatic conversion or promotion to STA-B.",
+        "Track official CEPTAM notices for vacancies and eligibility conditions relevant to any future direct-recruitment application."
+      ],
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf",
+        "https://drdo.gov.in/drdo/en/how-can-i-join-drdo"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation and application-cost context",
+      "paragraphs": [
+        "As published for CEPTAM-11, Technician-A was in Pay Matrix Level 2, ₹19,900–₹63,200 basic pay under the 7th Central Pay Commission. The notice also referred to dearness allowance, house-rent allowance, transport allowance, children education allowance, leave travel concession, medical facilities, CSD facility and other benefits under extant government rules; pension coverage was stated as NPS/UPS according to the rules then in force. Allowances, pension coverage, deductions, city classification and resulting in-hand pay are variable and should not be inferred from the basic-pay range alone.",
+        "For the CEPTAM-11 application cycle, General/OBC/EWS/MSP Technician-A applicants paid ₹600 upfront: ₹100 non-refundable application fee plus ₹500 refundable fee, while women, SC, ST, PwBD and eligible ex-servicemen paid ₹500 refundable fee. The ₹500 refundable component was payable back only to candidates who appeared in Tier-I. These are historical, cycle-specific figures; future fees and refund terms can change."
+      ],
+      "bullets": [
+        "Use the notified pay level as basic-pay context, not an estimate of monthly take-home pay.",
+        "Check the current notice for current allowances, pension rules, fee categories and refund rules.",
+        "Vacancy totals and compensation-related conditions are subject to the relevant notification and Government of India rules."
+      ],
+      "source_urls": [
+        "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DRDO CEPTAM-11 Technician-A and STA-B recruitment page",
+      "url": "https://drdo.gov.in/drdo/en/offerings/vacancies/ceptam-11-advertisement-post-sta-b-and-technician",
+      "kind": "official recruitment page"
+    },
+    {
+      "label": "CEPTAM-11 detailed English advertisement",
+      "url": "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf",
+      "kind": "official advertisement PDF"
+    },
+    {
+      "label": "DRDO: How can I join DRDO?",
+      "url": "https://drdo.gov.in/drdo/en/how-can-i-join-drdo",
+      "kind": "official career information"
+    },
+    {
+      "label": "CEPTAM-11 Tier-II syllabus",
+      "url": "https://drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM_11_T2_Syllabus.pdf",
+      "kind": "official syllabus PDF"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

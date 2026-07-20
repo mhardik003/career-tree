@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Occupational-standard identity",
+      "value": "Tourism & Hospitality Skill Council (THSC) identifies Housekeeping Executive as a Hotels-subsector, Housekeeping occupation role (qualification pack THC/Q0208), aligned to NCO-2015 code 5121.10.",
+      "source_urls": [
+        "https://www.thsc.in/admin/uploads/curriculum/Housekeeping%20Executive.pdf"
+      ]
+    },
+    {
+      "label": "Core role scope",
+      "value": "The THSC qualification pack describes the role as maintaining high housekeeping standards on an assigned floor, controlling materials inventory, and assisting with supervision of housekeeping activity; it is also known as a Floor Manager.",
+      "source_urls": [
+        "https://www.thsc.in/admin/uploads/curriculum/Housekeeping%20Executive.pdf"
+      ]
+    },
+    {
+      "label": "Degree route context",
+      "value": "NCHMCT's B.Sc. in Hospitality & Hotel Administration is a three-year, six-semester programme with housekeeping operational training and preparation for supervisory hospitality roles. Admission requirements and selection processes should be checked for the applicable intake.",
+      "source_urls": [
+        "https://www.nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic"
+      ]
+    },
+    {
+      "label": "Diploma route context",
+      "value": "NCHMCT lists a Diploma in Housekeeping Operation lasting three semesters (1.5 years), including a 24-week industrial-training term. Its admission page states 10+2 with English as an eligibility condition for that diploma route.",
+      "source_urls": [
+        "https://nchm.gov.in/academic/diploma-housekeeping-operation",
+        "https://nchm.gov.in/node/332"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Housekeeping Executive does",
+      "paragraphs": [
+        "A Housekeeping Executive coordinates quality and readiness across an allotted hotel floor or area rather than only cleaning rooms personally. Typical work includes preparing for service, monitoring attendants' work, maintaining housekeeping equipment and consumables, and helping supervise the operation. THSC says the role may stand in for a Housekeeping Supervisor when that person is absent.",
+        "At property level, responsibilities commonly include checking cleaned guest rooms and public areas against standards; confirming room status; prioritising room cleaning; documenting discrepant-room issues; and coordinating with Front Office, Engineering and Laundry. Current India-based employer descriptions also include supervising room corridors, linen rooms, pantries and public areas; replenishing guest supplies; reporting damage or malfunction; maintaining floor reports and checklists; and assisting with attendance and performance assessment."
+      ],
+      "bullets": [
+        "Inspect guest rooms, public areas and service spaces for cleanliness, presentation and readiness.",
+        "Coordinate room status and cleaning priorities with Front Office; escalate room discrepancies and hand over unresolved matters between shifts.",
+        "Supervise attendants, brief teams, support training and track work quality, attendance or performance as required by the property.",
+        "Monitor linen, equipment, guest supplies and housekeeping materials; report maintenance, safety or security issues and follow hotel procedures.",
+        "Liaise with Engineering, Laundry and other operational departments to resolve defects and maintain guest service."
+      ],
+      "source_urls": [
+        "https://www.thsc.in/admin/uploads/curriculum/Housekeeping%20Executive.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes from the listed hospitality qualifications",
+      "paragraphs": [
+        "The listed parent qualifications can provide relevant preparation, but they are routes into the field rather than universal legal prerequisites for this title. NCHMCT's B.Sc. in Hospitality & Hotel Administration includes practical operational preparation in housekeeping and is designed to develop skills for supervisory hospitality work. A BBA in Hotel Management can similarly cover hotel operations, housekeeping and internship-based learning, although curriculum and admissions rules differ by university.",
+        "For a more directly housekeeping-focused route, NCHMCT's Diploma in Housekeeping Operation combines teaching with industrial training. Employers may also recruit candidates with lower formal qualifications when they have relevant experience, so candidates should compare course content, industrial exposure and the specific qualification/experience requirements in target hotel vacancies."
+      ],
+      "bullets": [
+        "B.Sc. in Hospitality and Hotel Administration: NCHMCT describes a six-semester programme with housekeeping laboratory/operational training and managerial inputs.",
+        "BBA in Hotel Management: university programmes may combine business-management subjects with housekeeping operations and internships; verify the exact syllabus and recognition of the chosen provider.",
+        "Diploma in Hotel Management: diploma offerings vary; a housekeeping-operation diploma is a specialised example with classroom/practical learning and industrial training.",
+        "Work-experience route: some hotel postings explicitly accept school-level education plus relevant housekeeping and supervisory experience."
+      ],
+      "source_urls": [
+        "https://www.nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+        "https://www.mgu.edu.in/programs/course-details/37",
+        "https://nchm.gov.in/node/332"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills and capabilities to build",
+      "paragraphs": [
+        "The role combines operational control, service quality and people supervision. THSC highlights grooming and hygiene, attention to detail, politeness, physical fitness and the ability to work standing for long hours. Its occupational standard also covers preparing service, performing housekeeping work, monitoring attendants and maintaining equipment and materials.",
+        "For supervisory effectiveness, build practical competence in work allocation, area inventories and frequency schedules, productivity standards, linen and stock control, workforce coordination, maintenance reporting, vendor/outsourcing awareness, waste and energy practices, and hotel safety procedures. These topics appear in NCHMCT's current rooms-division and housekeeping curriculum, while employers also expect clear shift communication, team briefings and coordination with other departments."
+      ],
+      "bullets": [
+        "Quality inspection and attention to cleanliness, presentation, room status and checklists.",
+        "Team briefing, work allocation, coaching and performance follow-up.",
+        "Linen, guest-supply, equipment and inventory control.",
+        "Professional guest communication, service recovery and interdepartmental coordination.",
+        "Safety awareness, incident escalation, hygiene, personal presentation and physical stamina.",
+        "Written records and basic digital/operational reporting, such as floor reports and room-status updates."
+      ],
+      "source_urls": [
+        "https://www.thsc.in/admin/uploads/curriculum/Housekeeping%20Executive.pdf",
+        "https://nchm.gov.in/sites/default/files/2026-02/B.Sc_.%20Syllabus_0.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the role is performed",
+      "paragraphs": [
+        "This is a rooms-and-housekeeping operations role in hotels. Work spans guest rooms, balconies and corridors, linen rooms, housekeeping pantries and public areas, with frequent coordination across Front Office, Engineering and Laundry. The THSC occupational standard places the role in the Hotels subsector, and current employer listings show the title at hotels in cities including Chennai, Kolkata, Mumbai and Bengaluru.",
+        "The work is service-critical and shift-based in practice: room readiness, guest requests, departures and maintenance issues must be communicated promptly across teams. Physical tasks can include moving a housekeeping cart or equipment, standing for extended periods and inspecting multiple areas; exact demands depend on the property and assigned section."
+      ],
+      "bullets": [
+        "Primary setting: hotel rooms division / housekeeping department.",
+        "Work interfaces: housekeeping attendants, Executive Housekeeper or housekeeping management, Front Office, Engineering and Laundry.",
+        "Coverage: rooms, corridors, public areas, linen/service rooms and housekeeping stores or pantries.",
+        "Operating conditions: active floor work, inspections, time-sensitive handovers and adherence to safety and security procedures."
+      ],
+      "source_urls": [
+        "https://www.thsc.in/admin/uploads/curriculum/Housekeeping%20Executive.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression context",
+      "paragraphs": [
+        "The role has a supervisory character: THSC notes that a Housekeeping Executive monitors attendants and may perform Housekeeping Supervisor duties in that person's absence. Employer descriptions place the role as assisting housekeeping management or the Executive Housekeeper through team supervision, training, performance assessment and operational reporting.",
+        "Progression is employer-specific rather than standardised nationally. A practical progression focus is to deepen people leadership, quality auditing, inventory and linen control, maintenance coordination, safety compliance and cross-department operation; these are capabilities associated with higher responsibility in rooms-division housekeeping."
+      ],
+      "bullets": [
+        "Strengthen floor supervision, team briefing, coaching and shift handover discipline.",
+        "Build capability in inventory controls, productivity standards, maintenance coordination and operational documentation.",
+        "Seek broader responsibility for public areas, linen/laundry coordination, training and quality checks where the property structure allows.",
+        "Confirm actual job grades and promotion titles with the employer, because titles and reporting lines differ across hotel brands and properties."
+      ],
+      "source_urls": [
+        "https://www.thsc.in/admin/uploads/curriculum/Housekeeping%20Executive.pdf",
+        "https://careers.accor.com/global/en/job/housekeeping-executive-in-novotel-kolkata-hotel-and-residences-kolkata-india-jid-93093",
+        "https://nchm.gov.in/sites/default/files/2026-02/B.Sc_.%20Syllabus_0.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "THSC Qualification Pack: Housekeeping Executive (THC/Q0208)",
+      "url": "https://www.thsc.in/admin/uploads/curriculum/Housekeeping%20Executive.pdf",
+      "kind": "occupational_standard"
+    },
+    {
+      "label": "NCHMCT: B.Sc. in Hospitality and Hotel Administration",
+      "url": "https://www.nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+      "kind": "official_course"
+    },
+    {
+      "label": "NCHMCT: Diploma in Housekeeping Operation",
+      "url": "https://nchm.gov.in/node/332",
+      "kind": "official_course"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

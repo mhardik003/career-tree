@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Core activity",
+      "value": "Playschool entrepreneurship is the operation of an early-childhood service that may combine preschool learning with care. National ECCE resources frame the sector around care, stimulation and development in the early years, while the Foundational Stage framework covers ages 3–8.",
+      "source_urls": [
+        "https://www.education.gov.in/national-curriculum-framework-foundational-stage-2022",
+        "https://www.spniwcd.wcd.gov.in/headquarter/main-verticals-stakeholders/vertical-early-childhood-care-and-education"
+      ]
+    },
+    {
+      "label": "School-law boundary",
+      "value": "The central Right of Children to Free and Compulsory Education Act provides the statutory right to free and compulsory education for children aged 6–14; a playschool serving younger children should not assume that this Act is its general preschool-recognition route.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/handle/123456789/2086?locale=en",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_9_9_00006_200935_1517807327595&orderno=3&sectionId=9010&sectionno=3"
+      ]
+    },
+    {
+      "label": "Local approval check",
+      "value": "Approval requirements can be state-specific: Haryana, for example, provides an online Women and Child Development Department service for recognition of private play schools. Founders should confirm the rules, land-use permissions and local-body requirements for the exact city and state before signing a lease or admitting children.",
+      "source_urls": [
+        "https://services.india.gov.in/service/detail/apply-for-recognition-for-private-play-schools-haryana-1"
+      ]
+    },
+    {
+      "label": "Food service trigger",
+      "value": "If the centre prepares, stores, distributes or sells food as a food business, FSSAI registration or licensing is mandatory; the applicable category depends on the activity and scale.",
+      "source_urls": [
+        "https://fssai.gov.in/cms/licensing.php",
+        "https://foscos.fssai.gov.in/search-eligibility/CL"
+      ]
+    },
+    {
+      "label": "Child-safety duty",
+      "value": "Under section 19 of POCSO, a person who knows or apprehends that an offence under the Act has occurred or is likely to occur must provide information to the Special Juvenile Police Unit or local police. The centre therefore needs a written safeguarding and escalation protocol.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_13_14_00005_201232_1517807323686&orderno=19&sectionId=12868&sectionno=19"
+      ]
+    },
+    {
+      "label": "Digital child-data rule",
+      "value": "The Digital Personal Data Protection Act, 2023 requires verifiable parental or lawful-guardian consent before processing a child's personal data, and prohibits harmful processing, tracking/behavioural monitoring and targeted advertising directed at children, subject to statutory exceptions and notifications.",
+      "source_urls": [
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_45_0_00003_2023-22_1763464807080&orderno=9&orgactid=AC_CEN_45_0_00003_2023-22_1763464807080&sectionId=101275&sectionno=9"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes and educational preparation",
+      "paragraphs": [
+        "The listed parent routes—B.Ed., D.El.Ed., nursery teaching, private primary teaching and tutoring—can provide classroom experience, parent communication skills and familiarity with basic school operations. For a founder moving into the preschool segment, that experience should be supplemented with early-childhood-specific learning: the National Curriculum Framework for the Foundational Stage describes Balvatika as a pre-Class 1 programme led by an ECCE-qualified teacher and built around a play-based approach. This is a useful staffing and quality benchmark, not a substitute for checking the rules that apply in the proposed state or municipality.",
+        "National ECCE and NCERT preschool guidance emphasise developmentally appropriate provision, health and care, infrastructure, teacher preparation and teaching-learning processes. A practical entry route is therefore to gain supervised ECCE exposure, build a local parent and referral network, and prepare a written programme and safeguarding plan before launch rather than treating a playschool as simply an extension of primary tuition."
+      ],
+      "bullets": [
+        "Use an ECCE-oriented curriculum and staff-development plan alongside any prior B.Ed., D.El.Ed. or teaching background.",
+        "Validate local recognition and premises requirements early; Haryana’s current government service for private play-school recognition demonstrates that a state may operate a dedicated route.",
+        "Where the business qualifies as an MSME, Udyam registration is available online on a self-declaration basis through the Ministry of MSME’s official portal."
+      ],
+      "source_urls": [
+        "https://www.education.gov.in/national-curriculum-framework-foundational-stage-2022",
+        "https://www.ncert.nic.in/dee/pdf/guidelines-for-preschool.pdf",
+        "https://services.india.gov.in/service/detail/apply-for-recognition-for-private-play-schools-haryana-1",
+        "https://www.msme.gov.in/static/uploads/2025/06/cdd1fa9e3553498f59e6fef26bcc34b4.pdf"
+      ]
+    },
+    {
+      "key": "capabilities",
+      "heading": "Capabilities that matter",
+      "paragraphs": [
+        "A credible playschool founder needs two linked capability sets: early-childhood pedagogy and service operations. National frameworks caution against merely pushing down primary-school content to younger children; they instead support holistic, developmentally appropriate, contextualised experiences. The founder should be able to translate that principle into daily routines, play materials, observation of children’s progress, inclusive communication and a curriculum that fits the local language and community.",
+        "The operational side requires reliable child handover and attendance procedures, staff supervision, incident documentation, parent communication, enrolment records and disciplined handling of child data. Because the service works directly with children, safeguarding, confidentiality and escalation are core management capabilities rather than optional administrative extras."
+      ],
+      "bullets": [
+        "Design learning through play, language-rich interaction, movement, exploration and routines appropriate to the children served.",
+        "Recruit, train and supervise caregivers and teachers against explicit safeguarding, hygiene, child-handover and incident-reporting procedures.",
+        "Collect only the child and family data needed for enrolment and care; obtain and record required parental/guardian consent for digital processing.",
+        "Maintain a process to act promptly on safeguarding concerns, including the POCSO reporting pathway."
+      ],
+      "source_urls": [
+        "https://www.spniwcd.wcd.gov.in/archive/download/1zP4zL",
+        "https://www.ncert.nic.in/dee/pdf/guidelines-for-preschool.pdf",
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_45_0_00003_2023-22_1763464807080&orderno=9&orgactid=AC_CEN_45_0_00003_2023-22_1763464807080&sectionId=101275&sectionno=9",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_13_14_00005_201232_1517807323686&orderno=19&sectionId=12868&sectionno=19"
+      ]
+    },
+    {
+      "key": "operating_model",
+      "heading": "Operating model: build a care-and-learning service, not only a classroom",
+      "paragraphs": [
+        "Start by defining the service proposition: age range, session length, whether the centre offers preschool only or extended daycare, calendar, meal provision, transport arrangements and how responsibility transfers between family and centre. The ECCE curriculum framework states that programmes should develop their own curriculum for their children, families, setting, linguistic culture and local community while following its broad principles. That supports a locally designed model rather than a copied primary-school timetable.",
+        "Turn the proposition into controlled daily operations: documented admission and emergency contacts; authorised pickup lists; attendance and arrival/departure records; allergies, medication and incident procedures; staffing rosters; parent communication; and a clear process for complaints and safeguarding escalation. If meals or snacks are prepared, served or otherwise handled as a food business, incorporate FSSAI eligibility and hygiene compliance into the operating plan from the outset.",
+        "The financial model should separately track recurring capacity-linked costs—rent, educator and caregiver payroll, utilities, consumables, food, insurance and compliance—and revenue by programme or care session. Fees, deposits, occupancy and margins vary materially by location, hours, premises and service mix; they should be locally costed and not inferred from national averages."
+      ],
+      "bullets": [
+        "Pilot one centre with a written programme, staffing plan, parent agreement and incident-response process before considering replication.",
+        "Use enrolment records and parent communications in a way consistent with the child-data requirements in the DPDP Act.",
+        "If food is included, identify the precise food activity in FoSCoS before beginning operations and obtain the applicable registration or licence."
+      ],
+      "source_urls": [
+        "https://www.spniwcd.wcd.gov.in/archive/download/1zP4zL",
+        "https://fssai.gov.in/cms/licensing.php",
+        "https://foscos.fssai.gov.in/search-eligibility/CL",
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_45_0_00003_2023-22_1763464807080&orderno=9&orgactid=AC_CEN_45_0_00003_2023-22_1763464807080&sectionId=101275&sectionno=9"
+      ]
+    },
+    {
+      "key": "compliance",
+      "heading": "Compliance checklist: verify locally before launch",
+      "paragraphs": [
+        "There is no safe single national checklist for every playschool location. The central RTE Act addresses the 6–14 age range, while state-level mechanisms may govern private play schools: Haryana’s current government portal, for example, accepts applications for recognition through its Women and Child Development Department. Before opening, obtain written confirmation from the relevant state education or women-and-child-development department, municipal/local body, planning or land-use authority, and fire-safety authority on the approvals applicable to the exact premises and model.",
+        "Child protection should be operationalised through staff codes of conduct, controlled access, authorised collection, incident logs, parent escalation contacts and a reporting protocol. POCSO section 19 creates a reporting duty where a person has knowledge or apprehension of an offence. If the business employs staff, it must also assess workplace obligations under the Sexual Harassment of Women at Workplace Act; section 4 requires an Internal Committee at workplaces covered by that provision, while the Act provides for Local Committees where an Internal Committee is not constituted.",
+        "Data practices require special care because admission, photographs, health and emergency records concern children. Section 9 of the DPDP Act provides for verifiable parent/guardian consent before processing a child’s personal data and restricts detrimental processing, tracking, behavioural monitoring and targeted advertising directed at children. Where the centre supplies food as a food business, FSSAI registration or licensing is mandatory. For tax, section 22 of the CGST Act states a general registration threshold of ₹20 lakh aggregate annual turnover for taxable suppliers in non-special-category States, with statutory exceptions and state-specific considerations; obtain professional tax advice before relying on a threshold or assuming that a particular educational or care service is exempt."
+      ],
+      "bullets": [
+        "Confirm state-specific recognition, local trade or establishment permissions, land-use, building and fire requirements for the actual address before capital commitment.",
+        "Implement a POCSO-aligned child-protection reporting and recordkeeping protocol; train every adult who works at the centre.",
+        "Assess POSH obligations for the employment setup and put the required redressal arrangement in place.",
+        "Use a documented parental-consent and privacy-notice process for digital records, photographs, parent apps and marketing communications.",
+        "Obtain FSSAI registration/licensing if the centre is a food business, and review GST position with a qualified adviser as the fee and service model is finalised."
+      ],
+      "source_urls": [
+        "https://services.india.gov.in/service/detail/apply-for-recognition-for-private-play-schools-haryana-1",
+        "https://www.indiacode.nic.in/handle/123456789/2086?locale=en",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_13_14_00005_201232_1517807323686&orderno=19&sectionId=12868&sectionno=19",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_13_14_00009_201314_1517807327213&orderno=4",
+        "https://www.indiacode.nic.in/show-data?abv=CEN&actid=AC_CEN_45_0_00003_2023-22_1763464807080&orderno=9&orgactid=AC_CEN_45_0_00003_2023-22_1763464807080&sectionId=101275&sectionno=9",
+        "https://fssai.gov.in/cms/licensing.php",
+        "https://taxinformation.cbic.gov.in/content-page/explore-act/1000291/1000001"
+      ]
+    },
+    {
+      "key": "growth_paths",
+      "heading": "Growth paths from a first centre",
+      "paragraphs": [
+        "A first operating centre can lead to the node’s child pathways: an ECCE certificate-oriented capability route, independent early-childhood education consultancy, teacher-training academy entrepreneurship, a multi-location playschool/daycare chain, or eventual primary-school entrepreneurship. The appropriate sequence is to prove pedagogical quality, safeguarding, staff supervision and unit-level financial controls first; only then standardise the elements that can safely be replicated, such as curriculum principles, induction, parent communication, enrolment controls and audit routines.",
+        "Expansion changes the compliance problem as well as the commercial opportunity. A second centre may operate under a different local authority or state regime; food operations may require new or modified FSSAI coverage; and organisations with locations in multiple places must assess POSH committee arrangements for their administrative units. A founder should treat every new location as a fresh compliance, premises-safety and staffing validation—not merely as a sales expansion."
+      ],
+      "bullets": [
+        "Consultancy: package demonstrated practice into curriculum review, centre setup, parent-engagement and staff-development services.",
+        "Teacher training academy: develop training from official ECCE/Foundational Stage principles and maintain clear distinctions between training, certification and any regulated qualification claims.",
+        "Multi-location chain: replicate only after documenting quality controls, safeguarding audits, data practices and each site’s local permissions.",
+        "Primary-school entrepreneurship: plan separately for the legal and recognition requirements that apply once the service moves into the formal elementary-school age range."
+      ],
+      "source_urls": [
+        "https://www.education.gov.in/national-curriculum-framework-foundational-stage-2022",
+        "https://www.spniwcd.wcd.gov.in/archive/download/1zP4zL",
+        "https://www.indiacode.nic.in/show-data?actid=AC_CEN_13_14_00009_201314_1517807327213&orderno=4",
+        "https://foscos.fssai.gov.in/search-eligibility/CL",
+        "https://www.indiacode.nic.in/handle/123456789/2086?locale=en"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Curriculum Framework for Foundational Stage 2022",
+      "url": "https://www.education.gov.in/national-curriculum-framework-foundational-stage-2022",
+      "kind": "official curriculum framework"
+    },
+    {
+      "label": "NCERT Guidelines for Preschool Education",
+      "url": "https://www.ncert.nic.in/dee/pdf/guidelines-for-preschool.pdf",
+      "kind": "official guidance"
+    },
+    {
+      "label": "National ECCE policies and quality resources",
+      "url": "https://www.spniwcd.wcd.gov.in/ecce/archive/ecce-polices-programmes",
+      "kind": "official policy resource"
+    },
+    {
+      "label": "Haryana private play-school recognition service",
+      "url": "https://services.india.gov.in/service/detail/apply-for-recognition-for-private-play-schools-haryana-1",
+      "kind": "state recognition example"
+    },
+    {
+      "label": "FSSAI FoSCoS eligibility checker",
+      "url": "https://foscos.fssai.gov.in/search-eligibility/CL",
+      "kind": "food-compliance tool"
+    },
+    {
+      "label": "Udyam Registration",
+      "url": "https://udyamregistration.gov.in/",
+      "kind": "MSME registration portal"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

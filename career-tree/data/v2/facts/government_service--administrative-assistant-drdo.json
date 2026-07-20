@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Recruiting authority and cadre",
+      "value": "DRDO identifies CEPTAM as the recruiting body for its Admin & Allied cadre, which includes Group B and Group C recruitment; Administrative Assistant ‘A’ has been advertised under the Admin & Allied cadre.",
+      "source_urls": [
+        "https://www.drdo.gov.in/drdo/how-can-i-join-drdo"
+      ]
+    },
+    {
+      "label": "Selection context",
+      "value": "The historical CEPTAM-09 notice used a Tier-I computer-based test followed, where applicable, by Tier-II tests; passing the typing test was mandatory for Administrative Assistant ‘A’. DRDO states that CEPTAM handles advertising, application scrutiny, tests and appointment-related selection processes for Admin & Allied recruitment.",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/en/offerings/vacancies/know-more"
+      ]
+    },
+    {
+      "label": "Current recruitment-checking context",
+      "value": "DRDO’s CEPTAM-11 page, published for STA-B and Technician-A posts, is not an Administrative Assistant ‘A’ notification. Prospective applicants should monitor DRDO’s vacancies and CEPTAM notices for a future Admin & Allied advertisement rather than assume a standing annual intake.",
+      "source_urls": [
+        "https://drdo.gov.in/drdo/en/offerings/vacancies/ceptam-11-advertisement-post-sta-b-and-technician",
+        "https://www.drdo.gov.in/drdo/en/offerings/vacancies/know-more"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "entry_routes",
+      "heading": "Primary entry route: CEPTAM Admin & Allied recruitment",
+      "paragraphs": [
+        "The normal external route is to wait for a DRDO CEPTAM Admin & Allied advertisement that specifically lists Administrative Assistant ‘A’ vacancies, then apply online through the official process and meet the post-code-specific requirements. DRDO says CEPTAM administers Admin & Allied recruitment, including advertising, scrutiny, written/CBT examinations, trade tests and selection processes.",
+        "For preparation planning, the most concrete official benchmark is the CEPTAM-09/Admin & Allied notification: it required 12th pass or equivalent plus a qualifying computer typing test—English at 35 wpm or Hindi at 30 wpm. That notice also made clear that a typing-test pass was essential. Vacancy numbers, language-wise posts, age limits, reservation, examination design and dates can change in later notifications, so the live advertisement prevails.",
+        "There has also historically been a limited internal-promotion channel into Administrative Assistant ‘A’. The 2014 amendment to the recruitment rules described 85% direct recruitment and 15% promotion, split between a departmental examination route and selection from eligible Group C staff. This is historical rules context; it should not be treated as confirmation of the currently applicable quota or eligibility without checking the latest DRDO rules and notification."
+      ],
+      "bullets": [
+        "Complete Class 12 or an accepted equivalent qualification.",
+        "Build accurate, timed computer typing in the language—English or Hindi—specified in the recruitment notice.",
+        "Apply only when the official CEPTAM advertisement lists the relevant Administrative Assistant ‘A’ post code.",
+        "Treat the notice’s post-specific eligibility, test scheme and dates as controlling documents."
+      ],
+      "source_urls": [
+        "https://www.drdo.gov.in/drdo/how-can-i-join-drdo",
+        "https://drdo.gov.in/drdo/en/offerings/vacancies/know-more"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills demonstrated by the official entry standards",
+      "paragraphs": [
+        "The clearest role-specific skills evidenced by official recruitment material are computer-based typing accuracy and speed, together with the ability to meet a formal recruitment examination process. CEPTAM-09 set separate English- and Hindi-typing standards for Administrative Assistant ‘A’, and required candidates for the post to pass the typing test.",
+        "Because the qualification benchmark in that notice was 12th pass or equivalent rather than a degree or specialist diploma, a Certificate in Computer Applications or a commerce background can be useful preparation but is not, by itself, established as a universal mandatory requirement for the post. Candidates should avoid assuming that an optional course substitutes for the notified typing and examination requirements."
+      ],
+      "bullets": [
+        "Computer typing: practice the language and speed named in the notice.",
+        "Accuracy under a timed 10-minute typing test.",
+        "Basic comfort with computer-based recruitment tests and online applications.",
+        "Careful reading of post-code-specific eligibility and instructions."
+      ],
+      "source_urls": [
+        "https://www.drdo.gov.in/drdo/en/offerings/vacancies/know-more"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and posting conditions",
+      "paragraphs": [
+        "Administrative Assistant ‘A’ is part of DRDO’s Admin & Allied cadre, supporting an organisation that conducts defence research, design, development, testing and evaluation. The 2019 Admin & Allied notice listed Administrative Assistant ‘A’ vacancies across multiple DRDO posting stations and stated that selected candidates could be required to serve anywhere in India, including field or remote locations, according to organisational requirements.",
+        "That notice also stated that selected candidates would be subject to Central Government rules, appointed on probation, and normally required to serve at least five years at the first place of posting, subject to DRDO’s transfer provisions. These conditions are historical notification context and should be rechecked against the terms of any future appointment notice."
+      ],
+      "bullets": [
+        "Potential placement in DRDO laboratories, establishments or units rather than a single fixed city.",
+        "Mobility may be a condition of appointment.",
+        "Employment conditions are governed by the relevant Central Government and DRDO rules."
+      ],
+      "source_urls": [
+        "https://drdo.gov.in/drdo/en/offerings/vacancies/know-more"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DRDO: How can I join DRDO?",
+      "url": "https://www.drdo.gov.in/drdo/how-can-i-join-drdo",
+      "kind": "official recruitment overview"
+    },
+    {
+      "label": "DRDO vacancies and CEPTAM information",
+      "url": "https://drdo.gov.in/drdo/en/offerings/vacancies/know-more",
+      "kind": "official recruitment information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Service model",
+      "value": "An Agniveer is enrolled under the Agnipath scheme for a four-year engagement, including training, in the Indian Armed Forces; this node concerns the Indian Army pathway.",
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1834227&lang=1&reg=1"
+      ]
+    },
+    {
+      "label": "Recruitment route",
+      "value": "For recruiting year 2026–27, the Indian Army stated that applicants would first take an online Common Entrance Examination (CEE), a computer-based test, after registering through Join Indian Army. The stated registration window—13 February to 1 April 2026—has passed as of this node review date; candidates should rely on the official portal for later notices.",
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231760&lang=2&reg=48",
+        "https://www.joinindianarmy.nic.in/"
+      ]
+    },
+    {
+      "label": "Regular-service opportunity",
+      "value": "At the end of the four-year engagement, Agniveers may apply for regular enrolment; selection is based on organisational requirements, centrally determined objective criteria and performance. Up to 25% of each specific batch may be enrolled in the regular cadre, so continuation is not automatic.",
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1834227&lang=1&reg=1"
+      ]
+    },
+    {
+      "label": "In-service education option",
+      "value": "IGNOU offers a three-year Bachelor of Arts (Applied Skills) programme for Agniveers. It combines 60 IGNOU credits with 60 credits from defence-service in-service skill training; eligibility listed by IGNOU is 10+2 or equivalent.",
+      "source_urls": [
+        "https://www.ignou.ac.in/schools/programme/BAAS"
+      ]
+    },
+    {
+      "label": "Compensation context",
+      "value": "The original Agnipath package published in June 2022 ranged from ₹30,000 per month in year 1 to ₹40,000 in year 4, with 30% contributed to the Agniveer Corpus Fund and a matching government contribution. The published exit Seva Nidhi figure was approximately ₹11.71 lakh including applicable interest; package, allowances and rules should be verified against the applicable recruitment notification.",
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1833765&lang=2&reg=48"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Role and responsibilities",
+      "paragraphs": [
+        "An Agniveer (Indian Army) is a below-officer-rank soldier recruited for a fixed four-year engagement under Agnipath. The role involves military training and Army service during that engagement; the precise duties, technical work and deployment responsibilities depend on the recruitment category, trade, unit and Army requirements rather than being identical for every Agniveer.",
+        "source_urls"
+      ],
+      "bullets": [
+        "Complete the Army’s prescribed training and serve for the four-year engagement period.",
+        "Perform duties assigned under the applicable Army category, trade and unit.",
+        "Maintain the medical and service standards applicable to the selected category during enrolment and service."
+      ],
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1834227&lang=1&reg=1",
+        "https://msde.gov.in/sites/default/files/2023-09/Final%20Skill%20AR%20Eng.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry route and selection process",
+      "paragraphs": [
+        "Recruitment is conducted through the Indian Army’s official recruitment system. The Ministry of Defence’s 2026–27 recruitment communication described online registration through Join Indian Army followed first by an online CEE (computer-based test). Candidates must meet the education, age, physical and medical standards set for the specific category in the applicable notification; these requirements can differ across categories and recruiting years.",
+        "source_urls"
+      ],
+      "bullets": [
+        "Monitor the official Join Indian Army portal and the relevant recruiting-year notification rather than relying on third-party application sites.",
+        "Register within the announced window and pay only the fee, if any, specified in the official notice.",
+        "Prepare for the CEE and the later recruitment stages specified by the Army, including physical and medical eligibility checks.",
+        "Treat historic scheme-level eligibility information—such as the original 17.5–21 age range and Class 10 example for General Duty—as context, not as a substitute for the current category-specific notification."
+      ],
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231760&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1834227&lang=1&reg=1",
+        "https://www.joinindianarmy.nic.in/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills developed and recognised",
+      "paragraphs": [
+        "Military service develops discipline, physical fitness, teamwork, leadership and role-specific military or technical capabilities. The Ministry of Skill Development and Entrepreneurship reports that Agniveer job roles and skill sets were mapped to National Occupational Standards, and that the Directorate General of Training’s Flexi-MoU framework recognises skills acquired in training and service.",
+        "source_urls"
+      ],
+      "bullets": [
+        "For the Indian Army, the cited MSDE framework provides for National Trade Certificates across 47 trades, with seven additional trades receiving certificates under NCVET-approved trade nomenclature.",
+        "The particular skill credential depends on the trade and on successful participation in the relevant training and certification process; it should not be assumed for every role without checking service instructions."
+      ],
+      "source_urls": [
+        "https://msde.gov.in/sites/default/files/2023-09/Final%20Skill%20AR%20Eng.pdf",
+        "https://www.msde.gov.in/static/uploads/2024/02/a58c37c42f8511ec0cadde5f64b4cce0.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression during and after the four-year engagement",
+      "paragraphs": [
+        "Agniveers can seek regular enrolment after completing the four-year period, but it is selective rather than guaranteed: the government states that up to 25% of each specific batch may be enrolled on the basis of organisational requirements, objective criteria and performance. Those selected for regular cadre service are subject to the applicable terms for regular Junior Commissioned Officer/Other Rank service.",
+        "source_urls"
+      ],
+      "bullets": [
+        "Use the service period to build a record of performance, fitness, discipline and trade skills relevant to any regular-cadre selection process.",
+        "Serving Agniveers with 10+2 or equivalent may pursue IGNOU’s BA (Applied Skills), which is structured to recognise in-service training credits.",
+        "The degree is intended by IGNOU to support post-service employment and further professional development; admission, credit completion and fee terms are set by IGNOU and can change."
+      ],
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1834227&lang=1&reg=1",
+        "https://www.ignou.ac.in/schools/programme/BAAS",
+        "https://rcmadurai.ignou.ac.in/announcements/1/detail/Skill_based_Bachelor_Degree_Programmes_for_Agniveers-390"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation and benefits context",
+      "paragraphs": [
+        "Compensation should be treated as dated policy context, not a current offer. In its June 2022 scheme announcement, the Government published a customised monthly package of ₹30,000, ₹33,000, ₹36,500 and ₹40,000 for years 1–4 respectively. It showed 70% as in-hand pay and 30% as the Agniveer’s monthly contribution to the corpus, matched by the Government; risk and hardship allowances were stated to apply where applicable.",
+        "source_urls"
+      ],
+      "bullets": [
+        "The same 2022 announcement stated that, on completing four years, the Seva Nidhi package would be approximately ₹11.71 lakh including applicable interest.",
+        "It also stated that Agniveers would receive non-contributory life insurance cover of ₹48 lakh for the engagement period.",
+        "The announcement stated that there would be no entitlement to pension or gratuity for the four-year Agniveer engagement. Verify pay, allowances, insurance, tax treatment and exit benefits in the notification and rules applicable to the candidate’s own intake."
+      ],
+      "source_urls": [
+        "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1833765&lang=2&reg=48"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Join Indian Army — official recruitment portal",
+      "url": "https://www.joinindianarmy.nic.in/",
+      "kind": "official_recruitment_portal"
+    },
+    {
+      "label": "Ministry of Defence — 2026–27 Army Agnipath/regular cadre CEE notice",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231760&lang=2&reg=48",
+      "kind": "official_recruitment_notice"
+    },
+    {
+      "label": "IGNOU — BA (Applied Skills) for Agniveers",
+      "url": "https://www.ignou.ac.in/schools/programme/BAAS",
+      "kind": "official_education_programme"
+    },
+    {
+      "label": "Ministry of Skill Development and Entrepreneurship — recognition of Agniveer skills",
+      "url": "https://msde.gov.in/sites/default/files/2023-09/Final%20Skill%20AR%20Eng.pdf",
+      "kind": "official_skills_framework"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

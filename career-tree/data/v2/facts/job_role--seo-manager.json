@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Role focus",
+      "value": "An SEO Manager owns and improves organic-search strategy, visibility, traffic and—where applicable—lead generation for a website or portfolio of websites.",
+      "source_urls": [
+        "https://in.linkedin.com/jobs/view/seo-manager-at-unacademy-4436806308",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      ]
+    },
+    {
+      "label": "Management scope",
+      "value": "Indian employer postings commonly include setting SEO KPIs, reporting performance, coordinating with content, development and marketing teams, and leading or mentoring SEO staff.",
+      "source_urls": [
+        "https://www.glassdoor.co.in/job-listing/seo-manager-fibe-JV_IC2856202_KO0%2C11_KE12%2C16.htm?jl=1009584641037",
+        "https://in.linkedin.com/jobs/view/seo-manager-at-bc-web-wise-4390112905"
+      ]
+    },
+    {
+      "label": "Core measurement tools",
+      "value": "Google Search Console and Google Analytics/GA4 are repeatedly requested; employers may also seek tools for crawling, keyword research, reporting and tag management.",
+      "source_urls": [
+        "https://www.quinnox.com/career/seo-manager/",
+        "https://in.linkedin.com/jobs/view/seo-manager-at-unacademy-4436806308"
+      ]
+    },
+    {
+      "label": "Experience context",
+      "value": "This is typically a mid-senior role rather than a first job: examples of India-based postings seek either 3–6 years of relevant experience or 7+ years across SEO and related digital marketing.",
+      "source_urls": [
+        "https://in.linkedin.com/jobs/view/seo-manager-at-blue-ocean-imc-4424359018",
+        "https://www.quinnox.com/career/seo-manager/"
+      ]
+    },
+    {
+      "label": "India compensation context",
+      "value": "The salary aggregator AmbitionBox reported an India SEO Manager range of ₹3 lakh–₹18 lakh annually, based on 3,600 reported salaries and updated 30 July 2025. This is historical, self-reported market context—not a 2026 salary promise; pay varies materially by experience, city, industry, employer and scope.",
+      "source_urls": [
+        "https://www.ambitionbox.com/profile/seo-manager-salary"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an SEO Manager does",
+      "paragraphs": [
+        "An SEO Manager translates business growth goals into an organic-search plan. Typical work includes prioritising technical, on-page, off-page and content improvements; researching queries and competitors; monitoring rankings, traffic and conversions; and turning the findings into reports and actions.",
+        "The role is managerial as well as hands-on. Employer examples in India describe defining success metrics and resources, creating implementation processes across teams, mentoring SEO specialists, and partnering with content, product or development colleagues. Good practice is not simply to chase rankings: Google describes SEO as helping search engines understand content and helping users find and decide whether to visit a site."
+      ],
+      "bullets": [
+        "Set an organic-growth roadmap, KPIs and reporting cadence.",
+        "Audit crawlability, indexation, internal linking, content and page experience; prioritise fixes with technical teams.",
+        "Guide keyword and search-intent research, content briefs and updates.",
+        "Measure organic performance and communicate implications to business stakeholders.",
+        "Lead an internal SEO team or agency/client workstreams, depending on the employer."
+      ],
+      "source_urls": [
+        "https://www.glassdoor.co.in/job-listing/seo-manager-fibe-JV_IC2856202_KO0%2C11_KE12%2C16.htm?jl=1009584641037",
+        "https://in.linkedin.com/jobs/view/seo-manager-at-unacademy-4436806308",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "For the canonical path from Digital Marketing Specialist, build demonstrable ownership of SEO work—such as audits, keyword and content plans, technical recommendations, Search Console analysis and outcome reporting—then move into roles with broader strategy and team or stakeholder responsibility. Current India job advertisements show that employers may accept a bachelor’s degree in marketing, communications, business or a related field, or equivalent practical experience; the practical evidence of SEO results is therefore important.",
+        "Manager vacancies are generally experience-led. Examples seek 3–6 years of relevant experience, while another employer seeks 7+ years across SEO, PPC and/or social-media marketing. Requirements vary by organisation, so applicants should treat these as examples of market expectations rather than a national eligibility rule."
+      ],
+      "bullets": [
+        "Start in digital marketing, content marketing, web/content operations, SEO executive or SEO analyst work.",
+        "Build a portfolio that explains the problem, recommendation, implementation partners, measurement method and outcome—not only screenshots of rankings.",
+        "Develop working familiarity with a CMS and basic web technologies so that recommendations to developers are precise.",
+        "Use employer job descriptions to target gaps in experience, tools and industry exposure."
+      ],
+      "source_urls": [
+        "https://in.linkedin.com/jobs/view/seo-manager-at-blue-ocean-imc-4424359018",
+        "https://www.quinnox.com/career/seo-manager/",
+        "https://in.linkedin.com/jobs/view/seo-manager-at-rein-digital-4318347314"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The technical foundation is an understanding of how search discovers, crawls and indexes pages, alongside the ability to diagnose obstacles to that process. Google’s guidance covers topics including site organisation, links, duplicate content/canonicalisation, useful people-first content, titles and structured data; it also cautions that there is no automatic route to a first-place ranking.",
+        "Operationally, Indian employer postings request technical SEO, keyword research, content optimisation, web analytics and reporting. Common platforms include Google Search Console, GA4, Google Tag Manager, Looker Studio and third-party research or crawling tools. Communication is essential because managers have to explain priorities and trade-offs to non-specialists and coordinate implementation across functions."
+      ],
+      "bullets": [
+        "Search fundamentals: crawling, indexing, canonical URLs, internal links and structured data.",
+        "Content and audience analysis: query intent, keyword opportunities, content quality and optimisation.",
+        "Measurement: GA4, Search Console, KPI definitions, dashboards and interpretation of trends.",
+        "Technical literacy: HTML/CSS basics, CMS workflows, page-speed and website-audit concepts.",
+        "Leadership: prioritisation, written communication, stakeholder management, mentoring and project management."
+      ],
+      "source_urls": [
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://developers.google.com/search/docs/fundamentals/how-search-works",
+        "https://www.quinnox.com/career/seo-manager/",
+        "https://in.linkedin.com/jobs/view/seo-manager-at-blue-ocean-imc-4424359018"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the work is done",
+      "paragraphs": [
+        "SEO Managers can work in-house for a digital business or education, technology, retail and other organisations, or in agencies serving multiple client accounts. The work combines analysis and planning with recurring collaboration: content teams need search-informed briefs, developers need clear technical requirements, and marketing or leadership teams need performance reporting tied to business objectives.",
+        "Work is iterative. Google notes that changes may take from hours to several months to be reflected in Search and recommends allowing weeks to assess many changes. This makes prioritisation, experiment design and disciplined reporting more useful than treating any single rank movement as conclusive."
+      ],
+      "bullets": [
+        "In-house teams commonly focus on one brand or product portfolio and collaborate with product, content and engineering.",
+        "Agency work can involve multiple client accounts, regular status reporting and client-facing strategy discussions.",
+        "Success measures may include qualified organic traffic, search visibility, leads and technical-health improvements, depending on the organisation."
+      ],
+      "source_urls": [
+        "https://in.linkedin.com/jobs/view/seo-manager-at-unacademy-4436806308",
+        "https://www.glassdoor.co.in/job-listing/seo-manager-fibe-JV_IC2856202_KO0%2C11_KE12%2C16.htm?jl=1009584641037",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression from Digital Marketing Specialist",
+      "paragraphs": [
+        "The immediate-parent route is Digital Marketing Specialist → SEO Manager. A credible transition is marked by moving from executing assigned optimisations to owning an SEO roadmap, explaining performance through data, coordinating implementation across teams and leading people or external partners.",
+        "Further progression is usually defined by scale and scope rather than a single universal title: for example, responsibility may expand from a site or campaign to multiple brands, larger technical/content programmes, agency accounts, budgets, staff and senior business stakeholders. This reflects employer descriptions that expect SEO Managers to lead strategy, define resources and metrics, and demonstrate measurable growth."
+      ],
+      "bullets": [
+        "Strengthen specialist experience through independently owned SEO projects.",
+        "Demonstrate business impact using transparent baselines, measurement periods and explanations of confounding factors.",
+        "Take on stakeholder management, project prioritisation and mentoring before or while applying for manager roles.",
+        "Choose a specialism—technical SEO, content SEO, e-commerce, local or international search—when it fits the employer’s needs."
+      ],
+      "source_urls": [
+        "https://www.glassdoor.co.in/job-listing/seo-manager-fibe-JV_IC2856202_KO0%2C11_KE12%2C16.htm?jl=1009584641037",
+        "https://in.linkedin.com/jobs/view/seo-manager-at-bc-web-wise-4390112905",
+        "https://www.quinnox.com/career/seo-manager/"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "As a dated reference point rather than a current benchmark, AmbitionBox’s India page reported an annual SEO Manager salary range of ₹3 lakh to ₹18 lakh from 3,600 reported salaries, last updated on 30 July 2025. It labels the figures as salary estimates, so they should be used only as a starting point for research.",
+        "An applicant should compare the full role scope before using any market figure: years of experience, ownership of a team, in-house versus agency work, city or remote arrangement, technical depth, industry and whether the role is accountable for traffic alone or for qualified leads and revenue can all affect compensation. Seek the employer’s current written offer and benefits details because the cited 2025 aggregation is not a guarantee for 2026."
+      ],
+      "bullets": [
+        "Record the reference date and source when comparing salary data.",
+        "Compare fixed pay, variable pay, benefits, notice-period terms and work-location costs.",
+        "Use portfolio evidence and responsibility scope—not title alone—when discussing compensation."
+      ],
+      "source_urls": [
+        "https://www.ambitionbox.com/profile/seo-manager-salary",
+        "https://in.linkedin.com/jobs/view/seo-manager-at-unacademy-4436806308",
+        "https://www.glassdoor.co.in/job-listing/seo-manager-fibe-JV_IC2856202_KO0%2C11_KE12%2C16.htm?jl=1009584641037"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Google Search Central SEO Starter Guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "kind": "official_guidance"
+    },
+    {
+      "label": "Google: How Search works",
+      "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "kind": "official_guidance"
+    },
+    {
+      "label": "Quinnox India SEO Manager vacancy example",
+      "url": "https://www.quinnox.com/career/seo-manager/",
+      "kind": "employer_example"
+    },
+    {
+      "label": "AmbitionBox India SEO Manager salary context (updated 2025)",
+      "url": "https://www.ambitionbox.com/profile/seo-manager-salary",
+      "kind": "compensation_context"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-18"
+  }
+}

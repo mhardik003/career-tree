@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Service and cadre context",
+      "value": "Central Engineering Service (CES) is listed as a Group A Civil Engineering service in the UPSC Engineering Services Examination (ESE) 2026 notice; that notice identifies the Central Public Works Department (CPWD) as the department for CES Group A.",
+      "source_urls": [
+        "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf"
+      ]
+    },
+    {
+      "label": "Usual entry grade",
+      "value": "CPWD’s published manual states that initial recruitment to its Group A engineering services in the civil, electrical and mechanical streams is made at the Assistant Executive Engineer (AEE) level through a UPSC competitive examination.",
+      "source_urls": [
+        "https://www.cpwd.gov.in/Publication/ManualVolume1-merged.pdf"
+      ]
+    },
+    {
+      "label": "Primary entry route",
+      "value": "For the 2026 cycle, UPSC included Central Engineering Service among the Civil Engineering Group A services recruited through the Engineering Services Examination; final allocation depends on examination rank, stated service preferences, vacancies and medical fitness.",
+      "source_urls": [
+        "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf"
+      ]
+    },
+    {
+      "label": "Educational baseline",
+      "value": "The ESE 2026 notice requires an eligible engineering qualification, including a degree in Engineering from specified recognised Indian institutions or other listed equivalent routes; the CES vacancy is in the Civil Engineering category.",
+      "source_urls": [
+        "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Responsibilities",
+      "paragraphs": [
+        "In CPWD’s operating model, an Assistant Executive Engineer may lead a sub-divisional field unit for supervision and execution of works against approved designs, drawings and estimates. The role is tied to delivery targets, quality, economy and maintenance of buildings, structures, areas and equipment under charge.",
+        "The published CPWD manual also assigns the Assistant Engineer/Assistant Executive Engineer responsibility for work and stores accounts, maintaining stores records and periodically inspecting assets for condition and safety. Exact delegated powers and the mix of construction, maintenance and office work can vary by posting and discipline."
+      ],
+      "bullets": [
+        "Supervise execution of public works to approved technical documents and departmental standards.",
+        "Coordinate and oversee Junior Engineers working in the sub-division.",
+        "Maintain work/stores accounts and inspect assets under charge, including safety-related condition checks."
+      ],
+      "source_urls": [
+        "https://www.cpwd.gov.in/Publication/RegularManual.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry through UPSC Engineering Services Examination",
+      "paragraphs": [
+        "The principal route is selection through UPSC’s Engineering Services Examination (ESE/IES), followed by service allocation. In the ESE 2026 notice, Central Engineering Service appears under the Civil Engineering Group A services. Candidates are allocated according to final merit, their service preferences, available vacancies and medical fitness.",
+        "For the 2026 examination cycle, UPSC specified a three-stage process: Preliminary (objective papers), Main (two conventional engineering papers), and a Personality Test. The 2026 notice set the general age band at 21 to under 30 years on January 1, 2026, with specified relaxations; eligibility, vacancies, age cut-offs and application dates are cycle-specific and must be checked in the applicable notice."
+      ],
+      "bullets": [
+        "Obtain an eligible engineering qualification; CES is offered in ESE’s Civil Engineering category.",
+        "Apply for the relevant ESE cycle and clear Preliminary, Main and Personality Test stages.",
+        "Rank high enough for CES after submitting service preferences; allocation is not guaranteed merely by qualifying the examination."
+      ],
+      "source_urls": [
+        "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf",
+        "https://www.cpwd.gov.in/Publication/ManualVolume1-merged.pdf"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills and capabilities",
+      "paragraphs": [
+        "Core capability is civil-engineering judgement applied to drawings, estimates, construction supervision, maintenance and inspection. Because the CPWD field role also covers quality, economy, work accounts and stores accounts, officers need organised documentation, cost awareness, contractor- and site-facing coordination, and attention to safety.",
+        "UPSC’s ESE framework also explicitly tests or assesses engineering aptitude, standards and quality practices, project-management basics, information-and-communication-technology tools, engineering ethics, and leadership, initiative, practical application and integrity. These are useful preparation priorities as well as relevant professional capabilities for an AEE."
+      ],
+      "bullets": [
+        "Civil engineering design, construction and maintenance fundamentals.",
+        "Reading and applying drawings, estimates, specifications and standards.",
+        "Project, quality, cost, accounts and stores-record discipline.",
+        "Leadership, communication, judgement, integrity and practical problem-solving."
+      ],
+      "source_urls": [
+        "https://www.cpwd.gov.in/Publication/RegularManual.pdf",
+        "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and posting environment",
+      "paragraphs": [
+        "CES Group A is administered in the CPWD context. CPWD reports that it has organised Group A services including Central Engineering Service (Civil), under the Ministry of Housing and Urban Affairs. Its field structure includes regions, zones, circles, divisions and sub-divisions; divisions are headed by Executive Engineers and sub-divisions by Assistant Engineers. An AEE assignment can therefore combine field-site supervision with sub-divisional administrative and technical work.",
+        "Posting location, project type and field exposure depend on the cadre-controlling department and the specific assignment. The UPSC ESE 2026 notice identifies CPWD as the department associated with CES Group A."
+      ],
+      "bullets": [
+        "Potential setting: CPWD field formations and their project or maintenance assignments.",
+        "Work commonly spans office documentation, site inspection, execution monitoring and coordination with engineers, contractors and client departments.",
+        "The service is national in character; do not assume a particular city or project portfolio before allocation and posting orders."
+      ],
+      "source_urls": [
+        "https://cpwd.gov.in/AnnualReport/Annual_Report_2022_23.pdf",
+        "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UPSC Engineering Services Examination 2026 notice",
+      "url": "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf",
+      "kind": "official_exam_notice"
+    },
+    {
+      "label": "UPSC examination-notification archive",
+      "url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+      "kind": "official_exam_portal"
+    },
+    {
+      "label": "CPWD Manual, Volume I",
+      "url": "https://www.cpwd.gov.in/Publication/ManualVolume1-merged.pdf",
+      "kind": "official_employer_manual"
+    },
+    {
+      "label": "CPWD Regular Manual",
+      "url": "https://www.cpwd.gov.in/Publication/RegularManual.pdf",
+      "kind": "official_employer_manual"
+    },
+    {
+      "label": "CPWD annual report 2022–23",
+      "url": "https://cpwd.gov.in/AnnualReport/Annual_Report_2022_23.pdf",
+      "kind": "official_employer_report"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

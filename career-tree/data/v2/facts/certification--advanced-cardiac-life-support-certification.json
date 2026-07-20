@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Credential scope",
+      "value": "Advanced Cardiac Life Support (ACLS) is a healthcare-professional resuscitation course for people who direct or participate in cardiac arrest, stroke, and other cardiopulmonary emergencies; its intended audience includes physicians, nurses, and paramedics.",
+      "source_urls": [
+        "https://international.heart.org/en/courses/acls-provider-course"
+      ]
+    },
+    {
+      "label": "Entry readiness",
+      "value": "For the AHA ACLS Provider Course, learners must be proficient in high-quality BLS, ECG interpretation, ACLS pharmacology, and bag-mask ventilation. The required precourse self-assessment covers rhythm recognition, pharmacology, and practical application, with a minimum 70% score before the course.",
+      "source_urls": [
+        "https://cpr.heart.org/en/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Courses-Kits/ACLS-FAQ-2025-Final.pdf?sc_lang=en"
+      ]
+    },
+    {
+      "label": "Typical duration",
+      "value": "AHA instructor-led ACLS options are approximately 8.25–16.50 hours including breaks, depending on whether the learner takes an update course and/or completes video prework. The HeartCode ACLS hands-on session is approximately 6.75–7.75 hours; online learning time varies by learner.",
+      "source_urls": [
+        "https://cpr.heart.org/en/courses/advanced-cardiovascular-life-support-course-options"
+      ]
+    },
+    {
+      "label": "Award validity",
+      "value": "Successful AHA ACLS course completion results in an ACLS Provider course-completion card/eCard valid for two years.",
+      "source_urls": [
+        "https://cpr.heart.org/en/courses/advanced-cardiovascular-life-support-course-options"
+      ]
+    },
+    {
+      "label": "Delivery modes",
+      "value": "Available AHA delivery routes include instructor-led training, blended learning (HeartCode ACLS plus an instructor-led skills session), and, where available, self-guided learning with a CPR Verification Station.",
+      "source_urls": [
+        "https://international.heart.org/en/courses/acls-provider-course",
+        "https://cpr.heart.org/en/courses/advanced-cardiovascular-life-support-course-options"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Who ACLS is for and what to know before enrolling",
+      "paragraphs": [
+        "For the Indian paramedic pathway, ACLS is best understood as an advanced, short-form clinical resuscitation credential rather than a substitute for a paramedic qualification or professional licence. The AHA describes the course as intended for healthcare professionals who manage or participate in cardiopulmonary emergencies, explicitly including emergency-response personnel and paramedics.",
+        "Before taking the provider course, learners are expected to be able to perform high-quality BLS, interpret ECGs, understand ACLS pharmacology, and provide bag-mask ventilation. In the current AHA provider-course process, students complete a mandatory precourse self-assessment and must score at least 70%; candidates should confirm any additional entry, BLS-card, documentation, or workplace requirements directly with the chosen training centre and employer."
+      ],
+      "bullets": [
+        "Suitable for paramedics and other healthcare professionals involved in emergency, critical-care, surgical, or resuscitation settings.",
+        "Preparation should focus on BLS performance, adult rhythm recognition, emergency-drug knowledge, and ventilation skills.",
+        "An ACLS completion card alone does not expand a clinician’s legal scope of practice; clinical work must remain within the employer’s protocols and applicable professional rules."
+      ],
+      "source_urls": [
+        "https://international.heart.org/en/courses/acls-provider-course",
+        "https://cpr.heart.org/en/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Courses-Kits/ACLS-FAQ-2025-Final.pdf?sc_lang=en"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and credential cycle",
+      "paragraphs": [
+        "Course length varies by format and whether the learner is taking the full provider course or an update. AHA estimates 13.25–14.25 hours for a full ACLS course with video prework, 15.50–16.50 hours without it, and 8.25–9.50 hours for update-course variants, all including breaks. In blended HeartCode ACLS, the online component is adaptive and varies by prior knowledge, while the instructor-led hands-on session is estimated at 6.75–7.75 hours including breaks.",
+        "On successful completion, the AHA ACLS Provider completion card is valid for two years. Actual class dates, local timetable, and the availability of update courses should be checked with the authorised provider before payment."
+      ],
+      "bullets": [
+        "Full instructor-led course with video prework: approximately 13.25–14.25 hours.",
+        "Full instructor-led course without video prework: approximately 15.50–16.50 hours.",
+        "Update options: approximately 8.25–9.50 hours.",
+        "HeartCode hands-on session: approximately 6.75–7.75 hours; online time varies."
+      ],
+      "source_urls": [
+        "https://cpr.heart.org/en/courses/advanced-cardiovascular-life-support-course-options",
+        "https://cpr.heart.org/en/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Courses-Kits/ACLS-FAQ-2025-Final.pdf?sc_lang=en"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "What the certification covers",
+      "paragraphs": [
+        "ACLS builds on BLS and trains systematic assessment, high-quality CPR, airway management, rhythm recognition, defibrillation, medication use, cardioversion, transcutaneous pacing, and high-performance team practice. IV/intraosseous access is included as information in the AHA course curriculum.",
+        "The provider curriculum also addresses recognition and early management of acute coronary syndromes and stroke; bradycardias, tachycardias, respiratory arrest, and cardiac arrest; and optimized resuscitation through transfer of care, including post-cardiac-arrest care. Instructor-led training uses team-based, case-based scenarios around a manikin, skills demonstration, and a provider-course exam."
+      ],
+      "bullets": [
+        "Adult resuscitation assessment and high-quality BLS/CPR.",
+        "Airway and ventilation management, ECG rhythm recognition, and defibrillation.",
+        "Management principles for bradyarrhythmias, tachyarrhythmias, respiratory arrest, and cardiac arrest.",
+        "Cardioversion, transcutaneous pacing, medications, and information on IV/IO access.",
+        "Acute coronary syndrome, stroke recognition, post-cardiac-arrest care, and team dynamics."
+      ],
+      "source_urls": [
+        "https://international.heart.org/en/courses/acls-provider-course",
+        "https://cpr.heart.org/en/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Courses-Kits/ACLS-FAQ-2025-Final.pdf?sc_lang=en"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "How to enrol in India",
+      "paragraphs": [
+        "Select the credential required by the prospective employer or hospital first, then locate an authorised training centre or international course provider. For AHA programmes, the international guidance is to contact a local training centre to discuss the appropriate course and required materials; Atlas is the AHA’s class/training-centre locator.",
+        "For a classroom route, enrol directly with a training centre. For blended learning, first confirm that the local centre can provide the required Skills Practice Session and Skills Test before purchasing the online component; AHA notes that not every training centre offers these sessions. Retain the precourse-assessment completion record where required and verify that the final completion card is the one accepted by the employer."
+      ],
+      "bullets": [
+        "Ask the employer whether it requires AHA ACLS or another named provider/course.",
+        "Use the authorised provider’s class locator or contact a local training centre.",
+        "Confirm the format, skills-test arrangement, materials, current fee, and cancellation policy before enrolling.",
+        "For blended learning, do not assume an online module alone is sufficient: the practical skills session and test are required for skills-based courses."
+      ],
+      "source_urls": [
+        "https://international.heart.org/en/how-to-buy",
+        "https://international.heart.org/en/courses/acls-provider-course",
+        "https://atlas.heart.org/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Renewal and progression options",
+      "paragraphs": [
+        "Because the AHA ACLS Provider completion card is valid for two years, paramedics should plan renewal before the employer’s required compliance date. The AHA offers an ACLS Update Course as well as full ACLS options; which route is acceptable can depend on the training provider and employer policy.",
+        "For professionals who already routinely lead or participate in advanced emergency assessment and treatment, AHA also describes ACLS for Experienced Providers as a more advanced course focused on complex cardiovascular, respiratory, metabolic, toxicologic, and other emergencies. This is a progression option, not a replacement for local employer credentialing requirements."
+      ],
+      "bullets": [
+        "Maintain BLS competence alongside ACLS readiness.",
+        "Renew through the route accepted by the employer before the two-year card expiry.",
+        "Consider ACLS for Experienced Providers only after gaining substantial ACLS-facing clinical experience."
+      ],
+      "source_urls": [
+        "https://cpr.heart.org/en/courses/advanced-cardiovascular-life-support-course-options",
+        "https://international.heart.org/courses/acls-for-experienced-providers"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "AHA International ACLS Provider Course overview",
+      "url": "https://international.heart.org/en/courses/acls-provider-course",
+      "kind": "official course overview"
+    },
+    {
+      "label": "AHA ACLS course options, formats, duration and card validity",
+      "url": "https://cpr.heart.org/en/courses/advanced-cardiovascular-life-support-course-options",
+      "kind": "official course information"
+    },
+    {
+      "label": "2025 AHA ACLS Provider Course FAQ",
+      "url": "https://cpr.heart.org/en/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Courses-Kits/ACLS-FAQ-2025-Final.pdf?sc_lang=en",
+      "kind": "official course FAQ"
+    },
+    {
+      "label": "AHA Atlas training-centre and class locator",
+      "url": "https://atlas.heart.org/",
+      "kind": "official provider locator"
+    },
+    {
+      "label": "AHA International: how to buy and arrange skills testing",
+      "url": "https://international.heart.org/en/how-to-buy",
+      "kind": "official enrolment guidance"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

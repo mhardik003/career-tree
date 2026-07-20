@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Credential and scope",
+      "value": "M.Tech in Electrical Engineering is a postgraduate engineering qualification. Institution-specific versions are commonly organised as specialised Electrical Engineering pathways rather than one uniform national curriculum; IIT Bombay, for example, lists Communication Engineering, Control & Computing, Power Electronics & Power Systems, Electronic Systems, Integrated Circuit & System, and Solid State Devices.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Usual full-time duration",
+      "value": "Two years is a common full-time duration: IIT Bombay’s 2026–27 Teaching Assistantship M.Tech category is stated as two years. Duration can differ by admission category; its research-assistant and some sponsored categories are stated as three years or two/three years.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf"
+      ]
+    },
+    {
+      "label": "Principal admission route",
+      "value": "GATE is the principal route for many full-time M.Tech admissions, but applicants must satisfy each institute and specialisation’s qualifying-degree, GATE-paper, cutoff, test/interview, and category rules. IIT Bombay states that a valid GATE score is mandatory for its Teaching Assistantship category, with an additional test or interview possible.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf",
+        "https://acad.iitb.ac.in/admissions/masters/mtech"
+      ]
+    },
+    {
+      "label": "Fees and funding context",
+      "value": "Fees, deposits, hostel charges, and financial support are institute- and category-specific and can be revised. IIT Bombay directs M.Tech applicants to its current fee pages, while its 2026–27 brochure distinguishes assistantship, research-assistant, project-staff, institute-staff, and sponsored admission categories.",
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/fees-structure",
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: qualifying degree and GATE paper depend on the programme",
+      "paragraphs": [
+        "There is no single eligibility rule for every M.Tech in Electrical Engineering programme in India. A relevant engineering bachelor’s degree is the normal foundation, but accepted disciplines can be broader for particular specialisations. For its 2026–27 Electrical Engineering M.Tech offerings, IIT Bombay lists B.E./B.Tech./AMIE or equivalent backgrounds in Electrical Engineering and, depending on the pathway, disciplines such as Electronics/Telecommunication, Computer Science/IT, Engineering Physics, Energy Engineering, Instrumentation, and others. Some pathways also accept specified M.Sc. backgrounds.",
+        "For GATE-based entry, the acceptable paper is set by the programme. IIT Bombay lists EE along with other papers such as EC, CS and IN for several Electrical Engineering specialisations. Applicants should therefore match both their qualifying degree and GATE paper to the current programme brochure rather than assuming that only GATE EE is accepted.",
+        "Minimum marks/CGPA, category relaxations, sponsorship rules, and exemptions are institute-specific. For example, IIT Bombay’s general M.Tech eligibility framework sets qualifying-degree requirements and refers applicants to programme-level criteria; its Electrical Engineering table states that employer-sponsored candidates with two years of relevant experience may be exempt from the GATE requirement, without eligibility for Teaching/Research Assistantship.",
+        "source_urls:["
+      ],
+      "bullets": [
+        "Check the current admission brochure for the exact M.Tech specialisation code and accepted academic backgrounds.",
+        "Check the accepted GATE paper(s), since some Electrical Engineering pathways accept EE plus selected adjacent papers.",
+        "Treat GATE qualification as necessary but not automatically sufficient: programme shortlisting may also use marks, test/interview performance, seat availability, and category conditions."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf",
+        "https://acad.iitb.ac.in/admissions/masters/mtech"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study pattern",
+      "paragraphs": [
+        "A full-time M.Tech commonly runs for two academic years. As a current institutional example, IIT Bombay specifies a two-year duration for candidates admitted under Teaching Assistantship, Teaching Assistantship through Project, or Fellowship Awardee categories. The same brochure states longer durations for certain research, project-staff, institute-staff, and sponsored routes, so the duration shown in an offer letter and institute regulations controls.",
+        "The programme normally combines advanced coursework with laboratory/project work and a supervised dissertation or M.Tech project. IIT Bombay’s Electrical Engineering curriculum examples distribute work across four semesters and include course credits, seminars, project/research-and-development work, and a substantial M.Tech project component.",
+        "source_urls:["
+      ],
+      "bullets": [
+        "Typical full-time route: two years, subject to the admitting institute’s rules.",
+        "Other categories can have a three-year or two/three-year registration period.",
+        "Confirm the duration, registration category, project/dissertation requirements, and maximum completion period in the institute’s current regulations."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf",
+        "https://www.ee.iitb.ac.in/~eeoffice/curriculum/ee_mtech_es.htm"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum: advanced electrical specialisation plus project work",
+      "paragraphs": [
+        "The precise syllabus is institution- and specialisation-specific. Electrical Engineering M.Tech programmes can focus on power electronics and power systems, electrical machines and drives, control and computing, communications, electronic systems, integrated circuits, solid-state devices, and related areas. IIT Bombay’s Electrical Engineering M.Tech portfolio illustrates this range through six specialisation streams.",
+        "For a power-oriented illustration, IIT Delhi’s M.Tech in Power Electronics, Electrical Machines and Drives specifies programme core, programme-elective, and open-elective credits, and identifies power electronics, machines, drives, e-mobility, electrification, and energy sustainability among its stated learning outcomes. Its published structure requires 63 graded credits, including 51 programme-core credits, 6 programme-elective credits, and 6 open-elective credits.",
+        "Students should use the official curriculum of the programme they are considering to identify prerequisite knowledge and the balance among theory, laboratories, seminar/research practicum, and dissertation work.",
+        "source_urls:["
+      ],
+      "bullets": [
+        "Possible focus areas: power systems and power electronics; machines and drives; control; communications; embedded/electronic systems; IC design; devices.",
+        "Common academic components: advanced core courses, technical electives, laboratory or design work, seminar/research activity, and an M.Tech dissertation/project.",
+        "Course names, credits, and compulsory subjects are not portable across institutes or even across Electrical Engineering specialisations within one institute."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf",
+        "https://curriculum.iitd.ac.in/view_program.php?program_code=EEP",
+        "https://www.ee.iitb.ac.in/~eeoffice/curriculum/ee_mtech_es.htm"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process: apply to institutes after GATE and follow their selection route",
+      "paragraphs": [
+        "For the GATE-linked full-time route, candidates ordinarily take the relevant GATE paper, apply separately to the institutes/programmes they want, and then participate in the institute’s selection process. IIT Bombay’s 2026–27 M.Tech page states that GATE-qualified applicants for TA, RA, TAP, and RAP categories receive offers exclusively through the Common Offer Acceptance Portal (COAP).",
+        "Selection is not uniform. IIT Bombay’s 2026–27 brochure says that admission is based on GATE, written-test/interview performance, and additional eligibility criteria for the discipline and admission category. Its programme page also publishes direct-admission, shortlisting, and written-test/interview notices separately, demonstrating why candidates should rely on the current institute page rather than previous-year schedules or cutoffs.",
+        "Deadlines and rounds are time-sensitive. For example, IIT Bombay’s 2026–27 page listed 10 April 2026 as the last date to apply online without a late fine; that past date is context only and must not be used for a future admission cycle.",
+        "source_urls:["
+      ],
+      "bullets": [
+        "Identify Electrical Engineering specialisations and their accepted GATE papers before applying.",
+        "Submit the institute application as well as any required COAP registration for the applicable category.",
+        "Track the institute’s current shortlisting, written-test/interview, offer, fee-payment, and registration notices.",
+        "Do not treat a previous year’s cutoff, deadline, or shortlist as a prediction or guarantee for a later cycle."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/masters/mtech",
+        "https://acad.iitb.ac.in/admissions/faq-mtech",
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and financial support",
+      "paragraphs": [
+        "There is no nationally fixed M.Tech Electrical Engineering fee. Tuition, one-time charges, hostel/mess costs, insurance, deposits, and waiver/remission rules vary by institute, student category, and year. IIT Bombay’s 2026–27 M.Tech brochure directs applicants to the Academic Office fee structure and notes that its listed fees, deposits, and hostel rent are subject to revision under institutional/government decisions.",
+        "Funding also depends on the admission category. At IIT Bombay, Teaching Assistantship, project-linked assistantship, fellowship, and research-assistant routes are separately defined from sponsored admission. Its brochure says sponsored candidates are not eligible for institute financial assistance, while GATE is mandatory for its Teaching Assistantship category.",
+        "Before accepting an offer, calculate the current total using the official fee circular and hostel circular, then separately confirm the terms, duties, continuation conditions, and amount of any assistantship or fellowship. Fee and stipend figures should always be treated as dated information.",
+        "source_urls:["
+      ],
+      "bullets": [
+        "Use only the admitting institute’s current fee circular for budgeting.",
+        "Include academic fees, hostel and mess charges, refundable deposits, insurance, travel, and project-related personal expenses.",
+        "Verify whether the offered admission category includes an assistantship and the conditions for retaining it."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/fees-structure",
+        "https://acad.iitb.ac.in/details-fees-payable",
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options after the M.Tech",
+      "paragraphs": [
+        "An M.Tech in Electrical Engineering can lead to engineering and R&D employment or to doctoral study, with the most relevant direction shaped by the chosen specialisation, project/dissertation, technical portfolio, and employer or research-group requirements. IIT Bombay notes that Electrical Engineering M.Tech students generally participate in job placements near the end of their second-last semester, while its department also points to research and scholarship opportunities.",
+        "For students seeking a research pathway, IIT Bombay offers an M.Tech+Ph.D. dual-degree route in certain disciplines and permits eligible M.Tech students to seek conversion after the first stage of master’s-dissertation evaluation, subject to supervisor and postgraduate committee concurrence. The doctoral pathway has its own eligibility and selection requirements.",
+        "source_urls:["
+      ],
+      "bullets": [
+        "Industry and R&D roles aligned to the specialisation, such as power and energy systems, automation/control, electronics, communications, semiconductor/IC, or embedded-systems work.",
+        "Ph.D. or an integrated/dual M.Tech+Ph.D. route for research-intensive careers.",
+        "Technical research projects, internships where permitted, publications, and relevant professional experience can strengthen either employment or doctoral applications."
+      ],
+      "source_urls": [
+        "https://www.ee.iitb.ac.in/web/academics/mtech/",
+        "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "IIT Bombay M.Tech admissions (2026–27)",
+      "url": "https://acad.iitb.ac.in/admissions/masters/mtech",
+      "kind": "official admissions page"
+    },
+    {
+      "label": "IIT Bombay M.Tech information brochure (2026–27)",
+      "url": "https://acad.iitb.ac.in/sites/default/files/MTECH%20BROUCHURE2026-27.pdf",
+      "kind": "official admission brochure"
+    },
+    {
+      "label": "IIT Delhi M.Tech in Power Electronics, Electrical Machines and Drives curriculum",
+      "url": "https://curriculum.iitd.ac.in/view_program.php?program_code=EEP",
+      "kind": "official curriculum"
+    },
+    {
+      "label": "IIT Bombay fee structure",
+      "url": "https://acad.iitb.ac.in/admissions/fees-structure",
+      "kind": "official fee page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

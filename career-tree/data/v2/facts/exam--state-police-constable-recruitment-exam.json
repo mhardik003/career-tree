@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "What this node covers",
+      "value": "This is not one all-India examination. It is a family of state or state-police recruitment processes used to select Police Constables; the recruiting authority, vacancies, eligibility rules, test sequence, and timetable are set in the relevant state notification. Rajasthan Police describes constable as an entry level and notes that districts have separate recruitment, while current notices are also issued through bodies such as Haryana Staff Selection Commission and Bihar’s Central Selection Board of Constable.",
+      "source_urls": [
+        "https://police.rajasthan.gov.in/old/Rajpolice/Jointheforce.aspx",
+        "https://www.hssc.gov.in/index.php/publicNotice",
+        "https://csbc-bih.bihar.gov.in/notifications"
+      ]
+    },
+    {
+      "label": "Typical minimum education",
+      "value": "The required qualification is notification-specific. For example, Goa’s 2026 Police Constable advertisement requires a Secondary School Certificate examination or equivalent for male and female constable posts; applicants must check the education requirement in the particular state and post advertisement rather than assume a national standard.",
+      "source_urls": [
+        "https://cbes.goa.gov.in/advertisement?id=1c60adb0cfc83b0d14c5f700b7caa4b9"
+      ]
+    },
+    {
+      "label": "Physical standards matter",
+      "value": "Physical measurement and/or efficiency testing is a core feature in many state constable selections. Goa’s 2026 notice specifies sex-specific height and physical-event requirements, and Rajasthan Police lists written, physical/medical examination, and physical-efficiency testing among constable recruitment stages.",
+      "source_urls": [
+        "https://cbes.goa.gov.in/advertisement?id=1c60adb0cfc83b0d14c5f700b7caa4b9",
+        "https://police.rajasthan.gov.in/old/Rajpolice/Jointheforce.aspx"
+      ]
+    },
+    {
+      "label": "Written-test pattern",
+      "value": "There is no universal paper pattern. In one Himachal Pradesh Police constable recruitment notice, the written test was an 80-mark, 60-minute objective paper covering English, Hindi, general awareness, mathematics and science, and reasoning aptitude; another state’s notification may use a different pattern or selection order.",
+      "source_urls": [
+        "https://citizenportal.hppolice.gov.in/citizen/downloadnotborfile.htm?id=486&stov=0FBR-FPPU-M3NX-C1LX-B1NS-2LIR-1HUR-QZJG"
+      ]
+    },
+    {
+      "label": "Where to track recruitment",
+      "value": "Candidates should use the official recruiting authority’s notification and recruitment portal for applications, admit cards, test notices, answer keys, results, and document-verification instructions. Official examples include HSSC’s public-notice page, CSBC Bihar’s notifications page, and Mumbai Police’s recruitment page.",
+      "source_urls": [
+        "https://www.hssc.gov.in/index.php/publicNotice",
+        "https://csbc-bih.bihar.gov.in/notifications",
+        "https://mumbaipolice.gov.in/Recruitment"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and scope",
+      "paragraphs": [
+        "State Police Constable Recruitment Exams are state-level hiring processes for entry-level constable posts in state police organisations. They should not be confused with the SSC Constable (GD) examination for Central Armed Police Forces: Rajasthan Police identifies Police Constable as a state-police entry level, whereas the Government of India’s SSC GD notice concerns CAPFs, SSF and Assam Rifles.",
+        "source_urls"
+      ],
+      "bullets": [
+        "Recruitment may be organised centrally by a state selection commission/board or through police headquarters, districts, or city police units.",
+        "The title “constable” can cover different advertised roles or units—for example general-duty, railway-police, driver, bandsman, armed, prison, or other state-specific posts—so the post code and notification must be read closely."
+      ],
+      "source_urls": [
+        "https://police.rajasthan.gov.in/old/Rajpolice/Jointheforce.aspx",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2199129&lang=2&reg=48",
+        "https://www.hssc.gov.in/index.php/publicNotice",
+        "https://mumbaipolice.gov.in/Recruitment"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: use the notification for the exact rules",
+      "paragraphs": [
+        "Eligibility varies materially by state, category, cadre, and recruitment year. The official Goa Staff Selection Commission advertisement for Police Constable (Male/Female), for example, specifies secondary-school education or equivalent, a stated maximum age, physical standards/events, and knowledge of Konkani. These requirements are evidence of state-specific rules, not a nationwide template.",
+        "Applicants should verify the notification’s cut-off date and provisions on age, educational qualification, domicile or local-language requirements where applicable, reservation/category certificates, physical standards, medical fitness, and documents. Do not rely on coaching-site summaries or a previous recruitment cycle when deciding eligibility."
+      ],
+      "bullets": [
+        "Check whether the advertised role is general-duty or a specialist post, since driver and bandsman recruitment can have additional tests or requirements.",
+        "Keep original and valid supporting certificates ready; Delhi Police’s constable notice, for example, states that required eligibility documents are collected and verified with originals during the physical-endurance/measurement and document-verification stage."
+      ],
+      "source_urls": [
+        "https://cbes.goa.gov.in/advertisement?id=1c60adb0cfc83b0d14c5f700b7caa4b9",
+        "https://delhipolice.gov.in/RecruitmentFile/63193_NoticeConstable2025.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Selection format",
+      "paragraphs": [
+        "A common selection architecture combines a written knowledge test with physical measurement and physical-efficiency/endurance testing, followed by document scrutiny and any required medical examination. The sequence is not fixed nationally: Rajasthan Police lists written, physical/medical, and physical-efficiency stages, while the cited Himachal Pradesh notice places an objective written examination before scrutiny of eligibility documents and certificate marks.",
+        "Written-test content also differs by recruitment. The cited Himachal Pradesh example used five areas—English, Hindi, general awareness, mathematics and science, and reasoning aptitude—and prescribed qualifying marks by category. Candidates should treat the syllabus, scoring, negative-marking rule, qualifying threshold, and whether a stage is qualifying or merit-bearing as notification-specific."
+      ],
+      "bullets": [
+        "Physical stages may include height/chest measurement where applicable and timed running, jumping, or other events; exact benchmarks can differ by sex, category, geography, and state.",
+        "Specialist roles may add a relevant skill test. Mumbai Police’s recruitment page, for instance, publishes separate Bandsman skill-test notices alongside physical-test, written-test, answer-key, and result notices."
+      ],
+      "source_urls": [
+        "https://police.rajasthan.gov.in/old/Rajpolice/Jointheforce.aspx",
+        "https://citizenportal.hppolice.gov.in/citizen/downloadnotborfile.htm?id=486&stov=0FBR-FPPU-M3NX-C1LX-B1NS-2LIR-1HUR-QZJG",
+        "https://cbes.goa.gov.in/advertisement?id=1c60adb0cfc83b0d14c5f700b7caa4b9",
+        "https://mumbaipolice.gov.in/Recruitment"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process",
+      "paragraphs": [
+        "Apply only through the method, portal, and dates named in the current official advertisement. A practical workflow is: locate the state recruiting authority’s notice; read the eligibility, vacancy, reservation, fee, and document instructions; register and submit the form; preserve the acknowledgement; then monitor the same official site for correction windows, admit cards, test schedules, answer keys, results, and verification instructions.",
+        "Deadlines and fees are variable, dated recruitment-cycle terms and should never be carried over from an earlier advertisement. Official 2026 HSSC public notices demonstrate that physical-test schedules may be issued, postponed, or rescheduled; official portals are therefore the authoritative place to monitor changes."
+      ],
+      "bullets": [
+        "Use the application details exactly as supported by your certificates; discrepancies can surface during document verification.",
+        "Download and retain notices, submitted-form copies, fee receipts where applicable, and admit cards.",
+        "Treat unofficial social-media claims with caution: CSBC Bihar has published official notices addressing fake-news issues connected with constable recruitment."
+      ],
+      "source_urls": [
+        "https://www.hssc.gov.in/index.php/publicNotice",
+        "https://csbc-bih.bihar.gov.in/notifications",
+        "https://csbc.bihar.gov.in/NewsGroup.htm",
+        "https://mumbaipolice.gov.in/Recruitment"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation strategy",
+      "paragraphs": [
+        "Prepare from the official syllabus and physical-test table in the advertisement, then work backwards from the stages that are eliminatory or merit-bearing. For the written component, use timed practice in the stated subjects; the Himachal Pradesh notice is a useful illustration of why candidates should cover language, general awareness, quantitative/science material, and reasoning only when those areas actually appear in their notification.",
+        "Build physical preparation around the exact notified event, distance, time, jump, measurement, and attempt rules. Goa’s official 2026 Police Constable notice, for example, specifies different physical standards and running/jump events for male and female applicants, showing why generic fitness advice cannot substitute for the applicable recruitment notice."
+      ],
+      "bullets": [
+        "Practice completing objective questions under the notified duration and understand the stated marking rules before test day.",
+        "Use progressive, safe conditioning and verify your readiness against the official benchmarks; do not wait until after a written-test result to start physical preparation.",
+        "Organise certificates early and compare every document against the notification’s wording before document verification."
+      ],
+      "source_urls": [
+        "https://citizenportal.hppolice.gov.in/citizen/downloadnotborfile.htm?id=486&stov=0FBR-FPPU-M3NX-C1LX-B1NS-2LIR-1HUR-QZJG",
+        "https://cbes.goa.gov.in/advertisement?id=1c60adb0cfc83b0d14c5f700b7caa4b9",
+        "https://delhipolice.gov.in/RecruitmentFile/63193_NoticeConstable2025.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Outcomes after selection",
+      "paragraphs": [
+        "Successful completion of the applicable selection process can lead to appointment as a Police Constable in the recruiting state force or advertised unit, subject to final merit, verification, medical or other stipulated conditions, and issuance of appointment orders. Recruitment portals commonly publish physical-test results, written-examination results or marks, answer-key/objection notices, and appointment-related updates in separate stages.",
+        "The result of a particular constable examination is not transferable as a general qualification for another state’s recruitment: each recruitment authority conducts selection against its own advertised vacancies and conditions. Candidates seeking a police career should separately track every state or unit in which they are eligible to apply."
+      ],
+      "bullets": [
+        "Final selection should be confirmed only through the official result, merit/selection list, and appointment communications.",
+        "Salary, posting, probation, training, and service conditions are recruitment- and state-specific; consult the current advertisement and appointment terms for dated, authoritative details."
+      ],
+      "source_urls": [
+        "https://mumbaipolice.gov.in/Recruitment",
+        "https://www.raigadpolice.gov.in/en/police_bharti",
+        "https://police.rajasthan.gov.in/old/Rajpolice/Jointheforce.aspx"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Haryana Staff Selection Commission — public notices",
+      "url": "https://www.hssc.gov.in/index.php/publicNotice",
+      "kind": "official recruitment authority"
+    },
+    {
+      "label": "Central Selection Board of Constable, Bihar — notifications",
+      "url": "https://csbc-bih.bihar.gov.in/notifications",
+      "kind": "official recruitment authority"
+    },
+    {
+      "label": "Mumbai Police — recruitment updates",
+      "url": "https://mumbaipolice.gov.in/Recruitment",
+      "kind": "official police recruitment page"
+    },
+    {
+      "label": "Goa online recruitment system — Police Constable advertisement example",
+      "url": "https://cbes.goa.gov.in/advertisement?id=1c60adb0cfc83b0d14c5f700b7caa4b9",
+      "kind": "official advertisement"
+    },
+    {
+      "label": "Rajasthan Police — join the force",
+      "url": "https://police.rajasthan.gov.in/old/Rajpolice/Jointheforce.aspx",
+      "kind": "official police careers page"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

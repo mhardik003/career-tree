@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Indian skills-standard reference",
+      "value": "NSDC lists the legacy Quality Engineer qualification pack ELE/Q7901 under Electronics Sector Skills Council of India, Medical Electronics, Quality Maintenance, at NSQF Level 5; NSDC labels that occupational standard as retired.",
+      "source_urls": [
+        "https://nsdcindia.org/quality-engineer"
+      ]
+    },
+    {
+      "label": "Role focus",
+      "value": "The ELE/Q7901 qualification pack defines the role around quality-regulation compliance during product design, system evaluation and product assessment, and conformance to standards and specifications.",
+      "source_urls": [
+        "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf"
+      ]
+    },
+    {
+      "label": "Core work areas",
+      "value": "The legacy Indian standard groups the work into product-development quality support, quality testing and root-cause analysis, incoming/outgoing material testing, workplace safety, and employability skills.",
+      "source_urls": [
+        "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf"
+      ]
+    },
+    {
+      "label": "Professional certification context",
+      "value": "ASQ’s Certified Quality Engineer (CQE) is an optional, experience-based international credential rather than an entry requirement for the Indian job title; ASQ states an eight-year experience requirement, with specified education-based waivers.",
+      "source_urls": [
+        "https://www.asq.org/cert/quality-engineer"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Quality Engineer does",
+      "paragraphs": [
+        "A Quality Engineer establishes and applies methods for evaluating whether products and processes meet defined requirements. In the Indian electronics/medical-electronics reference standard, this means supporting design and production teams, applying quality requirements during product development, conducting functional and electrical-safety testing, investigating failures through root-cause analysis, and inspecting incoming materials and outgoing finished products.",
+        "The role is therefore broader than final inspection alone: it combines prevention and improvement work with verification. The qualification pack includes process-improvement initiatives intended to reduce errors and unit cost, while the international CQE body of knowledge similarly covers quality-control systems, inspection and testing procedures, metrology, statistical methods, corrective action, and quality-system auditing."
+      ],
+      "bullets": [
+        "Translate standards, specifications, SOPs, and customer or regulatory requirements into inspection and test activities.",
+        "Plan or conduct product, process, incoming-material, and final-output checks; record evidence and compare results with acceptance criteria.",
+        "Investigate defects and test failures, identify root causes, communicate findings, and support corrective or process-improvement actions.",
+        "Maintain controlled quality records and collaborate with design, production, test, supplier, and supervisory teams.",
+        "Follow health, safety, and hazard-control practices appropriate to the workplace and product domain."
+      ],
+      "source_urls": [
+        "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf",
+        "https://www.asq.org/cert/catalog/engineering"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes in India",
+      "paragraphs": [
+        "There is no single nationwide academic prerequisite for every employer using the title “Quality Engineer”; requirements vary by sector, product risk, and employer. The available ELE/Q7901 standard should be read as a sector-specific, legacy reference because NSDC now marks it as retired.",
+        "Within that former Electronics Sector Skills Council pathway, listed entry combinations included a diploma after Class 10 in electronics, electrical, or mechanical engineering plus one year of relevant experience; Class 12 plus NTC/NAC and one year of experience; Class 12 plus two years of experience; an NSQF Level 4 relevant qualification plus three years of experience; or Class 10 plus four years of relevant experience. The stated minimum job-entry age was 18.",
+        "For a graduate-engineer trajectory, an engineering degree and practical exposure through a Graduate Engineer Trainee, production, testing, supplier-quality, or process-quality assignment can provide relevant experience. Candidates should verify the current eligibility rules directly with the hiring employer or training provider rather than relying on the retired QP."
+      ],
+      "bullets": [
+        "Build domain knowledge relevant to the employer’s product—for example, mechanical manufacturing, electronics, medical devices, automotive components, or software.",
+        "Seek supervised exposure to inspection, test execution, non-conformance handling, documentation, and improvement projects.",
+        "Use a current employer job description or current sector qualification as the controlling requirement; do not treat the retired ELE/Q7901 eligibility table as a universal hiring rule."
+      ],
+      "source_urls": [
+        "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf",
+        "https://nsdcindia.org/quality-engineer"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "The technical foundation is the ability to interpret requirements, select or use appropriate tests and gauges, capture reliable observations, and determine whether results conform to specified data. The ESSCI curriculum specifically includes testing tools and equipment, functional testing to SOPs, incoming and outgoing material testing, documentation, and coordination with colleagues.",
+        "Problem solving should be evidence-led. Relevant quality-engineering competencies include statistical quality control, metrology, inspection and test analysis, corrective action, quality-cost concepts, and quality-system auditing. Communication, critical and analytical thinking, attention to safety, and disciplined recordkeeping are also important because quality findings must be traceable and acted upon."
+      ],
+      "bullets": [
+        "Inspection, testing, sampling, measurement, and interpretation of specifications and acceptance criteria.",
+        "Root-cause analysis and structured corrective or preventive improvement work.",
+        "Basic statistical and data-analysis capability; process and product quality monitoring.",
+        "Quality documentation: SOPs, test records, non-conformance records, reports, and controlled process manuals.",
+        "Cross-functional communication with design, production, test, suppliers, and managers.",
+        "Safety and hazard awareness, particularly in shop-floor, laboratory, electronics, or regulated-product settings."
+      ],
+      "source_urls": [
+        "https://www.essc-india.org/images/QPs/MC_Quality%20Engineer.pdf",
+        "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf",
+        "https://www.asq.org/cert/catalog/engineering"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Workplace and working context",
+      "paragraphs": [
+        "Work settings depend on the industry. The retired Indian Quality Engineer curriculum is centred on electronics and medical-electronics activity and describes collaboration with design and production teams, on-site training, functional testing, material testing, quality records, and safe work practices. This points to a mix of shop-floor, laboratory/test, engineering-office, and supplier-facing work rather than a purely desk-based role.",
+        "The working environment can include production lines, inspection stations, test benches, incoming-goods areas, and meetings to review failures or improvement actions. The exact tools, hazards, documentation burden, and regulatory expectations vary substantially by sector; for example, a medical-device or electronics role may require product-safety testing and traceability that differ from those in software quality or general manufacturing."
+      ],
+      "bullets": [
+        "Typical interfaces: design/R&D, manufacturing or operations, test teams, procurement/suppliers, and quality leadership.",
+        "Typical evidence: inspection results, test data, defect or non-conformance records, root-cause findings, and improvement documentation.",
+        "Safety, housekeeping, and controlled handling of materials and equipment are part of the role where work occurs in physical production or test environments."
+      ],
+      "source_urls": [
+        "https://www.essc-india.org/images/QPs/MC_Quality%20Engineer.pdf",
+        "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression and professional development",
+      "paragraphs": [
+        "Progression is employer- and industry-specific, but a common direction is from hands-on product/process quality work toward responsibility for wider quality systems, suppliers, teams, or organisational quality initiatives. In the ESSCI electronics framework, Quality Manager – Electronics is mapped at NSQF Level 6, above the former Quality Engineer Level 5 reference, and its scope includes quality across product design, supplier receipt inspection, production, final output, and management of inspectors and supervisors. This is an illustrative sector pathway, not a guaranteed promotion ladder.",
+        "After acquiring substantial responsibility and experience, a professional may consider an external credential such as ASQ CQE. ASQ describes CQE as focused on improving processes and systems and specifies experience requirements; it should be treated as optional professional development, not as a substitute for employer-required product, regulatory, or sector-specific competence."
+      ],
+      "bullets": [
+        "Deepen from inspection and test execution into process capability, supplier quality, audit support, corrective action, and improvement leadership.",
+        "Develop domain credentials only where they match the sector and employer—for example, regulated-product, internal-audit, reliability, or process-improvement responsibilities.",
+        "Document measurable outcomes, such as reduced defects, improved test yield, faster closure of non-conformances, or improved process stability."
+      ],
+      "source_urls": [
+        "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf",
+        "https://www.essc-india.org/images/QP-Qualification-PACK/Quality%20Manager%20-%20Electronics_ELE_Q7902_v3.0.pdf",
+        "https://www.asq.org/cert/quality-engineer"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NSDC listing: Quality Engineer (ELE/Q7901)",
+      "url": "https://nsdcindia.org/quality-engineer",
+      "kind": "government_skills_listing"
+    },
+    {
+      "label": "ESSCI Qualification Pack: Quality Engineer, ELE/Q7901 v4.0",
+      "url": "https://www.essc-india.org/images/QPs/Quality%20Engineer%20ELE_Q7901_v4.0.pdf",
+      "kind": "qualification_pack"
+    },
+    {
+      "label": "ESSCI Model Curriculum: Quality Engineer",
+      "url": "https://www.essc-india.org/images/QPs/MC_Quality%20Engineer.pdf",
+      "kind": "model_curriculum"
+    },
+    {
+      "label": "ASQ Certified Quality Engineer information",
+      "url": "https://www.asq.org/cert/quality-engineer",
+      "kind": "professional_certification"
+    },
+    {
+      "label": "ESSCI Qualification Pack: Quality Manager – Electronics, ELE/Q7902 v3.0",
+      "url": "https://www.essc-india.org/images/QP-Qualification-PACK/Quality%20Manager%20-%20Electronics_ELE_Q7902_v3.0.pdf",
+      "kind": "progression_reference"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

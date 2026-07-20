@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Conducting authority",
+      "value": "West Bengal Joint Entrance Examinations Board (WBJEEB), a Government of West Bengal board empowered to conduct common entrance examinations and online counselling.",
+      "source_urls": [
+        "https://wbjeeb.nic.in/wbjee-2/",
+        "https://wbjeeb.nic.in/wbjee/"
+      ]
+    },
+    {
+      "label": "Purpose",
+      "value": "State-level entrance examination for 2026–27 undergraduate admission in Engineering/Technology, Pharmacy and Architecture at participating universities, government colleges and self-financing institutes in West Bengal.",
+      "source_urls": [
+        "https://wbjeeb.nic.in/wbjee/",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    },
+    {
+      "label": "2026 exam date",
+      "value": "WBJEE 2026 was held on May 24, 2026: Mathematics from 11:00 a.m.–1:00 p.m. and Physics & Chemistry from 2:00–4:00 p.m.",
+      "source_urls": [
+        "https://wbjeeb.nic.in/wbjee/",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    },
+    {
+      "label": "Test mode and papers",
+      "value": "Offline, OMR-based examination with Paper I (Mathematics) and Paper II (Physics & Chemistry).",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    },
+    {
+      "label": "Ranks",
+      "value": "Taking both papers can produce a General Merit Rank (GMR) and Pharmacy Merit Rank (PMR); taking only Paper II can produce a PMR. Paper I alone does not yield a rank.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    },
+    {
+      "label": "2026 application fee context",
+      "value": "For WBJEE 2026, the published examination fee ranged from ₹200 to ₹500 by gender and category; it was non-refundable. Fees and categories are session-specific and should be checked in the current bulletin.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "What WBJEE is for",
+      "paragraphs": [
+        "WBJEE is WBJEEB’s annual, one-time common entrance test for undergraduate Engineering, Technology, Pharmacy and Architecture admissions in West Bengal. It supports admission and e-counselling, but a test rank is not itself an offer of admission: the allotted institute verifies eligibility and documents during admission.",
+        "For the 2026 cycle, the Board’s main WBJEE page lists the examination as held on May 24, 2026 and publishes rank-card, counselling, seat-matrix and institute-detail links through the official portal."
+      ],
+      "bullets": [
+        "Engineering/Technology and Architecture admissions use the GMR.",
+        "The Pharmacy course at Jadavpur University uses the GMR; other Pharmacy courses use the PMR.",
+        "Course availability, seat matrix, institutional requirements and counselling rules can change by session."
+      ],
+      "source_urls": [
+        "https://wbjeeb.nic.in/wbjee/",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Who can appear and what admission requires",
+      "paragraphs": [
+        "For WBJEE 2026, an applicant had to be an Indian citizen or an OCI candidate subject to competent-authority approval, have passed 10+2 (or equivalent) before 2026 or be appearing in 2026, and be at least 17 years old by December 31, 2026. The Board specified no upper age limit for the examination generally, while Marine Engineering had a separate upper-age rule.",
+        "Exam eligibility is not identical to programme admission eligibility. For the general Engineering/Technology route, the 2026 bulletin points to the prevailing AICTE subject-combination rules, requires at least 45% in the applicable three subjects together (40% for listed reserved categories), and requires English with at least 30%. Universities may impose additional requirements.",
+        "For Pharmacy, 10+2 Physics, Chemistry and Mathematics or Biology are required, with individual passes, the stated aggregate threshold and English. For a five-year Architecture degree, the bulletin states 50% in Physics, Chemistry and Mathematics together, 50% aggregate at 10+2, and qualification in NATA; institution-specific rules may also apply."
+      ],
+      "bullets": [
+        "Check the programme and institute-specific criteria before choice filling; a rank does not override them.",
+        "Keep category, domicile, income and qualifying-examination records valid for institute document verification.",
+        "PCM students are positioned for the standard Engineering/Technology pathway, but the 2026 subject rules allow some other AICTE-recognised combinations for particular programmes."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam pattern and scoring",
+      "paragraphs": [
+        "WBJEE 2026 used MCQs with four options and three question categories. Mathematics contained 75 questions for 100 marks; Physics and Chemistry contained 40 questions and 50 marks each. Candidates marked responses on an OMR sheet with the blue/black ballpoint pen supplied by WBJEEB.",
+        "Category 1 questions carried one mark with a 0.25-mark deduction for an incorrect response. Category 2 questions carried two marks with a 0.5-mark deduction for an incorrect response. Category 3 questions carried two marks, permit one or more correct options, have no negative marking, and award proportional marks only when selected options contain no incorrect option."
+      ],
+      "bullets": [
+        "Paper I: Mathematics.",
+        "Paper II: Physics and Chemistry.",
+        "GMR is based on the combined Paper I and Paper II score; PMR is based on Paper II only."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application, result and counselling pathway",
+      "paragraphs": [
+        "WBJEE applications are online only. In the 2026 process, candidates registered personal details, completed academic/category and exam-zone information, uploaded photograph and signature files, paid online, and downloaded the confirmation page. The confirmation page signified that the application was complete. Key primary registration fields—including name, parents’ names, domicile and date of birth—could not be changed later.",
+        "The published 2026 examination-page registration window was March 10–April 8, 2026. This is historical, not a prediction for later cycles: applicants should use the official WBJEE page and its current bulletin for the next opening, correction period, fee and document rules.",
+        "After the exam, WBJEEB publishes model answer keys and enables time-limited online challenges. Results are issued as individual rank cards. Eligible candidates then register for counselling, fill and lock institute/course choices, and receive allotment based on applicable merit rank, programme eligibility, reservation/category status, vacancies and locked preferences. The 2026 counselling schedule states that dates can be altered in unavoidable circumstances."
+      ],
+      "bullets": [
+        "Do not share the application password; it is needed to access the application and later services.",
+        "Preserve the confirmation page, admit card, rank card and relevant certificates for verification.",
+        "For 2026, Round 2 choice filling was scheduled for July 13–17 and the Round 2 allotment result for July 21; consult the live portal because counselling dates and notices may change."
+      ],
+      "source_urls": [
+        "https://wbjeeb.nic.in/wbjee/",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/06/20260629604113331.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/06/202606291700903463.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach grounded in the official pattern",
+      "paragraphs": [
+        "Start with the official WBJEE syllabus in the current information bulletin and prepare separately for Mathematics and the combined Physics–Chemistry paper. Because the test is OMR-based, include timed practice that replicates the two-paper schedule and careful bubble marking; responses cannot be edited after marking.",
+        "Use the Board’s official past-paper archive to practise actual Mathematics and Physics–Chemistry papers. Review errors by question category: avoid low-confidence single-answer guesses where the negative-marking trade-off is unfavourable, and practise fully correct multi-select responses for Category 3 questions."
+      ],
+      "bullets": [
+        "Build accuracy first for Categories 1 and 2, where wrong answers incur a 25% penalty.",
+        "Practise the Category 3 multi-correct rule: an incorrect selected option yields zero for that item.",
+        "Use official previous papers rather than assuming that third-party mock-test patterns exactly match the Board’s current format."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf",
+        "https://wbjeeb.nic.in/old-question-paper-wbjee/"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "From rank to degree options",
+      "paragraphs": [
+        "A qualifying WBJEE rank can lead into counselling for undergraduate Engineering/Technology, Pharmacy and Architecture options at participating West Bengal institutions. The rank card reports relevant ranks and scores, but WBJEEB explicitly notes that appearing for the examination or obtaining a rank does not guarantee admission.",
+        "For the Engineering-oriented pathways represented by this node—B.Tech and integrated B.Tech + M.Tech programmes—eligibility, seat availability, choices and institute verification remain decisive. Architecture has an additional NATA requirement in the 2026 bulletin, and Pharmacy has a distinct PMR route outside Jadavpur University.",
+        "West Bengal’s Tuition Fee Waiver (TFW) scheme is a limited tuition-only waiver, not a full-cost scholarship. For 2026, the bulletin required West Bengal domicile and family income below ₹2.50 lakh; other fees remained payable. This is dated policy context and should be rechecked in the applicable counselling notice."
+      ],
+      "bullets": [
+        "B.Tech and B.Tech + M.Tech dual-degree availability depends on the published course-wise seat matrix.",
+        "B.Arch admission requires the applicable architecture eligibility in addition to WBJEE-related counselling conditions.",
+        "B.Pharm admission can follow PMR rules, subject to institution and programme requirements."
+      ],
+      "source_urls": [
+        "https://wbjeeb.nic.in/wbjee/",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/06/20260629604113331.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "WBJEE official examination page",
+      "url": "https://wbjeeb.nic.in/wbjee/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "WBJEE 2026 information bulletin",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf",
+      "kind": "official information bulletin"
+    },
+    {
+      "label": "WBJEE official past question papers",
+      "url": "https://wbjeeb.nic.in/old-question-paper-wbjee/",
+      "kind": "official preparation resource"
+    },
+    {
+      "label": "WBJEE 2026 counselling notification",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/06/20260629604113331.pdf",
+      "kind": "official counselling notice"
+    },
+    {
+      "label": "WBJEEB institute details",
+      "url": "https://wbjeeb.in/",
+      "kind": "official institution resource"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

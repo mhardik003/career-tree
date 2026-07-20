@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role framing",
+      "value": "“Senior Industrial Technician” is best treated as an experienced-job/seniority designation rather than a single nationally prescribed qualification. In the closely aligned DGT Maintenance Mechanic (Chemical Plant) curriculum, the stated industry progression is Technician → Senior Technician → Supervisor → Manager.",
+      "source_urls": [
+        "https://dgt.gov.in/sites/default/files/2023-12/MM%20%28CP%29_CTS2.0_NSQF-4.pdf"
+      ]
+    },
+    {
+      "label": "Core work domain",
+      "value": "The role broadly aligns with India’s National Classification of Occupations group for agricultural and industrial machinery mechanics and repairers, including work such as fault diagnosis, overhaul, fitting, adjustment, alignment and maintenance of industrial equipment.",
+      "source_urls": [
+        "https://www.ncs.gov.in/Documents/National%20Classification%20of%20Occupations_Vol%20II-B-%202015.pdf"
+      ]
+    },
+    {
+      "label": "Common foundational training",
+      "value": "DGT’s CTS catalogue includes relevant industrial-maintenance routes such as Mechanic Machine Tool Maintenance (two years, NSQF level 4) and newer manufacturing/automation trades such as Industrial Robotics & Digital Manufacturing Technician and Manufacturing Process Control and Automation Technician.",
+      "source_urls": [
+        "https://dgt.gov.in/en/cts-details"
+      ]
+    },
+    {
+      "label": "Plant-maintenance route",
+      "value": "DGT lists the Flexi-MoU CTS trade “Technician – Plant Maintenance” as a two-year, NSQF level 5 programme with Class 10 Science and Mathematics (or equivalent) entry eligibility.",
+      "source_urls": [
+        "https://dgt.gov.in/en/flexi-mou-courses-cts"
+      ]
+    },
+    {
+      "label": "Indicative experience benchmark",
+      "value": "For the related NCS profile Maintenance Technician–Mechanical Level 3, NCS states that 2–3 years of maintenance/manufacturing experience is generally required; actual senior-technician requirements vary by employer, plant, trade and safety-critical responsibilities.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3533&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Instructor pathway",
+      "value": "CITS is a credible transition route for experienced technicians moving into vocational instruction: DGT describes it as training in occupational skills and training methodology, with NTC, NAC, diploma or degree holders eligible subject to the applicable admission rules.",
+      "source_urls": [
+        "https://dgt.gov.in/en/CITS"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Senior Industrial Technician does",
+      "paragraphs": [
+        "In an Indian industrial-maintenance context, a senior technician typically takes responsibility for diagnosing and rectifying faults, carrying out repair and maintenance work, checking equipment against circuit diagrams or drawings, and recording technical parameters. These functions are explicitly represented in DGT’s Maintenance Mechanic (Chemical Plant) curriculum and are appropriate evidence for the maintenance-focused core of this node; the precise machinery and controls depend on the employer and sector.",
+        "The senior aspect is usually demonstrated through independent handling of complex breakdowns, disciplined documentation, work coordination and guidance to less-experienced technicians. It is an employer-level designation rather than a protected national licence or one uniform DGT trade title."
+      ],
+      "bullets": [
+        "Troubleshoot mechanical, electrical, instrumentation or control faults using drawings, manuals, measurements and systematic testing.",
+        "Execute or oversee repair, replacement, installation, alignment and functional checks of plant equipment.",
+        "Document task parameters, faults, actions and verification results for maintenance records and handover.",
+        "Coordinate safe maintenance work and support the technical development of junior technicians within the employer’s procedures."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/sites/default/files/2023-12/MM%20%28CP%29_CTS2.0_NSQF-4.pdf",
+        "https://www.ncs.gov.in/Documents/National%20Classification%20of%20Occupations_Vol%20II-B-%202015.pdf"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry and preparation routes",
+      "paragraphs": [
+        "A practical route begins with a relevant ITI/CTS trade and progressively deeper shop-floor experience. DGT lists two-year, NSQF level 4 CTS pathways including Mechanic Machine Tool Maintenance, Fitter, Electrician and Electronics Mechanic, while its catalogue also includes industrial robotics, process-control and IIoT-related technician trades. Selection should follow the equipment mix of the target plant rather than the generic job title.",
+        "A more directly plant-maintenance-oriented option is DGT’s Flexi-MoU CTS “Technician – Plant Maintenance,” listed as a two-year NSQF level 5 course requiring Class 10 Science and Mathematics or equivalent. Apprenticeship and employer on-the-job training can then build the practical fault-finding and shutdown experience needed for senior roles.",
+        "For a move toward ITI/NSTI teaching, CITS provides a separate route. DGT states that eligible applicants hold NTC, NAC, diploma or degree qualifications, and that CITS combines skills with training methodology; requirements and admission processes must be checked for the specific trade and cycle."
+      ],
+      "bullets": [
+        "Relevant CTS/ITI foundation: Fitter, Mechanic Machine Tool Maintenance, Electrician, Electronics Mechanic, or another trade matched to the plant.",
+        "Specialise through plant-maintenance, automation, robotics, process-control or IIoT training where it matches the local industrial environment.",
+        "Build supervised experience in preventive maintenance, breakdown response, drawings, documentation and safe isolation procedures.",
+        "Consider a polytechnic engineering diploma for progression toward maintenance engineering or supervisory pathways; consider CITS where the objective is vocational instruction."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/en/cts-details",
+        "https://dgt.gov.in/en/flexi-mou-courses-cts",
+        "https://dgt.gov.in/en/CITS"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills that distinguish a senior technician",
+      "paragraphs": [
+        "The strongest technical base is the ability to interpret drawings and circuit information, diagnose faults, repair and maintain equipment, verify functioning, and document technical parameters. The National Classification of Occupations additionally describes industrial maintenance work in terms of diagnosing faults, overhauling, fitting and adjusting mechanical systems and equipment.",
+        "Because industrial plants increasingly combine mechanical equipment with controls and digital systems, technicians can strengthen employability through automation- and digital-manufacturing-related learning. DGT currently lists Industrial Robotics & Digital Manufacturing Technician, Manufacturing Process Control and Automation Technician, and Industrial Internet of Things (IIoT) Technician among CTS offerings; availability varies by institute."
+      ],
+      "bullets": [
+        "Structured troubleshooting and root-cause thinking.",
+        "Reading mechanical drawings, circuit diagrams and equipment documentation.",
+        "Repair, fitting, alignment, functional testing and maintenance-record documentation.",
+        "Safe, clear communication during handover, shutdown work and mentoring.",
+        "Automation and digital-manufacturing awareness where relevant to the plant."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/sites/default/files/2023-12/MM%20%28CP%29_CTS2.0_NSQF-4.pdf",
+        "https://www.ncs.gov.in/Documents/National%20Classification%20of%20Occupations_Vol%20II-B-%202015.pdf",
+        "https://dgt.gov.in/en/cts-details"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the role is found",
+      "paragraphs": [
+        "Senior industrial technicians work in maintenance-intensive settings such as manufacturing plants, process industries, machine-tool operations, utilities and equipment-service environments. The specific job may be mechanically focused, electrically focused, instrumentation-focused, or multidisciplinary. The NCO groups the related work under agricultural and industrial machinery mechanics and repairers, while DGT’s CTS catalogue spans capital goods and manufacturing, chemicals and petrochemicals, power, electronics and hardware, and other relevant sectors.",
+        "Work patterns can include planned preventive maintenance, breakdown attendance, installation/commissioning support and shutdown work. The employer’s safety system, equipment type and shift structure determine the actual exposure and duties."
+      ],
+      "bullets": [
+        "Manufacturing and capital-goods facilities.",
+        "Chemical and process plants.",
+        "Power, utilities and facility-maintenance operations.",
+        "Equipment maintenance, installation and technical-service organisations."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/Documents/National%20Classification%20of%20Occupations_Vol%20II-B-%202015.pdf",
+        "https://dgt.gov.in/en/cts-details"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression options",
+      "paragraphs": [
+        "The clearest official progression evidence is DGT’s maintenance-mechanic curriculum, which states that a technician can progress to Senior Technician, Supervisor and Manager, or become an entrepreneur in a related field. This supports the node’s links to maintenance supervision and technical-services entrepreneurship, while recognising that promotion criteria are set by each employer.",
+        "A related NCS maintenance profile gives an indicative pathway from Maintenance Technician–Mechanical Level 3 to Level 4 and then Engineer. Accordingly, a senior technician can progress toward Maintenance Supervisor or Maintenance Engineer through demonstrated plant responsibility, further technical study such as a relevant polytechnic diploma, and employer-specific experience. CITS offers an alternative progression toward craft-instructor work for candidates meeting the scheme’s trade-specific eligibility."
+      ],
+      "bullets": [
+        "Senior Industrial Technician → Maintenance Supervisor / shift or area maintenance lead.",
+        "Senior Industrial Technician → Maintenance Engineer, often supported by a relevant engineering diploma and employer experience.",
+        "Senior Industrial Technician → Service Manager or technical-services lead in equipment/service organisations.",
+        "Senior Industrial Technician → industrial automation or technical-services entrepreneurship.",
+        "Senior Industrial Technician → CITS-trained vocational instructor, subject to CITS admission requirements."
+      ],
+      "source_urls": [
+        "https://dgt.gov.in/sites/default/files/2023-12/MM%20%28CP%29_CTS2.0_NSQF-4.pdf",
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3533&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://dgt.gov.in/en/CITS"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "No single India-wide pay scale applies to “Senior Industrial Technician.” Pay varies materially with sector, location, shift or shutdown duty, statutory/PSU versus private employment, trade specialisation, risk exposure and experience. As dated reference context only, the NCS page for the related Maintenance Technician–Mechanical Level 3 profile—last updated September 18, 2023—reported ₹12,000–₹18,000 per month for candidates with experience and explicitly labelled the figures indicative and subject to change. That figure should not be treated as a current salary benchmark or as senior-technician pay.",
+        "For job decisions, compare current employer advertisements and total compensation, including overtime, shift allowance, travel/site allowance, insurance and other benefits, rather than relying on title alone."
+      ],
+      "bullets": [
+        "Treat historical NCS earnings figures as indicative context, not a current market quote.",
+        "Expect higher or differently structured compensation where roles require scarce automation, instrumentation, shutdown or field-service capabilities.",
+        "Verify current pay, benefits, work hours and safety conditions directly with the recruiting employer."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3533&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "DGT CTS trade catalogue",
+      "url": "https://dgt.gov.in/en/cts-details",
+      "kind": "official training catalogue"
+    },
+    {
+      "label": "DGT Flexi-MoU CTS courses",
+      "url": "https://dgt.gov.in/en/flexi-mou-courses-cts",
+      "kind": "official training catalogue"
+    },
+    {
+      "label": "DGT Craft Instructor Training Scheme (CITS)",
+      "url": "https://dgt.gov.in/en/CITS",
+      "kind": "official scheme information"
+    },
+    {
+      "label": "National Career Service: Maintenance Technician–Mechanical L3",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3533&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "official career information"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

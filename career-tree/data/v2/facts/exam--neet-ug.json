@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Conducting body",
+      "value": "NEET (UG) is conducted by the National Testing Agency (NTA).",
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf"
+      ]
+    },
+    {
+      "label": "What it is for",
+      "value": "It is the common national eligibility-cum-entrance test used for undergraduate medical education and, under the applicable laws and regulations, for MBBS, BDS, BAMS, BUMS, BSMS and BHMS admissions.",
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf"
+      ]
+    },
+    {
+      "label": "2026 test format",
+      "value": "The 2026 bulletin specified a single-shift pen-and-paper test of 180 compulsory MCQs in 180 minutes: Physics 45 questions, Chemistry 45, and Biology 90, for 720 marks.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf"
+      ]
+    },
+    {
+      "label": "Eligibility baseline",
+      "value": "For NEET (UG)-2026, candidates had to complete age 17 by December 31, 2026. The qualifying-study requirements include Physics, Chemistry, Biology/Biotechnology and English; Class 12 candidates awaiting results could sit the test but needed to pass the qualifying examination for admission.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf"
+      ]
+    },
+    {
+      "label": "2026 cycle status",
+      "value": "The originally scheduled examination was held on May 3, 2026; NTA’s official NEET site lists score cards and a subsequent re-examination-related result/answer-key process. Candidates should rely on the official portal for their own score and counselling notices.",
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://nta.ac.in/Download/Notice/Notice_20260502215114.pdf"
+      ]
+    },
+    {
+      "label": "Counselling routes",
+      "value": "For the 2026 framework, MCC/DGHS handles specified All India Quota, central, AIIMS, JIPMER and deemed-university medical/dental seats; state/UT authorities handle seats under their control. AACCC handles AYUSH All India Quota counselling.",
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "https://mcc.nic.in/ug-%20medical-counselling/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "purpose",
+      "heading": "Purpose and scope",
+      "paragraphs": [
+        "NEET (UG) is the national entrance examination administered by NTA for undergraduate medical education. The 2026 NTA bulletin identifies it as the uniform test for MBBS and BDS, and as the uniform entrance test for BAMS, BUMS, BSMS and BHMS under their respective statutory frameworks. NEET has also been the qualifying entrance examination for MBBS at AIIMS and JIPMER since 2020.",
+        "A NEET score is not by itself an admission offer. NTA conducts the examination, declares results and provides the All India Rank; the relevant regulator, counselling authority, state authority and college apply their own seat, category, domicile, document-verification and admission rules."
+      ],
+      "bullets": [
+        "Use the official NTA bulletin for examination rules and the official websites of counselling authorities and institutions for seat-level admission conditions.",
+        "Do not assume that every health-science programme uses NEET nationally: institutions may use a NEET score for additional programmes under their own rules."
+      ],
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf"
+      ]
+    },
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "For the NEET (UG)-2026 cycle, the age rule stated that a candidate must have completed 17 years on or before December 31 of the examination year. Indian nationals, NRIs, OCI cardholders and foreign nationals could appear, subject to the applicable admission rules and documentation requirements.",
+        "The qualifying-study baseline is Class 12 or an equivalent qualification with Physics, Chemistry, Biology/Biotechnology and English. A student whose Class 12 result was pending could apply and take the test, but could not be admitted until the qualifying examination was passed. The bulletin also permits candidates who studied the required subjects, including English, as additional subjects after Class 12 from a government-recognised board to appear in NEET (UG).",
+        "Meeting NEET examination eligibility and qualifying the test do not eliminate course-specific conditions. For undergraduate medical courses, the 2026 bulletin stated minimum qualifying percentiles of 50th for General/General-EWS, 40th for SC/ST/OBC, and 45th for PwBD candidates in General/General-EWS; the applicable authority may set or modify rules for a given admission year."
+      ],
+      "bullets": [
+        "Check the current-year NTA bulletin before applying: dates, age cut-offs, nationality documentation and correction windows can change.",
+        "Check the target course and college separately for academic marks, category certificates, domicile, disability certification, language requirements and other admission conditions."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FLatestNews%2FPublicNotice_merged_Onlineinfor_mbbs.pdf"
+      ]
+    },
+    {
+      "key": "format",
+      "heading": "Exam format and scoring",
+      "paragraphs": [
+        "The 2026 scheme used a single-day, single-shift, pen-and-paper examination. It contained 180 compulsory multiple-choice questions to be completed in 180 minutes: 45 each in Physics and Chemistry and 90 in Biology (Botany and Zoology), for a maximum of 720 marks.",
+        "The 2026 marking rule was +4 for a correct or most-appropriate answer, −1 for an incorrect marked option, and 0 for an unanswered question. The question paper was offered in 13 media, including English and Hindi; the selected medium could not be changed later in the application process.",
+        "NMC notifies the syllabus. Preparation should therefore be anchored to the current official syllabus rather than to coaching-provider topic lists or prior-year assumptions."
+      ],
+      "bullets": [
+        "Build test strategy around accuracy as well as speed because of negative marking.",
+        "Practise full-length paper-based mock tests under the official three-hour constraint.",
+        "Verify the current-year subject distribution, duration, mode, languages and marking scheme from the official bulletin before finalising a study plan."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "https://www.nmc.org.in/neet/neet-ug/"
+      ]
+    },
+    {
+      "key": "application_process",
+      "heading": "Application process",
+      "paragraphs": [
+        "The NTA process is online through the NEET portal. For 2026, applicants were instructed to keep identity, date-of-birth, Class X and XII, address, contact and supporting-document details ready; Indian applicants could use Aadhaar, an Indian passport, DigiLocker, PAN or another valid government-issued photo ID. Mobile number and email verification by OTP were required.",
+        "The core online workflow is: register and record the system-generated application number; complete the form and upload the required images/documents; pay the applicable fee; and save the confirmation page. NTA permitted only one application per candidate and warned that duplicate or false applications can lead to disqualification and further action.",
+        "The 2026 application window ran from February 8 through March 8, with a correction window from March 10 through March 12. These dates are historical context only, not a forecast: prospective candidates should wait for and follow the next official NTA notice."
+      ],
+      "bullets": [
+        "Use personal email and mobile access that will remain active through results and counselling.",
+        "Enter names, dates of birth, category and identification details exactly as supported by documents.",
+        "Download and retain the confirmation page, admit card and score card; then monitor the NTA portal and applicable counselling authority until counselling closes."
+      ],
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf"
+      ]
+    },
+    {
+      "key": "preparation",
+      "heading": "Preparation approach",
+      "paragraphs": [
+        "Start from the NMC-notified NEET syllabus and organise revision across Physics, Chemistry and Biology. Since Biology accounts for half of the 720 marks in the 2026 format, it merits proportionate study time, while Physics and Chemistry remain jointly worth the other half.",
+        "Use a cycle of content review, topic-level questions, error analysis and timed full-length practice. For every mock, review incorrect answers, guessed answers and unanswered questions separately; this directly reflects the official +4/−1/0 scoring framework.",
+        "Use only official notices for operational rules such as the admit card, centre instructions, permitted items, dress code, OMR challenge process and answer-key challenge windows. Such rules can change between cycles."
+      ],
+      "bullets": [
+        "Create a syllabus checklist and mark each unit as unstarted, learning, practising or revision-ready.",
+        "Practise filling answers carefully in OMR-style conditions.",
+        "Plan exam-day logistics from the official admit card rather than map pins or unofficial social-media messages."
+      ],
+      "source_urls": [
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "https://nta.ac.in/Download/Notice/Notice_20260502215114.pdf"
+      ]
+    },
+    {
+      "key": "outcomes",
+      "heading": "Results, counselling and academic pathways",
+      "paragraphs": [
+        "After the exam, NTA publishes the score card and All India Rank. The bulletin provides for display of scanned OMR responses and provisional answer keys, with time-limited paid challenge mechanisms; answer sheets are not ordinarily rechecked or re-evaluated after that process.",
+        "For the 2026 admission framework, NEET feeds MBBS, BDS, BAMS, BUMS, BSMS and BHMS admissions. MCC/DGHS conducts counselling for specified 15% All India Quota and central-institution pathways, while state/UT counselling authorities manage seats under their control. AACCC is the All India Quota counselling authority for BAMS, BUMS, BSMS and BHMS.",
+        "NEET data may also be used under specific rules for other pathways. The 2026 bulletin says it may be used for B.Sc. (Hons.) Nursing under the relevant eligibility rules and for B.V.Sc. & A.H. under the Veterinary Council of India’s 15% quota in recognised veterinary colleges. The VCI’s 2025-26 bulletin likewise used qualified NEET-UG merit for that 15% All India quota. For B.Pharm, BPT and other programmes, confirm the individual institution’s current admission notification rather than assuming a nationwide NEET requirement.",
+        "Indian citizens and OCI applicants planning an MBBS-equivalent programme abroad should note NMC’s stated NEET qualification requirement for primary medical education outside India, alongside all foreign-medical-graduate and destination-country requirements. A NEET score alone does not establish that a foreign degree will meet later Indian registration or licensing requirements."
+      ],
+      "bullets": [
+        "A qualifying percentile is not a guaranteed seat: admission depends on rank, choices, category, quota, seat availability, verification and the applicable counselling rules.",
+        "Register separately with the appropriate counselling authority after results; taking NEET does not automatically enter a candidate into counselling.",
+        "For foreign MBBS plans, obtain written, current confirmation from NMC and the proposed foreign institution before paying fees or enrolling."
+      ],
+      "source_urls": [
+        "https://neet.nta.nic.in/",
+        "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "https://mcc.nic.in/ug-%20medical-counselling/",
+        "https://vci.dahd.gov.in/sites/default/files/Counseling/INFORMATION%20BULLETIN%20AY%202025-26.pdf",
+        "https://www.nmc.org.in/rules-regulations/screening-test-regulations-2002/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Official NEET (UG) portal",
+      "url": "https://neet.nta.nic.in/",
+      "kind": "official exam portal"
+    },
+    {
+      "label": "NEET (UG)-2026 Information Bulletin",
+      "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "kind": "official information bulletin"
+    },
+    {
+      "label": "Medical Counselling Committee (MCC) UG counselling",
+      "url": "https://mcc.nic.in/ug-%20medical-counselling/",
+      "kind": "official counselling authority"
+    },
+    {
+      "label": "NMC NEET-UG page and syllabus resources",
+      "url": "https://www.nmc.org.in/neet/neet-ug/",
+      "kind": "official regulator"
+    },
+    {
+      "label": "Veterinary Council of India",
+      "url": "https://vci.dahd.gov.in/",
+      "kind": "official regulator"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

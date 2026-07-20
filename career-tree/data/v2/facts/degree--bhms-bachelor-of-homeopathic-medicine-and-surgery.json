@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Award and regulator",
+      "value": "BHMS is the Bachelor of Homoeopathic Medicine and Surgery undergraduate qualification; its graduate-course standards are prescribed by the National Commission for Homoeopathy (NCH).",
+      "source_urls": [
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf",
+        "https://nch.org.in/public/nch-gazetted-rules-and-regulations"
+      ]
+    },
+    {
+      "label": "Standard duration",
+      "value": "The regulated programme is 5 years and 6 months: 18 months in the first professional phase, three further 12-month professional phases, and a 12-month compulsory rotatory internship.",
+      "source_urls": [
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf"
+      ]
+    },
+    {
+      "label": "Entry examination",
+      "value": "Admission is based on NEET-UG. The NCH regulations require a uniform NEET for undergraduate admission and prescribe NEET qualifying percentiles, subject to any academic-year-specific relaxation notified by the competent authorities.",
+      "source_urls": [
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf",
+        "https://nch.org.in/upload/Directives%20for%20counseling%20%26%20admission%20in%20UG%20courses%20%281%29.pdf"
+      ]
+    },
+    {
+      "label": "Counselling route",
+      "value": "AACCC conducts counselling for 15% All India Quota BHMS seats in government/government-aided institutions and for 100% of BHMS seats in Central Universities, National Institutes, and deemed universities; State/UT authorities handle the applicable state-side counselling.",
+      "source_urls": [
+        "https://aaccc.gov.in/ayush-admissions-central-counseling-committee-aaccc/",
+        "https://aaccc.gov.in/counselling-admissions/"
+      ]
+    },
+    {
+      "label": "Teaching language",
+      "value": "The BHMS programme’s prescribed medium of instruction is English.",
+      "source_urls": [
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "Under the current NCH graduate-course framework, an applicant must have passed 10+2 (or an equivalent qualification) with Physics, Chemistry, and Biology or Biotechnology. The 2025 amendment replaced the earlier wording on Class 12 subject-score thresholds; applicants should therefore use the current NCH/AACCC admission directions and the counselling authority’s bulletin for the applicable academic year.",
+        "Applicants must be at least 17 years old on or before December 31 of the admission year. For NEET-UG eligibility, the baseline qualifying standard is the 50th percentile; it is 40th percentile for SC/ST/OBC candidates and 45th percentile for General-category candidates with specified disabilities (40th percentile for SC/ST/OBC candidates with specified disabilities). The NCH, in consultation with the Central Government, may lower the NEET threshold for a particular academic year if the regulatory condition is met."
+      ],
+      "bullets": [
+        "Pass 10+2/equivalent with Physics, Chemistry, and Biology or Biotechnology.",
+        "Meet the minimum-age condition of 17 years by December 31 of the admission year.",
+        "Qualify NEET-UG at the percentile applicable to the candidate’s category and that academic year."
+      ],
+      "source_urls": [
+        "https://nch.org.in/upload/BHMS-AMENDMENT-2025.pdf",
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf",
+        "https://nch.org.in/upload/Directives%20for%20counseling%20%26%20admission%20in%20UG%20courses%20%281%29.pdf"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and internship",
+      "paragraphs": [
+        "BHMS is structured as a 5.5-year programme. The first professional period is 18 months, followed by second, third, and fourth professional periods of 12 months each, and then a 12-month compulsory rotatory internship. The degree is awarded after the candidate passes the prescribed examinations and completes both the course of study and internship.",
+        "The internship is not optional: a student may join it only after passing all subjects from the first through fourth professional examinations, including the required electives, and after receiving provisional degree and provisional registration certificates as specified in the regulations."
+      ],
+      "bullets": [
+        "First professional: 18 months.",
+        "Second, third, and fourth professional phases: 12 months each.",
+        "Compulsory rotatory internship: 12 months."
+      ],
+      "source_urls": [
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and learning format",
+      "paragraphs": [
+        "The NCH framework combines homoeopathic subjects with biomedical, clinical, public-health, research, and professional-development components. Named subjects include Homoeopathic Materia Medica; Organon of Medicine with Homoeopathic Philosophy; Homoeopathic Pharmacy; Repertory and Case Taking; anatomy, histology and embryology; physiology and biochemistry; pathology and microbiology; forensic medicine and toxicology; community medicine and public health; surgery; gynaecology and obstetrics; practice of medicine; modern pharmacology; research methodology and biostatistics; psychology; and yoga.",
+        "The programme includes a foundation course of at least 15 working days and 90 hours after admission. Minimum prescribed teaching is 2,268 hours over 324 days in the first professional session and 1,512 hours over 216 days in each subsequent professional session. Clinical classes are built into every professional phase, with practical/clinical and demonstrative learning formats such as laboratory training, dissection, field visits, case-based learning, and early clinical exposure."
+      ],
+      "bullets": [
+        "Four professional phases, with university examinations at the end of each phase.",
+        "At least two electives are listed in each professional year; six electives must be cleared before internship eligibility.",
+        "Clinical, community, and hospital-based exposure are integral to the regulated programme."
+      ],
+      "source_urls": [
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission through NEET-UG and counselling",
+      "paragraphs": [
+        "Candidates first take and qualify NEET-UG, then participate in the counselling authority responsible for the seat category and institution. Direct admission outside the prescribed Central, State, or Union Territory counselling process is not approved under the BHMS regulations (other than the separately addressed foreign-national route).",
+        "For the central route, AACCC administers online counselling for 15% All India Quota undergraduate BHMS seats in government/government-aided AYUSH institutions, as well as 100% of eligible BHMS seats in Central Universities, National Institutes, and deemed universities. The relevant State or UT counselling authority administers state/UT quota admissions under its rules. Counselling schedules, seat matrices, registration charges, security deposits, and cut-off dates are academic-year-specific and should be checked on the official portal rather than assumed from a prior cycle."
+      ],
+      "bullets": [
+        "Use only the official NEET-UG result and counselling portals.",
+        "Confirm that the college and its permitted intake are included in the current official seat matrix.",
+        "Read the current-year counselling information bulletin before locking choices; procedures and dates can change."
+      ],
+      "source_urls": [
+        "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf",
+        "https://aaccc.gov.in/ayush-admissions-central-counseling-committee-aaccc/",
+        "https://aaccc.gov.in/ug-counselling/",
+        "https://aaccc.gov.in/counselling-admissions/"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Options after BHMS",
+      "paragraphs": [
+        "A principal regulated postgraduate route is MD (Homoeopathy). Entry requires a recognised BHMS (or specified equivalent) completed with the one-year compulsory rotatory internship, registration with the relevant State Board or Council, and performance in AIAPGET. The NCH’s MD (Homoeopathy) regulations describe a regular, full-time three-year programme and list specialties including Homoeopathic Materia Medica, Organon of Medicine and Homoeopathic Philosophy, Repertory and Case Taking, Homoeopathic Pharmacy, Practice of Medicine, Paediatrics, Psychiatry, Community Medicine, and Dermatology.",
+        "For professional practice, graduates should verify registration requirements with the relevant State Board/Council. The NCH National Register states that National Register enrolment remains valid while the practitioner’s State Register name/registration number remains live. This makes maintaining the applicable registration status important for a practitioner pathway; specific employment, clinic, public-health, research, or entrepreneurship opportunities can have additional employer, State, or programme requirements."
+      ],
+      "bullets": [
+        "Postgraduate study: sit AIAPGET and pursue eligible MD (Homoeopathy) admission through the prescribed process.",
+        "Professional pathway: complete internship and maintain the relevant State registration; check National Register status where applicable.",
+        "Other academic pathways such as MPH or clinical-research training are institution-specific and require checking each programme’s current eligibility rules."
+      ],
+      "source_urls": [
+        "https://nch.org.in/upload/Gazetted-PG-regulation.pdf",
+        "https://exams.nta.ac.in/AIAPGET/images/faqs-for-aiapget-2025.pdf",
+        "https://nch.org.in/public/nchnrh/nrh1/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "NCH BHMS Regulations, 2022",
+      "url": "https://nch.org.in/upload/Homoeopathy%20Degree%20Course%20-%20B.H.M.S.%20Regulations-2022.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "NCH BHMS Amendment Regulations, 2025",
+      "url": "https://nch.org.in/upload/BHMS-AMENDMENT-2025.pdf",
+      "kind": "regulation"
+    },
+    {
+      "label": "AACCC UG counselling",
+      "url": "https://aaccc.gov.in/ug-counselling/",
+      "kind": "admissions portal"
+    },
+    {
+      "label": "NCH rules and regulations index",
+      "url": "https://nch.org.in/public/nch-gazetted-rules-and-regulations",
+      "kind": "regulator resource"
+    },
+    {
+      "label": "NCH MD (Homoeopathy) Regulations, 2024",
+      "url": "https://nch.org.in/upload/Gazetted-PG-regulation.pdf",
+      "kind": "postgraduate regulation"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

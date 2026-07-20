@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Service classification",
+      "value": "The SSC’s 2025 MTS notice describes the post as a General Central Service Group ‘C’, non-gazetted, non-ministerial post in central-government ministries, departments, offices, and certain constitutional, statutory, and tribunal bodies.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light"
+      ]
+    },
+    {
+      "label": "Usual entry examination",
+      "value": "Direct recruitment is ordinarily through SSC’s Multi-Tasking (Non-Technical) Staff Examination; the 2025 notice specified a computer-based examination for MTS, unlike the Havaldar post, which also required PET/PST.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light"
+      ]
+    },
+    {
+      "label": "Minimum education at entry",
+      "value": "For the SSC MTS Examination 2025, candidates had to have passed Matriculation (Class 10) or an equivalent examination from a recognized board by the stated cut-off date. Eligibility in a future cycle is governed by that cycle’s notice.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light"
+      ]
+    },
+    {
+      "label": "Work setting",
+      "value": "MTS is a decentralized cadre: personnel are posted to the assigned ministry, department, organization, attached or subordinate office, or field formation, where duties can vary with local operational requirements.",
+      "source_urls": [
+        "https://dopt.gov.in/sites/default/files/Instructions%20for%20Mandatory%20Induction%20Training%20Programme%20of%20Multi-Tasking%20Staff%20of%20Central%20Secretariat.pdf"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "The 2025 SSC notice placed MTS in Pay Level 1 under the 7th Central Pay Commission pay matrix. The CCS (Revised Pay) Rules, 2016 show Level 1 beginning at ₹18,000 basic pay; actual take-home pay changes with admissible allowances, location, deductions, and later government revisions.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light",
+        "https://doe.gov.in/files/cenetral-pay_document/7thCPC_revisedpayrules25072016.pdf"
+      ]
+    },
+    {
+      "label": "Development and promotion",
+      "value": "A departmental competitive route may be available from MTS/Group C to Junior Secretariat Assistant/Lower Division Clerk in covered offices, subject to the applicable notice, service conditions, vacancy, and departmental certification.",
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/departmental_notice_05062026.pdf",
+        "https://dopt.gov.in/sites/default/files/AR2024-25English.pdf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "Core responsibilities",
+      "paragraphs": [
+        "MTS work provides operational support rather than a single uniform occupational specialty. DoPT’s induction guidance characterizes MTS personnel as being involved in office maintenance, record-keeping, and assistance with day-to-day government operations. The precise allocation of duties depends on the ministry, department, office, or field formation to which the employee is assigned.",
+        "The post’s functional requirements in the SSC notice include sitting, standing, walking, bending, reading and writing, seeing, hearing, and communication. This is consistent with a role that combines routine office support, physical movement around the workplace, handling of records or materials, and communication with colleagues or visitors."
+      ],
+      "bullets": [
+        "Maintain orderly office operations and assist with routine administrative support.",
+        "Handle, organize, or support the movement and upkeep of records and office materials as assigned.",
+        "Carry out subordinate duties in accordance with the employing office’s procedures, supervision, and work requirements."
+      ],
+      "source_urls": [
+        "https://dopt.gov.in/sites/default/files/Instructions%20for%20Mandatory%20Induction%20Training%20Programme%20of%20Multi-Tasking%20Staff%20of%20Central%20Secretariat.pdf",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry through SSC MTS",
+      "paragraphs": [
+        "The standard entry route is the SSC Multi-Tasking (Non-Technical) Staff Examination. In the 2025 cycle, the minimum qualification was Matriculation/Class 10 or equivalent from a recognized board. The notice used department-specific MTS age bands of 18–25 years for most MTS vacancies and 18–27 years for some MTS vacancies, with applicable relaxations; applicants should treat these as cycle-specific rather than permanent rules.",
+        "For MTS, the 2025 selection scheme was a computer-based examination with two mandatory sessions. It tested numerical and mathematical ability, reasoning and problem solving, general awareness, and English language and comprehension. Applications, vacancy details, age conditions, and document verification requirements must be checked against the live SSC notice for the relevant recruitment year."
+      ],
+      "bullets": [
+        "Complete SSC registration and submit the application in the prescribed online mode when the relevant MTS notice opens.",
+        "Confirm education, age, nationality, category, disability, and document requirements against the current notice before applying.",
+        "Prepare for the computer-based examination across quantitative, reasoning, general-awareness, and English sections.",
+        "After selection, complete verification and any joining requirements set by the appointing department."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light",
+        "https://ssc.gov.in/"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills that support effective performance",
+      "paragraphs": [
+        "Practical capability in careful record handling, routine office organization, reading and written communication, and dependable follow-through is central to the work described in DoPT’s MTS induction guidance. Because the cadre is decentralized, an employee also needs to learn the specific processes and service-delivery context of the assigned office.",
+        "Basic digital and administrative readiness is useful for contemporary central-government work. DoPT’s mandatory induction framework for newly recruited MTS emphasizes citizen-centricity, technology focus, adaptability, discipline, and service delivery, indicating that employees should be prepared to work within evolving office systems and training requirements."
+      ],
+      "bullets": [
+        "Record-keeping, filing discipline, and attention to procedural detail.",
+        "Clear reading, writing, communication, and ability to follow instructions.",
+        "Office organization, reliability, and time management.",
+        "Adaptability to digital tools and department-specific procedures.",
+        "Professional conduct and a service-oriented approach."
+      ],
+      "source_urls": [
+        "https://dopt.gov.in/sites/default/files/Instructions%20for%20Mandatory%20Induction%20Training%20Programme%20of%20Multi-Tasking%20Staff%20of%20Central%20Secretariat.pdf",
+        "https://trgdiv.dopt.gov.in/igotmk/FRAC.html"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how MTS personnel work",
+      "paragraphs": [
+        "The SSC recruits MTS for a range of central-government establishments across states and union territories, including ministries, departments, offices, and specified constitutional, statutory, and tribunal bodies. Therefore, workplace conditions, assignment mix, and location depend on the vacancy and subsequent allocation rather than on one nationwide MTS job description.",
+        "DoPT identifies MTS as a decentralized cadre under the administrative control of the concerned ministries, departments, and organizations. From SSC 2025 onward, its guidance calls for a two-week blended mandatory induction programme for newly recruited MTS; successful completion is stated to be mandatory for confirmation of probation."
+      ],
+      "bullets": [
+        "Possible settings include secretariat-style offices, attached and subordinate offices, and field formations.",
+        "Day-to-day duties and supervision are set by the employing organization.",
+        "Induction training and probation processes are administered through the employing ministry, department, or organization."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light",
+        "https://dopt.gov.in/sites/default/files/Instructions%20for%20Mandatory%20Induction%20Training%20Programme%20of%20Multi-Tasking%20Staff%20of%20Central%20Secretariat.pdf"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression options",
+      "paragraphs": [
+        "Progression is not identical across all MTS employers because the cadre is decentralized and promotion depends on the applicable recruitment rules, sanctioned vacancies, service record, and eligibility conditions of the specific organization. Employees should therefore obtain the relevant departmental rules rather than assume that an opportunity in one office applies in another.",
+        "Within covered Central Secretariat Clerical Service arrangements, SSC’s Junior Secretariat Assistant/Lower Division Clerk Grade Limited Departmental Competitive Examination provides a route for eligible, regularly appointed MTS/Group C employees of listed organizations. The 2025 departmental notice required certification by the employing department that the candidate met the notice’s service-length, age, and other eligibility conditions. Separately, completing Class 12 or a recognized degree can broaden eligibility for later open SSC examinations, but each examination has its own notice and qualifications."
+      ],
+      "bullets": [
+        "Departmental route: where covered and eligible, seek the JSA/LDC limited departmental competitive examination.",
+        "Open competitive route: pursue higher qualifications and apply separately for suitable SSC examinations when their notifications permit.",
+        "In-service development: complete induction and assigned learning, and build office, digital, and communication competencies relevant to the assigned organization."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/departmental_notice_05062026.pdf",
+        "https://dopt.gov.in/sites/default/files/AR2024-25English.pdf",
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "The SSC MTS Examination 2025 notice placed the post in Pay Level 1 of the 7th Central Pay Commission pay matrix. Under the Central Civil Services (Revised Pay) Rules, 2016, Level 1 starts at ₹18,000 basic pay. This is a pay-matrix reference, not a guarantee of a fixed monthly in-hand amount.",
+        "As of the source framework cited here, total earnings depend on the employee’s pay-matrix cell and on allowances and deductions applicable to the posting and service conditions. Dearness allowance, house-rent allowance, transport allowance, income-tax and pension-related deductions, and future pay-policy revisions can all change the amount received; candidates should consult current Department of Expenditure orders and the appointment terms for a dated calculation."
+      ],
+      "bullets": [
+        "Reference pay level: Level 1 under the 7th CPC pay matrix.",
+        "Reference starting basic pay: ₹18,000 under the 2016 CCS revised-pay rules.",
+        "Actual in-hand pay is variable and should be assessed using current allowance and deduction orders."
+      ],
+      "source_urls": [
+        "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light",
+        "https://doe.gov.in/files/cenetral-pay_document/7thCPC_revisedpayrules25072016.pdf",
+        "https://doe.gov.in/archive/pay-related-matters/96"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Staff Selection Commission — official portal",
+      "url": "https://ssc.gov.in/",
+      "kind": "official_exam_portal"
+    },
+    {
+      "label": "SSC MTS Examination 2025 notice",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf?mode=light",
+      "kind": "official_exam_notice"
+    },
+    {
+      "label": "DoPT MTS induction-training instructions",
+      "url": "https://dopt.gov.in/sites/default/files/Instructions%20for%20Mandatory%20Induction%20Training%20Programme%20of%20Multi-Tasking%20Staff%20of%20Central%20Secretariat.pdf",
+      "kind": "official_service_guidance"
+    },
+    {
+      "label": "Department of Expenditure — CCS Revised Pay Rules, 2016",
+      "url": "https://doe.gov.in/files/cenetral-pay_document/7thCPC_revisedpayrules25072016.pdf",
+      "kind": "official_pay_rules"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

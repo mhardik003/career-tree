@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Level and nomenclature",
+      "value": "FPM (Fellow Programme in Management) is the traditional name used for doctoral management education at Indian Institutes of Management. At IIM Ahmedabad, the historical FPM evolved into the PhD Programme in Management after IIMs gained degree-granting authority; IIMA first conferred the PhD title in 2019.",
+      "source_urls": [
+        "https://archives.iima.ac.in/phdprogramme.html"
+      ]
+    },
+    {
+      "label": "Typical purpose",
+      "value": "It is designed for candidates seeking advanced research and academic careers rather than a master’s-level MBA outcome. IIM Bangalore describes its doctoral programme as a full-time PhD intended to develop internationally publishable research.",
+      "source_urls": [
+        "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs"
+      ]
+    },
+    {
+      "label": "Award",
+      "value": "The credential name now varies by institution and admission cycle: for example, IIM Bangalore states that successful doctoral candidates receive a Doctor of Philosophy (PhD) in their specialization.",
+      "source_urls": [
+        "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs"
+      ]
+    },
+    {
+      "label": "Study mode and length",
+      "value": "A conventional IIM management doctorate is generally full-time and residential. Published expectations differ by institute: IIM Bangalore lists a four-year full-time residential programme, while its doctoral FAQ says students are expected to finish within five years.",
+      "source_urls": [
+        "https://www.iimb.ac.in/programmes",
+        "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs"
+      ]
+    },
+    {
+      "label": "Entrance tests",
+      "value": "CAT can be an accepted route for some management-doctoral applicants, but it is not universally mandatory. IIM Calcutta’s doctoral process, for example, permits specialization-specific alternatives such as GMAT, GRE, GATE, or UGC-JRF/NET for various areas.",
+      "source_urls": [
+        "https://application.iimcal.ac.in/doctoral-program-application-process"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility: postgraduate preparation is common, but institute rules control",
+      "paragraphs": [
+        "Eligibility is institution- and specialization-specific. A representative official policy from IIM Calcutta accepts applicants with a first-class master’s degree or two-year postgraduate diploma plus a three-year bachelor’s degree; it also recognizes specified professional qualifications and four-year B.Tech/equivalent degrees. Its rules additionally state that non-engineering applicants with 10+2+5 years of education may apply.",
+        "Applicants should treat the relevant institute’s current admission notice as authoritative, including category-specific marks, degree-recognition, and specialization requirements. An MBA is useful preparation but is not inherently required: IIM Bangalore’s doctoral FAQ explicitly says candidates do not need to be MBA graduates."
+      ],
+      "bullets": [
+        "Academic background normally needs to demonstrate strong prior performance; exact minimum marks, CGPA conversions, and qualifying degrees vary.",
+        "Check the selected research area’s requirements before applying, especially where quantitative, economics, behavioural-science, or domain-specific preparation is expected.",
+        "Meeting published minimum eligibility does not itself ensure shortlisting or admission."
+      ],
+      "source_urls": [
+        "https://application.iimcal.ac.in/doctoral-program-application-process",
+        "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration: coursework followed by independent doctoral research",
+      "paragraphs": [
+        "The standard structure is multi-year: initial doctoral coursework, a comprehensive examination, and supervised dissertation research. IIM Bangalore says doctoral students are expected to complete coursework, pass a comprehensive examination, and then undertake publication-quality research; its FAQ gives an expected completion period of five years.",
+        "Time to completion is variable. IIM Ahmedabad’s archival account describes its doctoral programme as typically involving two years of coursework followed by several years of research under a thesis advisory committee, while IIM Bangalore’s programme listing characterizes its PhD as a four-year full-time residential programme. Candidates should therefore plan around the specific institute’s registration and completion rules rather than assume a single national duration."
+      ],
+      "bullets": [
+        "Full-time participation is typical for the regular doctoral route.",
+        "The research stage culminates in a dissertation/thesis; progression is normally conditional on coursework and comprehensive-exam milestones.",
+        "Executive doctoral variants are separate programmes and may have different residency, work-experience, fee, and duration rules."
+      ],
+      "source_urls": [
+        "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs",
+        "https://archives.iima.ac.in/phdprogramme.html",
+        "https://www.iimb.ac.in/programmes"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum: research methods, specialization depth, comprehensive examination, thesis",
+      "paragraphs": [
+        "FPM/PhD curricula combine advanced training in a management specialization with research training. IIM Ahmedabad’s published FPM overview describes doctoral-level area courses, selected management courses for a broader overview, and skills for analysing managerial problems; after coursework, students must clear an area comprehensive examination before working on the dissertation.",
+        "The detailed credit structure and available areas change by institute. IIM Indore’s doctoral curriculum, for example, lists compulsory work in philosophy in management research alongside area courses, electives, research components, and workshops. Prospective scholars should compare faculty supervision capacity and current specialization offerings—not only the programme label—when deciding where to apply."
+      ],
+      "bullets": [
+        "Early stage: common and area-specific doctoral coursework.",
+        "Milestone stage: comprehensive or area-comprehensive examination.",
+        "Research stage: proposal development, supervised original research, thesis submission, and defence."
+      ],
+      "source_urls": [
+        "https://web.iima.ac.in/users/webrequest/files/fpm/FPM_brochure_2016-17.pdf",
+        "https://iimidr.ac.in/programmes/academic-programmes/doctoral-programme-in-management/curriculum/"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission: test score plus research-focused selection",
+      "paragraphs": [
+        "Admission is competitive and typically evaluates more than an entrance score. IIM Bangalore says area-level selection can draw on qualifying-test performance, prior academics, work experience, area-specific written tests, and interview performance. Its current doctoral FAQ lists CAT, GMAT, GRE, GATE, JRF/NET, and an IIMB test among acceptable options depending on the area.",
+        "CAT should therefore be understood as one possible pathway to this node, not as the universal or exclusive doctoral entrance examination. At IIM Calcutta, candidates may use CAT or, depending on specialization, specified alternative tests; score-validity and test-centre requirements are set in the applicable admissions notice."
+      ],
+      "bullets": [
+        "Choose one or more research areas only after reviewing the faculty and area-wise test matrix.",
+        "Prepare for research-fit questions in the written assessment and interview, not only aptitude-test performance.",
+        "Confirm the application deadline, accepted test year, application fee, and document requirements from the live admission page for the intended batch; these are cycle-specific."
+      ],
+      "source_urls": [
+        "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs",
+        "https://application.iimcal.ac.in/doctoral-program-application-process"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Costs and funding: often fellowship-supported, but verify the institute and cohort",
+      "paragraphs": [
+        "Regular full-time management doctorates at IIMs may be funded rather than charged like an MBA, but support is not standardized nationally. IIM Bangalore’s published financial-support page lists a tuition-fee waiver and a monthly fellowship of ₹52,000, with additional grants and certain accommodation support subject to its stated terms. This is institution-specific published context, not a guaranteed package for every FPM/PhD applicant.",
+        "Before accepting an offer, verify the current fee waiver, fellowship duration, service obligations, hostel availability, continuation rules, medical coverage, and support available after programme milestones. IIM Bangalore states that fellowship recipients are expected to provide research-assistant and teaching-assistant service at stages of the programme, and that its stated support is available for up to five years from registration."
+      ],
+      "bullets": [
+        "Do not extrapolate one IIM’s stipend or waiver to another institution.",
+        "Separate regular residential doctoral funding from executive/part-time doctoral fees.",
+        "Treat all funding figures as variable and confirm them in the admission offer and current financial-aid notice."
+      ],
+      "source_urls": [
+        "https://www.iimb.ac.in/programmes/doctoral-programme/financial_aid"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "After FPM/PhD: academic and research-oriented careers",
+      "paragraphs": [
+        "The primary pathway is academic or research work. IIM Bangalore identifies advanced research and academia, including teaching, as the suitable career direction for doctoral students, and frames the programme around high-quality research capable of international-standard publication. IIM Ahmedabad likewise describes its doctoral programme as preparation for careers in academia or research positions in industry.",
+        "Common next steps can include faculty positions in management schools or universities, research roles in industry and policy/knowledge institutions, and postdoctoral research. The competitiveness of each option depends on the candidate’s dissertation, publications, teaching experience, research methods, area of specialization, and hiring conditions at the time of application."
+      ],
+      "bullets": [
+        "Academic-track candidates should build a publication record and teaching/research-assistant experience during the doctorate.",
+        "Research-track candidates can translate specialization and methods expertise into corporate, consulting, policy, or research-institute roles.",
+        "A postdoctoral fellowship can be a relevant bridge for candidates seeking further research output before faculty recruitment."
+      ],
+      "source_urls": [
+        "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs",
+        "https://web.iima.ac.in/users/webrequest/files/fpm/FPMAdmission2015-16.pdf",
+        "https://iimidr.ac.in/research-publications/"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "IIM Bangalore doctoral programme FAQs",
+      "url": "https://www.iimb.ac.in/programmes/doctoral-fpm/faqs",
+      "kind": "official programme guidance"
+    },
+    {
+      "label": "IIM Calcutta doctoral programme application process",
+      "url": "https://application.iimcal.ac.in/doctoral-program-application-process",
+      "kind": "official admissions guidance"
+    },
+    {
+      "label": "IIM Bangalore doctoral financial support",
+      "url": "https://www.iimb.ac.in/programmes/doctoral-programme/financial_aid",
+      "kind": "official funding guidance"
+    },
+    {
+      "label": "IIM Ahmedabad PhD/FPM programme history",
+      "url": "https://archives.iima.ac.in/phdprogramme.html",
+      "kind": "official institutional archive"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

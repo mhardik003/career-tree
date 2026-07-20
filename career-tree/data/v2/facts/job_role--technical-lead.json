@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-18",
+  "quick_facts": [
+    {
+      "label": "Role focus",
+      "value": "A Technical Lead is a hands-on engineering leadership role: an India-based employer describes guiding the team’s technical direction and implementation from conceptualisation through deployment, while balancing correctness, robustness, performance, and customer impact.",
+      "source_urls": [
+        "https://jobs.lever.co/3pillarglobal/2449d2c7-0d5f-444e-9564-b15f6d9eb05a"
+      ]
+    },
+    {
+      "label": "Typical experience context",
+      "value": "Experience expectations are employer- and stack-specific. For example, one India Technical Lead, Software Engineering vacancy requests at least 8 years of full-stack engineering experience; this is an example rather than an India-wide eligibility rule.",
+      "source_urls": [
+        "https://jobs.lever.co/3pillarglobal/2449d2c7-0d5f-444e-9564-b15f6d9eb05a"
+      ]
+    },
+    {
+      "label": "Indicative route from the parent role",
+      "value": "The National Career Service’s software-engineering career map places Technical Leader Software after Senior Software Engineer, with Senior Technical Lead/Project Manager and then Principal Software Engineer/Consultant among subsequent indicative steps.",
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3978&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    },
+    {
+      "label": "Relevant Indian occupational standard",
+      "value": "Technical Lead is not presented as a separate National Occupational Classification in the cited source; the National Skill Development Corporation lists the IT-ITeS Sector Skill Council Software Engineer qualification pack SSC/Q4601 at NSQF level 7, which is relevant to the underlying software-engineering pathway.",
+      "source_urls": [
+        "https://nsdcindia.org/nos-export-custom-data",
+        "https://nsdcindia.org/sites/default/files/QP_SSC-Q4601_Software-Engineer.pdf"
+      ]
+    },
+    {
+      "label": "Work arrangement example",
+      "value": "Work arrangements vary by employer. At review, a Technical Lead, Software Engineering opening was listed as full-time and remote in India by 3Pillar.",
+      "source_urls": [
+        "https://jobs.lever.co/3pillarglobal/2449d2c7-0d5f-444e-9564-b15f6d9eb05a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What a Technical Lead does",
+      "paragraphs": [
+        "A Technical Lead normally remains accountable for technical execution as well as leadership. An India-based employer’s role description includes setting technical direction; guiding implementation across the delivery lifecycle; weighing correctness, robustness, performance, and customer impact; and coordinating architecture and dependencies with product, design, and engineering counterparts.",
+        "The role is also expected to protect engineering quality. Employer examples include leading documentation and repository practices, participating in code reviews, resolving complex defects, and focusing on security, reliability, and performance. Mentoring senior engineers and peers is a core leadership responsibility in the cited India role."
+      ],
+      "bullets": [
+        "Translate product requirements into workable technical designs, delivery plans, and engineering trade-offs.",
+        "Review code and designs; establish quality practices for testing, documentation, source control, and releases.",
+        "Coordinate technical dependencies with product, design, architecture, quality, and other engineering teams.",
+        "Coach engineers and build the team’s technical capability while remaining sufficiently hands-on to unblock difficult work."
+      ],
+      "source_urls": [
+        "https://jobs.lever.co/3pillarglobal/2449d2c7-0d5f-444e-9564-b15f6d9eb05a",
+        "https://jobs.lever.co/endpointclinical/1389c436-c80d-4157-a99a-f589fc7a3127"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Common entry route in India",
+      "paragraphs": [
+        "This node follows Senior Engineer, so the usual route is not direct entry: build software-development experience first, progress through senior engineering, and demonstrate ownership of design, delivery, reviews, and mentoring. The National Career Service presents an indicative ladder from Engineer Trainee to Software Engineer, Senior Software Engineer, and Technical Leader Software; it stresses that the progression is indicative rather than a universal rule.",
+        "Formal study can support entry into the underlying engineering pathway. The UGC’s degree specifications list B.Tech and B.E. as four-year bachelor’s degrees entered after 10+2, and BCA as a three-year bachelor’s degree entered after 10+2. Employers may also assess demonstrable equivalent experience: one India technical-lead-related engineering posting specifies a Computer Science/Software Engineering degree or appropriate experience."
+      ],
+      "bullets": [
+        "Build a foundation through a recognised computing or engineering programme, such as B.Tech/BE in a relevant branch, BCA, or another relevant degree pathway.",
+        "Enter software development through internships, trainee roles, or software-engineer roles; NCS identifies 0–2 years of development work experience or internship as a general starting context for Software Engineer.",
+        "Progress to Senior Engineer by delivering production work and taking on increasingly complex design, quality, and collaboration responsibilities.",
+        "Move into Technical Lead when able to lead a team’s technical decisions and delivery, not merely complete individual coding tasks."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3978&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1095.html",
+        "https://jobs.lever.co/endpointclinical/1389c436-c80d-4157-a99a-f589fc7a3127"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills to develop",
+      "paragraphs": [
+        "Technical depth remains central, but the specific stack depends on the employer and product. A current India Technical Lead vacancy calls for full-stack expertise including React, .NET Core/C#, SQL Server, Azure, cloud-native development, and CI/CD; it also expects architectural design for scalable, secure backend services and web APIs.",
+        "The transferable skill set is broader than a tool list: architecture and design patterns, security, testing, code quality, debugging, repository workflows, systems thinking, written technical documentation, Agile delivery, and clear communication across globally distributed and cross-functional teams are all evidenced in employer descriptions."
+      ],
+      "bullets": [
+        "Software architecture: select and validate designs that meet scalability, resilience, security, performance, and maintainability needs.",
+        "Engineering practice: code review, automated testing, version-control workflows, CI/CD, debugging, release readiness, and operational quality.",
+        "Technical communication: write design and implementation documentation, explain trade-offs, and align engineers and non-engineering partners.",
+        "Leadership: mentor engineers, give actionable review feedback, make decisions with incomplete information, and maintain delivery focus.",
+        "Stack adaptability: build depth in the languages, frameworks, data stores, cloud platforms, and domain constraints relevant to the target employer."
+      ],
+      "source_urls": [
+        "https://jobs.lever.co/3pillarglobal/2449d2c7-0d5f-444e-9564-b15f6d9eb05a",
+        "https://jobs.lever.co/endpointclinical/1389c436-c80d-4157-a99a-f589fc7a3127"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where and how the role is performed",
+      "paragraphs": [
+        "Technical Leads work in software product, services, and engineering/R&D environments. The NCS software-engineering career information identifies IT-ITeS as the sector and notes that banking, financial services, insurance, telecommunications, manufacturing, and retail are relevant industry verticals for the software-services subsector.",
+        "Work setting is employer- and project-dependent. At review, 3Pillar listed its India Technical Lead, Software Engineering role as full-time remote. Other employers may require office, hybrid, customer-site, regulated-domain, or shift-aligned work; candidates should treat a vacancy’s stated arrangement as controlling."
+      ],
+      "bullets": [
+        "Expect close collaboration with engineers, architects, product managers, designers, quality engineers, operations, and sometimes customers.",
+        "Expect accountability across design, build, test, integration, deployment, and production-quality concerns rather than only feature coding.",
+        "Check each job posting for location, remote/hybrid status, working-hours expectations, security requirements, and domain-specific constraints."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3978&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+        "https://jobs.lever.co/3pillarglobal/2449d2c7-0d5f-444e-9564-b15f6d9eb05a"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression after Technical Lead",
+      "paragraphs": [
+        "Progression is not standardised across Indian employers: some organisations separate technical leadership from people management, while others combine them. The NCS career map gives an indicative technical progression from Technical Leader Software to Senior Technical Lead/Project Manager, Principal Software Engineer/Consultant, Director Technology, and higher leadership roles.",
+        "A candidate can therefore choose between deeper technical scope—such as senior technical lead, principal engineer, architect, or consultant-type work—and broader delivery or people leadership—such as project management, engineering management, or technology leadership—depending on the organisation’s career framework and the person’s strengths."
+      ],
+      "bullets": [
+        "Near-term: lead larger or more complex projects, multiple services, or a broader technical domain.",
+        "Technical track: Senior Technical Lead, Principal Software Engineer, Consultant, Architect, or comparable staff/principal roles.",
+        "Management/delivery track: Project Manager, Engineering Manager, or technology/unit leadership, where the employer defines such tracks.",
+        "Treat titles as non-equivalent across companies; assess scope, decision rights, team size, hands-on expectations, and accountability rather than title alone."
+      ],
+      "source_urls": [
+        "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3978&List=8db9be14-2b47-4f30-97fb-5de315d871c0"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "National Career Service: Software Engineer career information and indicative progression map",
+      "url": "https://www.ncs.gov.in/content-repository/Pages/ViewNcoDetails.aspx?ContentTypeId=0x01003FEA8C7117A78D4F93DC52780D878B2F0015F91119E23A874E9006B0F068F1089C&ID=3978&List=8db9be14-2b47-4f30-97fb-5de315d871c0",
+      "kind": "government career guidance"
+    },
+    {
+      "label": "NSDC: Software Engineer qualification pack SSC/Q4601",
+      "url": "https://nsdcindia.org/sites/default/files/QP_SSC-Q4601_Software-Engineer.pdf",
+      "kind": "occupational standard"
+    },
+    {
+      "label": "UGC: specified degree durations and entry qualifications",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page1095.html",
+      "kind": "regulator guidance"
+    },
+    {
+      "label": "India Technical Lead, Software Engineering vacancy example",
+      "url": "https://jobs.lever.co/3pillarglobal/2449d2c7-0d5f-444e-9564-b15f6d9eb05a",
+      "kind": "employer role profile"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

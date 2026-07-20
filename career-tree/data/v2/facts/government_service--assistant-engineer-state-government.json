@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "Role in the works hierarchy",
+      "value": "In a Public Works Department example, an Assistant Engineer leads a task-force group in which Junior Engineers and other field staff work under the AE’s control.",
+      "source_urls": [
+        "https://pwd.py.gov.in/responsibility-control-room"
+      ]
+    },
+    {
+      "label": "Common direct-entry qualification",
+      "value": "A bachelor’s degree in the relevant engineering discipline is a common direct-recruitment requirement. For example, Sikkim PSC’s Assistant Engineer (Civil) recruitment required a Civil Engineering degree from a recognised university.",
+      "source_urls": [
+        "https://spsc.sikkim.gov.in/Advertisements/A_E_%28Civil%29%2018_Advertisemnt.pdf"
+      ]
+    },
+    {
+      "label": "Recruitment channel",
+      "value": "State Public Service Commissions and state departments run selection processes for AE posts; Andhra Pradesh PSC published a selection notification for Assistant Engineer posts in various engineering subordinate services on 17 July 2026.",
+      "source_urls": [
+        "https://portal-psc.ap.gov.in/Default/Reprints/HomePages/GRL_152025"
+      ]
+    },
+    {
+      "label": "Technical scope",
+      "value": "Official departmental role information associates engineering-office work with estimates, tenders, agreements, work execution and supervision, payments, budgets, and divisional correspondence; the exact allocation depends on the department and state.",
+      "source_urls": [
+        "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A21939/lang%3A"
+      ]
+    },
+    {
+      "label": "Career movement",
+      "value": "Promotion beyond AE is possible in state engineering services. West Bengal PWD issued an order promoting Assistant Engineers (Civil) to Executive Engineer in its engineering service.",
+      "source_urls": [
+        "https://pwd.wb.gov.in/services/resources/Orders/AE%20to%20EE%20Promotion_638371177915865491.pdf"
+      ]
+    },
+    {
+      "label": "Pay context",
+      "value": "There is no single all-India AE pay scale. As a dated example, Goa’s 2026 advertisement for an Assistant Engineer in its Environment and Climate Change Department listed Pay Matrix Level 7; candidates must use the applicable state notification for current pay, allowances, and service conditions.",
+      "source_urls": [
+        "https://cbes.goa.gov.in/advertisement?id=66b189b98696b93c8d2df5af0a318042"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "responsibilities",
+      "heading": "What an Assistant Engineer does",
+      "paragraphs": [
+        "An Assistant Engineer is a supervisory engineering officer in a state department or state engineering service. Day-to-day responsibilities commonly combine technical and administrative control: preparing or checking estimates, handling tender and agreement work, supervising execution, monitoring payments and budgets, maintaining official correspondence, and coordinating field delivery. The precise powers—such as technical sanction, measurement, bill checking, or contract administration—are set by the concerned state’s departmental rules and delegation orders.",
+        "AEs also operate as a layer of field supervision. Puducherry PWD’s crisis-management arrangement places Junior Engineers, overseers, mechanics, and other field personnel under an Assistant Engineer-led task-force group, illustrating the role’s responsibility for directing staff and restoring public services during urgent works."
+      ],
+      "bullets": [
+        "Translate approved public-works plans into estimates, procurement, work orders, and field execution.",
+        "Check technical and administrative documentation connected with works, agreements, payments, budgets, and records.",
+        "Supervise Junior Engineers and field staff, while reporting through the departmental engineering hierarchy.",
+        "Coordinate site responses and restoration work where the department assigns the AE operational control."
+      ],
+      "source_urls": [
+        "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A21939/lang%3A",
+        "https://pwd.py.gov.in/responsibility-control-room"
+      ]
+    },
+    {
+      "key": "entry_routes",
+      "heading": "Entry routes and eligibility",
+      "paragraphs": [
+        "Direct recruitment is commonly made through a State Public Service Commission or a state recruiting authority, but notifications are state-, department-, discipline-, category-, and vacancy-specific. Sikkim PSC’s direct recruitment notice for Assistant Engineer (Civil) required a Civil Engineering degree from a recognised university. Other AE streams can require the corresponding discipline, such as electrical, mechanical, environmental, or other specialised engineering qualifications.",
+        "Applicants should treat the current official notification as controlling. It sets the exact educational requirement, domicile or language conditions where applicable, age limits and relaxations, reservation rules, examination scheme, document verification, and appointment conditions. Andhra Pradesh PSC’s July 2026 publication of a selection notification for AE posts is an example of an official commission-led recruitment process.",
+        "Internal appointment or movement routes also vary. Goa’s 2026 deputation advertisement, for example, sought eligible officials in an equivalent or feeder pay level with specified service and a relevant Civil Engineering degree. This should not be read as a nationwide promotion rule."
+      ],
+      "bullets": [
+        "Complete an engineering degree in the discipline specified by the recruiting state or department.",
+        "Apply through the official PSC or departmental recruitment notice and follow its examination and selection process.",
+        "For serving government employees, examine the applicable service rules and notification for promotion, transfer, or deputation eligibility rather than assuming a uniform route from Junior Engineer."
+      ],
+      "source_urls": [
+        "https://spsc.sikkim.gov.in/Advertisements/A_E_%28Civil%29%2018_Advertisemnt.pdf",
+        "https://portal-psc.ap.gov.in/Default/Reprints/HomePages/GRL_152025",
+        "https://cbes.goa.gov.in/advertisement?id=66b189b98696b93c8d2df5af0a318042"
+      ]
+    },
+    {
+      "key": "skills",
+      "heading": "Skills that the role calls for",
+      "paragraphs": [
+        "The work described in official departmental material makes technical design-and-estimation literacy, tender and agreement administration, construction/work supervision, budget awareness, and accurate technical correspondence central practical skills for an AE. Because the officer coordinates Junior Engineers and other field staff in departmental arrangements, supervision, task allocation, communication, and incident response are also important.",
+        "The specific technical toolkit depends on the posting. A civil AE in a roads, buildings, water-supply, irrigation, or rural-works office will use the standards, drawings, measurements, specifications, contracts, and quality-control processes relevant to that department; electrical and mechanical AE roles have parallel discipline-specific requirements."
+      ],
+      "bullets": [
+        "Engineering estimation, drawings, specifications, and work planning.",
+        "Tender, agreement, payment, and budget documentation.",
+        "Site supervision, issue escalation, and coordination of field personnel.",
+        "Clear written communication and recordkeeping for divisional and departmental processes."
+      ],
+      "source_urls": [
+        "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A21939/lang%3A",
+        "https://pwd.py.gov.in/responsibility-control-room"
+      ]
+    },
+    {
+      "key": "workplace",
+      "heading": "Where the job is performed",
+      "paragraphs": [
+        "Assistant Engineers work in state-government engineering organisations rather than in one uniform national employer. Typical settings include Public Works, roads and highways, buildings, water supply, irrigation, rural works, municipal engineering, environment, and electricity-related departments or entities, depending on the state and engineering discipline.",
+        "The job normally combines office-based technical and administrative work with field supervision. In the Puducherry PWD example, AEs lead division-level task forces and coordinate Junior Engineers and other field personnel for emergency works. Departmental documents from Odisha likewise connect engineering-office functions with execution, supervision, estimates, tenders, agreements, payments, and budgets."
+      ],
+      "bullets": [
+        "Division, subdivision, circle, project, or departmental office postings.",
+        "Construction, maintenance, utility, or public-infrastructure sites.",
+        "A mix of desk-based approvals and documentation with inspections and field coordination."
+      ],
+      "source_urls": [
+        "https://pwd.py.gov.in/responsibility-control-room",
+        "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A21939/lang%3A"
+      ]
+    },
+    {
+      "key": "progression",
+      "heading": "Progression after Assistant Engineer",
+      "paragraphs": [
+        "Progression nomenclature differs across states and departments, but AE is commonly part of a wider engineering-service hierarchy. Official West Bengal PWD documentation records promotion of Assistant Engineers (Civil) to Executive Engineer, while Assam’s Irrigation Department records promotion from Assistant Engineer to Assistant Executive Engineer (Civil). These examples show why candidates should consult the service rules of their own cadre rather than assume one fixed national sequence.",
+        "The node’s connection to Junior Engineer reflects a common supervisory relationship: Puducherry PWD places Junior Engineers under an AE-led task force. However, whether a particular Junior Engineer can be promoted into AE, the qualifying service required, the quota between direct recruits and promotees, and seniority treatment are state-service-rule questions."
+      ],
+      "bullets": [
+        "Build technical, supervisory, and departmental-process experience in the assigned engineering stream.",
+        "Track seniority, departmental examinations or training where prescribed, and vacancy-based promotion procedures.",
+        "Verify the applicable state service rules for the next designation, which may be Assistant Executive Engineer, Executive Engineer, or another state-specific equivalent."
+      ],
+      "source_urls": [
+        "https://pwd.wb.gov.in/services/resources/Orders/AE%20to%20EE%20Promotion_638371177915865491.pdf",
+        "https://irrigation.assam.gov.in/document-details/promotion-assistant-engineer-assistant-executive-engineercivil",
+        "https://pwd.py.gov.in/responsibility-control-room"
+      ]
+    },
+    {
+      "key": "compensation_context",
+      "heading": "Compensation context",
+      "paragraphs": [
+        "Compensation is set by the appointing state, department or service, pay-matrix level, appointment mode, and applicable allowance rules; it should not be represented as one nationwide AE salary. For a time-specific reference, Goa’s advertisement with an application window from 8 May 2026 to 22 June 2026 listed an Assistant Engineer post at Pay Matrix Level 7. That example is not a general benchmark for every state-government AE post.",
+        "Before applying, use the live official recruitment notice and the relevant state pay rules to confirm basic pay, probation or training pay where applicable, dearness allowance, house-rent allowance, location-related benefits, deductions, pension or NPS coverage, and contractual versus regular appointment status."
+      ],
+      "bullets": [
+        "Compare only official notifications issued for the exact employer, discipline, and recruitment cycle.",
+        "Treat published pay levels and allowances as dated and variable across states.",
+        "Check whether the advertised post is regular, contractual, deputation-based, or another appointment type before comparing compensation."
+      ],
+      "source_urls": [
+        "https://cbes.goa.gov.in/advertisement?id=66b189b98696b93c8d2df5af0a318042",
+        "https://spsc.sikkim.gov.in/Advertisements/A_E_%28Civil%29%2018_Advertisemnt.pdf"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Andhra Pradesh PSC: AE selection notification page",
+      "url": "https://portal-psc.ap.gov.in/Default/Reprints/HomePages/GRL_152025",
+      "kind": "official_recruitment_portal"
+    },
+    {
+      "label": "Sikkim PSC: Assistant Engineer (Civil) direct-recruitment advertisement",
+      "url": "https://spsc.sikkim.gov.in/Advertisements/A_E_%28Civil%29%2018_Advertisemnt.pdf",
+      "kind": "official_recruitment_notice"
+    },
+    {
+      "label": "Puducherry PWD: AE-led task-force responsibility arrangement",
+      "url": "https://pwd.py.gov.in/responsibility-control-room",
+      "kind": "official_departmental_guidance"
+    },
+    {
+      "label": "West Bengal PWD: AE to Executive Engineer promotion order",
+      "url": "https://pwd.wb.gov.in/services/resources/Orders/AE%20to%20EE%20Promotion_638371177915865491.pdf",
+      "kind": "official_promotion_order"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}

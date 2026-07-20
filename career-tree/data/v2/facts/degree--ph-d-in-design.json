@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-07-19",
+  "quick_facts": [
+    {
+      "label": "National minimum duration",
+      "value": "Under the UGC Ph.D. Regulations, 2022, a Ph.D. has a minimum duration of 3 years (including coursework) and a normal maximum of 6 years from admission; institutional re-registration provisions can extend the overall limit to 8 years, with specified additional relaxations for women scholars and persons with disabilities.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html"
+      ]
+    },
+    {
+      "label": "Typical entry qualification",
+      "value": "UGC permits entry after a qualifying master’s degree with at least 55% aggregate (subject to the stated category relaxation), or directly after a 4-year bachelor’s degree with at least 75% aggregate (also subject to relaxation). Individual Design schools can set discipline-specific evidence requirements.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.idc.iitb.ac.in/admission/phd-admission/phd-eligibility-criteria"
+      ]
+    },
+    {
+      "label": "Admission routes",
+      "value": "UGC regulations allow admission through national fellowship/scholarship examinations such as UGC-NET, CSIR-NET, GATE and CEED, based on interview, and/or through an institution’s Ph.D. entrance test followed by interview. CEED qualification alone does not guarantee admission.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+        "https://www.ceed.iitb.ac.in/2026/"
+      ]
+    },
+    {
+      "label": "Coursework requirement",
+      "value": "UGC requires at least 12 coursework credits, including research methodology and Research and Publication Ethics. The exact design coursework and credit load are determined by the admitting institution and entry background.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.idc.iitb.ac.in/academic/phd-program/phd-course-structure"
+      ]
+    },
+    {
+      "label": "Mode of study",
+      "value": "Part-time Ph.D. study is permitted if UGC conditions are met, including an employer no-objection certificate where applicable; Ph.D. programmes may not be offered through distance or online mode.",
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page571.html"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "eligibility",
+      "heading": "Eligibility",
+      "paragraphs": [
+        "In India, the baseline eligibility is set by the UGC Ph.D. Regulations, 2022. Applicants may qualify with a 1-year master’s after a 4-year bachelor’s degree, a 2-year master’s after a 3-year bachelor’s degree, or an equivalent recognised qualification, normally with at least 55% aggregate marks. A candidate with a 4-year bachelor’s degree may also seek direct Ph.D. admission with at least 75% aggregate marks. UGC provides a 5-percentage-point relaxation for specified reserved and disability categories, subject to the regulations and institutional implementation.",
+        "At the programme level, Design schools may assess disciplinary preparation, research capability, portfolio or substantial design-related work. For example, IIT Bombay IDC lists M.Des, M.Tech, MFA, M.Arch, MA (Design), specified design diplomas and other master’s degrees as possible entry routes; it also allows selected applicants with B.Des, B.Tech, B.Arch, BFA or an undergraduate design diploma when they demonstrate design competence. These are an institutional example, not a universal rule for every Indian Ph.D. in Design."
+      ],
+      "bullets": [
+        "Check the target institute’s current prospectus for accepted qualifying degrees, marks/CGPA conversion, category rules, full-time or part-time categories, portfolio/research-proposal requirements, and supervisor availability.",
+        "An M.Des is a strong and common preparation route, but it is not the only possible qualifying background under national rules or at all Design schools."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page566.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.idc.iitb.ac.in/admission/phd-admission/phd-eligibility-criteria"
+      ]
+    },
+    {
+      "key": "duration",
+      "heading": "Duration and study mode",
+      "paragraphs": [
+        "The UGC minimum is 3 years, including coursework, and the standard maximum is 6 years from the date of admission. An institution may allow up to 2 additional years through re-registration under its own statutes, making 8 years the general outer limit. Women scholars and persons with disabilities of more than 40% disability may receive up to 2 further years of relaxation, subject to an overall limit of 10 years; the regulations also provide women scholars up to 240 days of maternity/child-care leave over the programme.",
+        "The practical time to completion depends on the research problem, fieldwork or prototyping, ethics approvals, publications, review milestones and thesis examination. IIT Bombay IDC describes its Design Ph.D. as a long-term commitment requiring a minimum of 3–4 years, which is illustrative rather than a national duration rule.",
+        "A part-time Ph.D. is possible where the institution permits it and all UGC requirements are met. Employed applicants need an employer no-objection certificate confirming permission, sufficient research time and release for coursework if required. A distance/online Ph.D. is not permitted."
+      ],
+      "bullets": [],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page571.html",
+        "https://www.idc.iitb.ac.in/academic/phd-program"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "heading": "Curriculum and research work",
+      "paragraphs": [
+        "A Ph.D. in Design is research-led rather than a fixed taught degree. Nationally, the UGC requires a minimum of 12 coursework credits that include research methodology and Research and Publication Ethics; scholars must secure at least 55% or the equivalent grade in coursework before they can continue and submit a thesis. The Research Advisory Committee reviews the proposal, helps finalise the topic and methodology, and reviews progress each semester.",
+        "Design-specific coursework varies by school and prior qualification. At IIT Bombay IDC, postgraduate entrants in design-related fields have a 20-credit minimum, while undergraduate entrants in design-related fields have a 44-credit minimum. Its first-year structure includes Quantitative Design Research Methods, Qualitative Design Research Methods, two research-oriented mini-projects, communication skills and teaching-assistant training; additional electives may be required based on entry background.",
+        "Possible research domains are broad and may combine design with engineering, social sciences, media or education. IIT Bombay IDC identifies Industrial Design, Communication Design, Interaction Design, Animation and Film, Mobility and Vehicle Design, and Human Factors and Ergonomics as core domains, while encouraging interdisciplinary work."
+      ],
+      "bullets": [
+        "Expect to develop and defend a research proposal, undertake supervised original research, complete periodic progress reviews, write a thesis, undergo plagiarism checks, obtain external evaluation and defend the thesis in an open viva voce.",
+        "Choose a programme based on the fit between the proposed question and available supervisors, laboratories, field access and research expertise—not only on the degree title."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page569.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page570.html",
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page571.html",
+        "https://www.idc.iitb.ac.in/academic/phd-program/phd-course-structure",
+        "https://www.idc.iitb.ac.in/admission/phd-research-areas"
+      ]
+    },
+    {
+      "key": "admission",
+      "heading": "Admission process",
+      "paragraphs": [
+        "Admission is institute-specific but must follow the institution’s notified criteria and applicable reservation policy. Under UGC rules, an institution may select candidates holding a qualifying national fellowship or scholarship—examples named in the regulations include UGC-NET, CSIR-NET, GATE and CEED—through interview. Alternatively, it may conduct its own entrance test, with 50% research methodology and 50% subject-specific content; candidates scoring 50% may be called for interview, and selection through that route gives 70% weight to the test and 30% to interview/viva voce.",
+        "CEED can be relevant to this node: the official CEED site states that qualified candidates may apply to Ph.D. programmes at various institutes, but the result is valid for one year and does not itself ensure a place. Applicants must separately meet each institute’s eligibility and selection requirements.",
+        "A representative Design-school process is IIT Bombay IDC’s Ph.D. admission model: applicants are advised to identify faculty research areas and suggested topics, apply through IIT Bombay’s portal, and shortlisted candidates complete a presentation and interview. IDC states that it admits twice each year, in Spring and Autumn semesters. Dates, seats, research areas and funding categories should always be checked in the current intake notice."
+      ],
+      "bullets": [
+        "Prepare a focused research proposal or statement of purpose aligned to a prospective supervisor’s active research area.",
+        "Keep degree records, marksheets, category/disability documents where applicable, portfolio or evidence of design work where requested, test/fellowship documentation, and employer permissions for part-time study ready.",
+        "Do not rely on CEED alone: institute-level application, shortlisting and interview requirements remain decisive."
+      ],
+      "source_urls": [
+        "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+        "https://www.ceed.iitb.ac.in/2026/",
+        "https://www.idc.iitb.ac.in/admission/phd-admission",
+        "https://www.idc.iitb.ac.in/admission/phd-research-areas"
+      ]
+    },
+    {
+      "key": "costs",
+      "heading": "Fees, funding and cost planning",
+      "paragraphs": [
+        "Fees are highly institution-, category-, residency- and semester-dependent, so there is no reliable single all-India price for a Ph.D. in Design. As dated context, IIT Bombay’s Academic Office has published a 2026–27 fee circular for new and on-roll Ph.D. students, distinguishes concessional and non-concessional categories, and explicitly reserves the right to revise fees in later semesters. Hostel, living, materials, travel, fieldwork and prototype costs may be separate from academic fees.",
+        "Funding can materially change the out-of-pocket cost. IIT Bombay lists Teaching Assistantship, Research Assistantship, project-linked assistantships, government fellowships and PMRF among Ph.D.-relevant support routes. Its posted Teaching Assistantship schedule, revised effective January 1, 2023, lists ₹37,000 per month for the first two years and ₹42,000 per month thereafter for eligible Ph.D. recipients, subject to its stated conditions and satisfactory progress; this is an IIT Bombay example, not a guaranteed or universal Design Ph.D. stipend."
+      ],
+      "bullets": [
+        "For each target institute, compare the current fee circular, hostel circular, assistantship eligibility, fellowship terms, duration of support, teaching/research duties and expected research expenses.",
+        "Treat published fee and fellowship figures as dated information: verify them immediately before applying or accepting an offer."
+      ],
+      "source_urls": [
+        "https://acad.iitb.ac.in/admissions/fees-structure",
+        "https://acad.iitb.ac.in/sites/default/files/Fee%20cirular_10.07.2026.pdf",
+        "https://acad.iitb.ac.in/academics/scholarship",
+        "https://acad.iitb.ac.in/sites/default/files/TeachingAssistant.pdf"
+      ]
+    },
+    {
+      "key": "next_options",
+      "heading": "Next options after the Ph.D.",
+      "paragraphs": [
+        "A Ph.D. in Design can support research-intensive careers in higher education, design research, research-and-development organisations, public-interest or social innovation work, and specialised industry research. It can also lead to postdoctoral research or to applying research methods and intellectual property in a venture or consultancy. IIT Bombay IDC specifically describes its Ph.D. alumni pathways as teaching and mentoring, academic and design-research careers, developing business ideas or design methods, and postdoctoral research.",
+        "The best next step should follow the scholar’s thesis area and output: for example, an interaction-design researcher may target HCI or product-research roles, while a scholar working on design pedagogy, healthcare, mobility, inclusive design or visualisation may pursue corresponding faculty, lab, policy, R&D or research-practice opportunities."
+      ],
+      "bullets": [
+        "Academic route: postdoctoral research, faculty positions and design education.",
+        "Research route: research scientist, design researcher, human-factors or UX research roles, depending on disciplinary expertise.",
+        "Practice route: research-led design consultancy, innovation labs, product/service strategy or an entrepreneurship pathway."
+      ],
+      "source_urls": [
+        "https://www.idc.iitb.ac.in/academic/phd-program",
+        "https://www.idc.iitb.ac.in/admission/phd-research-areas"
+      ]
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — eligibility and duration",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page567.html",
+      "kind": "regulation"
+    },
+    {
+      "label": "UGC Ph.D. Regulations, 2022 — admission methods",
+      "url": "https://www.ugc.gov.in/e-book/UGC_Regulation/files/basic-html/page568.html",
+      "kind": "regulation"
+    },
+    {
+      "label": "CEED official portal",
+      "url": "https://www.ceed.iitb.ac.in/2026/",
+      "kind": "examination"
+    },
+    {
+      "label": "IIT Bombay IDC Ph.D. admission",
+      "url": "https://www.idc.iitb.ac.in/admission/phd-admission",
+      "kind": "university_admission"
+    },
+    {
+      "label": "IIT Bombay IDC Ph.D. course structure",
+      "url": "https://www.idc.iitb.ac.in/academic/phd-program/phd-course-structure",
+      "kind": "university_programme"
+    },
+    {
+      "label": "IIT Bombay Academic Office fee structure",
+      "url": "https://acad.iitb.ac.in/admissions/fees-structure",
+      "kind": "fees"
+    }
+  ],
+  "prov": {
+    "model": "gpt-5.6-terra",
+    "prompt_version": "v2-enrichment-1",
+    "generated_at": "2026-07-19"
+  }
+}
