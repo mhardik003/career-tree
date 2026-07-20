@@ -286,10 +286,63 @@ class Registry:
         atomic_write(self.edges_file, "".join(
             json.dumps(e.model_dump(exclude_none=True), ensure_ascii=False) + "\n" for e in edges))
 
-    def registry_block(self) -> str:
-        """Compact `id | title | type` block that rides along in expansion prompts."""
-        lines = [f"{n.id} | {n.title}" for n in sorted(self.nodes.values(), key=lambda n: n.id)]
-        return "\n".join(lines)
+    def registry_block_for(self, node_id: str, trail_ids: Iterable[str] = (),
+                           reg_vecs: Optional[Dict[str, List[float]]] = None,
+                           k: int = 100, max_lines: int = 300,
+                           max_chars: int = 12_000) -> str:
+        """Bounded `id | title` registry slice for one expansion prompt.
+
+        This block exists ONLY as duplicate-avoidance context for the LLM — enough
+        of the graph that it reuses existing ids instead of re-proposing them. It
+        is NOT the dedup gate: every new title still goes through the ER resolver
+        (resolve.py), which sees the full registry, so an id missing from this
+        slice costs at most one resolver round, never a duplicate node. The old
+        full-registry block was O(N) per prompt (O(N²) tokens per run) and changed
+        every prompt hash whenever the registry grew, defeating call-cache replay.
+
+        Contents, in priority order under the caps: the node itself, its BFS
+        trail/ancestors, its top-k embedding neighbors, then its same-type cohort
+        sorted by id. `reg_vecs` is a caller-supplied id->vector map (e.g. the
+        Resolver's — vectors are never computed here, so building a prompt can
+        never trigger an embedding API call; with no vector for `node_id` the
+        neighbor tier is simply skipped). The slice is a deterministic pure
+        function of (node, registry state, reg_vecs) — no volatile content — so
+        unchanged prompts replay from the call cache.
+        """
+        node = self.nodes[node_id]
+        ordered: List[str] = []
+        seen: set = set()
+
+        def take(nid: str):
+            if nid not in seen and nid in self.nodes:
+                seen.add(nid)
+                ordered.append(nid)
+
+        take(node_id)
+        for tid in trail_ids:
+            take(tid)
+        vec = (reg_vecs or {}).get(node_id)
+        if vec is not None:
+            scored = sorted(
+                ((cosine(vec, v), nid) for nid, v in reg_vecs.items()
+                 if nid != node_id and nid in self.nodes),
+                key=lambda sv: (-sv[0], sv[1]),
+            )
+            for _, nid in scored[:k]:
+                take(nid)
+        for nid in sorted(self.nodes):
+            if self.nodes[nid].type == node.type:
+                take(nid)
+
+        picked: List[str] = []
+        chars = 0
+        for nid in ordered:
+            line_len = len(nid) + 3 + len(self.nodes[nid].title)  # "id | title"
+            if len(picked) >= max_lines or chars + line_len + 1 > max_chars:
+                break
+            picked.append(nid)
+            chars += line_len + 1
+        return "\n".join(f"{nid} | {self.nodes[nid].title}" for nid in sorted(picked))
 
 
 # --- OpenAI wrapper with provider-aware call cache ----------------------------

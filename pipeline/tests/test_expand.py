@@ -119,7 +119,7 @@ class ExpandCheckpointTests(unittest.TestCase):
     @contextlib.contextmanager
     def _patched_main(self, registry, frontier, call_json_stub, frontier_snapshots):
         with mock.patch.object(expand, "Registry", lambda: registry), \
-                mock.patch.object(expand, "Resolver", lambda _reg: SimpleNamespace()), \
+                mock.patch.object(expand, "Resolver", lambda _reg: SimpleNamespace(reg_vecs={})), \
                 mock.patch.object(expand, "load_frontier", lambda: frontier), \
                 mock.patch.object(
                     expand,

@@ -94,6 +94,12 @@ class Resolver:
         vecs = self.embedder(texts)
         self._reg_vecs = {n.id: v for n, v in zip(nodes, vecs)}
 
+    @property
+    def reg_vecs(self) -> dict:
+        """Per-node embedding vectors, already fetched/cached for ER. Read-only
+        consumer: Registry.registry_block_for (prompt slices never embed)."""
+        return self._reg_vecs
+
     def _neighbors(self, node_type: NodeType, vec: List[float], k: int = 5) -> List[Tuple[str, float]]:
         scored = [(nid, cosine(vec, v)) for nid, v in self._reg_vecs.items()
                   if self.reg.nodes[nid].type == node_type]

@@ -1,7 +1,8 @@
 """Stage 1 expansion: BFS over registry NODES (never paths). Each node is expanded
 exactly once; successors must reference existing registry IDs whenever one exists
-(the whole registry rides along in the prompt), and every new title passes entity
-resolution before an ID is minted.
+(a bounded, relevant registry slice rides along in the prompt — see
+Registry.registry_block_for), and every new title passes entity resolution before
+an ID is minted.
 
 Run:  python pipeline/expand.py --max-depth 4 --limit 20
 Resumable: frontier + expanded set live in state/frontier.json; registry + frontier
@@ -77,7 +78,10 @@ class ExpansionResult(BaseModel):
         return v[:12]
 
 
-def expansion_prompt(reg: Registry, node, trails: List[str]) -> str:
+def expansion_prompt(node, trails: List[str], registry_slice: str) -> str:
+    # registry_slice is the bounded duplicate-avoidance excerpt from
+    # Registry.registry_block_for — the ER resolver downstream remains the real
+    # dedup gate and still sees the full registry.
     trail_block = "\n".join(f"- {t}" for t in trails) or "- (root)"
     return f"""You are an expert career counsellor for the INDIAN education system, extending a
 career graph. Nodes are stages/qualifications/exams/roles; edges mean "a realistic
@@ -88,15 +92,16 @@ Definition: {node.description}
 Typical routes to it:
 {trail_block}
 
-REGISTRY (id | title) — the graph so far:
-{reg.registry_block()}
+REGISTRY EXCERPT (id | title) — the existing entries most relevant to this node
+(its type cohort, its routes, and the nearest entries by meaning):
+{registry_slice}
 
 Task: list the IMMEDIATE next options after the current node in India (4-10; fewer if
 the node is genuinely terminal).
 Rules:
 1. NEVER skip steps (Class 10 -> stream -> degree -> role, not Class 10 -> role).
-2. If a successor already exists in the registry, return its EXACT id in existing_id.
-   Only use new_title when nothing in the registry means the same thing.
+2. If a successor already exists in the excerpt above, return its EXACT id in
+   existing_id. Only use new_title when nothing shown means the same thing.
 3. Concrete options only — never aggregate buckets ("Government Jobs (PSU|UPSC)"),
    never bare generics ("Ph.D.", "Higher Studies"); qualify by domain instead.
 4. Entrance/qualifying exams are their own nodes (edge_type=exam_gate); prefer the
@@ -166,10 +171,12 @@ def main():
             node = reg.nodes[nid]
             trail_ids = reg.shortest_trail(nid)
             trails = [" → ".join(reg.nodes[i].title for i in trail_ids)] if trail_ids else []
+            registry_slice = reg.registry_block_for(
+                nid, trail_ids=trail_ids, reg_vecs=resolver.reg_vecs)
 
             print(f"[depth {depth}] expanding {nid} ({node.title})")
             try:
-                result = call_json(EXPAND_MODEL, expansion_prompt(reg, node, trails), ExpansionResult)
+                result = call_json(EXPAND_MODEL, expansion_prompt(node, trails, registry_slice), ExpansionResult)
                 _process_successors(reg, resolver, node, nid, depth, result, queue, expanded, args)
             except RuntimeError as e:
                 # isolate the failure: requeue this node at the back and move on, but
