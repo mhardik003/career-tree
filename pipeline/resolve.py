@@ -16,10 +16,11 @@ import re
 import json
 from typing import List, Literal, Optional, Tuple
 
+import numpy as np
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 from lib import (Registry, Node, NodeType, Provenance, is_bare_generic,
-                 looks_aggregate, mint_id, embed_texts, cosine,
+                 looks_aggregate, mint_id, embed_texts,
                  call_json, append_jsonl, today, ER_LEDGER_FILE, PIPE_DIR)
 
 ER_REPORT_FILE = os.path.join(PIPE_DIR, "eval", "er_openai_report.json")
@@ -85,25 +86,64 @@ class Resolver:
         self.reg = reg
         self.embedder = embedder
         self.judge_call = judge_call
-        self._reg_vecs: dict[str, List[float]] = {}
+        # Registry embeddings live in one (N, D) float64 matrix + a parallel id
+        # list (row i belongs to _reg_ids[i]). Rows keep the provider's RAW
+        # values (they are only ~unit-norm, deviations up to ~5e-4), with L2
+        # norms precomputed once, so `matrix @ query / (norms * |query|)`
+        # reproduces lib.cosine exactly instead of the old O(N) pure-Python
+        # scan per candidate. float64 keeps scores within ~1e-15 of the old
+        # loop and lets reg_vecs round-trip the exact cached vectors.
+        self._reg_ids: List[str] = []
+        self._reg_matrix: np.ndarray = np.zeros((0, 0), dtype=np.float64)
+        self._reg_norms: np.ndarray = np.zeros(0, dtype=np.float64)
         self._refresh_embeddings()
 
     def _refresh_embeddings(self):
         nodes = list(self.reg.nodes.values())
         texts = [_er_text(n.type, n.title, n.description) for n in nodes]
         vecs = self.embedder(texts)
-        self._reg_vecs = {n.id: v for n, v in zip(nodes, vecs)}
+        self._reg_ids = [n.id for n in nodes]
+        self._reg_matrix = (np.asarray(vecs, dtype=np.float64)
+                            if vecs else np.zeros((0, 0), dtype=np.float64))
+        self._reg_norms = np.linalg.norm(self._reg_matrix, axis=1)
+
+    def _append_embedding(self, node_id: str, vec: List[float]):
+        """Keep the matrix in sync when a node is minted mid-run: append one
+        row (an O(N·D) copy — negligible next to the mint's judge/embedding
+        API calls, and simpler than growth buffers at this scale)."""
+        row = np.asarray(vec, dtype=np.float64).reshape(1, -1)
+        self._reg_matrix = (row if self._reg_matrix.size == 0
+                            else np.vstack([self._reg_matrix, row]))
+        self._reg_norms = np.append(self._reg_norms, np.linalg.norm(row))
+        self._reg_ids.append(node_id)
 
     @property
     def reg_vecs(self) -> dict:
         """Per-node embedding vectors, already fetched/cached for ER. Read-only
-        consumer: Registry.registry_block_for (prompt slices never embed)."""
-        return self._reg_vecs
+        consumer: Registry.registry_block_for (prompt slices never embed).
+        Served from the float64 matrix; `.tolist()` round-trips the exact
+        cached values, so prompt slices stay byte-identical."""
+        return {nid: row.tolist()
+                for nid, row in zip(self._reg_ids, self._reg_matrix)}
 
     def _neighbors(self, node_type: NodeType, vec: List[float], k: int = 5) -> List[Tuple[str, float]]:
-        scored = [(nid, cosine(vec, v)) for nid, v in self._reg_vecs.items()
-                  if self.reg.nodes[nid].type == node_type]
-        return sorted(scored, key=lambda x: -x[1])[:k]
+        if not self._reg_ids:
+            return []
+        query = np.asarray(vec, dtype=np.float64)
+        denom = self._reg_norms * float(np.linalg.norm(query))
+        sims = np.divide(self._reg_matrix @ query, denom,
+                         out=np.zeros(len(self._reg_ids), dtype=np.float64),
+                         where=denom > 0)
+        typed = np.fromiter(
+            (i for i, nid in enumerate(self._reg_ids)
+             if self.reg.nodes[nid].type == node_type),
+            dtype=np.int64)
+        if typed.size == 0:
+            return []
+        # stable argsort == the old stable sorted() over insertion order
+        order = np.argsort(-sims[typed], kind="stable")[:k]
+        return [(self._reg_ids[int(typed[i])], float(sims[typed[i]]))
+                for i in order]
 
     def resolve(self, node_type: NodeType, title: str, definition: str,
                 parent: Optional[Node], model_for_mint: str) -> Resolution:
@@ -207,7 +247,7 @@ the rubric rule number you applied, and a one-sentence rationale."""
                     needs_review=needs_review,
                     prov=Provenance(model=model, generated_at=today()))
         self.reg.add_node(node)
-        self._reg_vecs[nid] = vec
+        self._append_embedding(nid, vec)
         self._ledger("minted", title, node_type, nid, None, reason,
                      judge_model=judge_model, candidates=candidates)
         return Resolution(action="minted", node_id=nid, reason=reason)

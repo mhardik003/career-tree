@@ -1,5 +1,6 @@
 import json
 import gc
+import random
 import sys
 import tempfile
 import unittest
@@ -12,7 +13,7 @@ from pydantic import ValidationError
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import resolve
-from lib import Node, NodeType, Provenance, Registry
+from lib import Node, NodeType, Provenance, Registry, cosine
 from resolve import JUDGE_MODEL, JudgeVerdict, Resolver
 
 
@@ -188,6 +189,65 @@ class ResolverTests(unittest.TestCase):
         self.assertEqual(result.action, "minted")
         self.assertNotEqual(result.node_id, "job_role:analyst-4")
         self.assertTrue(registry.nodes[result.node_id].needs_review)
+
+
+class NeighborMatmulTests(unittest.TestCase):
+    """The vectorized (matrix @ query) shortlist must reproduce the brute-force
+    pure-Python cosine loop it replaced: same neighbors, same order (including
+    stable tie-breaks), scores within float tolerance."""
+
+    @staticmethod
+    def brute_force_neighbors(resolver, registry, node_type, vec, k=5):
+        scored = [(nid, cosine(vec, v)) for nid, v in resolver.reg_vecs.items()
+                  if registry.nodes[nid].type == node_type]
+        return sorted(scored, key=lambda x: -x[1])[:k]
+
+    def test_matmul_topk_matches_brute_force_cosine(self):
+        rng = random.Random(20260720)
+        types = [NodeType.job_role, NodeType.degree]
+        fixtures, vectors = [], []
+        for index in range(40):
+            node_type = types[index % 2]
+            fixtures.append(node(f"{node_type.value}:synth-{index:02d}", node_type,
+                                 f"Synthetic {index:02d}", "synthetic fixture"))
+            vectors.append([rng.uniform(-1.0, 1.0) for _ in range(32)])
+        registry = in_memory_registry(*fixtures)
+        resolver = Resolver(registry,
+                            embedder=lambda texts: vectors[:len(texts)],
+                            judge_call=None)
+        for _ in range(10):
+            query = [rng.uniform(-1.0, 1.0) for _ in range(32)]
+            for node_type in types:
+                expected = self.brute_force_neighbors(
+                    resolver, registry, node_type, query)
+                got = resolver._neighbors(node_type, query)
+                self.assertEqual([nid for nid, _ in got],
+                                 [nid for nid, _ in expected])
+                for (_, got_score), (_, want_score) in zip(got, expected):
+                    self.assertAlmostEqual(got_score, want_score, delta=1e-9)
+
+    def test_minted_node_joins_the_score_matrix(self):
+        registry = in_memory_registry(
+            node("job_role:base", NodeType.job_role, "Base Role", "base role"))
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.object(
+                resolve, "ER_LEDGER_FILE", str(Path(directory) / "ledger.jsonl")
+            ):
+                resolver = Resolver(
+                    registry,
+                    embedder=lambda texts: [[1.0, 0.0] for _ in texts],
+                    judge_call=None,
+                )
+                minted = resolver._mint(
+                    NodeType.job_role, "Minted Role", "a minted role",
+                    "gpt-5.6-terra", [0.0, 1.0],
+                    needs_review=False, reason="matrix sync test",
+                )
+        self.assertEqual(resolver.reg_vecs[minted.node_id], [0.0, 1.0])
+        top_id, top_score = resolver._neighbors(
+            NodeType.job_role, [0.0, 1.0], k=1)[0]
+        self.assertEqual(top_id, minted.node_id)
+        self.assertAlmostEqual(top_score, 1.0, delta=1e-12)
 
 
 if __name__ == "__main__":
