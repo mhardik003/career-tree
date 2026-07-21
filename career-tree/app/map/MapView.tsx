@@ -3,17 +3,18 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useMemo, useState } from "react";
-import ReactFlow, {
+import {
   Background,
   BackgroundVariant,
   Controls,
   Handle,
   MiniMap,
   Position,
+  ReactFlow,
   type Node,
   type NodeProps,
-} from "reactflow";
-import "reactflow/dist/style.css";
+} from "@xyflow/react";
+import "@xyflow/react/dist/style.css";
 import type { V2GlobalMap } from "@/lib/v2/global-map";
 import { filterGlobalMap } from "@/lib/v2/global-map";
 import type { V2NodeType } from "@/lib/v2/types";
@@ -21,7 +22,18 @@ import { useDebouncedValue } from "@/lib/v2/use-debounced-value";
 
 const DISTANCE_COLORS = ["#111827", "#2563eb", "#7c3aed", "#db2777", "#ea580c", "#16a34a"];
 
-function MapNode({ data, selected }: NodeProps) {
+// v12 types node data as Record<string, unknown> unless the node type is
+// declared, so the map node carries an explicit data shape.
+type MapNodeData = {
+  label: string;
+  nodeType: V2NodeType;
+  href: string;
+  isTerminal: boolean;
+  rootDistance: number;
+};
+type MapFlowNode = Node<MapNodeData, "canonical">;
+
+function MapNode({ data, selected }: NodeProps<MapFlowNode>) {
   return (
     <div className={`min-w-40 rounded-lg border bg-white px-4 py-3 text-center shadow-sm ${selected ? "border-black ring-2 ring-black" : "border-gray-300"}`}>
       <Handle type="target" position={Position.Top} className="opacity-0" />
@@ -52,7 +64,7 @@ export default function MapView({ model }: { model: V2GlobalMap }) {
     () => new Map(visible.nodes.map((node) => [node.id, node.rootDistance])),
     [visible.nodes],
   );
-  const nodes = useMemo(() => visible.nodes.map((node) => ({
+  const nodes = useMemo<MapFlowNode[]>(() => visible.nodes.map((node) => ({
     id: node.id,
     type: "canonical",
     position: node.position,
@@ -79,7 +91,7 @@ export default function MapView({ model }: { model: V2GlobalMap }) {
       },
     };
   }), [distances, visible.edges]);
-  const onNodeClick = useCallback((_: React.MouseEvent, node: Node) => {
+  const onNodeClick = useCallback((_: React.MouseEvent, node: MapFlowNode) => {
     router.push(node.data.href);
   }, [router]);
 
@@ -130,7 +142,7 @@ export default function MapView({ model }: { model: V2GlobalMap }) {
       >
         <Background color="#e5e5e5" gap={40} variant={BackgroundVariant.Lines} />
         <Controls showInteractive={false} />
-        <MiniMap
+        <MiniMap<MapFlowNode>
           nodeColor={(node) => {
             const distance = node.data.rootDistance ?? 0;
             return DISTANCE_COLORS[Math.min(distance, DISTANCE_COLORS.length - 1)];

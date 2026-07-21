@@ -13,8 +13,8 @@ type TestFlowProps = {
   children: ReactNode;
 };
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push }) }));
-vi.mock("reactflow", () => ({
-  default: ({ nodes, edges, onNodeClick, children }: TestFlowProps) => (
+vi.mock("@xyflow/react", () => ({
+  ReactFlow: ({ nodes, edges, onNodeClick, children }: TestFlowProps) => (
     <div data-testid="flow" data-edges={edges.length}>
       {nodes.map((node) => (
         <button key={node.id} type="button" onClick={(event) => onNodeClick(event, node)}>
