@@ -14,7 +14,7 @@ from enum import Enum
 from typing import List, Optional, Dict, Iterable
 
 import yaml
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from dotenv import load_dotenv
 
 from cache_keys import call_cache_key, embedding_cache_key
@@ -68,7 +68,6 @@ class Provenance(BaseModel):
     model: str
     prompt_version: str = PROMPT_VERSION
     generated_at: str                      # ISO date
-    verified_at: Optional[str] = None
     source_urls: List[str] = []
 
 

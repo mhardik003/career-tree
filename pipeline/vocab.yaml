@@ -18,19 +18,6 @@ abbreviations:
   specialty: speciality
   psus: psu
 
-# Qualifier controlled vocabulary (RUBRIC row 3): judge normalizes qualifier synonyms
-# to these; different entries stay distinct (row 4).
-qualifiers:
-  - Government
-  - Industry
-  - Academia
-  - Abroad
-  - Pharma
-  - Biotech
-  - Healthcare
-  - Defence
-  - IT
-
 seeds:
   # --- root ---
   - id: school_stage:class-10

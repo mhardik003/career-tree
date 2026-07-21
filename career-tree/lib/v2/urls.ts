@@ -6,10 +6,6 @@ export function splitNodeId(id: string): { type: string; slug: string } {
   return { type: id.slice(0, separator), slug: id.slice(separator + 1) };
 }
 
-export function nodeIdFromRoute(type: string, slug: string): string {
-  return `${type}:${slug}`;
-}
-
 export function nodeHref(id: string, fromId?: string): string {
   const { type, slug } = splitNodeId(id);
   const base = `/careers/${encodeURIComponent(type)}/${encodeURIComponent(slug)}`;

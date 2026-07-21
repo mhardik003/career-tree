@@ -11,13 +11,11 @@ replay from the call cache for free.
 """
 import argparse
 import json
-import re
 from typing import List, Optional
 
 from pydantic import BaseModel, Field, field_validator
 
-from lib import (Registry, NodeType, EdgeType, atomic_write, read_jsonl,  # noqa: F401
-                 call_json, FRONTIER_FILE)
+from lib import Registry, NodeType, EdgeType, atomic_write, call_json, FRONTIER_FILE
 from resolve import Resolver
 
 EXPAND_MODEL = "gpt-5.6-terra"
