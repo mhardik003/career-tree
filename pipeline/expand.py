@@ -11,13 +11,10 @@ replay from the call cache for free.
 """
 import argparse
 import json
-import re
-from typing import List, Optional
 
 from pydantic import BaseModel, Field, field_validator
 
-from lib import (Registry, NodeType, EdgeType, atomic_write, read_jsonl,  # noqa: F401
-                 call_json, FRONTIER_FILE)
+from lib import Registry, NodeType, EdgeType, atomic_write, call_json, FRONTIER_FILE
 from resolve import Resolver
 
 EXPAND_MODEL = "gpt-5.6-terra"
@@ -55,12 +52,12 @@ def _would_create_progression_cycle(reg: Registry, from_id: str, to_id: str) -> 
 
 
 class ChildRef(BaseModel):
-    existing_id: Optional[str] = Field(
+    existing_id: str | None = Field(
         None, description="EXACT id from the registry block, if this successor already exists there. Strongly preferred over new_title.")
-    new_title: Optional[str] = Field(
+    new_title: str | None = Field(
         None, description="Title for a genuinely new entry (only when no registry id means the same thing). Concrete and specific — never a bucket like 'Government Jobs (PSU|UPSC)'. No '/' or '|'. Never a bare generic like 'Ph.D.' — say 'Ph.D. in Economics'.")
-    new_type: Optional[NodeType] = Field(None, description="Node type, required with new_title.")
-    one_line_definition: Optional[str] = Field(
+    new_type: NodeType | None = Field(None, description="Node type, required with new_title.")
+    one_line_definition: str | None = Field(
         None, description="One sentence defining the new entry (used for dedup embedding). Required with new_title.")
     edge_type: EdgeType = Field(
         EdgeType.progression, description="progression = normal next step; exam_gate = the successor is an entrance/qualifying exam; lateral = sideways switch between tracks.")
@@ -69,7 +66,7 @@ class ChildRef(BaseModel):
 
 class ExpansionResult(BaseModel):
     is_terminal: bool = Field(description="True only if this node is a final career endpoint with no meaningful next options.")
-    successors: List[ChildRef] = Field(description="4-10 immediate next options; empty if terminal.")
+    successors: list[ChildRef] = Field(description="4-10 immediate next options; empty if terminal.")
 
     @field_validator("successors")
     @classmethod
@@ -78,7 +75,7 @@ class ExpansionResult(BaseModel):
         return v[:12]
 
 
-def expansion_prompt(node, trails: List[str], registry_slice: str) -> str:
+def expansion_prompt(node, trails: list[str], registry_slice: str) -> str:
     # registry_slice is the bounded duplicate-avoidance excerpt from
     # Registry.registry_block_for — the ER resolver downstream remains the real
     # dedup gate and still sees the full registry.

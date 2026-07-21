@@ -1,4 +1,4 @@
-import { createClient, SupabaseClient } from '@supabase/supabase-js';
+import { createClient, SupabaseClient } from "@supabase/supabase-js";
 
 /**
  * Server-side Supabase client (service role — bypasses RLS).
@@ -17,7 +17,7 @@ export function getSupabase(): SupabaseClient {
 
   if (!url || !key) {
     throw new Error(
-      'Please define SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY inside .env.local'
+      "Please define SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY inside .env.local"
     );
   }
 

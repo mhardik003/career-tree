@@ -10,11 +10,11 @@ import json
 import time
 import tempfile
 import threading
+from collections.abc import Iterable
 from enum import Enum
-from typing import List, Optional, Dict, Iterable
 
 import yaml
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from dotenv import load_dotenv
 
 from cache_keys import call_cache_key, embedding_cache_key
@@ -35,6 +35,8 @@ EMBED_CACHE_FILE = os.path.join(PIPE_DIR, "ledger", "embeddings.jsonl")     # gi
 ER_LEDGER_FILE = os.path.join(PIPE_DIR, "ledger", "er_decisions.jsonl")     # committed
 USAGE_FILE = os.path.join(PIPE_DIR, "ledger", "usage.jsonl")                # gitignored
 VOCAB_FILE = os.path.join(PIPE_DIR, "vocab.yaml")
+
+ROOT_ID = "school_stage:class-10"
 
 PROVIDER = "openai"
 PROMPT_VERSION = "v2-openai-1"
@@ -68,19 +70,18 @@ class Provenance(BaseModel):
     model: str
     prompt_version: str = PROMPT_VERSION
     generated_at: str                      # ISO date
-    verified_at: Optional[str] = None
-    source_urls: List[str] = []
+    source_urls: list[str] = []
 
 
 class Node(BaseModel):
     id: str                                # "{type}:{slug}", minted once, immutable
     type: NodeType
     title: str                             # display only, never identity
-    aliases: List[str] = []
+    aliases: list[str] = []
     description: str = ""
     is_terminal: bool = False
     needs_review: bool = False
-    facts: Optional[NodeFacts] = None      # source-backed Stage 2 enrichment
+    facts: NodeFacts | None = None         # source-backed Stage 2 enrichment
     prov: Provenance
 
 
@@ -90,7 +91,7 @@ class Edge(BaseModel):
     to_id: str
     edge_type: EdgeType = EdgeType.progression
     is_common_route: bool = True
-    facts: Optional[dict] = None           # EdgeFacts, filled in Stage 2
+    facts: dict | None = None              # EdgeFacts, filled in Stage 2
     prov: Provenance
 
 
@@ -108,9 +109,9 @@ def load_vocab() -> dict:
         return yaml.safe_load(f)
 
 
-_ABBREV: Dict[str, str] = {}
+_ABBREV: dict[str, str] = {}
 
-def _abbrev_table() -> Dict[str, str]:
+def _abbrev_table() -> dict[str, str]:
     global _ABBREV
     if not _ABBREV:
         _ABBREV = {k.lower(): v.lower() for k, v in load_vocab()["abbreviations"].items()}
@@ -189,7 +190,7 @@ def atomic_write(path: str, content: str):
     os.replace(tmp, path)
 
 
-def read_jsonl(path: str) -> List[dict]:
+def read_jsonl(path: str) -> list[dict]:
     if not os.path.exists(path):
         return []
     with open(path, encoding="utf-8") as f:
@@ -212,15 +213,15 @@ class Registry:
     def __init__(self, nodes_file: str = NODES_FILE, edges_file: str = EDGES_FILE):
         self.nodes_file = nodes_file
         self.edges_file = edges_file
-        self.nodes: Dict[str, Node] = {}
-        self.edges: Dict[str, Edge] = {}
+        self.nodes: dict[str, Node] = {}
+        self.edges: dict[str, Edge] = {}
         for rec in read_jsonl(self.nodes_file):
             n = Node(**rec)
             self.nodes[n.id] = n
         for rec in read_jsonl(self.edges_file):
             e = Edge(**rec)
             self.edges[e.id] = e
-        self._alias_index: Dict[tuple, str] = {}
+        self._alias_index: dict[tuple, str] = {}
         for n in self.nodes.values():
             self._index_node(n)
         self._rebuild_edge_index()
@@ -237,8 +238,8 @@ class Registry:
         from_id/to_id: reassigning an endpoint would silently leave the edge in
         the wrong bucket — remove and re-add instead.
         """
-        self._out: Dict[str, List[Edge]] = {}
-        self._in: Dict[str, List[Edge]] = {}
+        self._out: dict[str, list[Edge]] = {}
+        self._in: dict[str, list[Edge]] = {}
         for e in self.edges.values():
             self._index_edge(e)
 
@@ -250,7 +251,7 @@ class Registry:
         for surface in [n.title] + n.aliases:
             self._alias_index[(n.type.value, normalize_title(surface))] = n.id
 
-    def lookup_exact(self, node_type: NodeType, title: str) -> Optional[str]:
+    def lookup_exact(self, node_type: NodeType, title: str) -> str | None:
         return self._alias_index.get((node_type.value, normalize_title(title)))
 
     def add_node(self, n: Node):
@@ -265,7 +266,7 @@ class Registry:
             self._index_node(n)
 
     def add_edge(self, from_id: str, to_id: str, edge_type: EdgeType, model: str,
-                 is_common_route: bool = True) -> Optional[Edge]:
+                 is_common_route: bool = True) -> Edge | None:
         eid = f"{from_id}->{to_id}"
         if eid in self.edges or from_id == to_id:
             return None
@@ -276,7 +277,7 @@ class Registry:
         self._index_edge(e)
         return e
 
-    def remove_edge(self, edge_id: str) -> Optional[Edge]:
+    def remove_edge(self, edge_id: str) -> Edge | None:
         """Remove an edge by id, keeping the adjacency index in sync.
 
         The ONLY sanctioned way to delete an edge (never `del reg.edges[...]`).
@@ -294,18 +295,18 @@ class Registry:
     # Both return fresh lists (mirrors V2Graph.incoming/outgoing in
     # career-tree/lib/v2/graph-core.ts): callers may mutate the result without
     # corrupting the index.
-    def outgoing(self, node_id: str) -> List[Edge]:
+    def outgoing(self, node_id: str) -> list[Edge]:
         return list(self._out.get(node_id, ()))
 
-    def incoming(self, node_id: str) -> List[Edge]:
+    def incoming(self, node_id: str) -> list[Edge]:
         return list(self._in.get(node_id, ()))
 
-    def shortest_trail(self, node_id: str, root: str = "school_stage:class-10") -> List[str]:
+    def shortest_trail(self, node_id: str, root: str = ROOT_ID) -> list[str]:
         """BFS shortest path root->node as a list of ids ([] if unreachable)."""
         from collections import deque
         if node_id == root:
             return [root]
-        parents: Dict[str, str] = {root: ""}
+        parents: dict[str, str] = {root: ""}
         q = deque([root])
         while q:
             cur = q.popleft()
@@ -329,7 +330,7 @@ class Registry:
             json.dumps(e.model_dump(exclude_none=True), ensure_ascii=False) + "\n" for e in edges))
 
     def registry_block_for(self, node_id: str, trail_ids: Iterable[str] = (),
-                           reg_vecs: Optional[Dict[str, List[float]]] = None,
+                           reg_vecs: dict[str, list[float]] | None = None,
                            k: int = 100, max_lines: int = 300,
                            max_chars: int = 12_000) -> str:
         """Bounded `id | title` registry slice for one expansion prompt.
@@ -352,7 +353,7 @@ class Registry:
         unchanged prompts replay from the call cache.
         """
         node = self.nodes[node_id]
-        ordered: List[str] = []
+        ordered: list[str] = []
         seen: set = set()
 
         def take(nid: str):
@@ -376,7 +377,7 @@ class Registry:
             if self.nodes[nid].type == node.type:
                 take(nid)
 
-        picked: List[str] = []
+        picked: list[str] = []
         chars = 0
         for nid in ordered:
             line_len = len(nid) + 3 + len(self.nodes[nid].title)  # "id | title"
@@ -389,7 +390,7 @@ class Registry:
 
 # --- OpenAI wrapper with provider-aware call cache ----------------------------
 
-_provider: Optional[OpenAIProvider] = None
+_provider: OpenAIProvider | None = None
 _provider_lock = threading.Lock()
 
 
@@ -421,10 +422,10 @@ def _warn_if_large(path: str, limit: int = CACHE_WARN_BYTES):
         )
 
 
-_call_cache: Optional[Dict[str, str]] = None
+_call_cache: dict[str, str] | None = None
 _call_cache_lock = threading.RLock()
 
-def _load_call_cache() -> Dict[str, str]:
+def _load_call_cache() -> dict[str, str]:
     global _call_cache
     if _call_cache is None:
         _warn_if_large(CALL_CACHE_FILE)
@@ -500,9 +501,9 @@ def call_json(
 
 # --- embeddings with cache ----------------------------------------------------
 
-_embed_cache: Optional[Dict[str, List[float]]] = None
+_embed_cache: dict[str, list[float]] | None = None
 
-def _load_embed_cache() -> Dict[str, List[float]]:
+def _load_embed_cache() -> dict[str, list[float]]:
     global _embed_cache
     if _embed_cache is None:
         _warn_if_large(EMBED_CACHE_FILE)
@@ -510,7 +511,17 @@ def _load_embed_cache() -> Dict[str, List[float]]:
     return _embed_cache
 
 
-def embed_texts(texts: List[str]) -> List[List[float]]:
+def er_text(node_type: NodeType, title: str, description: str) -> str:
+    """Text embedded for ER: type + title + short definition (not the bare title —
+    definitions disambiguate what names cannot).
+
+    Both bootstrap.py (registry seeding) and resolve.py (resolver queries and
+    refreshes) MUST embed exactly this text — if the two ever diverge, registry
+    embeddings stop matching resolver embeddings and ER silently degrades."""
+    return f"{node_type.value}: {title} — {description[:160]}"
+
+
+def embed_texts(texts: list[str]) -> list[list[float]]:
     cache = _load_embed_cache()
     keys = [
         embedding_cache_key(
@@ -548,7 +559,7 @@ def embed_texts(texts: List[str]) -> List[List[float]]:
     return [cache[k] for k in keys]
 
 
-def cosine(a: List[float], b: List[float]) -> float:
+def cosine(a: list[float], b: list[float]) -> float:
     dot = sum(x * y for x, y in zip(a, b))
     na = sum(x * x for x in a) ** 0.5
     nb = sum(y * y for y in b) ** 0.5

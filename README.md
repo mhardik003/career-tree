@@ -18,7 +18,7 @@ reach it. The current release ships:
 
 This README explains how the system works and how to run everything locally. The
 operational deep-dive (production release gates, the Supabase cutover migration, the
-moderation dry-run procedure) lives in [`README_v2.md`](README_v2.md).
+moderation dry-run procedure) lives in [`docs/OPERATIONS.md`](docs/OPERATIONS.md).
 
 ---
 
@@ -69,7 +69,7 @@ flowchart LR
     A["OpenAI pipeline<br/>expand · resolve · enrich"] --> B[("pipeline/registry/<br/>nodes.jsonl + edges.jsonl")]
     B --> C["lint --release<br/>+ source audit"]
     C --> D["export_frontend.py"]
-    D --> E[("career-tree/data/v2/graph.json")]
+    D --> E[("career-tree/data/v2/<br/>graph.core.json + facts/")]
     E --> F["Next.js site<br/>guides · explorer · map"]
     G["visitor suggestions & edits"] --> H[("Supabase<br/>pending_review rows")]
     H --> I["private moderation repo<br/>AI check + human approval"]
@@ -79,7 +79,7 @@ flowchart LR
 Three rules keep this honest:
 
 1. **`pipeline/registry/nodes.jsonl` + `edges.jsonl` are the canonical dataset.**
-   `career-tree/data/v2/graph.json` is a deterministic export — never hand-edited.
+   The `career-tree/data/v2/` snapshots are a deterministic export — never hand-edited.
 2. **Supabase is not graph storage.** It holds community submissions and their review
    state, nothing else. Public browsing reads only the committed snapshot.
 3. **Approved community changes re-enter through the pipeline**, not by editing served
@@ -158,7 +158,7 @@ The pipeline is a sequence of small, resumable scripts run from the repo root:
 | Enrichment | `enrich.py --retry-failures --workers 8` | `gpt-5.6-terra` with web search researches each node lacking facts and returns the strict `NodeFacts` schema. Saves after every node, skips completed ones, records failures in a ledger, runs bounded parallel workers, and aborts after 5 consecutive failures. |
 | Source audit | `audit_sources.py` | Checks every cited URL without storing page bodies: public HTTP(S) hosts only, bounded timeouts, at most 5 re-validated redirects. `404`/`410` and malformed URLs are definitive failures (exit 1); `401`/`403`/`405` still prove the endpoint exists. |
 | Release lint | `lint.py --release` | The free, deterministic gate — see the invariants below. |
-| Export | `export_frontend.py` (and `--check`) | Validates the registries and atomically writes `career-tree/data/v2/graph.json` (sorted, with a source digest). `--check` verifies the committed snapshot still matches the registries. A validation failure never clobbers the existing file. |
+| Export | `export_frontend.py` (and `--check`) | Validates the registries and atomically writes the `career-tree/data/v2/` snapshots — `graph.core.json` + per-node `facts/` (committed; what the app reads) and the full `graph.json` (~8.8 MB, gitignored) — sorted, with a source digest. `--check` verifies the exported snapshot still matches the registries. A validation failure never clobbers the existing files. |
 | ER calibration | `calibrate_er.py --write` | Recomputes the embedding-shortlist band against the frozen evaluation labels and updates `eval/er_openai_report.json`. |
 
 **Entity resolution** is the heart of the graph's integrity. When expansion proposes a
@@ -243,7 +243,7 @@ pipeline/                     canonical data pipeline (run from repo root)
   eval/                       frozen ER labels (655 pairs) + calibration report
   ledger/er_decisions.jsonl   committed ER audit trail (runtime caches gitignored)
   ground/exams.json           curated table of 103 real exams
-  vocab.yaml                  seed nodes/edges, qualifiers, abbreviations
+  vocab.yaml                  seed nodes/edges, abbreviations
   RUBRIC.md                   the 12-rule entity-resolution rubric
   tests/                      43 unittest tests
 career-tree/                  Next.js app (run npm from here)
@@ -251,10 +251,11 @@ career-tree/                  Next.js app (run npm from here)
   components/v2/              guide, explorer, map, and contribution UI
   lib/v2/                     graph engine, route search, layouts, URLs
   lib/                        Zod schemas, Supabase client, rate limiter
-  data/v2/graph.json          the committed generated snapshot (~11 MB)
+  data/v2/                    graph.core.json + facts/ (committed; what the app reads);
+                              graph.json (~8.8 MB) is no longer committed — regenerate
+                              via python pipeline/export_frontend.py
   supabase/                   clean schema + production cutover migration
-migration/                    historical ER labeling artifacts from the V1→V2 effort
-README_v2.md                  deep technical / release-operations guide
+docs/OPERATIONS.md            production release / operations manual
 ```
 
 ---
@@ -286,7 +287,7 @@ npm run dev        # http://localhost:3000
 ```
 
 That's the whole setup for browsing — guides, explorer, search, and the map read only
-the committed `data/v2/graph.json`.
+the committed `data/v2/graph.core.json` + `data/v2/facts/` snapshots.
 
 ### 3. (Optional) Supabase, for the contribution forms and counters
 
@@ -319,7 +320,7 @@ The free, no-key commands you'll actually use day-to-day:
 python pipeline/lint.py --release          # structural + release invariants
 python pipeline/audit_sources.py           # verify every cited URL (network, no key)
 python pipeline/export_frontend.py         # regenerate the frontend snapshot
-python pipeline/export_frontend.py --check # verify the committed snapshot is current
+python pipeline/export_frontend.py --check # verify the exported snapshot is current
 python -m unittest discover -s pipeline/tests -v
 ```
 
@@ -343,7 +344,7 @@ committed dataset.
 | Pipeline tests | `python -m unittest discover -s pipeline/tests -v` (root) | 43 tests pass |
 | Release lint | `python pipeline/lint.py --release` (root) | zero errors; 677 nodes, 1,505 edges |
 | Snapshot freshness | `python pipeline/export_frontend.py --check` (root) | "snapshot is current" |
-| Frontend tests | `npm test` (`career-tree/`) | 80 tests across 29 files pass |
+| Frontend tests | `npm test` (`career-tree/`) | 94 tests across 33 files pass |
 | Frontend lint | `npm run lint` (`career-tree/`) | clean |
 | Production build | `npm run build` (`career-tree/`) | succeeds — no env vars required |
 
@@ -357,18 +358,19 @@ Career data should be a public good, not a trade secret.
   land in moderation and are reviewed (AI-assisted, human-approved) before merging.
 - **Code:** fork, branch, and open a PR. Please add a regression test for any graph,
   API, routing, or release-gate bug you fix.
-- **Data via PR:** edit the JSONL registries (never `graph.json` directly), keep stable
-  IDs intact, cite public sources for every fact, then run lint → audit → export and
-  commit the regenerated snapshot.
+- **Data via PR:** edit the JSONL registries (never the exported snapshots directly),
+  keep stable IDs intact, cite public sources for every fact, then run lint → audit →
+  export and commit the regenerated `graph.core.json` + `facts/`.
 
 Ground rules worth repeating: preserve stable IDs (titles and aliases may change;
 identity may not), prefer under-merging entities, and keep credentials, caches, and
 private moderation material out of Git. The full production release procedure — gates,
 the destructive Supabase cutover, the moderation dry run — is in
-[`README_v2.md`](README_v2.md).
+[`docs/OPERATIONS.md`](docs/OPERATIONS.md).
 
 ## 📝 Update Log
 
+*   **2026-07-21** — Repository cleanup for the V2 release: `data_v2` was merged into `main` and stale branches pruned; dead V1 artifacts and the duplicated `migration/` labeling directory were deleted; the generated `graph.json` snapshot is no longer committed (regenerate via `python pipeline/export_frontend.py` — the app itself reads the committed `graph.core.json` + `facts/`); unused dependencies and the inert `tailwind.config.ts` were removed (`font-sans` now correctly maps to Inter via the CSS `@theme`); style normalization passes ran across the app and the pipeline; and the standalone operations manual moved to [`docs/OPERATIONS.md`](docs/OPERATIONS.md).
 *   **2026-07-21** — The explorer gained its own contribution entry point: a dashed placeholder card (`components/v2/SuggestChildCard.tsx`) renders as the final cell of the "Career options after X" grid and, on terminal nodes, below the retained "Career destination" panel — so an endpoint still reads as a finished career rather than a data gap. Activating it opens the existing `SuggestionDialog` already bound to the current node and returns focus to the card on close. The card matches the sibling child cards' geometry and reuses `POST /api/suggest`, its Zod schema, and the Supabase `suggestions` table unchanged, so explorer-submitted rows are indistinguishable from guide-page ones in review tooling. Previously "Suggest a next option" existed only on `/careers/…`, leaving the explorer — the surface people actually browse options on — with no way to contribute.
 *   **2026-07-21** — Raw canonical node IDs (`degree:b-sc`) are no longer displayed to readers: the explore card's meta row now shows only the incoming/next-option counts and the guide footer keeps just its provenance line. The IDs remain the primary key everywhere they do work — graph indexing, URL construction, and the `parentNodeId`/`targetId` props that carry suggestions and edits into Supabase — they were display-only in both removed spots.
 *   **2026-07-21** — Release source-audit fixes: seven definitively dead citation URLs (six RRB Chandigarh CEN notification PDFs orphaned when the regional RRB sites consolidated behind rrb.indianrailways.gov.in, plus one Goa University MSW syllabus that moved to the university's webassets host) were remapped to the same official documents on live government mirrors via the idempotent `pipeline/repair_20260721.py` — 92 replacements across 15 nodes including unreachable `www.` host variants, with source-list dedup where a replacement collided with an existing citation. The re-audit now reports zero definitive failures across 4,157 URLs.
@@ -386,7 +388,7 @@ the destructive Supabase cutover, the moderation dry run — is in
 *   **2026-07-20** — Explore pages stopped shipping one full page view per parent: the client now overlays a small per-parent context (`routes`/`selectedParentId`/`backHref`) on a single canonical view, client-bound edges and node summaries dropped unrendered fields (`prov`, `description`, `is_terminal`), taking `/explore/exam/cat` from ~123 KB to ~94 KB.
 *   **2026-07-20** — Explore/guide page payloads slimmed: parents and children now cross the server→client boundary as cached `V2NodeSummary` objects instead of full fact-laden nodes, cutting the heaviest prerendered page (`/explore/exam/cat`) from ~1 MB to ~123 KB.
 *   **2026-07-20** — The searchable canonical directory moved from the homepage to a dedicated, statically prerendered `/search` page (now in the sitemap); the hero's "Search for a career" button is a plain link there, and the scroll-to-search button component was removed.
-*   **2026-07-20** — README rewritten around the V2 architecture (this document), with `README_v2.md` added as the technical/release companion. Guide pages also regained their explorer context after a route-refactor regression, the guide back button now uses browser history, the unreachable-route test fixture was refreshed, and the lost `BUGS*.md` local-log ignore rule was restored.
+*   **2026-07-20** — README rewritten around the V2 architecture (this document), with a separate technical/release companion added (since moved to `docs/OPERATIONS.md`). Guide pages also regained their explorer context after a route-refactor regression, the guide back button now uses browser history, the unreachable-route test fixture was refreshed, and the lost `BUGS*.md` local-log ignore rule was restored.
 *   **2026-07-19** — V2 reached release completeness and replaced V1 in production: every one of the 677 nodes now has a source-cited guide; release lint enforces per-type fact sections; citation audits are restricted to public hosts; the homepage became V2 search + Class 10 exploration; guides moved to `/careers/…`, the explorer to `/explore/…`; the global map was rebuilt from stable IDs; sitemap/metadata published; the V1 routes and the `/v2` preview surface were removed. Suggestions and edits now use stable node IDs end-to-end, with a clean V2 Supabase schema and a destructive, transaction-guarded cutover migration.
 *   **2026-07-19** — The data pipeline moved to OpenAI: a cached structured-output provider (`gpt-5.6-terra` expansion and web-search enrichment, `gpt-5.6-luna` ER judge, `text-embedding-3-large` @ 1,024 dims), recalibrated entity-resolution band, expansion completed through depth four, bounded-parallel enrichment with a failure ledger, and hard release gates (`lint --release`, source audit, `export_frontend.py --check`).
 *   **2026-07-17** — The V2 frontend was built behind a preview surface: focus pages with a parent carousel, the searchable career directory, the guide/explorer URL split, carried-through exploration context, and merged per-guide route maps.

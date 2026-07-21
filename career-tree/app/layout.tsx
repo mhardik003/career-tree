@@ -5,7 +5,7 @@ import { BASE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
+const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -42,12 +42,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Search Console Verification — career-tree.vercel.app */}
-        <meta
-          name="google-site-verification"
-          content="zesGb3rIFh9nfH700WwJH2Nt-pcRvL1fVc1_W80HoSg"
-        />
-
         {/* Google Search Console Verification — careerstree.in */}
         <meta
           name="google-site-verification"

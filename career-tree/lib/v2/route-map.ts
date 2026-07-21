@@ -2,7 +2,7 @@ import dagre from "dagre";
 import type { V2Edge, V2EdgeSummary, V2Route } from "./types";
 import { exploreHref } from "./urls";
 
-export interface RouteMapNode {
+interface RouteMapNode {
   id: string;
   title: string;
   href: string;
@@ -17,7 +17,7 @@ export interface RouteMapNode {
   isTarget: boolean;
 }
 
-export interface RouteMapEdge {
+interface RouteMapEdge {
   id: string;
   fromId: string;
   toId: string;

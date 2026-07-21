@@ -7,16 +7,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from lib import Edge, Node, atomic_write, read_jsonl
+from lib import PIPE_DIR, ROOT_ID, Edge, Node, atomic_write, read_jsonl
 
-PIPELINE_DIR = Path(__file__).resolve().parent
+PIPELINE_DIR = Path(PIPE_DIR)
 REPO_ROOT = PIPELINE_DIR.parent
 NODES_PATH = PIPELINE_DIR / "registry" / "nodes.jsonl"
 EDGES_PATH = PIPELINE_DIR / "registry" / "edges.jsonl"
 OUTPUT_PATH = REPO_ROOT / "career-tree" / "data" / "v2" / "graph.json"
 CORE_OUTPUT_PATH = REPO_ROOT / "career-tree" / "data" / "v2" / "graph.core.json"
 FACTS_DIR = REPO_ROOT / "career-tree" / "data" / "v2" / "facts"
-ROOT_ID = "school_stage:class-10"
 
 
 class SnapshotError(ValueError):

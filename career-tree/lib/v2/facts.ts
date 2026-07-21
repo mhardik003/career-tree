@@ -14,7 +14,7 @@ import type { V2Node, V2NodeFacts } from "./types";
 // request time must be listed under outputFileTracingIncludes in
 // next.config.ts or the files won't be deployed to Vercel's lambdas.
 
-export const getFacts = cache(
+const getFacts = cache(
   async (nodeId: string): Promise<V2NodeFacts | null> => {
     const node = v2Graph.getNodeById(nodeId);
     if (!node) return null;

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Database, GitFork, Globe, Users } from "lucide-react";
+import GridBackground from "@/components/v2/GridBackground";
 import { getSupabase } from "@/lib/supabase";
 import { v2Graph } from "@/lib/v2/data";
 import { exploreHref } from "@/lib/v2/urls";
@@ -27,13 +28,7 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-white font-sans text-black selection:bg-black selection:text-white">
-      <div
-        className="pointer-events-none fixed inset-0 z-0 opacity-[0.03]"
-        style={{
-          backgroundImage: "linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)",
-          backgroundSize: "40px 40px",
-        }}
-      />
+      <GridBackground />
       <main className="relative z-10 mx-auto max-w-6xl px-6 pb-12 pt-24">
         <section className="flex flex-col items-center gap-8 text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-gray-50 px-3 py-1 font-mono text-xs uppercase tracking-widest text-gray-500">

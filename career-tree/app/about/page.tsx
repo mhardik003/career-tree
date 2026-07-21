@@ -1,20 +1,14 @@
 import Link from "next/link";
-import { ArrowLeft, BookOpen, GitBranch, Heart, Map, Users } from "lucide-react";
+import { BookOpen, GitBranch, Heart, Map, Users } from "lucide-react";
+import BackHomeLink from "@/components/v2/BackHomeLink";
+import GridBackground from "@/components/v2/GridBackground";
 
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white pb-20 text-black selection:bg-black selection:text-white">
-      <div
-        className="pointer-events-none fixed inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: "linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)",
-          backgroundSize: "40px 40px",
-        }}
-      />
+      <GridBackground />
       <div className="relative mx-auto max-w-4xl px-6 pt-12">
-        <Link href="/" className="mb-12 inline-flex items-center gap-2 font-mono text-sm text-gray-500 hover:text-black">
-          <ArrowLeft size={16} aria-hidden="true" /> Back home
-        </Link>
+        <BackHomeLink />
 
         <header className="mb-20 border-b border-black/10 pb-12">
           <h1 className="mb-6 text-5xl font-bold tracking-tighter md:text-6xl">

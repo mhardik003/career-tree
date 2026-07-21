@@ -1,10 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { exploreHref, nodeHref, nodeIdFromRoute, splitNodeId } from "../urls";
+import { exploreHref, nodeHref, splitNodeId } from "../urls";
 
 describe("v2 URLs", () => {
-  it("round-trips an immutable node id", () => {
+  it("splits an immutable node id", () => {
     expect(splitNodeId("degree:mba")).toEqual({ type: "degree", slug: "mba" });
-    expect(nodeIdFromRoute("degree", "mba")).toBe("degree:mba");
   });
 
   it("builds canonical blog and contextual explorer URLs", () => {

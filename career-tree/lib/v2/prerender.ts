@@ -3,7 +3,7 @@ import type { V2Graph } from "./graph-core";
 // How many nodes each node route prerenders at build time. The long tail
 // renders on first request via ISR (dynamicParams=true + revalidate) — this
 // keeps the build's page-file count bounded as the graph grows.
-export const PRERENDER_LIMIT = 200;
+const PRERENDER_LIMIT = 200;
 
 /**
  * The high-value prerender set for /explore and /careers: the graph root

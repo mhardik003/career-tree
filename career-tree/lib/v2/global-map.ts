@@ -3,7 +3,7 @@ import type { V2Graph } from "./graph-core";
 import type { V2EdgeType, V2NodeType } from "./types";
 import { nodeHref } from "./urls";
 
-export interface V2MapNode {
+interface V2MapNode {
   id: string;
   title: string;
   aliases: string[];
@@ -14,7 +14,7 @@ export interface V2MapNode {
   position: { x: number; y: number };
 }
 
-export interface V2MapEdge {
+interface V2MapEdge {
   id: string;
   source: string;
   target: string;

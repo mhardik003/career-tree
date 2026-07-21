@@ -5,22 +5,14 @@
 __pycache__/
 node_modules/
 .next/
-suggestions.ipynb
 
 # --- Local working notes (not part of the public repo) ---
 CLAUDE.md
-fetch_check_edits.py
+BUGS*.md
+SCALABILITY_ISSUES.md
 
-# --- Generated artifacts (pyvis output from visualise_tree.py) ---
-/career_map.html
-/lib/
-
-# --- User Data (Do not commit these!) ---
-# You don't want to upload the random test suggestions you made
-career-tree/data/suggestions.json
-career-tree/data/edits.json
-suggestion_results.json
-edit_results.json
+# --- Generated frontend dataset (rebuild: python pipeline/export_frontend.py) ---
+career-tree/data/v2/graph.json
 
 # --- v2 pipeline transient caches ---
 pipeline/ledger/call_cache.jsonl
@@ -28,14 +20,10 @@ pipeline/ledger/embeddings.jsonl
 pipeline/ledger/enrichment_failures.jsonl
 pipeline/ledger/source_audit.json
 pipeline/ledger/usage.jsonl
-pipeline/__pycache__/
 
 # --- Local visual brainstorming artifacts ---
 /.superpowers/
 /docs/superpowers/
-
-# --- Local review logs ---
-BUGS*.md
 
 # --- Playwright MCP session artifacts ---
 .playwright-mcp/
