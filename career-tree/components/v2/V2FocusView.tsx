@@ -64,7 +64,6 @@ export default function V2FocusView({
           <div className="mt-4 flex flex-wrap gap-4 border-t pt-4 font-mono text-[10px] text-gray-500">
             <span>{view.parents.length} incoming</span>
             <span>{view.children.length} next options</span>
-            <span>{view.node.id}</span>
           </div>
           <Link
             href={nodeHref(

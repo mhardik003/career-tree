@@ -129,8 +129,7 @@ export default function V2BlogView({
         )}
 
         <footer className="mt-10 border-t pt-5 font-mono text-[10px] text-gray-400">
-          <p>{view.node.id}</p>
-          <p className="mt-1">
+          <p>
             Generated {view.node.prov.generated_at} · {view.node.prov.model}
           </p>
         </footer>
