@@ -7,6 +7,7 @@ import { ArrowLeft, CheckCircle } from "lucide-react";
 import type { V2NodePageView, V2ParentView } from "@/lib/v2/types";
 import { nodeHref } from "@/lib/v2/urls";
 import ParentCarousel from "./ParentCarousel";
+import SuggestChildCard from "./SuggestChildCard";
 
 export default function V2FocusView({
   view,
@@ -98,16 +99,26 @@ export default function V2FocusView({
                   </p>
                 </Link>
               ))}
+              <SuggestChildCard
+                parentNodeId={view.node.id}
+                parentTitle={view.node.title}
+              />
             </div>
           </section>
         ) : (
-          <section className="mt-8 max-w-sm rounded-xl border border-green-200 bg-green-50 p-6 text-center">
-            <CheckCircle className="mx-auto text-green-600" />
-            <h2 className="mt-2 font-bold text-green-900">Career destination</h2>
-            <p className="mt-1 text-sm text-green-800">
-              No further options are mapped from this canonical node yet.
-            </p>
-          </section>
+          <div className="mt-8 flex flex-col items-center gap-6">
+            <section className="max-w-sm rounded-xl border border-green-200 bg-green-50 p-6 text-center">
+              <CheckCircle className="mx-auto text-green-600" />
+              <h2 className="mt-2 font-bold text-green-900">Career destination</h2>
+              <p className="mt-1 text-sm text-green-800">
+                No further options are mapped from this canonical node yet.
+              </p>
+            </section>
+            <SuggestChildCard
+              parentNodeId={view.node.id}
+              parentTitle={view.node.title}
+            />
+          </div>
         )}
       </div>
     </main>

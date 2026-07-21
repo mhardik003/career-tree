@@ -117,4 +117,30 @@ describe("V2FocusView", () => {
       screen.getByRole("link", { name: /Product Manager/ }),
     ).toBeInTheDocument();
   });
+
+  it("offers the suggestion card after the last mapped child", () => {
+    render(<V2FocusView view={view} />);
+    const lastChild = screen.getByRole("link", { name: /Product Manager/ });
+    const suggest = screen.getByRole("button", {
+      name: "Suggest a further option after MBA",
+    });
+    expect(
+      lastChild.compareDocumentPosition(suggest) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
+  it("keeps the destination identity on a terminal node and still invites an option", () => {
+    render(<V2FocusView view={{ ...view, children: [] }} />);
+    expect(
+      screen.getByRole("heading", { name: "Career destination" }),
+    ).toBeInTheDocument();
+    const suggest = screen.getByRole("button", {
+      name: "Suggest a further option after MBA",
+    });
+    expect(suggest).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { name: "Career destination" }).parentElement,
+    ).not.toContainElement(suggest);
+  });
 });
