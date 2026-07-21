@@ -48,7 +48,7 @@ moderation dry-run procedure) lives in [`README_v2.md`](README_v2.md).
 | Layer | Tools |
 | --- | --- |
 | Web app | Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4 |
-| Visualization | React Flow 11 (global map), dagre (both layouts), custom SVG route maps |
+| Visualization | React Flow 12 (`@xyflow/react`; global map + guide route maps), dagre (both layouts) |
 | Community storage | Supabase (Postgres) via `@supabase/supabase-js`, Zod 4 validation |
 | Frontend tests | Vitest 4 + Testing Library (jsdom) |
 | Data pipeline | Python 3.11+, OpenAI SDK, Pydantic 2, `requests`, PyYAML |

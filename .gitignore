@@ -36,7 +36,6 @@ pipeline/__pycache__/
 
 # --- Local review logs ---
 BUGS*.md
-SCALABILITY_ISSUES.md
 
 # --- Playwright MCP session artifacts ---
 .playwright-mcp/
