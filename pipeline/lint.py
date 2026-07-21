@@ -16,6 +16,7 @@ from facts import allowed_section_keys
 from lib import (
     FRONTIER_FILE,
     PIPE_DIR,
+    ROOT_ID,
     EdgeType,
     NodeType,
     Registry,
@@ -23,7 +24,6 @@ from lib import (
     slugify,
 )
 
-ROOT = "school_stage:class-10"
 ENRICHMENT_FAILURE_FILE = os.path.join(
     PIPE_DIR, "ledger", "enrichment_failures.jsonl"
 )
@@ -33,7 +33,7 @@ def _reachable_ids(reg: Registry) -> set[str]:
     outgoing = defaultdict(list)
     for edge in reg.edges.values():
         outgoing[edge.from_id].append(edge.to_id)
-    seen = {ROOT} if ROOT in reg.nodes else set()
+    seen = {ROOT_ID} if ROOT_ID in reg.nodes else set()
     stack = list(seen)
     while stack:
         current = stack.pop()
@@ -50,8 +50,8 @@ def release_errors(
     failure_rows: list[dict],
 ) -> list[str]:
     errors: list[str] = []
-    if ROOT not in reg.nodes:
-        errors.append(f"configured root absent: {ROOT}")
+    if ROOT_ID not in reg.nodes:
+        errors.append(f"configured root absent: {ROOT_ID}")
     for node in reg.nodes.values():
         if node.facts is None:
             errors.append(f"{node.id}: missing facts")

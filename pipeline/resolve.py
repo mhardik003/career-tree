@@ -2,25 +2,28 @@
 node (link + alias) or genuinely new (mint). Ladder per the approved plan, with the
 committed RUBRIC.md decision table embedded in the judge prompt.
 
-Bands — CALIBRATED 2026-07-04 against pipeline/eval/er_labels.json (655 pairs):
+Bands — calibrated against pipeline/eval/er_labels.json (655 pairs):
   exact normalized match  -> link, no LLM      (65/65 correct on the labeled set)
   cosine >= JUDGE_BAND    -> OpenAI judge      (NO auto-link band: even at cosine
                              0.95 auto-merge precision is only 0.70 — distinct
                              qualifier siblings reach 0.993. Judge everything.)
-  < JUDGE_BAND (0.80)     -> mint              (no true duplicate scored < 0.881)
+  < JUDGE_BAND            -> mint
+JUDGE_BAND is loaded at import from eval/er_openai_report.json
+(recommended_judge_band); load_judge_band falls back to 0.80 only when that
+report is missing.
 Standing preference: under-merge (a missed merge is an additive fix later; a wrong
 merge is not).
 """
 import os
 import re
 import json
-from typing import List, Literal, Optional, Tuple
+from typing import Literal
 
 import numpy as np
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 from lib import (Registry, Node, NodeType, Provenance, is_bare_generic,
-                 looks_aggregate, mint_id, embed_texts,
+                 looks_aggregate, mint_id, embed_texts, er_text,
                  call_json, append_jsonl, today, ER_LEDGER_FILE, PIPE_DIR)
 
 ER_REPORT_FILE = os.path.join(PIPE_DIR, "eval", "er_openai_report.json")
@@ -37,7 +40,7 @@ def load_judge_band(path: str = ER_REPORT_FILE) -> float:
 JUDGE_BAND = load_judge_band()
 JUDGE_MODEL = "gpt-5.6-luna"
 
-_RUBRIC_TABLE: Optional[str] = None
+_RUBRIC_TABLE: str | None = None
 
 def rubric_table() -> str:
     """The decision table from RUBRIC.md, embedded verbatim in judge prompts."""
@@ -52,7 +55,7 @@ def rubric_table() -> str:
 
 class JudgeVerdict(BaseModel):
     decision: Literal["same_role", "distinct", "unsure"]
-    matched_id: Optional[str] = Field(None, description="the registry id judged same, if same_role")
+    matched_id: str | None = Field(None, description="the registry id judged same, if same_role")
     rule: int = Field(description="rubric row number applied (1-12)")
     rationale: str = Field(description="one short sentence")
 
@@ -73,12 +76,8 @@ class JudgeVerdict(BaseModel):
 
 class Resolution(BaseModel):
     action: str            # linked | minted | rejected
-    node_id: Optional[str] = None
+    node_id: str | None = None
     reason: str = ""
-
-
-def _er_text(node_type: NodeType, title: str, definition: str) -> str:
-    return f"{node_type.value}: {title} — {definition[:160]}"
 
 
 class Resolver:
@@ -93,21 +92,21 @@ class Resolver:
         # reproduces lib.cosine exactly instead of the old O(N) pure-Python
         # scan per candidate. float64 keeps scores within ~1e-15 of the old
         # loop and lets reg_vecs round-trip the exact cached vectors.
-        self._reg_ids: List[str] = []
+        self._reg_ids: list[str] = []
         self._reg_matrix: np.ndarray = np.zeros((0, 0), dtype=np.float64)
         self._reg_norms: np.ndarray = np.zeros(0, dtype=np.float64)
         self._refresh_embeddings()
 
     def _refresh_embeddings(self):
         nodes = list(self.reg.nodes.values())
-        texts = [_er_text(n.type, n.title, n.description) for n in nodes]
+        texts = [er_text(n.type, n.title, n.description) for n in nodes]
         vecs = self.embedder(texts)
         self._reg_ids = [n.id for n in nodes]
         self._reg_matrix = (np.asarray(vecs, dtype=np.float64)
                             if vecs else np.zeros((0, 0), dtype=np.float64))
         self._reg_norms = np.linalg.norm(self._reg_matrix, axis=1)
 
-    def _append_embedding(self, node_id: str, vec: List[float]):
+    def _append_embedding(self, node_id: str, vec: list[float]):
         """Keep the matrix in sync when a node is minted mid-run: append one
         row (an O(N·D) copy — negligible next to the mint's judge/embedding
         API calls, and simpler than growth buffers at this scale)."""
@@ -126,7 +125,7 @@ class Resolver:
         return {nid: row.tolist()
                 for nid, row in zip(self._reg_ids, self._reg_matrix)}
 
-    def _neighbors(self, node_type: NodeType, vec: List[float], k: int = 5) -> List[Tuple[str, float]]:
+    def _neighbors(self, node_type: NodeType, vec: list[float], k: int = 5) -> list[tuple[str, float]]:
         if not self._reg_ids:
             return []
         query = np.asarray(vec, dtype=np.float64)
@@ -146,7 +145,7 @@ class Resolver:
                 for i in order]
 
     def resolve(self, node_type: NodeType, title: str, definition: str,
-                parent: Optional[Node], model_for_mint: str) -> Resolution:
+                parent: Node | None, model_for_mint: str) -> Resolution:
         title = re.sub(r"\s+", " ", title).strip()
 
         # RUBRIC row 10: aggregates are banned outright in v2.
@@ -175,7 +174,7 @@ class Resolver:
         # Gate 2: embedding shortlist -> judge. Calibration showed cosine alone can
         # NEVER auto-merge here (distinct qualifier siblings reach 0.993), so every
         # shortlisted pair goes to the rubric judge.
-        vec = self.embedder([_er_text(node_type, title, definition)])[0]
+        vec = self.embedder([er_text(node_type, title, definition)])[0]
         neighbors = self._neighbors(node_type, vec)
         if neighbors:
             top_id, top_sim = neighbors[0]
@@ -215,7 +214,7 @@ class Resolver:
                           needs_review=pipe_flag, reason=f"no neighbor >= {JUDGE_BAND}")
 
     def _judge(self, node_type: NodeType, title: str, definition: str,
-               parent: Optional[Node], candidate_ids: List[str]) -> JudgeVerdict:
+               parent: Node | None, candidate_ids: list[str]) -> JudgeVerdict:
         cands = "\n".join(
             f"- id: {nid}\n  title: {self.reg.nodes[nid].title}\n  definition: {self.reg.nodes[nid].description[:200]}"
             for nid in candidate_ids)
@@ -239,9 +238,9 @@ the rubric rule number you applied, and a one-sentence rationale."""
         return self.judge_call(JUDGE_MODEL, prompt, JudgeVerdict)
 
     def _mint(self, node_type: NodeType, title: str, definition: str, model: str,
-              vec: List[float], needs_review: bool, reason: str,
-              judge_model: Optional[str] = None,
-              candidates: Optional[List[Tuple[str, float]]] = None) -> Resolution:
+              vec: list[float], needs_review: bool, reason: str,
+              judge_model: str | None = None,
+              candidates: list[tuple[str, float]] | None = None) -> Resolution:
         nid = mint_id(node_type, title, self.reg.nodes.keys())
         node = Node(id=nid, type=node_type, title=title, description=definition,
                     needs_review=needs_review,
@@ -253,9 +252,9 @@ the rubric rule number you applied, and a one-sentence rationale."""
         return Resolution(action="minted", node_id=nid, reason=reason)
 
     def _ledger(self, action: str, title: str, node_type: NodeType,
-                node_id: Optional[str], score: Optional[float], reason: str,
-                judge_model: Optional[str] = None,
-                candidates: Optional[List[Tuple[str, float]]] = None):
+                node_id: str | None, score: float | None, reason: str,
+                judge_model: str | None = None,
+                candidates: list[tuple[str, float]] | None = None):
         row = {
             "date": today(), "action": action, "title": title,
             "type": node_type.value, "node_id": node_id,

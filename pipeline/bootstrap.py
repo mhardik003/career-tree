@@ -8,15 +8,10 @@ import json
 import os
 
 from lib import (Registry, Node, NodeType, EdgeType, Provenance, load_vocab,
-                 embed_texts, today, atomic_write, FRONTIER_FILE, PIPE_DIR)
+                 embed_texts, er_text, today, atomic_write, FRONTIER_FILE,
+                 PIPE_DIR, ROOT_ID)
 
 EXAMS_FILE = os.path.join(PIPE_DIR, "ground", "exams.json")
-
-
-def er_text(n: Node) -> str:
-    """Text embedded for ER: type + title + short definition (not the bare title —
-    definitions disambiguate what names cannot)."""
-    return f"{n.type.value}: {n.title} — {n.description[:160]}"
 
 
 def main():
@@ -35,7 +30,8 @@ def main():
         ))
         added += 1
 
-    exams = json.load(open(EXAMS_FILE))["exams"]
+    with open(EXAMS_FILE, encoding="utf-8") as exams_file:
+        exams = json.load(exams_file)["exams"]
     for key, ex in exams.items():
         nid = f"exam:{key}"
         if nid in reg.nodes:
@@ -56,12 +52,12 @@ def main():
     print(f"registry: {len(reg.nodes)} nodes (+{added}), {len(reg.edges)} edges")
 
     print("embedding registry for ER ...")
-    embed_texts([er_text(n) for n in reg.nodes.values()])
+    embed_texts([er_text(n.type, n.title, n.description) for n in reg.nodes.values()])
 
     if not os.path.exists(FRONTIER_FILE):
-        frontier = {"queue": [{"id": "school_stage:class-10", "depth": 0}], "expanded": []}
+        frontier = {"queue": [{"id": ROOT_ID, "depth": 0}], "expanded": []}
         atomic_write(FRONTIER_FILE, json.dumps(frontier, indent=1))
-        print("frontier initialized at school_stage:class-10")
+        print(f"frontier initialized at {ROOT_ID}")
 
 
 if __name__ == "__main__":
