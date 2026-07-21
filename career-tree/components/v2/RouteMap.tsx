@@ -1,29 +1,24 @@
 "use client";
 
-import {
-  ArrowDown,
-  ArrowUp,
-  Maximize2,
-  Network,
-  X,
-} from "lucide-react";
-import Link from "next/link";
+import { ReactFlowProvider, useReactFlow } from "@xyflow/react";
+import { ArrowDown, ArrowUp, Maximize2, Network, X } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import {
+  useCallback,
   useEffect,
   useId,
   useMemo,
   useRef,
   useState,
-  type RefObject,
+  type ReactNode,
 } from "react";
 import {
   buildRouteMap,
   selectRouteSet,
   type ParentRouteMap,
-  type RouteMapModel,
 } from "@/lib/v2/route-map";
 import type { V2Route } from "@/lib/v2/types";
+import { inlineHeight, RouteMapFlow } from "./RouteMapFlow";
 
 interface Props {
   defaultRoutes: V2Route[];
@@ -35,150 +30,8 @@ interface Props {
 
 type QueryProps = Omit<Props, "requestedParentId">;
 
-const LONG_MAP_HEIGHT = 640;
 const FOCUSABLE_SELECTOR =
   'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
-
-function pointsToPath(points: Array<{ x: number; y: number }>): string {
-  return points
-    .map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`)
-    .join(" ");
-}
-
-function readableId(id: string): string {
-  return id.split(":").at(-1)?.replaceAll("-", " ") ?? id;
-}
-
-function MapCanvas({
-  model,
-  markerScope,
-}: {
-  model: RouteMapModel;
-  markerScope: string;
-}) {
-  const titleById = new Map(model.nodes.map((node) => [node.id, node.title]));
-  const selectedMarkerId = `${markerScope}-selected-arrow`;
-  const alternateMarkerId = `${markerScope}-alternate-arrow`;
-
-  return (
-    <div
-      className="relative mx-auto"
-      style={{ width: model.width, height: model.height }}
-    >
-      <svg
-        aria-hidden="true"
-        className="absolute inset-0"
-        width={model.width}
-        height={model.height}
-      >
-        <defs>
-          <marker
-            id={selectedMarkerId}
-            markerHeight="8"
-            markerWidth="8"
-            orient="auto"
-            refX="7"
-            refY="4"
-          >
-            <path d="M0 0 L8 4 L0 8" fill="none" stroke="#171717" />
-          </marker>
-          <marker
-            id={alternateMarkerId}
-            markerHeight="8"
-            markerWidth="8"
-            orient="auto"
-            refX="7"
-            refY="4"
-          >
-            <path d="M0 0 L8 4 L0 8" fill="none" stroke="#d4d4d4" />
-          </marker>
-        </defs>
-        {model.edges.map((edge) => (
-          <path
-            key={edge.id}
-            d={pointsToPath(edge.points)}
-            fill="none"
-            markerEnd={`url(#${
-              edge.isSelected ? selectedMarkerId : alternateMarkerId
-            })`}
-            stroke={edge.isSelected ? "#171717" : "#d4d4d4"}
-            strokeDasharray={edge.edgeType === "lateral" ? "5 5" : undefined}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={edge.isSelected ? 3 : 2}
-          />
-        ))}
-      </svg>
-
-      {model.nodes.map((node) => {
-        const parentTitle = node.parentId
-          ? (titleById.get(node.parentId) ?? readableId(node.parentId))
-          : null;
-        const relationship = node.incomingEdgeType?.replaceAll("_", " ");
-        const accessibleName = parentTitle
-          ? `Explore ${node.title} via ${parentTitle}${
-              relationship ? `, ${relationship} route` : ""
-            }`
-          : `Explore ${node.title}`;
-        return (
-          <Link
-            key={node.id}
-            href={node.href}
-            aria-current={node.isTarget ? "location" : undefined}
-            aria-label={accessibleName}
-            data-route-node-id={node.id}
-            data-selected={String(node.isSelected)}
-            className={`absolute z-10 flex items-center justify-center rounded-xl px-3 text-center font-mono text-[11px] leading-tight transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2 motion-reduce:transition-none ${
-              node.isTarget
-                ? "rounded-full border border-black bg-black font-bold text-white shadow-md hover:bg-neutral-800"
-                : node.isSelected
-                  ? "border-2 border-black bg-white font-bold text-black shadow-sm hover:-translate-y-0.5 hover:shadow-md"
-                  : "border border-neutral-300 bg-white text-neutral-600 hover:border-neutral-500 hover:text-black"
-            }`}
-            style={{
-              left: node.x,
-              top: node.y,
-              width: node.width,
-              height: node.height,
-            }}
-          >
-            {node.title}
-          </Link>
-        );
-      })}
-    </div>
-  );
-}
-
-function scrollToNode(
-  viewport: RefObject<HTMLDivElement | null>,
-  model: RouteMapModel,
-  nodeId: string,
-) {
-  const container = viewport.current;
-  const node = model.nodes.find((item) => item.id === nodeId);
-  if (!container || !node) return;
-  const reduceMotion = window.matchMedia?.(
-    "(prefers-reduced-motion: reduce)",
-  ).matches;
-  container.scrollTo({
-    left: Math.max(
-      0,
-      node.x + node.width / 2 - container.clientWidth / 2,
-    ),
-    top: Math.max(
-      0,
-      node.y + node.height / 2 - container.clientHeight / 2,
-    ),
-    behavior: reduceMotion ? "auto" : "smooth",
-  });
-}
-
-function hasContentBelow(viewport: HTMLDivElement): boolean {
-  return (
-    viewport.scrollTop + viewport.clientHeight < viewport.scrollHeight - 1
-  );
-}
 
 function MapLegend() {
   return (
@@ -192,6 +45,75 @@ function MapLegend() {
         other mapped routes
       </span>
       <span className="sm:ml-auto">Click any node to explore</span>
+    </div>
+  );
+}
+
+function useJumpToNode() {
+  const { fitView } = useReactFlow();
+  return useCallback(
+    (nodeId: string) => {
+      const reduceMotion =
+        window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ??
+        false;
+      void fitView({
+        nodes: [{ id: nodeId }],
+        maxZoom: 1,
+        duration: reduceMotion ? 0 : 400,
+      });
+    },
+    [fitView],
+  );
+}
+
+function DialogJumpButtons({
+  rootId,
+  targetId,
+  targetTitle,
+}: {
+  rootId: string;
+  targetId: string;
+  targetTitle: string;
+}) {
+  const jump = useJumpToNode();
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => jump(rootId)}
+        aria-label="Jump to Class 10 in expanded map"
+        className="rounded-full border bg-white p-2 text-neutral-600 hover:text-black"
+      >
+        <ArrowUp size={16} aria-hidden="true" />
+      </button>
+      <button
+        type="button"
+        onClick={() => jump(targetId)}
+        aria-label={`Jump to ${targetTitle} in expanded map`}
+        className="rounded-full border bg-white p-2 text-neutral-600 hover:text-black"
+      >
+        <ArrowDown size={16} aria-hidden="true" />
+      </button>
+    </>
+  );
+}
+
+// React Flow's wrapper undoes the browser's native scroll-into-view on focus,
+// so tabbing to an off-viewport node link would strand focus invisibly; pan
+// the viewport to the focused node instead.
+function DialogFocusRegion({ children }: { children: ReactNode }) {
+  const jump = useJumpToNode();
+  return (
+    <div
+      className="h-full w-full"
+      onFocusCapture={(event) => {
+        const id = (event.target as HTMLElement)
+          .closest("[data-route-node-id]")
+          ?.getAttribute("data-route-node-id");
+        if (id) jump(id);
+      }}
+    >
+      {children}
     </div>
   );
 }
@@ -212,31 +134,15 @@ export function RouteMap({
     [routes, targetId],
   );
   const [expanded, setExpanded] = useState(false);
-  const isLong = model.height > LONG_MAP_HEIGHT;
-  const [hasMoreBelow, setHasMoreBelow] = useState(isLong);
-  const inlineViewport = useRef<HTMLDivElement>(null);
-  const dialogViewport = useRef<HTMLDivElement>(null);
   const dialogRoot = useRef<HTMLDivElement>(null);
   const expandButton = useRef<HTMLButtonElement>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
   const componentId = useId().replaceAll(":", "");
   const dialogTitleId = `${componentId}-route-map-dialog-title`;
   const rootId = routes[0]?.nodeIds[0];
-
-  useEffect(() => {
-    const viewport = inlineViewport.current;
-    if (!viewport) return;
-    const update = () => setHasMoreBelow(isLong && hasContentBelow(viewport));
-    update();
-    window.addEventListener("resize", update);
-    const observer =
-      typeof ResizeObserver === "undefined" ? null : new ResizeObserver(update);
-    observer?.observe(viewport);
-    return () => {
-      window.removeEventListener("resize", update);
-      observer?.disconnect();
-    };
-  }, [isLong, model.height]);
+  // Remount the flow when the selected route set changes so the queued
+  // fitView re-runs for the new layout.
+  const flowKey = `${model.targetId}:${routes[0]?.nodeIds.join(">") ?? "none"}`;
 
   useEffect(() => {
     if (!expanded) return;
@@ -294,24 +200,6 @@ export function RouteMap({
         {model.nodes.length > 0 && rootId && (
           <div className="ml-auto flex flex-wrap gap-2">
             <button
-              type="button"
-              onClick={() => scrollToNode(inlineViewport, model, rootId)}
-              aria-label="Jump to Class 10"
-              className="inline-flex items-center gap-1 rounded-full border border-neutral-200 px-2.5 py-1.5 font-mono text-[9px] text-neutral-600 hover:border-neutral-400 hover:text-black"
-            >
-              <ArrowUp size={12} aria-hidden="true" />
-              Class 10
-            </button>
-            <button
-              type="button"
-              onClick={() => scrollToNode(inlineViewport, model, targetId)}
-              aria-label={`Jump to ${targetTitle}`}
-              className="inline-flex items-center gap-1 rounded-full border border-neutral-200 px-2.5 py-1.5 font-mono text-[9px] text-neutral-600 hover:border-neutral-400 hover:text-black"
-            >
-              <ArrowDown size={12} aria-hidden="true" />
-              {targetTitle}
-            </button>
-            <button
               ref={expandButton}
               type="button"
               onClick={() => setExpanded(true)}
@@ -329,23 +217,12 @@ export function RouteMap({
         <>
           <div className="relative mt-4 overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-50">
             <div
-              ref={inlineViewport}
               role="region"
               aria-label="Career routes from Class 10"
-              tabIndex={0}
-              onScroll={(event) =>
-                setHasMoreBelow(isLong && hasContentBelow(event.currentTarget))
-              }
-              className="overflow-auto p-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-black sm:p-5"
-              style={isLong ? { maxHeight: "65vh" } : undefined}
+              style={{ height: inlineHeight(model) }}
             >
-              <MapCanvas model={model} markerScope={`${componentId}-inline`} />
+              <RouteMapFlow key={flowKey} model={model} variant="inline" />
             </div>
-            {hasMoreBelow && (
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 flex h-14 items-end justify-center bg-gradient-to-b from-transparent to-neutral-50 pb-2 font-mono text-[9px] text-neutral-500">
-                Scroll to continue ↓
-              </div>
-            )}
           </div>
           <MapLegend />
         </>
@@ -363,56 +240,47 @@ export function RouteMap({
           aria-labelledby={dialogTitleId}
           className="fixed inset-0 z-50 flex flex-col bg-neutral-50 p-4 sm:p-6"
         >
-          <div className="mx-auto flex w-full max-w-7xl items-center gap-3">
-            <div>
-              <h2 id={dialogTitleId} className="font-mono text-sm font-bold">
-                Routes from Class 10
-              </h2>
-              <p className="mt-1 font-mono text-[10px] text-neutral-500">
-                {routes.length} {routes.length === 1 ? "route" : "routes"} ·{" "}
-                {model.levels} levels
-              </p>
+          <ReactFlowProvider>
+            <div className="mx-auto flex w-full max-w-7xl items-center gap-3">
+              <div>
+                <h2 id={dialogTitleId} className="font-mono text-sm font-bold">
+                  Routes from Class 10
+                </h2>
+                <p className="mt-1 font-mono text-[10px] text-neutral-500">
+                  {routes.length} {routes.length === 1 ? "route" : "routes"} ·{" "}
+                  {model.levels} levels
+                </p>
+              </div>
+              <div className="ml-auto flex gap-2">
+                <DialogJumpButtons
+                  rootId={rootId}
+                  targetId={targetId}
+                  targetTitle={targetTitle}
+                />
+                <button
+                  ref={closeButton}
+                  type="button"
+                  onClick={() => setExpanded(false)}
+                  aria-label="Close route map"
+                  className="rounded-full border bg-white p-2 text-neutral-600 hover:text-black"
+                >
+                  <X size={16} aria-hidden="true" />
+                </button>
+              </div>
             </div>
-            <div className="ml-auto flex gap-2">
-              <button
-                type="button"
-                onClick={() => scrollToNode(dialogViewport, model, rootId)}
-                aria-label="Jump to Class 10 in expanded map"
-                className="rounded-full border bg-white p-2 text-neutral-600 hover:text-black"
-              >
-                <ArrowUp size={16} aria-hidden="true" />
-              </button>
-              <button
-                type="button"
-                onClick={() => scrollToNode(dialogViewport, model, targetId)}
-                aria-label={`Jump to ${targetTitle} in expanded map`}
-                className="rounded-full border bg-white p-2 text-neutral-600 hover:text-black"
-              >
-                <ArrowDown size={16} aria-hidden="true" />
-              </button>
-              <button
-                ref={closeButton}
-                type="button"
-                onClick={() => setExpanded(false)}
-                aria-label="Close route map"
-                className="rounded-full border bg-white p-2 text-neutral-600 hover:text-black"
-              >
-                <X size={16} aria-hidden="true" />
-              </button>
+            <div
+              role="region"
+              aria-label="Expanded career routes from Class 10"
+              className="mx-auto mt-4 min-h-0 w-full max-w-7xl flex-1 overflow-hidden rounded-2xl border border-neutral-200 bg-white"
+            >
+              <DialogFocusRegion>
+                <RouteMapFlow key={flowKey} model={model} variant="dialog" />
+              </DialogFocusRegion>
             </div>
-          </div>
-          <div
-            ref={dialogViewport}
-            role="region"
-            aria-label="Expanded career routes from Class 10"
-            tabIndex={0}
-            className="mx-auto mt-4 min-h-0 w-full max-w-7xl flex-1 overflow-auto rounded-2xl border border-neutral-200 bg-white p-5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-black"
-          >
-            <MapCanvas model={model} markerScope={`${componentId}-dialog`} />
-          </div>
-          <div className="mx-auto w-full max-w-7xl">
-            <MapLegend />
-          </div>
+            <div className="mx-auto w-full max-w-7xl">
+              <MapLegend />
+            </div>
+          </ReactFlowProvider>
         </div>
       )}
     </div>

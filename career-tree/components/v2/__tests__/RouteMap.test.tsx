@@ -1,14 +1,50 @@
 import { fireEvent, render, screen } from "@testing-library/react";
+import type { ComponentType, ReactNode } from "react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { V2Edge, V2Route } from "@/lib/v2/types";
 import RouteMapFromQuery, { RouteMap } from "../RouteMap";
 
 const navigation = vi.hoisted(() => ({ from: null as string | null }));
+const flowApi = vi.hoisted(() => ({ fitView: vi.fn() }));
 
 vi.mock("next/navigation", () => ({
   useSearchParams: () => ({
     get: (key: string) => (key === "from" ? navigation.from : null),
   }),
+}));
+
+// The mock renders each node through the real nodeTypes entry, so RouteNode's
+// Link/aria/data-attribute contract is what the assertions exercise.
+type MockNodeProps = { id: string; data: object };
+type MockFlowProps = {
+  nodes: Array<{ id: string; type: string; data: object }>;
+  edges: unknown[];
+  nodeTypes: Record<string, ComponentType<MockNodeProps>>;
+  panOnDrag: boolean;
+  children?: ReactNode;
+};
+vi.mock("@xyflow/react", () => ({
+  ReactFlow: ({ nodes, edges, nodeTypes, panOnDrag, children }: MockFlowProps) => (
+    <div
+      data-testid="flow"
+      data-edges={edges.length}
+      data-pan-on-drag={String(panOnDrag)}
+    >
+      {nodes.map((node) => {
+        const NodeType = nodeTypes[node.type];
+        return <NodeType key={node.id} id={node.id} data={node.data} />;
+      })}
+      {children}
+    </div>
+  ),
+  ReactFlowProvider: ({ children }: { children: ReactNode }) => <>{children}</>,
+  Handle: () => null,
+  Controls: () => <div data-testid="controls" />,
+  Background: () => null,
+  BackgroundVariant: { Lines: "lines" },
+  Position: { Top: "top", Bottom: "bottom" },
+  MarkerType: { Arrow: "arrow", ArrowClosed: "arrowclosed" },
+  useReactFlow: () => flowApi,
 }));
 
 const prov = {
@@ -69,10 +105,6 @@ const defaultProps = {
 describe("RouteMap", () => {
   beforeEach(() => {
     navigation.from = null;
-    Object.defineProperty(HTMLElement.prototype, "scrollTo", {
-      configurable: true,
-      value: vi.fn(),
-    });
     Object.defineProperty(window, "matchMedia", {
       configurable: true,
       value: vi.fn().mockReturnValue({ matches: false }),
@@ -88,6 +120,10 @@ describe("RouteMap", () => {
     expect(
       screen.getByRole("region", { name: "Career routes from Class 10" }),
     ).toBeVisible();
+    expect(screen.getByTestId("flow")).toHaveAttribute(
+      "data-pan-on-drag",
+      "false",
+    );
     expect(screen.queryByText(/Class 10 →/)).not.toBeInTheDocument();
     expect(
       screen.getAllByRole("link", {
@@ -123,7 +159,7 @@ describe("RouteMap", () => {
     );
   });
 
-  it("provides jump controls and an accessible full-screen view for long maps", () => {
+  it("provides an accessible interactive full-screen view", () => {
     const ids = [
       "school_stage:class-10",
       "stream:science-pcm",
@@ -154,29 +190,32 @@ describe("RouteMap", () => {
       />,
     );
 
+    // The fitted inline pane shows the whole map — no inline jump buttons.
     expect(
-      screen.getByRole("button", { name: "Jump to Class 10" }),
-    ).toBeVisible();
-    expect(screen.getByRole("button", { name: "Jump to MBA" })).toBeVisible();
-    const viewport = screen.getByRole("region", {
-      name: "Career routes from Class 10",
-    });
-    Object.defineProperties(viewport, {
-      clientHeight: { configurable: true, value: 400 },
-      scrollHeight: { configurable: true, value: 900 },
-      scrollTop: { configurable: true, value: 0, writable: true },
-    });
-    fireEvent.scroll(viewport);
-    expect(screen.getByText("Scroll to continue ↓")).toBeVisible();
-    viewport.scrollTop = 500;
-    fireEvent.scroll(viewport);
-    expect(screen.queryByText("Scroll to continue ↓")).not.toBeInTheDocument();
+      screen.queryByRole("button", { name: "Jump to Class 10" }),
+    ).not.toBeInTheDocument();
+    expect(screen.getByTestId("flow")).toHaveAttribute(
+      "data-pan-on-drag",
+      "false",
+    );
+
     const expand = screen.getByRole("button", { name: "Expand route map" });
     fireEvent.click(expand);
     const dialog = screen.getByRole("dialog", {
       name: "Routes from Class 10",
     });
     expect(dialog).toBeVisible();
+    const flows = screen.getAllByTestId("flow");
+    expect(flows).toHaveLength(2);
+    expect(flows[1]).toHaveAttribute("data-pan-on-drag", "true");
+
+    fireEvent.click(
+      screen.getByRole("button", { name: "Jump to MBA in expanded map" }),
+    );
+    expect(flowApi.fitView).toHaveBeenCalledWith(
+      expect.objectContaining({ nodes: [{ id: "degree:mba" }] }),
+    );
+
     const focusable = Array.from(
       dialog.querySelectorAll<HTMLElement>(
         'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',

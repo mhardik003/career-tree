@@ -21,7 +21,6 @@ export interface RouteMapEdge {
   id: string;
   fromId: string;
   toId: string;
-  points: Array<{ x: number; y: number }>;
   isSelected: boolean;
   edgeType: V2Edge["edge_type"];
   isCommonRoute: boolean;
@@ -207,21 +206,14 @@ export function buildRouteMap(
     );
 
   const edges = [...accepted.values()]
-    .map((item): RouteMapEdge => {
-      const layout = graph.edge(item.fromId, item.toId);
-      return {
-        id: item.id,
-        fromId: item.fromId,
-        toId: item.toId,
-        points: layout.points.map(({ x, y }: { x: number; y: number }) => ({
-          x,
-          y,
-        })),
-        isSelected: item.isSelected,
-        edgeType: item.edge.edge_type,
-        isCommonRoute: item.edge.is_common_route,
-      };
-    })
+    .map((item): RouteMapEdge => ({
+      id: item.id,
+      fromId: item.fromId,
+      toId: item.toId,
+      isSelected: item.isSelected,
+      edgeType: item.edge.edge_type,
+      isCommonRoute: item.edge.is_common_route,
+    }))
     .sort(
       (a, b) =>
         Number(a.isSelected) - Number(b.isSelected) || a.id.localeCompare(b.id),
