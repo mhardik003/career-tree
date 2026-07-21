@@ -11,6 +11,26 @@ import V2FocusView from "../V2FocusView";
 const replace = vi.hoisted(() => vi.fn());
 vi.mock("next/navigation", () => ({ useRouter: () => ({ replace }) }));
 
+const suggestChildCardProps = vi.hoisted(() => vi.fn());
+
+// The real SuggestChildCard no longer surfaces the raw node id in the DOM
+// (it's display-only text now), so the only way to assert exactly which id
+// this view hands the card — the current node vs. the selected parent, the
+// distinction FIX 2 guards — is to mock the child and inspect its props.
+vi.mock("../SuggestChildCard", () => ({
+  default: (props: { parentNodeId: string; parentTitle: string }) => {
+    suggestChildCardProps(props);
+    return (
+      <button
+        type="button"
+        aria-label={`Suggest a further option after ${props.parentTitle}`}
+      >
+        Suggest a further option
+      </button>
+    );
+  },
+}));
+
 const prov = {
   model: "test",
   prompt_version: "v2.0",
@@ -128,6 +148,19 @@ describe("V2FocusView", () => {
       lastChild.compareDocumentPosition(suggest) &
         Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy();
+    // Ordering alone would still pass if the card were hoisted outside the
+    // grid entirely — pin it down by requiring the same parent element.
+    expect(suggest.parentElement).toBe(lastChild.parentElement);
+  });
+
+  it("hands the suggestion card the current node's id, not the selected parent's", () => {
+    render(<V2FocusView view={view} />);
+    expect(suggestChildCardProps).toHaveBeenCalledWith(
+      expect.objectContaining({ parentNodeId: mba.id }),
+    );
+    expect(suggestChildCardProps).not.toHaveBeenCalledWith(
+      expect.objectContaining({ parentNodeId: developer.id }),
+    );
   });
 
   it("keeps the destination identity on a terminal node and still invites an option", () => {

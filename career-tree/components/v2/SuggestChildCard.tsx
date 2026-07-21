@@ -14,8 +14,9 @@ export default function SuggestChildCard({
   const [isOpen, setIsOpen] = useState(false);
   const trigger = useRef<HTMLButtonElement>(null);
 
-  // The dialog only handles Escape; without this the closing node would strand
-  // focus on <body> mid-grid.
+  // SuggestionDialog never restores focus itself, so close() has to: it runs
+  // for every path the dialog can be dismissed through (Escape, backdrop
+  // click, its × button), since they all funnel through this same onClose.
   function close() {
     setIsOpen(false);
     trigger.current?.focus();
@@ -28,19 +29,21 @@ export default function SuggestChildCard({
         type="button"
         onClick={() => setIsOpen(true)}
         aria-label={`Suggest a further option after ${parentTitle}`}
-        className="mx-auto flex w-64 flex-col items-center justify-center gap-2 rounded-lg border-2 border-dashed border-black/20 p-4 text-gray-500 transition hover:-translate-y-1 hover:border-black hover:text-black"
+        className="mx-auto flex w-64 cursor-pointer flex-col items-center justify-center gap-2 rounded-lg border-2 border-dashed border-black/20 p-4 text-gray-500 transition hover:-translate-y-1 hover:border-black hover:text-black"
       >
         <Plus size={18} aria-hidden="true" />
         <span className="font-mono text-sm font-bold">
           Suggest a further option
         </span>
       </button>
-      <SuggestionDialog
-        isOpen={isOpen}
-        onClose={close}
-        parentNodeId={parentNodeId}
-        parentTitle={parentTitle}
-      />
+      {isOpen && (
+        <SuggestionDialog
+          isOpen
+          onClose={close}
+          parentNodeId={parentNodeId}
+          parentTitle={parentTitle}
+        />
+      )}
     </>
   );
 }
