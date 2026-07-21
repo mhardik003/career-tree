@@ -1,8 +1,8 @@
-import { NextResponse } from 'next/server';
-import { getSupabase } from '@/lib/supabase';
-import { checkRateLimit } from '@/lib/rateLimit';
-import { SuggestionSchema } from '@/lib/schemas';
-import { v2Graph } from '@/lib/v2/data';
+import { NextResponse } from "next/server";
+import { getSupabase } from "@/lib/supabase";
+import { checkRateLimit } from "@/lib/rateLimit";
+import { SuggestionSchema } from "@/lib/schemas";
+import { v2Graph } from "@/lib/v2/data";
 
 
 export async function POST(request: Request) {
@@ -56,11 +56,11 @@ export async function POST(request: Request) {
 
     // Create entry in Supabase
     const supabase = getSupabase();
-    const { error } = await supabase.from('suggestions').insert({
+    const { error } = await supabase.from("suggestions").insert({
       parent_node_id: cleanData.parentNodeId,
       suggested_name: cleanData.title,
       suggested_description: cleanData.description,
-      status: 'pending_review'
+      status: "pending_review"
     });
 
     if (error) {

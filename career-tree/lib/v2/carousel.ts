@@ -1,4 +1,4 @@
-export interface CarouselItem {
+interface CarouselItem {
   id: string;
   offset: number;
 }

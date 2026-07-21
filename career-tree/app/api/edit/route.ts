@@ -1,8 +1,8 @@
-import { NextResponse } from 'next/server';
-import { getSupabase } from '@/lib/supabase';
-import { checkRateLimit } from '@/lib/rateLimit';
-import { EditSubmissionSchema } from '@/lib/schemas';
-import { v2Graph } from '@/lib/v2/data';
+import { NextResponse } from "next/server";
+import { getSupabase } from "@/lib/supabase";
+import { checkRateLimit } from "@/lib/rateLimit";
+import { EditSubmissionSchema } from "@/lib/schemas";
+import { v2Graph } from "@/lib/v2/data";
 
 
 export async function POST(request: Request) {
@@ -60,11 +60,11 @@ export async function POST(request: Request) {
     }
 
     const supabase = getSupabase();
-    const { error } = await supabase.from('edits').insert({
+    const { error } = await supabase.from("edits").insert({
       target_node_id: targetNodeId,
       original_data: originalData,
       proposed_data: proposedData,
-      status: 'pending_review'
+      status: "pending_review"
     });
 
     if (error) {
