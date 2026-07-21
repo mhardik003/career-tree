@@ -13,8 +13,9 @@ npm run lint
 npm run build
 ```
 
-Browsing uses the committed `data/v2/graph.json` snapshot and needs no runtime graph
-database. The homepage counters and stable-ID suggestion/edit APIs require:
+Browsing uses the committed `data/v2/graph.core.json` + `data/v2/facts/` snapshot and
+needs no runtime graph database (the full `graph.json` export is gitignored — regenerate
+it with `python pipeline/export_frontend.py`). The homepage counters and stable-ID suggestion/edit APIs require:
 
 ```env
 SUPABASE_URL=https://<project>.supabase.co

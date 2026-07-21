@@ -1,11 +1,12 @@
 # Entity-Resolution Rubric — when are two titles the same role?
 
-*Committed before any resolver code, per DATA_ARCHITECTURE_V2.md §6.1. Every automated
-resolution decision (rules, fuzzy shortlist, OpenAI judge) and every human review applies
-THIS table, in order — first matching row wins. The judge prompt embeds it verbatim.*
+*Committed before any resolver code. Every automated resolution decision (rules,
+embedding shortlist, OpenAI judge) and every human review applies THIS table, in
+order — first matching row wins. The judge prompt embeds it verbatim
+(`resolve.rubric_table()`).*
 
 **Standing preference: under-merge.** A missed merge is fixable later with an additive
-alias + redirect; a wrong merge is not cleanly fixable after 301s propagate. When in doubt:
+alias; a wrong merge silently corrupts every route that shares the entity. When in doubt:
 `distinct`.
 
 Definitions:
@@ -31,17 +32,23 @@ Definitions:
 | 11 | Cross-`node_type` resemblance | `CA` the exam gateway vs `Chartered Accountant` the job; `UPSC Civil Services` (exam) vs `IAS Officer` (job) | **distinct** — ER runs strictly within one `node_type` |
 | 12 | Ambiguous short forms / insufficient signal | bare `DM` (Doctor of Medicine? District Magistrate?), any pair the judge can't place with the rows above | **distinct** + `needs_review: true` — the under-merge default |
 
-## Judge-band mechanics (§6.2–6.3 of the design)
+## Judge-band mechanics
 
-- Ladder: exact tight-slug (within type) → rapidfuzz token-set shortlist (top ~20) →
-  OpenAI judge with this rubric → else new stub role.
-- Judge output is enum-constrained: `{decision: same_role|distinct|specializes|unsure,
-  confidence: 0-1, rule: <row #>, rationale}`. `unsure` → human queue. No judge free-text
-  ever flows into another prompt.
-- **Replay-not-redecide**: decisions persist keyed by
-  `sha1(source + parent_role + proposed_title)`; resumes replay, never re-ask.
-- Human sign-off required: 100% of judge-band merges; all clusters ≥6 copies; every
-  rule-12 outcome.
+- Ladder (`resolve.py`): aggregate/disjunction titles are rejected outright (row 10)
+  and never enter ER; bare generics inherit a domain qualifier from their parent
+  (row 6); an exact normalized title/alias match within the type links directly, no
+  model call. Otherwise the candidate is embedded (`text-embedding-3-large`, 1,024
+  dims) and cosine-shortlisted against same-type nodes — at or above the calibrated
+  judge band the top 3 go to the OpenAI judge with this rubric; below it a new node
+  is minted. Similarity never auto-merges.
+- Judge output is schema-constrained: `{decision: same_role|distinct|unsure,
+  matched_id (same_role only, from the shortlist), rule: <row #>, rationale}`.
+  `distinct`/`unsure` mint; `unsure` — or a `matched_id` outside the shortlist —
+  additionally flags `needs_review`. No judge free-text ever flows into another prompt.
+- **Replay-not-redecide**: judge calls cache by a sha256 digest of the full
+  structured-call payload (provider, model, prompt version, schema, prompt, tools —
+  `cache_keys.py`), so unchanged calls replay instead of being reissued; every
+  resolution appends to the committed, append-only ledger `ledger/er_decisions.jsonl`.
 
 ## Acceptance tests (must pass before the resolver is trusted)
 
@@ -51,12 +58,13 @@ Definitions:
 | `Professor` ↔ `Assistant Professor` | distinct (rule 7) |
 | `Research Scientist (Govt.)` ↔ `Research Scientist (e.g., CSIR, DRDO)` | same_role (rule 3) |
 | `Research Scientist (Government)` ↔ `Research Scientist (Pharma)` | distinct (rule 4) |
-| `Assistant Professor (Law)` ↔ `Assistant Professor` | specializes (rule 5) |
+| `Assistant Professor (Law)` ↔ `Assistant Professor` | distinct (rule 5) |
 | `Ph.D.` under Economics ↔ `Ph.D.` under Civil Engineering | distinct (rule 6) |
 | `B.Sc in Radiology Imaging Technology` ↔ `M.Sc in Radiology Imaging Technology` | distinct (rule 7) |
 | `Biotech Entrepreneur (Startup Founder)` ↔ `Tech Entrepreneur (Startup Founder)` | distinct (rule 4/7 — different domain) |
 | `Software Developer` ↔ `Software Development Engineer` | same_role (rule 9; industry synonyms) |
 | `Further Studies (MBA\|LLB)` ↔ `MBA` | never merged (rule 10) |
 
-The labeled evaluation set lives in `eval/er_labels.json`; the resolver's fuzzy
-threshold and judge band are tuned against it once, then frozen.
+The labeled evaluation set lives in `eval/er_labels.json` (655 pairs); the judge band
+is calibrated against it by `calibrate_er.py --write` and recorded in
+`eval/er_openai_report.json`.
