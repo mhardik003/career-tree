@@ -83,11 +83,15 @@ describe("production career guide metadata", () => {
     expect(script).not.toBeNull();
     expect(script?.textContent).toContain("\\u003c");
     const article = JSON.parse(script?.textContent ?? "{}");
+    // Schema.org URLs are absolute so Google can resolve them standalone.
     expect(article).toMatchObject({
       "@type": "Article",
       headline: "BCA",
       dateModified: "2026-07-19",
-      url: "/careers/degree/bca",
+      url: "https://careerstree.in/careers/degree/bca",
+      mainEntityOfPage: "https://careerstree.in/careers/degree/bca",
+      image: "https://careerstree.in/og/degree/bca",
+      publisher: { "@id": "https://careerstree.in/#organization" },
       about: { name: "BCA", additionalType: "degree" },
     });
     expect(article.citation).toEqual([

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import V2BlogView from "@/components/v2/V2BlogView";
+import { BASE_URL } from "@/lib/site";
 import { v2Graph } from "@/lib/v2/data";
 import { getFullNode } from "@/lib/v2/facts";
 import { prerenderParams } from "@/lib/v2/prerender";
@@ -75,7 +76,11 @@ export default async function CareerGuidePage({ params }: Props) {
     headline: node.title,
     description: node.description,
     dateModified: node.facts?.last_reviewed ?? node.prov.generated_at,
-    url: nodeHref(node.id),
+    // Schema.org URLs must be absolute; a bare path is unresolvable to Google.
+    url: `${BASE_URL}${nodeHref(node.id)}`,
+    mainEntityOfPage: `${BASE_URL}${nodeHref(node.id)}`,
+    image: `${BASE_URL}/og/${node.type}/${node.slug}`,
+    publisher: { "@id": `${BASE_URL}/#organization` },
     about: {
       "@type": "Thing",
       name: node.title,

@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Career Tree – Open Source Career Intelligence",
   description:
     "Explore canonical career nodes, reconverging routes, and source-backed guides for the Indian education and career context.",
+  // Node pages self-canonicalize in their own generateMetadata; the homepage
+  // needs it too so the favicon/logo signals attach to a single root URL.
+  alternates: { canonical: "/" },
   openGraph: {
     siteName: "Career Tree",
     type: "website",
@@ -46,6 +49,44 @@ export default function RootLayout({
         <meta
           name="google-site-verification"
           content="tgfTJEDCWbKv0qGT4zNNn8MQ_VcqvZ7eGAMLfeiYtS8"
+        />
+
+        {/* Organization Schema — carries the logo Google renders beside the
+            site name in search results. WebApplication/LearningResource have
+            no logo property, so this is the only machine-readable logo signal. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": `${BASE_URL}/#organization`,
+              name: "Career Tree",
+              url: `${BASE_URL}/`,
+              logo: {
+                "@type": "ImageObject",
+                url: `${BASE_URL}/logo.png`,
+                width: 512,
+                height: 512,
+              },
+            }),
+          }}
+        />
+
+        {/* WebSite Schema — feeds Google's site-name treatment. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": `${BASE_URL}/#website`,
+              name: "Career Tree",
+              url: `${BASE_URL}/`,
+              publisher: { "@id": `${BASE_URL}/#organization` },
+              inLanguage: "en-IN",
+            }),
+          }}
         />
 
         {/* WebApplication Schema */}

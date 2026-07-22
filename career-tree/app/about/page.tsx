@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { BookOpen, GitBranch, Heart, Map, Users } from "lucide-react";
 import BackHomeLink from "@/components/v2/BackHomeLink";
 import GridBackground from "@/components/v2/GridBackground";
+
+export const metadata: Metadata = {
+  title: "About Career Tree – How the Open Career Graph Works",
+  description:
+    "Why Career Tree models Indian education and careers as one canonical graph, how routes reconverge on a single node, and how the source-backed guides are reviewed.",
+  alternates: { canonical: "/about" },
+};
 
 export default function AboutPage() {
   return (

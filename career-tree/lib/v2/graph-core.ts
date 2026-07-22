@@ -15,6 +15,8 @@ export class V2Graph {
   readonly nodes: V2NodeCore[];
   readonly edges: V2Edge[];
   readonly nodesById: Map<string, V2NodeCore>;
+  // Export timestamp of the snapshot; app/sitemap.ts uses it for <lastmod>.
+  readonly generatedAt: string;
   private readonly incomingById = new Map<string, V2Edge[]>();
   private readonly outgoingById = new Map<string, V2Edge[]>();
 
@@ -22,6 +24,7 @@ export class V2Graph {
     this.rootId = snapshot.root_id;
     this.nodes = snapshot.nodes;
     this.edges = snapshot.edges;
+    this.generatedAt = snapshot.generated_at;
     this.nodesById = new Map(snapshot.nodes.map((node) => [node.id, node]));
     for (const edge of snapshot.edges) {
       this.incomingById.set(edge.to_id, [
