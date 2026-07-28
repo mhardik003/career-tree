@@ -19,11 +19,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/search`, lastModified: built, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/about`, lastModified: built, changeFrequency: "monthly", priority: 0.5 },
   ];
-  const guideRoutes: MetadataRoute.Sitemap = v2Graph.nodes.map((node) => ({
-    url: `${BASE_URL}${nodeHref(node.id)}`,
-    lastModified: asDate(node.prov?.generated_at) ?? built,
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }));
+  // Seed exam nodes that expansion has not linked yet have no edges in either
+  // direction, so their pages render as dead ends with no route in or out.
+  // Keep them out of the sitemap until they join the graph; they stay routable.
+  const guideRoutes: MetadataRoute.Sitemap = v2Graph.nodes
+    .filter(
+      (node) =>
+        v2Graph.incoming(node.id).length > 0 ||
+        v2Graph.outgoing(node.id).length > 0,
+    )
+    .map((node) => ({
+      url: `${BASE_URL}${nodeHref(node.id)}`,
+      lastModified: asDate(node.prov?.generated_at) ?? built,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    }));
   return [...staticRoutes, ...guideRoutes];
 }

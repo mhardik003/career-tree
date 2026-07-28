@@ -6,10 +6,10 @@ export const SEARCH_DEBOUNCE_MS = 150;
 
 /**
  * Returns `value`, but updates only after it has stopped changing for
- * `delayMs` (ISSUE-11a).
+ * `delayMs`.
  *
- * A timer is used instead of `useDeferredValue` deliberately: the work order
- * asks for ~150 ms debounce semantics. `useDeferredValue` only lowers the
+ * A timer is used instead of `useDeferredValue` deliberately: the target is
+ * ~150 ms debounce semantics. `useDeferredValue` only lowers the
  * re-render's priority — on an idle main thread it still runs the O(N) filter
  * for every keystroke — whereas a timer coalesces a fast typing burst into a
  * single filter pass. Consumers keep their inputs controlled by the raw

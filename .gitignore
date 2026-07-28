@@ -6,10 +6,13 @@ __pycache__/
 node_modules/
 .next/
 
-# --- Local working notes (not part of the public repo) ---
+# --- Local-only files ---
 CLAUDE.md
 BUGS*.md
 SCALABILITY_ISSUES.md
+/.superpowers/
+/docs/superpowers/
+.playwright-mcp/
 
 # --- Generated frontend dataset (rebuild: python pipeline/export_frontend.py) ---
 career-tree/data/v2/graph.json
@@ -20,10 +23,3 @@ pipeline/ledger/embeddings.jsonl
 pipeline/ledger/enrichment_failures.jsonl
 pipeline/ledger/source_audit.json
 pipeline/ledger/usage.jsonl
-
-# --- Local visual brainstorming artifacts ---
-/.superpowers/
-/docs/superpowers/
-
-# --- Playwright MCP session artifacts ---
-.playwright-mcp/

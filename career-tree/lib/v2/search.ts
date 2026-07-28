@@ -2,7 +2,7 @@ import type { V2DirectoryNode, V2NodeType } from "./types";
 
 export type DirectoryTypeFilter = "all" | V2NodeType;
 
-// TODO(ISSUE-11c): at ~10x nodes (~2 MB+ directory payload) move this filter
+// TODO: at ~10x nodes (~2 MB+ directory payload) move this filter
 // server-side — an API route querying the core graph per debounced query —
 // instead of shipping every directory entry to the client and scanning O(N)
 // here. Deferred until the dataset actually approaches that size.

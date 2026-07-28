@@ -10,7 +10,7 @@ alias; a wrong merge silently corrupts every route that shares the entity. When 
 `distinct`.
 
 Definitions:
-- *slug* — `lowercase, [^a-z0-9]+ → '-', trim '-'` (matches `career-tree/lib/slugify.ts`)
+- *slug* — `lowercase, [^a-z0-9]+ → '-', trim '-'` (implemented by `slugify()` in `pipeline/lib.py`)
 - *tight slug* — slug with `-` removed
 - *qualifier* — a trailing parenthetical: `Research Scientist (Govt.)` → base
   `Research Scientist`, qualifier `Govt.`
