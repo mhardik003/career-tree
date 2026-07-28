@@ -158,7 +158,7 @@ The pipeline is a sequence of small, resumable scripts run from the repo root:
 | Enrichment | `enrich.py --retry-failures --workers 8` | `gpt-5.6-terra` with web search researches each node lacking facts and returns the strict `NodeFacts` schema. Saves after every node, skips completed ones, records failures in a ledger, runs bounded parallel workers, and aborts after 5 consecutive failures. |
 | Source audit | `audit_sources.py` | Checks every cited URL without storing page bodies: public HTTP(S) hosts only, bounded timeouts, at most 5 re-validated redirects. `404`/`410` and malformed URLs are definitive failures (exit 1); `401`/`403`/`405` still prove the endpoint exists. |
 | Release lint | `lint.py --release` | The free, deterministic gate — see the invariants below. |
-| Export | `export_frontend.py` (and `--check`) | Validates the registries and atomically writes the `career-tree/data/v2/` snapshots — `graph.core.json` + per-node `facts/` (committed; what the app reads) and the full `graph.json` (~8.8 MB, gitignored) — sorted, with a source digest. `--check` verifies the exported snapshot still matches the registries. A validation failure never clobbers the existing files. |
+| Export | `export_frontend.py` (and `--check`) | Validates the registries and atomically writes the `career-tree/data/v2/` snapshots — `graph.core.json` + per-node `facts/` (committed; what the app reads) and the full `graph.json` (~8.8 MB, gitignored) — sorted, with a source digest. `--check` verifies the exported snapshot still matches the registries; it requires the committed artifacts and additionally validates `graph.json` only when a local export exists, so it passes on a fresh clone. A validation failure never clobbers the existing files. |
 | ER calibration | `calibrate_er.py --write` | Recomputes the embedding-shortlist band against the frozen evaluation labels and updates `eval/er_openai_report.json`. |
 
 **Entity resolution** is the heart of the graph's integrity. When expansion proposes a
@@ -341,7 +341,7 @@ committed dataset.
 
 | Check | Command (from) | Expected |
 | --- | --- | --- |
-| Pipeline tests | `python -m unittest discover -s pipeline/tests -v` (root) | 71 tests pass |
+| Pipeline tests | `python -m unittest discover -s pipeline/tests -v` (root) | 75 tests pass |
 | Release lint | `python pipeline/lint.py --release` (root) | zero errors; 677 nodes, 1,505 edges |
 | Snapshot freshness | `python pipeline/export_frontend.py --check` (root) | "snapshot is current" |
 | Frontend tests | `npm test` (`career-tree/`) | 99 tests across 33 files pass |
