@@ -68,6 +68,19 @@ export async function POST(request: Request) {
     });
 
     if (error) {
+      // 23505 = unique_violation from the pending-dedup index: byte-identical
+      // proposed content is already queued for this node. A duplicate is a
+      // client condition, not a server fault, so answer 409 rather than
+      // falling through to the 500 path.
+      if (error.code === "23505") {
+        return NextResponse.json(
+          {
+            success: false,
+            message: "An identical edit is already awaiting review for this node.",
+          },
+          { status: 409 }
+        );
+      }
       throw error;
     }
 

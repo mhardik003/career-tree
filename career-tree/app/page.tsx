@@ -10,9 +10,18 @@ export const revalidate = 300;
 async function getStats() {
   try {
     const supabase = getSupabase();
+    // Approved only. Counting every row would put a public number under the
+    // direct control of anyone able to POST to /api/suggest, so a queue flood
+    // would show up on the homepage within one revalidate window.
     const [suggestions, edits] = await Promise.all([
-      supabase.from("suggestions").select("*", { count: "exact", head: true }),
-      supabase.from("edits").select("*", { count: "exact", head: true }),
+      supabase
+        .from("suggestions")
+        .select("*", { count: "exact", head: true })
+        .eq("status", "approved"),
+      supabase
+        .from("edits")
+        .select("*", { count: "exact", head: true })
+        .eq("status", "approved"),
     ]);
     if (suggestions.error) throw suggestions.error;
     if (edits.error) throw edits.error;
@@ -61,9 +70,9 @@ export default async function Home() {
             </Link>
           </div>
           <div className="flex items-center gap-6 rounded-full border border-gray-200 bg-white/70 px-6 py-2 font-mono text-xs text-gray-500 backdrop-blur-sm">
-            <span><strong className="text-black">{stats.suggestions}</strong> paths proposed</span>
+            <span><strong className="text-black">{stats.suggestions}</strong> paths added</span>
             <span className="h-4 w-px bg-gray-300" aria-hidden="true" />
-            <span><strong className="text-black">{stats.edits}</strong> community edits</span>
+            <span><strong className="text-black">{stats.edits}</strong> edits merged</span>
           </div>
           <p className="font-mono text-xs text-gray-400">
             Currently mapped for the Indian education system

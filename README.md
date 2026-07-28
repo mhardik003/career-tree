@@ -344,7 +344,7 @@ committed dataset.
 | Pipeline tests | `python -m unittest discover -s pipeline/tests -v` (root) | 71 tests pass |
 | Release lint | `python pipeline/lint.py --release` (root) | zero errors; 677 nodes, 1,505 edges |
 | Snapshot freshness | `python pipeline/export_frontend.py --check` (root) | "snapshot is current" |
-| Frontend tests | `npm test` (`career-tree/`) | 97 tests across 33 files pass |
+| Frontend tests | `npm test` (`career-tree/`) | 99 tests across 33 files pass |
 | Frontend lint | `npm run lint` (`career-tree/`) | clean |
 | Production build | `npm run build` (`career-tree/`) | succeeds — no env vars required |
 

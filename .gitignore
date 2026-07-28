@@ -1,7 +1,8 @@
 # --- Security ---
-.env
-.env.local
-.env.production
+# Glob, not an enumeration: a stray .env.bak or .env.dev must never be
+# committable. Keep the negation last so a template can still be tracked.
+.env*
+!.env.example
 __pycache__/
 node_modules/
 .next/
@@ -13,6 +14,8 @@ SCALABILITY_ISSUES.md
 /.superpowers/
 /docs/superpowers/
 .playwright-mcp/
+.claude/
+.impeccable/
 
 # --- Generated frontend dataset (rebuild: python pipeline/export_frontend.py) ---
 career-tree/data/v2/graph.json

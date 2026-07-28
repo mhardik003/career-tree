@@ -19,14 +19,27 @@ import Home from "../page";
 
 describe("production home page", () => {
   it("places Class 10 exploration before career search", async () => {
+    const filters: Array<[string, string]> = [];
     mocks.from.mockImplementation((table: string) => ({
-      select: vi.fn().mockResolvedValue({
-        count: table === "suggestions" ? 4 : 2,
-        error: null,
+      select: vi.fn().mockReturnValue({
+        eq: vi.fn((column: string, value: string) => {
+          filters.push([column, value]);
+          return Promise.resolve({
+            count: table === "suggestions" ? 4 : 2,
+            error: null,
+          });
+        }),
       }),
     }));
 
     render(await Home());
+
+    // Both counters must filter to approved: an unfiltered count would let
+    // anyone posting to /api/suggest drive a number on the public homepage.
+    expect(filters).toEqual([
+      ["status", "approved"],
+      ["status", "approved"],
+    ]);
 
     const primary = screen.getByRole("link", {
       name: /Start exploring from Class 10/i,
