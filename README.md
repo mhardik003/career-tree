@@ -254,7 +254,7 @@ career-tree/                  Next.js app (run npm from here)
   data/v2/                    graph.core.json + facts/ (committed; what the app reads);
                               graph.json (~8.8 MB) is no longer committed — regenerate
                               via python pipeline/export_frontend.py
-  supabase/                   clean schema + production cutover migration
+  supabase/                   clean schema + migrations (V2 cutover, queue dedup)
 docs/OPERATIONS.md            production release / operations manual
 ```
 

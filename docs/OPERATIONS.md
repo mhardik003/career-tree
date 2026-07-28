@@ -102,6 +102,32 @@ review `TARGET_DATABASE_URL` without printing it and require `ON_ERROR_STOP`; in
 Supabase SQL Editor, visually confirm the project and paste the complete transaction.
 An uncertain target is a hard stop.
 
+## Moderation-queue dedup migration
+
+[`career-tree/supabase/migrations/20260728_pending_dedup_indexes.sql`](../career-tree/supabase/migrations/20260728_pending_dedup_indexes.sql)
+(applied 2026-07-28) adds two unique partial indexes that stop the same payload
+queueing without limit: `suggestions` on parent plus normalized title, `edits` on
+target plus `md5(proposed_data::text)`. Both are scoped to `status =
+'pending_review'`, so a contributor may legitimately re-raise a suggestion once the
+first has been decided. `schema.sql` carries the same indexes for clean installs.
+
+The app's own checks cannot cover this — a suggestion is compared only against the
+published graph, and an edit only against an exact no-op, so neither sees what is
+already queued. `POST /api/suggest` and `POST /api/edit` translate the resulting
+Postgres `23505` into a `409`, so applying the migration turns a duplicate
+submission from a silent extra queue row into a clean rejection.
+
+Duplicates already queued would make the indexes uncreatable, so the migration
+supersedes rather than deletes: the earliest pending row of each group stays
+`pending_review`, the rest become `rejected` with reason `superseded duplicate
+(pending-dedup migration)`. Rows are never deleted in this project. To see what a
+run would change before running it:
+
+```sql
+select count(*) - count(distinct (parent_node_id, lower(trim(suggested_name))))
+from public.suggestions where status = 'pending_review';
+```
+
 ## Private moderation lifecycle
 
 Moderation runs in a separate private companion repository. Its operator:
