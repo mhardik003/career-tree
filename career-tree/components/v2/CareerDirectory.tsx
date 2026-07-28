@@ -9,7 +9,7 @@ import {
 import type { V2DirectoryNode, V2NodeType } from "@/lib/v2/types";
 import { useDebouncedValue } from "@/lib/v2/use-debounced-value";
 
-// ISSUE-11b: render at most this many result cards; the rest collapse into a
+// Render at most this many result cards; the rest collapse into a
 // "N more matches" notice instead of an unvirtualized O(N) list.
 export const MAX_RENDERED_RESULTS = 100;
 

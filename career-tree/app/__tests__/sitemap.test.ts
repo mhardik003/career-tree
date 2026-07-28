@@ -1,20 +1,29 @@
 import { describe, expect, it, vi } from "vitest";
 
-vi.mock("@/lib/v2/data", () => ({
-  v2Graph: {
-    generatedAt: "2026-07-21T11:48:44.254220Z",
-    nodes: [
-      {
-        id: "school_stage:class-10",
-        type: "school_stage",
-        slug: "class-10",
-        prov: { generated_at: "2026-07-19" },
-      },
-      // No prov date: must fall back to the graph build stamp, not emit junk.
-      { id: "degree:bca", type: "degree", slug: "bca", prov: {} },
-    ],
-  },
-}));
+vi.mock("@/lib/v2/data", () => {
+  // The root has no incoming edge and the leaf no outgoing one, so each is
+  // kept by only one side of the degree check; exam:orphan has neither.
+  const edges = [{ from_id: "school_stage:class-10", to_id: "degree:bca" }];
+  return {
+    v2Graph: {
+      generatedAt: "2026-07-21T11:48:44.254220Z",
+      nodes: [
+        {
+          id: "school_stage:class-10",
+          type: "school_stage",
+          slug: "class-10",
+          prov: { generated_at: "2026-07-19" },
+        },
+        // No prov date: must fall back to the graph build stamp, not emit junk.
+        { id: "degree:bca", type: "degree", slug: "bca", prov: {} },
+        // Unexpanded seed: no edges either way, so it must not be sitemapped.
+        { id: "exam:orphan", type: "exam", slug: "orphan", prov: {} },
+      ],
+      incoming: (id: string) => edges.filter((edge) => edge.to_id === id),
+      outgoing: (id: string) => edges.filter((edge) => edge.from_id === id),
+    },
+  };
+});
 import sitemap from "../sitemap";
 
 describe("sitemap", () => {
@@ -31,6 +40,19 @@ describe("sitemap", () => {
     ]));
     expect(urls.some((url) => url.includes("/explore/"))).toBe(false);
     expect(urls.some((url) => url.split("/").includes("v2"))).toBe(false);
+  });
+
+  it("omits nodes with no edges in either direction", () => {
+    const urls = sitemap().map((entry) => entry.url);
+
+    // A dead-end seed renders as a page with no route in or out; keeping it
+    // out of the sitemap stops it being crawled as thin content.
+    expect(urls.some((url) => url.endsWith("/careers/exam/orphan"))).toBe(false);
+    // One edge is enough, from either side.
+    expect(urls).toEqual(expect.arrayContaining([
+      expect.stringMatching(/\/careers\/school_stage\/class-10$/),
+      expect.stringMatching(/\/careers\/degree\/bca$/),
+    ]));
   });
 
   it("stamps every entry with a valid lastModified", () => {

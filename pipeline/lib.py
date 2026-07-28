@@ -98,7 +98,7 @@ class Edge(BaseModel):
 # --- normalization ----------------------------------------------------------
 
 def slugify(text: str) -> str:
-    """Mirror of career-tree/lib/slugify.ts."""
+    """Canonical slug form: lowercase, non-alphanumerics to '-', trimmed."""
     text = text.lower()
     text = re.sub(r"[^a-z0-9]+", "-", text)
     return re.sub(r"(^-|-$)+", "", text)

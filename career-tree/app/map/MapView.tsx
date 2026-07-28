@@ -50,11 +50,11 @@ export default function MapView({ model }: { model: V2GlobalMap }) {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [type, setType] = useState<V2NodeType | "all">("all");
-  // ISSUE-11a: the input stays controlled by `query`; the O(N+E) refilter runs
-  // on the debounced copy so a typing burst costs one pass. No result cap here
-  // (ISSUE-11b): the filtered graph IS the map — React Flow mounts the
-  // surviving nodes and `onlyRenderVisibleElements` already culls DOM
-  // rendering to the viewport, so there is no unbounded match list to cap.
+  // The input stays controlled by `query`; the O(N+E) refilter runs on the
+  // debounced copy so a typing burst costs one pass. There is no result cap
+  // here: the filtered graph IS the map — React Flow mounts the surviving
+  // nodes and `onlyRenderVisibleElements` already culls DOM rendering to the
+  // viewport, so there is no unbounded match list to cap.
   const filterQuery = useDebouncedValue(query);
   const visible = useMemo(
     () => filterGlobalMap(model, filterQuery, type),
