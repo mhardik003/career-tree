@@ -32,6 +32,11 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# A nested .gitignore overrides the parent for files beneath it, so the root's
+# `!.env.example` cannot reach here — the negation has to be repeated. The app's
+# SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY live in .env.local, so this is the
+# template contributors actually need.
+!.env.example
 
 # vercel
 .vercel
