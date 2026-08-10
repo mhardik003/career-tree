@@ -109,38 +109,80 @@ def test_dedup_helper_functions_are_immutable():
         assert "immutable" in body, f"{name} is not declared IMMUTABLE"
 
 
+def _covered_code_points(pattern_source: str) -> set[int]:
+    """Parse `\\uXXXX` and `\\uXXXX-\\uYYYY` Postgres ARE hex-escape tokens out
+    of a (lowercased) regex source string into the set of code points they
+    cover. Not a general regex parser -- just enough for the flat, unnested
+    bracket expressions this migration uses -- so a future range merge,
+    split, or reorder does not break a test built on top of this."""
+    tokens = re.findall(r"\\u([0-9a-f]{4})(?:-\\u([0-9a-f]{4}))?", pattern_source)
+    covered: set[int] = set()
+    for lo_hex, hi_hex in tokens:
+        lo = int(lo_hex, 16)
+        hi = int(hi_hex, 16) if hi_hex else lo
+        covered.update(range(lo, hi + 1))
+    return covered
+
+
 def test_suggestion_dedup_key_strips_the_full_invisible_and_bidi_control_set():
     """The original class (U+200B-U+200F, U+FEFF) missed U+2060 WORD JOINER
     (the Unicode-recommended replacement for using the BOM as a zero-width
     no-break space), soft hyphen, the combining grapheme joiner, the Arabic
-    letter mark / Mongolian vowel separator, and the bidi embedding/override/
-    isolate controls -- each an invisible, unbounded bypass of the guard.
-    This pins that the widened set is present via its \\uXXXX escapes without
-    pinning the full bracket expression character-for-character, so a further
-    legitimate broadening of the class does not break this test."""
+    letter mark / Mongolian vowel separator, and -- despite this test's own
+    name -- the bidi embedding/override/isolate controls it claims to cover
+    were never actually asserted. This checks real code-point *membership*
+    (via _covered_code_points) rather than exact bracket-expression text, so
+    a further legitimate broadening, or the range merge that closed
+    U+206A-U+206F, does not break this test."""
     sql = _sql().lower()
     body_start = sql.index("create or replace function public.suggestion_dedup_key")
     body = sql[body_start:body_start + 1500]
-    for codepoint in ("\\u00ad", "\\u034f", "\\u061c", "\\u180e", "\\u2060", "\\ufeff"):
-        assert codepoint in body, (
-            f"{codepoint} is no longer stripped by suggestion_dedup_key"
+    covered = _covered_code_points(body)
+    must_be_stripped = {
+        0x00AD: "soft hyphen",
+        0x034F: "combining grapheme joiner",
+        0x061C: "Arabic letter mark",
+        0x180E: "Mongolian vowel separator",
+        0x2060: "word joiner",
+        0xFEFF: "BOM/ZWNBSP",
+        0x202A: "LRE (bidi embedding)",
+        0x202E: "RLO (bidi override)",
+        0x2066: "LRI (bidi isolate)",
+        0x2069: "PDI (bidi isolate)",
+    }
+    for code_point, label in must_be_stripped.items():
+        assert code_point in covered, (
+            f"U+{code_point:04X} ({label}) is no longer stripped by "
+            "suggestion_dedup_key"
         )
-    # Escapes, not literal bytes: the whole point of the human ruling was to
-    # stop shipping invisible characters in the migration source itself. The
-    # forbidden set is built from bare integer code points via chr(), not
-    # typed invisible characters or \uXXXX string escapes, so this check
-    # carries none of the transcription risk it is guarding against and its
-    # code points can be verified by eye against the hex literals alone.
+
+
+def test_migration_source_contains_no_literal_invisible_characters():
+    """Postgres ARE `\\uXXXX` escapes are used throughout instead of literal
+    invisible characters (human ruling, fix round 1) precisely because a
+    literal byte is easy to introduce by accident and hard to see land --
+    this task's own editing did it three times. This scans the WHOLE file,
+    not a function-body slice: the prose comment above suggestion_dedup_key
+    sits outside any `create or replace function` boundary and is exactly
+    where one of those slips landed. Built from bare integer code points via
+    chr(), not typed invisible characters or \\uXXXX string escapes, so this
+    check carries none of the transcription risk it is guarding against, and
+    its code points are verifiable by eye against the hex literals alone."""
+    sql = _sql()
     forbidden_code_points = (
         [0x00AD, 0x034F, 0x061C, 0x180E]
         + list(range(0x200B, 0x200F + 1))
         + list(range(0x202A, 0x202E + 1))
-        + list(range(0x2060, 0x2069 + 1))
+        + list(range(0x2060, 0x206F + 1))
         + [0xFEFF]
+        + [0x00A0, 0x1680]
+        + list(range(0x2000, 0x200A + 1))
+        + [0x202F, 0x205F, 0x3000]
     )
-    assert not any(chr(cp) in body for cp in forbidden_code_points), (
-        "the strip class contains literal invisible characters instead of "
-        "\\uXXXX escapes"
+    hits = [cp for cp in forbidden_code_points if chr(cp) in sql]
+    assert not hits, (
+        "literal invisible/space character(s) found instead of \\uXXXX "
+        "escapes: " + ", ".join(f"U+{cp:04X}" for cp in hits)
     )
 
 

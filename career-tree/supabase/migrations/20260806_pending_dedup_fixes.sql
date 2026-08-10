@@ -37,15 +37,18 @@ drop index if exists public.edits_pending_dedup;
 -- characters are stripped first: soft hyphen, combining grapheme joiner, the
 -- Arabic letter mark, Mongolian vowel separator, the zero-width space/
 -- joiner/non-joiner and left-to-right/right-to-left marks, the bidi
--- embedding/override/isolate controls, the invisible math operators and word
--- joiner (the Unicode-recommended replacement for using the BOM as a
--- zero-width no-break space), and the BOM/ZWNBSP itself — all invisible in
--- the UI, so a rotating invisible-character suffix would otherwise be a free
--- bypass of the whole guard. Non-breaking and other Unicode space separators
--- (NBSP, figure space, narrow no-break space, etc. — \s alone misses these)
--- are folded into the same whitespace-collapse pass as plain spaces. Postgres
--- ARE `\uXXXX` escapes are used throughout instead of the literal invisible
--- characters, so the pattern stays legible and verifiable by eye.
+-- embedding/override/isolate controls, the invisible math operators, the
+-- word joiner (the Unicode-recommended replacement for using the BOM as a
+-- zero-width no-break space), the deprecated-but-assigned inhibit/activate
+-- symmetric-swapping and Arabic-form-shaping controls and the national/
+-- nominal digit-shape controls (U+206A-U+206F), and the BOM/ZWNBSP itself —
+-- all invisible in the UI, so a rotating invisible-character suffix would
+-- otherwise be a free bypass of the whole guard. Non-breaking and other
+-- Unicode space separators (NBSP, figure space, narrow no-break space, etc.
+-- — \s alone misses these) are folded into the same whitespace-collapse pass
+-- as plain spaces. Postgres ARE `\uXXXX` escapes are used throughout instead
+-- of the literal invisible characters, so the pattern stays legible and
+-- verifiable by eye.
 create or replace function public.suggestion_dedup_key(name text)
 returns text
 language sql
@@ -56,7 +59,7 @@ as $$
       regexp_replace(
         regexp_replace(
           coalesce(name, ''),
-          '[\u00AD\u034F\u061C\u180E\u200B-\u200F\u202A-\u202E\u2060-\u2064\u2066-\u2069\uFEFF]',
+          '[\u00AD\u034F\u061C\u180E\u200B-\u200F\u202A-\u202E\u2060-\u206F\uFEFF]',
           '', 'g'
         ),
         '[\s\u00A0\u1680\u2000-\u200A\u202F\u205F\u3000]+', ' ', 'g'
