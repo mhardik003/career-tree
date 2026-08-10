@@ -29,13 +29,63 @@ lock table public.edits in share row exclusive mode;
 drop index if exists public.suggestions_pending_dedup;
 drop index if exists public.edits_pending_dedup;
 
+-- Canonical dedup keys. These must be IMMUTABLE to be usable in an index
+-- expression, and they are: same input, same output, always.
+
+-- Whitespace and case are not meaningful differences in a suggested name, and
+-- neither is a stray trailing full stop. Zero-width characters are stripped
+-- first — they are invisible in the UI, so a rotating zero-width suffix would
+-- otherwise be a free bypass of the whole guard.
+create or replace function public.suggestion_dedup_key(name text)
+returns text
+language sql
+immutable
+as $$
+  select lower(btrim(
+    regexp_replace(
+      regexp_replace(
+        regexp_replace(coalesce(name, ''), '[​-‏﻿]', '', 'g'),
+        '\s+', ' ', 'g'
+      ),
+      '[.,;:!?]+$', '', 'g'
+    )
+  ));
+$$;
+
+-- jsonb normalizes object key order but PRESERVES array order, so hashing
+-- proposed_data::text directly treats aliases ["a","b"] and ["b","a"] as two
+-- different edits. Sort the alias array and normalize the free-text fields the
+-- same way suggestion_dedup_key does, then hash the result.
+create or replace function public.edit_dedup_key(payload jsonb)
+returns text
+language sql
+immutable
+as $$
+  select md5(
+    coalesce(public.suggestion_dedup_key(payload->>'title'), '')
+    || e'\x1f' ||
+    coalesce(public.suggestion_dedup_key(payload->>'description'), '')
+    || e'\x1f' ||
+    coalesce((
+      select string_agg(public.suggestion_dedup_key(value), e'\x1e' order by
+                        public.suggestion_dedup_key(value))
+      from jsonb_array_elements_text(
+        case jsonb_typeof(payload->'aliases')
+          when 'array' then payload->'aliases'
+          else '[]'::jsonb
+        end
+      ) as alias(value)
+    ), '')
+  );
+$$;
+
 -- Duplicates already in the queue would make the unique indexes uncreatable.
 -- Rows are never deleted in this project, so supersede rather than remove:
 -- keep the earliest pending row of each duplicate group, reject the rest.
 with ranked as (
   select id,
          row_number() over (
-           partition by parent_node_id, lower(trim(suggested_name))
+           partition by parent_node_id, public.suggestion_dedup_key(suggested_name)
            order by created_at, id
          ) as rn
   from public.suggestions
@@ -56,7 +106,7 @@ where ranked.id = s.id
 with ranked as (
   select id,
          row_number() over (
-           partition by target_node_id, md5(proposed_data::text)
+           partition by target_node_id, public.edit_dedup_key(proposed_data)
            order by created_at, id
          ) as rn
   from public.edits
@@ -72,14 +122,12 @@ where ranked.id = e.id
   -- row's status must be re-checked explicitly.
   and e.status = 'pending_review';
 
--- proposed_data is jsonb, so ::text is key-ordered and whitespace-normalized
--- by Postgres — equal payloads hash equal regardless of how they were sent.
 create unique index if not exists suggestions_pending_dedup
-  on public.suggestions (parent_node_id, lower(trim(suggested_name)))
+  on public.suggestions (parent_node_id, public.suggestion_dedup_key(suggested_name))
   where status = 'pending_review';
 
 create unique index if not exists edits_pending_dedup
-  on public.edits (target_node_id, md5(proposed_data::text))
+  on public.edits (target_node_id, public.edit_dedup_key(proposed_data))
   where status = 'pending_review';
 
 do $$

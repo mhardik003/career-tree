@@ -75,3 +75,35 @@ def test_migration_takes_its_strongest_lock_before_mutating():
     assert max(lock_positions) < first_update.start(), (
         "table locks must be taken before the first UPDATE, not after"
     )
+
+
+def test_dedup_keys_use_the_canonical_helper_functions():
+    """A raw md5(proposed_data::text) is array-order sensitive and a raw
+    lower(trim(name)) is a no-op after Zod's own trim; both let trivially
+    different payloads occupy separate index slots."""
+    sql = _sql()
+    assert "create or replace function public.edit_dedup_key" in sql.lower()
+    assert "create or replace function public.suggestion_dedup_key" in sql.lower()
+    index_lines = [
+        line for line in sql.splitlines()
+        if "on public.suggestions" in line or "on public.edits" in line
+    ]
+    assert index_lines, "no index definitions found"
+    for line in index_lines:
+        assert "dedup_key(" in line, f"index does not use a canonical key: {line}"
+    # The file's header comment legitimately quotes the raw expression while
+    # explaining the bug it fixes, so check the actual key expression (as it
+    # appears in the CTE partition and the index) rather than the bare
+    # substring anywhere in the file.
+    assert "target_node_id, md5(proposed_data::text)" not in sql, (
+        "raw array-order-sensitive md5 is still present as a key expression"
+    )
+
+
+def test_dedup_helper_functions_are_immutable():
+    """Postgres rejects a non-IMMUTABLE function in an index expression."""
+    sql = _sql().lower()
+    for name in ("edit_dedup_key", "suggestion_dedup_key"):
+        body_start = sql.index(f"create or replace function public.{name}")
+        body = sql[body_start:body_start + 800]
+        assert "immutable" in body, f"{name} is not declared IMMUTABLE"
