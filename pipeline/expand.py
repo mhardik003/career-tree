@@ -14,7 +14,8 @@ import json
 
 from pydantic import BaseModel, Field, field_validator
 
-from lib import Registry, NodeType, EdgeType, atomic_write, call_json, FRONTIER_FILE
+from lib import (Registry, NodeType, EdgeType, atomic_write, call_json,
+                 edge_type_for, FRONTIER_FILE)
 from resolve import Resolver
 
 EXPAND_MODEL = "gpt-5.6-terra"
@@ -24,31 +25,9 @@ EXPAND_MODEL = "gpt-5.6-terra"
 # run loses at most SAVE_EVERY-1 nodes of work (the finally block flushes the rest).
 SAVE_EVERY = 25
 
-WORKING_TYPES = {NodeType.job_role, NodeType.government_service, NodeType.entrepreneurship}
-EDUCATION_TYPES = {NodeType.degree, NodeType.diploma, NodeType.certification, NodeType.training}
-
 
 def should_expand(depth: int, max_depth: int) -> bool:
     return depth < max_depth
-
-
-def _would_create_progression_cycle(reg: Registry, from_id: str, to_id: str) -> bool:
-    """Return whether adding from_id -> to_id would close a progression cycle."""
-    stack = [to_id]
-    seen: set[str] = set()
-    while stack:
-        current = stack.pop()
-        if current == from_id:
-            return True
-        if current in seen:
-            continue
-        seen.add(current)
-        stack.extend(
-            edge.to_id
-            for edge in reg.outgoing(current)
-            if edge.edge_type == EdgeType.progression
-        )
-    return False
 
 
 class ChildRef(BaseModel):
@@ -242,31 +221,10 @@ def _process_successors(reg, resolver, node, nid, depth, result, queue, expanded
             continue
 
         target_type = reg.nodes[target_id].type
-        # exam -> exam is never a successor relation ("you could also take RRB JE"
-        # is an alternative, not a next step) — drop it.
-        if node.type == NodeType.exam and target_type == NodeType.exam:
-            print(f"   ! dropped exam->exam edge to {target_id}")
+        etype = edge_type_for(reg, nid, target_id, ref.edge_type)
+        if etype is None:
+            print(f"   ! dropped {node.type.value}->{target_type.value} edge to {target_id}")
             continue
-
-        etype = ref.edge_type
-        # edge grammar: exam_gate iff one endpoint is an exam
-        endpoint_is_exam = NodeType.exam in (target_type, node.type)
-        if endpoint_is_exam:
-            etype = EdgeType.exam_gate
-        elif etype == EdgeType.exam_gate:
-            etype = EdgeType.progression
-        # working role -> education is upskilling, i.e. lateral: career graphs are
-        # NOT DAGs (Web Developer -> MCA -> Web Developer is real); only the
-        # progression subgraph stays acyclic, so back-to-education edges must not
-        # carry the progression type.
-        if (node.type in WORKING_TYPES and target_type in EDUCATION_TYPES
-                and etype == EdgeType.progression):
-            etype = EdgeType.lateral
-        if (
-            etype == EdgeType.progression
-            and _would_create_progression_cycle(reg, nid, target_id)
-        ):
-            etype = EdgeType.lateral
         reg.add_edge(nid, target_id, etype, EXPAND_MODEL,
                      is_common_route=(ref.confidence != "niche"))
 

@@ -388,6 +388,69 @@ class Registry:
         return "\n".join(f"{nid} | {self.nodes[nid].title}" for nid in sorted(picked))
 
 
+WORKING_TYPES = {NodeType.job_role, NodeType.government_service,
+                 NodeType.entrepreneurship}
+EDUCATION_TYPES = {NodeType.degree, NodeType.diploma, NodeType.certification,
+                   NodeType.training}
+
+
+def would_create_progression_cycle(reg: "Registry", from_id: str, to_id: str) -> bool:
+    """Return whether adding from_id -> to_id would close a progression cycle."""
+    stack = [to_id]
+    seen: set[str] = set()
+    while stack:
+        current = stack.pop()
+        if current == from_id:
+            return True
+        if current in seen:
+            continue
+        seen.add(current)
+        stack.extend(
+            edge.to_id
+            for edge in reg.outgoing(current)
+            if edge.edge_type == EdgeType.progression
+        )
+    return False
+
+
+def edge_type_for(
+    reg: "Registry", from_id: str, to_id: str, proposed: EdgeType
+) -> EdgeType | None:
+    """The one edge-grammar implementation. None means the edge must not exist.
+
+    Both the pipeline (expand.py) and private moderation go through this. It was
+    previously restated in the moderation tool and drifted on exam->exam and on
+    progression cycles — both of which lint.py rejects, so every affected
+    suggestion was minted, enriched at cost, rolled back and retried forever.
+    """
+    from_type = reg.nodes[from_id].type
+    to_type = reg.nodes[to_id].type
+
+    # exam -> exam is never a successor relation ("you could also take RRB JE"
+    # is an alternative, not a next step). lint.py errors on it.
+    if from_type == NodeType.exam and to_type == NodeType.exam:
+        return None
+
+    # edge grammar: exam_gate iff exactly one endpoint is an exam
+    if NodeType.exam in (from_type, to_type):
+        return EdgeType.exam_gate
+    etype = EdgeType.progression if proposed == EdgeType.exam_gate else proposed
+
+    # working role -> education is upskilling, i.e. lateral: career graphs are
+    # NOT DAGs (Web Developer -> MCA -> Web Developer is real); only the
+    # progression subgraph stays acyclic, so back-to-education edges must not
+    # carry the progression type.
+    if (from_type in WORKING_TYPES and to_type in EDUCATION_TYPES
+            and etype == EdgeType.progression):
+        etype = EdgeType.lateral
+
+    if etype == EdgeType.progression and would_create_progression_cycle(
+        reg, from_id, to_id
+    ):
+        etype = EdgeType.lateral
+    return etype
+
+
 # --- OpenAI wrapper with provider-aware call cache ----------------------------
 
 _provider: OpenAIProvider | None = None
