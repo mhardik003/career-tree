@@ -12,6 +12,20 @@
 
 begin;
 
+-- Fail fast instead of queueing. SHARE (needed by CREATE INDEX) conflicts with
+-- ROW EXCLUSIVE (held by every INSERT), so without a timeout one forgotten
+-- idle-in-transaction session stalls /api/suggest and /api/edit indefinitely
+-- and the POSTs surface as Vercel function timeouts.
+set local lock_timeout = '5s';
+
+-- Take the strongest lock this transaction needs BEFORE mutating anything.
+-- SHARE ROW EXCLUSIVE outranks both ROW EXCLUSIVE (the UPDATEs below) and
+-- SHARE (the CREATE UNIQUE INDEX at the end), so there is no mid-transaction
+-- upgrade to deadlock on, and no window in which a concurrent INSERT can add a
+-- duplicate that would make the index uncreatable. Reads are unaffected.
+lock table public.suggestions in share row exclusive mode;
+lock table public.edits in share row exclusive mode;
+
 drop index if exists public.suggestions_pending_dedup;
 drop index if exists public.edits_pending_dedup;
 

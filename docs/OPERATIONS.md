@@ -128,6 +128,21 @@ select count(*) - count(distinct (parent_node_id, lower(trim(suggested_name))))
 from public.suggestions where status = 'pending_review';
 ```
 
+Applying the pending-dedup migration (`20260806_pending_dedup_fixes.sql`) blocks
+writes. It takes SHARE ROW EXCLUSIVE on `suggestions` and `edits` up front, so
+`/api/suggest` and `/api/edit` INSERTs wait for it (reads and the whole static
+site are unaffected). It normally completes in well under a second.
+`lock_timeout` is 5s: if an idle transaction holds the tables, the migration
+aborts cleanly with `canceling statement due to lock timeout` — nothing is
+half-applied. Find the blocker with:
+
+    select pid, state, query_start, left(query, 80)
+    from pg_stat_activity
+    where state = 'idle in transaction'
+    order by query_start;
+
+Terminate it with `select pg_terminate_backend(<pid>);` and re-run the migration.
+
 ## Private moderation lifecycle
 
 Moderation runs in a separate private companion repository. Its operator:

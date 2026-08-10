@@ -44,3 +44,34 @@ def test_every_supersede_update_rechecks_pending_status():
             "supersede UPDATE does not re-check status against the live row:\n"
             f"{statement}"
         )
+
+
+def test_migration_sets_a_lock_timeout():
+    """Without lock_timeout, one idle-in-transaction session blocks every
+    suggest/edit INSERT until the operator notices."""
+    assert re.search(r"set\s+local\s+lock_timeout", _sql(), re.I), (
+        "migration does not set a lock_timeout"
+    )
+
+
+def test_migration_takes_its_strongest_lock_before_mutating():
+    """The UPDATEs take ROW EXCLUSIVE and CREATE INDEX needs SHARE; upgrading
+    between them is deadlock-prone and leaves a window in which a concurrent
+    INSERT can add a duplicate that makes the index uncreatable."""
+    sql = _sql()
+    lock_positions = [
+        match.start()
+        for match in re.finditer(
+            r"lock\s+table\s+public\.(suggestions|edits)\s+in\s+share\s+row\s+exclusive",
+            sql,
+            re.I,
+        )
+    ]
+    assert len(lock_positions) == 2, (
+        f"expected an explicit up-front lock on both tables, found {len(lock_positions)}"
+    )
+    first_update = re.search(r"update\s+public\.", sql, re.I)
+    assert first_update, "no UPDATE found"
+    assert max(lock_positions) < first_update.start(), (
+        "table locks must be taken before the first UPDATE, not after"
+    )
