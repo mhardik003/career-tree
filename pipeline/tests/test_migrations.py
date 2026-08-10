@@ -107,3 +107,56 @@ def test_dedup_helper_functions_are_immutable():
         body_start = sql.index(f"create or replace function public.{name}")
         body = sql[body_start:body_start + 800]
         assert "immutable" in body, f"{name} is not declared IMMUTABLE"
+
+
+def test_suggestion_dedup_key_strips_the_full_invisible_and_bidi_control_set():
+    """The original class (U+200B-U+200F, U+FEFF) missed U+2060 WORD JOINER
+    (the Unicode-recommended replacement for using the BOM as a zero-width
+    no-break space), soft hyphen, the combining grapheme joiner, the Arabic
+    letter mark / Mongolian vowel separator, and the bidi embedding/override/
+    isolate controls -- each an invisible, unbounded bypass of the guard.
+    This pins that the widened set is present via its \\uXXXX escapes without
+    pinning the full bracket expression character-for-character, so a further
+    legitimate broadening of the class does not break this test."""
+    sql = _sql().lower()
+    body_start = sql.index("create or replace function public.suggestion_dedup_key")
+    body = sql[body_start:body_start + 1500]
+    for codepoint in ("\\u00ad", "\\u034f", "\\u061c", "\\u180e", "\\u2060", "\\ufeff"):
+        assert codepoint in body, (
+            f"{codepoint} is no longer stripped by suggestion_dedup_key"
+        )
+    # Escapes, not literal bytes: the whole point of the human ruling was to
+    # stop shipping invisible characters in the migration source itself. The
+    # forbidden set is built from bare integer code points via chr(), not
+    # typed invisible characters or \uXXXX string escapes, so this check
+    # carries none of the transcription risk it is guarding against and its
+    # code points can be verified by eye against the hex literals alone.
+    forbidden_code_points = (
+        [0x00AD, 0x034F, 0x061C, 0x180E]
+        + list(range(0x200B, 0x200F + 1))
+        + list(range(0x202A, 0x202E + 1))
+        + list(range(0x2060, 0x2069 + 1))
+        + [0xFEFF]
+    )
+    assert not any(chr(cp) in body for cp in forbidden_code_points), (
+        "the strip class contains literal invisible characters instead of "
+        "\\uXXXX escapes"
+    )
+
+
+def test_alias_aggregation_is_deduplicated_and_collation_stable():
+    """`string_agg(DISTINCT expr COLLATE ..., ... ORDER BY expr COLLATE ...)`
+    requires the ORDER BY expression to match the DISTINCT-aggregated
+    expression exactly, so both must carry the identical explicit collation
+    or Postgres rejects the query. Without DISTINCT, repeated aliases
+    (schemas.ts allows up to 25 with no uniqueness check) key differently by
+    count; without a pinned collation, a future collation/ICU upgrade could
+    silently reorder -- and therefore rehash -- an existing payload."""
+    sql = _sql().lower()
+    body_start = sql.index("create or replace function public.edit_dedup_key")
+    body = sql[body_start:body_start + 1500]
+    assert "string_agg(distinct" in body, "alias aggregation is not de-duplicated"
+    assert body.count('collate "c"') == 2, (
+        "the DISTINCT-aggregated expression and the ORDER BY expression must "
+        "both carry the same explicit collation"
+    )
