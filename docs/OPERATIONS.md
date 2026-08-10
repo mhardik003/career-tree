@@ -109,7 +109,12 @@ An uncertain target is a hard stop.
 queueing without limit: `suggestions` on parent plus normalized title, `edits` on
 target plus `md5(proposed_data::text)`. Both are scoped to `status =
 'pending_review'`, so a contributor may legitimately re-raise a suggestion once the
-first has been decided. `schema.sql` carries the same indexes for clean installs.
+first has been decided. `schema.sql` bootstraps a clean install without replaying
+migrations, so it carries the *corrected* guard rather than this migration's — the
+two `IMMUTABLE` key functions and the index expressions from
+`20260806_pending_dedup_fixes.sql`, copied verbatim. That parity is maintained by
+hand; `pipeline/tests/test_migrations.py` compares the shared definitions
+byte-for-byte and fails if the two files diverge.
 
 The app's own checks cannot cover this — a suggestion is compared only against the
 published graph, and an edit only against an exact no-op, so neither sees what is
@@ -129,9 +134,19 @@ from public.suggestions where status = 'pending_review';
 ```
 
 Applying the pending-dedup migration (`20260806_pending_dedup_fixes.sql`) blocks
-writes. It takes SHARE ROW EXCLUSIVE on `suggestions` and `edits` up front, so
-`/api/suggest` and `/api/edit` INSERTs wait for it (reads and the whole static
-site are unaffected). It normally completes in well under a second.
+reads as well as writes on these two tables. It drops and rebuilds both indexes,
+and `DROP INDEX` requires ACCESS EXCLUSIVE on the parent table, so the migration
+takes ACCESS EXCLUSIVE on `suggestions` and `edits` up front rather than upgrading
+to it mid-transaction. That mode conflicts with every other lock mode, so for the
+duration both `/api/suggest` and `/api/edit` INSERTs *and* any SELECT against the
+two tables wait.
+
+The prerendered site is unaffected — it renders from the committed JSON
+artifacts, not the database — but the homepage counters are a live Supabase
+head-count over both tables, so an ISR revalidation (`revalidate = 300`) that
+lands inside the window waits for the migration to commit; visitors keep being
+served the previously cached counters while it does. It normally completes in
+well under a second.
 `lock_timeout` is 5s: if an idle transaction holds the tables, the migration
 aborts cleanly with `canceling statement due to lock timeout` — nothing is
 half-applied. Find the blocker with:

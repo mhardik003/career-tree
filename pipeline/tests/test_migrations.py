@@ -8,13 +8,9 @@ future edit is most likely to drop.
 from pathlib import Path
 import re
 
-MIGRATION = (
-    Path(__file__).resolve().parents[2]
-    / "career-tree"
-    / "supabase"
-    / "migrations"
-    / "20260806_pending_dedup_fixes.sql"
-)
+_SUPABASE = Path(__file__).resolve().parents[2] / "career-tree" / "supabase"
+MIGRATION = _SUPABASE / "migrations" / "20260806_pending_dedup_fixes.sql"
+SCHEMA = _SUPABASE / "schema.sql"
 
 
 def _sql() -> str:
@@ -54,27 +50,68 @@ def test_migration_sets_a_lock_timeout():
     )
 
 
+def _without_comments(sql: str) -> str:
+    """Blank out `-- ...` comments, preserving every offset so positions found
+    in the result are still valid positions in the original. The file's header
+    comment quotes `create unique index if not exists` while explaining the bug
+    it fixes, so a scan for mutating statements has to ignore prose."""
+    return re.sub(r"--[^\n]*", lambda match: " " * len(match.group(0)), sql)
+
+
 def test_migration_takes_its_strongest_lock_before_mutating():
-    """The UPDATEs take ROW EXCLUSIVE and CREATE INDEX needs SHARE; upgrading
-    between them is deadlock-prone and leaves a window in which a concurrent
-    INSERT can add a duplicate that makes the index uncreatable."""
-    sql = _sql()
-    lock_positions = [
-        match.start()
-        for match in re.finditer(
-            r"lock\s+table\s+public\.(suggestions|edits)\s+in\s+share\s+row\s+exclusive",
+    """DROP INDEX takes ACCESS EXCLUSIVE on the index's parent table; the
+    UPDATEs take ROW EXCLUSIVE and CREATE INDEX needs SHARE. ACCESS EXCLUSIVE is
+    the strongest of the three, so it must be the one taken up front: acquiring
+    anything weaker means the drops upgrade the lock mid-transaction, which is
+    deadlock-prone and leaves a window in which a concurrent INSERT can add a
+    duplicate that makes the index uncreatable.
+
+    Pins position AND mode, because either alone is satisfiable by the bug.
+    Position alone passes with SHARE ROW EXCLUSIVE, which the drops then
+    silently upgrade -- that is exactly the state this test failed to catch
+    before. Mode alone passes if the drops are moved above the locks.
+    """
+    sql = _without_comments(_sql())
+    locks = {}
+    for match in re.finditer(
+        r"lock\s+table\s+public\.(?P<table>\w+)\s+in\s+(?P<mode>[a-z ]+?)\s+mode\s*;",
+        sql,
+        re.I,
+    ):
+        locks[match.group("table").lower()] = (
+            match.start(),
+            " ".join(match.group("mode").lower().split()),
+        )
+    assert set(locks) == {"suggestions", "edits"}, (
+        "expected an explicit up-front lock on both tables, found "
+        f"{sorted(locks)}"
+    )
+    for table, (_, mode) in sorted(locks.items()):
+        assert mode == "access exclusive", (
+            f"public.{table} is locked in {mode.upper()} mode, but DROP INDEX "
+            "needs ACCESS EXCLUSIVE -- the transaction would upgrade its lock "
+            "mid-flight"
+        )
+
+    # Every statement that mutates either table or its indexes, not just the
+    # UPDATEs: the drops are the reason the lock has to be this strong.
+    mutations = list(
+        re.finditer(
+            r"\b(?:drop\s+index|update\s+public\.|create\s+unique\s+index)",
             sql,
             re.I,
         )
-    ]
-    assert len(lock_positions) == 2, (
-        f"expected an explicit up-front lock on both tables, found {len(lock_positions)}"
     )
-    first_update = re.search(r"update\s+public\.", sql, re.I)
-    assert first_update, "no UPDATE found"
-    assert max(lock_positions) < first_update.start(), (
-        "table locks must be taken before the first UPDATE, not after"
+    assert len(mutations) >= 6, (
+        f"expected 2 drops + 2 UPDATEs + 2 index builds, found {len(mutations)}"
     )
+    last_lock = max(start for start, _ in locks.values())
+    for mutation in mutations:
+        assert last_lock < mutation.start(), (
+            "table locks must precede every mutating statement, including the "
+            f"drops; {sql[mutation.start():mutation.start() + 30].strip()!r} "
+            "comes first"
+        )
 
 
 def test_dedup_keys_use_the_canonical_helper_functions():
@@ -107,6 +144,56 @@ def test_dedup_helper_functions_are_immutable():
         body_start = sql.index(f"create or replace function public.{name}")
         body = sql[body_start:body_start + 800]
         assert "immutable" in body, f"{name} is not declared IMMUTABLE"
+
+
+_SHARED_DEFINITIONS = {
+    "suggestion_dedup_key": (
+        r"create or replace function public\.suggestion_dedup_key\b.*?\n\$\$;"
+    ),
+    "edit_dedup_key": (
+        r"create or replace function public\.edit_dedup_key\b.*?\n\$\$;"
+    ),
+    "suggestions_pending_dedup index": (
+        r"create unique index if not exists suggestions_pending_dedup\b.*?;"
+    ),
+    "edits_pending_dedup index": (
+        r"create unique index if not exists edits_pending_dedup\b.*?;"
+    ),
+}
+
+
+def _definition(sql: str, pattern: str, label: str, source: str) -> str:
+    match = re.search(pattern, sql, re.S | re.I)
+    assert match, f"{label} not found in {source}"
+    return match.group(0)
+
+
+def test_schema_sql_ships_the_same_dedup_guard_as_the_migration():
+    """`schema.sql` bootstraps a clean install without replaying migrations, so
+    a database built from it must end up with the guard a migrated database
+    has. It shipped the pre-fix `lower(trim(...))` / `md5(proposed_data::text)`
+    keys and none of the helper functions -- a near no-op guard -- for as long
+    as nothing owned the file. Parity is maintained by hand, so pin the shared
+    definitions byte-for-byte: the `\\uXXXX` escapes in particular are easy to
+    mangle when copying."""
+    migration = _sql()
+    schema = SCHEMA.read_text(encoding="utf-8")
+    for label, pattern in _SHARED_DEFINITIONS.items():
+        assert _definition(migration, pattern, label, MIGRATION.name) == _definition(
+            schema, pattern, label, SCHEMA.name
+        ), f"{label} differs between {SCHEMA.name} and {MIGRATION.name}"
+    first_index = re.search(
+        r"create unique index if not exists \w+_pending_dedup", schema, re.I
+    )
+    assert first_index, "no dedup index found in schema.sql"
+    for name in ("suggestion_dedup_key", "edit_dedup_key"):
+        definition = re.search(
+            rf"create or replace function public\.{name}\b", schema, re.I
+        )
+        assert definition and definition.start() < first_index.start(), (
+            f"schema.sql must define public.{name} before the indexes that "
+            "call it"
+        )
 
 
 def _covered_code_points(pattern_source: str) -> set[int]:

@@ -12,19 +12,28 @@
 
 begin;
 
--- Fail fast instead of queueing. SHARE (needed by CREATE INDEX) conflicts with
--- ROW EXCLUSIVE (held by every INSERT), so without a timeout one forgotten
--- idle-in-transaction session stalls /api/suggest and /api/edit indefinitely
--- and the POSTs surface as Vercel function timeouts.
+-- Fail fast instead of queueing. The ACCESS EXCLUSIVE lock taken below
+-- conflicts with ROW EXCLUSIVE (held by every INSERT), so without a timeout one
+-- forgotten idle-in-transaction session stalls /api/suggest and /api/edit
+-- indefinitely and the POSTs surface as Vercel function timeouts.
 set local lock_timeout = '5s';
 
 -- Take the strongest lock this transaction needs BEFORE mutating anything.
--- SHARE ROW EXCLUSIVE outranks both ROW EXCLUSIVE (the UPDATEs below) and
--- SHARE (the CREATE UNIQUE INDEX at the end), so there is no mid-transaction
--- upgrade to deadlock on, and no window in which a concurrent INSERT can add a
--- duplicate that would make the index uncreatable. Reads are unaffected.
-lock table public.suggestions in share row exclusive mode;
-lock table public.edits in share row exclusive mode;
+-- DROP INDEX takes ACCESS EXCLUSIVE on the index's parent table, which outranks
+-- both the ROW EXCLUSIVE of the UPDATEs below and the SHARE of the CREATE
+-- UNIQUE INDEX at the end. Requesting it here rather than letting the drops
+-- raise it means there is no mid-transaction upgrade to deadlock on, and no
+-- window in which a concurrent INSERT can add a duplicate that would make the
+-- index uncreatable.
+--
+-- ACCESS EXCLUSIVE conflicts with every lock mode including ACCESS SHARE, so
+-- for the length of this transaction READS of these two tables block as well as
+-- writes -- app/page.tsx counts both tables for the homepage counters, so an ISR
+-- revalidation landing in the window waits. That is the cost of the drops; it is
+-- bounded by how long this transaction runs (well under a second in practice)
+-- and by the lock_timeout above while acquiring. See docs/OPERATIONS.md.
+lock table public.suggestions in access exclusive mode;
+lock table public.edits in access exclusive mode;
 
 drop index if exists public.suggestions_pending_dedup;
 drop index if exists public.edits_pending_dedup;
