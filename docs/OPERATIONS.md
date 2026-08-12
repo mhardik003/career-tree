@@ -203,7 +203,7 @@ change.
 
 | Scope | Command | Required result |
 | --- | --- | --- |
-| Pipeline unit tests | `python -m unittest discover -s pipeline/tests -v` | All tests pass. |
+| Pipeline unit tests | `python -m pytest pipeline/tests -q -p no:httpbin` | All 90 tests pass. |
 | Release graph lint | `python pipeline/lint.py --release` | Zero errors; current counts are 677 nodes and 1,505 edges. |
 | Default source audit | `python pipeline/audit_sources.py` | Zero definitive failures. Do not substitute a date-filtered audit for release. |
 | Snapshot freshness | `python pipeline/export_frontend.py --check` | Reports that the frontend V2 snapshot is current. |
