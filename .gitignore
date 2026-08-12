@@ -1,7 +1,12 @@
 # --- Security ---
-.env
-.env.local
-.env.production
+# Glob, not an enumeration: a stray .env.bak or .env.dev must never be
+# committable. Keep the negation last so a template can still be tracked.
+# This pair only governs the repo ROOT — career-tree/.gitignore has its own
+# `.env*` and, being nested, wins for everything beneath it. Its negation is
+# repeated there. Note also that no `!` line can rescue a file inside an
+# excluded DIRECTORY, because git does not descend into one.
+.env*
+!.env.example
 __pycache__/
 node_modules/
 .next/
@@ -13,6 +18,8 @@ SCALABILITY_ISSUES.md
 /.superpowers/
 /docs/superpowers/
 .playwright-mcp/
+.claude/
+.impeccable/
 
 # --- Generated frontend dataset (rebuild: python pipeline/export_frontend.py) ---
 career-tree/data/v2/graph.json

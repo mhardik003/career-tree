@@ -1,12 +1,16 @@
+import contextlib
+import io
 import json
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 PIPELINE_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PIPELINE_DIR))
 
+import export_frontend  # noqa: E402
 from export_frontend import (  # noqa: E402
     SnapshotError,
     build_snapshot,
@@ -253,6 +257,104 @@ class ExportFrontendTests(unittest.TestCase):
                 "does not match registry",
                 stale_facts_reason(directory, changed),
             )
+
+
+class CheckModeTests(unittest.TestCase):
+    """Drive ``main()`` itself — the seam the helper tests above never cross."""
+
+    def setUp(self):
+        self.nodes = [
+            {**node("degree:mba", "degree", "MBA"), "facts": facts()},
+            {
+                **node("school_stage:class-10", "school_stage", "Class 10"),
+                "facts": facts(),
+            },
+        ]
+        self.edges = [edge("school_stage:class-10", "degree:mba")]
+
+    @contextlib.contextmanager
+    def _workspace(self):
+        """A throwaway repo whose registry and export targets are redirected.
+
+        ``main()`` resolves every artifact through module-level constants, so
+        the patch has to happen there. ``source_digest()`` binds its defaults at
+        import and is deliberately left alone: each test exports and then checks
+        inside one workspace, so whatever digest it computes cancels out.
+        """
+        with tempfile.TemporaryDirectory() as tmp:
+            registry = Path(tmp) / "registry"
+            registry.mkdir()
+            data = Path(tmp) / "career-tree" / "data" / "v2"
+            data.mkdir(parents=True)
+            for path, records in (
+                (registry / "nodes.jsonl", self.nodes),
+                (registry / "edges.jsonl", self.edges),
+            ):
+                path.write_text(
+                    "".join(json.dumps(record) + "\n" for record in records),
+                    encoding="utf-8",
+                )
+            with mock.patch.multiple(
+                export_frontend,
+                NODES_PATH=registry / "nodes.jsonl",
+                EDGES_PATH=registry / "edges.jsonl",
+                OUTPUT_PATH=data / "graph.json",
+                CORE_OUTPUT_PATH=data / "graph.core.json",
+                FACTS_DIR=data / "facts",
+            ):
+                yield data
+
+    def _run(self, *argv: str) -> tuple[int, str]:
+        stdout = io.StringIO()
+        with mock.patch.object(sys, "argv", ["export_frontend.py", *argv]):
+            with contextlib.redirect_stdout(stdout):
+                code = export_frontend.main()
+        return code, stdout.getvalue()
+
+    def test_check_passes_when_gitignored_graph_json_is_absent(self):
+        # graph.json is gitignored and local-only, so a fresh clone ships the
+        # committed core snapshot and facts/ without it. That is not staleness.
+        with self._workspace() as data:
+            self.assertEqual(self._run()[0], 0)
+            (data / "graph.json").unlink()
+            code, output = self._run("--check")
+            self.assertEqual(code, 0, output)
+            self.assertIn("current", output)
+
+    def test_check_still_rejects_a_locally_stale_graph_json(self):
+        # Skipping the full snapshot when it is absent must not weaken the gate
+        # when a maintainer does have one and it has drifted.
+        with self._workspace() as data:
+            self.assertEqual(self._run()[0], 0)
+            snapshot = json.loads((data / "graph.json").read_text(encoding="utf-8"))
+            snapshot["edges"] = []
+            (data / "graph.json").write_text(
+                json.dumps(snapshot),
+                encoding="utf-8",
+            )
+            code, output = self._run("--check")
+            self.assertEqual(code, 1)
+            self.assertIn("full snapshot", output)
+
+    def test_check_rejects_a_missing_committed_core_snapshot(self):
+        with self._workspace() as data:
+            self.assertEqual(self._run()[0], 0)
+            (data / "graph.core.json").unlink()
+            code, output = self._run("--check")
+            self.assertEqual(code, 1)
+            self.assertIn("missing", output)
+
+    def test_check_rejects_stale_facts_without_a_local_graph_json(self):
+        with self._workspace() as data:
+            self.assertEqual(self._run()[0], 0)
+            (data / "graph.json").unlink()
+            (data / "facts" / "degree--mba.json").write_text(
+                '{"schema_version":1}\n',
+                encoding="utf-8",
+            )
+            code, output = self._run("--check")
+            self.assertEqual(code, 1)
+            self.assertIn("does not match registry", output)
 
 
 if __name__ == "__main__":

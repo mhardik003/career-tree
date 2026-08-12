@@ -229,10 +229,14 @@ def main() -> int:
     expected_core = core_snapshot(expected)
     expected_facts = facts_files(expected)
     if args.check:
-        for label, path, snapshot in (
-            ("full snapshot", OUTPUT_PATH, expected),
-            ("core snapshot", CORE_OUTPUT_PATH, expected_core),
-        ):
+        # graph.core.json and facts/ are committed, so their absence is a real
+        # failure. graph.json is gitignored and local-only — absent by design in
+        # a fresh clone — so it is verified only when a local export exists;
+        # requiring it here would report a clean clone as stale.
+        targets = [("core snapshot", CORE_OUTPUT_PATH, expected_core)]
+        if OUTPUT_PATH.exists():
+            targets.append(("full snapshot", OUTPUT_PATH, expected))
+        for label, path, snapshot in targets:
             if not path.exists():
                 print(f"stale: missing {path}")
                 return 1

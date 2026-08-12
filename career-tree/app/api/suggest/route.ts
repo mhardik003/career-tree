@@ -64,6 +64,19 @@ export async function POST(request: Request) {
     });
 
     if (error) {
+      // 23505 = unique_violation from the pending-dedup index: an identical
+      // suggestion is already queued for this parent. A duplicate is a client
+      // condition, not a server fault, so answer 409 rather than falling
+      // through to the 500 path.
+      if (error.code === "23505") {
+        return NextResponse.json(
+          {
+            success: false,
+            message: `"${cleanData.title}" is already awaiting review under this node.`,
+          },
+          { status: 409 }
+        );
+      }
       throw error;
     }
 

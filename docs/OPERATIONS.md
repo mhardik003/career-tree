@@ -102,6 +102,76 @@ review `TARGET_DATABASE_URL` without printing it and require `ON_ERROR_STOP`; in
 Supabase SQL Editor, visually confirm the project and paste the complete transaction.
 An uncertain target is a hard stop.
 
+## Moderation-queue dedup migration
+
+[`career-tree/supabase/migrations/20260728_pending_dedup_indexes.sql`](../career-tree/supabase/migrations/20260728_pending_dedup_indexes.sql)
+(applied 2026-07-28) adds two unique partial indexes that stop the same payload
+queueing without limit: `suggestions` on parent plus normalized title, `edits` on
+target plus `md5(proposed_data::text)`. Both are scoped to `status =
+'pending_review'`, so a contributor may legitimately re-raise a suggestion once the
+first has been decided. `schema.sql` bootstraps a clean install without replaying
+migrations, so it carries the *corrected* guard rather than this migration's — the
+two `IMMUTABLE` key functions and the index expressions from
+`20260806_pending_dedup_fixes.sql`, copied verbatim. That parity is maintained by
+hand; `pipeline/tests/test_migrations.py` compares the shared definitions
+byte-for-byte and fails if the two files diverge.
+
+The app's own checks cannot cover this — a suggestion is compared only against the
+published graph, and an edit only against an exact no-op, so neither sees what is
+already queued. `POST /api/suggest` and `POST /api/edit` translate the resulting
+Postgres `23505` into a `409`, so applying the migration turns a duplicate
+submission from a silent extra queue row into a clean rejection.
+
+Duplicates already queued would have made the indexes uncreatable, so the migration
+superseded rather than deleted: the earliest pending row of each group stayed
+`pending_review`, the rest became `rejected` with reason `superseded duplicate
+(pending-dedup migration)`. Rows are never deleted in this project.
+
+`20260806_pending_dedup_fixes.sql` has been applied to the live database. The two
+unique partial indexes it created now reject a duplicate at INSERT time (surfaced as
+Postgres `23505`, translated to a `409` by `/api/suggest` and `/api/edit`), so a
+duplicate can no longer reach the queue in the first place. What remains is an
+ongoing invariant that should always hold: zero pending rows share a dedup key.
+Check it at any time, across both tables, using the canonical key functions the
+migration created:
+
+```sql
+select
+  (select count(*) - count(distinct (parent_node_id, public.suggestion_dedup_key(suggested_name)))
+   from public.suggestions where status = 'pending_review') as suggestion_dupes,
+  (select count(*) - count(distinct (target_node_id, public.edit_dedup_key(proposed_data)))
+   from public.edits where status = 'pending_review') as edit_dupes;
+```
+
+Both columns should always read `0`. A nonzero result means the unique indexes were
+dropped or bypassed, or a dedup key function was redefined out from under them —
+investigate immediately rather than assuming the guard is still enforced.
+
+Applying the pending-dedup migration (`20260806_pending_dedup_fixes.sql`) blocks
+reads as well as writes on these two tables. It drops and rebuilds both indexes,
+and `DROP INDEX` requires ACCESS EXCLUSIVE on the parent table, so the migration
+takes ACCESS EXCLUSIVE on `suggestions` and `edits` up front rather than upgrading
+to it mid-transaction. That mode conflicts with every other lock mode, so for the
+duration both `/api/suggest` and `/api/edit` INSERTs *and* any SELECT against the
+two tables wait.
+
+The prerendered site is unaffected — it renders from the committed JSON
+artifacts, not the database — but the homepage counters are a live Supabase
+head-count over both tables, so an ISR revalidation (`revalidate = 300`) that
+lands inside the window waits for the migration to commit; visitors keep being
+served the previously cached counters while it does. It normally completes in
+well under a second.
+`lock_timeout` is 5s: if an idle transaction holds the tables, the migration
+aborts cleanly with `canceling statement due to lock timeout` — nothing is
+half-applied. Find the blocker with:
+
+    select pid, state, query_start, left(query, 80)
+    from pg_stat_activity
+    where state = 'idle in transaction'
+    order by query_start;
+
+Terminate it with `select pg_terminate_backend(<pid>);` and re-run the migration.
+
 ## Private moderation lifecycle
 
 Moderation runs in a separate private companion repository. Its operator:
@@ -133,7 +203,7 @@ change.
 
 | Scope | Command | Required result |
 | --- | --- | --- |
-| Pipeline unit tests | `python -m unittest discover -s pipeline/tests -v` | All tests pass. |
+| Pipeline unit tests | `python -m pytest pipeline/tests -q -p no:httpbin` | All 90 tests pass. |
 | Release graph lint | `python pipeline/lint.py --release` | Zero errors; current counts are 677 nodes and 1,505 edges. |
 | Default source audit | `python pipeline/audit_sources.py` | Zero definitive failures. Do not substitute a date-filtered audit for release. |
 | Snapshot freshness | `python pipeline/export_frontend.py --check` | Reports that the frontend V2 snapshot is current. |

@@ -105,6 +105,15 @@ describe("POST /api/edit", () => {
     expect(mocks.insert).not.toHaveBeenCalled();
   });
 
+  it("answers 409, not 500, when the pending-dedup index rejects a duplicate", async () => {
+    mocks.insert.mockResolvedValue({ error: { code: "23505" } });
+
+    const response = await POST(request());
+
+    expect(response.status).toBe(409);
+    await expect(response.json()).resolves.toMatchObject({ success: false });
+  });
+
   it("returns 500 when the database insert fails", async () => {
     mocks.insert.mockResolvedValue({ error: new Error("database unavailable") });
     vi.spyOn(console, "error").mockImplementation(() => undefined);
