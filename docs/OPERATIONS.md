@@ -122,16 +122,30 @@ already queued. `POST /api/suggest` and `POST /api/edit` translate the resulting
 Postgres `23505` into a `409`, so applying the migration turns a duplicate
 submission from a silent extra queue row into a clean rejection.
 
-Duplicates already queued would make the indexes uncreatable, so the migration
-supersedes rather than deletes: the earliest pending row of each group stays
-`pending_review`, the rest become `rejected` with reason `superseded duplicate
-(pending-dedup migration)`. Rows are never deleted in this project. To see what a
-run would change before running it:
+Duplicates already queued would have made the indexes uncreatable, so the migration
+superseded rather than deleted: the earliest pending row of each group stayed
+`pending_review`, the rest became `rejected` with reason `superseded duplicate
+(pending-dedup migration)`. Rows are never deleted in this project.
+
+`20260806_pending_dedup_fixes.sql` has been applied to the live database. The two
+unique partial indexes it created now reject a duplicate at INSERT time (surfaced as
+Postgres `23505`, translated to a `409` by `/api/suggest` and `/api/edit`), so a
+duplicate can no longer reach the queue in the first place. What remains is an
+ongoing invariant that should always hold: zero pending rows share a dedup key.
+Check it at any time, across both tables, using the canonical key functions the
+migration created:
 
 ```sql
-select count(*) - count(distinct (parent_node_id, lower(trim(suggested_name))))
-from public.suggestions where status = 'pending_review';
+select
+  (select count(*) - count(distinct (parent_node_id, public.suggestion_dedup_key(suggested_name)))
+   from public.suggestions where status = 'pending_review') as suggestion_dupes,
+  (select count(*) - count(distinct (target_node_id, public.edit_dedup_key(proposed_data)))
+   from public.edits where status = 'pending_review') as edit_dupes;
 ```
+
+Both columns should always read `0`. A nonzero result means the unique indexes were
+dropped or bypassed, or a dedup key function was redefined out from under them —
+investigate immediately rather than assuming the guard is still enforced.
 
 Applying the pending-dedup migration (`20260806_pending_dedup_fixes.sql`) blocks
 reads as well as writes on these two tables. It drops and rebuilds both indexes,

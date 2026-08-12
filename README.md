@@ -321,7 +321,8 @@ python pipeline/lint.py --release          # structural + release invariants
 python pipeline/audit_sources.py           # verify every cited URL (network, no key)
 python pipeline/export_frontend.py         # regenerate the frontend snapshot
 python pipeline/export_frontend.py --check # verify the exported snapshot is current
-python -m unittest discover -s pipeline/tests -v
+python -m pytest pipeline/tests -q -p no:httpbin   # -p dodges a broken pytest_httpbin
+                                                    # plugin some environments have installed
 ```
 
 The paid, key-requiring stages (run deliberately — these call OpenAI, though exact-match
@@ -341,7 +342,7 @@ committed dataset.
 
 | Check | Command (from) | Expected |
 | --- | --- | --- |
-| Pipeline tests | `python -m unittest discover -s pipeline/tests -v` (root) | 75 tests pass |
+| Pipeline tests | `python -m pytest pipeline/tests -q -p no:httpbin` (root) | 90 tests pass |
 | Release lint | `python pipeline/lint.py --release` (root) | zero errors; 677 nodes, 1,505 edges |
 | Snapshot freshness | `python pipeline/export_frontend.py --check` (root) | "snapshot is current" |
 | Frontend tests | `npm test` (`career-tree/`) | 99 tests across 33 files pass |
