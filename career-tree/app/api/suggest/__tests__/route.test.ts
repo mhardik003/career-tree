@@ -120,6 +120,28 @@ describe("POST /api/suggest", () => {
     await expect(response.json()).resolves.toMatchObject({ success: false });
   });
 
+  // Regression: these characters are invisible in the UI and pass validation,
+  // but Postgres cannot store U+0000 and PostgREST rejects a body containing an
+  // unpaired surrogate. Both used to surface as a 500 the contributor could not
+  // act on. The mocked client cannot reproduce the database error, so assert the
+  // stronger property instead: nothing unstorable is ever handed to Supabase.
+  it("never hands unstorable characters to the database", async () => {
+    const NUL = String.fromCharCode(0);
+    const response = await POST(request({
+      ...validBody,
+      title: `Cloud${NUL} Engineering${String.fromCharCode(0xd800)}`,
+      description: `A focused${String.fromCharCode(0xdc00)} certification route for cloud infrastructure.`,
+    }));
+
+    expect(response.status).toBe(200);
+    expect(mocks.insert).toHaveBeenCalledWith({
+      parent_node_id: "degree:bca",
+      suggested_name: "Cloud Engineering",
+      suggested_description: "A focused certification route for cloud infrastructure.",
+      status: "pending_review",
+    });
+  });
+
   it("returns 500 when the database insert fails", async () => {
     mocks.insert.mockResolvedValue({ error: new Error("database unavailable") });
     vi.spyOn(console, "error").mockImplementation(() => undefined);
